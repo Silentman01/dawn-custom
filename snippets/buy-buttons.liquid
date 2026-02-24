@@ -70,22 +70,11 @@
               assign quantity_rule_soldout = true
             endif
           -%}
-          {%- liquid
-            assign btn_classes = 'product-form__submit button button--full-width'
-            if show_dynamic_checkout
-              assign btn_classes = btn_classes | append: ' button--secondary'
-            else
-              assign btn_classes = btn_classes | append: ' button--primary'
-            endif
-            if block.settings.use_custom_colors == false and block.settings.button_color_scheme != blank
-              assign btn_classes = btn_classes | append: ' color-' | append: block.settings.button_color_scheme
-            endif
-          -%}
           <button
             id="ProductSubmitButton-{{ section_id }}"
             type="submit"
             name="add"
-            class="{{ btn_classes }}"
+            class="product-form__submit button button--full-width {% if show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
             {% if product.selected_or_first_available_variant.available == false
               or quantity_rule_soldout
               or product.selected_or_first_available_variant == null
