@@ -710,6 +710,8 @@
                 </product-recommendations>
               {%- when 'icon-with-text' -%}
                 {% render 'icon-with-text', block: block %}
+              {%- when 'sticky_atc' -%}
+                {%- comment -%}Rendered as fixed bar outside block loop{%- endcomment -%}
             {%- endcase -%}
           {%- endfor -%}
           <a href="{{ product.url }}" class="link product__view-details animate-arrow">
@@ -772,6 +774,343 @@
       {{ product | structured_data }}
     </script>
   </div>
+
+  {%- assign sticky_block = section.blocks | where: 'type', 'sticky_atc' | first -%}
+  {%- if sticky_block -%}
+    {%- assign sv = product.selected_or_first_available_variant -%}
+    <div
+      class="sticky-atc color-{{ sticky_block.settings.color_scheme }}"
+      data-sticky-atc
+      data-display="{{ sticky_block.settings.display_when }}"
+      data-d-image="{{ sticky_block.settings.desktop_show_image }}"
+      data-d-title="{{ sticky_block.settings.desktop_show_title }}"
+      data-d-price="{{ sticky_block.settings.desktop_show_price }}"
+      data-d-variants="{{ sticky_block.settings.desktop_show_variants }}"
+      data-d-fullwidth="{{ sticky_block.settings.desktop_full_button }}"
+      data-m-image="{{ sticky_block.settings.mobile_show_image }}"
+      data-m-title="{{ sticky_block.settings.mobile_show_title }}"
+      data-m-price="{{ sticky_block.settings.mobile_show_price }}"
+      data-m-variants="{{ sticky_block.settings.mobile_show_variants }}"
+      data-m-fullwidth="{{ sticky_block.settings.mobile_full_button }}"
+      style="
+        {%- if sticky_block.settings.use_custom_btn_color and sticky_block.settings.custom_btn_bg != blank -%}
+          --sticky-btn-bg: {{ sticky_block.settings.custom_btn_bg }};
+        {%- endif -%}
+        {%- if sticky_block.settings.use_custom_btn_color and sticky_block.settings.custom_btn_text != blank -%}
+          --sticky-btn-text: {{ sticky_block.settings.custom_btn_text }};
+        {%- endif -%}
+      "
+      {{ sticky_block.shopify_attributes }}
+    >
+      <div class="sticky-atc__inner page-width">
+        <div class="sticky-atc__image">
+          {%- if product.featured_image -%}
+            <img
+              src="{{ product.featured_image | image_url: width: 100, height: 100, crop: 'center' }}"
+              alt="{{ product.title | escape }}"
+              width="50"
+              height="50"
+              loading="lazy"
+            >
+          {%- endif -%}
+        </div>
+
+        <div class="sticky-atc__info">
+          <span class="sticky-atc__product-title">{{ product.title | truncate: 40 }}</span>
+          <div class="sticky-atc__price" data-sticky-price>
+            {%- if sv.compare_at_price > sv.price -%}
+              <span class="sticky-atc__price-sale">{{ sv.price | money }}</span>
+              <s class="sticky-atc__price-compare">{{ sv.compare_at_price | money }}</s>
+            {%- else -%}
+              <span class="sticky-atc__price-regular">{{ sv.price | money }}</span>
+            {%- endif -%}
+          </div>
+        </div>
+
+        {%- unless product.has_only_default_variant -%}
+          <div class="sticky-atc__variants">
+            <select class="sticky-atc__select" data-sticky-variant aria-label="Select variant">
+              {%- for variant in product.variants -%}
+                <option
+                  value="{{ variant.id }}"
+                  data-price="{{ variant.price | money }}"
+                  data-compare="{{ variant.compare_at_price | money }}"
+                  data-compare-raw="{{ variant.compare_at_price }}"
+                  data-price-raw="{{ variant.price }}"
+                  data-available="{{ variant.available }}"
+                  {% if variant == sv %}selected{% endif %}
+                >
+                  {{ variant.title }}
+                </option>
+              {%- endfor -%}
+            </select>
+          </div>
+        {%- endunless -%}
+
+        <button
+          class="sticky-atc__button button button--primary"
+          data-sticky-submit
+          {% unless sv.available %}disabled{% endunless %}
+        >
+          <span data-sticky-btn-text>
+            {%- if sv.available -%}
+              {{ sticky_block.settings.button_label | default: 'Add to cart' }}
+            {%- else -%}
+              {{ 'products.product.sold_out' | t }}
+            {%- endif -%}
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <style>
+      .sticky-atc {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 99;
+        background-color: rgb(var(--color-background));
+        border-top: 1px solid rgba(var(--color-foreground), 0.1);
+        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.08);
+        transform: translateY(100%);
+        transition: transform 0.3s ease;
+        pointer-events: none;
+      }
+
+      .sticky-atc--visible {
+        transform: translateY(0);
+        pointer-events: auto;
+      }
+
+      .sticky-atc__inner {
+        display: flex;
+        align-items: center;
+        gap: 1.2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+
+      .sticky-atc__image {
+        flex-shrink: 0;
+        width: 5rem;
+        height: 5rem;
+        border-radius: 0.6rem;
+        overflow: hidden;
+      }
+
+      .sticky-atc__image img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .sticky-atc__info {
+        flex: 1;
+        min-width: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+      }
+
+      .sticky-atc__product-title {
+        font-weight: 600;
+        font-size: 1.3rem;
+        line-height: 1.3;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .sticky-atc__price {
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+        font-size: 1.3rem;
+      }
+
+      .sticky-atc__price-sale {
+        font-weight: 600;
+        color: rgb(var(--color-foreground));
+      }
+
+      .sticky-atc__price-compare {
+        opacity: 0.5;
+        font-size: 1.2rem;
+      }
+
+      .sticky-atc__price-regular {
+        font-weight: 600;
+      }
+
+      .sticky-atc__variants {
+        flex-shrink: 0;
+      }
+
+      .sticky-atc__select {
+        font-size: 1.3rem;
+        padding: 0.6rem 2.4rem 0.6rem 1rem;
+        border: 1px solid rgba(var(--color-foreground), 0.15);
+        border-radius: 0.6rem;
+        background-color: rgb(var(--color-background));
+        color: rgb(var(--color-foreground));
+        appearance: none;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24'%3E%3Cpath d='M7 10l5 5 5-5' fill='none' stroke='%23666' stroke-width='2'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right 0.7rem center;
+        cursor: pointer;
+        max-width: 18rem;
+      }
+
+      .sticky-atc__button {
+        flex-shrink: 0;
+        white-space: nowrap;
+        min-width: auto;
+        padding: 1rem 2.4rem;
+      }
+
+      .sticky-atc__button[style*="--sticky-btn-bg"],
+      [data-sticky-atc][style*="--sticky-btn-bg"] .sticky-atc__button {
+        background-color: var(--sticky-btn-bg);
+        color: var(--sticky-btn-text, #fff);
+      }
+
+      /* Desktop visibility */
+      @media screen and (min-width: 750px) {
+        [data-d-image="false"] .sticky-atc__image { display: none; }
+        [data-d-title="false"] .sticky-atc__product-title { display: none; }
+        [data-d-price="false"] .sticky-atc__price { display: none; }
+        [data-d-variants="false"] .sticky-atc__variants { display: none; }
+        [data-d-fullwidth="true"] .sticky-atc__button { width: 100%; }
+        [data-d-fullwidth="true"] .sticky-atc__info { display: none; }
+        [data-d-fullwidth="true"] .sticky-atc__image { display: none; }
+        [data-d-fullwidth="true"] .sticky-atc__variants { display: none; }
+      }
+
+      /* Mobile visibility */
+      @media screen and (max-width: 749px) {
+        .sticky-atc__inner {
+          gap: 0.8rem;
+        }
+
+        .sticky-atc__image {
+          width: 4rem;
+          height: 4rem;
+        }
+
+        .sticky-atc__select {
+          max-width: 12rem;
+          font-size: 1.2rem;
+          padding: 0.5rem 2rem 0.5rem 0.8rem;
+        }
+
+        .sticky-atc__button {
+          padding: 0.8rem 1.6rem;
+          font-size: 1.3rem;
+        }
+
+        [data-m-image="false"] .sticky-atc__image { display: none; }
+        [data-m-title="false"] .sticky-atc__product-title { display: none; }
+        [data-m-price="false"] .sticky-atc__price { display: none; }
+        [data-m-variants="false"] .sticky-atc__variants { display: none; }
+        [data-m-fullwidth="true"] .sticky-atc__button { width: 100%; }
+        [data-m-fullwidth="true"] .sticky-atc__info { display: none; }
+        [data-m-fullwidth="true"] .sticky-atc__image { display: none; }
+        [data-m-fullwidth="true"] .sticky-atc__variants { display: none; }
+      }
+
+      /* Hide info column if both title and price hidden */
+      [data-d-title="false"][data-d-price="false"] .sticky-atc__info {
+        display: none;
+      }
+
+      @media screen and (max-width: 749px) {
+        [data-m-title="false"][data-m-price="false"] .sticky-atc__info {
+          display: none;
+        }
+      }
+    </style>
+
+    <script>
+      (function() {
+        var bar = document.querySelector('[data-sticky-atc]');
+        if (!bar) return;
+
+        var display = bar.dataset.display;
+        var mainBtn = document.getElementById('ProductSubmitButton-{{ section.id }}');
+        var stickyBtn = bar.querySelector('[data-sticky-submit]');
+        var stickySelect = bar.querySelector('[data-sticky-variant]');
+        var stickyPrice = bar.querySelector('[data-sticky-price]');
+        var stickyBtnText = bar.querySelector('[data-sticky-btn-text]');
+        var mainVariantInput = document.querySelector('#product-form-{{ section.id }} .product-variant-id');
+        var btnLabel = {{ sticky_block.settings.button_label | default: 'Add to cart' | json }};
+        var soldOutLabel = {{ 'products.product.sold_out' | t | json }};
+
+        /* Show/hide based on scroll */
+        if (display === 'after_scroll' && mainBtn) {
+          var observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+              bar.classList.toggle('sticky-atc--visible', !entry.isIntersecting);
+            });
+          }, { threshold: 0 });
+          observer.observe(mainBtn);
+        } else if (display === 'always') {
+          bar.classList.add('sticky-atc--visible');
+        }
+
+        /* ATC click → trigger main form */
+        if (stickyBtn && mainBtn) {
+          stickyBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            mainBtn.click();
+          });
+        }
+
+        /* Variant picker sync */
+        if (stickySelect && mainVariantInput) {
+          stickySelect.addEventListener('change', function() {
+            var opt = this.selectedOptions[0];
+            mainVariantInput.value = this.value;
+            mainVariantInput.dispatchEvent(new Event('change', { bubbles: true }));
+            syncFromOption(opt);
+          });
+
+          /* Poll main form for changes (variant picker above may change it) */
+          var lastVid = mainVariantInput.value;
+          setInterval(function() {
+            if (mainVariantInput.value !== lastVid) {
+              lastVid = mainVariantInput.value;
+              stickySelect.value = lastVid;
+              var opt = stickySelect.selectedOptions[0];
+              if (opt) syncFromOption(opt);
+            }
+          }, 300);
+        }
+
+        /* Sync price + button state from option data */
+        function syncFromOption(opt) {
+          if (!opt) return;
+          var price = opt.dataset.price;
+          var compare = opt.dataset.compare;
+          var compareRaw = parseInt(opt.dataset.compareRaw) || 0;
+          var priceRaw = parseInt(opt.dataset.priceRaw) || 0;
+          var available = opt.dataset.available === 'true';
+
+          if (stickyPrice) {
+            if (compareRaw > priceRaw) {
+              stickyPrice.innerHTML = '<span class="sticky-atc__price-sale">' + price + '</span><s class="sticky-atc__price-compare">' + compare + '</s>';
+            } else {
+              stickyPrice.innerHTML = '<span class="sticky-atc__price-regular">' + price + '</span>';
+            }
+          }
+
+          stickyBtn.disabled = !available;
+          stickyBtnText.textContent = available ? btnLabel : soldOutLabel;
+        }
+      })();
+    </script>
+  {%- endif -%}
 </product-info>
 
 {% schema %}
@@ -2396,6 +2735,125 @@
           "default": "t:sections.main-product.blocks.icon_with_text.settings.heading_3.default",
           "label": "t:sections.main-product.blocks.icon_with_text.settings.heading_3.label",
           "info": "t:sections.main-product.blocks.icon_with_text.settings.heading.info"
+        }
+      ]
+    },
+    {
+      "type": "sticky_atc",
+      "name": "Sticky add to cart",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "select",
+          "id": "display_when",
+          "label": "Show sticky bar",
+          "default": "after_scroll",
+          "options": [
+            { "value": "always", "label": "Always visible" },
+            { "value": "after_scroll", "label": "After scrolling past Add to cart" }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button label",
+          "default": "Add to cart"
+        },
+        {
+          "type": "header",
+          "content": "Desktop"
+        },
+        {
+          "type": "checkbox",
+          "id": "desktop_show_image",
+          "label": "Show product image",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "desktop_show_title",
+          "label": "Show product title",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "desktop_show_price",
+          "label": "Show price",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "desktop_show_variants",
+          "label": "Show variant picker",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "desktop_full_button",
+          "label": "Full width button",
+          "default": false,
+          "info": "Hides image, title, price and variants"
+        },
+        {
+          "type": "header",
+          "content": "Mobile"
+        },
+        {
+          "type": "checkbox",
+          "id": "mobile_show_image",
+          "label": "Show product image",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "mobile_show_title",
+          "label": "Show product title",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "mobile_show_price",
+          "label": "Show price",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "mobile_show_variants",
+          "label": "Show variant picker",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "mobile_full_button",
+          "label": "Full width button",
+          "default": false,
+          "info": "Hides image, title, price and variants"
+        },
+        {
+          "type": "header",
+          "content": "Colors"
+        },
+        {
+          "type": "color_scheme",
+          "id": "color_scheme",
+          "label": "Color scheme",
+          "default": "scheme-1"
+        },
+        {
+          "type": "checkbox",
+          "id": "use_custom_btn_color",
+          "label": "Use custom button colors",
+          "default": false
+        },
+        {
+          "type": "color",
+          "id": "custom_btn_bg",
+          "label": "Button background"
+        },
+        {
+          "type": "color",
+          "id": "custom_btn_text",
+          "label": "Button text"
         }
       ]
     }
