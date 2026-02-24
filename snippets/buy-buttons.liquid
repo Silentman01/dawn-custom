@@ -81,9 +81,7 @@
             %}
               disabled
             {% endif %}
-            {% if block.settings.use_custom_colors %}
-              style="{% if block.settings.button_bg_color != blank %}--color-button: {{ block.settings.button_bg_color.red }}, {{ block.settings.button_bg_color.green }}, {{ block.settings.button_bg_color.blue }}; --color-secondary-button: {{ block.settings.button_bg_color.red }}, {{ block.settings.button_bg_color.green }}, {{ block.settings.button_bg_color.blue }}; background-color: {{ block.settings.button_bg_color }};{% endif %}{% if block.settings.button_text_color != blank %}--color-button-text: {{ block.settings.button_text_color.red }}, {{ block.settings.button_text_color.green }}, {{ block.settings.button_text_color.blue }}; --color-secondary-button-text: {{ block.settings.button_text_color.red }}, {{ block.settings.button_text_color.green }}, {{ block.settings.button_text_color.blue }}; color: {{ block.settings.button_text_color }};{% endif %}"
-            {% endif %}
+            style="{% if block.settings.use_custom_colors %}{% if block.settings.button_bg_color != blank %}--color-button: {{ block.settings.button_bg_color.red }}, {{ block.settings.button_bg_color.green }}, {{ block.settings.button_bg_color.blue }}; --color-secondary-button: {{ block.settings.button_bg_color.red }}, {{ block.settings.button_bg_color.green }}, {{ block.settings.button_bg_color.blue }}; background-color: {{ block.settings.button_bg_color }};{% endif %}{% if block.settings.button_text_color != blank %}--color-button-text: {{ block.settings.button_text_color.red }}, {{ block.settings.button_text_color.green }}, {{ block.settings.button_text_color.blue }}; --color-secondary-button-text: {{ block.settings.button_text_color.red }}, {{ block.settings.button_text_color.green }}, {{ block.settings.button_text_color.blue }}; color: {{ block.settings.button_text_color }};{% endif %}{% endif %}{% if block.settings.button_uppercase %}text-transform: uppercase;{% endif %}{% if block.settings.button_bold %}font-weight: 700;{% endif %}"
           >
             <span>
               {%- if product.selected_or_first_available_variant == null -%}
