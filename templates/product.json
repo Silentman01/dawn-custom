@@ -210,8 +210,8 @@
         "use_custom_bg": false,
         "custom_bg_color": "",
         "custom_text_color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 10,
+        "padding_bottom": 10
       }
     },
     "image-with-text": {
