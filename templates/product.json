@@ -286,7 +286,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
-        "section_color_scheme": "",
+        "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -361,7 +361,7 @@
         "video": "shopify://files/videos/od30_351ca883-4215-4673-b958-d937b3ffc278.mp4",
         "video_autoplay": true,
         "video_looping": true,
-        "video_height": "medium",
+        "video_height": "adapt",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
