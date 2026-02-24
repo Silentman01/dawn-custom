@@ -888,6 +888,9 @@
               {{ 'products.product.sold_out' | t }}
             {%- endif -%}
           </span>
+          <span class="sticky-atc__spinner" data-sticky-spinner>
+            <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3" opacity="0.25"/><path d="M12 2a10 10 0 0 1 10 10" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+          </span>
         </button>
       </div>
     </div>
@@ -1006,6 +1009,32 @@
         content: none;
       }
 
+      .sticky-atc__spinner {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .sticky-atc__spinner svg {
+        animation: sticky-atc-spin 0.6s linear infinite;
+      }
+
+      @keyframes sticky-atc-spin {
+        to { transform: rotate(360deg); }
+      }
+
+      .sticky-atc__button--loading {
+        color: transparent !important;
+        pointer-events: none;
+      }
+
+      .sticky-atc__button--loading .sticky-atc__spinner {
+        display: block;
+        color: var(--sticky-btn-text, rgb(var(--color-button-text)));
+      }
+
       .sticky-atc__stars {
         display: flex;
         align-items: center;
@@ -1111,11 +1140,25 @@
           bar.classList.add('sticky-atc--visible');
         }
 
-        /* ATC click → trigger main form */
+        /* ATC click → trigger main form with loading animation */
         if (stickyBtn && mainBtn) {
           stickyBtn.addEventListener('click', function(e) {
             e.preventDefault();
+            stickyBtn.classList.add('sticky-atc__button--loading');
             mainBtn.click();
+
+            /* Watch for main button to finish loading, then clear our state */
+            var checkDone = setInterval(function() {
+              if (!mainBtn.classList.contains('loading')) {
+                clearInterval(checkDone);
+                stickyBtn.classList.remove('sticky-atc__button--loading');
+              }
+            }, 100);
+            /* Safety fallback: remove loading after 4s max */
+            setTimeout(function() {
+              clearInterval(checkDone);
+              stickyBtn.classList.remove('sticky-atc__button--loading');
+            }, 4000);
           });
         }
 
