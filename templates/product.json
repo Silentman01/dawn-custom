@@ -607,6 +607,88 @@
         "padding_bottom": 36
       }
     },
+    "collapsible_content_rmy3Xx": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_waiFGd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I wear this daily?",
+            "icon": "none",
+            "row_content": "<p>Put it on in the morning and leave it there. The consistency matters more than anything else. Most users make it part of their routine—like putting on a watch. Wear it during workouts, showers, sleep, whatever your day demands.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6GTzBL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will this actually fit my wrist?",
+            "icon": "none",
+            "row_content": "<p>The band adjusts from 7\" to 9.5\", covering most adult wrist sizes comfortably. The elastic core stretches for easy on/off while maintaining a secure fit throughout the day. If it doesn't fit, we'll handle a return or exchange.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_DhW6hr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What's your guarantee if this doesn't work for me?",
+            "icon": "none",
+            "row_content": "<p>Wear it for 30 days. If you're not satisfied with the results, contact us and we'll refund your purchase—no questions, no forms, no hassle. Just email our team and we'll process it immediately.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_bHAr7C": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I get this wet?",
+            "icon": "none",
+            "row_content": "<p>Yes. Shower with it. Swim with it. The hematite is naturally water-resistant and the construction is built for daily exposure. It's designed for active use—not something you need to baby or remove constantly.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YAJhUq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When do most people notice a difference?",
+            "icon": "none",
+            "row_content": "<p>Results vary by person. Some report shifts within the first week—improved focus, steadier energy. Others notice it building over 2-3 weeks. Consistency is key. The longer you wear it, the more it becomes part of your baseline.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_k3tVKR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I wear this daily?",
+            "icon": "none",
+            "row_content": "<p>Put it on in the morning and leave it there. The consistency matters more than anything else. Most users make it part of their routine—like putting on a watch. Wear it during workouts, showers, sleep, whatever your day demands.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_waiFGd",
+        "collapsible_row_6GTzBL",
+        "collapsible_row_DhW6hr",
+        "collapsible_row_bHAr7C",
+        "collapsible_row_YAJhUq",
+        "collapsible_row_k3tVKR"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Questions About Hemax? We've Got Answers.",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -637,6 +719,7 @@
     "custom_columns_HRMc9p",
     "custom_testimonials_wByipc",
     "custom_media_slider_J4cRDh",
+    "collapsible_content_rmy3Xx",
     "related-products"
   ]
 }
