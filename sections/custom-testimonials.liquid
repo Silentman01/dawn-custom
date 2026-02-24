@@ -157,11 +157,7 @@
       </div>
 
       {%- if render_dots -%}
-        <div class="testimonials__dots" data-testimonials-dots>
-          {%- for block in section.blocks -%}
-            <button class="testimonials__dot {% if forloop.first %}testimonials__dot--active{% endif %}" aria-label="Go to testimonial {{ forloop.index }}" data-testimonials-dot="{{ forloop.index0 }}"></button>
-          {%- endfor -%}
-        </div>
+        <div class="testimonials__dots" data-testimonials-dots></div>
       {%- endif -%}
     </div>
   </div>
@@ -183,7 +179,7 @@
       var prevBtn = root.querySelector('[data-testimonials-prev]');
       var nextBtn = root.querySelector('[data-testimonials-next]');
       var dotsContainer = root.querySelector('[data-testimonials-dots]');
-      var dots = root.querySelectorAll('[data-testimonials-dot]');
+      var dots = [];
       var currentIndex = 0;
 
       function isMobile() {
@@ -207,6 +203,30 @@
         return Math.max(1, Math.floor((trackWidth + gap) / (cardWidth + gap)));
       }
 
+      function getPageCount() {
+        var visible = getVisibleCount();
+        var maxIndex = cards.length - visible;
+        return maxIndex < 1 ? 1 : maxIndex + 1;
+      }
+
+      function buildDots() {
+        if (!dotsContainer) return;
+        var pageCount = getPageCount();
+        dotsContainer.innerHTML = '';
+        dots = [];
+        for (var i = 0; i < pageCount; i++) {
+          var dot = document.createElement('button');
+          dot.className = 'testimonials__dot' + (i === currentIndex ? ' testimonials__dot--active' : '');
+          dot.setAttribute('aria-label', 'Go to page ' + (i + 1));
+          dot.setAttribute('data-testimonials-dot', i);
+          (function(idx) {
+            dot.addEventListener('click', function() { scrollToIndex(idx); });
+          })(i);
+          dotsContainer.appendChild(dot);
+          dots.push(dot);
+        }
+      }
+
       function updateArrowBoundary() {
         if (!prevBtn || !nextBtn) return;
         var scrollLeft = track.scrollLeft;
@@ -227,6 +247,7 @@
         if (nextBtn) nextBtn.style.display = showArrows ? '' : 'none';
         if (dotsContainer) dotsContainer.style.display = showDots ? '' : 'none';
 
+        if (showDots) buildDots();
         if (showArrows) updateArrowBoundary();
       }
 
@@ -278,12 +299,6 @@
       if (nextBtn) {
         nextBtn.addEventListener('click', function() { scrollToIndex(currentIndex + 1); });
       }
-
-      dots.forEach(function(dot) {
-        dot.addEventListener('click', function() {
-          scrollToIndex(parseInt(dot.getAttribute('data-testimonials-dot')));
-        });
-      });
 
       updateNavVisibility();
       var resizeTimer;
