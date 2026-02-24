@@ -31,8 +31,8 @@
         <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
           {%- if section.settings.video != blank -%}
             <div
-              class="image-with-text__media image-with-text__media--{{ section.settings.height }} global-media-settings{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %} media"
-              {% if section.settings.height == 'adapt' and section.settings.video.aspect_ratio != blank %}
+              class="image-with-text__media image-with-text__media--{{ section.settings.video_height }} global-media-settings{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %} media"
+              {% if section.settings.video_height == 'adapt' and section.settings.video.aspect_ratio != blank %}
                 style="padding-bottom: {{ 1 | divided_by: section.settings.video.aspect_ratio | times: 100 }}%;"
               {% endif %}
             >
@@ -164,6 +164,30 @@
       "id": "video_looping",
       "default": true,
       "label": "Video looping"
+    },
+    {
+      "type": "select",
+      "id": "video_height",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "Adapt to media"
+        },
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "medium",
+      "label": "Media height"
     },
     {
       "type": "select",
