@@ -1388,6 +1388,73 @@
       ]
     },
     {
+      "type": "payment_badges",
+      "name": "Payment badges",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "select",
+          "id": "alignment",
+          "label": "Alignment",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "center", "label": "Center" },
+            { "value": "right", "label": "Right" }
+          ],
+          "default": "center"
+        },
+        {
+          "type": "header",
+          "content": "Layout"
+        },
+        {
+          "type": "select",
+          "id": "position",
+          "label": "Position",
+          "options": [
+            { "value": "body", "label": "Body (above items)" },
+            { "value": "footer", "label": "Footer (below items)" }
+          ],
+          "default": "footer"
+        },
+        {
+          "type": "range",
+          "id": "margin_top",
+          "label": "Top margin",
+          "min": 0,
+          "max": 40,
+          "step": 2,
+          "unit": "px",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "margin_bottom",
+          "label": "Bottom margin",
+          "min": 0,
+          "max": 40,
+          "step": 2,
+          "unit": "px",
+          "default": 0
+        },
+        {
+          "type": "color",
+          "id": "block_bg_color",
+          "label": "Background color"
+        },
+        {
+          "type": "color",
+          "id": "block_text_color",
+          "label": "Text color"
+        }
+      ]
+    },
+    {
       "type": "divider",
       "name": "Divider",
       "limit": 5,

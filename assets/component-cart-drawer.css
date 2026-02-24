@@ -721,3 +721,49 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
 .cart-drawer-countdown--expired .cart-drawer-countdown__text {
   opacity: 0.7;
 }
+
+/* Payment badges block */
+.cart-drawer-block--payment {
+  padding: 0.8rem 0;
+}
+
+.cart-drawer-payment__heading {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem;
+}
+
+.cart-drawer-payment__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  padding: 0;
+  margin: 0;
+}
+
+.cart-drawer-block--payment.cart-drawer-block--align-center .cart-drawer-payment__list,
+.cart-drawer-block--payment.cart-drawer-block--align-center .cart-drawer-payment__heading {
+  justify-content: center;
+  text-align: center;
+}
+
+.cart-drawer-block--payment.cart-drawer-block--align-right .cart-drawer-payment__list,
+.cart-drawer-block--payment.cart-drawer-block--align-right .cart-drawer-payment__heading {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.cart-drawer-block--payment.cart-drawer-block--align-left .cart-drawer-payment__list,
+.cart-drawer-block--payment.cart-drawer-block--align-left .cart-drawer-payment__heading {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.cart-drawer-payment__list .list-payment__item {
+  padding: 0.2rem;
+}
+
+.cart-drawer-payment__list .icon {
+  width: 38px;
+  height: auto;
+}

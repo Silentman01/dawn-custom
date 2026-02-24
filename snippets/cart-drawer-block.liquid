@@ -233,6 +233,24 @@
       </div>
     </div>
 
+  {%- when 'payment_badges' -%}
+    {%- if shop.enabled_payment_types.size > 0 -%}
+      <div class="cart-drawer-block cart-drawer-block--payment cart-drawer-block--align-{{ block.settings.alignment | default: 'center' }}" {{ block.shopify_attributes }}
+        style="{{ margin_style }}"
+      >
+        {%- if block.settings.heading != blank -%}
+          <p class="cart-drawer-payment__heading">{{ block.settings.heading }}</p>
+        {%- endif -%}
+        <ul class="list list-payment cart-drawer-payment__list" role="list">
+          {%- for type in shop.enabled_payment_types -%}
+            <li class="list-payment__item">
+              {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
+            </li>
+          {%- endfor -%}
+        </ul>
+      </div>
+    {%- endif -%}
+
   {%- when 'divider' -%}
     <div class="cart-drawer-block cart-drawer-block--divider" {{ block.shopify_attributes }}
       style="
