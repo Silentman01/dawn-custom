@@ -189,6 +189,8 @@
       ],
       "settings": {
         "image": "shopify://shop_images/od8.jpg",
+        "video_autoplay": true,
+        "video_looping": true,
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -236,6 +238,9 @@
       ],
       "settings": {
         "image": "shopify://shop_images/od8.jpg",
+        "video": "shopify://files/videos/od30_351ca883-4215-4673-b958-d937b3ffc278.mp4",
+        "video_autoplay": true,
+        "video_looping": true,
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
