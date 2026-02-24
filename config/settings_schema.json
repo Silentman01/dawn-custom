@@ -1253,6 +1253,30 @@
         "default": 40
       },
       {
+        "type": "select",
+        "id": "sale_badge_style",
+        "options": [
+          {
+            "value": "text",
+            "label": "Sale"
+          },
+          {
+            "value": "percent_off",
+            "label": "% OFF"
+          },
+          {
+            "value": "percent_off_now",
+            "label": "% OFF NOW"
+          },
+          {
+            "value": "save_percent",
+            "label": "Save %"
+          }
+        ],
+        "default": "percent_off_now",
+        "label": "Sale badge style"
+      },
+      {
         "type": "color_scheme",
         "id": "sale_badge_color_scheme",
         "label": "t:settings_schema.badges.settings.sale_badge_color_scheme.label",

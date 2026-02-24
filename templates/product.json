@@ -10,6 +10,12 @@
             "text_style": "uppercase"
           }
         },
+        "review_badge": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'custom-review-badge' %}"
+          }
+        },
         "title": {
           "type": "title"
         },
@@ -37,6 +43,12 @@
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
+          }
+        },
+        "testimonials_carousel": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'custom-testimonials-carousel' %}"
           }
         },
         "description": {
@@ -87,12 +99,14 @@
       },
       "block_order": [
         "vendor",
+        "review_badge",
         "title",
         "caption",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "testimonials_carousel",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
