@@ -72,11 +72,16 @@
             "block_text_color": "#ffffff"
           }
         },
-        "payment_badges_g6JM9U": {
-          "type": "payment_badges",
+        "enhanced_text_8JeKFn": {
+          "type": "enhanced_text",
           "settings": {
-            "heading": "",
             "alignment": "center",
+            "icon_1": "none",
+            "text_1": "<p>30-Day Risk-Free Guarantee</p>",
+            "icon_2": "none",
+            "text_2": "",
+            "icon_3": "none",
+            "text_3": "",
             "position": "footer",
             "margin_top": 0,
             "margin_bottom": 0,
@@ -87,7 +92,7 @@
       },
       "block_order": [
         "countdown_timer_EAtHL7",
-        "payment_badges_g6JM9U"
+        "enhanced_text_8JeKFn"
       ],
       "settings": {
         "heading_text": "Cart",
