@@ -68,8 +68,8 @@
             "position": "body",
             "margin_top": 0,
             "margin_bottom": 0,
-            "block_bg_color": "",
-            "block_text_color": ""
+            "block_bg_color": "#0f3a47",
+            "block_text_color": "#ffffff"
           }
         },
         "payment_badges_g6JM9U": {
