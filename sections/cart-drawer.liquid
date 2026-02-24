@@ -117,47 +117,17 @@
         </button>
       </div>
 
-      {%- comment -%} TOP BLOCKS: rendered above cart items {%- endcomment -%}
+      {%- comment -%} BODY BLOCKS: rendered above cart items (position == body) {%- endcomment -%}
       {%- for block in section.blocks -%}
-        {%- case block.type -%}
-          {%- when 'free_shipping_bar' -%}
-            {%- liquid
-              assign threshold_cents = block.settings.threshold | times: 100
-              assign cart_total = cart.total_price
-              assign remaining_cents = threshold_cents | minus: cart_total
-              assign progress = cart_total | times: 100 | divided_by: threshold_cents
-              if progress > 100
-                assign progress = 100
-              endif
-              assign reached = false
-              if cart_total >= threshold_cents
-                assign reached = true
-              endif
-              assign remaining_money = remaining_cents | money
-            -%}
-            <div class="cart-drawer-block cart-drawer-block--shipping" {{ block.shopify_attributes }}
-              style="
-                --shipping-bar-color: {{ block.settings.bar_color }};
-                --shipping-bg-color: {{ block.settings.bg_color }};
-                --shipping-text-color: {{ block.settings.text_color }};
-              "
-            >
-              <div class="shipping-bar">
-                <div class="shipping-bar__message">
-                  {%- if reached -%}
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                    <span>{{ block.settings.success_message }}</span>
-                  {%- else -%}
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 16.5H3.5V7.5H16.5V10M21 14V12L19 7.5H16.5V14H21ZM21 14H23V17H21.5M16.5 17H7M3.5 17H2V14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="5" cy="17.5" r="2" stroke="currentColor" stroke-width="1.5"/><circle cx="19" cy="17.5" r="2" stroke="currentColor" stroke-width="1.5"/></svg>
-                    <span>{{ block.settings.message | replace: '[amount]', remaining_money }}</span>
-                  {%- endif -%}
-                </div>
-                <div class="shipping-bar__track">
-                  <div class="shipping-bar__fill" style="width: {{ progress }}%"></div>
-                </div>
-              </div>
-            </div>
-        {%- endcase -%}
+        {%- liquid
+          assign block_position = block.settings.position | default: 'footer'
+          if block.type == 'free_shipping_bar' and block.settings.position == blank
+            assign block_position = 'body'
+          endif
+        -%}
+        {%- if block_position == 'body' -%}
+          {%- render 'cart-drawer-block', block: block, cart: cart -%}
+        {%- endif -%}
       {%- endfor -%}
 
       <cart-drawer-items
@@ -582,100 +552,17 @@
           </details>
         {%- endif -%}
 
-        {%- comment -%} BLOCKS: rendered in the footer area, user can reorder {%- endcomment -%}
+        {%- comment -%} FOOTER BLOCKS: rendered below cart items (position == footer) {%- endcomment -%}
         {%- for block in section.blocks -%}
-          {%- case block.type -%}
-
-            {%- when 'free_shipping_bar' -%}
-              {%- comment -%} Already rendered above cart items {%- endcomment -%}
-
-            {%- when 'trust_badges' -%}
-              <div class="cart-drawer-block cart-drawer-block--trust" {{ block.shopify_attributes }}>
-                {%- if block.settings.heading != blank -%}
-                  <p class="cart-drawer-trust__heading">{{ block.settings.heading }}</p>
-                {%- endif -%}
-                <div class="cart-drawer-trust__badges">
-                  {%- if block.settings.image_1 != blank -%}
-                    <div class="cart-drawer-trust__badge">
-                      <img src="{{ block.settings.image_1 | image_url: width: 80 }}" alt="{{ block.settings.image_1.alt | default: 'Trust badge' | escape }}" width="40" height="40" loading="lazy">
-                    </div>
-                  {%- endif -%}
-                  {%- if block.settings.image_2 != blank -%}
-                    <div class="cart-drawer-trust__badge">
-                      <img src="{{ block.settings.image_2 | image_url: width: 80 }}" alt="{{ block.settings.image_2.alt | default: 'Trust badge' | escape }}" width="40" height="40" loading="lazy">
-                    </div>
-                  {%- endif -%}
-                  {%- if block.settings.image_3 != blank -%}
-                    <div class="cart-drawer-trust__badge">
-                      <img src="{{ block.settings.image_3 | image_url: width: 80 }}" alt="{{ block.settings.image_3.alt | default: 'Trust badge' | escape }}" width="40" height="40" loading="lazy">
-                    </div>
-                  {%- endif -%}
-                  {%- if block.settings.image_4 != blank -%}
-                    <div class="cart-drawer-trust__badge">
-                      <img src="{{ block.settings.image_4 | image_url: width: 80 }}" alt="{{ block.settings.image_4.alt | default: 'Trust badge' | escape }}" width="40" height="40" loading="lazy">
-                    </div>
-                  {%- endif -%}
-                  {%- if block.settings.image_1 == blank and block.settings.image_2 == blank and block.settings.image_3 == blank and block.settings.image_4 == blank -%}
-                    <div class="cart-drawer-trust__badge cart-drawer-trust__badge--icon">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 22C12 22 20 18 20 12V5L12 2L4 5V12C4 18 12 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 12L11 14L15 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                      <span>Secure</span>
-                    </div>
-                    <div class="cart-drawer-trust__badge cart-drawer-trust__badge--icon">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="4" width="22" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/><line x1="1" y1="10" x2="23" y2="10" stroke="currentColor" stroke-width="1.5"/></svg>
-                      <span>Encrypted</span>
-                    </div>
-                    <div class="cart-drawer-trust__badge cart-drawer-trust__badge--icon">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="11" width="18" height="11" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M7 11V7C7 4.23858 9.23858 2 12 2C14.7614 2 17 4.23858 17 7V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-                      <span>Protected</span>
-                    </div>
-                  {%- endif -%}
-                </div>
-                {%- if block.settings.custom_text != blank -%}
-                  <p class="cart-drawer-trust__text">{{ block.settings.custom_text }}</p>
-                {%- endif -%}
-              </div>
-
-            {%- when 'text' -%}
-              <div class="cart-drawer-block cart-drawer-block--text" {{ block.shopify_attributes }}
-                style="
-                  {%- if block.settings.bg_color != blank -%}--drawer-text-bg: {{ block.settings.bg_color }};{%- endif -%}
-                  {%- if block.settings.text_color != blank -%}--drawer-text-color: {{ block.settings.text_color }};{%- endif -%}
-                "
-              >
-                {%- if block.settings.icon != 'none' -%}
-                  <div class="cart-drawer-text__icon">
-                    {%- case block.settings.icon -%}
-                      {%- when 'info' -%}
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M12 16V12M12 8H12.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-                      {%- when 'truck' -%}
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 16.5H3.5V7.5H16.5V10M21 14V12L19 7.5H16.5V14H21ZM21 14H23V17H21.5M16.5 17H7M3.5 17H2V14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="5" cy="17.5" r="2" stroke="currentColor" stroke-width="1.5"/><circle cx="19" cy="17.5" r="2" stroke="currentColor" stroke-width="1.5"/></svg>
-                      {%- when 'shield' -%}
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 22C12 22 20 18 20 12V5L12 2L4 5V12C4 18 12 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                      {%- when 'gift' -%}
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="8" width="18" height="4" rx="1" stroke="currentColor" stroke-width="1.5"/><path d="M12 8V21M5 12H19V20C19 20.5523 18.5523 21 18 21H6C5.44772 21 5 20.5523 5 20V12Z" stroke="currentColor" stroke-width="1.5"/><path d="M12 8C12 8 12 5 9.5 4C7 3 6 5 7 6.5C8 8 12 8 12 8ZM12 8C12 8 12 5 14.5 4C17 3 18 5 17 6.5C16 8 12 8 12 8Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-                      {%- when 'returns' -%}
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 10H13C17.4183 10 21 13.5817 21 18V20M3 10L9 4M3 10L9 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                    {%- endcase -%}
-                  </div>
-                {%- endif -%}
-                <div class="cart-drawer-text__content rte">
-                  {{ block.settings.text }}
-                </div>
-              </div>
-
-            {%- when 'divider' -%}
-              <div class="cart-drawer-block cart-drawer-block--divider" {{ block.shopify_attributes }}
-                style="
-                  padding-top: {{ block.settings.padding_top | divided_by: 10.0 }}rem;
-                  padding-bottom: {{ block.settings.padding_bottom | divided_by: 10.0 }}rem;
-                "
-              >
-                {%- if block.settings.style == 'line' -%}
-                  <hr class="cart-drawer-divider__line">
-                {%- endif -%}
-              </div>
-
-          {%- endcase -%}
+          {%- liquid
+            assign block_position = block.settings.position | default: 'footer'
+            if block.type == 'free_shipping_bar' and block.settings.position == blank
+              assign block_position = 'body'
+            endif
+          -%}
+          {%- if block_position == 'footer' -%}
+            {%- render 'cart-drawer-block', block: block, cart: cart -%}
+          {%- endif -%}
         {%- endfor -%}
 
         <div class="cart-drawer__footer">
@@ -928,6 +815,422 @@
           "id": "text_color",
           "label": "Text color",
           "default": "#2E7D32"
+        },
+        {
+          "type": "header",
+          "content": "Layout"
+        },
+        {
+          "type": "select",
+          "id": "position",
+          "label": "Position",
+          "options": [
+            { "value": "body", "label": "Body (above items)" },
+            { "value": "footer", "label": "Footer (below items)" }
+          ],
+          "default": "body"
+        },
+        {
+          "type": "range",
+          "id": "margin_top",
+          "label": "Top margin",
+          "min": 0,
+          "max": 40,
+          "step": 2,
+          "unit": "px",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "margin_bottom",
+          "label": "Bottom margin",
+          "min": 0,
+          "max": 40,
+          "step": 2,
+          "unit": "px",
+          "default": 0
+        }
+      ]
+    },
+    {
+      "type": "countdown_timer",
+      "name": "Countdown timer",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "range",
+          "id": "duration",
+          "label": "Duration (minutes)",
+          "min": 5,
+          "max": 30,
+          "step": 1,
+          "unit": "min",
+          "default": 10
+        },
+        {
+          "type": "text",
+          "id": "message",
+          "label": "Message",
+          "info": "Use [time] for the countdown timer",
+          "default": "Your cart is reserved for [time]"
+        },
+        {
+          "type": "text",
+          "id": "expired_message",
+          "label": "Expired message",
+          "default": "Your reserved time has expired"
+        },
+        {
+          "type": "header",
+          "content": "Layout"
+        },
+        {
+          "type": "select",
+          "id": "position",
+          "label": "Position",
+          "options": [
+            { "value": "body", "label": "Body (above items)" },
+            { "value": "footer", "label": "Footer (below items)" }
+          ],
+          "default": "body"
+        },
+        {
+          "type": "range",
+          "id": "margin_top",
+          "label": "Top margin",
+          "min": 0,
+          "max": 40,
+          "step": 2,
+          "unit": "px",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "margin_bottom",
+          "label": "Bottom margin",
+          "min": 0,
+          "max": 40,
+          "step": 2,
+          "unit": "px",
+          "default": 0
+        },
+        {
+          "type": "color",
+          "id": "block_bg_color",
+          "label": "Background color"
+        },
+        {
+          "type": "color",
+          "id": "block_text_color",
+          "label": "Text color"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "name": "Image",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "select",
+          "id": "alignment",
+          "label": "Alignment",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "center", "label": "Center" },
+            { "value": "right", "label": "Right" }
+          ],
+          "default": "center"
+        },
+        {
+          "type": "range",
+          "id": "image_width",
+          "label": "Image width",
+          "min": 10,
+          "max": 100,
+          "step": 5,
+          "unit": "%",
+          "default": 100
+        },
+        {
+          "type": "range",
+          "id": "corner_radius",
+          "label": "Corner radius",
+          "min": 0,
+          "max": 30,
+          "step": 2,
+          "unit": "px",
+          "default": 0
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link (optional)"
+        },
+        {
+          "type": "header",
+          "content": "Layout"
+        },
+        {
+          "type": "select",
+          "id": "position",
+          "label": "Position",
+          "options": [
+            { "value": "body", "label": "Body (above items)" },
+            { "value": "footer", "label": "Footer (below items)" }
+          ],
+          "default": "footer"
+        },
+        {
+          "type": "range",
+          "id": "margin_top",
+          "label": "Top margin",
+          "min": 0,
+          "max": 40,
+          "step": 2,
+          "unit": "px",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "margin_bottom",
+          "label": "Bottom margin",
+          "min": 0,
+          "max": 40,
+          "step": 2,
+          "unit": "px",
+          "default": 0
+        },
+        {
+          "type": "color",
+          "id": "block_bg_color",
+          "label": "Background color"
+        },
+        {
+          "type": "color",
+          "id": "block_text_color",
+          "label": "Text color"
+        }
+      ]
+    },
+    {
+      "type": "enhanced_text",
+      "name": "Text with icons",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "select",
+          "id": "alignment",
+          "label": "Alignment",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "center", "label": "Center" },
+            { "value": "right", "label": "Right" }
+          ],
+          "default": "center"
+        },
+        {
+          "type": "header",
+          "content": "Item 1"
+        },
+        {
+          "type": "select",
+          "id": "icon_1",
+          "label": "Icon",
+          "options": [
+            { "value": "none", "label": "None" },
+            { "value": "info", "label": "Info" },
+            { "value": "truck", "label": "Shipping" },
+            { "value": "shield", "label": "Shield" },
+            { "value": "gift", "label": "Gift" },
+            { "value": "returns", "label": "Returns" },
+            { "value": "lock", "label": "Lock" },
+            { "value": "check", "label": "Checkmark" },
+            { "value": "clock", "label": "Clock" },
+            { "value": "custom", "label": "Custom image" }
+          ],
+          "default": "truck"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_image_1",
+          "label": "Custom icon image"
+        },
+        {
+          "type": "richtext",
+          "id": "text_1",
+          "label": "Text",
+          "default": "<p>Free shipping on orders over $50</p>"
+        },
+        {
+          "type": "header",
+          "content": "Item 2"
+        },
+        {
+          "type": "select",
+          "id": "icon_2",
+          "label": "Icon",
+          "options": [
+            { "value": "none", "label": "None" },
+            { "value": "info", "label": "Info" },
+            { "value": "truck", "label": "Shipping" },
+            { "value": "shield", "label": "Shield" },
+            { "value": "gift", "label": "Gift" },
+            { "value": "returns", "label": "Returns" },
+            { "value": "lock", "label": "Lock" },
+            { "value": "check", "label": "Checkmark" },
+            { "value": "clock", "label": "Clock" },
+            { "value": "custom", "label": "Custom image" }
+          ],
+          "default": "none"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_image_2",
+          "label": "Custom icon image"
+        },
+        {
+          "type": "richtext",
+          "id": "text_2",
+          "label": "Text"
+        },
+        {
+          "type": "header",
+          "content": "Item 3"
+        },
+        {
+          "type": "select",
+          "id": "icon_3",
+          "label": "Icon",
+          "options": [
+            { "value": "none", "label": "None" },
+            { "value": "info", "label": "Info" },
+            { "value": "truck", "label": "Shipping" },
+            { "value": "shield", "label": "Shield" },
+            { "value": "gift", "label": "Gift" },
+            { "value": "returns", "label": "Returns" },
+            { "value": "lock", "label": "Lock" },
+            { "value": "check", "label": "Checkmark" },
+            { "value": "clock", "label": "Clock" },
+            { "value": "custom", "label": "Custom image" }
+          ],
+          "default": "none"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_image_3",
+          "label": "Custom icon image"
+        },
+        {
+          "type": "richtext",
+          "id": "text_3",
+          "label": "Text"
+        },
+        {
+          "type": "header",
+          "content": "Layout"
+        },
+        {
+          "type": "select",
+          "id": "position",
+          "label": "Position",
+          "options": [
+            { "value": "body", "label": "Body (above items)" },
+            { "value": "footer", "label": "Footer (below items)" }
+          ],
+          "default": "footer"
+        },
+        {
+          "type": "range",
+          "id": "margin_top",
+          "label": "Top margin",
+          "min": 0,
+          "max": 40,
+          "step": 2,
+          "unit": "px",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "margin_bottom",
+          "label": "Bottom margin",
+          "min": 0,
+          "max": 40,
+          "step": 2,
+          "unit": "px",
+          "default": 0
+        },
+        {
+          "type": "color",
+          "id": "block_bg_color",
+          "label": "Background color"
+        },
+        {
+          "type": "color",
+          "id": "block_text_color",
+          "label": "Text color"
+        }
+      ]
+    },
+    {
+      "type": "custom_liquid",
+      "name": "Custom Liquid",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "liquid",
+          "id": "custom_liquid",
+          "label": "Liquid code",
+          "info": "Add custom Liquid code to create advanced blocks."
+        },
+        {
+          "type": "header",
+          "content": "Layout"
+        },
+        {
+          "type": "select",
+          "id": "position",
+          "label": "Position",
+          "options": [
+            { "value": "body", "label": "Body (above items)" },
+            { "value": "footer", "label": "Footer (below items)" }
+          ],
+          "default": "footer"
+        },
+        {
+          "type": "range",
+          "id": "margin_top",
+          "label": "Top margin",
+          "min": 0,
+          "max": 40,
+          "step": 2,
+          "unit": "px",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "margin_bottom",
+          "label": "Bottom margin",
+          "min": 0,
+          "max": 40,
+          "step": 2,
+          "unit": "px",
+          "default": 0
+        },
+        {
+          "type": "color",
+          "id": "block_bg_color",
+          "label": "Background color"
+        },
+        {
+          "type": "color",
+          "id": "block_text_color",
+          "label": "Text color"
         }
       ]
     },
@@ -966,6 +1269,50 @@
           "type": "text",
           "id": "custom_text",
           "label": "Text below badges"
+        },
+        {
+          "type": "header",
+          "content": "Layout"
+        },
+        {
+          "type": "select",
+          "id": "position",
+          "label": "Position",
+          "options": [
+            { "value": "body", "label": "Body (above items)" },
+            { "value": "footer", "label": "Footer (below items)" }
+          ],
+          "default": "footer"
+        },
+        {
+          "type": "range",
+          "id": "margin_top",
+          "label": "Top margin",
+          "min": 0,
+          "max": 40,
+          "step": 2,
+          "unit": "px",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "margin_bottom",
+          "label": "Bottom margin",
+          "min": 0,
+          "max": 40,
+          "step": 2,
+          "unit": "px",
+          "default": 0
+        },
+        {
+          "type": "color",
+          "id": "block_bg_color",
+          "label": "Background color"
+        },
+        {
+          "type": "color",
+          "id": "block_text_color",
+          "label": "Text color"
         }
       ]
     },
@@ -1003,6 +1350,40 @@
           "type": "color",
           "id": "text_color",
           "label": "Text color"
+        },
+        {
+          "type": "header",
+          "content": "Layout"
+        },
+        {
+          "type": "select",
+          "id": "position",
+          "label": "Position",
+          "options": [
+            { "value": "body", "label": "Body (above items)" },
+            { "value": "footer", "label": "Footer (below items)" }
+          ],
+          "default": "footer"
+        },
+        {
+          "type": "range",
+          "id": "margin_top",
+          "label": "Top margin",
+          "min": 0,
+          "max": 40,
+          "step": 2,
+          "unit": "px",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "margin_bottom",
+          "label": "Bottom margin",
+          "min": 0,
+          "max": 40,
+          "step": 2,
+          "unit": "px",
+          "default": 0
         }
       ]
     },
@@ -1040,6 +1421,30 @@
           "step": 2,
           "unit": "px",
           "default": 10
+        },
+        {
+          "type": "header",
+          "content": "Layout"
+        },
+        {
+          "type": "select",
+          "id": "position",
+          "label": "Position",
+          "options": [
+            { "value": "body", "label": "Body (above items)" },
+            { "value": "footer", "label": "Footer (below items)" }
+          ],
+          "default": "footer"
+        },
+        {
+          "type": "color",
+          "id": "block_bg_color",
+          "label": "Background color"
+        },
+        {
+          "type": "color",
+          "id": "block_text_color",
+          "label": "Text color"
         }
       ]
     }

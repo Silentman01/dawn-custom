@@ -584,3 +584,140 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
   border-top: 0.1rem solid rgba(var(--color-foreground), 0.1);
   margin: 0;
 }
+
+/* ========================================
+   Common Block Utilities
+   ======================================== */
+
+.cart-drawer-block {
+  color: var(--block-text, inherit);
+  background: var(--block-bg, transparent);
+}
+
+.cart-drawer-block--align-left { text-align: left; }
+.cart-drawer-block--align-center { text-align: center; }
+.cart-drawer-block--align-right { text-align: right; }
+
+/* ========================================
+   Image Block
+   ======================================== */
+
+.cart-drawer-block--image {
+  padding: 0.4rem 0;
+}
+
+.cart-drawer-block--image img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.cart-drawer-block--image a {
+  display: inline-block;
+  line-height: 0;
+}
+
+/* ========================================
+   Enhanced Text with Icons
+   ======================================== */
+
+.cart-drawer-block--enhanced-text {
+  padding: 1rem 1.2rem;
+  border-radius: 0.8rem;
+  background: var(--block-bg, rgba(var(--color-foreground), 0.04));
+  color: var(--block-text, inherit);
+}
+
+.cart-drawer-enhanced-text__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.cart-drawer-enhanced-text__item + .cart-drawer-enhanced-text__item {
+  margin-top: 0.8rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid rgba(var(--color-foreground), 0.06);
+}
+
+.cart-drawer-block--enhanced-text.cart-drawer-block--align-center .cart-drawer-enhanced-text__item {
+  justify-content: center;
+}
+
+.cart-drawer-block--enhanced-text.cart-drawer-block--align-right .cart-drawer-enhanced-text__item {
+  justify-content: flex-end;
+}
+
+.cart-drawer-enhanced-text__icon {
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+  color: var(--block-text, rgba(var(--color-foreground), 0.6));
+}
+
+.cart-drawer-enhanced-text__icon img {
+  display: block;
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+}
+
+.cart-drawer-enhanced-text__content {
+  flex: 1;
+}
+
+.cart-drawer-enhanced-text__content p {
+  margin: 0;
+}
+
+/* ========================================
+   Custom Liquid Block
+   ======================================== */
+
+.cart-drawer-block--custom-liquid {
+  padding: 0.4rem 0;
+}
+
+/* ========================================
+   Countdown Timer
+   ======================================== */
+
+.cart-drawer-block--countdown {
+  padding: 0.8rem 0;
+}
+
+.cart-drawer-countdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  font-size: 1.2rem;
+  color: var(--block-text, rgba(var(--color-foreground), 0.7));
+}
+
+.cart-drawer-countdown__icon {
+  flex-shrink: 0;
+  animation: countdown-pulse 2s ease-in-out infinite;
+}
+
+@keyframes countdown-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.cart-drawer-countdown__time {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+}
+
+.cart-drawer-countdown--expired .cart-drawer-countdown__icon {
+  animation: none;
+  opacity: 0.4;
+}
+
+.cart-drawer-countdown--expired .cart-drawer-countdown__text {
+  opacity: 0.7;
+}
