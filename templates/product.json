@@ -67,6 +67,14 @@
             "icon_color": "#121212"
           }
         },
+        "inventory_VMKbC8": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -143,6 +151,7 @@
         "price",
         "custom_liquid_kPpcjQ",
         "text_with_icon_x69gjW",
+        "inventory_VMKbC8",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
