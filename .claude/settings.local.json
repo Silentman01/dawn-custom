@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(grep:*)",
-      "Bash(python -c:*)"
+      "Bash(python -c:*)",
+      "Bash(shopify version:*)",
+      "Bash(npx shopify:*)"
     ]
   }
 }
