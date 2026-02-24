@@ -136,93 +136,157 @@
       }
     },
     "content_for_index": [],
+    "blocks": {
+      "15557474716127144420": {
+        "type": "shopify://apps/kaching-bundles/blocks/app-embed-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+        "disabled": false,
+        "settings": {}
+      },
+      "6319715395561037789": {
+        "type": "shopify://apps/trackify-x/blocks/app-embed/f3561b5a-1d26-4c4b-9d29-6bae914fb95d",
+        "disabled": false,
+        "settings": {}
+      },
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      },
+      "15445754650112992936": {
+        "type": "shopify://apps/sales-shield/blocks/app-embed-block/4a7b4aad-fb04-4e82-bd92-c640d33d71b2",
+        "disabled": false,
+        "settings": {}
+      },
+      "3667842014806057753": {
+        "type": "shopify://apps/one-click-upsell/blocks/app-embed/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
+        "disabled": false,
+        "settings": {
+          "allowed_templates": ""
+        }
+      },
+      "11753626725791430220": {
+        "type": "shopify://apps/one-click-upsell/blocks/cart-drawer/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
+        "disabled": false,
+        "settings": {}
+      },
+      "17676059084223943535": {
+        "type": "shopify://apps/triplewhale/blocks/triple_pixel_snippet/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
+        "disabled": false,
+        "settings": {}
+      },
+      "12264981854551093274": {
+        "type": "shopify://apps/zigpoll-customer-surveys/blocks/zigpoll-embed/019a552e-a887-7983-9977-f95313668ab3",
+        "disabled": false,
+        "settings": {}
+      },
+      "1513253815146976218": {
+        "type": "shopify://apps/omnisend-email-marketing-sms/blocks/app-embed/44704aa2-794f-4c5d-8c8e-039c841158e9",
+        "disabled": false,
+        "settings": {}
+      },
+      "16156609502398088594": {
+        "type": "shopify://apps/omega-facebook-pixel/blocks/app-embed-block/ecdcc423-3dbd-480c-85e8-fdb9789cf058",
+        "disabled": false,
+        "settings": {}
+      },
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
+      },
+      "16278478101612877664": {
+        "type": "shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
+          "button_label": "#ffffff",
+          "button": "#121212",
+          "button_gradient": "",
+          "accent_2": "#e8f2f5",
+          "accent_2_gradient": "",
+          "text": "#121212",
+          "secondary_button_label": "#121212",
           "background": "#ffffff",
           "background_gradient": "",
-          "text": "#121212",
-          "button": "#121212",
-          "button_label": "#ffffff",
-          "button_gradient": "",
-          "accent_2": "#E8F2F5",
-          "accent_2_gradient": "",
-          "secondary_button_label": "#121212",
-          "background_2": "#F3F3F3",
+          "background_2": "#f3f3f3",
           "background_2_gradient": ""
         }
       },
       "scheme-2": {
         "settings": {
+          "button_label": "#f3f3f3",
+          "button": "#121212",
+          "button_gradient": "",
+          "accent_2": "#e8f2f5",
+          "accent_2_gradient": "",
+          "text": "#121212",
+          "secondary_button_label": "#121212",
           "background": "#f3f3f3",
           "background_gradient": "",
-          "text": "#121212",
-          "button": "#121212",
-          "button_label": "#f3f3f3",
-          "button_gradient": "",
-          "accent_2": "#E8F2F5",
-          "accent_2_gradient": "",
-          "secondary_button_label": "#121212",
           "background_2": "#ffffff",
           "background_2_gradient": ""
         }
       },
       "scheme-3": {
         "settings": {
-          "background": "#242833",
-          "background_gradient": "",
-          "text": "#ffffff",
-          "button": "#ffffff",
           "button_label": "#000000",
+          "button": "#ffffff",
           "button_gradient": "",
           "accent_2": "#3a3f50",
           "accent_2_gradient": "",
+          "text": "#ffffff",
           "secondary_button_label": "#ffffff",
+          "background": "#242833",
+          "background_gradient": "",
           "background_2": "#1a1e28",
           "background_2_gradient": ""
         }
       },
       "scheme-4": {
         "settings": {
-          "background": "#121212",
-          "background_gradient": "",
-          "text": "#ffffff",
-          "button": "#ffffff",
           "button_label": "#121212",
+          "button": "#ffffff",
           "button_gradient": "",
           "accent_2": "#2a2a2a",
           "accent_2_gradient": "",
+          "text": "#ffffff",
           "secondary_button_label": "#ffffff",
+          "background": "#121212",
+          "background_gradient": "",
           "background_2": "#1a1a1a",
           "background_2_gradient": ""
         }
       },
       "scheme-5": {
         "settings": {
-          "background": "#0f3a47",
-          "background_gradient": "",
-          "text": "#ffffff",
-          "button": "#ffffff",
           "button_label": "#334fb4",
+          "button": "#ffffff",
           "button_gradient": "",
           "accent_2": "#1a4f5e",
           "accent_2_gradient": "",
+          "text": "#ffffff",
           "secondary_button_label": "#ffffff",
+          "background": "#0f3a47",
+          "background_gradient": "",
           "background_2": "#0a2d38",
           "background_2_gradient": ""
         }
       },
       "scheme-f103cf1c-f664-4721-a200-f4397a23b554": {
         "settings": {
-          "background": "#ffb84d",
-          "background_gradient": "",
-          "text": "#121212",
-          "button": "#121212",
           "button_label": "#ffffff",
+          "button": "#121212",
           "button_gradient": "",
           "accent_2": "#ffd080",
           "accent_2_gradient": "",
+          "text": "#121212",
           "secondary_button_label": "#121212",
+          "background": "#ffb84d",
+          "background_gradient": "",
           "background_2": "#ffe0a0",
           "background_2_gradient": ""
         }
