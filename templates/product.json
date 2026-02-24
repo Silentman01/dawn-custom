@@ -156,6 +156,64 @@
         "padding_bottom": 12
       }
     },
+    "custom_ticker_yKPffF": {
+      "type": "custom-ticker",
+      "blocks": {
+        "image_LeR8qJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/d4.png",
+            "image_height": 32
+          }
+        },
+        "image_WRdEwm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/d5.jpg",
+            "image_height": 32
+          }
+        },
+        "image_xaWPwF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/d6.png",
+            "image_height": 32
+          }
+        },
+        "image_6CdVGm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/d7.png",
+            "image_height": 32
+          }
+        },
+        "image_wytfTE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/d8.png",
+            "image_height": 32
+          }
+        }
+      },
+      "block_order": [
+        "image_LeR8qJ",
+        "image_WRdEwm",
+        "image_xaWPwF",
+        "image_6CdVGm",
+        "image_wytfTE"
+      ],
+      "name": "Ticker",
+      "settings": {
+        "speed": 30,
+        "gap": 100,
+        "color_scheme": "scheme-1",
+        "use_custom_bg": false,
+        "custom_bg_color": "",
+        "custom_text_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -278,6 +336,7 @@
   },
   "order": [
     "main",
+    "custom_ticker_yKPffF",
     "image-with-text",
     "image_with_text_3MgbLE",
     "related-products"
