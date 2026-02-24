@@ -463,6 +463,62 @@
         "padding_bottom": 36
       }
     },
+    "custom_testimonials_wByipc": {
+      "type": "custom-testimonials",
+      "blocks": {
+        "testimonial_EAwXAD": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Sarah M.",
+            "text": "<p>Absolutely love this product! It arrived quickly and the quality is amazing. Would definitely recommend to friends.</p>",
+            "show_stars": true,
+            "stars": 5,
+            "show_verified": true
+          }
+        },
+        "testimonial_ej4AxF": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "James K.",
+            "text": "<p>Great customer service and fast shipping. The product looks even better in person than in the photos.</p>",
+            "show_stars": true,
+            "stars": 5,
+            "show_verified": true
+          }
+        },
+        "testimonial_Yg37cT": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Emily R.",
+            "text": "<p>This is my third purchase from this store. Consistently high quality and fair prices. Highly recommend!</p>",
+            "show_stars": true,
+            "stars": 4,
+            "show_verified": true
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_EAwXAD",
+        "testimonial_ej4AxF",
+        "testimonial_Yg37cT"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "title": "What our customers say",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "show_dots": true,
+        "show_arrows": true,
+        "color_scheme": "",
+        "use_custom_colors": false,
+        "custom_bg_color": "",
+        "custom_text_color": "",
+        "custom_card_bg": "",
+        "custom_card_text": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -491,6 +547,7 @@
     "image_with_text_3MgbLE",
     "rich_text_NKfiGj",
     "custom_columns_HRMc9p",
+    "custom_testimonials_wByipc",
     "related-products"
   ]
 }
