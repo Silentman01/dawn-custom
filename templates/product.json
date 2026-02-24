@@ -469,46 +469,62 @@
         "testimonial_EAwXAD": {
           "type": "testimonial",
           "settings": {
-            "author_name": "Sarah M.",
-            "text": "<p>Absolutely love this product! It arrived quickly and the quality is amazing. Would definitely recommend to friends.</p>",
+            "author_name": "<strong>— David R.</strong>",
+            "text": "<p>My gym sessions changed first. Lifts felt heavier in a good way—more locked in, less second-guessing between sets. Then I noticed it carrying over to everything else. Conversations at dinner. Reading before bed. Like someone turned the static down and let me actually be present for once.</p>",
             "show_stars": true,
             "stars": 5,
-            "show_verified": true
+            "show_verified": true,
+            "image": "shopify://shop_images/od10.jpg"
           }
         },
         "testimonial_ej4AxF": {
           "type": "testimonial",
           "settings": {
-            "author_name": "James K.",
-            "text": "<p>Great customer service and fast shipping. The product looks even better in person than in the photos.</p>",
+            "author_name": "<strong>— Mike T.</strong>",
+            "text": "<p>Got this for my 40th after my brother wouldn't shut up about it. Two months later and I finally get it. That Sunday anxiety before the work week? Doesn't hit the same anymore. I'm calmer walking into tough conversations. My wife even asked what changed. Told her it's just a bracelet. She laughed. I'm still wearing it.</p>",
             "show_stars": true,
             "stars": 5,
-            "show_verified": true
+            "show_verified": true,
+            "image": "shopify://shop_images/od11.jpg"
           }
         },
         "testimonial_Yg37cT": {
           "type": "testimonial",
           "settings": {
-            "author_name": "Emily R.",
-            "text": "<p>This is my third purchase from this store. Consistently high quality and fair prices. Highly recommend!</p>",
+            "author_name": "<strong>— Ryan K.</strong>",
+            "text": "<p>Used to need two coffees by 10am just to feel awake. Now I'm on one and I don't crash by lunch. My focus during the afternoon grind is different—sharper, less effort to stay on task. Started tracking it after people kept asking if I was sleeping better. Funny thing is, I'm sleeping the same. Everything else just improved.</p>",
             "show_stars": true,
-            "stars": 4,
-            "show_verified": true
+            "stars": 5,
+            "show_verified": true,
+            "image": "shopify://shop_images/od12.jpg"
+          }
+        },
+        "testimonial_neLry4": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "<strong>— Tom S.</strong>",
+            "text": "<p>I'm the guy who researches everything before buying. Read reviews for hours, almost didn't pull the trigger. Glad I ignored my own skepticism. The first week felt like placebo. Week two I stopped checking if it was working. Now it's been 60 days and I can't remember the last time I felt scattered during client calls. Confidence came back without me forcing it.</p>",
+            "show_stars": true,
+            "stars": 5,
+            "show_verified": true,
+            "image": "shopify://shop_images/od13.jpg"
           }
         }
       },
       "block_order": [
         "testimonial_EAwXAD",
         "testimonial_ej4AxF",
-        "testimonial_Yg37cT"
+        "testimonial_Yg37cT",
+        "testimonial_neLry4"
       ],
       "name": "Testimonials",
       "settings": {
         "title": "What our customers say",
         "heading_size": "h1",
         "heading_alignment": "center",
-        "show_dots": true,
-        "show_arrows": true,
+        "columns_per_row": "3",
+        "mobile_layout": "scrollable",
+        "navigation_style": "both",
         "color_scheme": "",
         "use_custom_colors": false,
         "custom_bg_color": "",
