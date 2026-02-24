@@ -144,8 +144,12 @@
           "text": "#121212",
           "button": "#121212",
           "button_label": "#ffffff",
+          "button_gradient": "",
+          "accent_2": "#E8F2F5",
+          "accent_2_gradient": "",
           "secondary_button_label": "#121212",
-          "shadow": "#121212"
+          "background_2": "#F3F3F3",
+          "background_2_gradient": ""
         }
       },
       "scheme-2": {
@@ -155,8 +159,12 @@
           "text": "#121212",
           "button": "#121212",
           "button_label": "#f3f3f3",
+          "button_gradient": "",
+          "accent_2": "#E8F2F5",
+          "accent_2_gradient": "",
           "secondary_button_label": "#121212",
-          "shadow": "#121212"
+          "background_2": "#ffffff",
+          "background_2_gradient": ""
         }
       },
       "scheme-3": {
@@ -166,8 +174,12 @@
           "text": "#ffffff",
           "button": "#ffffff",
           "button_label": "#000000",
+          "button_gradient": "",
+          "accent_2": "#3a3f50",
+          "accent_2_gradient": "",
           "secondary_button_label": "#ffffff",
-          "shadow": "#121212"
+          "background_2": "#1a1e28",
+          "background_2_gradient": ""
         }
       },
       "scheme-4": {
@@ -177,8 +189,12 @@
           "text": "#ffffff",
           "button": "#ffffff",
           "button_label": "#121212",
+          "button_gradient": "",
+          "accent_2": "#2a2a2a",
+          "accent_2_gradient": "",
           "secondary_button_label": "#ffffff",
-          "shadow": "#121212"
+          "background_2": "#1a1a1a",
+          "background_2_gradient": ""
         }
       },
       "scheme-5": {
@@ -188,8 +204,12 @@
           "text": "#ffffff",
           "button": "#ffffff",
           "button_label": "#334fb4",
+          "button_gradient": "",
+          "accent_2": "#1a4f5e",
+          "accent_2_gradient": "",
           "secondary_button_label": "#ffffff",
-          "shadow": "#121212"
+          "background_2": "#0a2d38",
+          "background_2_gradient": ""
         }
       },
       "scheme-f103cf1c-f664-4721-a200-f4397a23b554": {
@@ -199,8 +219,12 @@
           "text": "#121212",
           "button": "#121212",
           "button_label": "#ffffff",
+          "button_gradient": "",
+          "accent_2": "#ffd080",
+          "accent_2_gradient": "",
           "secondary_button_label": "#121212",
-          "shadow": "#121212"
+          "background_2": "#ffe0a0",
+          "background_2_gradient": ""
         }
       }
     }
@@ -216,8 +240,12 @@
             "text": "#121212",
             "button": "#121212",
             "button_label": "#FFFFFF",
+            "button_gradient": "",
+            "accent_2": "#E8F2F5",
+            "accent_2_gradient": "",
             "secondary_button_label": "#121212",
-            "shadow": "#121212"
+            "background_2": "#F3F3F3",
+            "background_2_gradient": ""
           }
         },
         "scheme-2": {
@@ -227,8 +255,12 @@
             "text": "#121212",
             "button": "#121212",
             "button_label": "#F3F3F3",
+            "button_gradient": "",
+            "accent_2": "#E8F2F5",
+            "accent_2_gradient": "",
             "secondary_button_label": "#121212",
-            "shadow": "#121212"
+            "background_2": "#FFFFFF",
+            "background_2_gradient": ""
           }
         },
         "scheme-3": {
@@ -238,8 +270,12 @@
             "text": "#FFFFFF",
             "button": "#FFFFFF",
             "button_label": "#000000",
+            "button_gradient": "",
+            "accent_2": "#3a3f50",
+            "accent_2_gradient": "",
             "secondary_button_label": "#FFFFFF",
-            "shadow": "#121212"
+            "background_2": "#1a1e28",
+            "background_2_gradient": ""
           }
         },
         "scheme-4": {
@@ -249,8 +285,12 @@
             "text": "#FFFFFF",
             "button": "#FFFFFF",
             "button_label": "#121212",
+            "button_gradient": "",
+            "accent_2": "#2a2a2a",
+            "accent_2_gradient": "",
             "secondary_button_label": "#FFFFFF",
-            "shadow": "#121212"
+            "background_2": "#1a1a1a",
+            "background_2_gradient": ""
           }
         },
         "scheme-5": {
@@ -260,8 +300,12 @@
             "text": "#FFFFFF",
             "button": "#FFFFFF",
             "button_label": "#334FB4",
+            "button_gradient": "",
+            "accent_2": "#4a65c0",
+            "accent_2_gradient": "",
             "secondary_button_label": "#FFFFFF",
-            "shadow": "#121212"
+            "background_2": "#2a3f9a",
+            "background_2_gradient": ""
           }
         }
       },
