@@ -42,16 +42,15 @@
             "heading_size": "h1"
           }
         },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {}
+        },
+        "custom_liquid_kPpcjQ": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p>Forged from mineral-dense hematite—<strong>the grounding stone</strong> ancient \nwarriors carried into battle—not for decoration, but for the edge \nit gave them when it mattered most.</p>\n\n<p><strong>Wear it. Feel the shift. Reclaim what time and routine took away.</strong></p>"
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -126,8 +125,8 @@
         "testimonials_carousel_TBjyGg",
         "review_badge",
         "title",
-        "caption",
         "price",
+        "custom_liquid_kPpcjQ",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
