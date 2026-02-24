@@ -176,7 +176,7 @@
 
   .custom-columns__grid {
     display: grid;
-    gap: 2rem;
+    gap: 3rem;
     grid-template-columns: 1fr;
   }
 
@@ -201,13 +201,16 @@
   .custom-columns__item {
     display: flex;
     flex-direction: column;
+    background-color: rgb(var(--color-background));
+    border-radius: 1.2rem;
+    padding: 1.6rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+    border: 1px solid rgba(var(--color-foreground), 0.08);
   }
 
   .custom-columns__item--custom {
-    background-color: var(--col-bg);
+    background-color: var(--col-bg, rgb(var(--color-background)));
     color: var(--col-text);
-    border-radius: var(--text-boxes-radius);
-    padding: 1.5rem;
   }
 
   .custom-columns__item--custom .custom-columns__button.button--primary {
@@ -221,14 +224,18 @@
   }
 
   .custom-columns__media {
-    border-radius: var(--media-radius);
+    border-radius: 0.8rem;
     overflow: hidden;
-    margin-bottom: 1.5rem;
+    margin: -1.6rem -1.6rem 1.5rem;
+  }
+
+  .custom-columns__media:first-child {
+    border-radius: calc(1.2rem - 1px) calc(1.2rem - 1px) 0.8rem 0.8rem;
   }
 
   .custom-columns__content + .custom-columns__media {
-    margin-bottom: 0;
-    margin-top: 1.5rem;
+    margin: 1.5rem -1.6rem -1.6rem;
+    border-radius: 0.8rem 0.8rem calc(1.2rem - 1px) calc(1.2rem - 1px);
   }
 
   .custom-columns__media img,
@@ -240,11 +247,12 @@
   }
 
   .custom-columns__column-title {
-    margin: 0 0 1rem;
+    margin: 0 0 0.8rem;
   }
 
   .custom-columns__text {
     margin: 0 0 1.5rem;
+    opacity: 0.75;
   }
 
   .custom-columns__text:last-child {
