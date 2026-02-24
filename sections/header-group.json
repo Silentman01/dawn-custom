@@ -58,22 +58,7 @@
     },
     "cart-drawer": {
       "type": "cart-drawer",
-      "blocks": {
-        "countdown_YDMmUR": {
-          "type": "countdown",
-          "settings": {
-            "duration": 5,
-            "message": "Your cart is reserved for",
-            "text_color": "",
-            "icon_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "countdown_YDMmUR"
-      ],
       "settings": {
-        "test_mode": true,
         "heading_text": "Cart",
         "heading_alignment": "left",
         "desktop_width": "normal",
