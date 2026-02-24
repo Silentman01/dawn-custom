@@ -209,6 +209,22 @@
                 </p>
               {%- when 'custom_liquid' -%}
                 {{ block.settings.custom_liquid }}
+              {%- when 'testimonials_carousel' -%}
+                <div {{ block.shopify_attributes }}>
+                  {% render 'custom-testimonials-carousel',
+                    image_1: block.settings.image_1,
+                    author_1: block.settings.author_1,
+                    text_1: block.settings.text_1,
+                    image_2: block.settings.image_2,
+                    author_2: block.settings.author_2,
+                    text_2: block.settings.text_2,
+                    image_3: block.settings.image_3,
+                    author_3: block.settings.author_3,
+                    text_3: block.settings.text_3,
+                    star_color: block.settings.star_color,
+                    speed: block.settings.speed
+                  %}
+                </div>
               {%- when 'collapsible_tab' -%}
                 <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
                   <details id="Details-{{ block.id }}-{{ section.id }}">
@@ -955,6 +971,96 @@
           "id": "custom_liquid",
           "label": "t:sections.custom-liquid.settings.custom_liquid.label",
           "info": "t:sections.custom-liquid.settings.custom_liquid.info"
+        }
+      ]
+    },
+    {
+      "type": "testimonials_carousel",
+      "name": "Testimonials carousel",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "header",
+          "content": "Review 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_1",
+          "label": "Avatar"
+        },
+        {
+          "type": "text",
+          "id": "author_1",
+          "label": "Author",
+          "default": "Sarah M. — Los Angeles, CA"
+        },
+        {
+          "type": "textarea",
+          "id": "text_1",
+          "label": "Review text",
+          "default": "Absolutely love this product! The quality exceeded my expectations and it arrived faster than I thought."
+        },
+        {
+          "type": "header",
+          "content": "Review 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_2",
+          "label": "Avatar"
+        },
+        {
+          "type": "text",
+          "id": "author_2",
+          "label": "Author",
+          "default": "James R. — Austin, TX"
+        },
+        {
+          "type": "textarea",
+          "id": "text_2",
+          "label": "Review text",
+          "default": "This is my third purchase and I keep coming back. Consistent quality every single time."
+        },
+        {
+          "type": "header",
+          "content": "Review 3"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_3",
+          "label": "Avatar"
+        },
+        {
+          "type": "text",
+          "id": "author_3",
+          "label": "Author",
+          "default": "Emily T. — New York, NY"
+        },
+        {
+          "type": "textarea",
+          "id": "text_3",
+          "label": "Review text",
+          "default": "Perfect gift idea. My friend was thrilled when she opened it. Will definitely order again soon!"
+        },
+        {
+          "type": "header",
+          "content": "Style"
+        },
+        {
+          "type": "color",
+          "id": "star_color",
+          "label": "Star color",
+          "default": "#ffcc00"
+        },
+        {
+          "type": "range",
+          "id": "speed",
+          "min": 3,
+          "max": 10,
+          "step": 1,
+          "unit": "s",
+          "label": "Auto-scroll speed",
+          "default": 5
         }
       ]
     },
