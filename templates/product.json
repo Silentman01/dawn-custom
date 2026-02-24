@@ -122,7 +122,7 @@
             "button_bg_color": "#ffb84d",
             "button_text_color": "#121212",
             "button_uppercase": false,
-            "button_bold": false
+            "button_bold": true
           }
         },
         "collapsible-row-0": {
