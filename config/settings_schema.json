@@ -34,53 +34,85 @@
     ]
   },
   {
-    "name": "t:settings_schema.colors.name",
+    "name": "Colors",
     "settings": [
       {
         "type": "color_scheme_group",
         "id": "color_schemes",
         "definition": [
           {
+            "type": "header",
+            "content": "Primary colors"
+          },
+          {
+            "type": "color",
+            "id": "button_label",
+            "label": "Solid button text",
+            "default": "#FFFFFF",
+            "info": "Used as foreground color on accent colors"
+          },
+          {
+            "type": "color",
+            "id": "button",
+            "label": "Accent 1",
+            "default": "#0F3A47",
+            "info": "Used for solid button background"
+          },
+          {
+            "type": "color_background",
+            "id": "button_gradient",
+            "label": "Accent 1 gradient"
+          },
+          {
+            "type": "color",
+            "id": "accent_2",
+            "label": "Accent 2",
+            "default": "#E8F2F5"
+          },
+          {
+            "type": "color_background",
+            "id": "accent_2_gradient",
+            "label": "Accent 2 gradient"
+          },
+          {
+            "type": "header",
+            "content": "Secondary colors"
+          },
+          {
+            "type": "color",
+            "id": "text",
+            "label": "Text",
+            "default": "#121212",
+            "info": "Used as foreground color on background colors"
+          },
+          {
+            "type": "color",
+            "id": "secondary_button_label",
+            "label": "Outline button",
+            "default": "#8A8A8A",
+            "info": "Also used for text links"
+          },
+          {
             "type": "color",
             "id": "background",
-            "label": "t:settings_schema.colors.settings.background.label",
+            "label": "Background 1",
             "default": "#FFFFFF"
           },
           {
             "type": "color_background",
             "id": "background_gradient",
-            "label": "t:settings_schema.colors.settings.background_gradient.label",
-            "info": "t:settings_schema.colors.settings.background_gradient.info"
+            "label": "Background 1 gradient"
           },
           {
             "type": "color",
-            "id": "text",
-            "label": "t:settings_schema.colors.settings.text.label",
-            "default": "#121212"
+            "id": "background_2",
+            "label": "Background 2",
+            "default": "#F3F3F3"
           },
           {
-            "type": "color",
-            "id": "button",
-            "label": "t:settings_schema.colors.settings.button_background.label",
-            "default": "#121212"
-          },
-          {
-            "type": "color",
-            "id": "button_label",
-            "label": "t:settings_schema.colors.settings.button_label.label",
-            "default": "#FFFFFF"
-          },
-          {
-            "type": "color",
-            "id": "secondary_button_label",
-            "label": "t:settings_schema.colors.settings.secondary_button_label.label",
-            "default": "#121212"
-          },
-          {
-            "type": "color",
-            "id": "shadow",
-            "label": "t:settings_schema.colors.settings.shadow.label",
-            "default": "#121212"
+            "type": "color_background",
+            "id": "background_2_gradient",
+            "label": "Background 2 gradient"
           }
         ],
         "role": {
