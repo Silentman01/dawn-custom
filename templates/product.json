@@ -12,13 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "review_badge": {
           "type": "custom_liquid",
           "settings": {
@@ -104,7 +97,6 @@
         }
       },
       "block_order": [
-        "vendor",
         "review_badge",
         "title",
         "caption",
