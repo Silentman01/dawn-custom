@@ -387,11 +387,18 @@
           "settings": {
             "media_position": "above",
             "column_title": "Your Battery's Empty",
-            "column_heading_size": "h3",
+            "column_heading_size": "h2",
             "text": "<p><strong>Coffee stops working.</strong> Sleep doesn't recharge you. That natural vitality you had at 25? It didn't disappear—it got buried under years of grinding with zero recovery.</p>",
+            "text_alignment": "center",
             "button_label": "",
             "button_link": "",
-            "button_outline": false
+            "button_outline": false,
+            "column_color_scheme": "scheme-1",
+            "use_custom_colors": false,
+            "custom_bg_color": "",
+            "custom_text_color": "",
+            "custom_button_bg": "",
+            "custom_button_text": ""
           }
         },
         "column_enPFmc": {
@@ -399,11 +406,18 @@
           "settings": {
             "media_position": "above",
             "column_title": "Your Mind Lags",
-            "column_heading_size": "h3",
+            "column_heading_size": "h2",
             "text": "<p>Forgetting names mid-conversation. <strong>Losing your train of thought in meetings.</strong> Taking twice as long to make simple calls. The mental sharpness that used to be automatic is now a coin flip.</p>",
+            "text_alignment": "center",
             "button_label": "",
             "button_link": "",
-            "button_outline": false
+            "button_outline": false,
+            "column_color_scheme": "",
+            "use_custom_colors": false,
+            "custom_bg_color": "",
+            "custom_text_color": "",
+            "custom_button_bg": "",
+            "custom_button_text": ""
           }
         },
         "column_xFr6x4": {
@@ -411,11 +425,18 @@
           "settings": {
             "media_position": "above",
             "column_title": "Your Command Faded",
-            "column_heading_size": "h3",
+            "column_heading_size": "h2",
             "text": "<p>Walk into any room and feel the difference. <strong>That natural authority?</strong> Gone quiet. The self-assurance people respected isn't missing—it's muted, buried under routine and resignation.</p>",
+            "text_alignment": "center",
             "button_label": "",
             "button_link": "",
-            "button_outline": false
+            "button_outline": false,
+            "column_color_scheme": "",
+            "use_custom_colors": false,
+            "custom_bg_color": "",
+            "custom_text_color": "",
+            "custom_button_bg": "",
+            "custom_button_text": ""
           }
         }
       },
@@ -429,8 +450,10 @@
         "title": "What Modern Life Takes From You",
         "heading_size": "h1",
         "subtitle": "",
+        "heading_alignment": "center",
+        "text_alignment": "left",
         "columns_per_row": "3",
-        "color_scheme": "",
+        "color_scheme": "scheme-4",
         "use_custom_colors": false,
         "custom_bg_color": "",
         "custom_text_color": "",
