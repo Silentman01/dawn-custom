@@ -93,8 +93,8 @@
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false,
             "button_text": "ADD TO CART",
-            "use_custom_colors": false,
-            "button_bg_color": "#000000",
+            "use_custom_colors": true,
+            "button_bg_color": "#fa2727",
             "button_text_color": ""
           }
         },
