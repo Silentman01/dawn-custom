@@ -58,6 +58,37 @@
     },
     "cart-drawer": {
       "type": "cart-drawer",
+      "blocks": {
+        "countdown_timer_EAtHL7": {
+          "type": "countdown_timer",
+          "settings": {
+            "duration": 5,
+            "message": "Your cart is reserved for [time]",
+            "expired_message": "Your reserved time has expired",
+            "position": "body",
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "block_bg_color": "",
+            "block_text_color": ""
+          }
+        },
+        "payment_badges_g6JM9U": {
+          "type": "payment_badges",
+          "settings": {
+            "heading": "",
+            "alignment": "center",
+            "position": "footer",
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "block_bg_color": "",
+            "block_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "countdown_timer_EAtHL7",
+        "payment_badges_g6JM9U"
+      ],
       "settings": {
         "heading_text": "Cart",
         "heading_alignment": "left",
