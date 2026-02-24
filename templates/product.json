@@ -101,16 +101,25 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
+            "heading": "Dimensions & Materials",
+            "icon": "none",
+            "content": "<p><strong>Universal Fit:</strong> The Hemax Hematite bracelet is suitable for all wrist sizes. It is designed to be resizable, allowing you to adjust it comfortably to your wrist.</p><p><strong>Premium Hematite:</strong> Authentic mineral-grade stone with natural iron content and mirror-polished surface</p><p><strong>Finish Quality:</strong> Mirror-polished hematite surface | Naturally scratch-resistant through daily wear</p>",
             "page": ""
           }
         },
-        "share": {
-          "type": "share",
+        "collapsible_tab_7XTCqr": {
+          "type": "collapsible_tab",
           "settings": {
-            "share_label": "Share"
+            "heading": "Shipping & Guarantee",
+            "icon": "none",
+            "content": "<p>All orders are fulfilled and shipped within 1-2 business days of purchase.</p><p><strong>Estimated delivery by region:</strong></p><ul><li>United States: 3-5 business days</li><li>United Kingdom: 3-5 business days</li><li>Canada: 3-5 business days</li><li>Australia: 3-5 business days</li><li>International orders: 5-7 business days</li></ul><p>Actual arrival depends on your specific location and local carrier performance. You'll receive tracking information once your order ships.</p>",
+            "page": ""
+          }
+        },
+        "custom_liquid_FFmYkT": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<br>\n<p style=\"font-size: 13px; text-align: center;\"><strong>IMPORTANT:</strong> Authentic Hemax Hematite Bracelets are ONLY sold through our official website. Protect yourself from counterfeits on Amazon and other platforms. Shop certified Hemax Hematite Bracelets here.</p>"
           }
         }
       },
@@ -126,7 +135,8 @@
         "quantity_selector",
         "buy_buttons",
         "collapsible-row-0",
-        "share"
+        "collapsible_tab_7XTCqr",
+        "custom_liquid_FFmYkT"
       ],
       "settings": {
         "enable_sticky_info": true,
