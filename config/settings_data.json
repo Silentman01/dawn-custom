@@ -152,11 +152,6 @@
         "disabled": false,
         "settings": {}
       },
-      "15445754650112992936": {
-        "type": "shopify://apps/sales-shield/blocks/app-embed-block/4a7b4aad-fb04-4e82-bd92-c640d33d71b2",
-        "disabled": false,
-        "settings": {}
-      },
       "3667842014806057753": {
         "type": "shopify://apps/one-click-upsell/blocks/app-embed/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
         "disabled": false,
@@ -196,6 +191,11 @@
       },
       "16278478101612877664": {
         "type": "shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
+        "disabled": false,
+        "settings": {}
+      },
+      "7313114205116804392": {
+        "type": "shopify://apps/propel-replays-heatmaps/blocks/app-embed/64fbaaa3-2d4a-49f3-aba7-86e92e44999f",
         "disabled": false,
         "settings": {}
       }
