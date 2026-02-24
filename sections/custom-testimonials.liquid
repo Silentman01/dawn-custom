@@ -1,7 +1,28 @@
+{%- liquid
+  assign columns = section.settings.columns_per_row | plus: 0
+  assign needs_scroll = false
+  if section.blocks.size > columns
+    assign needs_scroll = true
+  endif
+  assign nav_style = section.settings.navigation_style
+  assign show_dots = false
+  assign show_arrows = false
+  if needs_scroll
+    if nav_style == 'dots' or nav_style == 'both'
+      assign show_dots = true
+    endif
+    if nav_style == 'arrows' or nav_style == 'both'
+      assign show_arrows = true
+    endif
+  endif
+  assign mobile_layout = section.settings.mobile_layout
+-%}
+
 {%- style -%}
   .testimonials-{{ section.id }} {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    --testimonials-columns: {{ columns }};
     {% if section.settings.use_custom_colors and section.settings.custom_bg_color != blank %}
       --testimonials-bg: {{ section.settings.custom_bg_color }};
     {% endif %}
@@ -24,7 +45,7 @@
 {%- endstyle -%}
 
 {%- if section.blocks.size > 0 -%}
-  <div class="testimonials-section testimonials-{{ section.id }} color-{{ section.settings.color_scheme }}">
+  <div class="testimonials-section testimonials-{{ section.id }} color-{{ section.settings.color_scheme }}" data-testimonials-section="{{ section.id }}" data-columns="{{ columns }}" data-mobile-layout="{{ mobile_layout }}">
     <div class="page-width">
       {%- if section.settings.title != blank -%}
         <div class="testimonials__header testimonials__align--{{ section.settings.heading_alignment }}">
@@ -35,7 +56,7 @@
       {%- endif -%}
 
       <div class="testimonials__wrapper" data-testimonials-slider="{{ section.id }}">
-        <div class="testimonials__track">
+        <div class="testimonials__track {% if mobile_layout == 'stacked' %}testimonials__track--stacked-mobile{% endif %}">
           {%- for block in section.blocks -%}
             <div class="testimonials__card" {{ block.shopify_attributes }}>
               {%- if block.settings.image != blank -%}
@@ -82,10 +103,8 @@
                   {%- endif -%}
                   {%- if block.settings.show_verified -%}
                     <span class="testimonials__verified">
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>
-                      Verified purchase
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1l3.09 2.34L18.5 3l1.28 3.17L22 9.27l-1.64 3.07.36 3.48-3.2 1.43L15.09 20 12 19.09 8.91 20l-2.53-2.75-3.2-1.43.36-3.48L1.9 9.27l2.22-3.1L5.5 3l3.41.34L12 1zm-1.41 14.59l7.07-7.07-1.41-1.41-5.66 5.66-2.83-2.83-1.41 1.41 4.24 4.24z"/></svg>
+                      Verified Purchase
                     </span>
                   {%- endif -%}
                 </div>
@@ -94,7 +113,7 @@
           {%- endfor -%}
         </div>
 
-        {%- if section.settings.show_arrows and section.blocks.size > 1 -%}
+        {%- if show_arrows -%}
           <button class="testimonials__arrow testimonials__arrow--prev" aria-label="Previous testimonial" data-testimonials-prev>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -108,7 +127,7 @@
         {%- endif -%}
       </div>
 
-      {%- if section.settings.show_dots and section.blocks.size > 1 -%}
+      {%- if show_dots -%}
         <div class="testimonials__dots" data-testimonials-dots>
           {%- for block in section.blocks -%}
             <button class="testimonials__dot {% if forloop.first %}testimonials__dot--active{% endif %}" aria-label="Go to testimonial {{ forloop.index }}" data-testimonials-dot="{{ forloop.index0 }}"></button>
@@ -120,25 +139,46 @@
 
   <script>
     (function() {
-      var section = document.querySelector('[data-testimonials-slider="{{ section.id }}"]');
-      if (!section) return;
-      var track = section.querySelector('.testimonials__track');
+      var root = document.querySelector('[data-testimonials-section="{{ section.id }}"]');
+      if (!root) return;
+      var wrapper = root.querySelector('[data-testimonials-slider="{{ section.id }}"]');
+      var track = wrapper.querySelector('.testimonials__track');
       var cards = track.querySelectorAll('.testimonials__card');
       if (cards.length <= 1) return;
 
-      var prevBtn = section.querySelector('[data-testimonials-prev]');
-      var nextBtn = section.querySelector('[data-testimonials-next]');
-      var dots = section.closest('.testimonials-section').querySelectorAll('[data-testimonials-dot]');
+      var mobileLayout = root.getAttribute('data-mobile-layout');
+      var prevBtn = wrapper.querySelector('[data-testimonials-prev]');
+      var nextBtn = wrapper.querySelector('[data-testimonials-next]');
+      var dots = root.querySelectorAll('[data-testimonials-dot]');
       var currentIndex = 0;
 
+      function isMobile() {
+        return window.innerWidth < 750;
+      }
+
+      function isStacked() {
+        return isMobile() && mobileLayout === 'stacked';
+      }
+
       function getVisibleCount() {
+        if (isStacked()) return cards.length;
         var trackWidth = track.offsetWidth;
         var cardWidth = cards[0].offsetWidth;
         var gap = parseFloat(getComputedStyle(track).gap) || 0;
-        return Math.floor((trackWidth + gap) / (cardWidth + gap));
+        return Math.max(1, Math.floor((trackWidth + gap) / (cardWidth + gap)));
+      }
+
+      function updateNavVisibility() {
+        var visible = getVisibleCount();
+        var shouldHide = cards.length <= visible || isStacked();
+        if (prevBtn) prevBtn.style.display = shouldHide ? 'none' : '';
+        if (nextBtn) nextBtn.style.display = shouldHide ? 'none' : '';
+        var dotsContainer = root.querySelector('[data-testimonials-dots]');
+        if (dotsContainer) dotsContainer.style.display = shouldHide ? 'none' : '';
       }
 
       function scrollToIndex(index) {
+        if (isStacked()) return;
         var maxIndex = cards.length - getVisibleCount();
         if (maxIndex < 0) maxIndex = 0;
         if (index < 0) index = 0;
@@ -157,6 +197,7 @@
       }
 
       function onScroll() {
+        if (isStacked()) return;
         var scrollLeft = track.scrollLeft;
         var closest = 0;
         var minDist = Infinity;
@@ -188,6 +229,11 @@
         dot.addEventListener('click', function() {
           scrollToIndex(parseInt(dot.getAttribute('data-testimonials-dot')));
         });
+      });
+
+      updateNavVisibility();
+      window.addEventListener('resize', function() {
+        updateNavVisibility();
       });
     })();
   </script>
@@ -259,16 +305,23 @@
     color: inherit;
   }
 
-  @media screen and (min-width: 750px) {
-    .testimonials__card {
-      flex: 0 0 calc(50% - 1rem);
+  /* Stacked mobile layout */
+  @media screen and (max-width: 749px) {
+    .testimonials__track--stacked-mobile {
+      flex-direction: column;
+      overflow-x: visible;
+      scroll-snap-type: none;
+    }
+
+    .testimonials__track--stacked-mobile .testimonials__card {
+      flex: 0 0 auto;
     }
   }
 
-  @media screen and (min-width: 990px) {
+  /* Desktop column sizing */
+  @media screen and (min-width: 750px) {
     .testimonials__card {
-      flex: 0 0 calc(33.333% - 1.34rem);
-      padding: 2.4rem;
+      flex: 0 0 calc((100% - 2rem * (var(--testimonials-columns) - 1)) / var(--testimonials-columns));
     }
   }
 
@@ -276,12 +329,6 @@
     border-radius: 0.8rem;
     overflow: hidden;
     margin: -2rem -2rem 0;
-  }
-
-  @media screen and (min-width: 990px) {
-    .testimonials__image {
-      margin: -2.4rem -2.4rem 0;
-    }
   }
 
   .testimonials__image img {
@@ -346,14 +393,19 @@
   }
 
   .testimonials__verified {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 0.3rem;
-    font-size: 1.2rem;
-    opacity: 0.65;
+    gap: 3px;
+    font-size: 1.1rem;
+    color: #1a73e8;
+    font-weight: 500;
+    white-space: nowrap;
   }
 
   .testimonials__verified svg {
+    width: 14px;
+    height: 14px;
+    fill: #1a73e8;
     flex-shrink: 0;
   }
 
@@ -387,12 +439,6 @@
 
   .testimonials__arrow--next {
     right: -1rem;
-  }
-
-  @media screen and (max-width: 749px) {
-    .testimonials__arrow {
-      display: none;
-    }
   }
 
   /* Dots */
@@ -481,19 +527,71 @@
     },
     {
       "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "columns_per_row",
+      "options": [
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "3",
+          "label": "3"
+        },
+        {
+          "value": "4",
+          "label": "4"
+        }
+      ],
+      "default": "3",
+      "label": "Columns per row (desktop)"
+    },
+    {
+      "type": "select",
+      "id": "mobile_layout",
+      "options": [
+        {
+          "value": "scrollable",
+          "label": "Scrollable"
+        },
+        {
+          "value": "stacked",
+          "label": "Stacked"
+        }
+      ],
+      "default": "scrollable",
+      "label": "Mobile layout"
+    },
+    {
+      "type": "header",
       "content": "Navigation"
     },
     {
-      "type": "checkbox",
-      "id": "show_dots",
-      "default": true,
-      "label": "Show pagination dots"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_arrows",
-      "default": true,
-      "label": "Show arrows"
+      "type": "select",
+      "id": "navigation_style",
+      "options": [
+        {
+          "value": "dots",
+          "label": "Dots"
+        },
+        {
+          "value": "arrows",
+          "label": "Arrows"
+        },
+        {
+          "value": "both",
+          "label": "Dots and arrows"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ],
+      "default": "both",
+      "label": "Navigation style"
     },
     {
       "type": "header",
