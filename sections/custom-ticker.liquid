@@ -28,48 +28,52 @@
 {%- endstyle -%}
 
 {%- if has_items -%}
+  {%- capture ticker_items -%}
+    {%- for block in section.blocks -%}
+      {%- if block.type == 'text' and block.settings.text != blank -%}
+        <span class="ticker__item ticker__item--text {{ block.settings.text_size }}" {{ block.shopify_attributes }}>
+          {{- block.settings.text -}}
+        </span>
+      {%- elsif block.type == 'image' and block.settings.image != blank -%}
+        <span class="ticker__item ticker__item--image" {{ block.shopify_attributes }}>
+          <img
+            src="{{ block.settings.image | image_url: height: block.settings.image_height }}"
+            alt="{{ block.settings.image.alt | escape }}"
+            height="{{ block.settings.image_height }}"
+            width="{{ block.settings.image_height | times: block.settings.image.aspect_ratio | round }}"
+            loading="lazy"
+          >
+        </span>
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endcapture -%}
+
   <div class="ticker-section ticker-{{ section.id }} color-{{ section.settings.color_scheme }}" role="marquee" aria-label="Scrolling content">
-    <div class="ticker__inner">
-      <div class="ticker__track">
-        {%- for block in section.blocks -%}
-          {%- if block.type == 'text' and block.settings.text != blank -%}
-            <span class="ticker__item ticker__item--text {{ block.settings.text_size }}" {{ block.shopify_attributes }}>
-              {{- block.settings.text -}}
-            </span>
-          {%- elsif block.type == 'image' and block.settings.image != blank -%}
-            <span class="ticker__item ticker__item--image" {{ block.shopify_attributes }}>
-              <img
-                src="{{ block.settings.image | image_url: height: block.settings.image_height }}"
-                alt="{{ block.settings.image.alt | escape }}"
-                height="{{ block.settings.image_height }}"
-                width="{{ block.settings.image_height | times: block.settings.image.aspect_ratio | round }}"
-                loading="lazy"
-              >
-            </span>
-          {%- endif -%}
-        {%- endfor -%}
-      </div>
-      <div class="ticker__track" aria-hidden="true">
-        {%- for block in section.blocks -%}
-          {%- if block.type == 'text' and block.settings.text != blank -%}
-            <span class="ticker__item ticker__item--text {{ block.settings.text_size }}">
-              {{- block.settings.text -}}
-            </span>
-          {%- elsif block.type == 'image' and block.settings.image != blank -%}
-            <span class="ticker__item ticker__item--image">
-              <img
-                src="{{ block.settings.image | image_url: height: block.settings.image_height }}"
-                alt=""
-                height="{{ block.settings.image_height }}"
-                width="{{ block.settings.image_height | times: block.settings.image.aspect_ratio | round }}"
-                loading="lazy"
-              >
-            </span>
-          {%- endif -%}
-        {%- endfor -%}
-      </div>
+    <div class="ticker__inner" data-ticker>
+      <div class="ticker__track">{{ ticker_items }}</div>
     </div>
   </div>
+
+  <script>
+    (function(){
+      var wrapper = document.querySelector('.ticker-{{ section.id }} [data-ticker]');
+      if (!wrapper) return;
+      var track = wrapper.querySelector('.ticker__track');
+      if (!track) return;
+      function fill() {
+        var vw = window.innerWidth;
+        var copies = Math.ceil((vw * 2) / track.scrollWidth) + 1;
+        var existing = wrapper.querySelectorAll('.ticker__track').length;
+        for (var i = existing; i < copies + 1; i++) {
+          var clone = track.cloneNode(true);
+          clone.setAttribute('aria-hidden', 'true');
+          clone.querySelectorAll('[id]').forEach(function(el){ el.removeAttribute('id'); });
+          wrapper.appendChild(clone);
+        }
+      }
+      fill();
+    })();
+  </script>
 {%- endif -%}
 
 {% style %}

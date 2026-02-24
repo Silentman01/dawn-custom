@@ -1,0 +1,427 @@
+{%- style -%}
+  .columns-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    {% if section.settings.use_custom_colors and section.settings.custom_bg_color != blank %}
+      --columns-bg: {{ section.settings.custom_bg_color }};
+    {% endif %}
+    {% if section.settings.use_custom_colors and section.settings.custom_text_color != blank %}
+      --columns-text: {{ section.settings.custom_text_color }};
+    {% endif %}
+    {% if section.settings.use_custom_colors and section.settings.custom_button_bg != blank %}
+      --columns-btn-bg: {{ section.settings.custom_button_bg }};
+    {% endif %}
+    {% if section.settings.use_custom_colors and section.settings.custom_button_text != blank %}
+      --columns-btn-text: {{ section.settings.custom_button_text }};
+    {% endif %}
+  }
+  @media screen and (min-width: 750px) {
+    .columns-{{ section.id }} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="custom-columns columns-{{ section.id }} color-{{ section.settings.color_scheme }} gradient">
+  <div class="page-width">
+    {%- if section.settings.title != blank -%}
+      <div class="custom-columns__header center">
+        <h2 class="custom-columns__title inline-richtext {{ section.settings.heading_size }}">
+          {{ section.settings.title }}
+        </h2>
+        {%- if section.settings.subtitle != blank -%}
+          <div class="custom-columns__subtitle rte">{{ section.settings.subtitle }}</div>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    {%- if section.blocks.size > 0 -%}
+      <div class="custom-columns__grid custom-columns__grid--{{ section.settings.columns_per_row }}">
+        {%- for block in section.blocks -%}
+          <div class="custom-columns__item" {{ block.shopify_attributes }}>
+            {%- if block.settings.media_position == 'above' -%}
+              {%- if block.settings.video != blank -%}
+                <div class="custom-columns__media">
+                  {{ block.settings.video | video_tag: image_size: '800x', autoplay: true, loop: true, muted: true, controls: false, playsinline: true }}
+                </div>
+              {%- elsif block.settings.image != blank -%}
+                <div class="custom-columns__media">
+                  <img
+                    src="{{ block.settings.image | image_url: width: 800 }}"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    width="800"
+                    height="{{ 800 | divided_by: block.settings.image.aspect_ratio | round }}"
+                    loading="lazy"
+                  >
+                </div>
+              {%- endif -%}
+            {%- endif -%}
+
+            <div class="custom-columns__content">
+              {%- if block.settings.column_title != blank -%}
+                <h3 class="custom-columns__column-title {{ block.settings.column_heading_size }}">{{ block.settings.column_title }}</h3>
+              {%- endif -%}
+
+              {%- if block.settings.text != blank -%}
+                <div class="custom-columns__text rte">{{ block.settings.text }}</div>
+              {%- endif -%}
+
+              {%- if block.settings.button_label != blank -%}
+                <a
+                  {% if block.settings.button_link != blank %}
+                    href="{{ block.settings.button_link }}"
+                  {% else %}
+                    role="link" aria-disabled="true"
+                  {% endif %}
+                  class="custom-columns__button button {% if block.settings.button_outline %}button--secondary{% else %}button--primary{% endif %}"
+                >
+                  {{ block.settings.button_label | escape }}
+                </a>
+              {%- endif -%}
+            </div>
+
+            {%- if block.settings.media_position == 'below' -%}
+              {%- if block.settings.video != blank -%}
+                <div class="custom-columns__media">
+                  {{ block.settings.video | video_tag: image_size: '800x', autoplay: true, loop: true, muted: true, controls: false, playsinline: true }}
+                </div>
+              {%- elsif block.settings.image != blank -%}
+                <div class="custom-columns__media">
+                  <img
+                    src="{{ block.settings.image | image_url: width: 800 }}"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    width="800"
+                    height="{{ 800 | divided_by: block.settings.image.aspect_ratio | round }}"
+                    loading="lazy"
+                  >
+                </div>
+              {%- endif -%}
+            {%- endif -%}
+          </div>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+
+{% style %}
+  .custom-columns {
+    background-color: var(--columns-bg, rgb(var(--color-background)));
+    color: var(--columns-text, rgb(var(--color-foreground)));
+  }
+
+  .custom-columns__header {
+    margin-bottom: 3rem;
+  }
+
+  .custom-columns__header.center {
+    text-align: center;
+  }
+
+  .custom-columns__title {
+    margin: 0 0 1rem;
+  }
+
+  .custom-columns__subtitle {
+    margin: 0;
+    opacity: 0.75;
+  }
+
+  .custom-columns__grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr;
+  }
+
+  @media screen and (min-width: 750px) {
+    .custom-columns__grid--2 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .custom-columns__grid--3 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .custom-columns__grid--4 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (min-width: 990px) {
+    .custom-columns__grid--4 {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .custom-columns__item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .custom-columns__media {
+    border-radius: var(--media-radius);
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+  }
+
+  .custom-columns__content + .custom-columns__media {
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+  }
+
+  .custom-columns__media img,
+  .custom-columns__media video {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .custom-columns__column-title {
+    margin: 0 0 1rem;
+  }
+
+  .custom-columns__text {
+    margin: 0 0 1.5rem;
+  }
+
+  .custom-columns__text:last-child {
+    margin-bottom: 0;
+  }
+
+  .custom-columns__button {
+    align-self: flex-start;
+  }
+
+  .custom-columns__button.button--primary {
+    background-color: var(--columns-btn-bg, rgb(var(--color-button)));
+    color: var(--columns-btn-text, rgb(var(--color-button-text)));
+  }
+
+  .custom-columns__button.button--secondary {
+    color: var(--columns-btn-bg, rgb(var(--color-secondary-button-text)));
+    border-color: var(--columns-btn-bg, currentColor);
+  }
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "Custom columns",
+  "class": "section",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "default": "Section title",
+      "label": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "Small"
+        },
+        {
+          "value": "h1",
+          "label": "Medium"
+        },
+        {
+          "value": "h0",
+          "label": "Large"
+        }
+      ],
+      "default": "h1",
+      "label": "Heading size"
+    },
+    {
+      "type": "richtext",
+      "id": "subtitle",
+      "label": "Subtitle"
+    },
+    {
+      "type": "select",
+      "id": "columns_per_row",
+      "options": [
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "3",
+          "label": "3"
+        },
+        {
+          "value": "4",
+          "label": "4"
+        }
+      ],
+      "default": "3",
+      "label": "Columns per row"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "checkbox",
+      "id": "use_custom_colors",
+      "default": false,
+      "label": "Use custom colors"
+    },
+    {
+      "type": "color",
+      "id": "custom_bg_color",
+      "label": "Background color"
+    },
+    {
+      "type": "color",
+      "id": "custom_text_color",
+      "label": "Text color"
+    },
+    {
+      "type": "color",
+      "id": "custom_button_bg",
+      "label": "Button color"
+    },
+    {
+      "type": "color",
+      "id": "custom_button_text",
+      "label": "Button text color"
+    },
+    {
+      "type": "header",
+      "content": "Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "default": 36,
+      "unit": "px",
+      "label": "Top padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "default": 36,
+      "unit": "px",
+      "label": "Bottom padding"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "column",
+      "name": "Column",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "video",
+          "id": "video",
+          "label": "Video",
+          "info": "Video takes priority over image"
+        },
+        {
+          "type": "select",
+          "id": "media_position",
+          "options": [
+            {
+              "value": "above",
+              "label": "Above text"
+            },
+            {
+              "value": "below",
+              "label": "Below text"
+            }
+          ],
+          "default": "above",
+          "label": "Media position"
+        },
+        {
+          "type": "text",
+          "id": "column_title",
+          "default": "Column title",
+          "label": "Title"
+        },
+        {
+          "type": "select",
+          "id": "column_heading_size",
+          "options": [
+            {
+              "value": "h4",
+              "label": "Small"
+            },
+            {
+              "value": "h3",
+              "label": "Medium"
+            },
+            {
+              "value": "h2",
+              "label": "Large"
+            }
+          ],
+          "default": "h3",
+          "label": "Title size"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Pair text with an image or video to provide more details about your content.</p>",
+          "label": "Text"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button label"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button link"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_outline",
+          "default": false,
+          "label": "Outline button style"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom columns",
+      "blocks": [
+        {
+          "type": "column"
+        },
+        {
+          "type": "column"
+        },
+        {
+          "type": "column"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
