@@ -59,21 +59,22 @@
     "cart-drawer": {
       "type": "cart-drawer",
       "blocks": {
-        "countdown_YDMmUR": {
-          "type": "countdown",
+        "free_shipping_bar_cinAYN": {
+          "type": "free_shipping_bar",
           "settings": {
-            "duration": 5,
-            "message": "Your cart is reserved for",
-            "text_color": "",
-            "icon_color": ""
+            "threshold": 50,
+            "message": "You're [amount] away from free shipping!",
+            "success_message": "You've unlocked free shipping!",
+            "bar_color": "#2e7d32",
+            "bg_color": "#f1f8e9",
+            "text_color": "#2e7d32"
           }
         }
       },
       "block_order": [
-        "countdown_YDMmUR"
+        "free_shipping_bar_cinAYN"
       ],
       "settings": {
-        "test_mode": true,
         "heading_text": "Cart",
         "heading_alignment": "left",
         "desktop_width": "normal",
