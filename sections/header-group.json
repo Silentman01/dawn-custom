@@ -58,7 +58,36 @@
     },
     "cart-drawer": {
       "type": "cart-drawer",
-      "settings": {}
+      "blocks": {
+        "countdown_YDMmUR": {
+          "type": "countdown",
+          "settings": {
+            "duration": 5,
+            "message": "Your cart is reserved for",
+            "text_color": "",
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "countdown_YDMmUR"
+      ],
+      "settings": {
+        "test_mode": true,
+        "heading_text": "Cart",
+        "heading_alignment": "left",
+        "desktop_width": "normal",
+        "mobile_width": "full",
+        "header_custom_bg": false,
+        "header_bg_color": "#f3f3f3",
+        "body_custom_bg": false,
+        "body_bg_color": "#f3f3f3",
+        "footer_custom_bg": false,
+        "footer_bg_color": "#f3f3f3",
+        "color_scheme": "",
+        "show_cart_note": false,
+        "show_dynamic_checkout": false
+      }
     }
   },
   "order": [
