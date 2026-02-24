@@ -393,10 +393,10 @@
             "button_label": "",
             "button_link": "",
             "button_outline": false,
-            "column_color_scheme": "scheme-1",
-            "use_custom_colors": false,
-            "custom_bg_color": "",
-            "custom_text_color": "",
+            "column_color_scheme": "scheme-2",
+            "use_custom_colors": true,
+            "custom_bg_color": "#ffffff",
+            "custom_text_color": "#121212",
             "custom_button_bg": "",
             "custom_button_text": ""
           }
