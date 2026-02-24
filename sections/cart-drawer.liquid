@@ -120,13 +120,9 @@
       {%- comment -%} Detect structural blocks {%- endcomment -%}
       {%- liquid
         assign has_cart_items_block = false
-        assign has_checkout_block = false
         for block in section.blocks
           if block.type == 'cart_items'
             assign has_cart_items_block = true
-          endif
-          if block.type == 'checkout_button'
-            assign has_checkout_block = true
           endif
         endfor
       -%}
@@ -134,7 +130,6 @@
       {%- comment -%} BODY BLOCKS before cart items {%- endcomment -%}
       {%- for block in section.blocks -%}
         {%- if block.type == 'cart_items' -%}{%- break -%}{%- endif -%}
-        {%- if block.type == 'checkout_button' -%}{%- continue -%}{%- endif -%}
         {%- liquid
           assign block_position = block.settings.position | default: 'footer'
           if block.type == 'free_shipping_bar' and block.settings.position == blank
@@ -546,7 +541,6 @@
             {%- continue -%}
           {%- endif -%}
           {%- unless past_cart_items_block -%}{%- continue -%}{%- endunless -%}
-          {%- if block.type == 'checkout_button' -%}{%- continue -%}{%- endif -%}
           {%- liquid
             assign block_position = block.settings.position | default: 'footer'
             if block.type == 'free_shipping_bar' and block.settings.position == blank
@@ -625,60 +619,19 @@
         </div>
         {%- endcapture -%}
 
-        {%- unless has_checkout_block -%}
-          {%- comment -%} Default: checkout first, then footer blocks below {%- endcomment -%}
-          {{ checkout_section_html }}
-          {%- for block in section.blocks -%}
-            {%- if block.type == 'cart_items' or block.type == 'checkout_button' -%}{%- continue -%}{%- endif -%}
-            {%- liquid
-              assign block_position = block.settings.position | default: 'footer'
-              if block.type == 'free_shipping_bar' and block.settings.position == blank
-                assign block_position = 'body'
-              endif
-            -%}
-            {%- if block_position == 'footer' -%}
-              {%- render 'cart-drawer-block', block: block, cart: cart -%}
-            {%- endif -%}
-          {%- endfor -%}
-        {%- endunless -%}
-
-        {%- if has_checkout_block -%}
-          {%- comment -%} Custom order: footer blocks around checkout_button {%- endcomment -%}
-          {%- for block in section.blocks -%}
-            {%- if block.type == 'checkout_button' -%}{%- break -%}{%- endif -%}
-            {%- if block.type == 'cart_items' -%}{%- continue -%}{%- endif -%}
-            {%- liquid
-              assign block_position = block.settings.position | default: 'footer'
-              if block.type == 'free_shipping_bar' and block.settings.position == blank
-                assign block_position = 'body'
-              endif
-            -%}
-            {%- if block_position == 'footer' -%}
-              {%- render 'cart-drawer-block', block: block, cart: cart -%}
-            {%- endif -%}
-          {%- endfor -%}
-
-          {{ checkout_section_html }}
-
-          {%- assign past_checkout_block = false -%}
-          {%- for block in section.blocks -%}
-            {%- if block.type == 'checkout_button' -%}
-              {%- assign past_checkout_block = true -%}
-              {%- continue -%}
-            {%- endif -%}
-            {%- unless past_checkout_block -%}{%- continue -%}{%- endunless -%}
-            {%- if block.type == 'cart_items' -%}{%- continue -%}{%- endif -%}
-            {%- liquid
-              assign block_position = block.settings.position | default: 'footer'
-              if block.type == 'free_shipping_bar' and block.settings.position == blank
-                assign block_position = 'body'
-              endif
-            -%}
-            {%- if block_position == 'footer' -%}
-              {%- render 'cart-drawer-block', block: block, cart: cart -%}
-            {%- endif -%}
-          {%- endfor -%}
-        {%- endif -%}
+        {{ checkout_section_html }}
+        {%- for block in section.blocks -%}
+          {%- if block.type == 'cart_items' -%}{%- continue -%}{%- endif -%}
+          {%- liquid
+            assign block_position = block.settings.position | default: 'footer'
+            if block.type == 'free_shipping_bar' and block.settings.position == blank
+              assign block_position = 'body'
+            endif
+          -%}
+          {%- if block_position == 'footer' -%}
+            {%- render 'cart-drawer-block', block: block, cart: cart -%}
+          {%- endif -%}
+        {%- endfor -%}
       </div>
     </div>
   </div>
@@ -810,12 +763,6 @@
     {
       "type": "cart_items",
       "name": "Cart items",
-      "limit": 1,
-      "settings": []
-    },
-    {
-      "type": "checkout_button",
-      "name": "Checkout button",
       "limit": 1,
       "settings": []
     },
