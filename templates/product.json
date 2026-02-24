@@ -264,6 +264,40 @@
         "padding_bottom": 36
       }
     },
+    "custom_ticker_MHrdMf": {
+      "type": "custom-ticker",
+      "blocks": {
+        "text_PEdhQC": {
+          "type": "text",
+          "settings": {
+            "text": "Designed in Colorado",
+            "text_size": "text-medium"
+          }
+        },
+        "text_3WDdzc": {
+          "type": "text",
+          "settings": {
+            "text": "Join 10,000+ Men",
+            "text_size": "text-medium"
+          }
+        }
+      },
+      "block_order": [
+        "text_PEdhQC",
+        "text_3WDdzc"
+      ],
+      "name": "Ticker",
+      "settings": {
+        "speed": 5,
+        "gap": 70,
+        "color_scheme": "scheme-4",
+        "use_custom_bg": false,
+        "custom_bg_color": "",
+        "custom_text_color": "",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
     "image_with_text_3MgbLE": {
       "type": "image-with-text",
       "blocks": {
@@ -338,6 +372,7 @@
     "main",
     "custom_ticker_yKPffF",
     "image-with-text",
+    "custom_ticker_MHrdMf",
     "image_with_text_3MgbLE",
     "related-products"
   ]
