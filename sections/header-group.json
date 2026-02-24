@@ -90,11 +90,16 @@
             "block_bg_color": "#ffffff",
             "block_text_color": ""
           }
+        },
+        "checkout_button_mNBYbd": {
+          "type": "checkout_button",
+          "settings": {}
         }
       },
       "block_order": [
         "countdown_timer_EAtHL7",
-        "enhanced_text_8JeKFn"
+        "enhanced_text_8JeKFn",
+        "checkout_button_mNBYbd"
       ],
       "settings": {
         "heading_text": "Cart",
