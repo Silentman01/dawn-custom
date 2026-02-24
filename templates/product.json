@@ -16,13 +16,13 @@
           "type": "testimonials_carousel",
           "settings": {
             "image_1": "shopify://shop_images/dr3.jpg",
-            "author_1": "Michael T. - Phoenix, USA",
+            "author_1": "Michael T.",
             "text_1": "Performance anxiety was killing my marriage. Three weeks wearing this and I'm lasting like my 20s again. She asked for round 3 last night. 🤣",
             "image_2": "shopify://shop_images/dr1.jpg",
-            "author_2": "David R. - Chicago, USA",
+            "author_2": "David R.",
             "text_2": "Couldn't button my jeans. Wife stopped touching my stomach. Two weeks in and the gut is gone. She can't keep her hands off me now ✌️",
             "image_3": "shopify://shop_images/dr2.jpg",
-            "author_3": "James K. - Dallas, USA",
+            "author_3": "James K.",
             "text_3": "3 AM wake-ups every night for 2 years. Ambien stopped working. First week I slept 7 hours straight. No pills, just deep sleep.",
             "show_stars": false,
             "show_verified": true,
@@ -70,9 +70,9 @@
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": false,
             "button_text": "ADD TO CART",
+            "use_custom_colors": false,
             "button_bg_color": "",
-            "button_text_color": "",
-            "button_color_scheme": "scheme-f103cf1c-f664-4721-a200-f4397a23b554"
+            "button_text_color": ""
           }
         },
         "description": {
