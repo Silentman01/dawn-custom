@@ -64,12 +64,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "testimonials_carousel": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% render 'custom-testimonials-carousel' %}"
-          }
-        },
         "description": {
           "type": "description",
           "settings": {}
@@ -126,7 +120,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "testimonials_carousel",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
