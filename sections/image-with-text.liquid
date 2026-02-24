@@ -31,7 +31,7 @@
         <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
           {%- if section.settings.video != blank -%}
             <div
-              class="image-with-text__media image-with-text__media--{{ section.settings.video_height }} global-media-settings{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %} media"
+              class="image-with-text__media image-with-text__media--{{ section.settings.video_height }} image-with-text__media--video global-media-settings{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %} media"
               {% if section.settings.video_height == 'adapt' and section.settings.video.aspect_ratio != blank %}
                 style="padding-bottom: {{ 1 | divided_by: section.settings.video.aspect_ratio | times: 100 }}%;"
               {% endif %}
@@ -43,7 +43,8 @@
                   autoplay: section.settings.video_autoplay,
                   loop: section.settings.video_looping,
                   muted: section.settings.video_autoplay,
-                  controls: true
+                  controls: false,
+                  playsinline: true
               }}
             </div>
           {%- else -%}
