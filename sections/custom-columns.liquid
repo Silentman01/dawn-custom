@@ -21,12 +21,31 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  {%- for block in section.blocks -%}
+    {%- if block.settings.use_custom_colors -%}
+      .columns-{{ section.id }} .custom-columns__item--{{ block.id }} {
+        {% if block.settings.custom_bg_color != blank %}
+          --col-bg: {{ block.settings.custom_bg_color }};
+        {% endif %}
+        {% if block.settings.custom_text_color != blank %}
+          --col-text: {{ block.settings.custom_text_color }};
+        {% endif %}
+        {% if block.settings.custom_button_bg != blank %}
+          --col-btn-bg: {{ block.settings.custom_button_bg }};
+        {% endif %}
+        {% if block.settings.custom_button_text != blank %}
+          --col-btn-text: {{ block.settings.custom_button_text }};
+        {% endif %}
+      }
+    {%- endif -%}
+  {%- endfor -%}
 {%- endstyle -%}
 
 <div class="custom-columns columns-{{ section.id }} color-{{ section.settings.color_scheme }} gradient">
   <div class="page-width">
     {%- if section.settings.title != blank -%}
-      <div class="custom-columns__header center">
+      <div class="custom-columns__header custom-columns__align--{{ section.settings.heading_alignment }}">
         <h2 class="custom-columns__title inline-richtext {{ section.settings.heading_size }}">
           {{ section.settings.title }}
         </h2>
@@ -39,7 +58,18 @@
     {%- if section.blocks.size > 0 -%}
       <div class="custom-columns__grid custom-columns__grid--{{ section.settings.columns_per_row }}">
         {%- for block in section.blocks -%}
-          <div class="custom-columns__item" {{ block.shopify_attributes }}>
+          {%- liquid
+            assign col_has_custom = block.settings.use_custom_colors
+            assign col_has_scheme = false
+            if col_has_custom == false and block.settings.column_color_scheme != section.settings.color_scheme
+              assign col_has_scheme = true
+            endif
+            assign col_align = block.settings.text_alignment | default: section.settings.text_alignment
+          -%}
+          <div
+            class="custom-columns__item custom-columns__item--{{ block.id }} custom-columns__align--{{ col_align }}{% if col_has_custom %} custom-columns__item--custom{% endif %}{% if col_has_scheme %} color-{{ block.settings.column_color_scheme }}{% endif %}"
+            {{ block.shopify_attributes }}
+          >
             {%- if block.settings.media_position == 'above' -%}
               {%- if block.settings.video != blank -%}
                 <div class="custom-columns__media">
@@ -115,8 +145,24 @@
     margin-bottom: 3rem;
   }
 
-  .custom-columns__header.center {
+  .custom-columns__align--left {
+    text-align: left;
+  }
+
+  .custom-columns__align--center {
     text-align: center;
+  }
+
+  .custom-columns__align--right {
+    text-align: right;
+  }
+
+  .custom-columns__align--center .custom-columns__button {
+    align-self: center;
+  }
+
+  .custom-columns__align--right .custom-columns__button {
+    align-self: flex-end;
   }
 
   .custom-columns__title {
@@ -155,6 +201,23 @@
   .custom-columns__item {
     display: flex;
     flex-direction: column;
+  }
+
+  .custom-columns__item--custom {
+    background-color: var(--col-bg);
+    color: var(--col-text);
+    border-radius: var(--text-boxes-radius);
+    padding: 1.5rem;
+  }
+
+  .custom-columns__item--custom .custom-columns__button.button--primary {
+    background-color: var(--col-btn-bg, rgb(var(--color-button)));
+    color: var(--col-btn-text, rgb(var(--color-button-text)));
+  }
+
+  .custom-columns__item--custom .custom-columns__button.button--secondary {
+    color: var(--col-btn-bg, rgb(var(--color-secondary-button-text)));
+    border-color: var(--col-btn-bg, currentColor);
   }
 
   .custom-columns__media {
@@ -245,6 +308,46 @@
     },
     {
       "type": "select",
+      "id": "heading_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center",
+      "label": "Heading alignment"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left",
+      "label": "Columns text alignment"
+    },
+    {
+      "type": "select",
       "id": "columns_per_row",
       "options": [
         {
@@ -265,7 +368,7 @@
     },
     {
       "type": "header",
-      "content": "Colors"
+      "content": "Section colors"
     },
     {
       "type": "color_scheme",
@@ -389,6 +492,30 @@
           "label": "Text"
         },
         {
+          "type": "select",
+          "id": "text_alignment",
+          "options": [
+            {
+              "value": "",
+              "label": "Use section default"
+            },
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ],
+          "default": "",
+          "label": "Text alignment"
+        },
+        {
           "type": "text",
           "id": "button_label",
           "label": "Button label"
@@ -403,6 +530,42 @@
           "id": "button_outline",
           "default": false,
           "label": "Outline button style"
+        },
+        {
+          "type": "header",
+          "content": "Column colors"
+        },
+        {
+          "type": "color_scheme",
+          "id": "column_color_scheme",
+          "label": "Color scheme",
+          "default": "scheme-1"
+        },
+        {
+          "type": "checkbox",
+          "id": "use_custom_colors",
+          "default": false,
+          "label": "Use custom colors"
+        },
+        {
+          "type": "color",
+          "id": "custom_bg_color",
+          "label": "Background color"
+        },
+        {
+          "type": "color",
+          "id": "custom_text_color",
+          "label": "Text color"
+        },
+        {
+          "type": "color",
+          "id": "custom_button_bg",
+          "label": "Button color"
+        },
+        {
+          "type": "color",
+          "id": "custom_button_text",
+          "label": "Button text color"
         }
       ]
     }
