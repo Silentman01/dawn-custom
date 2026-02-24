@@ -288,7 +288,7 @@
       ],
       "name": "Ticker",
       "settings": {
-        "speed": 5,
+        "speed": 30,
         "gap": 70,
         "color_scheme": "scheme-4",
         "use_custom_bg": false,
