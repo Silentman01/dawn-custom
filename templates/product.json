@@ -52,6 +52,21 @@
             "custom_liquid": "<p>Forged from mineral-dense hematite—<strong>the grounding stone</strong> ancient \nwarriors carried into battle—not for decoration, but for the edge \nit gave them when it mattered most.</p>\n\n<p><strong>Wear it. Feel the shift. Reclaim what time and routine took away.</strong></p>"
           }
         },
+        "text_with_icon_x69gjW": {
+          "type": "text_with_icon",
+          "settings": {
+            "icon_1": "check_circle",
+            "text_1": "Restore Mental Sharpness",
+            "icon_2": "check_circle",
+            "text_2": "Reignite Natural Drive",
+            "icon_3": "check_circle",
+            "text_3": "Ground Scattered Energy",
+            "direction": "vertical",
+            "text_size": 16,
+            "text_color": "#121212",
+            "icon_color": "#121212"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -127,6 +142,7 @@
         "title",
         "price",
         "custom_liquid_kPpcjQ",
+        "text_with_icon_x69gjW",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
