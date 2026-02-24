@@ -70,16 +70,30 @@
               assign quantity_rule_soldout = true
             endif
           -%}
+          {%- liquid
+            assign btn_classes = 'product-form__submit button button--full-width'
+            if show_dynamic_checkout
+              assign btn_classes = btn_classes | append: ' button--secondary'
+            else
+              assign btn_classes = btn_classes | append: ' button--primary'
+            endif
+            if block.settings.button_color_scheme != blank and block.settings.button_color_scheme != 'none'
+              assign btn_classes = btn_classes | append: ' color-' | append: block.settings.button_color_scheme
+            endif
+          -%}
           <button
             id="ProductSubmitButton-{{ section_id }}"
             type="submit"
             name="add"
-            class="product-form__submit button button--full-width {% if show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
+            class="{{ btn_classes }}"
             {% if product.selected_or_first_available_variant.available == false
               or quantity_rule_soldout
               or product.selected_or_first_available_variant == null
             %}
               disabled
+            {% endif %}
+            {% if block.settings.button_bg_color != blank or block.settings.button_text_color != blank %}
+              style="{% if block.settings.button_bg_color != blank %}--color-button: {{ block.settings.button_bg_color.red }}, {{ block.settings.button_bg_color.green }}, {{ block.settings.button_bg_color.blue }}; background-color: {{ block.settings.button_bg_color }};{% endif %}{% if block.settings.button_text_color != blank %}--color-button-text: {{ block.settings.button_text_color.red }}, {{ block.settings.button_text_color.green }}, {{ block.settings.button_text_color.blue }}; color: {{ block.settings.button_text_color }};{% endif %}"
             {% endif %}
           >
             <span>
@@ -88,7 +102,11 @@
               {%- elsif product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
                 {{ 'products.product.sold_out' | t }}
               {%- else -%}
-                {{ 'products.product.add_to_cart' | t }}
+                {%- if block.settings.button_text != blank -%}
+                  {{ block.settings.button_text }}
+                {%- else -%}
+                  {{ 'products.product.add_to_cart' | t }}
+                {%- endif -%}
               {%- endif -%}
             </span>
             {%- render 'loading-spinner' -%}

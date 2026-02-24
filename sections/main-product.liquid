@@ -239,6 +239,8 @@
                     image_3: block.settings.image_3,
                     author_3: block.settings.author_3,
                     text_3: block.settings.text_3,
+                    show_stars: block.settings.show_stars,
+                    show_verified: block.settings.show_verified,
                     star_color: block.settings.star_color,
                     speed: block.settings.speed
                   %}
@@ -981,6 +983,32 @@
           "default": true,
           "label": "t:sections.main-product.blocks.buy_buttons.settings.show_gift_card_recipient.label",
           "info": "t:sections.main-product.blocks.buy_buttons.settings.show_gift_card_recipient.info"
+        },
+        {
+          "type": "header",
+          "content": "Button style"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button text",
+          "info": "Leave blank to use default \"Add to cart\""
+        },
+        {
+          "type": "color",
+          "id": "button_bg_color",
+          "label": "Button background color"
+        },
+        {
+          "type": "color",
+          "id": "button_text_color",
+          "label": "Button text color"
+        },
+        {
+          "type": "color_scheme",
+          "id": "button_color_scheme",
+          "label": "Button color scheme",
+          "info": "Overrides custom colors if set"
         }
       ]
     },
@@ -1199,6 +1227,18 @@
         {
           "type": "header",
           "content": "Style"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_stars",
+          "default": true,
+          "label": "Show stars"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_verified",
+          "default": true,
+          "label": "Show verified purchase badge"
         },
         {
           "type": "color",

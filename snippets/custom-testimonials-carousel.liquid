@@ -58,7 +58,9 @@
             <img class="rv-avatar" src="{{ rv_image | image_url: width: 88 }}" alt="{{ rv_author | strip_html | escape }}" width="44" height="44" loading="lazy">
           {%- endif -%}
           <div class="rv-content">
+            {%- if show_stars != false or show_verified != false -%}
             <div class="rv-stars-row">
+              {%- if show_stars != false -%}
               <div class="rv-stars" style="color: {{ s_color }};">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
@@ -66,11 +68,15 @@
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
               </div>
+              {%- endif -%}
+              {%- if show_verified != false -%}
               <span class="rv-verified">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1l3.09 2.34L18.5 3l1.28 3.17L22 9.27l-1.64 3.07.36 3.48-3.2 1.43L15.09 20 12 19.09 8.91 20l-2.53-2.75-3.2-1.43.36-3.48L1.9 9.27l2.22-3.1L5.5 3l3.41.34L12 1zm-1.41 14.59l7.07-7.07-1.41-1.41-5.66 5.66-2.83-2.83-1.41 1.41 4.24 4.24z"/></svg>
                 Verified Purchase
               </span>
+              {%- endif -%}
             </div>
+            {%- endif -%}
             <p class="rv-text">{{ rv_text }}</p>
             {%- if rv_author != blank -%}
               <p class="rv-author">{{ rv_author }}</p>
