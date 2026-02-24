@@ -8,62 +8,65 @@
  * ------------------------------------------------------------
  */
 {
-  "name": "t:sections.header.name",
-  "type": "header",
+  "name": "t:sections.footer.name",
+  "type": "footer",
   "sections": {
-    "announcement-bar": {
-      "type": "announcement-bar",
+    "footer": {
+      "type": "footer",
       "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
+        "image_WBjmJi": {
+          "type": "image",
           "settings": {
-            "text": "<p><strong>40% OFF</strong> - VALENTINE SALE <a href=\"/products/hematite\" title=\"Hemax® Hematite Bracelet\"><span style=\"text-decoration:underline\">SHOP NOW →</span></a></p>",
-            "link": ""
+            "image": "shopify://shop_images/hemax_logo_white.png",
+            "image_width": 100,
+            "alignment": "center"
+          }
+        },
+        "footer-2": {
+          "type": "text",
+          "settings": {
+            "heading": "CONTACT US",
+            "subtext": "<p>Got a question?<br/>Reach out anytime, we're here to help:</p><p></p><p><strong>info@myhemax.com</strong></p>"
+          }
+        },
+        "footer-0": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer"
+          }
+        },
+        "footer-1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer"
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "image_WBjmJi",
+        "footer-2",
+        "footer-0",
+        "footer-1"
       ],
       "settings": {
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "color_scheme": "",
-        "show_line_separator": false,
-        "show_social": false,
+        "color_scheme": "scheme-5",
+        "newsletter_enable": true,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 48,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
-    },
-    "header": {
-      "type": "header",
-      "settings": {
-        "logo_position": "middle-left",
-        "mobile_logo_position": "center",
-        "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
-        "sticky_header_type": "on-scroll-up",
-        "show_line_separator": true,
-        "color_scheme": "scheme-1",
-        "menu_color_scheme": "",
-        "enable_country_selector": false,
-        "enable_language_selector": false,
-        "enable_customer_avatar": false,
-        "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
-    "cart-drawer": {
-      "type": "cart-drawer",
-      "settings": {}
     }
   },
   "order": [
-    "announcement-bar",
-    "header",
-    "cart-drawer"
+    "footer"
   ]
 }
