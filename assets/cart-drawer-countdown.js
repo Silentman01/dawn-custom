@@ -59,7 +59,7 @@ const CartCountdownManager = (() => {
       const expiredMsg = activeElement.dataset.expiredMessage;
       if (expiredMsg) {
         const textEl = activeElement.querySelector('.cart-drawer-countdown__text');
-        if (textEl) textEl.textContent = expiredMsg;
+        if (textEl) textEl.innerHTML = '<p>' + expiredMsg + '</p>';
       }
       activeElement.classList.add('cart-drawer-countdown--expired');
       clearInterval(intervalId);

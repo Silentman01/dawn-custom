@@ -117,8 +117,24 @@
         </button>
       </div>
 
-      {%- comment -%} BODY BLOCKS: rendered above cart items (position == body) {%- endcomment -%}
+      {%- comment -%} Detect structural blocks {%- endcomment -%}
+      {%- liquid
+        assign has_cart_items_block = false
+        assign has_checkout_block = false
+        for block in section.blocks
+          if block.type == 'cart_items'
+            assign has_cart_items_block = true
+          endif
+          if block.type == 'checkout_button'
+            assign has_checkout_block = true
+          endif
+        endfor
+      -%}
+
+      {%- comment -%} BODY BLOCKS before cart items {%- endcomment -%}
       {%- for block in section.blocks -%}
+        {%- if block.type == 'cart_items' -%}{%- break -%}{%- endif -%}
+        {%- if block.type == 'checkout_button' -%}{%- continue -%}{%- endif -%}
         {%- liquid
           assign block_position = block.settings.position | default: 'footer'
           if block.type == 'free_shipping_bar' and block.settings.position == blank
@@ -531,6 +547,28 @@
         </form>
       </cart-drawer-items>
 
+      {%- comment -%} BODY BLOCKS after cart items (only when cart_items block exists) {%- endcomment -%}
+      {%- if has_cart_items_block -%}
+        {%- assign past_cart_items_block = false -%}
+        {%- for block in section.blocks -%}
+          {%- if block.type == 'cart_items' -%}
+            {%- assign past_cart_items_block = true -%}
+            {%- continue -%}
+          {%- endif -%}
+          {%- unless past_cart_items_block -%}{%- continue -%}{%- endunless -%}
+          {%- if block.type == 'checkout_button' -%}{%- continue -%}{%- endif -%}
+          {%- liquid
+            assign block_position = block.settings.position | default: 'footer'
+            if block.type == 'free_shipping_bar' and block.settings.position == blank
+              assign block_position = 'body'
+            endif
+          -%}
+          {%- if block_position == 'body' -%}
+            {%- render 'cart-drawer-block', block: block, cart: cart -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+
       <div class="drawer__footer">
         {%- if section.settings.show_cart_note -%}
           <details id="Details-CartDrawer">
@@ -552,19 +590,8 @@
           </details>
         {%- endif -%}
 
-        {%- comment -%} FOOTER BLOCKS: rendered below cart items (position == footer) {%- endcomment -%}
-        {%- for block in section.blocks -%}
-          {%- liquid
-            assign block_position = block.settings.position | default: 'footer'
-            if block.type == 'free_shipping_bar' and block.settings.position == blank
-              assign block_position = 'body'
-            endif
-          -%}
-          {%- if block_position == 'footer' -%}
-            {%- render 'cart-drawer-block', block: block, cart: cart -%}
-          {%- endif -%}
-        {%- endfor -%}
-
+        {%- comment -%} Capture checkout + totals for reuse {%- endcomment -%}
+        {%- capture checkout_section_html -%}
         <div class="cart-drawer__footer">
           <div>
             {%- if cart.cart_level_discount_applications.size > 0 -%}
@@ -645,6 +672,62 @@
             </div>
           {%- endif -%}
         </div>
+        {%- endcapture -%}
+
+        {%- unless has_checkout_block -%}
+          {%- comment -%} Default: checkout first, then footer blocks below {%- endcomment -%}
+          {{ checkout_section_html }}
+          {%- for block in section.blocks -%}
+            {%- if block.type == 'cart_items' or block.type == 'checkout_button' -%}{%- continue -%}{%- endif -%}
+            {%- liquid
+              assign block_position = block.settings.position | default: 'footer'
+              if block.type == 'free_shipping_bar' and block.settings.position == blank
+                assign block_position = 'body'
+              endif
+            -%}
+            {%- if block_position == 'footer' -%}
+              {%- render 'cart-drawer-block', block: block, cart: cart -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endunless -%}
+
+        {%- if has_checkout_block -%}
+          {%- comment -%} Custom order: footer blocks around checkout_button {%- endcomment -%}
+          {%- for block in section.blocks -%}
+            {%- if block.type == 'checkout_button' -%}{%- break -%}{%- endif -%}
+            {%- if block.type == 'cart_items' -%}{%- continue -%}{%- endif -%}
+            {%- liquid
+              assign block_position = block.settings.position | default: 'footer'
+              if block.type == 'free_shipping_bar' and block.settings.position == blank
+                assign block_position = 'body'
+              endif
+            -%}
+            {%- if block_position == 'footer' -%}
+              {%- render 'cart-drawer-block', block: block, cart: cart -%}
+            {%- endif -%}
+          {%- endfor -%}
+
+          {{ checkout_section_html }}
+
+          {%- assign past_checkout_block = false -%}
+          {%- for block in section.blocks -%}
+            {%- if block.type == 'checkout_button' -%}
+              {%- assign past_checkout_block = true -%}
+              {%- continue -%}
+            {%- endif -%}
+            {%- unless past_checkout_block -%}{%- continue -%}{%- endunless -%}
+            {%- if block.type == 'cart_items' -%}{%- continue -%}{%- endif -%}
+            {%- liquid
+              assign block_position = block.settings.position | default: 'footer'
+              if block.type == 'free_shipping_bar' and block.settings.position == blank
+                assign block_position = 'body'
+              endif
+            -%}
+            {%- if block_position == 'footer' -%}
+              {%- render 'cart-drawer-block', block: block, cart: cart -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endif -%}
       </div>
     </div>
   </div>
@@ -774,6 +857,18 @@
   ],
   "blocks": [
     {
+      "type": "cart_items",
+      "name": "Cart items",
+      "limit": 1,
+      "settings": []
+    },
+    {
+      "type": "checkout_button",
+      "name": "Checkout button",
+      "limit": 1,
+      "settings": []
+    },
+    {
       "type": "free_shipping_bar",
       "name": "Free shipping bar",
       "limit": 1,
@@ -868,17 +963,41 @@
           "default": 10
         },
         {
-          "type": "text",
+          "type": "richtext",
           "id": "message",
           "label": "Message",
           "info": "Use [time] for the countdown timer",
-          "default": "Your cart is reserved for [time]"
+          "default": "<p>Your cart is reserved for [time]</p>"
         },
         {
           "type": "text",
           "id": "expired_message",
           "label": "Expired message",
           "default": "Your reserved time has expired"
+        },
+        {
+          "type": "header",
+          "content": "Text size"
+        },
+        {
+          "type": "range",
+          "id": "text_size_desktop",
+          "label": "Desktop text size",
+          "min": 10,
+          "max": 24,
+          "step": 1,
+          "unit": "px",
+          "default": 14
+        },
+        {
+          "type": "range",
+          "id": "text_size_mobile",
+          "label": "Mobile text size",
+          "min": 10,
+          "max": 24,
+          "step": 1,
+          "unit": "px",
+          "default": 13
         },
         {
           "type": "header",

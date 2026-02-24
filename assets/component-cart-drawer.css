@@ -547,30 +547,28 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
 /* --- Countdown Timer --- */
 .cart-drawer-block--countdown {
   padding: 0.8rem 0;
+  width: 100%;
 }
 
 .cart-drawer-countdown {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.6rem;
-  font-size: 1.2rem;
-  color: var(--countdown-text-color, rgba(var(--color-foreground), 0.7));
+  text-align: center;
+  font-size: var(--countdown-text-mobile, 13px);
+  line-height: 1.5;
 }
 
-.cart-drawer-countdown__icon {
-  flex-shrink: 0;
-  color: var(--countdown-icon-color, currentColor);
-  animation: countdown-pulse 2s ease-in-out infinite;
+@media screen and (min-width: 750px) {
+  .cart-drawer-countdown {
+    font-size: var(--countdown-text-desktop, 14px);
+  }
 }
 
-@keyframes countdown-pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.5; }
+.cart-drawer-countdown__text p {
+  margin: 0;
 }
 
 .cart-drawer-countdown__time {
   font-variant-numeric: tabular-nums;
+  font-weight: 700;
   letter-spacing: 0.05rem;
 }
 
@@ -686,36 +684,6 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
 
 .cart-drawer-block--countdown {
   padding: 0.8rem 0;
-}
-
-.cart-drawer-countdown {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.6rem;
-  font-size: 1.2rem;
-  color: var(--block-text, rgba(var(--color-foreground), 0.7));
-}
-
-.cart-drawer-countdown__icon {
-  flex-shrink: 0;
-  animation: countdown-pulse 2s ease-in-out infinite;
-}
-
-@keyframes countdown-pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.5; }
-}
-
-.cart-drawer-countdown__time {
-  font-variant-numeric: tabular-nums;
-  font-weight: 700;
-  letter-spacing: 0.05rem;
-}
-
-.cart-drawer-countdown--expired .cart-drawer-countdown__icon {
-  animation: none;
-  opacity: 0.4;
 }
 
 .cart-drawer-countdown--expired .cart-drawer-countdown__text {
