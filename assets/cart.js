@@ -89,7 +89,9 @@ class CartItems extends HTMLElement {
 
   onCartUpdate() {
     if (this.tagName === 'CART-DRAWER-ITEMS') {
-      return fetch(`${routes.cart_url}?section_id=cart-drawer`)
+      const cartDrawerSection = document.querySelector('cart-drawer')?.closest('.shopify-section');
+      const cartDrawerSectionId = cartDrawerSection ? cartDrawerSection.id.replace('shopify-section-', '') : 'cart-drawer';
+      return fetch(`${routes.cart_url}?section_id=${cartDrawerSectionId}`)
         .then((response) => response.text())
         .then((responseText) => {
           const html = new DOMParser().parseFromString(responseText, 'text/html');

@@ -93,10 +93,15 @@ class CartDrawer extends HTMLElement {
     return new DOMParser().parseFromString(html, 'text/html').querySelector(selector).innerHTML;
   }
 
+  getCartDrawerSectionId() {
+    const sectionEl = this.closest('.shopify-section');
+    return sectionEl ? sectionEl.id.replace('shopify-section-', '') : 'cart-drawer';
+  }
+
   getSectionsToRender() {
     return [
       {
-        id: 'cart-drawer',
+        id: this.getCartDrawerSectionId(),
         selector: '#CartDrawer',
       },
       {
@@ -118,10 +123,13 @@ customElements.define('cart-drawer', CartDrawer);
 
 class CartDrawerItems extends CartItems {
   getSectionsToRender() {
+    const cartDrawerEl = document.querySelector('cart-drawer');
+    const sectionEl = cartDrawerEl ? cartDrawerEl.closest('.shopify-section') : null;
+    const sectionId = sectionEl ? sectionEl.id.replace('shopify-section-', '') : 'cart-drawer';
     return [
       {
         id: 'CartDrawer',
-        section: 'cart-drawer',
+        section: sectionId,
         selector: '.drawer__inner',
       },
       {
