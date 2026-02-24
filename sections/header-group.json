@@ -32,7 +32,9 @@
         "show_line_separator": false,
         "show_social": false,
         "enable_country_selector": false,
-        "enable_language_selector": false
+        "enable_language_selector": false,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "header": {

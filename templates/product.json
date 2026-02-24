@@ -12,6 +12,19 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "testimonials_carousel_TBjyGg": {
+          "type": "testimonials_carousel",
+          "settings": {
+            "author_1": "Michael T. - Phoenix, USA",
+            "text_1": "Performance anxiety was killing my marriage. Three weeks wearing this and I'm lasting like my 20s again. She asked for round 3 last night. 🤣",
+            "author_2": "David R. - Chicago, USA",
+            "text_2": "Couldn't button my jeans. Wife stopped touching my stomach. Two weeks in and the gut is gone. She can't keep her hands off me now ✌️",
+            "author_3": "James K. - Dallas, USA",
+            "text_3": "3 AM wake-ups every night for 2 years. Ambien stopped working. First week I slept 7 hours straight. No pills, just deep sleep.",
+            "star_color": "#ffcc00",
+            "speed": 5
+          }
+        },
         "review_badge": {
           "type": "custom_liquid",
           "settings": {
@@ -52,8 +65,10 @@
           }
         },
         "testimonials_carousel": {
-          "type": "testimonials_carousel",
-          "settings": {}
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'custom-testimonials-carousel' %}"
+          }
         },
         "description": {
           "type": "description",
@@ -94,9 +109,16 @@
             "content": "",
             "page": ""
           }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
         }
       },
       "block_order": [
+        "testimonials_carousel_TBjyGg",
         "review_badge",
         "title",
         "caption",
@@ -109,7 +131,8 @@
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
-        "collapsible-row-3"
+        "collapsible-row-3",
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
