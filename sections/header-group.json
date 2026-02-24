@@ -59,6 +59,21 @@
     "cart-drawer": {
       "type": "cart-drawer",
       "blocks": {
+        "countdown_timer_EAtHL7": {
+          "type": "countdown_timer",
+          "settings": {
+            "duration": 5,
+            "message": "<p>Your cart is reserved for [time]</p>",
+            "expired_message": "Your reserved time has expired",
+            "text_size_desktop": 14,
+            "text_size_mobile": 13,
+            "position": "body",
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "block_bg_color": "#0f3a47",
+            "block_text_color": "#ffffff"
+          }
+        },
         "image_FAnGq4": {
           "type": "image",
           "settings": {
@@ -93,21 +108,6 @@
             "block_text_color": ""
           }
         },
-        "countdown_timer_EAtHL7": {
-          "type": "countdown_timer",
-          "settings": {
-            "duration": 5,
-            "message": "<p>Your cart is reserved for [time]</p>",
-            "expired_message": "Your reserved time has expired",
-            "text_size_desktop": 14,
-            "text_size_mobile": 13,
-            "position": "body",
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "block_bg_color": "#0f3a47",
-            "block_text_color": "#ffffff"
-          }
-        },
         "enhanced_text_8JeKFn": {
           "type": "enhanced_text",
           "settings": {
@@ -127,10 +127,10 @@
         }
       },
       "block_order": [
+        "countdown_timer_EAtHL7",
         "image_FAnGq4",
         "cart_items_T8kkL6",
         "image_xtwDbe",
-        "countdown_timer_EAtHL7",
         "enhanced_text_8JeKFn"
       ],
       "settings": {
