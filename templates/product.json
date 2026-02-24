@@ -87,6 +87,27 @@
           "disabled": true,
           "settings": {}
         },
+        "sticky_atc_PqhWPT": {
+          "type": "sticky_atc",
+          "settings": {
+            "display_when": "after_scroll",
+            "button_label": "Add to cart",
+            "desktop_show_image": false,
+            "desktop_show_title": true,
+            "desktop_show_price": true,
+            "desktop_show_variants": true,
+            "desktop_full_button": false,
+            "mobile_show_image": false,
+            "mobile_show_title": true,
+            "mobile_show_price": true,
+            "mobile_show_variants": false,
+            "mobile_full_button": false,
+            "color_scheme": "scheme-1",
+            "use_custom_btn_color": true,
+            "custom_btn_bg": "#ffd080",
+            "custom_btn_text": "#121212"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -135,6 +156,7 @@
         "inventory_VMKbC8",
         "variant_picker",
         "quantity_selector",
+        "sticky_atc_PqhWPT",
         "buy_buttons",
         "collapsible-row-0",
         "collapsible_tab_7XTCqr",
