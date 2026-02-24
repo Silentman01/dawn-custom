@@ -622,7 +622,7 @@
         "slider_type": "slide",
         "autoplay": false,
         "autoplay_speed": 5,
-        "desktop_full_width": false,
+        "desktop_full_width": true,
         "slides_desktop": 4,
         "desktop_spacing": 20,
         "desktop_border_radius": 0,
