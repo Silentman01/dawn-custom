@@ -94,8 +94,8 @@
             "show_gift_card_recipient": false,
             "button_text": "ADD TO CART",
             "use_custom_colors": true,
-            "button_bg_color": "#fa2727",
-            "button_text_color": ""
+            "button_bg_color": "#ffb84d",
+            "button_text_color": "#121212"
           }
         },
         "collapsible-row-0": {
