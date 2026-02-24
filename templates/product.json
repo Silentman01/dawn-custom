@@ -348,6 +348,37 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_NKfiGj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7F93BA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Real men reclaim their natural power.",
+            "heading_size": "h1"
+          }
+        },
+        "text_eiXT4p": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In a focused study, we tracked confidence and decision-making improvements before and after wearing Hemax.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7F93BA",
+        "text_eiXT4p"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -374,6 +405,7 @@
     "image-with-text",
     "custom_ticker_MHrdMf",
     "image_with_text_3MgbLE",
+    "rich_text_NKfiGj",
     "related-products"
   ]
 }
