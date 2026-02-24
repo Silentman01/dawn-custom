@@ -378,5 +378,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".announcement-bar a {color: #ffb84d;}"
+    ]
   }
 }
