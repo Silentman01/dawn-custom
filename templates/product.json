@@ -172,11 +172,20 @@
             "text": "<p>Roman commanders. Viking leaders. Samurai warriors. Different eras, <strong>same practice</strong>—carry the grounding stone when performance counts.</p><p>Hemax delivers <strong>premium hematite engineering</strong> for modern men who refuse to coast through life reactive and scattered.</p><p></p><p><em>This isn't an accessory. It's your daily foundation.</em></p>",
             "text_style": "body"
           }
+        },
+        "button_n9Ayjb": {
+          "type": "button",
+          "settings": {
+            "button_label": "Try it Now",
+            "button_link": "#ProductInfo-template--25744644833323__main",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
         "image-with-text-0",
-        "image-with-text-1"
+        "image-with-text-1",
+        "button_n9Ayjb"
       ],
       "settings": {
         "image": "shopify://shop_images/od8.jpg",
