@@ -1100,7 +1100,10 @@
         if (display === 'after_scroll' && mainBtn) {
           var observer = new IntersectionObserver(function(entries) {
             entries.forEach(function(entry) {
-              bar.classList.toggle('sticky-atc--visible', !entry.isIntersecting);
+              /* Only show when the button has been scrolled PAST (above viewport), not when it's below */
+              var btnRect = entry.boundingClientRect;
+              var pastButton = btnRect.bottom < 0;
+              bar.classList.toggle('sticky-atc--visible', pastButton);
             });
           }, { threshold: 0 });
           observer.observe(mainBtn);

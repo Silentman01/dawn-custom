@@ -99,15 +99,14 @@
 .image-with-text__text-item {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .image-with-text__content {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  flex: 1;
   justify-content: center;
-  align-self: center;
   padding: 2rem 0 2.5rem;
   position: relative;
   z-index: 1;
@@ -204,14 +203,12 @@
     margin-left: auto;
   }
 
-  .image-with-text__content--bottom {
+  .image-with-text__text-item:has(.image-with-text__content--bottom) {
     justify-content: flex-end;
-    align-self: flex-end;
   }
 
-  .image-with-text__content--top {
+  .image-with-text__text-item:has(.image-with-text__content--top) {
     justify-content: flex-start;
-    align-self: flex-start;
   }
 
   .image-with-text__content--desktop-right > * {

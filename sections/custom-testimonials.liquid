@@ -195,10 +195,14 @@
         return isMobile() ? navMobile : navDesktop;
       }
 
+      var columnsAttr = parseInt(root.getAttribute('data-columns')) || 2;
+
       function getVisibleCount() {
         if (isStacked()) return cards.length;
+        if (isMobile()) return 1;
         var trackWidth = track.offsetWidth;
         var cardWidth = cards[0].offsetWidth;
+        if (!cardWidth) return columnsAttr;
         var gap = parseFloat(getComputedStyle(track).gap) || 0;
         return Math.max(1, Math.floor((trackWidth + gap) / (cardWidth + gap)));
       }
@@ -300,7 +304,12 @@
         nextBtn.addEventListener('click', function() { scrollToIndex(currentIndex + 1); });
       }
 
-      updateNavVisibility();
+      /* Defer initial call to ensure CSS layout is ready */
+      if (document.readyState === 'complete') {
+        updateNavVisibility();
+      } else {
+        window.addEventListener('load', updateNavVisibility);
+      }
       var resizeTimer;
       window.addEventListener('resize', function() {
         clearTimeout(resizeTimer);
