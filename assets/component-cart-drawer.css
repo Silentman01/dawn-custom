@@ -309,6 +309,10 @@ cart-drawer-items {
   margin-top: 1rem;
 }
 
+.cart-drawer__footer + .cart__ctas {
+  margin-top: 1.5rem;
+}
+
 .cart-drawer .totals {
   justify-content: space-between;
 }
