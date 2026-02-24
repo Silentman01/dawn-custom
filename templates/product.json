@@ -554,7 +554,7 @@
         "desktop_layout": "scrollable",
         "navigation_desktop": "both",
         "mobile_layout": "scrollable",
-        "navigation_mobile": "dots",
+        "navigation_mobile": "both",
         "color_scheme": "",
         "use_custom_colors": false,
         "custom_bg_color": "",
