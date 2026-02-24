@@ -628,7 +628,7 @@
         "desktop_border_radius": 0,
         "desktop_dots": "under",
         "desktop_arrows": "sides",
-        "mobile_full_width": false,
+        "mobile_full_width": true,
         "slides_mobile": 1,
         "mobile_spacing": 12,
         "mobile_border_radius": 0,
