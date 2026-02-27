@@ -145,6 +145,7 @@
         },
         "authenticity_notice_rTFDML": {
           "type": "authenticity_notice",
+          "disabled": true,
           "settings": {
             "icon": "info",
             "heading": "Beware of Unauthorized Sellers",
@@ -154,6 +155,12 @@
             "custom_bg": "#ffdfdf",
             "custom_text": "",
             "custom_accent": "#ff0000"
+          }
+        },
+        "custom_liquid_Ar3byi": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<br>\n<p style=\"font-size: 13px; text-align: center;\"><strong>IMPORTANT:</strong> Authentic Hemax Hematite Bracelets are ONLY sold through our official website. Protect yourself from counterfeits on Amazon and other platforms. Shop certified Hemax Hematite Bracelets here.</p>"
           }
         }
       },
@@ -171,7 +178,8 @@
         "buy_buttons",
         "collapsible-row-0",
         "collapsible_tab_7XTCqr",
-        "authenticity_notice_rTFDML"
+        "authenticity_notice_rTFDML",
+        "custom_liquid_Ar3byi"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -245,7 +253,7 @@
         "use_custom_bg": false,
         "custom_bg_color": "",
         "custom_text_color": "",
-        "padding_top": 10,
+        "padding_top": 32,
         "padding_bottom": 10
       }
     },
