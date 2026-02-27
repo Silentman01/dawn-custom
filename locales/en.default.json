@@ -120,7 +120,7 @@
       "choose_product_options": "Choose options for {{ product_name }}",
       "description": "Description",
       "inventory_in_stock": "In stock",
-      "inventory_in_stock_show_count": "Only 16 left. Restocks in 12 weeks.",
+      "inventory_in_stock_show_count": "Only 16 left. Restocks in 2 weeks.",
       "inventory_low_stock": "Low stock",
       "inventory_low_stock_show_count": "Low stock: {{ quantity }} left",
       "inventory_out_of_stock": "Out of stock",
