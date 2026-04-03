@@ -188,7 +188,7 @@
           "settings": {
             "heading": "Description",
             "icon": "none",
-            "content": "<p>Le Savon Purifiant Antifongique Verra Rituel™ est un savon de soin quotidien qui <strong>élimine les mycoses, neutralise les odeurs et restaure une peau saine</strong> — dès la première utilisation.</p><p>Pas de produits chimiques agressifs. Pas d'ordonnance nécessaire. Pas d'attente interminable. Faites mousser, lavez, et laissez les trois actifs naturels agir :</p><ul><li>Huile d'arbre à thé — <strong>pouvoir antifongique</strong></li><li>Huile d'eucalyptus — <strong>nettoyage en profondeur</strong></li><li>Charbon actif — <strong>détox et contrôle des odeurs</strong></li></ul>",
+            "content": "<p>Le Savon Purifiant Antifongique Verra Rituel™ est un savon de soin quotidien qui <strong>élimine les mycoses, neutralise les odeurs et restaure une peau saine</strong> — dès la première utilisation.</p><p>Sa formule naturelle associe des actifs reconnus pour assainir tout en aidant à calmer la peau irritée (tiraillements, sensations de brûlure) :</p><ul><li>Huile de tea tree — <strong>pouvoir antifongique naturel</strong></li><li>Huile de coco — <strong>nutrition et protection</strong></li><li>Aloe vera — <strong>apaisement des irritations</strong></li><li>Base huile d'olive — <strong>hydratation douce</strong></li><li>Eucalyptus — <strong>nettoyage en profondeur</strong></li><li>Hamamélis — <strong>astringent naturel</strong></li></ul>",
             "page": ""
           }
         },
@@ -370,8 +370,8 @@
         "card_1": {
           "type": "card",
           "settings": {
-            "title": "<strong>Huile d'arbre à thé</strong>",
-            "text": "L'antifongique naturel le plus puissant. L'huile d'arbre à thé <strong>pénètre en profondeur dans les couches de la peau</strong> pour <strong>détruire les mycoses à la racine</strong>, stopper leur propagation et <strong>prévenir les récidives</strong> — sans produits chimiques agressifs.",
+            "title": "<strong>Huile de Tea Tree</strong>",
+            "text": "L'actif phare de la formule. L'huile d'arbre à thé est reconnue pour ses <strong>propriétés naturellement purifiantes</strong>. Elle aide à <strong>assainir la peau en profondeur</strong> et à limiter la propagation des déséquilibres cutanés — sans produits chimiques agressifs.",
             "card_bg_color": ""
           }
         },
@@ -386,16 +386,16 @@
         "card_3": {
           "type": "card",
           "settings": {
-            "title": "<strong>Charbon actif</strong>",
-            "text": "Attire les toxines, impuretés et bactéries responsables des odeurs depuis les couches profondes de la peau. Le charbon <strong>détoxifie et désodorise</strong> — pour des pieds frais toute la journée.",
+            "title": "<strong>Aloe Vera</strong>",
+            "text": "Reconnu pour ses vertus apaisantes, l'aloe vera aide à <strong>calmer la peau irritée</strong> — tiraillements, sensations de brûlure — tout en favorisant l'hydratation naturelle des zones fragilisées.",
             "card_bg_color": ""
           }
         },
         "card_4": {
           "type": "card",
           "settings": {
-            "title": "<strong>Formule Triple-Action</strong>",
-            "text": "Arbre à thé, eucalyptus et charbon — <strong>trois ingrédients qui agissent ensemble en surface et en profondeur</strong> pour éliminer les mycoses, neutraliser les odeurs et restaurer une peau saine et confortable.",
+            "title": "<strong>Huile de Coco & Huile d'Olive</strong>",
+            "text": "La base nourrissante de la formule. L'huile de coco et l'huile d'olive <strong>protègent et restaurent la barrière cutanée</strong>, pour une peau douce et hydratée même après un nettoyage en profondeur.",
             "card_bg_color": ""
           }
         }
@@ -634,9 +634,9 @@
         "pb_3": {
           "type": "benefit",
           "settings": {
-            "title": "Charbon actif",
-            "description": "Détoxification et désodorisation",
-            "answer": "Le charbon actif attire les toxines, les huiles en excès et les bactéries responsables des odeurs. Il purifie la peau en profondeur pour des pieds frais toute la journée."
+            "title": "Aloe Vera",
+            "description": "Apaisement et hydratation",
+            "answer": "L'aloe vera calme les peaux irritées et fragilisées — tiraillements, sensations de brûlure. Il aide à restaurer l'hydratation naturelle et favorise le confort cutané au quotidien."
           }
         },
         "pb_4": {
@@ -659,9 +659,9 @@
         "subheading": "La formule met en avant des ingrédients connus pour leurs propriétés purifiantes et apaisantes : huile d'arbre à thé, huile de coco, aloe vera, eucalyptus et hamamélis.",
         "highlight_color": "#1a3018",
         "bg_color": "",
-        "cta_text": "Try Risk-Free Today",
+        "cta_text": "Essayer sans risque",
         "cta_link": "",
-        "cta_note": "30-day money back guarantee",
+        "cta_note": "Garantie 30 jours satisfait ou remboursé",
         "cta_note_icon_name": "verified_user",
         "cta_height": 50,
         "padding_top": 36,
@@ -746,8 +746,8 @@
           "type": "reason_card",
           "settings": {
             "label": "Raison 1",
-            "heading": "Formule naturelle triple-action",
-            "details": "<p>Trois ingrédients actifs — arbre à thé, eucalyptus, charbon actif — qui ciblent les mycoses en profondeur, pas seulement en surface.</p>"
+            "heading": "6 actifs naturels, une formule complète",
+            "details": "<p>Huile de tea tree, huile de coco, aloe vera, huile d'olive, eucalyptus et hamamélis — des ingrédients qui assainissent en profondeur tout en apaisant la peau irritée.</p>"
           }
         },
         "reason_2": {
@@ -835,22 +835,22 @@
         "brand_name_color": "#ffffff",
         "brand_col_color": "#009370",
         "brand_icon_color": "#ffffff",
-        "competitor_label": "<strong>Other Brands</strong>",
+        "competitor_label": "<strong>Autres marques</strong>",
         "comp_col_color": "#ffffff",
         "comp_text_color": "#000000",
         "comp_icon_color": "#999999",
         "icons_filled": false,
-        "checklist_1": "<strong>Clinically Backed Ingredients</strong> - Ingredients proven to work",
-        "checklist_2": "<strong>Visible Results in Weeks</strong> - Feel a difference in weeks",
-        "checklist_3": "<strong>Long-Term Health, Not Quick Fixes</strong> - Not just symptom relief",
-        "checklist_4": "<strong>Clean &amp; Pure Ingredients</strong> - made without fillers, GMOs, or unnecessary additives",
-        "cta_text": "Try Risk-Free Today",
+        "checklist_1": "<strong>Ingrédients naturels prouvés</strong> — Tea tree, eucalyptus, aloe vera, huile de coco, hamamélis",
+        "checklist_2": "<strong>Résultats visibles en quelques semaines</strong> — Ressentez une différence rapidement",
+        "checklist_3": "<strong>Santé durable, pas de solution rapide</strong> — Assainit en profondeur, pas juste en surface",
+        "checklist_4": "<strong>Formule propre et pure</strong> — Sans parabènes, sans sulfates, sans OGM, sans additifs inutiles",
+        "cta_text": "Essayer sans risque",
         "cta_link": "",
         "cta_height": 54,
         "cta_bg_color": "#e3ffde",
         "cta_text_color": "#004c3c",
         "cta_font_weight": "700",
-        "note_text": "30-day money back guarantee",
+        "note_text": "Garantie 30 jours satisfait ou remboursé",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -859,8 +859,8 @@
       "type": "risk-free-trial",
       "settings": {
         "badge_number": "30",
-        "badge_label": "DAYS",
-        "subtitle": "FEEL THE DIFFERENCE",
+        "badge_label": "JOURS",
+        "subtitle": "SENTEZ LA DIFFÉRENCE",
         "heading": "Aimez votre savon",
         "heading_size": 23,
         "description": "Si vous ne constatez pas d'amélioration ou si le produit ne vous convient pas, vous disposez de 30 jours pour changer d'avis.",
