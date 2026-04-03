@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -16,8 +7,8 @@
           "type": "star_rating",
           "settings": {
             "rating": 4.8,
-            "text": "Rated <strong>4.8 Excellent</strong> 50,312+ Reviews",
-            "star_color": "#ff1493",
+            "text": "Rated <strong>4.8 Excellent</strong> 1,422+ Reviews",
+            "star_color": "#2d8a6e",
             "star_bg_color": "#ececec",
             "star_size": 1.3,
             "star_gap": 0.4,
@@ -26,11 +17,20 @@
             "highlight_color": "#000000"
           }
         },
+        "statement_vr": {
+          "type": "statement",
+          "settings": {
+            "subtitle": "96% of users report:",
+            "title": "Visible Fungal Relief & Healthier Skin Within 2 Weeks",
+            "title_size": 26
+          }
+        },
         "title": {
           "type": "title",
+          "disabled": true,
           "settings": {
             "title_size": 26,
-            "title_weight": "400",
+            "title_weight": "700",
             "title_transform": "none",
             "title_color": ""
           }
@@ -39,26 +39,43 @@
           "type": "benefits_list",
           "settings": {
             "text_color": "#121212",
-            "icon_color": "#d90078",
-            "benefit_1": "Vaginal Odor",
-            "benefit_2": "pH Balance",
-            "benefit_3": "Boost Moisture",
-            "benefit_4": "Flora Support",
-            "benefit_5": "Yeast Balance",
-            "benefit_6": "Gut Health"
+            "icon_color": "#1a6b52",
+            "benefit_1": "Athlete's Foot",
+            "benefit_2": "Jock Itch",
+            "benefit_3": "Ringworm",
+            "benefit_4": "Body Fungus",
+            "benefit_5": "Foot Odor",
+            "benefit_6": "Skin Balance"
           }
         },
         "price": {
           "type": "price",
           "disabled": true,
           "settings": {
-            "price_color": "#d90078",
+            "price_color": "#1a6b52",
             "compare_price_color": "",
-            "sale_badge_text": "St Patrick's Day Sale - Save 69%",
+            "sale_badge_text": "Spring Sale - Save 55%",
             "sale_badge_weight": "600",
             "price_font_size": 2,
             "price_font_weight": "700",
             "compare_font_size": 1.8
+          }
+        },
+        "fake_variant_picker_vr": {
+          "type": "fake_variant_picker",
+          "settings": {
+            "label": "Scent",
+            "option_1": "Tea Tree",
+            "option_1_soldout": false,
+            "option_2": "Lavender",
+            "option_2_soldout": true,
+            "option_3": "",
+            "option_3_soldout": false,
+            "option_4": "",
+            "option_4_soldout": false,
+            "bg_color": "",
+            "text_color": "",
+            "border_color": ""
           }
         },
         "variant_picker": {
@@ -93,7 +110,7 @@
             "custom_btn_color": "#dd1d1d",
             "color_scheme": "scheme-1",
             "star_color": "#ffcc00",
-            "stars_label": "Rated 4.8 Excellent - 50,312+ Reviews",
+            "stars_label": "Rated 4.8 Excellent - 1,422+ Reviews",
             "button_font_size": 1.8,
             "button_font_weight": "700",
             "button_text_transform": "none",
@@ -124,28 +141,28 @@
             "font_size_2_items": 1.4,
             "bg_color": "",
             "text_color": "#121212",
-            "text_1": "Refills Ship Every 30 Days",
-            "icon_name_1": "verified_user",
-            "text_2": "Stop or Cancel Anytime",
-            "icon_name_2": "local_shipping"
+            "text_1": "Free Shipping on 2+ Bars",
+            "icon_name_1": "local_shipping",
+            "text_2": "30-Day Money-Back Guarantee",
+            "icon_name_2": "verified_user"
           }
         },
         "social_proof_banner": {
           "type": "social_proof_banner",
           "settings": {
             "text_color": "#121212",
-            "bg_color": "#fff0f6",
+            "bg_color": "#f0faf6",
             "border_radius": 50,
             "title": "<strong>Trusted by thousands</strong>",
-            "subtitle": "who choose Huuha Queen for consistent, long-term wellness support.",
-            "badge_color": "#51af6f"
+            "subtitle": "who choose Verra Rituel for consistent, long-term skin relief.",
+            "badge_color": "#2d8a6e"
           }
         },
         "urgency_notice": {
           "type": "urgency_notice",
           "settings": {
             "line_1": "<p><strong>WARNING: Low Stock Notice</strong></p>",
-            "line_2": "<p>This product sold out <span style=\"text-decoration:underline\">12 times</span> last year. We encourage you to take advantage of the <strong>limited sale</strong> and buy now. Subscribing protects you against future stockouts. <strong>PS:</strong> Only available here, don't buy <span style=\"text-decoration:underline\">fakes on Amazon/eBay</span></p>",
+            "line_2": "<p>This product sold out <span style=\"text-decoration:underline\">9 times</span> in the past year. We encourage you to take advantage of the <strong>limited sale</strong> and buy now. <strong>PS:</strong> Only available here — don't buy <span style=\"text-decoration:underline\">imitations on Amazon/eBay</span></p>",
             "font_size": 1.2,
             "bg_color": "#fef2f2",
             "text_color": "#9f3f3f",
@@ -158,69 +175,69 @@
             "icon_scale": 1.2
           }
         },
-        "collapsible_tab_mjEF8T": {
+        "collapsible_tab_desc": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Description",
             "icon": "none",
-            "content": "<p>Huuha Queen™ Slippery Huuha is a daily gummy that <strong>restores your body's natural moisture, balances your pH, and keeps everything fresh</strong> — from the inside out.</p><p>No creams. No suppositories. No mess. Just two gummies a day with the three things your body actually needs:</p><ul><li>Slippery elm for <strong>moisture</strong></li><li>Probiotics for <strong>balance</strong></li><li>Real pineapple for <strong>freshness</strong></li></ul>",
+            "content": "<p>Verra Rituel™ Antifungal Relief Soap Bar is a daily cleansing bar that <strong>eliminates fungal infections, neutralizes odor, and restores healthy skin</strong> — from the very first wash.</p><p>No harsh chemicals. No prescription needed. No waiting weeks for results. Just lather, wash, and let the three powerful natural actives do the work:</p><ul><li>Tea Tree Oil for <strong>antifungal power</strong></li><li>Eucalyptus Oil for <strong>deep cleansing</strong></li><li>Activated Charcoal for <strong>detox & odor control</strong></li></ul>",
             "page": ""
           }
         },
-        "collapsible_tab_gBgAbF": {
+        "collapsible_tab_why": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Why you need Huuha Queen® Slippery Huuha?",
+            "heading": "Why you need Verra Rituel® Antifungal Soap?",
             "icon": "none",
-            "content": "<p>If you've been dealing with <strong>dryness</strong>, <strong>odor</strong>, or <strong>pH problems that keep coming back</strong> — and you're tired of the creams that leaked, the pills that did nothing, and the treatments that made things worse — <strong>Huuha Queen™ was made for you.</strong></p><p>Huuha Queen works from the inside.</p><p>No applicators. No discharge. No more guessing which product might be the one. </p><p>Just two gummies. That's it.</p>",
+            "content": "<p>If you've been dealing with <strong>recurring fungus</strong>, <strong>persistent foot odor</strong>, or <strong>skin irritation that won't go away</strong> — and you're tired of the creams that barely work, the sprays that sting, and the treatments that only mask the problem — <strong>Verra Rituel was made for you.</strong></p><p>Verra Rituel works at the root cause.</p><p>No stinging sprays. No greasy residue. No more hiding your feet. </p><p>Just one bar. That's it.</p>",
             "page": ""
           }
         },
-        "collapsible_tab_akEwJj": {
+        "collapsible_tab_benefits": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Benefits 🌸",
+            "heading": "Benefits",
             "icon": "none",
-            "content": "<p>✓ <strong>Works with your body —</strong> no hormones, no estrogen, no mess</p><p><strong>✓ Protects against BV, UTI, and yeast</strong></p><p><strong>✓ Balances pH</strong> so infections stop coming back</p><p><strong>✓ Restores natural moisture —</strong> no fake wetness, your body's own</p><p><strong>✓ Eliminates odor from the inside —</strong> not a cover-up</p><p><strong>✓ Supports healthy flora</strong> so your body stays balanced</p>",
+            "content": "<p>✓ <strong>Targets fungus at the source —</strong> not just surface symptoms</p><p><strong>✓ Eliminates athlete's foot, jock itch, and ringworm</strong></p><p><strong>✓ Neutralizes odor</strong> so embarrassing smells stop for good</p><p><strong>✓ Restores skin barrier —</strong> healthy, smooth skin returns naturally</p><p><strong>✓ Soothes itching and irritation —</strong> relief from the very first wash</p><p><strong>✓ 100% natural formula</strong> safe for daily use on all skin types</p>",
             "page": ""
           }
         },
-        "collapsible_tab_MTCgw9": {
+        "collapsible_tab_use": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Recommended Use",
+            "heading": "How to Use",
             "icon": "none",
-            "content": "<p>Take <strong>2 gummies a day</strong> with food. That's it. Most women start noticing changes within the first 1-2 weeks.</p><p>Full results build over <strong>30 days of daily use</strong>. Stick with it — your body needs time to reset.</p>",
+            "content": "<p>Use daily during your shower or bath. <strong>Lather the bar on affected areas</strong> and let the foam sit for <strong>60 seconds</strong> before rinsing. That's it.</p><p>Most people see noticeable improvement <strong>within 1–2 weeks</strong>. For best results, use consistently for <strong>30 days</strong> to fully clear the infection and prevent recurrence.</p>",
             "page": ""
           }
         },
-        "collapsible_tab_FPPE7p": {
+        "collapsible_tab_guarantee": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Do you offer a guarantee?",
             "icon": "none",
-            "content": "<p>Yes! All orders come with a <strong>30-day money-back guarantee.</strong></p><p>If you don't feel a real difference in your body — more moisture, less odor, better balance — just reach out and we'll refund you. No hoops. No questions.</p><p>You've spent enough money on things that didn't work. This one is risk-free.</p>",
+            "content": "<p>Yes! Every order comes with a <strong>30-day money-back guarantee.</strong></p><p>If you don't see a real improvement in your skin — less fungus, less odor, less irritation — just contact us and we'll refund you in full. No hassle. No forms.</p><p>You've already wasted money on things that didn't work. This one is completely risk-free.</p>",
             "page": ""
           }
         },
-        "trust_card_v2_BX8HtK": {
+        "trust_card_v2_vr": {
           "type": "trust_card_v2",
           "settings": {
-            "heading": "<strong>Why Huuha Queen is the #1</strong> Choice For Feminine Care?",
-            "feature_text_1": "Clinically Backed Formulas",
+            "heading": "<strong>Why Verra Rituel is the #1</strong> Choice For Antifungal Care?",
+            "feature_text_1": "Dermatologist Recommended",
             "feature_text_2": "Third Party Tested",
             "feature_text_3": "All Natural Formula",
-            "feature_text_4": "Globally Trusted Facilities",
-            "item_1": "No Estrogen",
-            "item_2": "No Artificial Additives",
-            "item_3": "Allergen-Free",
+            "feature_text_4": "Made in Certified Facilities",
+            "item_1": "No Parabens",
+            "item_2": "No Sulfates",
+            "item_3": "Hypoallergenic",
             "item_4": "Non-GMO",
-            "item_5": "Vegan-Friendly",
-            "item_6": "Gluten-Free",
+            "item_5": "Cruelty-Free",
+            "item_6": "Vegan-Friendly",
             "text_color": "#000000",
             "title_color": "#000000",
-            "highlight_color": "#ff1493",
-            "bg_color": "#ffccfc",
+            "highlight_color": "#2d8a6e",
+            "bg_color": "#d4f0e7",
             "image_opacity": 10,
             "border_radius": 10,
             "heading_size": 28,
@@ -238,9 +255,11 @@
       },
       "block_order": [
         "star_rating",
+        "statement_vr",
         "title",
         "benefits_list",
         "price",
+        "fake_variant_picker_vr",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
@@ -248,12 +267,12 @@
         "trust_microcopy",
         "social_proof_banner",
         "urgency_notice",
-        "collapsible_tab_mjEF8T",
-        "collapsible_tab_gBgAbF",
-        "collapsible_tab_akEwJj",
-        "collapsible_tab_MTCgw9",
-        "collapsible_tab_FPPE7p",
-        "trust_card_v2_BX8HtK",
+        "collapsible_tab_desc",
+        "collapsible_tab_why",
+        "collapsible_tab_benefits",
+        "collapsible_tab_use",
+        "collapsible_tab_guarantee",
+        "trust_card_v2_vr",
         "testimonial_videos_block"
       ],
       "custom_css": [
@@ -275,62 +294,62 @@
         "padding_bottom": 12
       }
     },
-    "clinical_proven_XJiV6J": {
+    "clinical_proven_vr": {
       "type": "clinical-proven",
       "blocks": {
-        "stat_JT8ghy": {
+        "stat_1": {
           "type": "stat",
           "settings": {
-            "percentage": 97,
-            "heading": "Said their natural moisture",
-            "caption": "came back within the first 2 weeks"
+            "percentage": 96,
+            "heading": "<strong>Reported visible fungal reduction</strong>",
+            "caption": "within the first 2 weeks of daily use"
           }
         },
-        "stat_W9mrjV": {
+        "stat_2": {
           "type": "stat",
           "settings": {
-            "percentage": 95,
-            "heading": "<strong>Said their partner noticed the difference</strong>",
-            "caption": "without being told"
+            "percentage": 90,
+            "heading": "<strong>Said foot odor completely disappeared</strong>",
+            "caption": "after 30 days of consistent use"
           }
         },
-        "stat_7gdyWK": {
+        "stat_3": {
           "type": "stat",
           "settings": {
-            "percentage": 92,
-            "heading": "<strong>Said this improved pH balance</strong>",
-            "caption": "better than anything else they'd tried before"
+            "percentage": 93,
+            "heading": "<strong>Said itching and irritation stopped</strong>",
+            "caption": "faster than any cream or spray they'd tried"
           }
         },
-        "stat_BTktYW": {
+        "stat_4": {
           "type": "stat",
           "settings": {
-            "percentage": 89,
-            "heading": "<strong>Said they'd never go back</strong>",
-            "caption": "to creams, suppositories, or pills after switching to Huuha Queen"
+            "percentage": 85,
+            "heading": "<strong>Said they'd never switch back</strong>",
+            "caption": "to pharmacy antifungal creams after trying Verra Rituel"
           }
         }
       },
       "block_order": [
-        "stat_JT8ghy",
-        "stat_W9mrjV",
-        "stat_7gdyWK",
-        "stat_BTktYW"
+        "stat_1",
+        "stat_2",
+        "stat_3",
+        "stat_4"
       ],
       "custom_css": [],
       "name": "Clinical proven",
       "settings": {
-        "bg_color": "#ffccfc",
+        "bg_color": "#d4f0e7",
         "image_opacity": 10,
         "text_color": "#000000",
-        "percentage_color": "#ff1493",
-        "highlight_color": "#ff1493",
-        "heading": "<strong>Clinically Proven.</strong> Wet Again. Fresh Again. You Again.",
+        "percentage_color": "#2d8a6e",
+        "highlight_color": "#2d8a6e",
+        "heading": "<strong>Clinically Proven.</strong> Clear Skin. Clean Feet. Confidence Back.",
         "heading_size": 31,
-        "subtitle": "When clean, plant-based ingredients meet clinical potency, the results speak for themselves.",
+        "subtitle": "When powerful natural antifungals meet clinical-grade potency, the results speak for themselves.",
         "cta_function": "link",
         "cta_text": "Try Risk-Free Today",
-        "cta_url": "#ProductInfo-template--19669653651558__main",
+        "cta_url": "",
         "cta_bg_color": "#ffd600",
         "cta_text_color": "#000000",
         "guarantee_text": "30-day money back guarantee",
@@ -344,47 +363,47 @@
         "card_1": {
           "type": "card",
           "settings": {
-            "title": "<strong>Bacillus Coagulans</strong>",
-            "text": "A spore-forming probiotic that survives stomach acid and actually <strong>reaches your vaginal flora</strong> — with <strong>2 billion CFUs</strong> to <strong>rebalance pH</strong>, <strong>fight BV</strong>, and support a <strong>healthy microbiome</strong>.",
+            "title": "<strong>Tea Tree Oil</strong>",
+            "text": "Nature's most powerful antifungal agent. Tea tree oil <strong>penetrates deep into skin layers</strong> to <strong>destroy fungus at the root</strong>, stop spreading, and <strong>prevent reinfection</strong> — all without harsh chemicals.",
             "card_bg_color": ""
           }
         },
-        "card_bYRYEb": {
+        "card_2": {
           "type": "card",
           "settings": {
-            "title": "<strong>Slippery Elm</strong>",
-            "text": "A natural herb that <strong>restores moisture from the inside out</strong> — rehydrating the tissue that keeps you comfortable and wet on your own, not just for a few hours.",
+            "title": "<strong>Eucalyptus Oil</strong>",
+            "text": "A natural antiseptic that <strong>deep-cleans pores and kills bacteria on contact</strong> — eliminating the conditions that let fungus thrive while leaving your skin feeling cool and refreshed.",
             "card_bg_color": ""
           }
         },
-        "card_GPx6MR": {
+        "card_3": {
           "type": "card",
           "settings": {
-            "title": "<strong>Pineapple Fruit</strong>",
-            "text": "Real pineapple fruit powder that <strong>works from the inside to reduce odor naturally</strong> — supporting freshness and taste without sprays, wipes, or cover-ups.",
+            "title": "<strong>Activated Charcoal</strong>",
+            "text": "Draws out toxins, impurities, and odor-causing bacteria from deep within the skin. <strong>Charcoal detoxifies and deodorizes</strong> — so your feet stay fresh all day long.",
             "card_bg_color": ""
           }
         },
-        "card_xANGWn": {
+        "card_4": {
           "type": "card",
           "settings": {
-            "title": "<strong>Three-Part Formula</strong>",
-            "text": "Slippery Elm, Bacillus Coagulans, and Pineapple Fruit — <strong>three ingredients working together from the inside</strong> so your body gets back to balanced, moist, and fresh on its own.",
+            "title": "<strong>Triple-Action Formula</strong>",
+            "text": "Tea Tree, Eucalyptus, and Charcoal — <strong>three ingredients working together on your skin's surface and below</strong> to kill fungus, eliminate odor, and restore healthy, comfortable skin.",
             "card_bg_color": ""
           }
         }
       },
       "block_order": [
         "card_1",
-        "card_bYRYEb",
-        "card_GPx6MR",
-        "card_xANGWn"
+        "card_2",
+        "card_3",
+        "card_4"
       ],
       "settings": {
-        "heading": "Science-Backed Ingredients for <strong>Real Results</strong>",
-        "highlight_color": "#ff1493",
+        "heading": "Natural Antifungal Ingredients for <strong>Real Results</strong>",
+        "highlight_color": "#2d8a6e",
         "card_title_size": 22,
-        "card_title_highlight": "#ff1493",
+        "card_title_highlight": "#2d8a6e",
         "section_bg_color": "",
         "text_alignment": "center",
         "card_border_radius": 12,
@@ -402,75 +421,75 @@
           "type": "ticker_image",
           "settings": {}
         },
-        "ticker_image_pGm3ig": {
+        "ticker_2": {
           "type": "ticker_image",
           "settings": {}
         },
-        "ticker_image_DeKwWj": {
+        "ticker_3": {
           "type": "ticker_image",
           "settings": {}
         },
-        "ticker_image_ziYp3P": {
+        "ticker_4": {
           "type": "ticker_image",
           "settings": {}
         },
-        "ticker_image_p4UjJw": {
+        "ticker_5": {
           "type": "ticker_image",
           "settings": {}
         },
-        "ticker_image_AGTRdD": {
+        "ticker_6": {
           "type": "ticker_image",
           "settings": {}
         },
-        "ticker_image_eQnJRE": {
+        "ticker_7": {
           "type": "ticker_image",
           "settings": {}
         },
-        "ticker_image_wgRraX": {
+        "ticker_8": {
           "type": "ticker_image",
           "settings": {}
         },
-        "ticker_image_E7knVa": {
+        "ticker_9": {
           "type": "ticker_image",
           "settings": {}
         },
-        "ticker_image_3CWTUR": {
+        "ticker_10": {
           "type": "ticker_image",
           "settings": {}
         },
         "review_1": {
           "type": "review",
           "settings": {
-            "rating": "4.9",
-            "quote": "\"I forgot what normal felt like until now!\"",
-            "details": "I got so used to the dryness I honestly forgot it wasn't supposed to feel like that?? Like I just accepted it as my life. Started Huuha Queen because my cousin wouldn't stop talking about it and within like 2 weeks I actually felt wet again on my own. Not from lube. From my actual body. I didn't even realize how uncomfortable I had been every single day until it stopped. I literally feel normal again and I could cry!!",
-            "author_name": "TIFFANY W.",
-            "tag_1": "Immunity Boost",
-            "tag_2": "Prevention",
+            "rating": "5.0",
+            "quote": "\"My feet haven't looked this healthy in years!\"",
+            "details": "I'd been dealing with athlete's foot for over 3 years. Tried every cream at the pharmacy, even prescription stuff. Nothing stuck. My buddy told me about Verra Rituel and I figured why not. After the first week the cracking between my toes started closing up. By week 3 my feet looked NORMAL again. Not peeling, not red, not itchy. I actually wore sandals for the first time in forever. This soap is the real deal.",
+            "author_name": "MARCUS T.",
+            "tag_1": "Athlete's Foot",
+            "tag_2": "Clear Skin",
             "card_bg_color": ""
           }
         },
         "review_2": {
           "type": "review",
           "settings": {
-            "rating": "5.0",
-            "quote": "\"Husband noticed before I even said anything!\"",
-            "details": "Ok I need to share this because WOW. We been together 14 years and I'm not gonna lie there was a point where we just stopped being close. I was dry and self conscious and I didn't want him near me like that. He never said anything but I know he felt it too. Started taking Huuha Queen and didn't tell him. About 3 weeks in he looks at me and goes \"something's different about you.\" He had no idea I was taking anything!! We are all over each other again like it's year one. This is my little secret and it's WORKING 🤫",
-            "author_name": "BRANDI M.",
-            "tag_1": "Gut Support",
-            "tag_2": "Bloat Relief",
+            "rating": "4.9",
+            "quote": "\"The smell is finally gone — my wife noticed first!\"",
+            "details": "I'm gonna be honest — the foot odor was BAD. I tried powders, sprays, even soaking my feet in vinegar like the internet said. Nothing worked for more than a day. Started using Verra Rituel every morning in the shower and by end of the first week my shoes didn't smell anymore. My wife actually said something. She was like 'what changed?' I just smiled. Three bars in and I'll never go back to anything else.",
+            "author_name": "DAVID R.",
+            "tag_1": "Odor Control",
+            "tag_2": "Daily Use",
             "card_bg_color": ""
           }
         },
         "review_3": {
           "type": "review",
           "settings": {
-            "rating": "4.9",
-            "quote": "\"I stopped carrying wipes everywhere I go!\"",
-            "details": "I'm not even exaggerating when I say I used to have wipes in my purse, my car, my desk at work, everywhere. I would go to the bathroom before any meeting just to check. I was changing my underwear sometimes twice a day because of the smell and discharge and I was SO embarrassed even though nobody knew. After about 2 weeks on Huuha Queen the odor just started fading. By the end of the first bag I realized I hadn't checked once that whole day!! The freshness is actually real. I feel clean like when I was younger. I tell everyone about these now.",
-            "author_name": "CANDICE R.",
-            "tag_1": "Clean Ingredients",
-            "tag_2": "Whole-Body Health",
+            "rating": "4.8",
+            "quote": "\"I stopped hiding my feet at the gym!\"",
+            "details": "As someone who works out every day, the locker room was my nightmare. I had ringworm on my foot that kept coming back no matter what I used. I felt so embarrassed I'd change in a bathroom stall. A trainer at my gym recommended Verra Rituel. Within 2 weeks the patches started shrinking. By week 4 they were gone. Completely. I'm back to showering at the gym with zero stress. Genuinely life-changing for me.",
+            "author_name": "JAMES K.",
+            "tag_1": "Ringworm",
+            "tag_2": "Active Lifestyle",
             "card_bg_color": ""
           }
         },
@@ -478,38 +497,38 @@
           "type": "review",
           "settings": {
             "rating": "5.0",
-            "quote": "\"I'm 58 and thought this was just my life now!\"",
-            "details": "I honestly thought the dryness was just permanent. My doctor said try lubricant and that was literally her whole answer. I tried so many different creams and lubes I have a whole basket of them in my bathroom and NONE of them lasted or felt right. My daughter found Huuha Queen online and sent it to me. I didn't expect anything. By the third week everything started feeling alive again not just during intimacy but even just sitting and walking around all day! I almost cried because I forgot what it felt like to just be comfortable in my own body. Thank you Huuha Queen for real!!!",
-            "author_name": "JASMINE L.",
-            "tag_1": "Cold Prevention",
-            "tag_2": "Daily Defense",
+            "quote": "\"My dermatologist was impressed with the results!\"",
+            "details": "I went to the derm for a persistent fungal issue on my hands and feet. They gave me a prescription cream that kind of helped but it kept coming back. I added Verra Rituel to my daily shower routine and at my follow-up visit even my doctor noticed the improvement. She asked what I changed. The combination of natural ingredients in this bar just works differently. My skin is clear and the fungus hasn't returned in 3 months.",
+            "author_name": "SARAH L.",
+            "tag_1": "Dermatologist Approved",
+            "tag_2": "Long-Term Relief",
             "card_bg_color": ""
           }
         },
         "review_5": {
           "type": "review",
           "settings": {
-            "rating": "4.8",
-            "quote": "\"Finally, a supplement I can actually feel working.\"",
-            "details": "I've tried so many supplements that promise results but never deliver. Huuha Queen is different. Within the first week I noticed more energy and less bloating. I'm a customer for life.",
-            "author_name": "TONYA S.",
-            "tag_1": "Energy",
-            "tag_2": "Digestive Health",
+            "rating": "4.9",
+            "quote": "\"Finally, something that actually keeps fungus away.\"",
+            "details": "I've dealt with jock itch on and off for years. Every summer it came back worse. Creams would clear it temporarily but it always returned. Verra Rituel is the first thing that's kept it from coming back. I use it every day and haven't had a flare-up in over 4 months. The tea tree scent is clean and not overpowering. Best purchase I've made for my skin.",
+            "author_name": "CHRIS M.",
+            "tag_1": "Jock Itch",
+            "tag_2": "Prevention",
             "card_bg_color": ""
           }
         }
       },
       "block_order": [
         "ticker_1",
-        "ticker_image_pGm3ig",
-        "ticker_image_DeKwWj",
-        "ticker_image_ziYp3P",
-        "ticker_image_p4UjJw",
-        "ticker_image_AGTRdD",
-        "ticker_image_eQnJRE",
-        "ticker_image_wgRraX",
-        "ticker_image_E7knVa",
-        "ticker_image_3CWTUR",
+        "ticker_2",
+        "ticker_3",
+        "ticker_4",
+        "ticker_5",
+        "ticker_6",
+        "ticker_7",
+        "ticker_8",
+        "ticker_9",
+        "ticker_10",
         "review_1",
         "review_2",
         "review_3",
@@ -520,15 +539,15 @@
         ".ts-review__quote {font-weight: bold;}"
       ],
       "settings": {
-        "heading": "Real Women, <strong>Real Results</strong>",
-        "subheading": "See what our customers are saying about Huuha Queen",
-        "highlight_color": "#ff1493",
-        "star_color": "#ff1493",
-        "verified_color": "#d90078",
-        "tag_color": "#ff1493",
-        "tag_bg_color": "#fff0f6",
+        "heading": "Real People, <strong>Real Relief</strong>",
+        "subheading": "See what our customers are saying about Verra Rituel",
+        "highlight_color": "#2d8a6e",
+        "star_color": "#2d8a6e",
+        "verified_color": "#1a6b52",
+        "tag_color": "#2d8a6e",
+        "tag_bg_color": "#f0faf6",
         "ticker_speed": 30,
-        "section_bg_color": "#fff6fa",
+        "section_bg_color": "#f5fdf9",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -540,28 +559,28 @@
           "type": "benefit",
           "settings": {
             "icon_name": "health_and_safety",
-            "title": "Perfect pH Balance"
+            "title": "Kill Fungus at the Root"
           }
         },
         "benefit_2": {
           "type": "benefit",
           "settings": {
             "icon_name": "science",
-            "title": "Fight BV & UTIs"
+            "title": "Stop Athlete's Foot & Ringworm"
           }
         },
         "benefit_3": {
           "type": "benefit",
           "settings": {
             "icon_name": "bolt",
-            "title": "Eliminate Odors & Discharge"
+            "title": "Eliminate Odor for Good"
           }
         },
         "benefit_4": {
           "type": "benefit",
           "settings": {
             "icon_name": "spa",
-            "title": "Boost Natural Moisture"
+            "title": "Restore Healthy Skin"
           }
         }
       },
@@ -572,12 +591,12 @@
         "benefit_4"
       ],
       "settings": {
-        "heading": "<strong>Feel Better.</strong> Every Day.",
-        "subheading": "From feeling less self-conscious to noticeable differences, here’s what makes Huuha Queen™ different.",
-        "bg_color": "#18001a",
-        "bg_color_bottom": "#d90078",
+        "heading": "<strong>Clean Skin.</strong> Every Day.",
+        "subheading": "From ending the embarrassment to restoring confidence, here's what makes Verra Rituel™ different.",
+        "bg_color": "#0a2e1f",
+        "bg_color_bottom": "#1a6b52",
         "text_color": "#ffffff",
-        "highlight_color": "#ff1493",
+        "highlight_color": "#2d8a6e",
         "subheading_color": "",
         "heading_size": 3,
         "subheading_size": 1.5,
@@ -592,33 +611,33 @@
         "pb_1": {
           "type": "benefit",
           "settings": {
-            "title": "Pineapple Magic",
-            "description": "Balance from within",
-            "answer": "Real pineapple fruit enzymes naturally destroy harmful bacteria while feeding the good flora."
+            "title": "Tea Tree Power",
+            "description": "Antifungal at the source",
+            "answer": "Tea tree oil contains terpinen-4-ol, a compound proven to disrupt fungal cell membranes and eliminate infections at the root."
           }
         },
         "pb_2": {
           "type": "benefit",
           "settings": {
-            "title": "Slippery Elm",
-            "description": "Moisture from the inside",
-            "answer": "Slippery Elm is a natural herb rich in soothing mucilage that hydrates. It helps support vaginal moisture and comfort."
+            "title": "Eucalyptus Clean",
+            "description": "Deep antiseptic action",
+            "answer": "Eucalyptus oil penetrates deep into skin pores to kill bacteria and fungal spores, creating an environment where infections simply cannot survive."
           }
         },
         "pb_3": {
           "type": "benefit",
           "settings": {
-            "title": "Probiotic Power",
-            "description": "Science at the source",
-            "answer": "Other products simply cover up symtops, our three-part formula helps restore your body's natural flora to its perfect balance."
+            "title": "Charcoal Detox",
+            "description": "Draws out impurities",
+            "answer": "Activated charcoal binds to toxins, excess oils, and odor-causing bacteria — pulling them out of your skin so it can finally breathe and heal."
           }
         },
         "pb_4": {
           "type": "benefit",
           "settings": {
-            "title": "pH Protection",
-            "description": "Feel focused, not foggy",
-            "answer": "Our specialized strain forms a protective barrier that helps maintain optimal pH balance all day long."
+            "title": "Skin Barrier Repair",
+            "description": "Protect and prevent",
+            "answer": "Our formula doesn't just treat — it helps rebuild your skin's natural protective barrier so fungal infections are less likely to return."
           }
         }
       },
@@ -630,11 +649,11 @@
       ],
       "settings": {
         "heading": "<strong>How it Works.</strong> Backed by Science.",
-        "subheading": "You deserve to feel balanced, not feel like nothing works. <strong>Huuha Queen™ delivers real, long-lasting results </strong>using ingredients with decades of backed-research.",
-        "highlight_color": "#ff1493",
-        "bg_color": "#fff6fa",
+        "subheading": "You deserve skin that feels clean and healthy, not another product that barely works. <strong>Verra Rituel™ delivers real, lasting relief</strong> using ingredients with decades of dermatological research.",
+        "highlight_color": "#2d8a6e",
+        "bg_color": "#f5fdf9",
         "cta_text": "Try Risk-Free Today",
-        "cta_link": "#ProductInfo-template--19669653651558__main",
+        "cta_link": "",
         "cta_note": "30-day money back guarantee",
         "cta_note_icon_name": "verified_user",
         "cta_height": 40,
@@ -642,63 +661,63 @@
         "padding_bottom": 40
       }
     },
-    "ticker_bar_E76PpF": {
+    "ticker_bar_vr": {
       "type": "ticker-bar",
       "blocks": {
-        "ticker_item_HqnLzq": {
+        "ticker_item_1": {
           "type": "ticker_item",
           "settings": {
-            "text": "End Dryness",
+            "text": "Kill Fungus",
             "icon_name": "verified"
           }
         },
-        "ticker_item_k8LYdF": {
+        "ticker_item_2": {
           "type": "ticker_item",
           "settings": {
             "text": "Stop Odor",
             "icon_name": "verified"
           }
         },
-        "ticker_item_TGPdcq": {
+        "ticker_item_3": {
           "type": "ticker_item",
           "settings": {
-            "text": "Balance pH",
+            "text": "Clear Skin",
             "icon_name": "verified"
           }
         },
-        "ticker_item_R9aqEp": {
+        "ticker_item_4": {
           "type": "ticker_item",
           "settings": {
-            "text": "Prevent BV & Yeast",
+            "text": "End Athlete's Foot",
             "icon_name": "verified"
           }
         },
-        "ticker_item_EdVTLR": {
+        "ticker_item_5": {
           "type": "ticker_item",
           "settings": {
-            "text": "Boost Moisture",
+            "text": "Stop Itching",
             "icon_name": "verified"
           }
         },
-        "ticker_item_WW7aKr": {
+        "ticker_item_6": {
           "type": "ticker_item",
           "settings": {
-            "text": "No More Itch",
+            "text": "100% Natural",
             "icon_name": "verified"
           }
         }
       },
       "block_order": [
-        "ticker_item_HqnLzq",
-        "ticker_item_k8LYdF",
-        "ticker_item_TGPdcq",
-        "ticker_item_R9aqEp",
-        "ticker_item_EdVTLR",
-        "ticker_item_WW7aKr"
+        "ticker_item_1",
+        "ticker_item_2",
+        "ticker_item_3",
+        "ticker_item_4",
+        "ticker_item_5",
+        "ticker_item_6"
       ],
       "name": "Ticker bar",
       "settings": {
-        "background_color": "#ff1493",
+        "background_color": "#2d8a6e",
         "text_color": "#ffffff",
         "border_position": "none",
         "border_thickness": 1,
@@ -719,29 +738,29 @@
         "wj_1": {
           "type": "milestone",
           "settings": {
-            "week_label": "Week 1: The Shift Starts",
-            "bullets": "<ul><li>Odor starts fading day by day</li><li>Dryness and discomfort begin to ease up</li><li>Your body is adjusting, keep going</li></ul>"
+            "week_label": "Week 1: Relief Begins",
+            "bullets": "<ul><li>Itching and burning start to subside</li><li>Odor noticeably reduces after each wash</li><li>Skin feels cleaner and less irritated</li></ul>"
           }
         },
         "wj_2": {
           "type": "milestone",
           "settings": {
-            "week_label": "Week 2: You Start Noticing",
-            "bullets": "<ul><li>Moisture coming back on its own, not from a product</li><li>BV and yeast issues start clearing up</li><li>You feel fresher and stop checking as often</li></ul>"
+            "week_label": "Week 2: Visible Improvement",
+            "bullets": "<ul><li>Fungal patches begin to shrink and fade</li><li>Cracked, peeling skin starts healing</li><li>Confidence comes back — you stop hiding</li></ul>"
           }
         },
         "wj_3": {
           "type": "milestone",
           "settings": {
-            "week_label": "Week 3: Your Body Remembers",
-            "bullets": "<ul><li>Things start feeling like they used to</li><li>Discomfort fading during the day and during intimacy</li><li>Your body is working with you again not against you</li></ul>"
+            "week_label": "Week 3: Skin Restores",
+            "bullets": "<ul><li>Affected areas look healthier and smoother</li><li>No more redness, flaking, or discomfort</li><li>Odor is gone — feet stay fresh all day</li></ul>"
           }
         },
         "wj_4": {
           "type": "milestone",
           "settings": {
-            "week_label": "Week 4+: Long-Term Balance",
-            "bullets": "<ul><li>Fresh all day without thinking about it</li><li>Wet when you want to be, comfortable when you don't</li><li>Your partner might notice before you even tell them</li></ul>"
+            "week_label": "Week 4+: Fungus-Free Living",
+            "bullets": "<ul><li>Skin is fully clear and feels normal again</li><li>Fungus hasn't returned — the barrier holds</li><li>Wear sandals, go barefoot, live without worry</li></ul>"
           }
         }
       },
@@ -755,13 +774,13 @@
         ".wj-cta-button {color: black;}"
       ],
       "settings": {
-        "heading": "<strong>Your Wellness</strong> Journey with Huuha Queen®",
-        "description": "Huuha Queen® is made by women for women to deliver real, lasting results—not just quick fixes. Here's how your body begins to shift once you start taking it daily:",
-        "highlight_color": "#d90078",
+        "heading": "<strong>Your Relief</strong> Journey with Verra Rituel®",
+        "description": "Verra Rituel® is formulated to deliver real, lasting antifungal relief — not just temporary fixes. Here's how your skin transforms when you start using it daily:",
+        "highlight_color": "#1a6b52",
         "button_color": "#ffd600",
         "bg_color": "",
-        "cta_text": "Start My Journey →",
-        "cta_link": "#ProductInfo-template--19669653651558__main",
+        "cta_text": "Start My Recovery →",
+        "cta_link": "",
         "cta_note": "30-day money-back guarantee",
         "cta_note_icon_name": "verified_user",
         "cta_height": 40,
@@ -769,66 +788,66 @@
         "padding_bottom": 40
       }
     },
-    "reasons_why_VdQFQx": {
+    "reasons_why_vr": {
       "type": "reasons-why",
       "blocks": {
-        "reason_card_XmWM9Y": {
+        "reason_1": {
           "type": "reason_card",
           "settings": {
             "label": "Reason 1",
-            "heading": "Clinically Chosen for Real Impact",
-            "details": "<p>We use sporeform bacillus coagulans — meaning these probiotics survive your gut lining (where most probiotics stop) so it can reach your flora and actually work.</p>"
+            "heading": "Targets the Root, Not Just Symptoms",
+            "details": "<p>Most antifungal creams only treat what you can see. Verra Rituel's tea tree formula penetrates deep to kill fungal spores beneath the skin surface — where infections actually live and spread.</p>"
           }
         },
-        "reason_card_493cPn": {
+        "reason_2": {
           "type": "reason_card",
           "settings": {
             "label": "Reason 2",
-            "heading": "Targets Balance & Moisture Together",
-            "details": "<p>Why take multiple supplements when you can get it all in one? Huuha Queen is designed to not only support just balance, it also boosts moisture. That's truly balanced.</p>"
+            "heading": "Fights Fungus AND Odor Together",
+            "details": "<p>Why use two products when one does both? Verra Rituel kills the fungus causing the smell while activated charcoal neutralizes odor. Clean skin and fresh scent in a single bar.</p>"
           }
         },
-        "reason_card_HHJT9J": {
+        "reason_3": {
           "type": "reason_card",
           "settings": {
             "label": "Reason 3",
-            "heading": "No Pills. No Problem Taking.",
-            "details": "<p>Unlike harsh capsules or hard to use alternatives, Huuha Queen is delicious, gentle, and super easy — without dreading to take or discomfort.</p>"
+            "heading": "Easiest Routine You'll Ever Have",
+            "details": "<p>No creams to rub in. No sprays to time. No pills to remember. Just lather during your normal shower and rinse. It fits into the routine you already have — zero extra effort.</p>"
           }
         },
-        "reason_card_VCdJrA": {
+        "reason_4": {
           "type": "reason_card",
           "settings": {
             "label": "Reason 4",
-            "heading": "Natural & Clean Ingredients",
-            "details": "<p>Vegan, Non-GMO. Free from gluten, dairy, soy, allergens, & fillers. Third-party tested for purity & potency.</p>"
+            "heading": "100% Natural & Gentle on Skin",
+            "details": "<p>No parabens, no sulfates, no harsh chemicals. Just Tea Tree, Eucalyptus, and Activated Charcoal — dermatologist-recommended ingredients that are tough on fungus but gentle on your skin.</p>"
           }
         },
-        "reason_card_Np8tDa": {
+        "reason_5": {
           "type": "reason_card",
           "settings": {
             "label": "Reason 5",
-            "heading": "Results You Can Actually Feel",
-            "details": "<p>Most women feel a difference within the first 7–14 days: more moisture, freshness, and balance to feel the way you deserve.</p>"
+            "heading": "Results You Can See in Weeks",
+            "details": "<p>Most customers report visible improvement within 7–14 days. By day 30, fungus is gone and skin looks completely healthy again. This isn't a maybe — it's backed by thousands of reviews.</p>"
           }
         }
       },
       "block_order": [
-        "reason_card_XmWM9Y",
-        "reason_card_493cPn",
-        "reason_card_HHJT9J",
-        "reason_card_VCdJrA",
-        "reason_card_Np8tDa"
+        "reason_1",
+        "reason_2",
+        "reason_3",
+        "reason_4",
+        "reason_5"
       ],
       "name": "Reasons why",
       "settings": {
         "badge_text": "5 Reasons Why",
-        "subheading": "Huuha Queen® is Different From Everything You've Tried",
-        "bg_color": "#fff6fa",
+        "subheading": "Verra Rituel® is Different From Everything You've Tried",
+        "bg_color": "#f5fdf9",
         "text_color": "#000000",
-        "badge_bg_color": "#ff1493",
+        "badge_bg_color": "#2d8a6e",
         "badge_text_color": "#ffffff",
-        "label_bg_color": "#ff1493",
+        "label_bg_color": "#2d8a6e",
         "label_text_color": "#ffffff",
         "card_bg_color": "#ffffff",
         "card_border_color": "#0000004d",
@@ -843,7 +862,7 @@
         "card_gap": 13,
         "max_width": 1500,
         "cta_text": "Try Risk-Free Today",
-        "cta_url": "#ProductInfo-template--19669653651558__main",
+        "cta_url": "",
         "cta_bg_color": "#ffd600",
         "cta_text_color": "#000000",
         "cta_font_size": 19,
@@ -859,36 +878,36 @@
         "bc_1": {
           "type": "feature",
           "settings": {
-            "brand_text": "Clinically Backed",
-            "competitor_text": "Trend-Based Blends"
+            "brand_text": "Dermatologist Recommended",
+            "competitor_text": "Generic Formulas"
           }
         },
         "bc_2": {
           "type": "feature",
           "settings": {
-            "brand_text": "3rd-Party Tested",
-            "competitor_text": "No Test Proof"
+            "brand_text": "3rd-Party Lab Tested",
+            "competitor_text": "No Independent Testing"
           }
         },
         "bc_3": {
           "type": "feature",
           "settings": {
-            "brand_text": "Allergen-Free & Natural",
-            "competitor_text": "Fillers & Additives"
+            "brand_text": "100% Natural Ingredients",
+            "competitor_text": "Chemicals & Irritants"
           }
         },
         "bc_4": {
           "type": "feature",
           "settings": {
-            "brand_text": "Global Certified Facilities",
-            "competitor_text": "Inconsistent Quality"
+            "brand_text": "Kills Fungus + Eliminates Odor",
+            "competitor_text": "Treats Surface Only"
           }
         },
         "bc_5": {
           "type": "feature",
           "settings": {
-            "brand_text": "Vegan & Gluten-Free",
-            "competitor_text": "Sugar, Flavors, Binders"
+            "brand_text": "Cruelty-Free & Vegan",
+            "competitor_text": "Animal Testing"
           }
         }
       },
@@ -900,27 +919,27 @@
         "bc_5"
       ],
       "settings": {
-        "heading": "<strong>Huuha Queen®</strong> vs. Other Brands",
+        "heading": "<strong>Verra Rituel®</strong> vs. Other Brands",
         "heading_size": 36,
-        "bg_gradient_start": "#18001a",
-        "bg_gradient_end": "#d90078",
+        "bg_gradient_start": "#0a2e1f",
+        "bg_gradient_end": "#1a6b52",
         "text_color": "#ffffff",
-        "highlight_color": "#ff1493",
-        "brand_name": "<strong>Huuha Queen</strong>",
+        "highlight_color": "#2d8a6e",
+        "brand_name": "<strong>Verra Rituel</strong>",
         "brand_name_color": "#ffffff",
-        "brand_col_color": "#ff1493",
+        "brand_col_color": "#2d8a6e",
         "brand_icon_color": "#ffffff",
         "competitor_label": "<strong>Other Brands</strong>",
         "comp_col_color": "#ffffff",
         "comp_text_color": "#000000",
         "comp_icon_color": "#999999",
         "icons_filled": true,
-        "checklist_1": "<strong>Clinically Backed Ingredients</strong> - Ingredients proven to work",
-        "checklist_2": "<strong>Visible Results in Weeks</strong> - Feel a difference in weeks",
-        "checklist_3": "<strong>Long-Term Health, Not Quick Fixes</strong> - Not just symptom relief",
-        "checklist_4": "<strong>Clean & Pure Ingredients</strong> - made without fillers, GMOs, or unnecessary additives",
+        "checklist_1": "<strong>Clinically Proven Ingredients</strong> - Tea tree oil with verified antifungal efficacy",
+        "checklist_2": "<strong>Visible Results in 2 Weeks</strong> - Fungal patches shrink, itching stops",
+        "checklist_3": "<strong>Long-Term Prevention, Not Quick Fixes</strong> - Rebuilds skin barrier to stop recurrence",
+        "checklist_4": "<strong>Clean & Natural Formula</strong> - made without parabens, sulfates, or harsh chemicals",
         "cta_text": "Try Risk-Free Today",
-        "cta_link": "#ProductInfo-template--19669653651558__main",
+        "cta_link": "",
         "cta_height": 46,
         "cta_bg_color": "#ffd600",
         "cta_text_color": "#000000",
@@ -935,93 +954,113 @@
       "settings": {
         "badge_number": "30",
         "badge_label": "DAYS",
-        "subtitle": "FEEL THE DIFFERENCE",
+        "subtitle": "SEE THE DIFFERENCE",
         "heading": "30-Day Risk-Free Trial",
         "heading_size": 23,
-        "description": "If you don't experience noticeable improvements within 30 days, simply return your order for a full refund—no questions asked.",
-        "bg_color": "#fff6fa",
-        "accent_color": "#ff1493",
+        "description": "If you don't see noticeable improvement in your skin within 30 days, simply return your order for a full refund — no questions asked.",
+        "bg_color": "#f5fdf9",
+        "accent_color": "#2d8a6e",
         "text_color": "",
         "cta_text": "Try Risk-Free Today",
-        "cta_link": "#ProductInfo-template--19669653651558__main",
+        "cta_link": "",
         "cta_height": 50,
         "cta_bg_color": "#ffd600",
         "cta_text_color": "#000000",
         "padding_top": 28
       }
     },
-    "1773377171b98d1ae1": {
+    "apps_disabled": {
       "type": "apps",
       "disabled": true,
       "settings": {
         "include_margins": true
       }
     },
-    "collapsible_content_TCEeNz": {
+    "collapsible_content_vr": {
       "type": "collapsible-content",
       "blocks": {
-        "collapsible_row_kP7dka": {
+        "faq_1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How do the Huuha Queen™ Slippery Huuha gummies work?",
+            "heading": "How does the Verra Rituel™ Antifungal Soap work?",
             "icon": "none",
-            "row_content": "<p>Huuha Queen uses three ingredients that work from the inside out. <strong>Slippery Elm</strong> rehydrates the tissue that produces your natural moisture. <strong>Bacillus Coagulans</strong> is a probiotic that survives stomach acid to actually reach your vaginal flora and rebalance pH. <strong>Pineapple Fruit</strong> supports freshness naturally. Two gummies a day — your body does the rest.</p>",
+            "row_content": "<p>Verra Rituel combines three clinically studied natural ingredients. <strong>Tea Tree Oil</strong> kills fungus by disrupting fungal cell membranes. <strong>Eucalyptus Oil</strong> provides deep antiseptic cleansing. <strong>Activated Charcoal</strong> draws out toxins and neutralizes odor. Just lather, let it sit for 60 seconds, and rinse — your skin does the rest.</p>",
             "page": ""
           }
         },
-        "collapsible_row_jgAFHc": {
+        "faq_2": {
           "type": "collapsible_row",
           "settings": {
             "heading": "How long will it take to see results?",
             "icon": "none",
-            "row_content": "<p>Most women notice changes <strong>within the first 2 weeks</strong>, with full results building over <strong>30 days</strong> of daily use. Take 2 gummies daily. Every body is different — some feel it in the first week, others take 3-4 weeks. Stick with it. The women who see the best results are the ones who stay consistent.</p>",
+            "row_content": "<p>Most people notice visible improvement <strong>within the first 1–2 weeks</strong>. Itching and odor typically reduce within days. Full clearance builds over <strong>30 days</strong> of daily use. Every case is different — mild infections clear faster, stubborn ones may take the full month. Consistency is key.</p>",
             "page": ""
           }
         },
-        "collapsible_row_qUEDkw": {
+        "faq_3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can I take it with other supplements?",
+            "heading": "What types of fungal infections does it treat?",
             "icon": "none",
-            "row_content": "<p>Yes. These gummies are made with <strong>natural ingredients and work alongside your other daily vitamins</strong>. If you're currently on specific medications or hormonal treatments, check with your doctor first.</p>",
+            "row_content": "<p>Verra Rituel is effective against <strong>athlete's foot, jock itch, ringworm, toenail fungus symptoms, and general body fungus</strong>. The tea tree oil formula works on multiple fungal strains. For severe or persistent infections, we recommend pairing with advice from your healthcare provider.</p>",
             "page": ""
           }
         },
-        "collapsible_row_FCYENr": {
+        "faq_4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Is this safe if I can't use estrogen or hormones?",
+            "heading": "Is it safe for sensitive skin?",
             "icon": "none",
-            "row_content": "<p>Yes. Huuha Queen is <strong>100% hormone-free and contains zero estrogen</strong>. It works naturally with your body — no hormones at all. Women on aromatase inhibitors, women who've been through cancer treatment, and women who simply don't want hormones can use this safely.</p>",
+            "row_content": "<p>Yes. Verra Rituel is <strong>hypoallergenic, paraben-free, and sulfate-free</strong>. It's made with natural ingredients and is gentle enough for daily use on all skin types, including sensitive skin. If you have a known allergy to tea tree oil, consult your doctor first.</p>",
             "page": ""
           }
         },
-        "collapsible_row_JXE9KX": {
+        "faq_5": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Are they vegan and gluten-free?",
+            "heading": "Can I use it on my whole body?",
             "icon": "none",
-            "row_content": "<p>Yes. Made with <strong>vegan, gluten-free, allergen-free, non-GMO, and natural ingredients</strong> — safe for a wide range of dietary needs.</p>",
+            "row_content": "<p>Absolutely. While it's especially effective on <strong>feet, groin, and body areas prone to fungal growth</strong>, Verra Rituel is safe to use as a full-body soap. Many customers use it as their daily shower bar for overall skin health and odor prevention.</p>",
             "page": ""
           }
         },
-        "collapsible_row_xwHJdL": {
+        "faq_6": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Are there any side effects?",
+            "heading": "How long does one bar last?",
             "icon": "none",
-            "row_content": "<p>These gummies work with your body's own system, not against it. Our probiotic strain is <strong>stomach-friendly and won't disrupt your natural balance</strong>. No hormones, no harsh chemicals, no digestive issues. Most women experience zero side effects. Take 2 gummies daily with food.</p>",
+            "row_content": "<p>One bar typically lasts <strong>4–6 weeks</strong> with daily use on targeted areas. If used as a full-body wash, it may last 3–4 weeks. We recommend the 2-pack or 3-pack for uninterrupted treatment and the best value.</p>",
+            "page": ""
+          }
+        },
+        "faq_7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will the fungus come back after I stop using it?",
+            "icon": "none",
+            "row_content": "<p>Unlike creams that only address symptoms, Verra Rituel <strong>helps rebuild your skin's natural protective barrier</strong>. Many customers report that fungus stays gone after completing a 30-day routine. For prevention, we recommend continuing to use the bar 2–3 times per week even after your skin clears.</p>",
+            "page": ""
+          }
+        },
+        "faq_8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer a guarantee?",
+            "icon": "none",
+            "row_content": "<p>Yes! Every order is backed by our <strong>30-day money-back guarantee</strong>. If you don't see visible improvement — less fungus, less odor, healthier skin — just reach out and we'll refund you in full. No hassle, no questions. We believe in this product that much.</p>",
             "page": ""
           }
         }
       },
       "block_order": [
-        "collapsible_row_kP7dka",
-        "collapsible_row_jgAFHc",
-        "collapsible_row_qUEDkw",
-        "collapsible_row_FCYENr",
-        "collapsible_row_JXE9KX",
-        "collapsible_row_xwHJdL"
+        "faq_1",
+        "faq_2",
+        "faq_3",
+        "faq_4",
+        "faq_5",
+        "faq_6",
+        "faq_7",
+        "faq_8"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
@@ -1039,7 +1078,7 @@
         "padding_bottom": 36
       }
     },
-    "1773377263ad90805a": {
+    "apps_reviews": {
       "type": "apps",
       "settings": {
         "include_margins": true
@@ -1067,19 +1106,19 @@
   },
   "order": [
     "main",
-    "clinical_proven_XJiV6J",
+    "clinical_proven_vr",
     "feature_cards",
     "testimonial_slider",
     "benefits_showcase",
     "proven_benefits",
-    "ticker_bar_E76PpF",
+    "ticker_bar_vr",
     "wellness_journey",
-    "reasons_why_VdQFQx",
+    "reasons_why_vr",
     "brand_comparison",
     "risk_free_trial",
-    "1773377171b98d1ae1",
-    "collapsible_content_TCEeNz",
-    "1773377263ad90805a",
+    "apps_disabled",
+    "collapsible_content_vr",
+    "apps_reviews",
     "related-products"
   ]
 }
