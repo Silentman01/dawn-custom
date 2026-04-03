@@ -750,38 +750,43 @@
       "type": "reasons-why",
       "blocks": {
         "reason_1": {
-          "type": "reason",
+          "type": "reason_card",
           "settings": {
-            "title": "Formule naturelle triple-action",
-            "text": "Trois ingrédients actifs — arbre à thé, eucalyptus, charbon actif — qui ciblent les mycoses en profondeur, pas seulement en surface."
+            "label": "Raison 1",
+            "heading": "Formule naturelle triple-action",
+            "details": "<p>Trois ingrédients actifs — arbre à thé, eucalyptus, charbon actif — qui ciblent les mycoses en profondeur, pas seulement en surface.</p>"
           }
         },
         "reason_2": {
-          "type": "reason",
+          "type": "reason_card",
           "settings": {
-            "title": "Résultats dès les premières semaines",
-            "text": "97% des utilisateurs constatent une diminution de l'inconfort au cours des premières semaines. Un soulagement rapide et durable."
+            "label": "Raison 2",
+            "heading": "Résultats dès les premières semaines",
+            "details": "<p>97% des utilisateurs constatent une diminution de l'inconfort au cours des premières semaines. Un soulagement rapide et durable.</p>"
           }
         },
         "reason_3": {
-          "type": "reason",
+          "type": "reason_card",
           "settings": {
-            "title": "Simple et pratique",
-            "text": "Un seul savon, sous la douche, une fois par jour. Pas de crèmes, pas de sprays, pas de routine compliquée."
+            "label": "Raison 3",
+            "heading": "Simple et pratique",
+            "details": "<p>Un seul savon, sous la douche, une fois par jour. Pas de crèmes, pas de sprays, pas de routine compliquée.</p>"
           }
         },
         "reason_4": {
-          "type": "reason",
+          "type": "reason_card",
           "settings": {
-            "title": "Sans risque — Garantie 30 jours",
-            "text": "Pas d'amélioration ? On vous rembourse intégralement. Sans formulaire, sans complication."
+            "label": "Raison 4",
+            "heading": "Sans risque — Garantie 30 jours",
+            "details": "<p>Pas d'amélioration ? On vous rembourse intégralement. Sans formulaire, sans complication.</p>"
           }
         },
         "reason_5": {
-          "type": "reason",
+          "type": "reason_card",
           "settings": {
-            "title": "20 000+ clients satisfaits",
-            "text": "Des milliers de personnes ont retrouvé des pieds sains et la confiance de marcher pieds nus à nouveau."
+            "label": "Raison 5",
+            "heading": "20 000+ clients satisfaits",
+            "details": "<p>Des milliers de personnes ont retrouvé des pieds sains et la confiance de marcher pieds nus à nouveau.</p>"
           }
         }
       },
@@ -793,13 +798,35 @@
         "reason_5"
       ],
       "settings": {
-        "heading": "5 raisons de choisir <strong>Verra Rituel</strong>",
-        "highlight_color": "#1A3018",
-        "number_color": "#DFF47E",
-        "number_bg_color": "#1A3018",
-        "bg_color": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "badge_text": "5 raisons",
+        "subheading": "Pourquoi Verra Rituel® est différent de tout ce que vous avez essayé",
+        "bg_color": "#f5fdf4",
+        "text_color": "#000000",
+        "badge_bg_color": "#1A3018",
+        "badge_text_color": "#DFF47E",
+        "label_bg_color": "#1A3018",
+        "label_text_color": "#DFF47E",
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#0000004d",
+        "card_text_color": "#000000",
+        "badge_font_size": 28,
+        "subheading_font_size": 31,
+        "label_font_size": 17,
+        "card_heading_font_size": 21,
+        "details_font_size": 16,
+        "card_height": 408,
+        "card_radius": 12,
+        "card_gap": 13,
+        "max_width": 1500,
+        "cta_text": "Essayer sans risque",
+        "cta_url": "",
+        "cta_bg_color": "#DFF47E",
+        "cta_text_color": "#1A3018",
+        "cta_font_size": 19,
+        "cta_margin_top": 40,
+        "guarantee_text": "Garantie 30 jours satisfait ou remboursé",
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "brand_comparison": {
