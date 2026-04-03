@@ -840,7 +840,7 @@
       "settings": {
         "heading": "Aimez votre savon",
         "subheading": "Essayez-le sereinement, sans risque.",
-        "description": "<p>Si vous ne constatez pas d'amélioration ou si le produit ne vous convient pas, vous disposez de <strong>30 jours pour changer d'avis.</strong></p>",
+        "description": "Si vous ne constatez pas d'amélioration ou si le produit ne vous convient pas, vous disposez de 30 jours pour changer d'avis.",
         "cta_text": "Essayer sans risque",
         "cta_function": "link",
         "cta_url": "",
