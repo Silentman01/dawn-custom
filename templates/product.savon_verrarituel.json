@@ -638,31 +638,13 @@
             "description": "Hydratation et protection",
             "answer": "L'huile de coco nourrit et protège la barrière cutanée pendant que les actifs antifongiques agissent. Elle empêche le dessèchement et adoucit la peau fragilisée."
           }
-        },
-        "pb_5": {
-          "type": "benefit",
-          "settings": {
-            "title": "Aloe vera",
-            "description": "Apaisement et réparation",
-            "answer": "L'aloe vera calme les irritations, réduit les rougeurs et accélère la régénération de la peau endommagée par les infections fongiques."
-          }
-        },
-        "pb_6": {
-          "type": "benefit",
-          "settings": {
-            "title": "Hamamélis",
-            "description": "Astringent naturel",
-            "answer": "L'hamamélis resserre les pores, réduit l'inflammation et aide à contrôler l'excès d'humidité — l'un des principaux facteurs favorisant le développement des mycoses."
-          }
         }
       },
       "block_order": [
         "pb_1",
         "pb_2",
         "pb_3",
-        "pb_4",
-        "pb_5",
-        "pb_6"
+        "pb_4"
       ],
       "settings": {
         "heading": "Pourquoi ces <strong>ingrédients</strong> fonctionnent",
