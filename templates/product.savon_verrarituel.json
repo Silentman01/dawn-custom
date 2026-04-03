@@ -692,58 +692,54 @@
     "wellness_journey": {
       "type": "wellness-journey",
       "blocks": {
-        "step_1": {
-          "type": "step",
+        "wj_1": {
+          "type": "milestone",
           "settings": {
-            "badge": "7 jours",
-            "title": "Premiers signes d'amélioration",
-            "description_1": "La peau paraît plus propre et plus fraîche au quotidien.",
-            "description_2": "Les odeurs et l'inconfort liés à l'humidité commencent à diminuer."
+            "week_label": "7 jours : les premiers signes",
+            "bullets": "<ul><li>La peau paraît plus propre et plus fraîche au quotidien</li><li>Les odeurs et l'inconfort liés à l'humidité commencent à diminuer</li><li>Votre peau s'adapte, continuez</li></ul>"
           }
         },
-        "step_2": {
-          "type": "step",
+        "wj_2": {
+          "type": "milestone",
           "settings": {
-            "badge": "1 mois",
-            "title": "Résultats visibles",
-            "description_1": "L'aspect de la peau s'améliore visiblement.",
-            "description_2": "Elle est plus nette, plus saine et plus confortable."
+            "week_label": "1 mois : résultats visibles",
+            "bullets": "<ul><li>L'aspect de la peau s'améliore visiblement</li><li>Elle est plus nette, plus saine et plus confortable</li><li>Les démangeaisons et irritations diminuent nettement</li></ul>"
           }
         },
-        "step_3": {
-          "type": "step",
+        "wj_3": {
+          "type": "milestone",
           "settings": {
-            "badge": "2 mois",
-            "title": "Stabilisation",
-            "description_1": "Les résultats se stabilisent.",
-            "description_2": "La peau devient plus régulière et plus facile à maintenir propre et sèche."
+            "week_label": "2 mois : stabilisation",
+            "bullets": "<ul><li>Les résultats se stabilisent durablement</li><li>La peau devient plus régulière et facile à maintenir</li><li>Vous retrouvez confiance au quotidien</li></ul>"
           }
         },
-        "step_4": {
-          "type": "step",
+        "wj_4": {
+          "type": "milestone",
           "settings": {
-            "badge": "4 mois",
-            "title": "Entretien durable",
-            "description_1": "Le savon devient un allié d'entretien.",
-            "description_2": "La peau reste durablement saine, équilibrée et confortable au quotidien."
+            "week_label": "4 mois+ : entretien durable",
+            "bullets": "<ul><li>Le savon devient un allié d'entretien quotidien</li><li>La peau reste saine, équilibrée et confortable</li><li>Plus besoin de penser à vos pieds — ils sont enfin libres</li></ul>"
           }
         }
       },
       "block_order": [
-        "step_1",
-        "step_2",
-        "step_3",
-        "step_4"
+        "wj_1",
+        "wj_2",
+        "wj_3",
+        "wj_4"
       ],
       "settings": {
-        "heading": "Des résultats visibles en <strong>quelques semaines</strong>",
-        "subheading": "Avec une utilisation régulière, de nombreux utilisateurs constatent une amélioration nette de l'état de leurs pieds dès les premières semaines.",
+        "heading": "<strong>Votre parcours</strong> avec Verra Rituel®",
+        "description": "Avec une utilisation régulière, de nombreux utilisateurs constatent une amélioration nette de l'état de leurs pieds dès les premières semaines.",
         "highlight_color": "#1A3018",
-        "badge_color": "#1A3018",
+        "button_color": "#DFF47E",
         "bg_color": "",
-        "text_color": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "cta_text": "Commencer mon parcours →",
+        "cta_link": "",
+        "cta_note": "Garantie 30 jours satisfait ou remboursé",
+        "cta_note_icon_name": "verified_user",
+        "cta_height": 40,
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "reasons_why_vr": {
