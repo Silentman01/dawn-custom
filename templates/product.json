@@ -28,7 +28,12 @@
         },
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+            "title_size": 26,
+            "title_weight": "400",
+            "title_transform": "none",
+            "title_color": ""
+          }
         },
         "benefits_list": {
           "type": "benefits_list",
