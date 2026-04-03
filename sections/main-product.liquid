@@ -1014,9 +1014,19 @@
                 </div>
               {%- when 'title' -%}
                 <div class="product__title" {{ block.shopify_attributes }}>
-                  <h1>{{ product.title | escape }}</h1>
+                  <h1 style="
+                    {%- if block.settings.title_size != blank %}font-size: {{ block.settings.title_size }}px;{% endif -%}
+                    {%- if block.settings.title_weight != blank %}font-weight: {{ block.settings.title_weight }};{% endif -%}
+                    {%- if block.settings.title_color != blank %}color: {{ block.settings.title_color }};{% endif -%}
+                    {%- if block.settings.title_transform != 'none' %}text-transform: {{ block.settings.title_transform }};{% endif -%}
+                  ">{{ product.title | escape }}</h1>
                   <a href="{{ product.url }}" class="product__title">
-                    <h2 class="h1">
+                    <h2 class="h1" style="
+                      {%- if block.settings.title_size != blank %}font-size: {{ block.settings.title_size }}px;{% endif -%}
+                      {%- if block.settings.title_weight != blank %}font-weight: {{ block.settings.title_weight }};{% endif -%}
+                      {%- if block.settings.title_color != blank %}color: {{ block.settings.title_color }};{% endif -%}
+                      {%- if block.settings.title_transform != 'none' %}text-transform: {{ block.settings.title_transform }};{% endif -%}
+                    ">
                       {{ product.title | escape }}
                     </h2>
                   </a>
@@ -2960,7 +2970,48 @@
     {
       "type": "title",
       "name": "t:sections.main-product.blocks.title.name",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "type": "range",
+          "id": "title_size",
+          "label": "Font size",
+          "min": 14,
+          "max": 44,
+          "step": 1,
+          "default": 26,
+          "unit": "px"
+        },
+        {
+          "type": "select",
+          "id": "title_weight",
+          "label": "Font weight",
+          "options": [
+            { "value": "400", "label": "Regular" },
+            { "value": "500", "label": "Medium" },
+            { "value": "600", "label": "Semi-bold" },
+            { "value": "700", "label": "Bold" }
+          ],
+          "default": "700"
+        },
+        {
+          "type": "select",
+          "id": "title_transform",
+          "label": "Text transform",
+          "options": [
+            { "value": "none", "label": "None" },
+            { "value": "uppercase", "label": "UPPERCASE" },
+            { "value": "lowercase", "label": "lowercase" },
+            { "value": "capitalize", "label": "Capitalize" }
+          ],
+          "default": "none"
+        },
+        {
+          "type": "color",
+          "id": "title_color",
+          "label": "Text color"
+        }
+      ]
     },
     {
       "type": "benefits_list",
