@@ -246,10 +246,7 @@
           "type": "testimonial_videos",
           "settings": {
             "heading": "What our customers are saying:",
-            "heading_size": 23,
-            "video_1": "",
-            "video_2": "",
-            "video_3": ""
+            "heading_size": 23
           }
         }
       },
