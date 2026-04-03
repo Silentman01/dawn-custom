@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -8,13 +17,22 @@
           "settings": {
             "rating": 4.8,
             "text": "<strong>Excellent 4.8</strong> — 1 422+ avis vérifiés",
-            "star_color": "#1A3018",
+            "star_color": "#1a3018",
             "star_bg_color": "#ececec",
             "star_size": 1.3,
             "star_gap": 0.4,
             "alignment": "flex-start",
             "text_color": "#121212",
             "highlight_color": "#000000"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": 26,
+            "title_weight": "400",
+            "title_transform": "none",
+            "title_color": ""
           }
         },
         "statement_vr": {
@@ -25,21 +43,11 @@
             "title_size": 26
           }
         },
-        "title": {
-          "type": "title",
-          "disabled": true,
-          "settings": {
-            "title_size": 26,
-            "title_weight": "700",
-            "title_transform": "none",
-            "title_color": ""
-          }
-        },
         "benefits_list": {
           "type": "benefits_list",
           "settings": {
             "text_color": "#121212",
-            "icon_color": "#1A3018",
+            "icon_color": "#1a3018",
             "benefit_1": "Anti-mycoses",
             "benefit_2": "Fini les odeurs",
             "benefit_3": "Pied d'athlète",
@@ -52,7 +60,7 @@
           "type": "price",
           "disabled": true,
           "settings": {
-            "price_color": "#1A3018",
+            "price_color": "#1a3018",
             "compare_price_color": "",
             "sale_badge_text": "Offre Limitée — Économisez 55%",
             "sale_badge_weight": "600",
@@ -155,7 +163,7 @@
             "border_radius": 50,
             "title": "<strong>Rejoignez 20 000+ clients satisfaits</strong>",
             "subtitle": "qui font confiance à Verra Rituel pour retrouver une peau saine au quotidien.",
-            "badge_color": "#1A3018"
+            "badge_color": "#1a3018"
           }
         },
         "urgency_notice": {
@@ -236,7 +244,7 @@
             "item_6": "Végan",
             "text_color": "#000000",
             "title_color": "#000000",
-            "highlight_color": "#1A3018",
+            "highlight_color": "#1a3018",
             "bg_color": "#e8f5e0",
             "image_opacity": 10,
             "border_radius": 10,
@@ -255,8 +263,8 @@
       },
       "block_order": [
         "star_rating",
-        "statement_vr",
         "title",
+        "statement_vr",
         "benefits_list",
         "price",
         "fake_variant_picker_vr",
@@ -338,19 +346,19 @@
       ],
       "custom_css": [],
       "settings": {
-        "bg_color": "#1A3018",
+        "bg_color": "#1a3018",
         "image_opacity": 10,
         "text_color": "#ffffff",
-        "percentage_color": "#DFF47E",
-        "highlight_color": "#DFF47E",
+        "percentage_color": "#dff47e",
+        "highlight_color": "#dff47e",
         "heading": "<strong>Cliniquement prouvé.</strong> Peau saine. Pieds propres. Confiance retrouvée.",
         "heading_size": 31,
         "subtitle": "Quand des actifs naturels puissants rencontrent une efficacité prouvée, les résultats parlent d'eux-mêmes.",
         "cta_function": "link",
         "cta_text": "Essayer sans risque",
         "cta_url": "",
-        "cta_bg_color": "#DFF47E",
-        "cta_text_color": "#1A3018",
+        "cta_bg_color": "#dff47e",
+        "cta_text_color": "#1a3018",
         "guarantee_text": "Garantie 30 jours satisfait ou remboursé",
         "padding_top": 84,
         "padding_bottom": 80
@@ -400,9 +408,9 @@
       ],
       "settings": {
         "heading": "Des ingrédients antifongiques naturels pour des <strong>résultats concrets</strong>",
-        "highlight_color": "#1A3018",
+        "highlight_color": "#1a3018",
         "card_title_size": 22,
-        "card_title_highlight": "#1A3018",
+        "card_title_highlight": "#1a3018",
         "section_bg_color": "",
         "text_alignment": "center",
         "card_border_radius": 12,
@@ -540,10 +548,10 @@
       "settings": {
         "heading": "De vrais clients, de <strong>vrais résultats</strong>",
         "subheading": "Découvrez ce que nos clients disent de Verra Rituel",
-        "highlight_color": "#1A3018",
-        "star_color": "#1A3018",
-        "verified_color": "#1A3018",
-        "tag_color": "#1A3018",
+        "highlight_color": "#1a3018",
+        "star_color": "#1a3018",
+        "verified_color": "#1a3018",
+        "tag_color": "#1a3018",
         "tag_bg_color": "#e8f5e0",
         "ticker_speed": 30,
         "section_bg_color": "#f5fdf4",
@@ -592,10 +600,10 @@
       "settings": {
         "heading": "<strong>Peau saine.</strong> Chaque jour.",
         "subheading": "De l'élimination de la gêne au retour de la confiance, voici ce qui rend Verra Rituel™ différent.",
-        "bg_color": "#1A3018",
+        "bg_color": "#1a3018",
         "bg_color_bottom": "#2a5023",
         "text_color": "#ffffff",
-        "highlight_color": "#DFF47E",
+        "highlight_color": "#dff47e",
         "subheading_color": "",
         "heading_size": 3,
         "subheading_size": 1.5,
@@ -649,9 +657,13 @@
       "settings": {
         "heading": "Pourquoi ces <strong>ingrédients</strong> fonctionnent",
         "subheading": "La formule met en avant des ingrédients connus pour leurs propriétés purifiantes et apaisantes : huile d'arbre à thé, huile de coco, aloe vera, eucalyptus et hamamélis.",
-        "highlight_color": "#1A3018",
+        "highlight_color": "#1a3018",
         "bg_color": "",
-        "text_color": "",
+        "cta_text": "Try Risk-Free Today",
+        "cta_link": "",
+        "cta_note": "30-day money back guarantee",
+        "cta_note_icon_name": "verified_user",
+        "cta_height": 50,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -659,16 +671,19 @@
     "ticker_bar_vr": {
       "type": "ticker-bar",
       "settings": {
-        "text_1": "SENTEUR FRAÎCHE NATURELLE",
-        "text_2": "FABRICATION ARTISANALE",
-        "text_3": "LIVRAISON RAPIDE",
-        "text_4": "QUALITÉ PREMIUM",
-        "text_5": "SATISFACTION GARANTIE",
+        "background_color": "#1a1a1a",
+        "text_color": "#dff47e",
+        "border_position": "none",
+        "border_thickness": 1,
+        "border_color": "#ffffff",
+        "font_size": 14,
+        "font_weight": "500",
+        "spacing": 40,
+        "icon_size": 20,
         "speed": 30,
-        "bg_color": "#1A3018",
-        "text_color": "#DFF47E",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "aria_label": "Scrolling announcements"
       }
     },
     "wellness_journey": {
@@ -712,8 +727,8 @@
       "settings": {
         "heading": "<strong>Votre parcours</strong> avec Verra Rituel®",
         "description": "Avec une utilisation régulière, de nombreux utilisateurs constatent une amélioration nette de l'état de leurs pieds dès les premières semaines.",
-        "highlight_color": "#1A3018",
-        "button_color": "#DFF47E",
+        "highlight_color": "#1a3018",
+        "button_color": "#dff47e",
         "bg_color": "",
         "cta_text": "Commencer mon parcours →",
         "cta_link": "",
@@ -780,10 +795,10 @@
         "subheading": "Pourquoi Verra Rituel® est différent de tout ce que vous avez essayé",
         "bg_color": "#f5fdf4",
         "text_color": "#000000",
-        "badge_bg_color": "#1A3018",
-        "badge_text_color": "#DFF47E",
-        "label_bg_color": "#1A3018",
-        "label_text_color": "#DFF47E",
+        "badge_bg_color": "#1a3018",
+        "badge_text_color": "#dff47e",
+        "label_bg_color": "#1a3018",
+        "label_text_color": "#dff47e",
         "card_bg_color": "#ffffff",
         "card_border_color": "#0000004d",
         "card_text_color": "#000000",
@@ -798,8 +813,8 @@
         "max_width": 1500,
         "cta_text": "Essayer sans risque",
         "cta_url": "",
-        "cta_bg_color": "#DFF47E",
-        "cta_text_color": "#1A3018",
+        "cta_bg_color": "#dff47e",
+        "cta_text_color": "#1a3018",
         "cta_font_size": 19,
         "cta_margin_top": 40,
         "guarantee_text": "Garantie 30 jours satisfait ou remboursé",
@@ -811,31 +826,31 @@
       "type": "brand-comparison",
       "settings": {
         "heading": "Verra Rituel vs. les <strong>alternatives</strong>",
-        "highlight_color": "#1A3018",
+        "heading_size": 36,
+        "bg_gradient_start": "#07493a",
+        "bg_gradient_end": "#002a21",
+        "text_color": "#ffffff",
+        "highlight_color": "#1a3018",
         "brand_name": "Verra Rituel",
-        "brand_color": "#1A3018",
-        "check_color": "#1A3018",
-        "competitor_name": "Crèmes classiques",
-        "competitor_color": "#cccccc",
-        "feature_1": "Élimine les mycoses à la source",
-        "feature_2": "Neutralise les odeurs durablement",
-        "feature_3": "100% naturel, sans produits chimiques",
-        "feature_4": "Facile à intégrer au quotidien",
-        "feature_5": "Résultats visibles en 2 semaines",
-        "feature_6": "Garantie satisfait ou remboursé 30 jours",
-        "brand_f1": true,
-        "brand_f2": true,
-        "brand_f3": true,
-        "brand_f4": true,
-        "brand_f5": true,
-        "brand_f6": true,
-        "competitor_f1": false,
-        "competitor_f2": false,
-        "competitor_f3": false,
-        "competitor_f4": false,
-        "competitor_f5": false,
-        "competitor_f6": false,
-        "bg_color": "",
+        "brand_name_color": "#ffffff",
+        "brand_col_color": "#009370",
+        "brand_icon_color": "#ffffff",
+        "competitor_label": "<strong>Other Brands</strong>",
+        "comp_col_color": "#ffffff",
+        "comp_text_color": "#000000",
+        "comp_icon_color": "#999999",
+        "icons_filled": false,
+        "checklist_1": "<strong>Clinically Backed Ingredients</strong> - Ingredients proven to work",
+        "checklist_2": "<strong>Visible Results in Weeks</strong> - Feel a difference in weeks",
+        "checklist_3": "<strong>Long-Term Health, Not Quick Fixes</strong> - Not just symptom relief",
+        "checklist_4": "<strong>Clean &amp; Pure Ingredients</strong> - made without fillers, GMOs, or unnecessary additives",
+        "cta_text": "Try Risk-Free Today",
+        "cta_link": "",
+        "cta_height": 54,
+        "cta_bg_color": "#e3ffde",
+        "cta_text_color": "#004c3c",
+        "cta_font_weight": "700",
+        "note_text": "30-day money back guarantee",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -843,21 +858,21 @@
     "risk_free_trial": {
       "type": "risk-free-trial",
       "settings": {
+        "badge_number": "30",
+        "badge_label": "DAYS",
+        "subtitle": "FEEL THE DIFFERENCE",
         "heading": "Aimez votre savon",
-        "subheading": "Essayez-le sereinement, sans risque.",
+        "heading_size": 23,
         "description": "Si vous ne constatez pas d'amélioration ou si le produit ne vous convient pas, vous disposez de 30 jours pour changer d'avis.",
-        "cta_text": "Essayer sans risque",
-        "cta_function": "link",
-        "cta_url": "",
-        "highlight_color": "#1A3018",
-        "cta_bg_color": "#DFF47E",
-        "cta_text_color": "#1A3018",
-        "badge_1": "Garantie 30 jours",
-        "badge_2": "Livraison suivie",
-        "badge_3": "Paiement sécurisé",
         "bg_color": "#e8f5e0",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "accent_color": "#095946",
+        "text_color": "",
+        "cta_text": "Essayer sans risque",
+        "cta_link": "",
+        "cta_height": 50,
+        "cta_bg_color": "#dff47e",
+        "cta_text_color": "#1a3018",
+        "padding_top": 36
       }
     },
     "apps_disabled": {
@@ -956,8 +971,11 @@
       "settings": {
         "caption": "",
         "heading": "Questions fréquentes",
-        "color_scheme": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
         "container_color_scheme": "",
+        "color_scheme": "",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
@@ -978,13 +996,13 @@
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
+        "columns_mobile": "2",
         "color_scheme": "",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
-        "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 28
       }
