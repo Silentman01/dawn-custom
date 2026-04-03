@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -16,8 +7,8 @@
           "type": "star_rating",
           "settings": {
             "rating": 4.8,
-            "text": "Rated <strong>4.8 Excellent</strong> 1,422+ Reviews",
-            "star_color": "#2d8a6e",
+            "text": "<strong>Excellent 4.8</strong> — 1 422+ avis vérifiés",
+            "star_color": "#1A3018",
             "star_bg_color": "#ececec",
             "star_size": 1.3,
             "star_gap": 0.4,
@@ -29,8 +20,8 @@
         "statement_vr": {
           "type": "statement",
           "settings": {
-            "subtitle": "96% of users report:",
-            "title": "Visible Fungal Relief & Healthier Skin Within 2 Weeks",
+            "subtitle": "97% des utilisateurs constatent :",
+            "title": "Une réduction visible des mycoses et une peau plus saine en 2 semaines",
             "title_size": 26
           }
         },
@@ -48,22 +39,22 @@
           "type": "benefits_list",
           "settings": {
             "text_color": "#121212",
-            "icon_color": "#1a6b52",
-            "benefit_1": "Athlete's Foot",
-            "benefit_2": "Jock Itch",
-            "benefit_3": "Ringworm",
-            "benefit_4": "Body Fungus",
-            "benefit_5": "Foot Odor",
-            "benefit_6": "Skin Balance"
+            "icon_color": "#1A3018",
+            "benefit_1": "Anti-mycoses",
+            "benefit_2": "Fini les odeurs",
+            "benefit_3": "Pied d'athlète",
+            "benefit_4": "Démangeaisons",
+            "benefit_5": "Peau saine",
+            "benefit_6": "Marque Française"
           }
         },
         "price": {
           "type": "price",
           "disabled": true,
           "settings": {
-            "price_color": "#1a6b52",
+            "price_color": "#1A3018",
             "compare_price_color": "",
-            "sale_badge_text": "Spring Sale - Save 55%",
+            "sale_badge_text": "Offre Limitée — Économisez 55%",
             "sale_badge_weight": "600",
             "price_font_size": 2,
             "price_font_weight": "700",
@@ -73,10 +64,10 @@
         "fake_variant_picker_vr": {
           "type": "fake_variant_picker",
           "settings": {
-            "label": "Scent",
-            "option_1": "Tea Tree",
+            "label": "Senteur",
+            "option_1": "Arbre à thé",
             "option_1_soldout": false,
-            "option_2": "Lavender",
+            "option_2": "Lavande (Nouveau)",
             "option_2_soldout": true,
             "option_3": "",
             "option_3_soldout": false,
@@ -114,12 +105,12 @@
             "function": "link",
             "button_link": "",
             "display_when": "after_scroll",
-            "button_label": "Add To Cart",
+            "button_label": "Ajouter au panier",
             "enable_custom_btn_color": false,
             "custom_btn_color": "#dd1d1d",
             "color_scheme": "scheme-1",
             "star_color": "#ffcc00",
-            "stars_label": "Rated 4.8 Excellent - 1,422+ Reviews",
+            "stars_label": "Excellent 4.8 — 1 422+ avis",
             "button_font_size": 1.8,
             "button_font_weight": "700",
             "button_text_transform": "none",
@@ -150,9 +141,9 @@
             "font_size_2_items": 1.4,
             "bg_color": "",
             "text_color": "#121212",
-            "text_1": "Free Shipping on 2+ Bars",
+            "text_1": "Livraison gratuite dès 2 savons",
             "icon_name_1": "local_shipping",
-            "text_2": "30-Day Money-Back Guarantee",
+            "text_2": "Garantie 30 jours satisfait ou remboursé",
             "icon_name_2": "verified_user"
           }
         },
@@ -160,18 +151,18 @@
           "type": "social_proof_banner",
           "settings": {
             "text_color": "#121212",
-            "bg_color": "#f0faf6",
+            "bg_color": "#e8f5e0",
             "border_radius": 50,
-            "title": "<strong>Trusted by thousands</strong>",
-            "subtitle": "who choose Verra Rituel for consistent, long-term skin relief.",
-            "badge_color": "#2d8a6e"
+            "title": "<strong>Rejoignez 20 000+ clients satisfaits</strong>",
+            "subtitle": "qui font confiance à Verra Rituel pour retrouver une peau saine au quotidien.",
+            "badge_color": "#1A3018"
           }
         },
         "urgency_notice": {
           "type": "urgency_notice",
           "settings": {
-            "line_1": "<p><strong>WARNING: Low Stock Notice</strong></p>",
-            "line_2": "<p>This product sold out <span style=\"text-decoration:underline\">9 times</span> in the past year. We encourage you to take advantage of the <strong>limited sale</strong> and buy now. <strong>PS:</strong> Only available here — don't buy <span style=\"text-decoration:underline\">imitations on Amazon/eBay</span></p>",
+            "line_1": "<p><strong>ATTENTION : Stock limité</strong></p>",
+            "line_2": "<p>Ce produit a été en rupture de stock <span style=\"text-decoration:underline\">9 fois</span> cette année. Profitez de l'<strong>offre limitée</strong> maintenant. <strong>PS :</strong> Disponible uniquement ici — n'achetez pas les <span style=\"text-decoration:underline\">imitations sur Amazon/eBay</span></p>",
             "font_size": 1.2,
             "bg_color": "#fef2f2",
             "text_color": "#9f3f3f",
@@ -189,64 +180,64 @@
           "settings": {
             "heading": "Description",
             "icon": "none",
-            "content": "<p>Verra Rituel™ Antifungal Relief Soap Bar is a daily cleansing bar that <strong>eliminates fungal infections, neutralizes odor, and restores healthy skin</strong> — from the very first wash.</p><p>No harsh chemicals. No prescription needed. No waiting weeks for results. Just lather, wash, and let the three powerful natural actives do the work:</p><ul><li>Tea Tree Oil for <strong>antifungal power</strong></li><li>Eucalyptus Oil for <strong>deep cleansing</strong></li><li>Activated Charcoal for <strong>detox & odor control</strong></li></ul>",
+            "content": "<p>Le Savon Purifiant Antifongique Verra Rituel™ est un savon de soin quotidien qui <strong>élimine les mycoses, neutralise les odeurs et restaure une peau saine</strong> — dès la première utilisation.</p><p>Pas de produits chimiques agressifs. Pas d'ordonnance nécessaire. Pas d'attente interminable. Faites mousser, lavez, et laissez les trois actifs naturels agir :</p><ul><li>Huile d'arbre à thé — <strong>pouvoir antifongique</strong></li><li>Huile d'eucalyptus — <strong>nettoyage en profondeur</strong></li><li>Charbon actif — <strong>détox et contrôle des odeurs</strong></li></ul>",
             "page": ""
           }
         },
         "collapsible_tab_why": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Why you need Verra Rituel® Antifungal Soap?",
+            "heading": "Pourquoi choisir le savon Verra Rituel® ?",
             "icon": "none",
-            "content": "<p>If you've been dealing with <strong>recurring fungus</strong>, <strong>persistent foot odor</strong>, or <strong>skin irritation that won't go away</strong> — and you're tired of the creams that barely work, the sprays that sting, and the treatments that only mask the problem — <strong>Verra Rituel was made for you.</strong></p><p>Verra Rituel works at the root cause.</p><p>No stinging sprays. No greasy residue. No more hiding your feet. </p><p>Just one bar. That's it.</p>",
+            "content": "<p>Si vous souffrez de <strong>démangeaisons persistantes</strong>, de <strong>brûlures</strong>, de <strong>fissures</strong> ou de <strong>peau qui pèle entre les orteils</strong> — et que vous en avez assez des crèmes qui fonctionnent à peine, des sprays qui piquent, et des traitements qui ne font que masquer le problème — <strong>Verra Rituel a été conçu pour vous.</strong></p><p>La plupart des solutions agissent surtout en surface. Notre savon nettoie la peau en profondeur à chaque lavage, sans résidus, ce qui permet de limiter durablement les déséquilibres responsables de l'inconfort.</p><p>Pas de sprays qui piquent. Pas de résidus gras. Plus besoin de cacher vos pieds.</p><p>Un seul savon. C'est tout.</p>",
             "page": ""
           }
         },
         "collapsible_tab_benefits": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Benefits",
+            "heading": "Bénéfices",
             "icon": "none",
-            "content": "<p>✓ <strong>Targets fungus at the source —</strong> not just surface symptoms</p><p><strong>✓ Eliminates athlete's foot, jock itch, and ringworm</strong></p><p><strong>✓ Neutralizes odor</strong> so embarrassing smells stop for good</p><p><strong>✓ Restores skin barrier —</strong> healthy, smooth skin returns naturally</p><p><strong>✓ Soothes itching and irritation —</strong> relief from the very first wash</p><p><strong>✓ 100% natural formula</strong> safe for daily use on all skin types</p>",
+            "content": "<p>✓ <strong>Cible les mycoses à la source —</strong> pas seulement les symptômes en surface</p><p>✓ <strong>Élimine le pied d'athlète, les démangeaisons et la teigne</strong></p><p>✓ <strong>Neutralise les odeurs</strong> pour en finir avec la gêne</p><p>✓ <strong>Restaure la barrière cutanée —</strong> une peau saine et lisse revient naturellement</p><p>✓ <strong>Apaise les démangeaisons et irritations —</strong> soulagement dès la première utilisation</p><p>✓ <strong>Formule 100% naturelle</strong> adaptée à un usage quotidien sur tous types de peau</p>",
             "page": ""
           }
         },
         "collapsible_tab_use": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "How to Use",
+            "heading": "Comment l'utiliser ?",
             "icon": "none",
-            "content": "<p>Use daily during your shower or bath. <strong>Lather the bar on affected areas</strong> and let the foam sit for <strong>60 seconds</strong> before rinsing. That's it.</p><p>Most people see noticeable improvement <strong>within 1–2 weeks</strong>. For best results, use consistently for <strong>30 days</strong> to fully clear the infection and prevent recurrence.</p>",
+            "content": "<p>Sous la douche, 1 fois par jour :</p><p><strong>1. Mouillez et faites mousser</strong> — Humidifiez vos pieds, puis faites mousser le savon entre vos mains ou directement sur la peau.</p><p><strong>2. Nettoyez en douceur</strong> — Massez délicatement en insistant entre les orteils et sur les zones concernées, puis laissez agir quelques instants.</p><p><strong>3. Rincez et séchez soigneusement</strong> — Rincez abondamment à l'eau claire, puis séchez bien vos pieds, notamment entre les orteils.</p><p>La plupart des utilisateurs constatent une amélioration nette <strong>dès 1 à 2 semaines</strong>. Pour de meilleurs résultats, utilisez régulièrement pendant <strong>30 jours</strong>.</p>",
             "page": ""
           }
         },
         "collapsible_tab_guarantee": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Do you offer a guarantee?",
+            "heading": "Livraison & garantie",
             "icon": "none",
-            "content": "<p>Yes! Every order comes with a <strong>30-day money-back guarantee.</strong></p><p>If you don't see a real improvement in your skin — less fungus, less odor, less irritation — just contact us and we'll refund you in full. No hassle. No forms.</p><p>You've already wasted money on things that didn't work. This one is completely risk-free.</p>",
+            "content": "<p>Vous achetez sans risque : Verra Rituel propose une <strong>garantie 30 jours satisfait ou remboursé</strong> et une livraison suivie.</p><p>Si vous ne constatez pas d'amélioration ou si le produit ne vous convient pas, vous disposez de 30 jours pour changer d'avis. Aucun formulaire. Aucune complication.</p>",
             "page": ""
           }
         },
         "trust_card_v2_vr": {
           "type": "trust_card_v2",
           "settings": {
-            "heading": "<strong>Why Verra Rituel is the #1</strong> Choice For Antifungal Care?",
-            "feature_text_1": "Dermatologist Recommended",
-            "feature_text_2": "Third Party Tested",
-            "feature_text_3": "All Natural Formula",
-            "feature_text_4": "Made in Certified Facilities",
-            "item_1": "No Parabens",
-            "item_2": "No Sulfates",
-            "item_3": "Hypoallergenic",
-            "item_4": "Non-GMO",
-            "item_5": "Cruelty-Free",
-            "item_6": "Vegan-Friendly",
+            "heading": "<strong>Pourquoi Verra Rituel est le N°1</strong> pour le soin antifongique ?",
+            "feature_text_1": "Recommandé par les dermatologues",
+            "feature_text_2": "Testé par des laboratoires indépendants",
+            "feature_text_3": "Formule 100% naturelle",
+            "feature_text_4": "Fabriqué en France",
+            "item_1": "Sans parabènes",
+            "item_2": "Sans sulfates",
+            "item_3": "Hypoallergénique",
+            "item_4": "Sans OGM",
+            "item_5": "Non testé sur les animaux",
+            "item_6": "Végan",
             "text_color": "#000000",
             "title_color": "#000000",
-            "highlight_color": "#2d8a6e",
-            "bg_color": "#d4f0e7",
+            "highlight_color": "#1A3018",
+            "bg_color": "#e8f5e0",
             "image_opacity": 10,
             "border_radius": 10,
             "heading_size": 28,
@@ -257,7 +248,7 @@
         "testimonial_videos_block": {
           "type": "testimonial_videos",
           "settings": {
-            "heading": "What our customers are saying:",
+            "heading": "Ce que disent nos clients :",
             "heading_size": 23
           }
         }
@@ -309,33 +300,33 @@
         "stat_1": {
           "type": "stat",
           "settings": {
-            "percentage": 96,
-            "heading": "<strong>Reported visible fungal reduction</strong>",
-            "caption": "within the first 2 weeks of daily use"
+            "percentage": 97,
+            "heading": "<strong>Diminution de l'inconfort</strong>",
+            "caption": "Ont ressenti une diminution des démangeaisons et de l'inconfort au cours des premières semaines d'utilisation."
           }
         },
         "stat_2": {
           "type": "stat",
           "settings": {
-            "percentage": 90,
-            "heading": "<strong>Said foot odor completely disappeared</strong>",
-            "caption": "after 30 days of consistent use"
+            "percentage": 94,
+            "heading": "<strong>Peau plus saine et nette</strong>",
+            "caption": "Ont constaté une peau visiblement plus propre, plus saine, avec moins d'odeurs persistantes et de zones qui pèlent."
           }
         },
         "stat_3": {
           "type": "stat",
           "settings": {
-            "percentage": 93,
-            "heading": "<strong>Said itching and irritation stopped</strong>",
-            "caption": "faster than any cream or spray they'd tried"
+            "percentage": 92,
+            "heading": "<strong>Confiance retrouvée</strong>",
+            "caption": "Se sentent à nouveau à l'aise pour marcher pieds nus ou porter des sandales, même en public."
           }
         },
         "stat_4": {
           "type": "stat",
           "settings": {
-            "percentage": 85,
-            "heading": "<strong>Said they'd never switch back</strong>",
-            "caption": "to pharmacy antifungal creams after trying Verra Rituel"
+            "percentage": 89,
+            "heading": "<strong>Ne reviendraient jamais en arrière</strong>",
+            "caption": "Préfèrent Verra Rituel aux crèmes et sprays antifongiques classiques qu'ils utilisaient avant."
           }
         }
       },
@@ -346,22 +337,21 @@
         "stat_4"
       ],
       "custom_css": [],
-      "name": "Clinical proven",
       "settings": {
-        "bg_color": "#d4f0e7",
+        "bg_color": "#1A3018",
         "image_opacity": 10,
-        "text_color": "#000000",
-        "percentage_color": "#2d8a6e",
-        "highlight_color": "#2d8a6e",
-        "heading": "<strong>Clinically Proven.</strong> Clear Skin. Clean Feet. Confidence Back.",
+        "text_color": "#ffffff",
+        "percentage_color": "#DFF47E",
+        "highlight_color": "#DFF47E",
+        "heading": "<strong>Cliniquement prouvé.</strong> Peau saine. Pieds propres. Confiance retrouvée.",
         "heading_size": 31,
-        "subtitle": "When powerful natural antifungals meet clinical-grade potency, the results speak for themselves.",
+        "subtitle": "Quand des actifs naturels puissants rencontrent une efficacité prouvée, les résultats parlent d'eux-mêmes.",
         "cta_function": "link",
-        "cta_text": "Try Risk-Free Today",
+        "cta_text": "Essayer sans risque",
         "cta_url": "",
-        "cta_bg_color": "#ffd600",
-        "cta_text_color": "#000000",
-        "guarantee_text": "30-day money back guarantee",
+        "cta_bg_color": "#DFF47E",
+        "cta_text_color": "#1A3018",
+        "guarantee_text": "Garantie 30 jours satisfait ou remboursé",
         "padding_top": 84,
         "padding_bottom": 80
       }
@@ -372,32 +362,32 @@
         "card_1": {
           "type": "card",
           "settings": {
-            "title": "<strong>Tea Tree Oil</strong>",
-            "text": "Nature's most powerful antifungal agent. Tea tree oil <strong>penetrates deep into skin layers</strong> to <strong>destroy fungus at the root</strong>, stop spreading, and <strong>prevent reinfection</strong> — all without harsh chemicals.",
+            "title": "<strong>Huile d'arbre à thé</strong>",
+            "text": "L'antifongique naturel le plus puissant. L'huile d'arbre à thé <strong>pénètre en profondeur dans les couches de la peau</strong> pour <strong>détruire les mycoses à la racine</strong>, stopper leur propagation et <strong>prévenir les récidives</strong> — sans produits chimiques agressifs.",
             "card_bg_color": ""
           }
         },
         "card_2": {
           "type": "card",
           "settings": {
-            "title": "<strong>Eucalyptus Oil</strong>",
-            "text": "A natural antiseptic that <strong>deep-cleans pores and kills bacteria on contact</strong> — eliminating the conditions that let fungus thrive while leaving your skin feeling cool and refreshed.",
+            "title": "<strong>Huile d'eucalyptus</strong>",
+            "text": "Un antiseptique naturel qui <strong>nettoie les pores en profondeur et élimine les bactéries au contact</strong> — supprimant les conditions qui permettent aux mycoses de prospérer, tout en laissant une sensation de fraîcheur.",
             "card_bg_color": ""
           }
         },
         "card_3": {
           "type": "card",
           "settings": {
-            "title": "<strong>Activated Charcoal</strong>",
-            "text": "Draws out toxins, impurities, and odor-causing bacteria from deep within the skin. <strong>Charcoal detoxifies and deodorizes</strong> — so your feet stay fresh all day long.",
+            "title": "<strong>Charbon actif</strong>",
+            "text": "Attire les toxines, impuretés et bactéries responsables des odeurs depuis les couches profondes de la peau. Le charbon <strong>détoxifie et désodorise</strong> — pour des pieds frais toute la journée.",
             "card_bg_color": ""
           }
         },
         "card_4": {
           "type": "card",
           "settings": {
-            "title": "<strong>Triple-Action Formula</strong>",
-            "text": "Tea Tree, Eucalyptus, and Charcoal — <strong>three ingredients working together on your skin's surface and below</strong> to kill fungus, eliminate odor, and restore healthy, comfortable skin.",
+            "title": "<strong>Formule Triple-Action</strong>",
+            "text": "Arbre à thé, eucalyptus et charbon — <strong>trois ingrédients qui agissent ensemble en surface et en profondeur</strong> pour éliminer les mycoses, neutraliser les odeurs et restaurer une peau saine et confortable.",
             "card_bg_color": ""
           }
         }
@@ -409,10 +399,10 @@
         "card_4"
       ],
       "settings": {
-        "heading": "Natural Antifungal Ingredients for <strong>Real Results</strong>",
-        "highlight_color": "#2d8a6e",
+        "heading": "Des ingrédients antifongiques naturels pour des <strong>résultats concrets</strong>",
+        "highlight_color": "#1A3018",
         "card_title_size": 22,
-        "card_title_highlight": "#2d8a6e",
+        "card_title_highlight": "#1A3018",
         "section_bg_color": "",
         "text_alignment": "center",
         "card_border_radius": 12,
@@ -470,11 +460,11 @@
           "type": "review",
           "settings": {
             "rating": "5.0",
-            "quote": "\"My feet haven't looked this healthy in years!\"",
-            "details": "I'd been dealing with athlete's foot for over 3 years. Tried every cream at the pharmacy, even prescription stuff. Nothing stuck. My buddy told me about Verra Rituel and I figured why not. After the first week the cracking between my toes started closing up. By week 3 my feet looked NORMAL again. Not peeling, not red, not itchy. I actually wore sandals for the first time in forever. This soap is the real deal.",
-            "author_name": "MARCUS T.",
-            "tag_1": "Athlete's Foot",
-            "tag_2": "Clear Skin",
+            "quote": "\"Mes pieds n'ont jamais été aussi sains !\"",
+            "details": "J'ai testé énormément de produits contre les problèmes de pieds, sans succès durable. Ce savon est le premier qui a vraiment fait une différence : moins d'odeur, une peau plus saine et surtout une vraie sensation de propreté après chaque utilisation. Simple, efficace, et agréable à utiliser. Je recommande sans hésiter.",
+            "author_name": "ÉLISE M.",
+            "tag_1": "Pied d'athlète",
+            "tag_2": "Peau saine",
             "card_bg_color": ""
           }
         },
@@ -482,11 +472,11 @@
           "type": "review",
           "settings": {
             "rating": "4.9",
-            "quote": "\"The smell is finally gone — my wife noticed first!\"",
-            "details": "I'm gonna be honest — the foot odor was BAD. I tried powders, sprays, even soaking my feet in vinegar like the internet said. Nothing worked for more than a day. Started using Verra Rituel every morning in the shower and by end of the first week my shoes didn't smell anymore. My wife actually said something. She was like 'what changed?' I just smiled. Three bars in and I'll never go back to anything else.",
-            "author_name": "DAVID R.",
-            "tag_1": "Odor Control",
-            "tag_2": "Daily Use",
+            "quote": "\"Mes pieds sont méconnaissables !\"",
+            "details": "Après quelques semaines d'utilisation, mes pieds sont méconnaissables. Fini la peau sèche, les fissures et l'inconfort. Le savon sent bon sans être agressif et laisse la peau douce. C'est devenu un indispensable dans ma routine.",
+            "author_name": "ANTOINE P.",
+            "tag_1": "Fissures",
+            "tag_2": "Routine quotidienne",
             "card_bg_color": ""
           }
         },
@@ -494,11 +484,11 @@
           "type": "review",
           "settings": {
             "rating": "4.8",
-            "quote": "\"I stopped hiding my feet at the gym!\"",
-            "details": "As someone who works out every day, the locker room was my nightmare. I had ringworm on my foot that kept coming back no matter what I used. I felt so embarrassed I'd change in a bathroom stall. A trainer at my gym recommended Verra Rituel. Within 2 weeks the patches started shrinking. By week 4 they were gone. Completely. I'm back to showering at the gym with zero stress. Genuinely life-changing for me.",
-            "author_name": "JAMES K.",
-            "tag_1": "Ringworm",
-            "tag_2": "Active Lifestyle",
+            "quote": "\"J'ai enfin retrouvé confiance !\"",
+            "details": "J'avais honte de mes pieds et j'évitais même de les montrer. Ce savon a clairement amélioré la situation : peau plus saine, moins de gêne, et surtout plus de confiance. Je ne pensais pas qu'un produit aussi simple pouvait être aussi efficace.",
+            "author_name": "THOMAS L.",
+            "tag_1": "Confiance",
+            "tag_2": "Résultats rapides",
             "card_bg_color": ""
           }
         },
@@ -506,11 +496,11 @@
           "type": "review",
           "settings": {
             "rating": "5.0",
-            "quote": "\"My dermatologist was impressed with the results!\"",
-            "details": "I went to the derm for a persistent fungal issue on my hands and feet. They gave me a prescription cream that kind of helped but it kept coming back. I added Verra Rituel to my daily shower routine and at my follow-up visit even my doctor noticed the improvement. She asked what I changed. The combination of natural ingredients in this bar just works differently. My skin is clear and the fungus hasn't returned in 3 months.",
-            "author_name": "SARAH L.",
-            "tag_1": "Dermatologist Approved",
-            "tag_2": "Long-Term Relief",
+            "quote": "\"Les résultats parlent d'eux-mêmes.\"",
+            "details": "J'étais sceptique au départ, mais les résultats parlent d'eux-mêmes. Dès les premières utilisations, on sent une vraie différence. Mes pieds restent frais plus longtemps et la peau est beaucoup plus nette. Je ne reviendrai jamais aux produits classiques.",
+            "author_name": "CAMILLE R.",
+            "tag_1": "Odeurs",
+            "tag_2": "Peau nette",
             "card_bg_color": ""
           }
         },
@@ -518,11 +508,11 @@
           "type": "review",
           "settings": {
             "rating": "4.9",
-            "quote": "\"Finally, something that actually keeps fungus away.\"",
-            "details": "I've dealt with jock itch on and off for years. Every summer it came back worse. Creams would clear it temporarily but it always returned. Verra Rituel is the first thing that's kept it from coming back. I use it every day and haven't had a flare-up in over 4 months. The tea tree scent is clean and not overpowering. Best purchase I've made for my skin.",
-            "author_name": "CHRIS M.",
-            "tag_1": "Jock Itch",
-            "tag_2": "Prevention",
+            "quote": "\"Un indispensable, tout simplement.\"",
+            "details": "Après des années de crèmes et de sprays qui ne marchaient qu'un temps, je suis passé à Verra Rituel sur les conseils d'un ami. En 3 semaines, les démangeaisons ont disparu, la peau entre mes orteils est redevenue normale. Ma femme a remarqué la différence avant moi. Je ne m'en passe plus.",
+            "author_name": "DAVID B.",
+            "tag_1": "Démangeaisons",
+            "tag_2": "Usage quotidien",
             "card_bg_color": ""
           }
         }
@@ -548,15 +538,15 @@
         ".ts-review__quote {font-weight: bold;}"
       ],
       "settings": {
-        "heading": "Real People, <strong>Real Relief</strong>",
-        "subheading": "See what our customers are saying about Verra Rituel",
-        "highlight_color": "#2d8a6e",
-        "star_color": "#2d8a6e",
-        "verified_color": "#1a6b52",
-        "tag_color": "#2d8a6e",
-        "tag_bg_color": "#f0faf6",
+        "heading": "De vrais clients, de <strong>vrais résultats</strong>",
+        "subheading": "Découvrez ce que nos clients disent de Verra Rituel",
+        "highlight_color": "#1A3018",
+        "star_color": "#1A3018",
+        "verified_color": "#1A3018",
+        "tag_color": "#1A3018",
+        "tag_bg_color": "#e8f5e0",
         "ticker_speed": 30,
-        "section_bg_color": "#f5fdf9",
+        "section_bg_color": "#f5fdf4",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -568,28 +558,28 @@
           "type": "benefit",
           "settings": {
             "icon_name": "health_and_safety",
-            "title": "Kill Fungus at the Root"
+            "title": "Élimine les mycoses à la source"
           }
         },
         "benefit_2": {
           "type": "benefit",
           "settings": {
             "icon_name": "science",
-            "title": "Stop Athlete's Foot & Ringworm"
+            "title": "Stop pied d'athlète & teigne"
           }
         },
         "benefit_3": {
           "type": "benefit",
           "settings": {
             "icon_name": "bolt",
-            "title": "Eliminate Odor for Good"
+            "title": "Neutralise les odeurs durablement"
           }
         },
         "benefit_4": {
           "type": "benefit",
           "settings": {
             "icon_name": "spa",
-            "title": "Restore Healthy Skin"
+            "title": "Restaure une peau saine"
           }
         }
       },
@@ -600,12 +590,12 @@
         "benefit_4"
       ],
       "settings": {
-        "heading": "<strong>Clean Skin.</strong> Every Day.",
-        "subheading": "From ending the embarrassment to restoring confidence, here's what makes Verra Rituel™ different.",
-        "bg_color": "#0a2e1f",
-        "bg_color_bottom": "#1a6b52",
+        "heading": "<strong>Peau saine.</strong> Chaque jour.",
+        "subheading": "De l'élimination de la gêne au retour de la confiance, voici ce qui rend Verra Rituel™ différent.",
+        "bg_color": "#1A3018",
+        "bg_color_bottom": "#2a5023",
         "text_color": "#ffffff",
-        "highlight_color": "#2d8a6e",
+        "highlight_color": "#DFF47E",
         "subheading_color": "",
         "heading_size": 3,
         "subheading_size": 1.5,
@@ -620,33 +610,49 @@
         "pb_1": {
           "type": "benefit",
           "settings": {
-            "title": "Tea Tree Power",
-            "description": "Antifungal at the source",
-            "answer": "Tea tree oil contains terpinen-4-ol, a compound proven to disrupt fungal cell membranes and eliminate infections at the root."
+            "title": "Arbre à thé",
+            "description": "Antifongique à la source",
+            "answer": "L'huile d'arbre à thé contient du terpinène-4-ol, un composé qui détruit les membranes des cellules fongiques et élimine les infections à la racine."
           }
         },
         "pb_2": {
           "type": "benefit",
           "settings": {
-            "title": "Eucalyptus Clean",
-            "description": "Deep antiseptic action",
-            "answer": "Eucalyptus oil penetrates deep into skin pores to kill bacteria and fungal spores, creating an environment where infections simply cannot survive."
+            "title": "Eucalyptus",
+            "description": "Nettoyage antiseptique en profondeur",
+            "answer": "L'huile d'eucalyptus pénètre profondément dans les pores pour éliminer bactéries et spores fongiques, créant un environnement où les infections ne peuvent tout simplement pas survivre."
           }
         },
         "pb_3": {
           "type": "benefit",
           "settings": {
-            "title": "Charcoal Detox",
-            "description": "Draws out impurities",
-            "answer": "Activated charcoal binds to toxins, excess oils, and odor-causing bacteria — pulling them out of your skin so it can finally breathe and heal."
+            "title": "Charbon actif",
+            "description": "Détoxification et désodorisation",
+            "answer": "Le charbon actif attire les toxines, les huiles en excès et les bactéries responsables des odeurs. Il purifie la peau en profondeur pour des pieds frais toute la journée."
           }
         },
         "pb_4": {
           "type": "benefit",
           "settings": {
-            "title": "Skin Barrier Repair",
-            "description": "Protect and prevent",
-            "answer": "Our formula doesn't just treat — it helps rebuild your skin's natural protective barrier so fungal infections are less likely to return."
+            "title": "Huile de coco",
+            "description": "Hydratation et protection",
+            "answer": "L'huile de coco nourrit et protège la barrière cutanée pendant que les actifs antifongiques agissent. Elle empêche le dessèchement et adoucit la peau fragilisée."
+          }
+        },
+        "pb_5": {
+          "type": "benefit",
+          "settings": {
+            "title": "Aloe vera",
+            "description": "Apaisement et réparation",
+            "answer": "L'aloe vera calme les irritations, réduit les rougeurs et accélère la régénération de la peau endommagée par les infections fongiques."
+          }
+        },
+        "pb_6": {
+          "type": "benefit",
+          "settings": {
+            "title": "Hamamélis",
+            "description": "Astringent naturel",
+            "answer": "L'hamamélis resserre les pores, réduit l'inflammation et aide à contrôler l'excès d'humidité — l'un des principaux facteurs favorisant le développement des mycoses."
           }
         }
       },
@@ -654,190 +660,128 @@
         "pb_1",
         "pb_2",
         "pb_3",
-        "pb_4"
+        "pb_4",
+        "pb_5",
+        "pb_6"
       ],
       "settings": {
-        "heading": "<strong>How it Works.</strong> Backed by Science.",
-        "subheading": "You deserve skin that feels clean and healthy, not another product that barely works. <strong>Verra Rituel™ delivers real, lasting relief</strong> using ingredients with decades of dermatological research.",
-        "highlight_color": "#2d8a6e",
-        "bg_color": "#f5fdf9",
-        "cta_text": "Try Risk-Free Today",
-        "cta_link": "",
-        "cta_note": "30-day money back guarantee",
-        "cta_note_icon_name": "verified_user",
-        "cta_height": 40,
-        "padding_top": 40,
-        "padding_bottom": 40
+        "heading": "Pourquoi ces <strong>ingrédients</strong> fonctionnent",
+        "subheading": "La formule met en avant des ingrédients connus pour leurs propriétés purifiantes et apaisantes : huile d'arbre à thé, huile de coco, aloe vera, eucalyptus et hamamélis.",
+        "highlight_color": "#1A3018",
+        "bg_color": "",
+        "text_color": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "ticker_bar_vr": {
       "type": "ticker-bar",
-      "blocks": {
-        "ticker_item_1": {
-          "type": "ticker_item",
-          "settings": {
-            "text": "Kill Fungus",
-            "icon_name": "verified"
-          }
-        },
-        "ticker_item_2": {
-          "type": "ticker_item",
-          "settings": {
-            "text": "Stop Odor",
-            "icon_name": "verified"
-          }
-        },
-        "ticker_item_3": {
-          "type": "ticker_item",
-          "settings": {
-            "text": "Clear Skin",
-            "icon_name": "verified"
-          }
-        },
-        "ticker_item_4": {
-          "type": "ticker_item",
-          "settings": {
-            "text": "End Athlete's Foot",
-            "icon_name": "verified"
-          }
-        },
-        "ticker_item_5": {
-          "type": "ticker_item",
-          "settings": {
-            "text": "Stop Itching",
-            "icon_name": "verified"
-          }
-        },
-        "ticker_item_6": {
-          "type": "ticker_item",
-          "settings": {
-            "text": "100% Natural",
-            "icon_name": "verified"
-          }
-        }
-      },
-      "block_order": [
-        "ticker_item_1",
-        "ticker_item_2",
-        "ticker_item_3",
-        "ticker_item_4",
-        "ticker_item_5",
-        "ticker_item_6"
-      ],
-      "name": "Ticker bar",
       "settings": {
-        "background_color": "#2d8a6e",
-        "text_color": "#ffffff",
-        "border_position": "none",
-        "border_thickness": 1,
-        "border_color": "#000000",
-        "font_size": 14,
-        "font_weight": "500",
-        "spacing": 60,
-        "icon_size": 20,
-        "speed": 20,
-        "padding_top": 8,
-        "padding_bottom": 8,
-        "aria_label": "Scrolling announcements"
+        "text_1": "SENTEUR FRAÎCHE NATURELLE",
+        "text_2": "FABRICATION ARTISANALE",
+        "text_3": "LIVRAISON RAPIDE",
+        "text_4": "QUALITÉ PREMIUM",
+        "text_5": "SATISFACTION GARANTIE",
+        "speed": 30,
+        "bg_color": "#1A3018",
+        "text_color": "#DFF47E",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "wellness_journey": {
       "type": "wellness-journey",
       "blocks": {
-        "wj_1": {
-          "type": "milestone",
+        "step_1": {
+          "type": "step",
           "settings": {
-            "week_label": "Week 1: Relief Begins",
-            "bullets": "<ul><li>Itching and burning start to subside</li><li>Odor noticeably reduces after each wash</li><li>Skin feels cleaner and less irritated</li></ul>"
+            "badge": "7 jours",
+            "title": "Premiers signes d'amélioration",
+            "description_1": "La peau paraît plus propre et plus fraîche au quotidien.",
+            "description_2": "Les odeurs et l'inconfort liés à l'humidité commencent à diminuer."
           }
         },
-        "wj_2": {
-          "type": "milestone",
+        "step_2": {
+          "type": "step",
           "settings": {
-            "week_label": "Week 2: Visible Improvement",
-            "bullets": "<ul><li>Fungal patches begin to shrink and fade</li><li>Cracked, peeling skin starts healing</li><li>Confidence comes back — you stop hiding</li></ul>"
+            "badge": "1 mois",
+            "title": "Résultats visibles",
+            "description_1": "L'aspect de la peau s'améliore visiblement.",
+            "description_2": "Elle est plus nette, plus saine et plus confortable."
           }
         },
-        "wj_3": {
-          "type": "milestone",
+        "step_3": {
+          "type": "step",
           "settings": {
-            "week_label": "Week 3: Skin Restores",
-            "bullets": "<ul><li>Affected areas look healthier and smoother</li><li>No more redness, flaking, or discomfort</li><li>Odor is gone — feet stay fresh all day</li></ul>"
+            "badge": "2 mois",
+            "title": "Stabilisation",
+            "description_1": "Les résultats se stabilisent.",
+            "description_2": "La peau devient plus régulière et plus facile à maintenir propre et sèche."
           }
         },
-        "wj_4": {
-          "type": "milestone",
+        "step_4": {
+          "type": "step",
           "settings": {
-            "week_label": "Week 4+: Fungus-Free Living",
-            "bullets": "<ul><li>Skin is fully clear and feels normal again</li><li>Fungus hasn't returned — the barrier holds</li><li>Wear sandals, go barefoot, live without worry</li></ul>"
+            "badge": "4 mois",
+            "title": "Entretien durable",
+            "description_1": "Le savon devient un allié d'entretien.",
+            "description_2": "La peau reste durablement saine, équilibrée et confortable au quotidien."
           }
         }
       },
       "block_order": [
-        "wj_1",
-        "wj_2",
-        "wj_3",
-        "wj_4"
-      ],
-      "custom_css": [
-        ".wj-cta-button {color: black;}"
+        "step_1",
+        "step_2",
+        "step_3",
+        "step_4"
       ],
       "settings": {
-        "heading": "<strong>Your Relief</strong> Journey with Verra Rituel®",
-        "description": "Verra Rituel® is formulated to deliver real, lasting antifungal relief — not just temporary fixes. Here's how your skin transforms when you start using it daily:",
-        "highlight_color": "#1a6b52",
-        "button_color": "#ffd600",
+        "heading": "Des résultats visibles en <strong>quelques semaines</strong>",
+        "subheading": "Avec une utilisation régulière, de nombreux utilisateurs constatent une amélioration nette de l'état de leurs pieds dès les premières semaines.",
+        "highlight_color": "#1A3018",
+        "badge_color": "#1A3018",
         "bg_color": "",
-        "cta_text": "Start My Recovery →",
-        "cta_link": "",
-        "cta_note": "30-day money-back guarantee",
-        "cta_note_icon_name": "verified_user",
-        "cta_height": 40,
-        "padding_top": 40,
-        "padding_bottom": 40
+        "text_color": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "reasons_why_vr": {
       "type": "reasons-why",
       "blocks": {
         "reason_1": {
-          "type": "reason_card",
+          "type": "reason",
           "settings": {
-            "label": "Reason 1",
-            "heading": "Targets the Root, Not Just Symptoms",
-            "details": "<p>Most antifungal creams only treat what you can see. Verra Rituel's tea tree formula penetrates deep to kill fungal spores beneath the skin surface — where infections actually live and spread.</p>"
+            "title": "Formule naturelle triple-action",
+            "text": "Trois ingrédients actifs — arbre à thé, eucalyptus, charbon actif — qui ciblent les mycoses en profondeur, pas seulement en surface."
           }
         },
         "reason_2": {
-          "type": "reason_card",
+          "type": "reason",
           "settings": {
-            "label": "Reason 2",
-            "heading": "Fights Fungus AND Odor Together",
-            "details": "<p>Why use two products when one does both? Verra Rituel kills the fungus causing the smell while activated charcoal neutralizes odor. Clean skin and fresh scent in a single bar.</p>"
+            "title": "Résultats dès les premières semaines",
+            "text": "97% des utilisateurs constatent une diminution de l'inconfort au cours des premières semaines. Un soulagement rapide et durable."
           }
         },
         "reason_3": {
-          "type": "reason_card",
+          "type": "reason",
           "settings": {
-            "label": "Reason 3",
-            "heading": "Easiest Routine You'll Ever Have",
-            "details": "<p>No creams to rub in. No sprays to time. No pills to remember. Just lather during your normal shower and rinse. It fits into the routine you already have — zero extra effort.</p>"
+            "title": "Simple et pratique",
+            "text": "Un seul savon, sous la douche, une fois par jour. Pas de crèmes, pas de sprays, pas de routine compliquée."
           }
         },
         "reason_4": {
-          "type": "reason_card",
+          "type": "reason",
           "settings": {
-            "label": "Reason 4",
-            "heading": "100% Natural & Gentle on Skin",
-            "details": "<p>No parabens, no sulfates, no harsh chemicals. Just Tea Tree, Eucalyptus, and Activated Charcoal — dermatologist-recommended ingredients that are tough on fungus but gentle on your skin.</p>"
+            "title": "Sans risque — Garantie 30 jours",
+            "text": "Pas d'amélioration ? On vous rembourse intégralement. Sans formulaire, sans complication."
           }
         },
         "reason_5": {
-          "type": "reason_card",
+          "type": "reason",
           "settings": {
-            "label": "Reason 5",
-            "heading": "Results You Can See in Weeks",
-            "details": "<p>Most customers report visible improvement within 7–14 days. By day 30, fungus is gone and skin looks completely healthy again. This isn't a maybe — it's backed by thousands of reviews.</p>"
+            "title": "20 000+ clients satisfaits",
+            "text": "Des milliers de personnes ont retrouvé des pieds sains et la confiance de marcher pieds nus à nouveau."
           }
         }
       },
@@ -848,112 +792,45 @@
         "reason_4",
         "reason_5"
       ],
-      "name": "Reasons why",
       "settings": {
-        "badge_text": "5 Reasons Why",
-        "subheading": "Verra Rituel® is Different From Everything You've Tried",
-        "bg_color": "#f5fdf9",
-        "text_color": "#000000",
-        "badge_bg_color": "#2d8a6e",
-        "badge_text_color": "#ffffff",
-        "label_bg_color": "#2d8a6e",
-        "label_text_color": "#ffffff",
-        "card_bg_color": "#ffffff",
-        "card_border_color": "#0000004d",
-        "card_text_color": "#000000",
-        "badge_font_size": 28,
-        "subheading_font_size": 31,
-        "label_font_size": 17,
-        "card_heading_font_size": 21,
-        "details_font_size": 16,
-        "card_height": 408,
-        "card_radius": 12,
-        "card_gap": 13,
-        "max_width": 1500,
-        "cta_text": "Try Risk-Free Today",
-        "cta_url": "",
-        "cta_bg_color": "#ffd600",
-        "cta_text_color": "#000000",
-        "cta_font_size": 19,
-        "cta_margin_top": 40,
-        "guarantee_text": "30-day money back guarantee",
-        "padding_top": 40,
-        "padding_bottom": 40
+        "heading": "5 raisons de choisir <strong>Verra Rituel</strong>",
+        "highlight_color": "#1A3018",
+        "number_color": "#DFF47E",
+        "number_bg_color": "#1A3018",
+        "bg_color": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "brand_comparison": {
       "type": "brand-comparison",
-      "blocks": {
-        "bc_1": {
-          "type": "feature",
-          "settings": {
-            "brand_text": "Dermatologist Recommended",
-            "competitor_text": "Generic Formulas"
-          }
-        },
-        "bc_2": {
-          "type": "feature",
-          "settings": {
-            "brand_text": "3rd-Party Lab Tested",
-            "competitor_text": "No Independent Testing"
-          }
-        },
-        "bc_3": {
-          "type": "feature",
-          "settings": {
-            "brand_text": "100% Natural Ingredients",
-            "competitor_text": "Chemicals & Irritants"
-          }
-        },
-        "bc_4": {
-          "type": "feature",
-          "settings": {
-            "brand_text": "Kills Fungus + Eliminates Odor",
-            "competitor_text": "Treats Surface Only"
-          }
-        },
-        "bc_5": {
-          "type": "feature",
-          "settings": {
-            "brand_text": "Cruelty-Free & Vegan",
-            "competitor_text": "Animal Testing"
-          }
-        }
-      },
-      "block_order": [
-        "bc_1",
-        "bc_2",
-        "bc_3",
-        "bc_4",
-        "bc_5"
-      ],
       "settings": {
-        "heading": "<strong>Verra Rituel®</strong> vs. Other Brands",
-        "heading_size": 36,
-        "bg_gradient_start": "#0a2e1f",
-        "bg_gradient_end": "#1a6b52",
-        "text_color": "#ffffff",
-        "highlight_color": "#2d8a6e",
-        "brand_name": "<strong>Verra Rituel</strong>",
-        "brand_name_color": "#ffffff",
-        "brand_col_color": "#2d8a6e",
-        "brand_icon_color": "#ffffff",
-        "competitor_label": "<strong>Other Brands</strong>",
-        "comp_col_color": "#ffffff",
-        "comp_text_color": "#000000",
-        "comp_icon_color": "#999999",
-        "icons_filled": true,
-        "checklist_1": "<strong>Clinically Proven Ingredients</strong> - Tea tree oil with verified antifungal efficacy",
-        "checklist_2": "<strong>Visible Results in 2 Weeks</strong> - Fungal patches shrink, itching stops",
-        "checklist_3": "<strong>Long-Term Prevention, Not Quick Fixes</strong> - Rebuilds skin barrier to stop recurrence",
-        "checklist_4": "<strong>Clean & Natural Formula</strong> - made without parabens, sulfates, or harsh chemicals",
-        "cta_text": "Try Risk-Free Today",
-        "cta_link": "",
-        "cta_height": 46,
-        "cta_bg_color": "#ffd600",
-        "cta_text_color": "#000000",
-        "cta_font_weight": "700",
-        "note_text": "30-day money back guarantee",
+        "heading": "Verra Rituel vs. les <strong>alternatives</strong>",
+        "highlight_color": "#1A3018",
+        "brand_name": "Verra Rituel",
+        "brand_color": "#1A3018",
+        "check_color": "#1A3018",
+        "competitor_name": "Crèmes classiques",
+        "competitor_color": "#cccccc",
+        "feature_1": "Élimine les mycoses à la source",
+        "feature_2": "Neutralise les odeurs durablement",
+        "feature_3": "100% naturel, sans produits chimiques",
+        "feature_4": "Facile à intégrer au quotidien",
+        "feature_5": "Résultats visibles en 2 semaines",
+        "feature_6": "Garantie satisfait ou remboursé 30 jours",
+        "brand_f1": true,
+        "brand_f2": true,
+        "brand_f3": true,
+        "brand_f4": true,
+        "brand_f5": true,
+        "brand_f6": true,
+        "competitor_f1": false,
+        "competitor_f2": false,
+        "competitor_f3": false,
+        "competitor_f4": false,
+        "competitor_f5": false,
+        "competitor_f6": false,
+        "bg_color": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -961,21 +838,21 @@
     "risk_free_trial": {
       "type": "risk-free-trial",
       "settings": {
-        "badge_number": "30",
-        "badge_label": "DAYS",
-        "subtitle": "SEE THE DIFFERENCE",
-        "heading": "30-Day Risk-Free Trial",
-        "heading_size": 23,
-        "description": "If you don't see noticeable improvement in your skin within 30 days, simply return your order for a full refund — no questions asked.",
-        "bg_color": "#f5fdf9",
-        "accent_color": "#2d8a6e",
-        "text_color": "",
-        "cta_text": "Try Risk-Free Today",
-        "cta_link": "",
-        "cta_height": 50,
-        "cta_bg_color": "#ffd600",
-        "cta_text_color": "#000000",
-        "padding_top": 28
+        "heading": "Aimez votre savon",
+        "subheading": "Essayez-le sereinement, sans risque.",
+        "description": "<p>Si vous ne constatez pas d'amélioration ou si le produit ne vous convient pas, vous disposez de <strong>30 jours pour changer d'avis.</strong></p>",
+        "cta_text": "Essayer sans risque",
+        "cta_function": "link",
+        "cta_url": "",
+        "highlight_color": "#1A3018",
+        "cta_bg_color": "#DFF47E",
+        "cta_text_color": "#1A3018",
+        "badge_1": "Garantie 30 jours",
+        "badge_2": "Livraison suivie",
+        "badge_3": "Paiement sécurisé",
+        "bg_color": "#e8f5e0",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "apps_disabled": {
@@ -991,72 +868,72 @@
         "faq_1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How does the Verra Rituel™ Antifungal Soap work?",
+            "heading": "En combien de temps puis-je espérer voir une amélioration visible ?",
             "icon": "none",
-            "row_content": "<p>Verra Rituel combines three clinically studied natural ingredients. <strong>Tea Tree Oil</strong> kills fungus by disrupting fungal cell membranes. <strong>Eucalyptus Oil</strong> provides deep antiseptic cleansing. <strong>Activated Charcoal</strong> draws out toxins and neutralizes odor. Just lather, let it sit for 60 seconds, and rinse — your skin does the rest.</p>",
+            "row_content": "<p>Beaucoup de personnes constatent une diminution des démangeaisons et des odeurs dès <strong>1 à 2 semaines</strong>. Pour une peau visiblement plus saine et confortable, une utilisation régulière sur <strong>4 à 6 semaines</strong> est généralement recommandée.</p>",
             "page": ""
           }
         },
         "faq_2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How long will it take to see results?",
+            "heading": "En quoi est-il différent des crèmes et sprays que j'ai déjà essayés ?",
             "icon": "none",
-            "row_content": "<p>Most people notice visible improvement <strong>within the first 1–2 weeks</strong>. Itching and odor typically reduce within days. Full clearance builds over <strong>30 days</strong> of daily use. Every case is different — mild infections clear faster, stubborn ones may take the full month. Consistency is key.</p>",
+            "row_content": "<p>La plupart des solutions agissent surtout en surface. Le savon Verra Rituel® nettoie la peau en profondeur à chaque lavage, sans laisser de résidus, ce qui permet de <strong>limiter durablement les déséquilibres</strong> responsables de l'inconfort, plutôt que de simplement masquer les symptômes.</p>",
             "page": ""
           }
         },
         "faq_3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What types of fungal infections does it treat?",
+            "heading": "Est-ce que ce savon peut fonctionner là où les traitements antifongiques prescrits ont échoué ?",
             "icon": "none",
-            "row_content": "<p>Verra Rituel is effective against <strong>athlete's foot, jock itch, ringworm, toenail fungus symptoms, and general body fungus</strong>. The tea tree oil formula works on multiple fungal strains. For severe or persistent infections, we recommend pairing with advice from your healthcare provider.</p>",
+            "row_content": "<p>Oui. De nombreuses personnes se tournent vers l'huile d'arbre à thé pour ses propriétés naturellement purifiantes, notamment après des traitements synthétiques peu efficaces ou mal tolérés. Notre savon aide à <strong>assainir la peau en profondeur</strong>, dans le cadre d'une routine régulière et douce.</p>",
             "page": ""
           }
         },
         "faq_4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Is it safe for sensitive skin?",
+            "heading": "Puis-je l'utiliser tous les jours sans irriter ma peau ?",
             "icon": "none",
-            "row_content": "<p>Yes. Verra Rituel is <strong>hypoallergenic, paraben-free, and sulfate-free</strong>. It's made with natural ingredients and is gentle enough for daily use on all skin types, including sensitive skin. If you have a known allergy to tea tree oil, consult your doctor first.</p>",
+            "row_content": "<p>Oui. Sa formule naturelle a été pensée pour un <strong>usage quotidien</strong>. Elle nettoie efficacement tout en respectant l'équilibre de la peau, même sensible, sans effet agressif ou asséchant.</p>",
             "page": ""
           }
         },
         "faq_5": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can I use it on my whole body?",
+            "heading": "Est-ce que cela aide à éviter que le problème revienne ?",
             "icon": "none",
-            "row_content": "<p>Absolutely. While it's especially effective on <strong>feet, groin, and body areas prone to fungal growth</strong>, Verra Rituel is safe to use as a full-body soap. Many customers use it as their daily shower bar for overall skin health and odor prevention.</p>",
+            "row_content": "<p>Oui. Une utilisation régulière et continue permet de maintenir une peau propre et équilibrée. Comme pour toute routine de soin, la <strong>constance est essentielle</strong> pour éviter les récidives liées à l'humidité et aux déséquilibres cutanés.</p>",
             "page": ""
           }
         },
         "faq_6": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How long does one bar last?",
+            "heading": "Convient-il aux peaux très sensibles ou abîmées ?",
             "icon": "none",
-            "row_content": "<p>One bar typically lasts <strong>4–6 weeks</strong> with daily use on targeted areas. If used as a full-body wash, it may last 3–4 weeks. We recommend the 2-pack or 3-pack for uninterrupted treatment and the best value.</p>",
+            "row_content": "<p>Oui. La formule a été conçue pour nettoyer tout en apaisant. Les ingrédients naturels contribuent à <strong>calmer la peau fragilisée</strong>, tout en aidant à assainir les zones concernées.</p>",
             "page": ""
           }
         },
         "faq_7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Will the fungus come back after I stop using it?",
+            "heading": "Est-ce qu'il peut aussi aider en cas de problèmes au niveau des ongles ?",
             "icon": "none",
-            "row_content": "<p>Unlike creams that only address symptoms, Verra Rituel <strong>helps rebuild your skin's natural protective barrier</strong>. Many customers report that fungus stays gone after completing a 30-day routine. For prevention, we recommend continuing to use the bar 2–3 times per week even after your skin clears.</p>",
+            "row_content": "<p>Bien qu'il soit principalement destiné à la peau, certains utilisateurs constatent une amélioration globale lorsqu'il est utilisé régulièrement. Il contribue à maintenir une <strong>bonne hygiène</strong> et à limiter la propagation des déséquilibres autour des ongles.</p>",
             "page": ""
           }
         },
         "faq_8": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Do you offer a guarantee?",
+            "heading": "Quels sont les principaux bénéfices pour les problèmes de pieds récurrents ?",
             "icon": "none",
-            "row_content": "<p>Yes! Every order is backed by our <strong>30-day money-back guarantee</strong>. If you don't see visible improvement — less fungus, less odor, healthier skin — just reach out and we'll refund you in full. No hassle, no questions. We believe in this product that much.</p>",
+            "row_content": "<p>Le savon Verra Rituel aide à <strong>nettoyer en profondeur</strong>, réduire les odeurs, calmer les irritations et maintenir une peau saine sur le long terme. Il est conçu pour accompagner les personnes sujettes aux déséquilibres cutanés des pieds dans leur routine quotidienne.</p>",
             "page": ""
           }
         }
@@ -1071,15 +948,11 @@
         "faq_7",
         "faq_8"
       ],
-      "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
-        "heading": "Frequently Asked Questions",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "container_color_scheme": "",
+        "heading": "Questions fréquentes",
         "color_scheme": "",
+        "container_color_scheme": "",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
@@ -1095,19 +968,18 @@
     },
     "related-products": {
       "type": "related-products",
-      "disabled": true,
       "settings": {
-        "heading": "You may also like",
+        "heading": "Vous pourriez aussi aimer",
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
-        "columns_mobile": "2",
-        "color_scheme": "scheme-1",
+        "color_scheme": "",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
-        "show_rating": false,
+        "show_rating": true,
+        "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 28
       }
