@@ -869,7 +869,7 @@
         "bc_5"
       ],
       "settings": {
-        "heading": "<strong>Verra Rituel®</strong> vs. les autres marques",
+        "heading": "<strong>Verra Rituel®</strong> vs. les autres produits",
         "heading_size": 36,
         "bg_gradient_start": "#07493a",
         "bg_gradient_end": "#002a21",
@@ -879,7 +879,7 @@
         "brand_name_color": "#ffffff",
         "brand_col_color": "#009370",
         "brand_icon_color": "#ffffff",
-        "competitor_label": "<strong>Autres marques</strong>",
+        "competitor_label": "<strong>Autres produits</strong>",
         "comp_col_color": "#ffffff",
         "comp_text_color": "#000000",
         "comp_icon_color": "#999999",
