@@ -824,14 +824,58 @@
     },
     "brand_comparison": {
       "type": "brand-comparison",
+      "blocks": {
+        "bc_1": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Prouvé cliniquement",
+            "competitor_text": "Formules génériques"
+          }
+        },
+        "bc_2": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Testé en laboratoire indépendant",
+            "competitor_text": "Aucune preuve de test"
+          }
+        },
+        "bc_3": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "100% naturel & sans allergènes",
+            "competitor_text": "Additifs & produits chimiques"
+          }
+        },
+        "bc_4": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Assainit en profondeur + neutralise les odeurs",
+            "competitor_text": "Traite la surface uniquement"
+          }
+        },
+        "bc_5": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Végan & non testé sur les animaux",
+            "competitor_text": "Tests sur les animaux"
+          }
+        }
+      },
+      "block_order": [
+        "bc_1",
+        "bc_2",
+        "bc_3",
+        "bc_4",
+        "bc_5"
+      ],
       "settings": {
-        "heading": "Verra Rituel vs. les <strong>alternatives</strong>",
+        "heading": "<strong>Verra Rituel®</strong> vs. les autres marques",
         "heading_size": 36,
         "bg_gradient_start": "#07493a",
         "bg_gradient_end": "#002a21",
         "text_color": "#ffffff",
         "highlight_color": "#1a3018",
-        "brand_name": "Verra Rituel",
+        "brand_name": "<strong>Verra Rituel</strong>",
         "brand_name_color": "#ffffff",
         "brand_col_color": "#009370",
         "brand_icon_color": "#ffffff",
@@ -839,7 +883,7 @@
         "comp_col_color": "#ffffff",
         "comp_text_color": "#000000",
         "comp_icon_color": "#999999",
-        "icons_filled": false,
+        "icons_filled": true,
         "checklist_1": "<strong>Ingrédients naturels prouvés</strong> — Tea tree, eucalyptus, aloe vera, huile de coco, hamamélis",
         "checklist_2": "<strong>Résultats visibles en quelques semaines</strong> — Ressentez une différence rapidement",
         "checklist_3": "<strong>Santé durable, pas de solution rapide</strong> — Assainit en profondeur, pas juste en surface",
