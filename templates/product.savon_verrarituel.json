@@ -16,8 +16,8 @@
           "type": "star_rating",
           "settings": {
             "rating": 4.8,
-            "text": "<strong>Excellent 4.8</strong> — 1 422+ avis vérifiés",
-            "star_color": "#1a3018",
+            "text": "<strong>Noté 4.8 sur 5</strong>",
+            "star_color": "#ffd600",
             "star_bg_color": "#ececec",
             "star_size": 1.3,
             "star_gap": 0.4,
@@ -35,8 +35,16 @@
             "title_color": ""
           }
         },
+        "text_Urya33": {
+          "type": "text",
+          "settings": {
+            "text": "Intégrez notre <strong>savon artisanal</strong>, d’expertise <strong>française</strong>, à <strong>votre routine</strong> et retrouvez des <strong>pieds sains</strong> en <strong>3 semaines</strong>!",
+            "text_style": "body"
+          }
+        },
         "statement_vr": {
           "type": "statement",
+          "disabled": true,
           "settings": {
             "subtitle": "97% des utilisateurs constatent :",
             "title": "Une réduction visible des mycoses et une peau plus saine en 2 semaines",
@@ -48,12 +56,12 @@
           "settings": {
             "text_color": "#121212",
             "icon_color": "#1a3018",
-            "benefit_1": "Anti-mycoses",
-            "benefit_2": "Fini les odeurs",
-            "benefit_3": "Pied d'athlète",
-            "benefit_4": "Démangeaisons",
-            "benefit_5": "Peau saine",
-            "benefit_6": "Marque Française"
+            "benefit_1": "Élimine le champignon qui revient sans cesse",
+            "benefit_2": "Stoppe les démangeaisons et les sensations de brûlure persistantes",
+            "benefit_3": "Élimine durablement les mauvaises odeurs embarrassantes des pieds",
+            "benefit_4": "Marchez enfin pieds nus en toute confiance",
+            "benefit_5": "",
+            "benefit_6": ""
           }
         },
         "price": {
@@ -264,6 +272,7 @@
       "block_order": [
         "star_rating",
         "title",
+        "text_Urya33",
         "statement_vr",
         "benefits_list",
         "price",
