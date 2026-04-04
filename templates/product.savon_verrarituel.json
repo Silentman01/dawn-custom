@@ -158,23 +158,6 @@
             "badge_color": "#1a3018"
           }
         },
-        "urgency_notice": {
-          "type": "urgency_notice",
-          "settings": {
-            "line_1": "<p><strong>ATTENTION : Stock limité</strong></p>",
-            "line_2": "<p>Ce produit a été en rupture de stock <span style=\"text-decoration:underline\">9 fois</span> cette année. Profitez de l'<strong>offre limitée</strong> maintenant. <strong>PS :</strong> Disponible uniquement ici — n'achetez pas les <span style=\"text-decoration:underline\">imitations sur Amazon/eBay</span></p>",
-            "font_size": 1.2,
-            "bg_color": "#fef2f2",
-            "text_color": "#9f3f3f",
-            "border_width": 2,
-            "border_style": "dashed",
-            "border_color": "#fca5a5",
-            "border_radius": 3,
-            "icon_name": "error",
-            "icon_color": "#d61717",
-            "icon_scale": 1.2
-          }
-        },
         "collapsible_tab_desc": {
           "type": "collapsible_tab",
           "settings": {
@@ -220,6 +203,23 @@
             "page": ""
           }
         },
+        "urgency_notice": {
+          "type": "urgency_notice",
+          "settings": {
+            "line_1": "<p><strong>Attention Aux Imitations.</strong></p>",
+            "line_2": "<p><strong>nolarituel.com</strong>est la seule marque officielle à proposer ce savon antifongique avec une formulation de<strong>haute qualité</strong>. Nous ne vendons ni sur Amazon ni sur d’autres sites.</p>",
+            "font_size": 1.2,
+            "bg_color": "#fef2f2",
+            "text_color": "#9f3f3f",
+            "border_width": 2,
+            "border_style": "dashed",
+            "border_color": "#fca5a5",
+            "border_radius": 3,
+            "icon_name": "error",
+            "icon_color": "#d61717",
+            "icon_scale": 1.2
+          }
+        },
         "trust_card_v2_vr": {
           "type": "trust_card_v2",
           "settings": {
@@ -244,13 +244,6 @@
             "feature_text_size": 11,
             "item_text_size": 16
           }
-        },
-        "testimonial_videos_block": {
-          "type": "testimonial_videos",
-          "settings": {
-            "heading": "Ce que disent nos clients :",
-            "heading_size": 23
-          }
         }
       },
       "block_order": [
@@ -266,14 +259,13 @@
         "sticky_cart",
         "trust_microcopy",
         "social_proof_banner",
-        "urgency_notice",
         "collapsible_tab_desc",
         "collapsible_tab_why",
         "collapsible_tab_benefits",
         "collapsible_tab_use",
         "collapsible_tab_guarantee",
-        "trust_card_v2_vr",
-        "testimonial_videos_block"
+        "urgency_notice",
+        "trust_card_v2_vr"
       ],
       "custom_css": [
         ".urgency-notice {margin-bottom: 15px;}"
