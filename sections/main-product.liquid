@@ -47,8 +47,10 @@
     }
     .product__benefits-list {
       display: grid;
-      grid-template-columns: 1fr 1fr;
       gap: 0.6em;
+    }
+    .product__benefits-list--two-per-line {
+      grid-template-columns: 1fr 1fr;
     }
     .product__benefit-item {
       display: flex;
@@ -1033,7 +1035,7 @@
                 </div>
               {%- when 'benefits_list' -%}
                 <div
-                  class="product__benefits-list"
+                  class="product__benefits-list{% if block.settings.layout == 'two_per_line' %} product__benefits-list--two-per-line{% endif %}"
                   style="{% if block.settings.text_color != blank %}color: {{ block.settings.text_color }};{% endif %}"
                   {{ block.shopify_attributes }}
                 >
@@ -3028,6 +3030,16 @@
           "id": "icon_color",
           "label": "Icon color",
           "default": "#9f3f3f"
+        },
+        {
+          "type": "select",
+          "id": "layout",
+          "label": "Layout",
+          "options": [
+            { "value": "one_per_line", "label": "One per line" },
+            { "value": "two_per_line", "label": "Two per line" }
+          ],
+          "default": "two_per_line"
         },
         {
           "type": "header",
