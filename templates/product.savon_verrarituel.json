@@ -303,16 +303,16 @@
         "stat_3": {
           "type": "stat",
           "settings": {
-            "percentage": 92,
-            "heading": "<strong>Confiance retrouvée</strong>",
+            "percentage": 89,
+            "heading": "Confiance retrouvée",
             "caption": "Se sentent à nouveau à l'aise pour marcher pieds nus ou porter des sandales, même en public."
           }
         },
         "stat_4": {
           "type": "stat",
           "settings": {
-            "percentage": 89,
-            "heading": "<strong>Ne reviendraient jamais en arrière</strong>",
+            "percentage": 92,
+            "heading": "Ne reviendraient jamais en arrière",
             "caption": "Préfèrent Verra Rituel aux crèmes et sprays antifongiques classiques qu'ils utilisaient avant."
           }
         }
