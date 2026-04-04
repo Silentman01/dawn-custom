@@ -56,6 +56,7 @@
           "settings": {
             "text_color": "#121212",
             "icon_color": "#1a3018",
+            "layout": "one_per_line",
             "benefit_1": "Élimine le champignon qui revient sans cesse",
             "benefit_2": "Stoppe les démangeaisons et les sensations de brûlure persistantes",
             "benefit_3": "Élimine durablement les mauvaises odeurs embarrassantes des pieds",
@@ -75,23 +76,6 @@
             "price_font_size": 2,
             "price_font_weight": "700",
             "compare_font_size": 1.8
-          }
-        },
-        "fake_variant_picker_vr": {
-          "type": "fake_variant_picker",
-          "settings": {
-            "label": "Senteur",
-            "option_1": "Arbre à thé",
-            "option_1_soldout": false,
-            "option_2": "Lavande (Nouveau)",
-            "option_2_soldout": true,
-            "option_3": "",
-            "option_3_soldout": false,
-            "option_4": "",
-            "option_4_soldout": false,
-            "bg_color": "",
-            "text_color": "",
-            "border_color": ""
           }
         },
         "variant_picker": {
@@ -276,7 +260,6 @@
         "statement_vr",
         "benefits_list",
         "price",
-        "fake_variant_picker_vr",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
