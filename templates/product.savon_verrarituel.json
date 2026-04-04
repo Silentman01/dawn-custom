@@ -178,36 +178,36 @@
         "collapsible_tab_desc": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Description",
+            "heading": "Est-ce que ça marche vraiment ? En combien de temps ?",
             "icon": "none",
-            "content": "<p>Le Savon Purifiant Antifongique Verra Rituel™ est un savon de soin quotidien qui <strong>élimine les mycoses, neutralise les odeurs et restaure une peau saine</strong> — dès la première utilisation.</p><p>Sa formule naturelle associe des actifs reconnus pour assainir tout en aidant à calmer la peau irritée (tiraillements, sensations de brûlure) :</p><ul><li>Huile de tea tree — <strong>pouvoir antifongique naturel</strong></li><li>Huile de coco — <strong>nutrition et protection</strong></li><li>Aloe vera — <strong>apaisement des irritations</strong></li><li>Base huile d'olive — <strong>hydratation douce</strong></li><li>Eucalyptus — <strong>nettoyage en profondeur</strong></li><li>Hamamélis — <strong>astringent naturel</strong></li></ul>",
+            "content": "<p><strong>Oui, à condition d’être régulier.</strong> La plupart des clients observent des <strong>résultats visibles en ~4 semaines</strong>, avec une amélioration progressive dès les premières semaines (démangeaisons, brûlures, odeurs). Le point clé : <strong>la constance</strong>, car l’objectif est de traiter <strong>la cause</strong> (le champignon), pas seulement les symptômes.</p>",
             "page": ""
           }
         },
         "collapsible_tab_why": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Pourquoi choisir le savon Verra Rituel® ?",
+            "heading": "Comment l’utiliser pour de meilleurs résultats ?",
             "icon": "none",
-            "content": "<p>Si vous souffrez de <strong>démangeaisons persistantes</strong>, de <strong>brûlures</strong>, de <strong>fissures</strong> ou de <strong>peau qui pèle entre les orteils</strong> — et que vous en avez assez des crèmes qui fonctionnent à peine, des sprays qui piquent, et des traitements qui ne font que masquer le problème — <strong>Verra Rituel a été conçu pour vous.</strong></p><p>La plupart des solutions agissent surtout en surface. Notre savon nettoie la peau en profondeur à chaque lavage, sans résidus, ce qui permet de limiter durablement les déséquilibres responsables de l'inconfort.</p><p>Pas de sprays qui piquent. Pas de résidus gras. Plus besoin de cacher vos pieds.</p><p>Un seul savon. C'est tout.</p>",
+            "content": "<p>Sous la douche, <strong>1 fois par jour</strong> :</p><ol><li>Faites mousser, surtout <strong>entre les orteils</strong><br/></li><li>Massez la zone <strong>30 secondes</strong><br/></li><li>Laissez poser <strong>1 à 2 minutes</strong><br/></li><li>Rincez puis <strong>séchez parfaitement</strong><br/></li></ol><p>Gardez cette routine <strong>4 à 6 semaines</strong> pour limiter les récidives.</p>",
             "page": ""
           }
         },
         "collapsible_tab_benefits": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Bénéfices",
+            "heading": "Quels ingrédients ? Est-ce naturel / doux pour la peau ?",
             "icon": "none",
-            "content": "<p>✓ <strong>Cible les mycoses à la source —</strong> pas seulement les symptômes en surface</p><p>✓ <strong>Élimine le pied d'athlète, les démangeaisons et la teigne</strong></p><p>✓ <strong>Neutralise les odeurs</strong> pour en finir avec la gêne</p><p>✓ <strong>Restaure la barrière cutanée —</strong> une peau saine et lisse revient naturellement</p><p>✓ <strong>Apaise les démangeaisons et irritations —</strong> soulagement dès la première utilisation</p><p>✓ <strong>Formule 100% naturelle</strong> adaptée à un usage quotidien sur tous types de peau</p>",
+            "content": "<p>La formule met en avant des ingrédients connus pour leurs propriétés purifiantes et apaisantes :<strong>huile de tea tree</strong>,<strong>huile de coco</strong>,<strong>aloe vera</strong>, base<strong>huile d’olive</strong>, ainsi que<strong>eucalyptus</strong>et<strong>hamamélis</strong>.<br/><br/>L’idée :<strong>assainir</strong>tout en aidant à<strong>calmer la peau irritée</strong>(tiraillements, sensations de brûlure).</p>",
             "page": ""
           }
         },
         "collapsible_tab_use": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Comment l'utiliser ?",
+            "heading": "Et si ça ne marche pas pour moi ? Livraison / garantie ?",
             "icon": "none",
-            "content": "<p>Sous la douche, 1 fois par jour :</p><p><strong>1. Mouillez et faites mousser</strong> — Humidifiez vos pieds, puis faites mousser le savon entre vos mains ou directement sur la peau.</p><p><strong>2. Nettoyez en douceur</strong> — Massez délicatement en insistant entre les orteils et sur les zones concernées, puis laissez agir quelques instants.</p><p><strong>3. Rincez et séchez soigneusement</strong> — Rincez abondamment à l'eau claire, puis séchez bien vos pieds, notamment entre les orteils.</p><p>La plupart des utilisateurs constatent une amélioration nette <strong>dès 1 à 2 semaines</strong>. Pour de meilleurs résultats, utilisez régulièrement pendant <strong>30 jours</strong>.</p>",
+            "content": "<p>Vous achetez <strong>sans risque</strong> : Nola Rituel propose une <strong>garantie 30 jours</strong> (satisfait ou remboursé) et une <strong>livraison suivie</strong>.<br/><br/>Si vous avez la moindre question, vous pouvez aussi orienter vers notre support.</p><p>contact@verrarituel.com</p>",
             "page": ""
           }
         },
