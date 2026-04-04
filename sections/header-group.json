@@ -35,12 +35,12 @@
     "header": {
       "type": "header",
       "settings": {
-        "logo_position": "middle-center",
+        "logo_position": "middle-left",
         "mobile_logo_position": "center",
         "menu": "main-menu",
-        "menu_type_desktop": "drawer",
+        "menu_type_desktop": "dropdown",
         "sticky_header_type": "none",
-        "show_line_separator": false,
+        "show_line_separator": true,
         "color_scheme": "scheme-1",
         "menu_color_scheme": "",
         "enable_country_selector": false,
@@ -105,6 +105,7 @@
         "ticker_item_YAU8MH",
         "ticker_item_UqjmUe"
       ],
+      "disabled": true,
       "settings": {
         "background_color": "#ff1493",
         "text_color": "#ffffff",
