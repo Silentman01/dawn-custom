@@ -773,36 +773,36 @@
         "bc_1": {
           "type": "feature",
           "settings": {
-            "brand_text": "Prouvé cliniquement",
-            "competitor_text": "Formules génériques"
+            "brand_text": "Pieds propres et sans odeur dès les premiers jours",
+            "competitor_text": "Masque les odeurs temporairement"
           }
         },
         "bc_2": {
           "type": "feature",
           "settings": {
-            "brand_text": "Testé en laboratoire indépendant",
-            "competitor_text": "Aucune preuve de test"
+            "brand_text": "Retrouvez des pieds que vous osez montrer",
+            "competitor_text": "Résultats décevants et temporaires"
           }
         },
         "bc_3": {
           "type": "feature",
           "settings": {
-            "brand_text": "100% naturel & sans allergènes",
-            "competitor_text": "Additifs & produits chimiques"
+            "brand_text": "Fini les démangeaisons et l'inconfort au quotidien",
+            "competitor_text": "Soulagement passager qui revient"
           }
         },
         "bc_4": {
           "type": "feature",
           "settings": {
-            "brand_text": "Assainit en profondeur + neutralise les odeurs",
-            "competitor_text": "Traite la surface uniquement"
+            "brand_text": "Une routine simple : un seul produit suffit",
+            "competitor_text": "Crèmes, sprays, poudres... sans fin"
           }
         },
         "bc_5": {
           "type": "feature",
           "settings": {
-            "brand_text": "Végan & non testé sur les animaux",
-            "competitor_text": "Tests sur les animaux"
+            "brand_text": "Résultats durables, pas besoin de recommencer",
+            "competitor_text": "Le problème revient toujours"
           }
         }
       },
@@ -830,10 +830,10 @@
         "comp_text_color": "#000000",
         "comp_icon_color": "#999999",
         "icons_filled": true,
-        "checklist_1": "<strong>Ingrédients naturels prouvés</strong> — Tea tree, eucalyptus, aloe vera, huile de coco, hamamélis",
-        "checklist_2": "<strong>Résultats visibles en quelques semaines</strong> — Ressentez une différence rapidement",
-        "checklist_3": "<strong>Santé durable, pas de solution rapide</strong> — Assainit en profondeur, pas juste en surface",
-        "checklist_4": "<strong>Formule propre et pure</strong> — Sans parabènes, sans sulfates, sans OGM, sans additifs inutiles",
+        "checklist_1": "<strong>Vos pieds redeviennent sains</strong> — Fini la gêne, retrouvez confiance au quotidien",
+        "checklist_2": "<strong>Résultats visibles en quelques jours</strong> — Moins d'odeur, moins de démangeaisons, plus de confort",
+        "checklist_3": "<strong>Un seul geste sous la douche</strong> — Pas de crème, pas de spray, juste votre savon",
+        "checklist_4": "<strong>Doux et agréable sur la peau</strong> — Des ingrédients naturels qui respectent votre corps",
         "cta_text": "Essayer sans risque",
         "cta_link": "",
         "cta_height": 54,
