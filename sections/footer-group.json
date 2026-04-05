@@ -17,7 +17,6 @@
         "image_kwK7CP": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/huuhaqueen_logo_white.png",
             "image_width": 150,
             "alignment": "center"
           }
@@ -32,15 +31,23 @@
         "footer-2": {
           "type": "text",
           "settings": {
-            "heading": "",
-            "subtext": "<h6>Disclosure: These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</h6>"
+            "heading": "Avertissement sur les résultats",
+            "subtext": "<p>Les résultats peuvent varier d’une personne à l’autre. Les témoignages présentés ne sont pas nécessairement représentatifs de l’expérience de tous les utilisateurs. Les résultats mentionnés ne sont pas garantis.</p>"
+          }
+        },
+        "text_M4ihBj": {
+          "type": "text",
+          "settings": {
+            "heading": "Avertissement médical",
+            "subtext": "<p>Ce produit est destiné à un usage d’hygiène et de bien-être uniquement. Il ne remplace en aucun cas un avis médical ou un traitement prescrit par un professionnel de santé. En cas de condition médicale, de symptômes persistants ou de doute, veuillez consulter un professionnel de santé avant utilisation.</p>"
           }
         }
       },
       "block_order": [
         "image_kwK7CP",
         "footer-1",
-        "footer-2"
+        "footer-2",
+        "text_M4ihBj"
       ],
       "settings": {
         "color_scheme": "scheme-5",
