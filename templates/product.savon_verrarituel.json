@@ -262,7 +262,7 @@
           "type": "stat",
           "settings": {
             "percentage": 97,
-            "heading": "Diminution de l'inconfort",
+            "heading": "<strong>Diminution de l'inconfort</strong>",
             "caption": "Ont ressenti une diminution des démangeaisons et de l'inconfort au cours des premières semaines d'utilisation."
           }
         },
@@ -277,16 +277,16 @@
         "stat_3": {
           "type": "stat",
           "settings": {
-            "percentage": 89,
-            "heading": "Confiance retrouvée",
+            "percentage": 92,
+            "heading": "<strong>Confiance retrouvée</strong>",
             "caption": "Se sentent à nouveau à l'aise pour marcher pieds nus ou porter des sandales, même en public."
           }
         },
         "stat_4": {
           "type": "stat",
           "settings": {
-            "percentage": 92,
-            "heading": "Ne reviendraient jamais en arrière",
+            "percentage": 93,
+            "heading": "<strong>Ne reviendraient jamais en arrière</strong>",
             "caption": "Préfèrent Verra Rituel aux crèmes et sprays antifongiques classiques qu'ils utilisaient avant."
           }
         }
