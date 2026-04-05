@@ -793,7 +793,6 @@
     }
     .sticky-atc__button .button {
       white-space: nowrap;
-      min-height: auto;
       padding: 1rem 2.5rem;
     }
     .sticky-atc__button .button--has-spinner {
@@ -876,8 +875,11 @@
       }
     }
     @media screen and (max-width: 749px) {
+      .sticky-atc--mobile-btn-full {
+        flex-wrap: wrap;
+      }
       .sticky-atc--mobile-btn-full .sticky-atc__button {
-        flex: 1;
+        flex: 0 0 100%;
       }
       .sticky-atc--mobile-btn-full .sticky-atc__button .button {
         width: 100%;
