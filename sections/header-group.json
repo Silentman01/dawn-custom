@@ -34,6 +34,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        ".header__search {display: none !important;}"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "mobile_logo_position": "center",
