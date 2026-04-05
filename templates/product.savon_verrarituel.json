@@ -440,7 +440,7 @@
         ".ts-review__quote {font-weight: bold;}"
       ],
       "settings": {
-        "heading": "'Le meilleur savon antifongique que j’ai utilisé'",
+        "heading": "« Le meilleur savon antifongique que j’ai utilisé »",
         "subheading": "Découvrez ce que nos clients disent de Verra Rituel",
         "highlight_color": "#1a3018",
         "star_color": "#1a3018",
@@ -451,6 +451,52 @@
         "section_bg_color": "#f5fdf4",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "ticker_bar_vr": {
+      "type": "ticker-bar",
+      "blocks": {
+        "ticker_item_hPwWHQ": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "FABRICATION ARTISANALE",
+            "icon_name": ""
+          }
+        },
+        "ticker_item_Ft8VNk": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "SENTEUR FRAÎCHE NATURELLE",
+            "icon_name": ""
+          }
+        },
+        "ticker_item_NVjamN": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "LIVRAISON RAPIDE",
+            "icon_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "ticker_item_hPwWHQ",
+        "ticker_item_Ft8VNk",
+        "ticker_item_NVjamN"
+      ],
+      "settings": {
+        "background_color": "#1a1a1a",
+        "text_color": "#dff47e",
+        "border_position": "none",
+        "border_thickness": 1,
+        "border_color": "#ffffff",
+        "font_size": 14,
+        "font_weight": "500",
+        "spacing": 40,
+        "icon_size": 20,
+        "speed": 5,
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "aria_label": "Scrolling announcements"
       }
     },
     "benefits_showcase": {
@@ -560,24 +606,6 @@
         "cta_height": 50,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "ticker_bar_vr": {
-      "type": "ticker-bar",
-      "settings": {
-        "background_color": "#1a1a1a",
-        "text_color": "#dff47e",
-        "border_position": "none",
-        "border_thickness": 1,
-        "border_color": "#ffffff",
-        "font_size": 14,
-        "font_weight": "500",
-        "spacing": 40,
-        "icon_size": 20,
-        "speed": 30,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "aria_label": "Scrolling announcements"
       }
     },
     "wellness_journey": {
@@ -951,10 +979,10 @@
     "clinical_proven_vr",
     "feature_cards",
     "testimonial_slider",
-    "benefits_showcase",
-    "proven_benefits",
     "ticker_bar_vr",
     "wellness_journey",
+    "benefits_showcase",
+    "proven_benefits",
     "reasons_why_vr",
     "brand_comparison",
     "risk_free_trial",
