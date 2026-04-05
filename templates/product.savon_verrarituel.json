@@ -381,46 +381,6 @@
     "testimonial_slider": {
       "type": "testimonial-slider",
       "blocks": {
-        "ticker_1": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_2": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_3": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_4": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_5": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_6": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_7": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_8": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_9": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_10": {
-          "type": "ticker_image",
-          "settings": {}
-        },
         "review_1": {
           "type": "review",
           "settings": {
@@ -471,16 +431,6 @@
         }
       },
       "block_order": [
-        "ticker_1",
-        "ticker_2",
-        "ticker_3",
-        "ticker_4",
-        "ticker_5",
-        "ticker_6",
-        "ticker_7",
-        "ticker_8",
-        "ticker_9",
-        "ticker_10",
         "review_1",
         "review_2",
         "review_3",
