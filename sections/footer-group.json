@@ -32,14 +32,21 @@
           "type": "text",
           "settings": {
             "heading": "Avertissement sur les résultats",
-            "subtext": "<p>Les résultats peuvent varier d’une personne à l’autre. Les témoignages présentés ne sont pas nécessairement représentatifs de l’expérience de tous les utilisateurs. Les résultats mentionnés ne sont pas garantis.</p>"
+            "subtext": "<p><em>Les résultats peuvent varier d’une personne à l’autre. Les témoignages présentés ne sont pas nécessairement représentatifs de l’expérience de tous les utilisateurs. Les résultats mentionnés ne sont pas garantis.</em></p>"
           }
         },
         "text_M4ihBj": {
           "type": "text",
           "settings": {
             "heading": "Avertissement médical",
-            "subtext": "<p>Ce produit est destiné à un usage d’hygiène et de bien-être uniquement. Il ne remplace en aucun cas un avis médical ou un traitement prescrit par un professionnel de santé. En cas de condition médicale, de symptômes persistants ou de doute, veuillez consulter un professionnel de santé avant utilisation.</p>"
+            "subtext": "<p><em>Ce produit est destiné à un usage d’hygiène et de bien-être uniquement. Il ne remplace en aucun cas un avis médical ou un traitement prescrit par un professionnel de santé. En cas de condition médicale, de symptômes persistants ou de doute, veuillez consulter un professionnel de santé avant utilisation.</em></p>"
+          }
+        },
+        "text_hJhfpL": {
+          "type": "text",
+          "settings": {
+            "heading": "Avertissement réglementaire",
+            "subtext": "<p><em>Ces déclarations n’ont pas été évaluées par les autorités sanitaires. Ce produit n’est pas destiné à diagnostiquer, traiter, guérir ou prévenir une maladie.</em></p>"
           }
         }
       },
@@ -47,7 +54,8 @@
         "image_kwK7CP",
         "footer-1",
         "footer-2",
-        "text_M4ihBj"
+        "text_M4ihBj",
+        "text_hJhfpL"
       ],
       "settings": {
         "color_scheme": "scheme-5",
