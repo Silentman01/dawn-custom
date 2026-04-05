@@ -622,59 +622,6 @@
         "padding_bottom": 40
       }
     },
-    "benefits_showcase": {
-      "type": "benefits-showcase",
-      "blocks": {
-        "benefit_1": {
-          "type": "benefit",
-          "settings": {
-            "icon_name": "health_and_safety",
-            "title": "Élimine les mycoses à la source"
-          }
-        },
-        "benefit_2": {
-          "type": "benefit",
-          "settings": {
-            "icon_name": "science",
-            "title": "Stop pied d'athlète & teigne"
-          }
-        },
-        "benefit_3": {
-          "type": "benefit",
-          "settings": {
-            "icon_name": "bolt",
-            "title": "Neutralise les odeurs durablement"
-          }
-        },
-        "benefit_4": {
-          "type": "benefit",
-          "settings": {
-            "icon_name": "spa",
-            "title": "Restaure une peau saine"
-          }
-        }
-      },
-      "block_order": [
-        "benefit_1",
-        "benefit_2",
-        "benefit_3",
-        "benefit_4"
-      ],
-      "settings": {
-        "heading": "<strong>Peau saine.</strong> Chaque jour.",
-        "subheading": "De l'élimination de la gêne au retour de la confiance, voici ce qui rend Verra Rituel™ différent.",
-        "bg_color": "#1a3018",
-        "bg_color_bottom": "#2a5023",
-        "text_color": "#ffffff",
-        "highlight_color": "#dff47e",
-        "subheading_color": "",
-        "heading_size": 3,
-        "subheading_size": 1.5,
-        "benefit_size": 1.8,
-        "padding_top": 48,
-        "padding_bottom": 0
-      }
-    },
     "proven_benefits": {
       "type": "proven-benefits",
       "blocks": {
@@ -1052,7 +999,6 @@
     "ticker_bar_vr",
     "wellness_journey",
     "reasons_why_G8JL9x",
-    "benefits_showcase",
     "proven_benefits",
     "reasons_why_vr",
     "brand_comparison",
