@@ -52,48 +52,6 @@
   data-desktop-layout="{{ section.settings.gallery_layout }}"
 >
   <div id="GalleryStatus-{{ section.id }}" class="visually-hidden" role="status"></div>
-  {%- liquid
-    assign cb_block = nil
-    for block in section.blocks
-      if block.type == 'carousel_benefits'
-        assign cb_block = block
-        break
-      endif
-    endfor
-  -%}
-  {%- if cb_block -%}
-    <div
-      class="carousel-benefits-wrap carousel-benefits-wrap--{{ cb_block.settings.position | default: 'left' }}"
-      {{ cb_block.shopify_attributes }}
-    >
-      <div class="carousel-benefits">
-        {%- assign cb_ids = 'benefit_text_1,benefit_text_2,benefit_text_3' | split: ',' -%}
-        {%- assign cb_imgs = 'benefit_image_1,benefit_image_2,benefit_image_3' | split: ',' -%}
-        {%- for id in cb_ids -%}
-          {%- assign txt = cb_block.settings[id] -%}
-          {%- assign img = cb_block.settings[cb_imgs[forloop.index0]] -%}
-          {%- if txt != blank -%}
-            <div
-              class="carousel-benefit"
-              style="background:{{ cb_block.settings.bg_color | default: '#2d5a27' }};color:{{ cb_block.settings.text_icon_color | default: '#ffffff' }};"
-            >
-              {%- if img != blank -%}
-                <span class="carousel-benefit__icon">
-                  <img
-                    src="{{ img | image_url: width: 96 }}"
-                    alt=""
-                    width="48"
-                    height="48"
-                    loading="lazy"
-                  >
-                </span>
-              {%- endif -%}
-              <span class="carousel-benefit__text">{{ txt }}</span>
-            </div>
-          {%- endif -%}
-        {%- endfor -%}
-      </div>
-  {%- endif -%}
   <slider-component id="GalleryViewer-{{ section.id }}" class="slider-mobile-gutter">
     <a class="skip-to-content-link button visually-hidden quick-add-hidden" href="#ProductInfo-{{ section.id }}">
       {{ 'accessibility.skip_to_product_info' | t }}
@@ -196,9 +154,6 @@
       </button>
     </div>
   </slider-component>
-  {%- if cb_block -%}
-    </div>
-  {%- endif -%}
   {%- if first_3d_model -%}
     <button
       class="button button--full-width product__xr-button"
