@@ -538,6 +538,7 @@
         "wj_4"
       ],
       "settings": {
+        "brand_image": "shopify://shop_images/d8.png",
         "heading": "<strong>Votre parcours</strong> avec Verra Rituel®",
         "description": "Avec une utilisation régulière, de nombreux utilisateurs constatent une amélioration nette de l'état de leurs pieds dès les premières semaines.",
         "highlight_color": "#1a3018",
