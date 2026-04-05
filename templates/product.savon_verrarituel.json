@@ -629,6 +629,7 @@
         "pb_1": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/d1.png",
             "title": "Arbre à thé",
             "description": "Antifongique à la source",
             "answer": "L'huile d'arbre à thé contient du terpinène-4-ol, un composé qui détruit les membranes des cellules fongiques et élimine les infections à la racine."
@@ -637,6 +638,7 @@
         "pb_2": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/d2.png",
             "title": "Eucalyptus",
             "description": "Nettoyage antiseptique en profondeur",
             "answer": "L'huile d'eucalyptus pénètre profondément dans les pores pour éliminer bactéries et spores fongiques, créant un environnement où les infections ne peuvent tout simplement pas survivre."
@@ -645,6 +647,7 @@
         "pb_3": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/d3.png",
             "title": "Aloe Vera",
             "description": "Apaisement et hydratation",
             "answer": "L'aloe vera calme les peaux irritées et fragilisées — tiraillements, sensations de brûlure. Il aide à restaurer l'hydratation naturelle et favorise le confort cutané au quotidien."
@@ -653,6 +656,7 @@
         "pb_4": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/d4.png",
             "title": "Huile de coco",
             "description": "Hydratation et protection",
             "answer": "L'huile de coco nourrit et protège la barrière cutanée pendant que les actifs antifongiques agissent. Elle empêche le dessèchement et adoucit la peau fragilisée."
