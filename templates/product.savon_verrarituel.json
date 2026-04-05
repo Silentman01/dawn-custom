@@ -214,32 +214,6 @@
             "icon_color": "#d61717",
             "icon_scale": 1.2
           }
-        },
-        "trust_card_v2_vr": {
-          "type": "trust_card_v2",
-          "settings": {
-            "heading": "<strong>Pourquoi Verra Rituel est le N°1</strong> pour le soin antifongique ?",
-            "feature_text_1": "Recommandé par les dermatologues",
-            "feature_text_2": "Testé par des laboratoires indépendants",
-            "feature_text_3": "Formule 100% naturelle",
-            "feature_text_4": "Fabriqué en France",
-            "item_1": "Sans parabènes",
-            "item_2": "Sans sulfates",
-            "item_3": "Hypoallergénique",
-            "item_4": "Sans OGM",
-            "item_5": "Non testé sur les animaux",
-            "item_6": "Végan",
-            "text_color": "#000000",
-            "title_color": "#000000",
-            "highlight_color": "#1a3018",
-            "bg_color": "#e8f5e0",
-            "bg_image": "shopify://shop_images/trust_card_v2.png",
-            "image_opacity": 10,
-            "border_radius": 10,
-            "heading_size": 28,
-            "feature_text_size": 11,
-            "item_text_size": 16
-          }
         }
       },
       "block_order": [
@@ -260,8 +234,7 @@
         "collapsible_tab_benefits",
         "collapsible_tab_use",
         "collapsible_tab_guarantee",
-        "urgency_notice",
-        "trust_card_v2_vr"
+        "urgency_notice"
       ],
       "custom_css": [
         ".urgency-notice {margin-bottom: 15px;}"
