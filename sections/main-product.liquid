@@ -77,6 +77,69 @@
       line-height: 1.4;
     }
 
+    /* Carousel benefits overlay */
+    .carousel-benefits {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+      pointer-events: none;
+    }
+    .carousel-benefits--left { left: 0.8rem; }
+    .carousel-benefits--right { right: 0.8rem; }
+    .carousel-benefit {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 0.4rem;
+      padding: 0.8rem 1rem;
+      border-radius: var(--media-radius);
+      pointer-events: auto;
+      min-width: 0;
+      max-width: 11rem;
+    }
+    .carousel-benefit__icon {
+      width: 2.4rem;
+      height: 2.4rem;
+      flex-shrink: 0;
+    }
+    .carousel-benefit__icon img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+    .carousel-benefit__icon svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+    .carousel-benefit__text {
+      font-size: 1.2rem;
+      line-height: 1.3;
+      font-weight: 600;
+    }
+    @media screen and (max-width: 749px) {
+      .carousel-benefits {
+        gap: 0.5rem;
+      }
+      .carousel-benefit {
+        padding: 0.5rem 0.6rem;
+        max-width: 8.5rem;
+      }
+      .carousel-benefit__icon {
+        width: 2rem;
+        height: 2rem;
+      }
+      .carousel-benefit__text {
+        font-size: 1rem;
+      }
+    }
+
     /* Fake variant picker */
     .fake-variant-picker__label {
       margin: 0 0 0.8rem;
@@ -944,8 +1007,44 @@
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
   <div class="page-width">
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
-      <div class="grid__item product__media-wrapper">
+      <div class="grid__item product__media-wrapper" style="position:relative;">
         {% render 'product-media-gallery', variant_images: variant_images %}
+        {%- for block in section.blocks -%}
+          {%- if block.type == 'carousel_benefits' -%}
+            {%- assign cb_pos = block.settings.position | default: 'left' -%}
+            <div
+              class="carousel-benefits carousel-benefits--{{ cb_pos }}"
+              {{ block.shopify_attributes }}
+            >
+              {%- assign cb_ids = 'benefit_text_1,benefit_text_2,benefit_text_3' | split: ',' -%}
+              {%- assign cb_imgs = 'benefit_image_1,benefit_image_2,benefit_image_3' | split: ',' -%}
+              {%- for id in cb_ids -%}
+                {%- assign txt = block.settings[id] -%}
+                {%- assign img = block.settings[cb_imgs[forloop.index0]] -%}
+                {%- if txt != blank -%}
+                  <div
+                    class="carousel-benefit"
+                    style="background:{{ block.settings.bg_color | default: '#2d5a27' }};color:{{ block.settings.text_icon_color | default: '#ffffff' }};"
+                  >
+                    {%- if img != blank -%}
+                      <span class="carousel-benefit__icon">
+                        <img
+                          src="{{ img | image_url: width: 96 }}"
+                          alt=""
+                          width="48"
+                          height="48"
+                          loading="lazy"
+                        >
+                      </span>
+                    {%- endif -%}
+                    <span class="carousel-benefit__text">{{ txt }}</span>
+                  </div>
+                {%- endif -%}
+              {%- endfor -%}
+            </div>
+            {%- break -%}
+          {%- endif -%}
+        {%- endfor -%}
       </div>
       <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <section
@@ -3012,6 +3111,80 @@
           "type": "color",
           "id": "title_color",
           "label": "Text color"
+        }
+      ]
+    },
+    {
+      "type": "carousel_benefits",
+      "name": "Carousel benefits",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "select",
+          "id": "position",
+          "label": "Position",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "right", "label": "Right" }
+          ],
+          "default": "left"
+        },
+        {
+          "type": "color",
+          "id": "bg_color",
+          "label": "Background color",
+          "default": "#2d5a27"
+        },
+        {
+          "type": "color",
+          "id": "text_icon_color",
+          "label": "Text & icon color",
+          "default": "#ffffff"
+        },
+        {
+          "type": "header",
+          "content": "Benefit 1"
+        },
+        {
+          "type": "text",
+          "id": "benefit_text_1",
+          "label": "Text",
+          "default": "Benefit 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "benefit_image_1",
+          "label": "Icon image"
+        },
+        {
+          "type": "header",
+          "content": "Benefit 2"
+        },
+        {
+          "type": "text",
+          "id": "benefit_text_2",
+          "label": "Text",
+          "default": "Benefit 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "benefit_image_2",
+          "label": "Icon image"
+        },
+        {
+          "type": "header",
+          "content": "Benefit 3"
+        },
+        {
+          "type": "text",
+          "id": "benefit_text_3",
+          "label": "Text",
+          "default": "Benefit 3"
+        },
+        {
+          "type": "image_picker",
+          "id": "benefit_image_3",
+          "label": "Icon image"
         }
       ]
     },
