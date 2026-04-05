@@ -822,6 +822,7 @@
         "highlight_color": "#dff47e",
         "brand_name": "<strong>Verra Rituel</strong>",
         "brand_name_color": "#ffffff",
+        "brand_image": "shopify://shop_images/p.png",
         "brand_col_color": "#009370",
         "brand_icon_color": "#ffffff",
         "competitor_label": "<strong>Autres produits</strong>",
