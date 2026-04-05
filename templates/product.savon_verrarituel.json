@@ -129,7 +129,7 @@
             "mobile_show_price": false,
             "mobile_show_sale_badge": false,
             "mobile_variant_picker": false,
-            "mobile_full_button_width": false,
+            "mobile_full_button_width": true,
             "mobile_show_price_in_button": false,
             "mobile_transparent_bg": false
           }
