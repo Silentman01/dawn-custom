@@ -558,6 +558,7 @@
         "reason_card_rMYEKy": {
           "type": "reason_card",
           "settings": {
+            "image": "shopify://shop_images/d5.png",
             "label": "Étape 1",
             "heading": "Mouillez et faites mousser",
             "details": "<p>Humidifiez vos pieds, puis faites mousser le savon entre vos mains ou directement sur la peau.</p>"
@@ -566,6 +567,7 @@
         "reason_card_iCbCKe": {
           "type": "reason_card",
           "settings": {
+            "image": "shopify://shop_images/d6.png",
             "label": "Étape 2",
             "heading": "Nettoyez en douceur",
             "details": "<p>Massez délicatement, en insistant entre les orteils et sur les zones concernées, puis laissez agir quelques instants.</p>"
@@ -574,6 +576,7 @@
         "reason_card_3J3gPM": {
           "type": "reason_card",
           "settings": {
+            "image": "shopify://shop_images/d7.png",
             "label": "Étape 3",
             "heading": "Rincez et séchez soigneusement",
             "details": "<p>Rincez abondamment à l’eau claire, puis séchez bien vos pieds, notamment entre les orteils.</p>"
