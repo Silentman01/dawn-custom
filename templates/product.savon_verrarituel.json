@@ -773,36 +773,36 @@
         "bc_1": {
           "type": "feature",
           "settings": {
-            "brand_text": "Pieds propres et sans odeur dès les premiers jours",
-            "competitor_text": "Masque les odeurs temporairement"
+            "brand_text": "Sans odeur en quelques jours",
+            "competitor_text": "Masque l'odeur, ne l'élimine pas"
           }
         },
         "bc_2": {
           "type": "feature",
           "settings": {
-            "brand_text": "Retrouvez des pieds que vous osez montrer",
-            "competitor_text": "Résultats décevants et temporaires"
+            "brand_text": "Peau saine et nette",
+            "competitor_text": "Peau sèche et irritée"
           }
         },
         "bc_3": {
           "type": "feature",
           "settings": {
-            "brand_text": "Fini les démangeaisons et l'inconfort au quotidien",
-            "competitor_text": "Soulagement passager qui revient"
+            "brand_text": "Fini les démangeaisons",
+            "competitor_text": "Soulagement temporaire"
           }
         },
         "bc_4": {
           "type": "feature",
           "settings": {
-            "brand_text": "Une routine simple : un seul produit suffit",
-            "competitor_text": "Crèmes, sprays, poudres... sans fin"
+            "brand_text": "1 savon, 0 prise de tête",
+            "competitor_text": "Crèmes + sprays + poudres"
           }
         },
         "bc_5": {
           "type": "feature",
           "settings": {
-            "brand_text": "Résultats durables, pas besoin de recommencer",
-            "competitor_text": "Le problème revient toujours"
+            "brand_text": "Résultats qui durent",
+            "competitor_text": "Le problème revient"
           }
         }
       },
@@ -830,10 +830,10 @@
         "comp_text_color": "#000000",
         "comp_icon_color": "#999999",
         "icons_filled": true,
-        "checklist_1": "<strong>Vos pieds redeviennent sains</strong> — Fini la gêne, retrouvez confiance au quotidien",
-        "checklist_2": "<strong>Résultats visibles en quelques jours</strong> — Moins d'odeur, moins de démangeaisons, plus de confort",
-        "checklist_3": "<strong>Un seul geste sous la douche</strong> — Pas de crème, pas de spray, juste votre savon",
-        "checklist_4": "<strong>Doux et agréable sur la peau</strong> — Des ingrédients naturels qui respectent votre corps",
+        "checklist_1": "<strong>Retrouvez des pieds sains</strong> — Plus de gêne, plus de confiance",
+        "checklist_2": "<strong>Résultats dès les premiers jours</strong> — Moins d'odeur, moins de démangeaisons",
+        "checklist_3": "<strong>Un seul geste sous la douche</strong> — Simple et efficace",
+        "checklist_4": "<strong>100% naturel</strong> — Doux pour la peau, redoutable contre les mycoses",
         "cta_text": "Essayer sans risque",
         "cta_link": "",
         "cta_height": 54,
