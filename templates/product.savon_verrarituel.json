@@ -12,6 +12,17 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "carousel_benefits_MD7pDK": {
+          "type": "carousel_benefits",
+          "settings": {
+            "position": "left",
+            "bg_color": "#2d5a27",
+            "text_icon_color": "#ffffff",
+            "benefit_text_1": "Anti-mycoses",
+            "benefit_text_2": "Fini les odeurs",
+            "benefit_text_3": "Marque Française"
+          }
+        },
         "star_rating": {
           "type": "star_rating",
           "settings": {
@@ -243,6 +254,7 @@
         }
       },
       "block_order": [
+        "carousel_benefits_MD7pDK",
         "star_rating",
         "title",
         "text_Urya33",
