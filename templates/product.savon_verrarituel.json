@@ -233,6 +233,7 @@
             "title_color": "#000000",
             "highlight_color": "#1a3018",
             "bg_color": "#e8f5e0",
+            "bg_image": "shopify://shop_images/trust_card_v2.png",
             "image_opacity": 10,
             "border_radius": 10,
             "heading_size": 28,
