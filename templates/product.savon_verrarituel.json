@@ -176,7 +176,7 @@
           "settings": {
             "heading": "Quels ingrédients ? Est-ce naturel / doux pour la peau ?",
             "icon": "none",
-            "content": "<p>La formule met en avant des ingrédients connus pour leurs propriétés purifiantes et apaisantes :<strong>huile de tea tree</strong>,<strong>huile de coco</strong>,<strong>aloe vera</strong>, base<strong>huile d’olive</strong>, ainsi que<strong>eucalyptus</strong>et<strong>hamamélis</strong>.<br/><br/>L’idée :<strong>assainir</strong>tout en aidant à<strong>calmer la peau irritée</strong>(tiraillements, sensations de brûlure).</p>",
+            "content": "<p>La formule met en avant des ingrédients connus pour leurs propriétés purifiantes et apaisantes :</p><ul><li><strong>huile de tea tree</strong></li><li><strong>huile de coco</strong></li><li><strong>aloe vera</strong></li><li>base <strong>huile d’olive </strong>ainsi que <strong>eucalyptus </strong>et <strong>hamamélis</strong>.<br/></li></ul><p>L’idée : <strong>assainir </strong>tout en aidant à <strong>calmer la peau irritée </strong>(tiraillements, sensations de brûlure).</p>",
             "page": ""
           }
         },
@@ -460,21 +460,21 @@
           "type": "ticker_item",
           "settings": {
             "text": "FABRICATION ARTISANALE",
-            "icon_name": ""
+            "icon_name": "verified"
           }
         },
         "ticker_item_Ft8VNk": {
           "type": "ticker_item",
           "settings": {
             "text": "SENTEUR FRAÎCHE NATURELLE",
-            "icon_name": ""
+            "icon_name": "verified"
           }
         },
         "ticker_item_NVjamN": {
           "type": "ticker_item",
           "settings": {
             "text": "LIVRAISON RAPIDE",
-            "icon_name": ""
+            "icon_name": "verified"
           }
         }
       },
