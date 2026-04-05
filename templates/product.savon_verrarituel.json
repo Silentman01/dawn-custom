@@ -323,7 +323,7 @@
         "card_1": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/d1.png",
+            "image": "shopify://shop_images/d1b.png",
             "title": "<strong>Huile de Tea Tree</strong>",
             "text": "L'actif phare de la formule. L'huile d'arbre à thé est reconnue pour ses <strong>propriétés naturellement purifiantes</strong>. Elle aide à <strong>assainir la peau en profondeur</strong> et à limiter la propagation des déséquilibres cutanés — sans produits chimiques agressifs.",
             "card_bg_color": ""
@@ -629,7 +629,7 @@
         "pb_1": {
           "type": "benefit",
           "settings": {
-            "image": "shopify://shop_images/d1.png",
+            "image": "shopify://shop_images/d1b.png",
             "title": "Arbre à thé",
             "description": "Antifongique à la source",
             "answer": "L'huile d'arbre à thé contient du terpinène-4-ol, un composé qui détruit les membranes des cellules fongiques et élimine les infections à la racine."
