@@ -425,9 +425,9 @@
           "type": "review",
           "settings": {
             "rating": "5.0",
-            "quote": "\"Mes pieds n'ont jamais été aussi sains !\"",
-            "details": "J'ai testé énormément de produits contre les problèmes de pieds, sans succès durable. Ce savon est le premier qui a vraiment fait une différence : moins d'odeur, une peau plus saine et surtout une vraie sensation de propreté après chaque utilisation. Simple, efficace, et agréable à utiliser. Je recommande sans hésiter.",
-            "author_name": "ÉLISE M.",
+            "quote": "fonctionne vraiment",
+            "details": "J'ai testé énormément de produits contre les problèmes de pieds, sans succès durable.\nCe savon est le premier qui a vraiment fait une différence : moins d'odeur, une peau plus saine et surtout une vraie sensation de propreté après chaque utilisation.\nSimple, efficace, et agréable à utiliser. Je recommande sans hésiter.",
+            "author_name": "Élise Morel",
             "tag_1": "Pied d'athlète",
             "tag_2": "Peau saine",
             "card_bg_color": ""
@@ -436,10 +436,10 @@
         "review_2": {
           "type": "review",
           "settings": {
-            "rating": "4.9",
-            "quote": "\"Mes pieds sont méconnaissables !\"",
-            "details": "Après quelques semaines d'utilisation, mes pieds sont méconnaissables. Fini la peau sèche, les fissures et l'inconfort. Le savon sent bon sans être agressif et laisse la peau douce. C'est devenu un indispensable dans ma routine.",
-            "author_name": "ANTOINE P.",
+            "rating": "5.0",
+            "quote": "Mes pieds ont complètement changé",
+            "details": "Après quelques semaines d'utilisation, mes pieds sont méconnaissables.\nFini la peau sèche, les fissures et l'inconfort.\nLe savon sent bon sans être agressif et laisse la peau douce.\nC'est devenu un indispensable dans ma routine.",
+            "author_name": "Antoine Pelletier",
             "tag_1": "Fissures",
             "tag_2": "Routine quotidienne",
             "card_bg_color": ""
@@ -448,10 +448,10 @@
         "review_3": {
           "type": "review",
           "settings": {
-            "rating": "4.8",
-            "quote": "\"J'ai enfin retrouvé confiance !\"",
-            "details": "J'avais honte de mes pieds et j'évitais même de les montrer. Ce savon a clairement amélioré la situation : peau plus saine, moins de gêne, et surtout plus de confiance. Je ne pensais pas qu'un produit aussi simple pouvait être aussi efficace.",
-            "author_name": "THOMAS L.",
+            "rating": "5.0",
+            "quote": "terriblement efficace",
+            "details": "J'avais honte de mes pieds et j'évitais même de les montrer.\nCe savon a clairement amélioré la situation : peau plus saine, moins de gêne, et surtout plus de confiance.\nJe ne pensais pas qu'un produit aussi simple pouvait être aussi efficace.",
+            "author_name": "Thomas Lefèvre",
             "tag_1": "Confiance",
             "tag_2": "Résultats rapides",
             "card_bg_color": ""
@@ -461,23 +461,11 @@
           "type": "review",
           "settings": {
             "rating": "5.0",
-            "quote": "\"Les résultats parlent d'eux-mêmes.\"",
-            "details": "J'étais sceptique au départ, mais les résultats parlent d'eux-mêmes. Dès les premières utilisations, on sent une vraie différence. Mes pieds restent frais plus longtemps et la peau est beaucoup plus nette. Je ne reviendrai jamais aux produits classiques.",
-            "author_name": "CAMILLE R.",
+            "quote": "Le seul savon que je rachèterai",
+            "details": "J'étais sceptique au départ, mais les résultats parlent d'eux-mêmes.\nDès les premières utilisations, on sent une vraie différence.\nMes pieds restent frais plus longtemps et la peau est beaucoup plus nette.\nJe ne reviendrai jamais aux produits classiques.",
+            "author_name": "Camille Renaud",
             "tag_1": "Odeurs",
             "tag_2": "Peau nette",
-            "card_bg_color": ""
-          }
-        },
-        "review_5": {
-          "type": "review",
-          "settings": {
-            "rating": "4.9",
-            "quote": "\"Un indispensable, tout simplement.\"",
-            "details": "Après des années de crèmes et de sprays qui ne marchaient qu'un temps, je suis passé à Verra Rituel sur les conseils d'un ami. En 3 semaines, les démangeaisons ont disparu, la peau entre mes orteils est redevenue normale. Ma femme a remarqué la différence avant moi. Je ne m'en passe plus.",
-            "author_name": "DAVID B.",
-            "tag_1": "Démangeaisons",
-            "tag_2": "Usage quotidien",
             "card_bg_color": ""
           }
         }
@@ -496,8 +484,7 @@
         "review_1",
         "review_2",
         "review_3",
-        "review_4",
-        "review_5"
+        "review_4"
       ],
       "custom_css": [
         ".ts-review__quote {font-weight: bold;}"
