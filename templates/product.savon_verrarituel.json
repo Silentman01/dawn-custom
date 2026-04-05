@@ -262,7 +262,7 @@
           "type": "stat",
           "settings": {
             "percentage": 97,
-            "heading": "<strong>Diminution de l'inconfort</strong>",
+            "heading": "Diminution de l'inconfort",
             "caption": "Ont ressenti une diminution des démangeaisons et de l'inconfort au cours des premières semaines d'utilisation."
           }
         },
