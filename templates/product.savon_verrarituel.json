@@ -546,8 +546,8 @@
         "bg_color": "",
         "cta_text": "",
         "cta_link": "",
-        "cta_note": "Garantie 30 jours satisfait ou remboursé",
-        "cta_note_icon_name": "verified_user",
+        "cta_note": "",
+        "cta_note_icon_name": "",
         "cta_height": 40,
         "padding_top": 40,
         "padding_bottom": 40
