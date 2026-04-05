@@ -57,6 +57,9 @@
         "text_M4ihBj",
         "text_hJhfpL"
       ],
+      "custom_css": [
+        ".inline-richtext,.footer-block__details-content {font-size: 1.2rem;}"
+      ],
       "settings": {
         "color_scheme": "scheme-5",
         "newsletter_enable": true,
