@@ -551,6 +551,11 @@
   "shopify": {
     "links": {
       "powered_by_shopify": "| All Rights Reserved"
+    },
+    "checkout": {
+      "general": {
+        "pay_now_button_label": "VALIDER LA COMMANDE"
+      }
     }
   },
   "pagefly": {
