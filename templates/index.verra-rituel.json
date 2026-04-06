@@ -14,7 +14,7 @@
       "settings": {
         "bg_color": "#e8f5e0",
         "text_color": "#000000",
-        "badge_text": "",
+        "badge_text": "Antifongique Naturel",
         "badge_bg_color": "#1A3018",
         "badge_text_color": "#DFF47E",
         "badge_font_size": 16,
@@ -23,11 +23,11 @@
         "star_color": "#ffcc00",
         "star_empty_color": "#ececec",
         "stars_text": "<strong>Excellent 4.8/5</strong> — 1 422+ avis vérifiés",
-        "heading": "ÉLIMINEZ LES MYCOSES & RETROUVEZ UNE PEAU SAINE",
+        "heading": "Savon Purifiant Antifongique",
         "heading_size": 40,
-        "subheadline": "Tea tree, huile de coco, aloe vera, eucalyptus, hamamélis — des actifs naturels dans un seul savon.",
+        "subheadline": "Tea tree, aloe vera, eucalyptus — 6 actifs naturels qui assainissent en profondeur et redonnent des pieds sains.",
         "cta_function": "link",
-        "cta_text": "Découvrir Verra Rituel®",
+        "cta_text": "Essayer maintenant",
         "cta_url": "",
         "cta_bg_color": "#DFF47E",
         "cta_text_color": "#1A3018",
@@ -46,9 +46,9 @@
         "item_gap": 30,
         "item_padding_vertical": 7,
         "item_padding_horizontal": 0,
-        "text_1": "RECOMMANDÉ PAR LES DERMATOLOGUES",
-        "text_2": "TESTÉ EN LABORATOIRE INDÉPENDANT",
-        "text_3": "100% INGRÉDIENTS NATURELS",
+        "text_1": "LIVRAISON RAPIDE & SUIVIE",
+        "text_2": "QUALITÉ ARTISANALE FRANÇAISE",
+        "text_3": "SATISFACTION GARANTIE 30 JOURS",
         "padding_top": 16,
         "padding_bottom": 16
       }
@@ -100,9 +100,9 @@
           "type": "review",
           "settings": {
             "rating": "5.0",
-            "quote": "\"Mes pieds n'ont jamais été aussi sains !\"",
+            "quote": "\"fonctionne vraiment\"",
             "details": "J'ai testé énormément de produits contre les problèmes de pieds, sans succès durable. Ce savon est le premier qui a vraiment fait une différence : moins d'odeur, une peau plus saine et surtout une vraie sensation de propreté après chaque utilisation. Simple, efficace, et agréable à utiliser. Je recommande sans hésiter.",
-            "author_name": "ÉLISE M.",
+            "author_name": "Élise Morel",
             "tag_1": "Pied d'athlète",
             "tag_2": "Peau saine",
             "card_bg_color": ""
@@ -111,10 +111,10 @@
         "review_2": {
           "type": "review",
           "settings": {
-            "rating": "4.9",
-            "quote": "\"Mes pieds sont méconnaissables !\"",
+            "rating": "5.0",
+            "quote": "\"Mes pieds ont complètement changé\"",
             "details": "Après quelques semaines d'utilisation, mes pieds sont méconnaissables. Fini la peau sèche, les fissures et l'inconfort. Le savon sent bon sans être agressif et laisse la peau douce. C'est devenu un indispensable dans ma routine.",
-            "author_name": "ANTOINE P.",
+            "author_name": "Antoine Pelletier",
             "tag_1": "Fissures",
             "tag_2": "Routine quotidienne",
             "card_bg_color": ""
@@ -123,10 +123,10 @@
         "review_3": {
           "type": "review",
           "settings": {
-            "rating": "4.8",
-            "quote": "\"J'ai enfin retrouvé confiance !\"",
+            "rating": "5.0",
+            "quote": "\"Discret mais ultra efficace\"",
             "details": "J'avais honte de mes pieds et j'évitais même de les montrer. Ce savon a clairement amélioré la situation : peau plus saine, moins de gêne, et surtout plus de confiance. Je ne pensais pas qu'un produit aussi simple pouvait être aussi efficace.",
-            "author_name": "THOMAS L.",
+            "author_name": "Thomas Lefèvre",
             "tag_1": "Confiance",
             "tag_2": "Résultats rapides",
             "card_bg_color": ""
@@ -136,23 +136,11 @@
           "type": "review",
           "settings": {
             "rating": "5.0",
-            "quote": "\"Les résultats parlent d'eux-mêmes.\"",
+            "quote": "\"Le seul savon que je rachèterai\"",
             "details": "J'étais sceptique au départ, mais les résultats parlent d'eux-mêmes. Dès les premières utilisations, on sent une vraie différence. Mes pieds restent frais plus longtemps et la peau est beaucoup plus nette. Je ne reviendrai jamais aux produits classiques.",
-            "author_name": "CAMILLE R.",
+            "author_name": "Camille Renaud",
             "tag_1": "Odeurs",
             "tag_2": "Peau nette",
-            "card_bg_color": ""
-          }
-        },
-        "review_5": {
-          "type": "review",
-          "settings": {
-            "rating": "4.9",
-            "quote": "\"Un indispensable, tout simplement.\"",
-            "details": "Après des années de crèmes et de sprays qui ne marchaient qu'un temps, je suis passé à Verra Rituel sur les conseils d'un ami. En 3 semaines, les démangeaisons ont disparu, la peau entre mes orteils est redevenue normale. Ma femme a remarqué la différence avant moi. Je ne m'en passe plus.",
-            "author_name": "DAVID B.",
-            "tag_1": "Démangeaisons",
-            "tag_2": "Usage quotidien",
             "card_bg_color": ""
           }
         }
@@ -171,14 +159,13 @@
         "review_1",
         "review_2",
         "review_3",
-        "review_4",
-        "review_5"
+        "review_4"
       ],
       "custom_css": [
         ".ts-review__quote {font-weight: bold;}"
       ],
       "settings": {
-        "heading": "De vrais clients, de <strong>vrais résultats</strong>",
+        "heading": "« Le meilleur savon antifongique que j'ai utilisé »",
         "subheading": "Découvrez ce que nos clients disent de Verra Rituel",
         "highlight_color": "#1A3018",
         "star_color": "#1A3018",
@@ -212,7 +199,7 @@
           "type": "statement",
           "settings": {
             "subtitle": "97% des utilisateurs constatent :",
-            "title": "Une réduction visible des mycoses et une peau plus saine en 2 semaines",
+            "title": "Une réduction visible des mycoses et une peau plus saine en quelques semaines",
             "title_size": 26
           }
         },
@@ -221,12 +208,12 @@
           "settings": {
             "text_color": "#121212",
             "icon_color": "#1A3018",
-            "benefit_1": "Anti-mycoses",
-            "benefit_2": "Fini les odeurs",
-            "benefit_3": "Pied d'athlète",
-            "benefit_4": "Démangeaisons",
-            "benefit_5": "Peau saine",
-            "benefit_6": "Marque Française"
+            "benefit_1": "Élimine le champignon qui revient sans cesse",
+            "benefit_2": "Stoppe les démangeaisons et les brûlures",
+            "benefit_3": "Élimine durablement les mauvaises odeurs",
+            "benefit_4": "Marchez pieds nus en toute confiance",
+            "benefit_5": "",
+            "benefit_6": ""
           }
         },
         "price_fp": {
@@ -259,7 +246,7 @@
             "show_gift_card_recipient": false,
             "button_font_size": 1.8,
             "button_font_weight": "700",
-            "button_text_transform": "uppercase"
+            "button_text_transform": "none"
           }
         },
         "trust_microcopy_fp": {
@@ -354,40 +341,40 @@
           "type": "reason_card",
           "settings": {
             "label": "Raison 1",
-            "heading": "Cible la cause, pas les symptômes",
-            "details": "<p>La plupart des crèmes antifongiques ne traitent que la surface. La formule à l'arbre à thé de Verra Rituel pénètre en profondeur pour éliminer les spores fongiques sous la peau — là où les infections se développent et se propagent.</p>"
+            "heading": "6 actifs naturels, une formule complète",
+            "details": "<p>Huile de tea tree, huile de coco, aloe vera, huile d'olive, eucalyptus et hamamélis — des ingrédients qui assainissent en profondeur tout en apaisant la peau irritée.</p>"
           }
         },
         "reason_2": {
           "type": "reason_card",
           "settings": {
             "label": "Raison 2",
-            "heading": "Combat les mycoses ET les odeurs",
-            "details": "<p>Pourquoi utiliser deux produits quand un seul suffit ? La formule naturelle de Verra Rituel assainit la peau en profondeur tout en neutralisant les odeurs à la source. Une peau propre et une senteur fraîche en un seul savon.</p>"
+            "heading": "Résultats dès les premières semaines",
+            "details": "<p>97% des utilisateurs constatent une diminution de l'inconfort au cours des premières semaines. Un soulagement rapide et durable.</p>"
           }
         },
         "reason_3": {
           "type": "reason_card",
           "settings": {
             "label": "Raison 3",
-            "heading": "La routine la plus simple qui existe",
-            "details": "<p>Pas de crème à appliquer. Pas de spray à chronométrer. Pas de comprimés à retenir. Faites simplement mousser sous la douche et rincez. Il s'intègre à votre routine existante — zéro effort supplémentaire.</p>"
+            "heading": "Simple et pratique",
+            "details": "<p>Un seul savon, sous la douche, une fois par jour. Pas de crèmes, pas de sprays, pas de routine compliquée.</p>"
           }
         },
         "reason_4": {
           "type": "reason_card",
           "settings": {
             "label": "Raison 4",
-            "heading": "100% naturel et doux pour la peau",
-            "details": "<p>Sans parabènes, sans sulfates, sans produits chimiques agressifs. Tea tree, huile de coco, aloe vera, huile d'olive, eucalyptus et hamamélis — des ingrédients naturels qui assainissent tout en apaisant la peau irritée.</p>"
+            "heading": "Sans risque — Garantie 30 jours",
+            "details": "<p>Pas d'amélioration ? On vous rembourse intégralement. Sans formulaire, sans complication.</p>"
           }
         },
         "reason_5": {
           "type": "reason_card",
           "settings": {
             "label": "Raison 5",
-            "heading": "Des résultats visibles en quelques semaines",
-            "details": "<p>La plupart des utilisateurs constatent une amélioration visible en 7 à 14 jours. Après 30 jours, les mycoses disparaissent et la peau retrouve un aspect sain. Ce n'est pas un espoir — c'est confirmé par des milliers d'avis.</p>"
+            "heading": "20 000+ clients satisfaits",
+            "details": "<p>Des milliers de personnes ont retrouvé des pieds sains et la confiance de marcher pieds nus à nouveau.</p>"
           }
         }
       },
@@ -436,36 +423,36 @@
         "bc_1": {
           "type": "feature",
           "settings": {
-            "brand_text": "Recommandé par les dermatologues",
-            "competitor_text": "Formules génériques"
+            "brand_text": "Sans odeur en quelques jours",
+            "competitor_text": "Masque l'odeur, ne l'élimine pas"
           }
         },
         "bc_2": {
           "type": "feature",
           "settings": {
-            "brand_text": "Testé en laboratoire indépendant",
-            "competitor_text": "Aucun test indépendant"
+            "brand_text": "Peau saine et nette",
+            "competitor_text": "Peau sèche et irritée"
           }
         },
         "bc_3": {
           "type": "feature",
           "settings": {
-            "brand_text": "100% ingrédients naturels",
-            "competitor_text": "Produits chimiques et irritants"
+            "brand_text": "Fini les démangeaisons",
+            "competitor_text": "Soulagement temporaire"
           }
         },
         "bc_4": {
           "type": "feature",
           "settings": {
-            "brand_text": "Élimine les mycoses + les odeurs",
-            "competitor_text": "Traite la surface uniquement"
+            "brand_text": "1 savon, 0 prise de tête",
+            "competitor_text": "Crèmes + sprays + poudres"
           }
         },
         "bc_5": {
           "type": "feature",
           "settings": {
-            "brand_text": "Non testé sur les animaux & Végan",
-            "competitor_text": "Tests sur les animaux"
+            "brand_text": "Résultats qui durent",
+            "competitor_text": "Le problème revient"
           }
         }
       },
@@ -477,30 +464,31 @@
         "bc_5"
       ],
       "settings": {
-        "heading": "<strong>Verra Rituel®</strong> vs. les autres marques",
+        "heading": "<strong>Verra Rituel®</strong> vs. les autres produits",
         "heading_size": 36,
         "bg_gradient_start": "#1A3018",
-        "bg_gradient_end": "#2a5023",
+        "bg_gradient_end": "#839e07",
         "text_color": "#ffffff",
         "highlight_color": "#DFF47E",
         "brand_name": "<strong>Verra Rituel</strong>",
         "brand_name_color": "#ffffff",
-        "brand_col_color": "#1A3018",
-        "brand_icon_color": "#DFF47E",
-        "competitor_label": "<strong>Autres marques</strong>",
+        "brand_image": "shopify://shop_images/p.png",
+        "brand_col_color": "#3a7830",
+        "brand_icon_color": "#ffffff",
+        "competitor_label": "<strong>Autres produits</strong>",
         "comp_col_color": "#ffffff",
         "comp_text_color": "#000000",
         "comp_icon_color": "#999999",
         "icons_filled": true,
-        "checklist_1": "<strong>Ingrédients cliniquement prouvés</strong> — Huile d'arbre à thé à l'efficacité antifongique vérifiée",
-        "checklist_2": "<strong>Résultats visibles en 2 semaines</strong> — Les mycoses régressent, les démangeaisons s'arrêtent",
-        "checklist_3": "<strong>Prévention à long terme</strong> — Restaure la barrière cutanée pour stopper les récidives",
-        "checklist_4": "<strong>Formule propre & naturelle</strong> — sans parabènes, sulfates, ni produits chimiques agressifs",
+        "checklist_1": "<strong>Retrouvez des pieds sains</strong> — Plus de gêne, plus de confiance",
+        "checklist_2": "<strong>Résultats dès les premiers jours</strong> — Moins d'odeur, moins de démangeaisons",
+        "checklist_3": "<strong>Un seul geste sous la douche</strong> — Simple et efficace",
+        "checklist_4": "<strong>100% naturel</strong> — Doux pour la peau, redoutable contre les mycoses",
         "cta_text": "Essayer sans risque",
         "cta_link": "",
-        "cta_height": 46,
+        "cta_height": 54,
         "cta_bg_color": "#DFF47E",
-        "cta_text_color": "#1A3018",
+        "cta_text_color": "#004c3c",
         "cta_font_weight": "700",
         "note_text": "Garantie 30 jours satisfait ou remboursé",
         "padding_top": 36,
@@ -510,16 +498,18 @@
     "risk_free_trial_vr": {
       "type": "risk-free-trial",
       "settings": {
+        "badge_image": "shopify://shop_images/d10.png",
         "badge_number": "30",
         "badge_label": "JOURS",
-        "subtitle": "VOYEZ LA DIFFÉRENCE",
-        "heading": "Essai sans risque — 30 jours",
+        "subtitle": "GARANTIE 30 JOURS",
+        "heading": "Essayez sereinement, sans risque",
         "heading_size": 23,
-        "description": "Si vous ne constatez pas d'amélioration visible de votre peau dans les 30 jours, retournez simplement votre commande pour un remboursement intégral — sans condition.",
-        "bg_color": "#f5fdf4",
-        "accent_color": "#1A3018",
+        "description": "Si vous ne constatez pas d'amélioration ou si le produit ne vous convient pas, vous disposez de 30 jours pour changer d'avis. Aucun formulaire. Aucune complication.",
+        "image": "shopify://shop_images/d9_c4a01fd5-cfcb-40e5-ac28-8caea78d80fd.png",
+        "bg_color": "#e8f5e0",
+        "accent_color": "#095946",
         "text_color": "",
-        "cta_text": "Essayer sans risque",
+        "cta_text": "Essayer maintenant",
         "cta_link": "",
         "cta_height": 50,
         "cta_bg_color": "#DFF47E",
@@ -569,18 +559,36 @@
         "faq_5": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Convient-il aux peaux très sensibles ou abîmées ?",
+            "heading": "Est-ce que cela aide à éviter que le problème revienne ?",
             "icon": "none",
-            "row_content": "<p>Oui. La formule a été conçue pour nettoyer tout en apaisant. Les ingrédients naturels contribuent à <strong>calmer la peau fragilisée</strong>, tout en aidant à assainir les zones concernées.</p>",
+            "row_content": "<p>Oui. Une utilisation régulière et continue permet de maintenir une peau propre et équilibrée. Comme pour toute routine de soin, la <strong>constance est essentielle</strong> pour éviter les récidives liées à l'humidité et aux déséquilibres cutanés.</p>",
             "page": ""
           }
         },
         "faq_6": {
           "type": "collapsible_row",
           "settings": {
+            "heading": "Quels ingrédients ? Est-ce naturel et doux pour la peau ?",
+            "icon": "none",
+            "row_content": "<p>La formule met en avant des ingrédients connus pour leurs propriétés purifiantes et apaisantes : <strong>huile de tea tree</strong>, <strong>huile de coco</strong>, <strong>aloe vera</strong>, base <strong>huile d'olive</strong>, <strong>eucalyptus</strong> et <strong>hamamélis</strong>. L'idée : assainir tout en aidant à calmer la peau irritée (tiraillements, sensations de brûlure).</p>",
+            "page": ""
+          }
+        },
+        "faq_7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Convient-il aux peaux très sensibles ou abîmées ?",
+            "icon": "none",
+            "row_content": "<p>Oui. La formule a été conçue pour nettoyer tout en apaisant. Les ingrédients naturels contribuent à <strong>calmer la peau fragilisée</strong>, tout en aidant à assainir les zones concernées.</p>",
+            "page": ""
+          }
+        },
+        "faq_8": {
+          "type": "collapsible_row",
+          "settings": {
             "heading": "Livraison & garantie — comment ça fonctionne ?",
             "icon": "none",
-            "row_content": "<p>Vous achetez sans risque : Verra Rituel propose une <strong>garantie 30 jours satisfait ou remboursé</strong> et une livraison suivie. Si vous ne constatez pas d'amélioration ou si le produit ne vous convient pas, vous disposez de 30 jours pour changer d'avis.</p>",
+            "row_content": "<p>Vous achetez sans risque : Verra Rituel propose une <strong>garantie 30 jours satisfait ou remboursé</strong> et une livraison suivie. Si vous ne constatez pas d'amélioration ou si le produit ne vous convient pas, vous disposez de 30 jours pour changer d'avis. Aucun formulaire. Aucune complication.</p>",
             "page": ""
           }
         }
@@ -591,7 +599,9 @@
         "faq_3",
         "faq_4",
         "faq_5",
-        "faq_6"
+        "faq_6",
+        "faq_7",
+        "faq_8"
       ],
       "settings": {
         "caption": "",
