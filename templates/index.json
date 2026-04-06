@@ -12,7 +12,8 @@
     "hero_banner": {
       "type": "hero-banner",
       "settings": {
-        "bg_color": "#e8f5e0",
+        "bg_color": "#ffffff",
+        "desktop_image": "shopify://shop_images/verra_banner.png",
         "text_color": "#000000",
         "badge_text": "",
         "badge_bg_color": "#1a3018",
@@ -56,46 +57,6 @@
     "testimonial_slider_vr": {
       "type": "testimonial-slider",
       "blocks": {
-        "ticker_1": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_2": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_3": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_4": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_5": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_6": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_7": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_8": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_9": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_10": {
-          "type": "ticker_image",
-          "settings": {}
-        },
         "review_1": {
           "type": "review",
           "settings": {
@@ -146,16 +107,6 @@
         }
       },
       "block_order": [
-        "ticker_1",
-        "ticker_2",
-        "ticker_3",
-        "ticker_4",
-        "ticker_5",
-        "ticker_6",
-        "ticker_7",
-        "ticker_8",
-        "ticker_9",
-        "ticker_10",
         "review_1",
         "review_2",
         "review_3",
@@ -218,6 +169,7 @@
         },
         "price_fp": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "price_color": "#1a3018",
             "compare_price_color": "",
@@ -228,8 +180,16 @@
             "compare_font_size": 1.8
           }
         },
+        "kaching_bundles_app_block_UA6ehP": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{section.settings.product}}",
+            "manual_deal_block_id": ""
+          }
+        },
         "variant_picker_fp": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
@@ -310,6 +270,7 @@
         "statement_fp",
         "benefits_list_fp",
         "price_fp",
+        "kaching_bundles_app_block_UA6ehP",
         "variant_picker_fp",
         "quantity_selector_fp",
         "buy_buttons_fp",
@@ -318,7 +279,7 @@
         "trust_card_v2_fp"
       ],
       "settings": {
-        "product": "",
+        "product": "antifungal-relief-soap-bar",
         "color_scheme": "",
         "secondary_background": false,
         "media_size": "medium",
