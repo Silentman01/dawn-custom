@@ -156,6 +156,11 @@
         "type": "shopify://apps/trackify-x/blocks/app-embed/f3561b5a-1d26-4c4b-9d29-6bae914fb95d",
         "disabled": false,
         "settings": {}
+      },
+      "15599951759576395258": {
+        "type": "shopify://apps/mida-replay-heatmaps/blocks/mida_recorder/e4c350c5-eabf-426d-8014-47ef50412bd0",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
