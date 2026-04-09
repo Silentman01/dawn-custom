@@ -857,7 +857,7 @@
         "heading": "Aimez votre savon",
         "heading_size": 23,
         "description": "Si vous ne constatez pas d'amélioration ou si le produit ne vous convient pas, vous disposez de 30 jours pour changer d'avis.",
-        "image": "shopify://shop_images/d9_c4a01fd5-cfcb-40e5-ac28-8caea78d80fd.png",
+        "image": "shopify://shop_images/d9b_11aeeeae-be10-4559-9378-18c4ce184f8d.png",
         "bg_color": "#e8f5e0",
         "accent_color": "#095946",
         "text_color": "",
@@ -977,12 +977,6 @@
         "padding_bottom": 36
       }
     },
-    "apps_reviews": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -1016,7 +1010,6 @@
     "risk_free_trial",
     "apps_disabled",
     "collapsible_content_vr",
-    "apps_reviews",
     "related-products"
   ]
 }
