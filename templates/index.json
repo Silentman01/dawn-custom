@@ -12,11 +12,12 @@
     "hero_banner": {
       "type": "hero-banner",
       "settings": {
-        "bg_color": "#e8f5e0",
+        "bg_color": "#ffffff",
+        "desktop_image": "shopify://shop_images/verra_banner.png",
         "text_color": "#000000",
-        "badge_text": "Antifongique Naturel",
-        "badge_bg_color": "#1A3018",
-        "badge_text_color": "#DFF47E",
+        "badge_text": "",
+        "badge_bg_color": "#1a3018",
+        "badge_text_color": "#dff47e",
         "badge_font_size": 16,
         "show_stars": true,
         "star_rating": 4.8,
@@ -28,10 +29,10 @@
         "subheadline": "Tea tree, aloe vera, eucalyptus — 6 actifs naturels qui assainissent en profondeur et redonnent des pieds sains.",
         "cta_function": "link",
         "cta_text": "Essayer maintenant",
-        "cta_url": "",
-        "cta_bg_color": "#DFF47E",
-        "cta_text_color": "#1A3018",
-        "guarantee_text": "Garantie de remboursement de 30 jours",
+        "cta_url": "shopify://products/savon-anti-f-ong-ique",
+        "cta_bg_color": "#dff47e",
+        "cta_text_color": "#1a3018",
+        "guarantee_text": "100% Naturel",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -39,9 +40,9 @@
     "usp_bar": {
       "type": "usp-bar",
       "settings": {
-        "bg_color": "#1A3018",
-        "text_color": "#DFF47E",
-        "border_color": "#DFF47E",
+        "bg_color": "#1a3018",
+        "text_color": "#dff47e",
+        "border_color": "#dff47e",
         "font_size": 14,
         "item_gap": 30,
         "item_padding_vertical": 7,
@@ -56,46 +57,6 @@
     "testimonial_slider_vr": {
       "type": "testimonial-slider",
       "blocks": {
-        "ticker_1": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_2": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_3": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_4": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_5": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_6": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_7": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_8": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_9": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_10": {
-          "type": "ticker_image",
-          "settings": {}
-        },
         "review_1": {
           "type": "review",
           "settings": {
@@ -146,16 +107,6 @@
         }
       },
       "block_order": [
-        "ticker_1",
-        "ticker_2",
-        "ticker_3",
-        "ticker_4",
-        "ticker_5",
-        "ticker_6",
-        "ticker_7",
-        "ticker_8",
-        "ticker_9",
-        "ticker_10",
         "review_1",
         "review_2",
         "review_3",
@@ -167,254 +118,15 @@
       "settings": {
         "heading": "« Le meilleur savon antifongique que j'ai utilisé »",
         "subheading": "Découvrez ce que nos clients disent de Verra Rituel",
-        "highlight_color": "#1A3018",
-        "star_color": "#1A3018",
-        "verified_color": "#1A3018",
-        "tag_color": "#1A3018",
+        "highlight_color": "#1a3018",
+        "star_color": "#1a3018",
+        "verified_color": "#1a3018",
+        "tag_color": "#1a3018",
         "tag_bg_color": "#e8f5e0",
         "ticker_speed": 30,
         "section_bg_color": "#f5fdf4",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "featured_product_vr": {
-      "type": "featured-product",
-      "blocks": {
-        "star_rating_fp": {
-          "type": "star_rating",
-          "settings": {
-            "rating": 4.8,
-            "text": "<strong>Excellent 4.8</strong> — 1 422+ avis vérifiés",
-            "star_color": "#1A3018",
-            "star_bg_color": "#ececec",
-            "star_size": 1.3,
-            "star_gap": 0.4,
-            "alignment": "flex-start",
-            "text_color": "#121212",
-            "highlight_color": "#000000"
-          }
-        },
-        "statement_fp": {
-          "type": "statement",
-          "settings": {
-            "subtitle": "97% des utilisateurs constatent :",
-            "title": "Une réduction visible des mycoses et une peau plus saine en quelques semaines",
-            "title_size": 26
-          }
-        },
-        "benefits_list_fp": {
-          "type": "benefits_list",
-          "settings": {
-            "text_color": "#121212",
-            "icon_color": "#1A3018",
-            "benefit_1": "Élimine le champignon qui revient sans cesse",
-            "benefit_2": "Stoppe les démangeaisons et les brûlures",
-            "benefit_3": "Élimine durablement les mauvaises odeurs",
-            "benefit_4": "Marchez pieds nus en toute confiance",
-            "benefit_5": "",
-            "benefit_6": ""
-          }
-        },
-        "price_fp": {
-          "type": "price",
-          "settings": {
-            "price_color": "#1A3018",
-            "compare_price_color": "",
-            "sale_badge_text": "Offre Limitée — Économisez 55%",
-            "sale_badge_weight": "600",
-            "price_font_size": 2,
-            "price_font_weight": "700",
-            "compare_font_size": 1.8
-          }
-        },
-        "variant_picker_fp": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector_fp": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_fp": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": false,
-            "button_font_size": 1.8,
-            "button_font_weight": "700",
-            "button_text_transform": "none"
-          }
-        },
-        "trust_microcopy_fp": {
-          "type": "trust_microcopy",
-          "settings": {
-            "font_size": 1.6,
-            "font_size_2_items": 1.4,
-            "bg_color": "",
-            "text_color": "#121212",
-            "text_1": "Livraison gratuite dès 2 savons",
-            "icon_name_1": "local_shipping",
-            "text_2": "Garantie 30 jours satisfait ou remboursé",
-            "icon_name_2": "verified_user"
-          }
-        },
-        "urgency_notice_fp": {
-          "type": "urgency_notice",
-          "settings": {
-            "line_1": "<p><strong>ATTENTION : Stock limité</strong></p>",
-            "line_2": "<p>Ce produit a été en rupture de stock <em>9 fois</em> cette année. Profitez de l'<strong>offre limitée</strong> maintenant.</p>",
-            "font_size": 1.2,
-            "bg_color": "#fef2f2",
-            "text_color": "#9f3f3f",
-            "border_width": 2,
-            "border_style": "dashed",
-            "border_color": "#fca5a5",
-            "border_radius": 3,
-            "icon_name": "error",
-            "icon_color": "#d61717",
-            "icon_scale": 1.2
-          }
-        },
-        "trust_card_v2_fp": {
-          "type": "trust_card_v2",
-          "settings": {
-            "heading": "<strong>Pourquoi Verra Rituel est le N°1</strong> pour le soin antifongique ?",
-            "feature_text_1": "Recommandé par les dermatologues",
-            "feature_text_2": "Testé en laboratoire indépendant",
-            "feature_text_3": "Formule 100% naturelle",
-            "feature_text_4": "Fabriqué en France",
-            "item_1": "Sans parabènes",
-            "item_2": "Sans sulfates",
-            "item_3": "Hypoallergénique",
-            "item_4": "Sans OGM",
-            "item_5": "Non testé sur les animaux",
-            "item_6": "Végan",
-            "text_color": "#000000",
-            "title_color": "#000000",
-            "highlight_color": "#1A3018",
-            "bg_color": "#e8f5e0",
-            "image_opacity": 10,
-            "border_radius": 10,
-            "heading_size": 28,
-            "feature_text_size": 11,
-            "item_text_size": 16
-          }
-        }
-      },
-      "block_order": [
-        "star_rating_fp",
-        "statement_fp",
-        "benefits_list_fp",
-        "price_fp",
-        "variant_picker_fp",
-        "quantity_selector_fp",
-        "buy_buttons_fp",
-        "trust_microcopy_fp",
-        "urgency_notice_fp",
-        "trust_card_v2_fp"
-      ],
-      "settings": {
-        "product": "",
-        "color_scheme": "",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "gallery_layout": "thumbnail_slider",
-        "mobile_thumbnails": "show",
-        "image_zoom": "none",
-        "hide_variants": false,
-        "enable_video_looping": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "reasons_why_vr": {
-      "type": "reasons-why",
-      "blocks": {
-        "reason_1": {
-          "type": "reason_card",
-          "settings": {
-            "label": "Raison 1",
-            "heading": "6 actifs naturels, une formule complète",
-            "details": "<p>Huile de tea tree, huile de coco, aloe vera, huile d'olive, eucalyptus et hamamélis — des ingrédients qui assainissent en profondeur tout en apaisant la peau irritée.</p>"
-          }
-        },
-        "reason_2": {
-          "type": "reason_card",
-          "settings": {
-            "label": "Raison 2",
-            "heading": "Résultats dès les premières semaines",
-            "details": "<p>97% des utilisateurs constatent une diminution de l'inconfort au cours des premières semaines. Un soulagement rapide et durable.</p>"
-          }
-        },
-        "reason_3": {
-          "type": "reason_card",
-          "settings": {
-            "label": "Raison 3",
-            "heading": "Simple et pratique",
-            "details": "<p>Un seul savon, sous la douche, une fois par jour. Pas de crèmes, pas de sprays, pas de routine compliquée.</p>"
-          }
-        },
-        "reason_4": {
-          "type": "reason_card",
-          "settings": {
-            "label": "Raison 4",
-            "heading": "Sans risque — Garantie 30 jours",
-            "details": "<p>Pas d'amélioration ? On vous rembourse intégralement. Sans formulaire, sans complication.</p>"
-          }
-        },
-        "reason_5": {
-          "type": "reason_card",
-          "settings": {
-            "label": "Raison 5",
-            "heading": "20 000+ clients satisfaits",
-            "details": "<p>Des milliers de personnes ont retrouvé des pieds sains et la confiance de marcher pieds nus à nouveau.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "reason_1",
-        "reason_2",
-        "reason_3",
-        "reason_4",
-        "reason_5"
-      ],
-      "settings": {
-        "badge_text": "5 raisons",
-        "subheading": "Pourquoi Verra Rituel® est différent de tout ce que vous avez essayé",
-        "bg_color": "#f5fdf4",
-        "text_color": "#000000",
-        "badge_bg_color": "#1A3018",
-        "badge_text_color": "#DFF47E",
-        "label_bg_color": "#1A3018",
-        "label_text_color": "#DFF47E",
-        "card_bg_color": "#ffffff",
-        "card_border_color": "#0000004d",
-        "card_text_color": "#000000",
-        "badge_font_size": 28,
-        "subheading_font_size": 31,
-        "label_font_size": 17,
-        "card_heading_font_size": 21,
-        "details_font_size": 16,
-        "card_height": 408,
-        "card_radius": 12,
-        "card_gap": 13,
-        "max_width": 1500,
-        "cta_text": "Essayer sans risque",
-        "cta_url": "",
-        "cta_bg_color": "#DFF47E",
-        "cta_text_color": "#1A3018",
-        "cta_font_size": 19,
-        "cta_margin_top": 40,
-        "guarantee_text": "Garantie 30 jours satisfait ou remboursé",
-        "padding_top": 40,
-        "padding_bottom": 40
       }
     },
     "brand_comparison_vr": {
@@ -466,10 +178,10 @@
       "settings": {
         "heading": "<strong>Verra Rituel®</strong> vs. les autres produits",
         "heading_size": 36,
-        "bg_gradient_start": "#1A3018",
+        "bg_gradient_start": "#1a3018",
         "bg_gradient_end": "#839e07",
         "text_color": "#ffffff",
-        "highlight_color": "#DFF47E",
+        "highlight_color": "#dff47e",
         "brand_name": "<strong>Verra Rituel</strong>",
         "brand_name_color": "#ffffff",
         "brand_image": "shopify://shop_images/p.png",
@@ -485,9 +197,9 @@
         "checklist_3": "<strong>Un seul geste sous la douche</strong> — Simple et efficace",
         "checklist_4": "<strong>100% naturel</strong> — Doux pour la peau, redoutable contre les mycoses",
         "cta_text": "Essayer sans risque",
-        "cta_link": "",
+        "cta_link": "shopify://products/savon-anti-f-ong-ique",
         "cta_height": 54,
-        "cta_bg_color": "#DFF47E",
+        "cta_bg_color": "#dff47e",
         "cta_text_color": "#004c3c",
         "cta_font_weight": "700",
         "note_text": "Garantie 30 jours satisfait ou remboursé",
@@ -512,8 +224,8 @@
         "cta_text": "Essayer maintenant",
         "cta_link": "",
         "cta_height": 50,
-        "cta_bg_color": "#DFF47E",
-        "cta_text_color": "#1A3018",
+        "cta_bg_color": "#dff47e",
+        "cta_text_color": "#1a3018",
         "padding_top": 28
       }
     },
@@ -623,8 +335,6 @@
     "hero_banner",
     "usp_bar",
     "testimonial_slider_vr",
-    "featured_product_vr",
-    "reasons_why_vr",
     "brand_comparison_vr",
     "risk_free_trial_vr",
     "collapsible_content_vr"
