@@ -40,21 +40,21 @@
           "type": "text",
           "settings": {
             "heading": "Avertissement sur les résultats",
-            "subtext": "<p><em>Les résultats peuvent varier d’une personne à l’autre. Les témoignages présentés ne sont pas nécessairement représentatifs de l’expérience de tous les utilisateurs. Les résultats mentionnés ne sont pas garantis.</em></p>"
+            "subtext": "<p><em>Les effets observés peuvent différer selon les individus. Les avis et témoignages partagés reflètent des expériences personnelles et ne constituent pas une garantie de résultats identiques pour chaque utilisateur.</em></p>"
           }
         },
         "text_M4ihBj": {
           "type": "text",
           "settings": {
             "heading": "Avertissement médical",
-            "subtext": "<p><em>Ce produit est destiné à un usage d’hygiène et de bien-être uniquement. Il ne remplace en aucun cas un avis médical ou un traitement prescrit par un professionnel de santé. En cas de condition médicale, de symptômes persistants ou de doute, veuillez consulter un professionnel de santé avant utilisation.</em></p>"
+            "subtext": "<p><em>Ce produit est conçu exclusivement pour l'hygiène et le soin quotidien de la peau. Il ne se substitue pas à une consultation médicale ni à un traitement prescrit. Si vous présentez des symptômes persistants ou une pathologie cutanée, consultez votre médecin ou dermatologue avant toute utilisation.</em></p>"
           }
         },
         "text_hJhfpL": {
           "type": "text",
           "settings": {
             "heading": "Avertissement réglementaire",
-            "subtext": "<p><em>Ces déclarations n’ont pas été évaluées par les autorités sanitaires. Ce produit n’est pas destiné à diagnostiquer, traiter, guérir ou prévenir une maladie.</em></p>"
+            "subtext": "<p><em>Les allégations présentes sur ce site n'ont fait l'objet d'aucune validation par une autorité de santé. Ce produit n'a pas vocation à diagnostiquer, soigner, guérir ni prévenir quelque maladie que ce soit.</em></p>"
           }
         }
       },
