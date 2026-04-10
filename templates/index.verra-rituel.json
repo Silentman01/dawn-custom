@@ -100,11 +100,11 @@
           "type": "review",
           "settings": {
             "rating": "5.0",
-            "quote": "\"fonctionne vraiment\"",
-            "details": "J'ai testé énormément de produits contre les problèmes de pieds, sans succès durable. Ce savon est le premier qui a vraiment fait une différence : moins d'odeur, une peau plus saine et surtout une vraie sensation de propreté après chaque utilisation. Simple, efficace, et agréable à utiliser. Je recommande sans hésiter.",
-            "author_name": "Élise Morel",
-            "tag_1": "Pied d'athlète",
-            "tag_2": "Peau saine",
+            "quote": "Je n'y croyais plus, et pourtant",
+            "details": "Après des années à enchaîner crèmes et sprays sans résultat, j'ai découvert ce savon un peu par hasard. Dès la deuxième semaine, les démangeaisons avaient quasiment disparu. Aujourd'hui, ma peau est nette et je n'ai plus cette gêne permanente. C'est simple à utiliser et ça change vraiment la donne.",
+            "author_name": "Sophie D.",
+            "tag_1": "Mycoses",
+            "tag_2": "Résultats visibles",
             "card_bg_color": ""
           }
         },
@@ -112,11 +112,11 @@
           "type": "review",
           "settings": {
             "rating": "5.0",
-            "quote": "\"Mes pieds ont complètement changé\"",
-            "details": "Après quelques semaines d'utilisation, mes pieds sont méconnaissables. Fini la peau sèche, les fissures et l'inconfort. Le savon sent bon sans être agressif et laisse la peau douce. C'est devenu un indispensable dans ma routine.",
-            "author_name": "Antoine Pelletier",
-            "tag_1": "Fissures",
-            "tag_2": "Routine quotidienne",
+            "quote": "Enfin un produit qui tient ses promesses",
+            "details": "Je travaille en chaussures de sécurité toute la journée et mes pieds en souffraient énormément. Après un mois avec ce savon, la différence est flagrante : plus d'odeur, plus de peau qui pèle, plus de gêne. Je l'utilise chaque matin sans exception.",
+            "author_name": "Julien M.",
+            "tag_1": "Pied d'athlète",
+            "tag_2": "Usage quotidien",
             "card_bg_color": ""
           }
         },
@@ -124,11 +124,11 @@
           "type": "review",
           "settings": {
             "rating": "5.0",
-            "quote": "\"Discret mais ultra efficace\"",
-            "details": "J'avais honte de mes pieds et j'évitais même de les montrer. Ce savon a clairement amélioré la situation : peau plus saine, moins de gêne, et surtout plus de confiance. Je ne pensais pas qu'un produit aussi simple pouvait être aussi efficace.",
-            "author_name": "Thomas Lefèvre",
-            "tag_1": "Confiance",
-            "tag_2": "Résultats rapides",
+            "quote": "J'ose enfin enlever mes chaussures",
+            "details": "Pendant longtemps, j'évitais les sandales, la piscine, tout ce qui montrait mes pieds. Ce savon a transformé ma peau en quelques semaines. Elle est redevenue lisse, saine et sans odeur. Aujourd'hui, je ne cache plus mes pieds. Ça paraît anodin, mais pour moi c'est énorme.",
+            "author_name": "Laura B.",
+            "tag_1": "Confiance retrouvée",
+            "tag_2": "Peau lisse",
             "card_bg_color": ""
           }
         },
@@ -136,11 +136,11 @@
           "type": "review",
           "settings": {
             "rating": "5.0",
-            "quote": "\"Le seul savon que je rachèterai\"",
-            "details": "J'étais sceptique au départ, mais les résultats parlent d'eux-mêmes. Dès les premières utilisations, on sent une vraie différence. Mes pieds restent frais plus longtemps et la peau est beaucoup plus nette. Je ne reviendrai jamais aux produits classiques.",
-            "author_name": "Camille Renaud",
+            "quote": "Simple, efficace, rien à ajouter",
+            "details": "Pas besoin de protocole compliqué. Un savon sous la douche, 2 minutes, et c'est tout. Les odeurs ont disparu en une semaine. La peau entre mes orteils est redevenue normale au bout d'un mois. Je le recommande à tous ceux qui veulent un truc qui marche vraiment.",
+            "author_name": "Marc T.",
             "tag_1": "Odeurs",
-            "tag_2": "Peau nette",
+            "tag_2": "Routine simple",
             "card_bg_color": ""
           }
         }
@@ -165,8 +165,8 @@
         ".ts-review__quote {font-weight: bold;}"
       ],
       "settings": {
-        "heading": "« Le meilleur savon antifongique que j'ai utilisé »",
-        "subheading": "Découvrez ce que nos clients disent de Verra Rituel",
+        "heading": "« Ce que nos clients en pensent vraiment »",
+        "subheading": "Des centaines de personnes ont déjà adopté Verra Rituel dans leur routine quotidienne",
         "highlight_color": "#1A3018",
         "star_color": "#1A3018",
         "verified_color": "#1A3018",
@@ -523,72 +523,72 @@
         "faq_1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "En combien de temps puis-je espérer voir une amélioration visible ?",
+            "heading": "À partir de quand vais-je remarquer un changement ?",
             "icon": "none",
-            "row_content": "<p>Beaucoup de personnes constatent une diminution des démangeaisons et des odeurs dès <strong>1 à 2 semaines</strong>. Pour une peau visiblement plus saine et confortable, une utilisation régulière sur <strong>4 à 6 semaines</strong> est généralement recommandée.</p>",
+            "row_content": "<p>Les premiers effets se font sentir rapidement. En <strong>1 à 2 semaines</strong>, la plupart des utilisateurs constatent moins de démangeaisons et d'odeurs. Après <strong>4 à 6 semaines</strong> d'utilisation régulière, la peau retrouve un aspect nettement plus sain et confortable.</p>",
             "page": ""
           }
         },
         "faq_2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "En quoi est-il différent des crèmes et sprays que j'ai déjà essayés ?",
+            "heading": "Pourquoi ce savon fonctionne-t-il mieux que les crèmes ou sprays ?",
             "icon": "none",
-            "row_content": "<p>La plupart des solutions agissent surtout en surface. Le savon Verra Rituel® nettoie la peau en profondeur à chaque lavage, sans laisser de résidus, ce qui permet de <strong>limiter durablement les déséquilibres</strong> responsables de l'inconfort, plutôt que de simplement masquer les symptômes.</p>",
+            "row_content": "<p>Contrairement aux produits qui se contentent de masquer les symptômes, le savon Verra Rituel® agit à chaque lavage pour <strong>nettoyer la peau en profondeur</strong>. Son action quotidienne aide à rétablir un environnement cutané sain et à prévenir le retour des inconforts.</p>",
             "page": ""
           }
         },
         "faq_3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Est-ce que ce savon peut fonctionner là où les traitements prescrits ont échoué ?",
+            "heading": "Peut-il m'aider même si d'autres traitements n'ont pas marché ?",
             "icon": "none",
-            "row_content": "<p>Oui. De nombreuses personnes se tournent vers l'huile d'arbre à thé pour ses propriétés naturellement purifiantes, notamment après des traitements synthétiques peu efficaces ou mal tolérés. Notre savon aide à <strong>assainir la peau en profondeur</strong>, dans le cadre d'une routine régulière et douce.</p>",
+            "row_content": "<p>De nombreux utilisateurs sont venus à Verra Rituel après avoir essayé des traitements classiques sans succès durable. Les propriétés assainissantes naturelles de notre formule, notamment l'<strong>huile de tea tree</strong>, offrent une approche différente qui donne des résultats là où d'autres ont échoué.</p>",
             "page": ""
           }
         },
         "faq_4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Puis-je l'utiliser tous les jours sans irriter ma peau ?",
+            "heading": "Est-il suffisamment doux pour un usage de tous les jours ?",
             "icon": "none",
-            "row_content": "<p>Oui. Sa formule naturelle a été pensée pour un <strong>usage quotidien</strong>. Elle nettoie efficacement tout en respectant l'équilibre de la peau, même sensible, sans effet agressif ou asséchant.</p>",
+            "row_content": "<p>Absolument. Notre formule a été pensée pour un <strong>usage quotidien</strong>. Les actifs naturels nettoient efficacement sans dessécher ni irriter la peau, même sur les zones sensibles ou fragilisées.</p>",
             "page": ""
           }
         },
         "faq_5": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Est-ce que cela aide à éviter que le problème revienne ?",
+            "heading": "Comment éviter que le problème réapparaisse ?",
             "icon": "none",
-            "row_content": "<p>Oui. Une utilisation régulière et continue permet de maintenir une peau propre et équilibrée. Comme pour toute routine de soin, la <strong>constance est essentielle</strong> pour éviter les récidives liées à l'humidité et aux déséquilibres cutanés.</p>",
+            "row_content": "<p>La clé, c'est la <strong>régularité</strong>. En maintenant l'utilisation du savon dans votre routine quotidienne, vous créez un environnement défavorable aux champignons et aidez votre peau à rester saine sur le long terme.</p>",
             "page": ""
           }
         },
         "faq_6": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Quels ingrédients ? Est-ce naturel et doux pour la peau ?",
+            "heading": "Quels actifs naturels composent ce savon ?",
             "icon": "none",
-            "row_content": "<p>La formule met en avant des ingrédients connus pour leurs propriétés purifiantes et apaisantes : <strong>huile de tea tree</strong>, <strong>huile de coco</strong>, <strong>aloe vera</strong>, base <strong>huile d'olive</strong>, <strong>eucalyptus</strong> et <strong>hamamélis</strong>. L'idée : assainir tout en aidant à calmer la peau irritée (tiraillements, sensations de brûlure).</p>",
+            "row_content": "<p>Notre formule associe <strong>6 actifs naturels</strong> aux vertus complémentaires : <strong>huile essentielle de tea tree</strong> (assainissante), <strong>huile de coco</strong> (nourrissante), <strong>aloe vera</strong> (apaisante), <strong>base huile d'olive</strong> (nettoyante douce), <strong>eucalyptus</strong> (purifiant) et <strong>hamamélis</strong> (tonifiant). Ensemble, ils purifient tout en respectant les peaux sensibles.</p>",
             "page": ""
           }
         },
         "faq_7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Convient-il aux peaux très sensibles ou abîmées ?",
+            "heading": "Ce savon convient-il aux peaux très réactives ?",
             "icon": "none",
-            "row_content": "<p>Oui. La formule a été conçue pour nettoyer tout en apaisant. Les ingrédients naturels contribuent à <strong>calmer la peau fragilisée</strong>, tout en aidant à assainir les zones concernées.</p>",
+            "row_content": "<p>Oui. Les ingrédients ont été choisis pour leur douceur autant que pour leur efficacité. La formule aide à <strong>apaiser les irritations</strong> tout en nettoyant, ce qui la rend adaptée même aux peaux les plus fragiles.</p>",
             "page": ""
           }
         },
         "faq_8": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Livraison & garantie — comment ça fonctionne ?",
+            "heading": "Comment fonctionnent la livraison et la garantie ?",
             "icon": "none",
-            "row_content": "<p>Vous achetez sans risque : Verra Rituel propose une <strong>garantie 30 jours satisfait ou remboursé</strong> et une livraison suivie. Si vous ne constatez pas d'amélioration ou si le produit ne vous convient pas, vous disposez de 30 jours pour changer d'avis. Aucun formulaire. Aucune complication.</p>",
+            "row_content": "<p>Votre commande est <strong>préparée sous 24 à 48 h</strong> et expédiée avec suivi (3 à 7 jours ouvrés). Vous bénéficiez d'une <strong>garantie satisfait ou remboursé de 30 jours</strong>. Si le produit ne vous convient pas, un simple e-mail suffit pour obtenir votre remboursement.</p>",
             "page": ""
           }
         }
