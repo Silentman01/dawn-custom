@@ -203,8 +203,8 @@
         "urgency_notice": {
           "type": "urgency_notice",
           "settings": {
-            "line_1": "<p><strong>Attention Aux Imitations.</strong></p>",
-            "line_2": "<p><strong>verrarituel.com </strong>est la seule marque officielle à proposer ce savon antifongique avec une formulation de <strong>haute qualité</strong>. Nous ne vendons ni sur Amazon ni sur d’autres sites.</p>",
+            "line_1": "<p><strong>Méfiez-vous des imitations.</strong></p>",
+            "line_2": "<p>Le savon <strong>Verra Rituel</strong> est exclusivement disponible sur <strong>verrarituel.com</strong>. Notre formule n'est distribuée sur aucune autre plateforme, ni Amazon, ni en grande surface. <strong>Si vous le trouvez ailleurs, ce n'est pas le nôtre.</strong></p>",
             "font_size": 1.2,
             "bg_color": "#fef2f2",
             "text_color": "#9f3f3f",
