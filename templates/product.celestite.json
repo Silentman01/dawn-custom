@@ -1,0 +1,1022 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "star_rating": {
+          "type": "star_rating",
+          "settings": {
+            "rating": 4.8,
+            "text": "<strong>Excellent</strong> 4.8 sur 5",
+            "star_color": "#ffd600",
+            "star_bg_color": "#ececec",
+            "star_size": 1.3,
+            "star_gap": 0.4,
+            "alignment": "flex-start",
+            "text_color": "#121212",
+            "highlight_color": "#000000"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": 26,
+            "title_weight": "400",
+            "title_transform": "none",
+            "title_color": ""
+          }
+        },
+        "text_Urya33": {
+          "type": "text",
+          "settings": {
+            "text": "Intégrez notre <strong>savon artisanal</strong>, d’expertise <strong>française</strong>, à <strong>votre routine</strong> et retrouvez des <strong>pieds sains</strong> en <strong>3 semaines</strong>!",
+            "text_style": "body"
+          }
+        },
+        "statement_vr": {
+          "type": "statement",
+          "disabled": true,
+          "settings": {
+            "subtitle": "97% des utilisateurs constatent :",
+            "title": "Une réduction visible des mycoses et une peau plus saine en 2 semaines",
+            "title_size": 26
+          }
+        },
+        "benefits_list": {
+          "type": "benefits_list",
+          "settings": {
+            "text_color": "#121212",
+            "icon_color": "#1a3018",
+            "layout": "one_per_line",
+            "benefit_1": "Élimine le champignon qui revient sans cesse",
+            "benefit_2": "Stoppe les démangeaisons et les sensations de brûlure persistantes",
+            "benefit_3": "Élimine durablement les mauvaises odeurs embarrassantes des pieds",
+            "benefit_4": "Marchez enfin pieds nus en toute confiance",
+            "benefit_5": "",
+            "benefit_6": ""
+          }
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+            "price_color": "#1a3018",
+            "compare_price_color": "",
+            "sale_badge_text": "Offre Limitée — Économisez 55%",
+            "sale_badge_weight": "600",
+            "price_font_size": 2,
+            "price_font_weight": "700",
+            "compare_font_size": 1.8
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false,
+            "button_font_size": 1.8,
+            "button_font_weight": "700",
+            "button_text_transform": "none"
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "disabled": true,
+          "settings": {
+            "function": "link",
+            "button_link": "",
+            "display_when": "after_scroll",
+            "button_label": "Ajouter au panier",
+            "enable_custom_btn_color": false,
+            "custom_btn_color": "#dd1d1d",
+            "color_scheme": "scheme-1",
+            "star_color": "#ffcc00",
+            "stars_label": "Excellent 4.8 — 1 422+ avis",
+            "button_font_size": 1.6,
+            "button_font_weight": "700",
+            "button_text_transform": "none",
+            "desktop_show_image": true,
+            "desktop_show_title": true,
+            "desktop_rating_stars": true,
+            "desktop_show_price": false,
+            "desktop_show_sale_badge": false,
+            "desktop_variant_picker": false,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": true,
+            "mobile_show_title": true,
+            "mobile_rating_stars": true,
+            "mobile_show_price": false,
+            "mobile_show_sale_badge": false,
+            "mobile_variant_picker": false,
+            "mobile_full_button_width": true,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        },
+        "trust_microcopy": {
+          "type": "trust_microcopy",
+          "settings": {
+            "font_size": 1.6,
+            "font_size_2_items": 1.4,
+            "bg_color": "",
+            "text_color": "#121212",
+            "text_1": "Livraison gratuite dès 35€",
+            "icon_name_1": "local_shipping",
+            "text_2": "Paiement sécurisé",
+            "icon_name_2": "verified_user"
+          }
+        },
+        "custom_liquid_ELCB4G": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"fb-comment-block\" id=\"block-facebook_comment_F4EbHy\" style=\"margin-top: 0px; margin-bottom: 0px;\">\n  <div class=\"fb-comment-container\" style=\"\n      border-radius: 0px;\n      width: 100%;\n      max-width: none;\n      margin: 0;\n      padding: 16px;\n      overflow: hidden;\n      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\n      line-height: 1.34;\n    \">\n    <div class=\"fb-comment-inner\" style=\"\n        display: flex;\n        gap: 8px;\n        align-items: flex-start;\n      \">\n      \n        <div class=\"fb-comment-profile\" style=\"\n            width: 32px;\n            height: 32px;\n            border-radius: 50%;\n            position: relative;\n            overflow: hidden;\n            flex-shrink: 0;\n          \">\n          <img src=\"//nolarituel.com/cdn/shop/files/53a565bdb49a1212118e037cc3dc3795_1.jpg?v=1766505770\" alt=\"Profile picture\" style=\"width: 100%; height: 100%; object-fit: cover; object-position: center; display: block;\" width=\"\" height=\"\">\n        </div>\n      \n\n      <div class=\"fb-comment-content\" style=\"flex: 1;\">\n        <div class=\"fb-comment-bubble\" style=\"\n            background: #f0f2f5;\n            border-radius: 18px;\n            padding: 8px 12px;\n            margin-bottom: 4px;\n            position: relative;\n          \">\n          <div class=\"fb-comment-author\" style=\"\n              font-weight: var(--font-weight-bold) !important;\n              font-size: 13px;\n              letter-spacing: var(--letter-spacing-body);\n              color: #050505;\n              margin-bottom: 2px;\n              \n            \"><strong>\n            Nicolas Fauvel</strong>\n          </div>\n\n          <div class=\"fb-comment-text\" style=\"\n              color: #050505;\n              letters-spacing: var(--letter-spacing-body);\n              font-size: 15px;\n              line-height: 1.3;\n              \n            \">\n            Après 5 ans à cacher mes pieds, le rituel de Verra a complètement éliminé les mycoses. Je reviens tout juste de vacances et pour la première fois depuis des années, j’ai marché pieds nus sur le sable sans aucune gêne. Ma copine me dit que mes pieds paraissent et sentent enfin normaux, comme au début de notre relation. Franchement, je ne pensais pas retrouver ça un jour, et en seulement 2 mois d’utilisation.\n          </div>\n\n          <div class=\"fb-comment-reactions\" style=\"\n              position: absolute;\n              bottom: -10px;\n              right: 12px;\n              display: flex;\n              align-items: center;\n              gap: 4px;\n              background: #ffffff;\n              border-radius: 12px;\n              padding: 2px 6px;\n              box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);\n              border: 1px solid #e4e6ea;\n            \">\n            <div class=\"fb-comment-reaction-icons\" style=\"display: flex; margin-right: 0px;\">\n              <!-- Like Icon -->\n              <div class=\"fb-comment-reaction-icon\" style=\"\n                  width: 16px;\n                  height: 16px;\n                  border-radius: 50%;\n                  margin-left: -2px;\n                  border: 1px solid white;\n                  overflow: hidden;\n                  flex-shrink: 0;\n                  display: flex;\n                  align-items: center;\n                  justify-content: center;\n                \">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\" style=\"display: block;\">\n                  <path fill=\"url(#fb-like-gradient-facebook_comment_F4EbHy)\" d=\"M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z\"></path>\n                  <path fill=\"#fff\" d=\"M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725.1.163.132.36.089.546-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666ZM3.6 7h.8a.6.6 0 0 1 .6.6v3.8a.6.6 0 0 1-.6.6h-.8a.6.6 0 0 1-.6-.6V7.6a.6.6 0 0 1 .6-.6Z\"></path>\n                  <defs>\n                    <linearGradient id=\"fb-like-gradient-facebook_comment_F4EbHy\" x1=\"8\" x2=\"8\" y2=\"16\" gradientUnits=\"userSpaceOnUse\">\n                      <stop stop-color=\"#18AFFF\"></stop>\n                      <stop offset=\"1\" stop-color=\"#0062DF\"></stop>\n                    </linearGradient>\n                  </defs>\n                </svg>\n              </div>\n\n              <!-- Love Icon -->\n              <div class=\"fb-comment-reaction-icon\" style=\"\n                  width: 16px;\n                  height: 16px;\n                  border-radius: 50%;\n                  margin-left: -2px;\n                  border: 1px solid white;\n                  overflow: hidden;\n                  flex-shrink: 0;\n                  display: flex;\n                  align-items: center;\n                  justify-content: center;\n                \">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\" style=\"display: block;\">\n                  <path fill=\"url(#fb-love-gradient-facebook_comment_F4EbHy)\" d=\"M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z\"></path>\n                  <path fill=\"#fff\" d=\"M10.473 4C8.275 4 8 5.824 8 5.824S7.726 4 5.528 4c-2.114 0-2.73 2.222-2.472 3.41C3.736 10.55 8 12.75 8 12.75s4.265-2.2 4.945-5.34c.257-1.188-.36-3.41-2.472-3.41Z\"></path>\n                  <defs>\n                    <linearGradient id=\"fb-love-gradient-facebook_comment_F4EbHy\" x1=\"8\" x2=\"8\" y2=\"16\" gradientUnits=\"userSpaceOnUse\">\n                      <stop stop-color=\"#FF6680\"></stop>\n                      <stop offset=\"1\" stop-color=\"#E61739\"></stop>\n                    </linearGradient>\n                  </defs>\n                </svg>\n              </div>\n\n              <!-- Care Icon -->\n              <div class=\"fb-comment-reaction-icon\" style=\"\n                  width: 16px;\n                  height: 16px;\n                  border-radius: 50%;\n                  margin-left: -2px;\n                  border: 1px solid white;\n                  overflow: hidden;\n                  flex-shrink: 0;\n                  display: flex;\n                  align-items: center;\n                  justify-content: center;\n                \">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" style=\"display: block;\">\n                  <defs>\n                    <linearGradient id=\"fb-care-bg-facebook_comment_F4EbHy\" x1=\"-2.313\" x2=\"-2.313\" y1=\"19.862\" y2=\"20.738\" gradientTransform=\"matrix(16 0 0 -16 45 333)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#f28a2d\"></stop>\n                      <stop offset=\"1\" stop-color=\"#fde86f\"></stop>\n                    </linearGradient>\n                    <linearGradient id=\"fb-care-mouth-facebook_comment_F4EbHy\" x1=\"-1.619\" x2=\"-1.619\" y1=\"18.2\" y2=\"16.681\" gradientTransform=\"matrix(3.4035 0 0 -.9374 13.51 22.37)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#482314\"></stop>\n                      <stop offset=\"1\" stop-color=\"#9a4111\"></stop>\n                    </linearGradient>\n                    <radialGradient id=\"fb-care-eye1-facebook_comment_F4EbHy\" cx=\"-3.9\" cy=\"18.924\" r=\".872\" gradientTransform=\"matrix(0 -2.1326 -2.1327 0 45.352 -4.046)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#3b446b\"></stop>\n                      <stop offset=\".688\" stop-color=\"#202340\"></stop>\n                    </radialGradient>\n                    <radialGradient id=\"fb-care-eye2-facebook_comment_F4EbHy\" cx=\"-3.914\" cy=\"18.924\" r=\".872\" gradientTransform=\"matrix(0 -2.1326 -2.1327 0 51.366 -4.077)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#3b446b\"></stop>\n                      <stop offset=\".688\" stop-color=\"#202340\"></stop>\n                    </radialGradient>\n                    <linearGradient id=\"fb-care-heart-facebook_comment_F4EbHy\" x1=\"-2.17\" x2=\"-2.407\" y1=\"20.358\" y2=\"19.647\" gradientTransform=\"matrix(9.7496 0 0 -9.079 27.91 194.578)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#f34462\"></stop>\n                      <stop offset=\"1\" stop-color=\"#cc0820\"></stop>\n                    </linearGradient>\n                  </defs>\n                  <path fill=\"url(#fb-care-bg-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M16 8c0 4.4-3.6 8-8 8s-8-3.6-8-8 3.6-8 8-8 8 3.6 8 8z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-mouth-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M9.7 5.9c-.1-.3-3.3-.3-3.4 0-.1.3.6.7 1.7.7s1.8-.4 1.7-.7z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-eye1-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M6 4.1c0 .7-.4.9-1 1-.6.1-1.1-.2-1.1-1 0-.6.3-1.4 1.1-1.4.7 0 1 .8 1 1.4z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-eye2-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M10 4.1c0 .7.4.9 1.1 1 .6.1 1.1-.2 1.1-1 0-.6-.3-1.4-1.1-1.4S10 3.5 10 4.1z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-heart-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M9.7 8.5c-2.1-.6-2.8.8-2.8.8S7.1 7.7 5 7c-2-.6-3.2 1.3-3.3 2.4-.2 2.5 2 5.3 2.8 6.3.1.3.4.3.7.3 1.2-.3 4.6-1.4 5.9-3.6.5-1.1.6-3.3-1.4-3.9z\" clip-rule=\"evenodd\"></path>\n                </svg>\n              </div>\n            </div>\n            <span class=\"fb-comment-reaction-count\" style=\"\n                color: #65676b;\n                font-size: 13px;\n                font-weight: 400;\n                \n              \">14</span>\n          </div>\n        </div>\n\n        <div class=\"fb-comment-meta\" style=\"\n            display: flex;\n            letter-spacing: var(--letter-spacing-body) !important;\n            align-items: center;\n            gap: 12px;\n            margin-left: 12px;\n            margin-bottom: 12px;\n            font-size: 13px;\n            color: #65676b;\n            \n          \">\n          <span class=\"fb-comment-meta-item\" style=\"\n              cursor: pointer;\n              font-weight: 600;\n              \n            \">J'aime</span>\n          <span class=\"fb-comment-meta-item\" style=\"\n              cursor: pointer;\n              font-weight: 600;\n              \n            \">Commenter</span>\n          <span class=\"fb-comment-timestamp\" style=\"\n                          \n            \">2j</span>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<style>\n  .fb-comment-meta-item:hover {\n    text-decoration: underline;\n  }\n\n  @media (max-width: 520px) {\n    .fb-comment-container {\n      margin: 0;\n      border-radius: 0;\n      box-shadow: none;\n      width: 100%;\n      max-width: none;\n    }\n    .fb-comment-meta {\n      gap: 8px;\n    }\n    .fb-comment-meta-item {\n      font-size: 12px;\n    }\n  }\n</style>"
+          }
+        },
+        "collapsible_tab_desc": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Est-ce que ça marche vraiment ? En combien de temps ?",
+            "icon": "none",
+            "content": "<p><strong>Oui, à condition d’être régulier.</strong> La plupart des clients observent des <strong>résultats visibles en ~4 semaines</strong>, avec une amélioration progressive dès les premières semaines (démangeaisons, brûlures, odeurs). Le point clé : <strong>la constance</strong>, car l’objectif est de traiter <strong>la cause</strong> (le champignon), pas seulement les symptômes.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_why": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Comment l’utiliser pour de meilleurs résultats ?",
+            "icon": "none",
+            "content": "<p>Sous la douche, <strong>1 fois par jour</strong> :</p><ol><li>Faites mousser, surtout <strong>entre les orteils</strong><br/></li><li>Massez la zone <strong>30 secondes</strong><br/></li><li>Laissez poser <strong>1 à 2 minutes</strong><br/></li><li>Rincez puis <strong>séchez parfaitement</strong><br/></li></ol><p>Gardez cette routine <strong>4 à 6 semaines</strong> pour limiter les récidives.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_benefits": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Quels ingrédients ? Est-ce naturel / doux pour la peau ?",
+            "icon": "none",
+            "content": "<p>La formule met en avant des ingrédients connus pour leurs propriétés purifiantes et apaisantes :</p><ul><li><strong>huile de tea tree</strong></li><li><strong>huile de coco</strong></li><li><strong>aloe vera</strong></li><li>base <strong>huile d’olive </strong>ainsi que <strong>eucalyptus </strong>et <strong>hamamélis</strong>.<br/></li></ul><p>L’idée : <strong>assainir </strong>tout en aidant à <strong>calmer la peau irritée </strong>(tiraillements, sensations de brûlure).</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_use": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Et si ça ne marche pas pour moi ? Livraison / garantie ?",
+            "icon": "none",
+            "content": "<p>Vous achetez <strong>sans risque</strong> : Verra Rituel propose une <strong>garantie 30 jours</strong> (satisfait ou remboursé) et une <strong>livraison suivie</strong>.<br/><br/>Si vous avez la moindre question, vous pouvez aussi orienter vers notre support.</p><p>contact@verrarituel.com</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_guarantee": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Livraison & garantie",
+            "icon": "none",
+            "content": "<p>Vous achetez sans risque : Verra Rituel propose une <strong>garantie 30 jours satisfait ou remboursé</strong> et une livraison suivie.</p><p>Si vous ne constatez pas d'amélioration ou si le produit ne vous convient pas, vous disposez de 30 jours pour changer d'avis. Aucun formulaire. Aucune complication.</p>",
+            "page": ""
+          }
+        },
+        "urgency_notice": {
+          "type": "urgency_notice",
+          "settings": {
+            "line_1": "<p><strong>Attention Aux Imitations.</strong></p>",
+            "line_2": "<p><strong>verrarituel.com</strong>est la seule marque officielle à proposer ce savon antifongique avec une formulation de <strong>haute qualité</strong>. Nous ne vendons ni sur Amazon ni sur d’autres sites.</p>",
+            "font_size": 1.2,
+            "bg_color": "#fef2f2",
+            "text_color": "#9f3f3f",
+            "border_width": 2,
+            "border_style": "dashed",
+            "border_color": "#fca5a5",
+            "border_radius": 3,
+            "icon_name": "error",
+            "icon_color": "#d61717",
+            "icon_scale": 1.2
+          }
+        }
+      },
+      "block_order": [
+        "star_rating",
+        "title",
+        "text_Urya33",
+        "statement_vr",
+        "benefits_list",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "sticky_cart",
+        "trust_microcopy",
+        "custom_liquid_ELCB4G",
+        "collapsible_tab_desc",
+        "collapsible_tab_why",
+        "collapsible_tab_benefits",
+        "collapsible_tab_use",
+        "collapsible_tab_guarantee",
+        "urgency_notice"
+      ],
+      "custom_css": [
+        ".urgency-notice {margin-bottom: 15px;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "mobile_thumbnails": "show",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "clinical_proven_vr": {
+      "type": "clinical-proven",
+      "blocks": {
+        "stat_1": {
+          "type": "stat",
+          "settings": {
+            "percentage": 97,
+            "heading": "<strong>Diminution de l'inconfort</strong>",
+            "caption": "Ont ressenti une diminution des démangeaisons et de l'inconfort au cours des premières semaines d'utilisation."
+          }
+        },
+        "stat_2": {
+          "type": "stat",
+          "settings": {
+            "percentage": 94,
+            "heading": "<strong>Peau plus saine et nette</strong>",
+            "caption": "Ont constaté une peau visiblement plus propre, plus saine, avec moins d'odeurs persistantes et de zones qui pèlent."
+          }
+        },
+        "stat_3": {
+          "type": "stat",
+          "settings": {
+            "percentage": 92,
+            "heading": "<strong>Confiance retrouvée</strong>",
+            "caption": "Se sentent à nouveau à l'aise pour marcher pieds nus ou porter des sandales, même en public."
+          }
+        },
+        "stat_4": {
+          "type": "stat",
+          "settings": {
+            "percentage": 93,
+            "heading": "<strong>Ne reviendraient jamais en arrière</strong>",
+            "caption": "Préfèrent Verra Rituel aux crèmes et sprays antifongiques classiques qu'ils utilisaient avant."
+          }
+        }
+      },
+      "block_order": [
+        "stat_1",
+        "stat_2",
+        "stat_3",
+        "stat_4"
+      ],
+      "custom_css": [],
+      "settings": {
+        "bg_color": "#1a3018",
+        "image_opacity": 10,
+        "text_color": "#ffffff",
+        "percentage_color": "#dff47e",
+        "highlight_color": "#dff47e",
+        "heading": "<strong>Des résultats visibles</strong> en quelques semaines",
+        "heading_size": 31,
+        "subtitle": "Quand des actifs naturels puissants rencontrent une efficacité prouvée, les résultats parlent d'eux-mêmes.",
+        "cta_function": "link",
+        "cta_text": "Essayer sans risque",
+        "cta_url": "#ProductInfo-template--27090456740203__main",
+        "cta_bg_color": "#dff47e",
+        "cta_text_color": "#1a3018",
+        "guarantee_text": "Garantie 30 jours satisfait ou remboursé",
+        "padding_top": 84,
+        "padding_bottom": 80
+      }
+    },
+    "feature_cards": {
+      "type": "feature-cards",
+      "blocks": {
+        "card_1": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/d1b.png",
+            "title": "<strong>Huile de Tea Tree</strong>",
+            "text": "L'actif phare de la formule. L'huile d'arbre à thé est reconnue pour ses <strong>propriétés naturellement purifiantes</strong>. Elle aide à <strong>assainir la peau en profondeur</strong> et à limiter la propagation des déséquilibres cutanés — sans produits chimiques agressifs.",
+            "card_bg_color": ""
+          }
+        },
+        "card_2": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/d2.png",
+            "title": "<strong>Huile d'eucalyptus</strong>",
+            "text": "Un antiseptique naturel qui <strong>nettoie les pores en profondeur et élimine les bactéries au contact</strong> — supprimant les conditions qui permettent aux mycoses de prospérer, tout en laissant une sensation de fraîcheur.",
+            "card_bg_color": ""
+          }
+        },
+        "card_3": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/d3.png",
+            "title": "<strong>Aloe Vera</strong>",
+            "text": "Reconnu pour ses vertus apaisantes, l'aloe vera aide à <strong>calmer la peau irritée</strong> — tiraillements, sensations de brûlure — tout en favorisant l'hydratation naturelle des zones fragilisées.",
+            "card_bg_color": ""
+          }
+        },
+        "card_4": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/d4.png",
+            "title": "<strong>Huile de Coco & Huile d'Olive</strong>",
+            "text": "La base nourrissante de la formule. L'huile de coco et l'huile d'olive <strong>protègent et restaurent la barrière cutanée</strong>, pour une peau douce et hydratée même après un nettoyage en profondeur.",
+            "card_bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_1",
+        "card_2",
+        "card_3",
+        "card_4"
+      ],
+      "settings": {
+        "heading": "Des ingrédients antifongiques naturels pour des <strong>résultats concrets</strong>",
+        "highlight_color": "#1a3018",
+        "card_title_size": 22,
+        "card_title_highlight": "#1a3018",
+        "section_bg_color": "",
+        "text_alignment": "center",
+        "card_border_radius": 12,
+        "image_border_radius": 0.8,
+        "mobile_layout": "slider",
+        "pagination_type": "both",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "testimonial_slider": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "review_1": {
+          "type": "review",
+          "settings": {
+            "rating": "5.0",
+            "quote": "fonctionne vraiment",
+            "details": "J'ai testé énormément de produits contre les problèmes de pieds, sans succès durable.\nCe savon est le premier qui a vraiment fait une différence : moins d'odeur, une peau plus saine et surtout une vraie sensation de propreté après chaque utilisation.\nSimple, efficace, et agréable à utiliser. Je recommande sans hésiter.",
+            "author_name": "Élise Morel",
+            "tag_1": "Pied d'athlète",
+            "tag_2": "Peau saine",
+            "card_bg_color": ""
+          }
+        },
+        "review_2": {
+          "type": "review",
+          "settings": {
+            "rating": "5.0",
+            "quote": "Mes pieds ont complètement changé",
+            "details": "Après quelques semaines d'utilisation, mes pieds sont méconnaissables.\nFini la peau sèche, les fissures et l'inconfort.\nLe savon sent bon sans être agressif et laisse la peau douce.\nC'est devenu un indispensable dans ma routine.",
+            "author_name": "Antoine Pelletier",
+            "tag_1": "Fissures",
+            "tag_2": "Routine quotidienne",
+            "card_bg_color": ""
+          }
+        },
+        "review_3": {
+          "type": "review",
+          "settings": {
+            "rating": "5.0",
+            "quote": "terriblement efficace",
+            "details": "J'avais honte de mes pieds et j'évitais même de les montrer.\nCe savon a clairement amélioré la situation : peau plus saine, moins de gêne, et surtout plus de confiance.\nJe ne pensais pas qu'un produit aussi simple pouvait être aussi efficace.",
+            "author_name": "Thomas Lefèvre",
+            "tag_1": "Confiance",
+            "tag_2": "Résultats rapides",
+            "card_bg_color": ""
+          }
+        },
+        "review_4": {
+          "type": "review",
+          "settings": {
+            "rating": "5.0",
+            "quote": "Le seul savon que je rachèterai",
+            "details": "J'étais sceptique au départ, mais les résultats parlent d'eux-mêmes.\nDès les premières utilisations, on sent une vraie différence.\nMes pieds restent frais plus longtemps et la peau est beaucoup plus nette.\nJe ne reviendrai jamais aux produits classiques.",
+            "author_name": "Camille Renaud",
+            "tag_1": "Odeurs",
+            "tag_2": "Peau nette",
+            "card_bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "review_1",
+        "review_2",
+        "review_3",
+        "review_4"
+      ],
+      "custom_css": [
+        ".ts-review__quote {font-weight: bold;}"
+      ],
+      "settings": {
+        "heading": "« Le meilleur savon antifongique que j’ai utilisé »",
+        "subheading": "Découvrez ce que nos clients disent de Verra Rituel",
+        "highlight_color": "#1a3018",
+        "star_color": "#1a3018",
+        "verified_color": "#1a3018",
+        "tag_color": "#1a3018",
+        "tag_bg_color": "#e8f5e0",
+        "ticker_speed": 30,
+        "section_bg_color": "#f5fdf4",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ticker_bar_vr": {
+      "type": "ticker-bar",
+      "blocks": {
+        "ticker_item_hPwWHQ": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "FABRICATION ARTISANALE",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_Ft8VNk": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "SENTEUR FRAÎCHE NATURELLE",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_NVjamN": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "LIVRAISON RAPIDE",
+            "icon_name": "verified"
+          }
+        }
+      },
+      "block_order": [
+        "ticker_item_hPwWHQ",
+        "ticker_item_Ft8VNk",
+        "ticker_item_NVjamN"
+      ],
+      "settings": {
+        "background_color": "#1a1a1a",
+        "text_color": "#dff47e",
+        "border_position": "none",
+        "border_thickness": 1,
+        "border_color": "#ffffff",
+        "font_size": 14,
+        "font_weight": "500",
+        "spacing": 40,
+        "icon_size": 20,
+        "speed": 5,
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "aria_label": "Scrolling announcements"
+      }
+    },
+    "wellness_journey": {
+      "type": "wellness-journey",
+      "blocks": {
+        "wj_1": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "7 jours : les premiers signes",
+            "bullets": "<ul><li>La peau paraît plus propre et plus fraîche au quotidien</li><li>Les odeurs et l'inconfort liés à l'humidité commencent à diminuer</li><li>Votre peau s'adapte, continuez</li></ul>"
+          }
+        },
+        "wj_2": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "1 mois : résultats visibles",
+            "bullets": "<ul><li>L'aspect de la peau s'améliore visiblement</li><li>Elle est plus nette, plus saine et plus confortable</li><li>Les démangeaisons et irritations diminuent nettement</li></ul>"
+          }
+        },
+        "wj_3": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "2 mois : stabilisation",
+            "bullets": "<ul><li>Les résultats se stabilisent durablement</li><li>La peau devient plus régulière et facile à maintenir</li><li>Vous retrouvez confiance au quotidien</li></ul>"
+          }
+        },
+        "wj_4": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "4 mois+ : entretien durable",
+            "bullets": "<ul><li>Le savon devient un allié d'entretien quotidien</li><li>La peau reste saine, équilibrée et confortable</li><li>Plus besoin de penser à vos pieds — ils sont enfin libres</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "wj_1",
+        "wj_2",
+        "wj_3",
+        "wj_4"
+      ],
+      "settings": {
+        "brand_image": "shopify://shop_images/d8.png",
+        "heading": "<strong>Votre parcours</strong> avec Verra Rituel®",
+        "description": "Avec une utilisation régulière, de nombreux utilisateurs constatent une amélioration nette de l'état de leurs pieds dès les premières semaines.",
+        "highlight_color": "#1a3018",
+        "button_color": "#dff47e",
+        "bg_color": "",
+        "cta_text": "",
+        "cta_link": "",
+        "cta_note": "",
+        "cta_note_icon_name": "",
+        "cta_height": 40,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "reasons_why_G8JL9x": {
+      "type": "reasons-why",
+      "blocks": {
+        "reason_card_rMYEKy": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/d5.png",
+            "label": "Étape 1",
+            "heading": "Mouillez et faites mousser",
+            "details": "<p>Humidifiez vos pieds, puis faites mousser le savon entre vos mains ou directement sur la peau.</p>"
+          }
+        },
+        "reason_card_iCbCKe": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/d6.png",
+            "label": "Étape 2",
+            "heading": "Nettoyez en douceur",
+            "details": "<p>Massez délicatement, en insistant entre les orteils et sur les zones concernées, puis laissez agir quelques instants.</p>"
+          }
+        },
+        "reason_card_3J3gPM": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/d7.png",
+            "label": "Étape 3",
+            "heading": "Rincez et séchez soigneusement",
+            "details": "<p>Rincez abondamment à l’eau claire, puis séchez bien vos pieds, notamment entre les orteils.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "reason_card_rMYEKy",
+        "reason_card_iCbCKe",
+        "reason_card_3J3gPM"
+      ],
+      "name": "Reasons why",
+      "settings": {
+        "badge_text": "Comment utiliser notre savon ",
+        "subheading": "Une routine simple, rapide et efficace à intégrer au quotidien.",
+        "bg_color": "#f1f3ea",
+        "text_color": "#000000",
+        "badge_bg_color": "#3a7830",
+        "badge_text_color": "#ffffff",
+        "label_bg_color": "#dff47e",
+        "label_text_color": "#1a3018",
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#0000004d",
+        "card_text_color": "#000000",
+        "badge_font_size": 28,
+        "subheading_font_size": 18,
+        "label_font_size": 17,
+        "card_heading_font_size": 21,
+        "details_font_size": 16,
+        "card_height": 408,
+        "card_radius": 7,
+        "card_gap": 13,
+        "max_width": 1500,
+        "cta_text": "Essayer dès maintenant",
+        "cta_url": "#ProductInfo-template--27090456740203__main",
+        "cta_bg_color": "#dff47e",
+        "cta_text_color": "#1a3018",
+        "cta_font_size": 19,
+        "cta_margin_top": 40,
+        "guarantee_text": "Garantie 30 jours satisfait ou remboursé",
+        "guarantee_icon": "shopify://shop_images/reasons_why.png",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "proven_benefits": {
+      "type": "proven-benefits",
+      "blocks": {
+        "pb_1": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/d1b.png",
+            "title": "Arbre à thé",
+            "description": "Antifongique à la source",
+            "answer": "L'huile d'arbre à thé contient du terpinène-4-ol, un composé qui détruit les membranes des cellules fongiques et élimine les infections à la racine."
+          }
+        },
+        "pb_2": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/d2.png",
+            "title": "Eucalyptus",
+            "description": "Nettoyage antiseptique en profondeur",
+            "answer": "L'huile d'eucalyptus pénètre profondément dans les pores pour éliminer bactéries et spores fongiques, créant un environnement où les infections ne peuvent tout simplement pas survivre."
+          }
+        },
+        "pb_3": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/d3.png",
+            "title": "Aloe Vera",
+            "description": "Apaisement et hydratation",
+            "answer": "L'aloe vera calme les peaux irritées et fragilisées — tiraillements, sensations de brûlure. Il aide à restaurer l'hydratation naturelle et favorise le confort cutané au quotidien."
+          }
+        },
+        "pb_4": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/d4.png",
+            "title": "Huile de coco",
+            "description": "Hydratation et protection",
+            "answer": "L'huile de coco nourrit et protège la barrière cutanée pendant que les actifs antifongiques agissent. Elle empêche le dessèchement et adoucit la peau fragilisée."
+          }
+        }
+      },
+      "block_order": [
+        "pb_1",
+        "pb_2",
+        "pb_3",
+        "pb_4"
+      ],
+      "settings": {
+        "heading": "Pourquoi ces <strong>ingrédients</strong> fonctionnent",
+        "subheading": "La formule met en avant des ingrédients connus pour leurs propriétés purifiantes et apaisantes : huile d'arbre à thé, huile de coco, aloe vera, eucalyptus et hamamélis.",
+        "highlight_color": "#1a3018",
+        "bg_color": "",
+        "cta_text": "",
+        "cta_link": "",
+        "cta_note": "",
+        "cta_note_icon_name": "",
+        "cta_height": 50,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "reasons_why_vr": {
+      "type": "reasons-why",
+      "blocks": {
+        "reason_1": {
+          "type": "reason_card",
+          "settings": {
+            "label": "Raison 1",
+            "heading": "6 actifs naturels, une formule complète",
+            "details": "<p>Huile de tea tree, huile de coco, aloe vera, huile d'olive, eucalyptus et hamamélis — des ingrédients qui assainissent en profondeur tout en apaisant la peau irritée.</p>"
+          }
+        },
+        "reason_2": {
+          "type": "reason_card",
+          "settings": {
+            "label": "Raison 2",
+            "heading": "Résultats dès les premières semaines",
+            "details": "<p>97% des utilisateurs constatent une diminution de l'inconfort au cours des premières semaines. Un soulagement rapide et durable.</p>"
+          }
+        },
+        "reason_3": {
+          "type": "reason_card",
+          "settings": {
+            "label": "Raison 3",
+            "heading": "Simple et pratique",
+            "details": "<p>Un seul savon, sous la douche, une fois par jour. Pas de crèmes, pas de sprays, pas de routine compliquée.</p>"
+          }
+        },
+        "reason_4": {
+          "type": "reason_card",
+          "settings": {
+            "label": "Raison 4",
+            "heading": "Sans risque — Garantie 30 jours",
+            "details": "<p>Pas d'amélioration ? On vous rembourse intégralement. Sans formulaire, sans complication.</p>"
+          }
+        },
+        "reason_5": {
+          "type": "reason_card",
+          "settings": {
+            "label": "Raison 5",
+            "heading": "20 000+ clients satisfaits",
+            "details": "<p>Des milliers de personnes ont retrouvé des pieds sains et la confiance de marcher pieds nus à nouveau.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "reason_1",
+        "reason_2",
+        "reason_3",
+        "reason_4",
+        "reason_5"
+      ],
+      "disabled": true,
+      "settings": {
+        "badge_text": "5 raisons",
+        "subheading": "Pourquoi Verra Rituel® est différent de tout ce que vous avez essayé",
+        "bg_color": "#f5fdf4",
+        "text_color": "#000000",
+        "badge_bg_color": "#1a3018",
+        "badge_text_color": "#dff47e",
+        "label_bg_color": "#1a3018",
+        "label_text_color": "#dff47e",
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#0000004d",
+        "card_text_color": "#000000",
+        "badge_font_size": 28,
+        "subheading_font_size": 31,
+        "label_font_size": 17,
+        "card_heading_font_size": 21,
+        "details_font_size": 16,
+        "card_height": 408,
+        "card_radius": 12,
+        "card_gap": 13,
+        "max_width": 1500,
+        "cta_text": "Essayer sans risque",
+        "cta_url": "",
+        "cta_bg_color": "#dff47e",
+        "cta_text_color": "#1a3018",
+        "cta_font_size": 19,
+        "cta_margin_top": 40,
+        "guarantee_text": "Garantie 30 jours satisfait ou remboursé",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "brand_comparison": {
+      "type": "brand-comparison",
+      "blocks": {
+        "bc_1": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Sans odeur en quelques jours",
+            "competitor_text": "Masque l'odeur, ne l'élimine pas"
+          }
+        },
+        "bc_2": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Peau saine et nette",
+            "competitor_text": "Peau sèche et irritée"
+          }
+        },
+        "bc_3": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Fini les démangeaisons",
+            "competitor_text": "Soulagement temporaire"
+          }
+        },
+        "bc_4": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "1 savon, 0 prise de tête",
+            "competitor_text": "Crèmes + sprays + poudres"
+          }
+        },
+        "bc_5": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Résultats qui durent",
+            "competitor_text": "Le problème revient"
+          }
+        }
+      },
+      "block_order": [
+        "bc_1",
+        "bc_2",
+        "bc_3",
+        "bc_4",
+        "bc_5"
+      ],
+      "settings": {
+        "heading": "<strong>Verra Rituel®</strong> vs. les autres produits",
+        "heading_size": 36,
+        "bg_gradient_start": "#1a3018",
+        "bg_gradient_end": "#839e07",
+        "text_color": "#ffffff",
+        "highlight_color": "#dff47e",
+        "brand_name": "<strong>Verra Rituel</strong>",
+        "brand_name_color": "#ffffff",
+        "brand_image": "shopify://shop_images/p.png",
+        "brand_col_color": "#3a7830",
+        "brand_icon_color": "#ffffff",
+        "competitor_label": "<strong>Autres produits</strong>",
+        "comp_col_color": "#ffffff",
+        "comp_text_color": "#000000",
+        "comp_icon_color": "#999999",
+        "icons_filled": true,
+        "checklist_1": "<strong>Retrouvez des pieds sains</strong> — Plus de gêne, plus de confiance",
+        "checklist_2": "<strong>Résultats dès les premiers jours</strong> — Moins d'odeur, moins de démangeaisons",
+        "checklist_3": "<strong>Un seul geste sous la douche</strong> — Simple et efficace",
+        "checklist_4": "<strong>100% naturel</strong> — Doux pour la peau, redoutable contre les mycoses",
+        "cta_text": "Essayer sans risque",
+        "cta_link": "",
+        "cta_height": 54,
+        "cta_bg_color": "#dff47e",
+        "cta_text_color": "#004c3c",
+        "cta_font_weight": "700",
+        "note_text": "Garantie 30 jours satisfait ou remboursé",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "risk_free_trial": {
+      "type": "risk-free-trial",
+      "settings": {
+        "badge_image": "shopify://shop_images/d10.png",
+        "badge_number": "30",
+        "badge_label": "JOURS",
+        "subtitle": "GARANTIE 30 JOURS",
+        "heading": "Aimez votre savon",
+        "heading_size": 23,
+        "description": "Si vous ne constatez pas d'amélioration ou si le produit ne vous convient pas, vous disposez de 30 jours pour changer d'avis.",
+        "image": "shopify://shop_images/d9_c4a01fd5-cfcb-40e5-ac28-8caea78d80fd.png",
+        "bg_color": "#e8f5e0",
+        "accent_color": "#095946",
+        "text_color": "",
+        "cta_text": "Essayer sans risque",
+        "cta_link": "",
+        "cta_height": 50,
+        "cta_bg_color": "#dff47e",
+        "cta_text_color": "#1a3018",
+        "padding_top": 36
+      }
+    },
+    "apps_disabled": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "collapsible_content_vr": {
+      "type": "collapsible-content",
+      "blocks": {
+        "faq_1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "En combien de temps puis-je espérer voir une amélioration visible ?",
+            "icon": "none",
+            "row_content": "<p>Beaucoup de personnes constatent une diminution des démangeaisons et des odeurs dès <strong>1 à 2 semaines</strong>. Pour une peau visiblement plus saine et confortable, une utilisation régulière sur <strong>4 à 6 semaines</strong> est généralement recommandée.</p>",
+            "page": ""
+          }
+        },
+        "faq_2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "En quoi est-il différent des crèmes et sprays que j'ai déjà essayés ?",
+            "icon": "none",
+            "row_content": "<p>La plupart des solutions agissent surtout en surface. Le savon Verra Rituel® nettoie la peau en profondeur à chaque lavage, sans laisser de résidus, ce qui permet de <strong>limiter durablement les déséquilibres</strong> responsables de l'inconfort, plutôt que de simplement masquer les symptômes.</p>",
+            "page": ""
+          }
+        },
+        "faq_3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Est-ce que ce savon peut fonctionner là où les traitements antifongiques prescrits ont échoué ?",
+            "icon": "none",
+            "row_content": "<p>Oui. De nombreuses personnes se tournent vers l'huile d'arbre à thé pour ses propriétés naturellement purifiantes, notamment après des traitements synthétiques peu efficaces ou mal tolérés. Notre savon aide à <strong>assainir la peau en profondeur</strong>, dans le cadre d'une routine régulière et douce.</p>",
+            "page": ""
+          }
+        },
+        "faq_4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Puis-je l'utiliser tous les jours sans irriter ma peau ?",
+            "icon": "none",
+            "row_content": "<p>Oui. Sa formule naturelle a été pensée pour un <strong>usage quotidien</strong>. Elle nettoie efficacement tout en respectant l'équilibre de la peau, même sensible, sans effet agressif ou asséchant.</p>",
+            "page": ""
+          }
+        },
+        "faq_5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Est-ce que cela aide à éviter que le problème revienne ?",
+            "icon": "none",
+            "row_content": "<p>Oui. Une utilisation régulière et continue permet de maintenir une peau propre et équilibrée. Comme pour toute routine de soin, la <strong>constance est essentielle</strong> pour éviter les récidives liées à l'humidité et aux déséquilibres cutanés.</p>",
+            "page": ""
+          }
+        },
+        "faq_6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Convient-il aux peaux très sensibles ou abîmées ?",
+            "icon": "none",
+            "row_content": "<p>Oui. La formule a été conçue pour nettoyer tout en apaisant. Les ingrédients naturels contribuent à <strong>calmer la peau fragilisée</strong>, tout en aidant à assainir les zones concernées.</p>",
+            "page": ""
+          }
+        },
+        "faq_7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Est-ce qu'il peut aussi aider en cas de problèmes au niveau des ongles ?",
+            "icon": "none",
+            "row_content": "<p>Bien qu'il soit principalement destiné à la peau, certains utilisateurs constatent une amélioration globale lorsqu'il est utilisé régulièrement. Il contribue à maintenir une <strong>bonne hygiène</strong> et à limiter la propagation des déséquilibres autour des ongles.</p>",
+            "page": ""
+          }
+        },
+        "faq_8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quels sont les principaux bénéfices pour les problèmes de pieds récurrents ?",
+            "icon": "none",
+            "row_content": "<p>Le savon Verra Rituel aide à <strong>nettoyer en profondeur</strong>, réduire les odeurs, calmer les irritations et maintenir une peau saine sur le long terme. Il est conçu pour accompagner les personnes sujettes aux déséquilibres cutanés des pieds dans leur routine quotidienne.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "faq_1",
+        "faq_2",
+        "faq_3",
+        "faq_4",
+        "faq_5",
+        "faq_6",
+        "faq_7",
+        "faq_8"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Questions fréquentes",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "apps_reviews": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "Vous pourriez aussi aimer",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "clinical_proven_vr",
+    "feature_cards",
+    "testimonial_slider",
+    "ticker_bar_vr",
+    "wellness_journey",
+    "reasons_why_G8JL9x",
+    "proven_benefits",
+    "reasons_why_vr",
+    "brand_comparison",
+    "risk_free_trial",
+    "apps_disabled",
+    "collapsible_content_vr",
+    "apps_reviews",
+    "related-products"
+  ]
+}
