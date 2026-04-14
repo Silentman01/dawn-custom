@@ -1,0 +1,962 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "star_rating": {
+          "type": "star_rating",
+          "settings": {
+            "rating": 4.8,
+            "text": "<strong>Excellent</strong> 4.8 out of 5",
+            "star_color": "#c4b8d9",
+            "star_bg_color": "#ececec",
+            "star_size": 1.3,
+            "star_gap": 0.4,
+            "alignment": "flex-start",
+            "text_color": "#121212",
+            "highlight_color": "#000000"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": 26,
+            "title_weight": "400",
+            "title_transform": "none",
+            "title_color": ""
+          }
+        },
+        "text_subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "You fall asleep fine. The problem is <strong>3am</strong>. Your eyes snap open. Your brain floods. And you lie there calculating how many hours until the alarm — which only makes it <strong>worse</strong>. This isn't insomnia. Your body's <strong>sleep signal is scrambled</strong>. This bracelet resets it through your <strong>pulse point</strong>.",
+            "text_style": "body"
+          }
+        },
+        "benefits_list": {
+          "type": "benefits_list",
+          "settings": {
+            "text_color": "#121212",
+            "icon_color": "#7b6f99",
+            "layout": "one_per_line",
+            "benefit_1": "Fall asleep and actually stay asleep — no more 3am wake-ups",
+            "benefit_2": "No melatonin grogginess, no weird dreams, no sleeping pill hangover",
+            "benefit_3": "Resets your circadian signal through crystal frequency at your pulse point",
+            "benefit_4": "Wake up feeling like a person again — not a zombie running on fumes",
+            "benefit_5": "",
+            "benefit_6": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false,
+            "button_font_size": 1.8,
+            "button_font_weight": "700",
+            "button_text_transform": "none"
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "disabled": true,
+          "settings": {
+            "function": "link",
+            "button_link": "",
+            "display_when": "after_scroll",
+            "button_label": "Try It Risk-Free",
+            "enable_custom_btn_color": false,
+            "custom_btn_color": "#7b6f99",
+            "color_scheme": "scheme-1",
+            "star_color": "#ffcc00",
+            "stars_label": "Excellent 4.8 — 3,214+ reviews",
+            "button_font_size": 1.6,
+            "button_font_weight": "700",
+            "button_text_transform": "none",
+            "desktop_show_image": true,
+            "desktop_show_title": true,
+            "desktop_rating_stars": true,
+            "desktop_show_price": false,
+            "desktop_show_sale_badge": false,
+            "desktop_variant_picker": false,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": true,
+            "mobile_show_title": true,
+            "mobile_rating_stars": true,
+            "mobile_show_price": false,
+            "mobile_show_sale_badge": false,
+            "mobile_variant_picker": false,
+            "mobile_full_button_width": true,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        },
+        "trust_microcopy": {
+          "type": "trust_microcopy",
+          "settings": {
+            "font_size": 1.6,
+            "font_size_2_items": 1.4,
+            "bg_color": "",
+            "text_color": "#121212",
+            "text_1": "Free shipping over $35",
+            "icon_name_1": "local_shipping",
+            "text_2": "90-day money back guarantee",
+            "icon_name_2": "verified_user"
+          }
+        },
+        "custom_liquid_social_proof": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"fb-comment-block\" style=\"margin-top: 0px; margin-bottom: 0px;\"><div class=\"fb-comment-container\" style=\"border-radius: 0px; width: 100%; max-width: none; margin: 0; padding: 16px; overflow: hidden; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.34;\"><div class=\"fb-comment-inner\" style=\"display: flex; gap: 8px; align-items: flex-start;\"><div class=\"fb-comment-profile\" style=\"width: 32px; height: 32px; border-radius: 50%; position: relative; overflow: hidden; flex-shrink: 0;\"><img src=\"\" alt=\"Profile picture\" style=\"width: 100%; height: 100%; object-fit: cover; object-position: center; display: block;\"></div><div class=\"fb-comment-content\" style=\"flex: 1;\"><div class=\"fb-comment-bubble\" style=\"background: #f0f2f5; border-radius: 18px; padding: 8px 12px; margin-bottom: 4px; position: relative;\"><div class=\"fb-comment-author\" style=\"font-weight: 700; font-size: 13px; color: #050505; margin-bottom: 2px;\"><strong>Lauren M.</strong></div><div class=\"fb-comment-text\" style=\"color: #050505; font-size: 15px; line-height: 1.3;\">I have been a perpetual 3am waker for two years. Like clockwork. Eyes open, brain goes into overdrive, heart racing, calculating hours until the alarm. Tried melatonin (groggy + weird dreams), magnesium, CBD, weighted blanket, sleep app, the whole cabinet. Nothing worked. My friend bought me this bracelet as a gift and I wore it to bed out of politeness. First night: woke up at 5:45am to my alarm. Not 3am. I actually cried. That was 6 weeks ago and I've slept through 5 out of 7 nights every week since. I don't understand HOW it works. I just know my brain finally shut off.</div></div><div class=\"fb-comment-meta\" style=\"display: flex; align-items: center; gap: 12px; margin-left: 12px; margin-bottom: 12px; font-size: 13px; color: #65676b;\"><span style=\"cursor: pointer; font-weight: 600;\">Like</span><span style=\"cursor: pointer; font-weight: 600;\">Reply</span><span>1d</span></div></div></div></div></div>"
+          }
+        },
+        "collapsible_tab_desc": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Will I actually sleep through the night?",
+            "icon": "none",
+            "content": "<p><strong>Most women notice a difference within the first week.</strong> The 3am wake-ups don't stop overnight — they fade. First you might wake at 3am but fall back asleep faster. Then you start waking at 4:30 instead. Then 5. By <strong>week 2–3</strong>, most women report sleeping through to their alarm for the first time in months. The key: <strong>wear it every night</strong>. The crystal frequency recalibrates your circadian rhythm gradually — not with a sledgehammer like sleeping pills, but like tuning an instrument back to pitch.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_how": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I wear it to sleep?",
+            "icon": "none",
+            "content": "<p>Wear it on your <strong>left wrist</strong> — the pulse point closest to the surface. The 3 magnetic contact points press against your inner wrist while you sleep, delivering the moonstone frequency directly into your circadian system. Most women forget it's there within minutes. It's lightweight, smooth, and sits flat against the skin — <strong>no clasps or bumps to dig in</strong>.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_mechanism": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How is this different from melatonin?",
+            "icon": "none",
+            "content": "<p>Melatonin helps you <strong>fall asleep</strong>. It does nothing for <strong>staying asleep</strong>. That's why you still wake up at 3am even after taking it. Moonstone works differently — its frequency interacts with your body's circadian oscillation through your pulse point, <strong>resetting the signal</strong> that tells your brain when to enter and maintain deep sleep. It doesn't knock you out. It reminds your body how to sleep the way it used to — before the stress, the screens, and the hormonal shifts scrambled the signal.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_guarantee": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What if it doesn't work for me?",
+            "icon": "none",
+            "content": "<p><strong>90-day money back guarantee.</strong> You've already spent money on melatonin, magnesium, CBD, weighted blankets, sleep apps, and blackout curtains. This is the first one that comes with a promise: if you don't sleep better, you don't pay. No forms, no hassle, no return required.</p><p>support@olmi.co</p>",
+            "page": ""
+          }
+        },
+        "urgency_notice": {
+          "type": "urgency_notice",
+          "settings": {
+            "line_1": "<p><strong>This Is the Only Place to Get Olmi.</strong></p>",
+            "line_2": "<p><strong>olmi.co</strong> is the only authorized retailer. We do not sell on Amazon or through third parties.</p>",
+            "font_size": 1.2,
+            "bg_color": "#f3f0f8",
+            "text_color": "#4a3f6b",
+            "border_width": 2,
+            "border_style": "dashed",
+            "border_color": "#c4b8d9",
+            "border_radius": 3,
+            "icon_name": "error",
+            "icon_color": "#7b6f99",
+            "icon_scale": 1.2
+          }
+        }
+      },
+      "block_order": [
+        "star_rating",
+        "title",
+        "text_subtitle",
+        "benefits_list",
+        "quantity_selector",
+        "buy_buttons",
+        "sticky_cart",
+        "trust_microcopy",
+        "custom_liquid_social_proof",
+        "collapsible_tab_desc",
+        "collapsible_tab_how",
+        "collapsible_tab_mechanism",
+        "collapsible_tab_guarantee",
+        "urgency_notice"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "mobile_thumbnails": "show",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "clinical_proven_vr": {
+      "type": "clinical-proven",
+      "blocks": {
+        "stat_1": {
+          "type": "stat",
+          "settings": {
+            "percentage": 93,
+            "heading": "<strong>Stopped waking at 3am</strong>",
+            "caption": "Reported sleeping through to their alarm without a middle-of-the-night wake-up within 14 days of nightly wear."
+          }
+        },
+        "stat_2": {
+          "type": "stat",
+          "settings": {
+            "percentage": 89,
+            "heading": "<strong>Quit melatonin entirely</strong>",
+            "caption": "Stopped using melatonin, sleep gummies, or other sleep supplements within 30 days — no grogginess, no weird dreams."
+          }
+        },
+        "stat_3": {
+          "type": "stat",
+          "settings": {
+            "percentage": 91,
+            "heading": "<strong>Woke up feeling like themselves</strong>",
+            "caption": "Said they felt rested, clear-headed, and patient for the first time in months — not foggy, not dragging, not faking it."
+          }
+        },
+        "stat_4": {
+          "type": "stat",
+          "settings": {
+            "percentage": 96,
+            "heading": "<strong>Would never go back</strong>",
+            "caption": "Prefer Olmi Moonstone over every sleep supplement, pill, and gadget they tried before — because this one actually keeps them asleep."
+          }
+        }
+      },
+      "block_order": [
+        "stat_1",
+        "stat_2",
+        "stat_3",
+        "stat_4"
+      ],
+      "settings": {
+        "bg_color": "#2d2b55",
+        "image_opacity": 10,
+        "text_color": "#ffffff",
+        "percentage_color": "#c4b8d9",
+        "highlight_color": "#c4b8d9",
+        "heading": "Your 3am wake-up isn't random. <strong>It's a signal — and it can be fixed.</strong>",
+        "heading_size": 31,
+        "subtitle": "When you stop masking the symptom and start resetting the signal, sleep comes back on its own.",
+        "cta_function": "link",
+        "cta_text": "Try It Risk-Free",
+        "cta_url": "#ProductInfo-template--main",
+        "cta_bg_color": "#c4b8d9",
+        "cta_text_color": "#2d2b55",
+        "guarantee_text": "90-day money back guarantee",
+        "padding_top": 84,
+        "padding_bottom": 80
+      }
+    },
+    "feature_cards": {
+      "type": "feature-cards",
+      "blocks": {
+        "card_1": {
+          "type": "card",
+          "settings": {
+            "image": "",
+            "title": "<strong>Moonstone Crystal</strong>",
+            "text": "Moonstone emits a frequency that matches your body's natural <strong>rest-state oscillation</strong> — the signal your brain needs to enter and maintain deep sleep. Screens, stress, and hormonal shifts have scrambled that signal. This crystal <strong>recalibrates it</strong> through your pulse point while you sleep.",
+            "card_bg_color": ""
+          }
+        },
+        "card_2": {
+          "type": "card",
+          "settings": {
+            "image": "",
+            "title": "<strong>3 Neodymium Magnets</strong>",
+            "text": "Three rare-earth magnets sit on the inner curve of the cuff, pressed against your wrist while you sleep. They <strong>amplify the crystal's circadian frequency</strong> and improve blood flow at the pulse point — delivering the sleep signal deeper into your nervous system.",
+            "card_bg_color": ""
+          }
+        },
+        "card_3": {
+          "type": "card",
+          "settings": {
+            "image": "",
+            "title": "<strong>Pulse Point Delivery</strong>",
+            "text": "Your wrist's pulse point is where your radial artery runs millimeters below the skin. It's the body's <strong>fastest entry for frequency-based signals</strong>. Olmi Moonstone is worn here — not as decoration, but as a <strong>circadian reset device</strong>.",
+            "card_bg_color": ""
+          }
+        },
+        "card_4": {
+          "type": "card",
+          "settings": {
+            "image": "",
+            "title": "<strong>Stays Asleep, Not Sleep Onset</strong>",
+            "text": "Melatonin helps you <strong>fall</strong> asleep. Moonstone helps you <strong>stay</strong> asleep. That's the difference. The crystal frequency doesn't knock you out — it maintains the deep-sleep state your body keeps dropping out of at 3am. <strong>No grogginess. No hangover. No weird dreams.</strong>",
+            "card_bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_1",
+        "card_2",
+        "card_3",
+        "card_4"
+      ],
+      "settings": {
+        "heading": "Why this bracelet does what <strong>melatonin never could</strong>",
+        "highlight_color": "#2d2b55",
+        "card_title_size": 22,
+        "card_title_highlight": "#7b6f99",
+        "section_bg_color": "",
+        "text_alignment": "center",
+        "card_border_radius": 12,
+        "image_border_radius": 0.8,
+        "mobile_layout": "slider",
+        "pagination_type": "both",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "testimonial_slider": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "review_1": {
+          "type": "review",
+          "settings": {
+            "rating": "5.0",
+            "quote": "I slept through the night for the first time in 14 months",
+            "details": "I fall asleep fine. Always have. My problem is 3am. Like clockwork — eyes open, brain goes into overdrive, heart racing, can't get back to sleep.\nI've tried melatonin (groggy mornings), magnesium, CBD, valerian, a weighted blanket, a sleep app, and chamomile tea. Don't even get me started on chamomile tea.\nI put this on my wrist before bed on a Tuesday. Woke up Wednesday at 6:15am to my alarm. Not 3am. I didn't believe it. But it kept happening.\nFour weeks in and I sleep through 5–6 nights a week. The 3am club lost a member.",
+            "author_name": "Michelle R., 43",
+            "tag_1": "3am wake-ups",
+            "tag_2": "Gone",
+            "card_bg_color": ""
+          }
+        },
+        "review_2": {
+          "type": "review",
+          "settings": {
+            "rating": "5.0",
+            "quote": "My kids got their mom back",
+            "details": "I was running on fumes for over a year. Waking up between 2–4am every single night. The brain fog, the snapping at my kids, the forgetting words mid-sentence — I didn't recognize myself.\nI wore this bracelet to bed and within 10 days the wake-ups started fading. First I'd still wake but fall back asleep. Then I started sleeping straight through.\nMy daughter said 'mom you're not grumpy anymore.' That's when I knew it was real.",
+            "author_name": "Katie B., 38",
+            "tag_1": "Brain fog",
+            "tag_2": "Mom of 2",
+            "card_bg_color": ""
+          }
+        },
+        "review_3": {
+          "type": "review",
+          "settings": {
+            "rating": "5.0",
+            "quote": "Melatonin made me groggy. This doesn't.",
+            "details": "The melatonin cycle was the worst. Take it to sleep, wake up foggy, need coffee to function, coffee keeps me up, take more melatonin. Repeat.\nThis bracelet broke the cycle. I don't take anything now. I just wear it.\nNo grogginess. No weird dreams. No 3am staring at the ceiling wondering what happened to the person who used to sleep 8 hours straight.\nI feel like myself again. That's it. That's the review.",
+            "author_name": "Danielle W., 41",
+            "tag_1": "Quit melatonin",
+            "tag_2": "No more grogginess",
+            "card_bg_color": ""
+          }
+        },
+        "review_4": {
+          "type": "review",
+          "settings": {
+            "rating": "5.0",
+            "quote": "Sleep became something that happened to other people. Not anymore.",
+            "details": "I haven't slept through the night since my second pregnancy. That was 5 years ago.\nI'd tried everything. And I mean the entire medicine cabinet — melatonin, magnesium glycinate, L-theanine, CBD, NyQuil, Tylenol PM, essential oils, a $200 mattress topper.\nMy sister sent me this. I almost didn't try it because I was so tired of being disappointed.\nFirst week was okay — still woke up but felt calmer. Second week I slept until 5am twice. By week 4 I was sleeping 7 hours straight on most nights.\nI cried telling my husband. Actual tears. From a bracelet.",
+            "author_name": "Priya S., 37",
+            "tag_1": "Tried everything",
+            "tag_2": "Finally worked",
+            "card_bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "review_1",
+        "review_2",
+        "review_3",
+        "review_4"
+      ],
+      "settings": {
+        "heading": "\"I thought I'd never sleep through the night again.\"",
+        "subheading": "Real women. Real broken sleep. Real nights back.",
+        "highlight_color": "#7b6f99",
+        "star_color": "#7b6f99",
+        "verified_color": "#7b6f99",
+        "tag_color": "#7b6f99",
+        "tag_bg_color": "#f3f0f8",
+        "ticker_speed": 30,
+        "section_bg_color": "#f9f7fc",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ticker_bar_vr": {
+      "type": "ticker-bar",
+      "blocks": {
+        "ticker_item_1": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "CIRCADIAN FREQUENCY RESET",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_2": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "3 MAGNETIC CONTACT POINTS",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_3": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "FREE SHIPPING",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_4": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "90-DAY GUARANTEE",
+            "icon_name": "verified"
+          }
+        }
+      },
+      "block_order": [
+        "ticker_item_1",
+        "ticker_item_2",
+        "ticker_item_3",
+        "ticker_item_4"
+      ],
+      "settings": {
+        "background_color": "#2d2b55",
+        "text_color": "#c4b8d9",
+        "border_position": "none",
+        "border_thickness": 1,
+        "border_color": "#ffffff",
+        "font_size": 14,
+        "font_weight": "500",
+        "spacing": 40,
+        "icon_size": 20,
+        "speed": 5,
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "aria_label": "Scrolling announcements"
+      }
+    },
+    "wellness_journey": {
+      "type": "wellness-journey",
+      "blocks": {
+        "wj_1": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Night 1–3: The signal begins",
+            "bullets": "<ul><li>Your pulse point receives the moonstone frequency while you sleep</li><li>You may still wake at 3am — but falling back asleep feels easier</li><li>The racing thoughts are a little quieter. The dread is a little less.</li></ul>"
+          }
+        },
+        "wj_2": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Week 1–2: The 3am shifts",
+            "bullets": "<ul><li>The wake-ups start moving later — 4am, then 4:30, then 5</li><li>When you do wake, your brain doesn't flood the way it used to</li><li>Morning fog starts to lift. Coffee feels optional, not mandatory.</li></ul>"
+          }
+        },
+        "wj_3": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Week 3–4: Sleep comes back",
+            "bullets": "<ul><li>You start sleeping through to your alarm 4–6 nights a week</li><li>You wake up and realize you don't remember the middle of the night</li><li>People start saying 'you look different.' You look rested.</li></ul>"
+          }
+        },
+        "wj_4": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Week 8+: The new normal",
+            "bullets": "<ul><li>Sleeping through the night feels normal again — not like a miracle</li><li>Your energy, patience, and sharpness during the day are back</li><li>You stop dreading bedtime. Sleep is no longer something that happens to other people.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "wj_1",
+        "wj_2",
+        "wj_3",
+        "wj_4"
+      ],
+      "settings": {
+        "brand_image": "",
+        "heading": "What happens when your body <strong>remembers how to sleep</strong>",
+        "description": "Your body didn't forget how to sleep. The signal got scrambled. Here's what happens when it comes back.",
+        "highlight_color": "#7b6f99",
+        "button_color": "#c4b8d9",
+        "bg_color": "",
+        "cta_text": "",
+        "cta_link": "",
+        "cta_note": "",
+        "cta_note_icon_name": "",
+        "cta_height": 40,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "reasons_why_G8JL9x": {
+      "type": "reasons-why",
+      "blocks": {
+        "reason_card_1": {
+          "type": "reason_card",
+          "settings": {
+            "image": "",
+            "label": "Step 1",
+            "heading": "Put it on before bed",
+            "details": "<p>Slide the open cuff onto your left wrist. The 3 magnetic contact points sit against your inner wrist, directly on your pulse point. Takes 2 seconds. No pills to swallow. No app to open.</p>"
+          }
+        },
+        "reason_card_2": {
+          "type": "reason_card",
+          "settings": {
+            "image": "",
+            "label": "Step 2",
+            "heading": "Sleep with it on",
+            "details": "<p>The moonstone crystal emits its circadian frequency all night. It's lightweight — most women forget it's there within minutes. No buzzing, no vibration, no noise. Just a gentle signal your nervous system receives while you rest.</p>"
+          }
+        },
+        "reason_card_3": {
+          "type": "reason_card",
+          "settings": {
+            "image": "",
+            "label": "Step 3",
+            "heading": "Wake up to your alarm — not to 3am",
+            "details": "<p>As your circadian rhythm recalibrates, the 3am wake-ups fade. Your brain stops jolting awake. Your heart stops racing at midnight. You sleep through — and wake up feeling like the person you used to be.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "reason_card_1",
+        "reason_card_2",
+        "reason_card_3"
+      ],
+      "settings": {
+        "badge_text": "How it works",
+        "subheading": "No pills. No apps. No sleep hygiene lectures. Just put it on.",
+        "bg_color": "#f3f0f8",
+        "text_color": "#000000",
+        "badge_bg_color": "#7b6f99",
+        "badge_text_color": "#ffffff",
+        "label_bg_color": "#c4b8d9",
+        "label_text_color": "#2d2b55",
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#0000004d",
+        "card_text_color": "#000000",
+        "badge_font_size": 28,
+        "subheading_font_size": 18,
+        "label_font_size": 17,
+        "card_heading_font_size": 21,
+        "details_font_size": 16,
+        "card_height": 408,
+        "card_radius": 7,
+        "card_gap": 13,
+        "max_width": 1500,
+        "cta_text": "Try It Risk-Free",
+        "cta_url": "#ProductInfo-template--main",
+        "cta_bg_color": "#c4b8d9",
+        "cta_text_color": "#2d2b55",
+        "cta_font_size": 19,
+        "cta_margin_top": 40,
+        "guarantee_text": "90-day money back guarantee",
+        "guarantee_icon": "",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "proven_benefits": {
+      "type": "proven-benefits",
+      "blocks": {
+        "pb_1": {
+          "type": "benefit",
+          "settings": {
+            "image": "",
+            "title": "Moonstone Crystal",
+            "description": "Circadian frequency match",
+            "answer": "Moonstone emits a vibrational frequency that matches your body's natural rest-state oscillation — the deep-sleep signal your brain produces when your circadian clock is functioning properly. Stress, screens, and hormonal changes have disrupted that clock. The crystal doesn't override your biology. It reminds it. Through direct pulse-point contact, moonstone re-synchronizes the circadian signal your body lost."
+          }
+        },
+        "pb_2": {
+          "type": "benefit",
+          "settings": {
+            "image": "",
+            "title": "Neodymium Magnets",
+            "description": "Nighttime signal amplification",
+            "answer": "Three neodymium magnets pressed against your pulse point amplify the crystal frequency and improve blood microcirculation at the wrist. This means the circadian signal reaches your nervous system faster and deeper — especially during the critical 2–4am window when cortisol typically spikes and jolts you awake. The magnets don't do the work alone — they make the crystal's signal louder."
+          }
+        },
+        "pb_3": {
+          "type": "benefit",
+          "settings": {
+            "image": "",
+            "title": "Sleep Maintenance",
+            "description": "Stays asleep, not just falls asleep",
+            "answer": "Melatonin acts on sleep onset — it helps you fall asleep. But it wears off after 4–5 hours, which is exactly when you wake up at 3am. Moonstone's frequency works on sleep maintenance — the ability to stay in deep restorative sleep throughout the entire night. That's why women who 'fall asleep fine but wake up at 3' see the biggest results. This targets the exact gap melatonin leaves."
+          }
+        },
+        "pb_4": {
+          "type": "benefit",
+          "settings": {
+            "image": "",
+            "title": "No Residue",
+            "description": "Nothing in your bloodstream",
+            "answer": "Moonstone works through frequency, not chemistry. Nothing enters your bloodstream. No grogginess the next morning. No weird dreams. No tolerance buildup. No dependence. No interaction with medication. You can wear it every night for years and it works the same on night 500 as it did on night 5. Try saying that about melatonin."
+          }
+        }
+      },
+      "block_order": [
+        "pb_1",
+        "pb_2",
+        "pb_3",
+        "pb_4"
+      ],
+      "settings": {
+        "heading": "The science behind <strong>why you wake up at 3am — and how this stops it</strong>",
+        "subheading": "Your body isn't broken. Your circadian signal is scrambled. Here's how Olmi Moonstone resets it.",
+        "highlight_color": "#7b6f99",
+        "bg_color": "",
+        "cta_text": "",
+        "cta_link": "",
+        "cta_note": "",
+        "cta_note_icon_name": "",
+        "cta_height": 50,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "reasons_why_vr": {
+      "type": "reasons-why",
+      "blocks": {
+        "reason_1": {
+          "type": "reason_card",
+          "settings": {
+            "label": "Reason 1",
+            "heading": "It fixes STAYING asleep — not falling asleep",
+            "details": "<p>You fall asleep fine. Your problem is 3am. Melatonin doesn't touch this. Moonstone's frequency works on sleep maintenance — the part of the sleep cycle that keeps breaking on you every single night.</p>"
+          }
+        },
+        "reason_2": {
+          "type": "reason_card",
+          "settings": {
+            "label": "Reason 2",
+            "heading": "Zero grogginess, zero side effects",
+            "details": "<p>No sleeping pill hangover. No foggy mornings. No weird dreams. Nothing enters your bloodstream. You wake up clear, rested, and sharp — not drugged.</p>"
+          }
+        },
+        "reason_3": {
+          "type": "reason_card",
+          "settings": {
+            "label": "Reason 3",
+            "heading": "93% stopped waking at 3am within 2 weeks",
+            "details": "<p>Not a vague \"sleep better\" claim. Specifically: the middle-of-the-night wake-ups — the ones that ruin your next day — stopped within 14 days for 93% of women who wore it nightly.</p>"
+          }
+        },
+        "reason_4": {
+          "type": "reason_card",
+          "settings": {
+            "label": "Reason 4",
+            "heading": "90-day guarantee — sleep through or pay nothing",
+            "details": "<p>You've spent money on melatonin, CBD, weighted blankets, and sleep apps. None of them came with this promise: if you don't sleep better, you get your money back. We do.</p>"
+          }
+        },
+        "reason_5": {
+          "type": "reason_card",
+          "settings": {
+            "label": "Reason 5",
+            "heading": "50,000+ women left the 3am club",
+            "details": "<p>They were perpetual 3am wakers. Like clockwork. Now they sleep through. Read their reviews below — they sound exactly like you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "reason_1",
+        "reason_2",
+        "reason_3",
+        "reason_4",
+        "reason_5"
+      ],
+      "disabled": false,
+      "settings": {
+        "badge_text": "5 reasons",
+        "subheading": "Why Olmi Moonstone works when melatonin didn't",
+        "bg_color": "#f9f7fc",
+        "text_color": "#000000",
+        "badge_bg_color": "#2d2b55",
+        "badge_text_color": "#c4b8d9",
+        "label_bg_color": "#2d2b55",
+        "label_text_color": "#c4b8d9",
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#0000004d",
+        "card_text_color": "#000000",
+        "badge_font_size": 28,
+        "subheading_font_size": 31,
+        "label_font_size": 17,
+        "card_heading_font_size": 21,
+        "details_font_size": 16,
+        "card_height": 408,
+        "card_radius": 12,
+        "card_gap": 13,
+        "max_width": 1500,
+        "cta_text": "Try It Risk-Free",
+        "cta_url": "#ProductInfo-template--main",
+        "cta_bg_color": "#c4b8d9",
+        "cta_text_color": "#2d2b55",
+        "cta_font_size": 19,
+        "cta_margin_top": 40,
+        "guarantee_text": "90-day money back guarantee",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "brand_comparison": {
+      "type": "brand-comparison",
+      "blocks": {
+        "bc_1": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Keeps you asleep all night",
+            "competitor_text": "Helps you fall asleep, wears off by 3am"
+          }
+        },
+        "bc_2": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Zero grogginess, zero hangover",
+            "competitor_text": "Foggy mornings, weird dreams, brain fog"
+          }
+        },
+        "bc_3": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Works the same on night 500",
+            "competitor_text": "Stops working after weeks, need higher dose"
+          }
+        },
+        "bc_4": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Nothing in your bloodstream",
+            "competitor_text": "Pills, gummies, tinctures every night"
+          }
+        },
+        "bc_5": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "90-day money back guarantee",
+            "competitor_text": "Non-refundable bottle, half-empty in the cabinet"
+          }
+        }
+      },
+      "block_order": [
+        "bc_1",
+        "bc_2",
+        "bc_3",
+        "bc_4",
+        "bc_5"
+      ],
+      "settings": {
+        "heading": "<strong>Olmi Moonstone</strong> vs. melatonin and sleep supplements",
+        "heading_size": 36,
+        "bg_gradient_start": "#2d2b55",
+        "bg_gradient_end": "#7b6f99",
+        "text_color": "#ffffff",
+        "highlight_color": "#c4b8d9",
+        "brand_name": "<strong>Olmi</strong>",
+        "brand_name_color": "#ffffff",
+        "brand_image": "",
+        "brand_col_color": "#4a3f6b",
+        "brand_icon_color": "#ffffff",
+        "competitor_label": "<strong>Melatonin & Sleep Aids</strong>",
+        "comp_col_color": "#ffffff",
+        "comp_text_color": "#000000",
+        "comp_icon_color": "#999999",
+        "icons_filled": true,
+        "checklist_1": "<strong>Sleep through the night</strong> — Not just the first 4 hours",
+        "checklist_2": "<strong>Wake up clear and sharp</strong> — Not foggy and reaching for coffee",
+        "checklist_3": "<strong>No tolerance, no dependence</strong> — Works the same every night",
+        "checklist_4": "<strong>Crystal frequency + magnetic therapy</strong> — Not another pill in the cabinet",
+        "cta_text": "Try It Risk-Free",
+        "cta_link": "#ProductInfo-template--main",
+        "cta_height": 54,
+        "cta_bg_color": "#c4b8d9",
+        "cta_text_color": "#2d2b55",
+        "cta_font_weight": "700",
+        "note_text": "90-day money back guarantee",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "risk_free_trial": {
+      "type": "risk-free-trial",
+      "settings": {
+        "badge_image": "",
+        "badge_number": "90",
+        "badge_label": "NIGHTS",
+        "subtitle": "THE OLMI SLEEP GUARANTEE",
+        "heading": "Sleep through or pay nothing",
+        "heading_size": 23,
+        "description": "You've spent money on melatonin that stopped working. Magnesium that did nothing. CBD that made you groggy. A weighted blanket collecting dust. We're the first to say: wear it for 90 nights. If you're still waking at 3am, we refund every penny. No forms. No argument. Because we know what happens when the signal resets — and so will you.",
+        "image": "",
+        "bg_color": "#f3f0f8",
+        "accent_color": "#2d2b55",
+        "text_color": "",
+        "cta_text": "Try It Risk-Free",
+        "cta_link": "#ProductInfo-template--main",
+        "cta_height": 50,
+        "cta_bg_color": "#c4b8d9",
+        "cta_text_color": "#2d2b55",
+        "padding_top": 36
+      }
+    },
+    "collapsible_content_vr": {
+      "type": "collapsible-content",
+      "blocks": {
+        "faq_1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I fall asleep fine — my problem is staying asleep. Will this help?",
+            "icon": "none",
+            "row_content": "<p>This is <strong>exactly</strong> who Olmi Moonstone was built for. Melatonin works on sleep onset — falling asleep. It wears off after 4–5 hours, which is exactly why you wake up at 3am. Moonstone's crystal frequency works on <strong>sleep maintenance</strong> — the ability to stay in deep restorative sleep through the entire night. If your problem is the middle-of-the-night wake-up, not the falling-asleep part, this targets your exact issue.</p>",
+            "page": ""
+          }
+        },
+        "faq_2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How is this different from every other sleep bracelet on Instagram?",
+            "icon": "none",
+            "row_content": "<p>Most sleep bracelets use generic magnetic therapy or vague crystal claims. Olmi Moonstone uses a <strong>specific crystal (moonstone) + 3 neodymium magnetic contact points</strong> positioned on your pulse point to target <strong>one specific problem: the disrupted circadian signal</strong> that causes middle-of-the-night wake-ups. We don't claim to \"promote relaxation.\" We target the 3am cortisol spike that jolts you awake — through a mechanism no other bracelet uses.</p>",
+            "page": ""
+          }
+        },
+        "faq_3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will it work if I'm in perimenopause?",
+            "icon": "none",
+            "row_content": "<p>Yes — and perimenopausal broken sleep is where Moonstone performs strongest. During perimenopause, cortisol rhythms become disrupted and spike at night instead of morning. That's the biological reason for the 3–4am wake-ups, the night sweats, the racing heart. Moonstone's frequency targets this exact cortisol-circadian disruption. Many of our best results come from women 38–50 who thought they'd \"just have to live with it.\"</p>",
+            "page": ""
+          }
+        },
+        "faq_4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is it comfortable to sleep in?",
+            "icon": "none",
+            "row_content": "<p>Yes. The cuff is smooth, lightweight, and sits flat against the wrist with no clasps, buckles, or protruding parts. The inner surface is polished stone — cool and comfortable against skin. Most women say they <strong>forget it's there within minutes</strong>. It's far more comfortable than a watch or fitness tracker — nothing digs in, nothing clicks.</p>",
+            "page": ""
+          }
+        },
+        "faq_5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I take it off during the day?",
+            "icon": "none",
+            "row_content": "<p>Absolutely. Many women wear it only at bedtime and remove it in the morning. Others wear it 24/7 because they like the calming effect during the day too. There's no wrong approach — the <strong>minimum effective use is nightly wear during sleep</strong>. That's when the circadian signal does its work.</p>",
+            "page": ""
+          }
+        },
+        "faq_6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if it doesn't work for me?",
+            "icon": "none",
+            "row_content": "<p><strong>90-day money back guarantee.</strong> Wear it every night for up to 90 nights. If you're still waking at 3am, email us at support@olmi.co and we'll refund everything. No forms, no return shipping, no argument. You've already tried things that didn't work and didn't offer your money back. This one does.</p>",
+            "page": ""
+          }
+        },
+        "faq_7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I stack it with the Howlite (anxiety) bracelet?",
+            "icon": "none",
+            "row_content": "<p>Yes — and many women do. If your 3am wake-up comes with <strong>racing thoughts and anxiety</strong>, stacking Moonstone (sleep signal) with Howlite (nervous system calm) targets both the circadian disruption AND the stress response that amplifies it. Wear Howlite during the day, add Moonstone at bedtime, or wear both to sleep.</p>",
+            "page": ""
+          }
+        },
+        "faq_8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How fast will I see results?",
+            "icon": "none",
+            "row_content": "<p>Most women notice a shift within <strong>the first week</strong> — not necessarily sleeping through, but waking less abruptly, falling back asleep faster, feeling calmer at 3am instead of panicked. By <strong>week 2–3</strong>, the 3am wake-ups typically shift later or disappear entirely. By <strong>week 4–6</strong>, most women report sleeping through to their alarm 5–6 nights a week. Full circadian recalibration usually takes <strong>6–8 weeks</strong> of consistent nightly wear.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "faq_1",
+        "faq_2",
+        "faq_3",
+        "faq_4",
+        "faq_5",
+        "faq_6",
+        "faq_7",
+        "faq_8"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Questions about Olmi Moonstone",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "apps_reviews": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "Build your sleep stack",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "clinical_proven_vr",
+    "feature_cards",
+    "testimonial_slider",
+    "ticker_bar_vr",
+    "wellness_journey",
+    "reasons_why_G8JL9x",
+    "proven_benefits",
+    "reasons_why_vr",
+    "brand_comparison",
+    "risk_free_trial",
+    "collapsible_content_vr",
+    "apps_reviews",
+    "related-products"
+  ]
+}
