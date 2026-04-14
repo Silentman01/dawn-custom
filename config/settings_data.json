@@ -11,11 +11,11 @@
   "current": {
     "logo": "shopify://shop_images/verrarituel_logo.png",
     "logo_width": 200,
-    "type_header_font": "poppins_n6",
+    "type_header_font": "arsenal_n4",
     "heading_scale": 100,
-    "type_body_font": "poppins_n4",
+    "type_body_font": "lato_n4",
     "body_scale": 100,
-    "custom_font_enabled": true,
+    "custom_font_enabled": false,
     "page_width": 1200,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
@@ -147,23 +147,8 @@
         "disabled": false,
         "settings": {}
       },
-      "15557474716127144420": {
-        "type": "shopify://apps/kaching-bundles/blocks/app-embed-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-        "disabled": false,
-        "settings": {}
-      },
-      "6319715395561037789": {
-        "type": "shopify://apps/trackify-x/blocks/app-embed/f3561b5a-1d26-4c4b-9d29-6bae914fb95d",
-        "disabled": false,
-        "settings": {}
-      },
       "15599951759576395258": {
         "type": "shopify://apps/mida-replay-heatmaps/blocks/mida_recorder/e4c350c5-eabf-426d-8014-47ef50412bd0",
-        "disabled": false,
-        "settings": {}
-      },
-      "2724325275511621162": {
-        "type": "shopify://apps/kaching-subscriptions/blocks/app-embed-block/1fa39fd7-f6a3-4bbc-9383-7d91d27b44f5",
         "disabled": false,
         "settings": {}
       }
