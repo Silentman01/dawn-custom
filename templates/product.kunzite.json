@@ -313,6 +313,7 @@
         "c3": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/energy_kunzite.png",
             "title": "<strong>Endocrine Signal Clearing</strong>",
             "text": "Your brain talks to your ovaries and thyroid through electrical signals. Stress, screens, and environmental toxins <strong>jam those signals</strong>. Kunzite helps clear the channel so your body can <strong>regulate itself again</strong>.",
             "card_bg_color": ""
@@ -510,6 +511,7 @@
         "pb3": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/energy_kunzite.png",
             "title": "Signal vs. Substance",
             "description": "No hormones. Just frequency.",
             "answer": "HRT adds hormones from outside. Kunzite helps your body regulate its OWN hormones by clearing signal interference. Nothing enters your bloodstream. No estrogen. No progesterone. No side effects. No cancer risk debate."
