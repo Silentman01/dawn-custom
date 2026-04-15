@@ -313,6 +313,7 @@
         "c3": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/energy_sunstoe.png",
             "title": "<strong>Adrenal Reset</strong>",
             "text": "Your adrenals produce the hormones that give you energy. Chronic stress has drained them to zero. Caffeine <strong>borrows</strong> from tomorrow's supply. Sunstone helps your adrenals <strong>refill</strong>.",
             "card_bg_color": ""
@@ -510,6 +511,7 @@
         "pb3": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/energy_sunstoe.png",
             "title": "Energy Production",
             "description": "Your body makes energy — when it can",
             "answer": "Your body already has the hardware to produce all-day energy. The adrenals, the thyroid, the mitochondria — they're not broken. They're depleted. Sunstone doesn't override them with stimulants. It helps them recover so they can do their job again."

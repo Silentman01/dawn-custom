@@ -313,6 +313,7 @@
         "c3": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/energy_moonstone.png",
             "title": "<strong>Pulse Point Delivery</strong>",
             "text": "Your wrist's pulse point is the body's <strong>fastest entry for frequency-based signals</strong>. Olmi Moonstone is worn here — not as decoration, but as a <strong>circadian reset device</strong>.",
             "card_bg_color": ""
@@ -510,6 +511,7 @@
         "pb3": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/energy_moonstone.png",
             "title": "Sleep Maintenance",
             "description": "Stays asleep, not just falls asleep",
             "answer": "Melatonin acts on sleep onset and wears off after 4–5 hours — exactly when you wake at 3am. Moonstone's frequency works on sleep maintenance. It targets the exact gap melatonin leaves."
