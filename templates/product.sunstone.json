@@ -295,6 +295,7 @@
         "c1": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/crystal_sunstone.png",
             "title": "<strong>Sunstone Crystal</strong>",
             "text": "Sunstone emits a warm-spectrum frequency that stimulates <strong>adrenal recovery</strong> through your pulse point. Instead of borrowing energy from caffeine, it helps your body <strong>produce its own again</strong>.",
             "card_bg_color": ""
@@ -303,6 +304,7 @@
         "c2": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/magnets_sunstone.png",
             "title": "<strong>3 Neodymium Magnets</strong>",
             "text": "Three magnets amplify the crystal's thermal frequency and improve blood flow at the pulse point — delivering the <strong>adrenal activation signal</strong> deeper and faster.",
             "card_bg_color": ""
@@ -490,6 +492,7 @@
         "pb1": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/crystal_sunstone.png",
             "title": "Sunstone Crystal",
             "description": "Adrenal activation frequency",
             "answer": "Sunstone emits a warm-spectrum frequency that stimulates adrenal recovery through your pulse point. Your adrenals have been drained by years of chronic stress. Caffeine masks the emptiness. Sunstone helps refill it."
@@ -498,6 +501,7 @@
         "pb2": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/magnets_sunstone.png",
             "title": "Neodymium Magnets",
             "description": "Thermal signal amplification",
             "answer": "Three magnets amplify the crystal's warm frequency and improve microcirculation at the wrist — delivering the adrenal activation signal deeper. More blood flow means more oxygen to depleted glands."
