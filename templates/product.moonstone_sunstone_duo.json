@@ -478,6 +478,7 @@
         "b3",
         "b4"
       ],
+      "disabled": true,
       "settings": {
         "heading": "<strong>Day & Night.</strong> Total Reset.",
         "subheading": "You don't need two fixes. You need one system that addresses both halves.",
@@ -724,6 +725,7 @@
         "r4",
         "r5"
       ],
+      "disabled": true,
       "settings": {
         "badge_text": "5 Reasons Why",
         "subheading": "The Olmi Duo Works When Half-Solutions Didn't",
