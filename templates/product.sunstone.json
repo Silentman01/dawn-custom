@@ -152,7 +152,7 @@
           "type": "urgency_notice",
           "settings": {
             "line_1": "<p><strong>This Is the Only Place to Get Olmi.</strong></p>",
-            "line_2": "<p><strong>olmi.co</strong> is the only authorized retailer. We do not sell on Amazon or through third parties.</p>",
+            "line_2": "<p><strong>myolmi.com</strong> is the only authorized retailer. We do not sell on Amazon or through third parties.</p>",
             "font_size": 1.2,
             "bg_color": "#fdf5ec",
             "text_color": "#5a3a15",
@@ -949,7 +949,7 @@
           "settings": {
             "heading": "What if it doesn't work?",
             "icon": "none",
-            "row_content": "<p><strong>90-day money back guarantee.</strong> Email support@olmi.co. Full refund. No forms.</p>",
+            "row_content": "<p><strong>90-day money back guarantee.</strong> Email hello@myolmi.com. Full refund. No forms.</p>",
             "page": ""
           }
         },
