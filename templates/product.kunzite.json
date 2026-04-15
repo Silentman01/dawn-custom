@@ -304,6 +304,7 @@
         "c2": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/magnets_kunzite.png",
             "title": "<strong>3 Neodymium Magnets</strong>",
             "text": "Three magnets amplify the crystal's endocrine frequency and improve blood flow at the pulse point — delivering the <strong>hormonal recalibration signal</strong> deeper into your system.",
             "card_bg_color": ""
@@ -491,6 +492,7 @@
         "pb1": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/crystal_kunzite.png",
             "title": "Kunzite Crystal",
             "description": "Endocrine frequency alignment",
             "answer": "Kunzite resonates at a frequency aligned with the endocrine system. Through pulse-point contact, it helps clear the electromagnetic interference disrupting signals between your brain, ovaries, and thyroid. Your body already knows how to regulate hormones — it just needs a clear channel."
@@ -499,6 +501,7 @@
         "pb2": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/magnets_kunzite.png",
             "title": "Neodymium Magnets",
             "description": "Endocrine signal amplification",
             "answer": "Three magnets amplify the crystal frequency and improve blood flow — carrying the recalibration signal deeper into the endocrine network."
