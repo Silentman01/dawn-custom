@@ -152,7 +152,7 @@
           "type": "urgency_notice",
           "settings": {
             "line_1": "<p><strong>This Is the Only Place to Get Olmi.</strong></p>",
-            "line_2": "<p><strong>olmi.co</strong> is the only authorized retailer. We do not sell on Amazon or through third parties.</p>",
+            "line_2": "<p><strong>myolmi.com</strong> is the only authorized retailer. We do not sell on Amazon or through third parties.</p>",
             "font_size": 1.2,
             "bg_color": "#f8f7f5",
             "text_color": "#3a3a4e",
@@ -988,7 +988,7 @@
           "settings": {
             "heading": "What if one bracelet doesn't work for me?",
             "icon": "none",
-            "row_content": "<p><strong>90-day money back guarantee on every single bracelet.</strong> Buy one or buy seven — every piece is covered. If it doesn't work, email support@olmi.co. Full refund. No forms.</p>",
+            "row_content": "<p><strong>90-day money back guarantee on every single bracelet.</strong> Buy one or buy seven — every piece is covered. If it doesn't work, email hello@myolmi.com. Full refund. No forms.</p>",
             "page": ""
           }
         },
