@@ -473,6 +473,7 @@
         "benefit_3",
         "benefit_4"
       ],
+      "disabled": true,
       "settings": {
         "heading": "<strong>Stop Dieting.</strong> Start Resetting.",
         "subheading": "Your body didn't gain this weight because you ate too much. It gained it because cortisol told it to.",
@@ -722,6 +723,7 @@
         "r4",
         "r5"
       ],
+      "disabled": true,
       "settings": {
         "badge_text": "5 Reasons Why",
         "subheading": "Olmi Celestite Works When Everything Else Failed",
