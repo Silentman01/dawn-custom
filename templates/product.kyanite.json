@@ -473,6 +473,7 @@
         "b3",
         "b4"
       ],
+      "disabled": true,
       "settings": {
         "heading": "<strong>Stop Eliminating.</strong> Start Calming.",
         "subheading": "The problem was never the food. It was the state your gut was in when the food arrived.",
@@ -723,6 +724,7 @@
         "r4",
         "r5"
       ],
+      "disabled": true,
       "settings": {
         "badge_text": "5 Reasons Why",
         "subheading": "Olmi Kyanite Works When Probiotics Didn't",

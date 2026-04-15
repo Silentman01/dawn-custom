@@ -473,6 +473,7 @@
         "b3",
         "b4"
       ],
+      "disabled": true,
       "settings": {
         "heading": "<strong>Stop Masking.</strong> Start Resetting.",
         "subheading": "Melatonin masks the symptom. Moonstone resets the signal your body lost.",
@@ -657,6 +658,7 @@
         "wj4"
       ],
       "settings": {
+        "brand_image": "shopify://shop_images/wj_moonstone.png",
         "heading": "What happens when your body <strong>remembers how to sleep</strong>",
         "description": "Your body didn't forget how to sleep. The signal got scrambled. Here's what happens when it comes back.",
         "highlight_color": "#7b6f99",
@@ -722,6 +724,7 @@
         "r4",
         "r5"
       ],
+      "disabled": true,
       "settings": {
         "badge_text": "5 Reasons Why",
         "subheading": "Olmi Moonstone Works When Melatonin Didn't",
