@@ -191,13 +191,6 @@
             "feature_text_size": 11,
             "item_text_size": 16
           }
-        },
-        "testimonial_videos_block": {
-          "type": "testimonial_videos",
-          "settings": {
-            "heading": "What our customers are saying:",
-            "heading_size": 23
-          }
         }
       },
       "block_order": [
@@ -213,8 +206,7 @@
         "trust_microcopy",
         "social_proof_banner",
         "urgency_notice",
-        "trust_card_v2",
-        "testimonial_videos_block"
+        "trust_card_v2"
       ],
       "settings": {
         "enable_sticky_info": true,
