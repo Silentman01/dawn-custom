@@ -133,7 +133,7 @@
             "font_size_2_items": 1.4,
             "bg_color": "",
             "text_color": "#121212",
-            "text_1": "Free Shipping",
+            "text_1": "Free Shipping Over $35",
             "icon_name_1": "local_shipping",
             "text_2": "90-Day Money Back Guarantee",
             "icon_name_2": "verified_user"
@@ -295,6 +295,7 @@
         "c1": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/crystal_azurite.png",
             "title": "<strong>Azurite Crystal</strong>",
             "text": "Azurite resonates at a frequency that <strong>increases micro-circulation</strong> through your pulse point. More blood flow to your prefrontal cortex means more fuel for thinking, focusing, and finding the right word.",
             "card_bg_color": ""
@@ -303,6 +304,7 @@
         "c2": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/magnets_azurite.png",
             "title": "<strong>3 Neodymium Magnets</strong>",
             "text": "Three magnets amplify the crystal frequency and improve <strong>blood flow at the radial artery</strong> — the highway that carries blood to your brain. Better flow. Better fuel. Better thinking.",
             "card_bg_color": ""
@@ -490,6 +492,7 @@
         "pb1": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/crystal_azurite.png",
             "title": "Azurite Crystal",
             "description": "Circulatory frequency",
             "answer": "Azurite resonates at a frequency associated with increased micro-circulation. Worn at the radial artery point, it promotes blood flow to the brain's prefrontal cortex — the region responsible for focus, word finding, and decision-making. Clarity returns because fuel returns."
@@ -498,6 +501,7 @@
         "pb2": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/magnets_azurite.png",
             "title": "Neodymium Magnets",
             "description": "Radial artery amplification",
             "answer": "Three magnets at your pulse point amplify the crystal frequency and improve blood flow through the radial artery — the main highway carrying oxygenated blood toward your brain."

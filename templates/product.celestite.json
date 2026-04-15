@@ -133,7 +133,7 @@
             "font_size_2_items": 1.4,
             "bg_color": "",
             "text_color": "#121212",
-            "text_1": "Free Shipping",
+            "text_1": "Free Shipping Over $35",
             "icon_name_1": "local_shipping",
             "text_2": "90-Day Money Back Guarantee",
             "icon_name_2": "verified_user"
@@ -295,6 +295,7 @@
         "card_1": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/crystal_celestite.png",
             "title": "<strong>Celestite Crystal</strong>",
             "text": "Celestite vibrates at a frequency your nervous system recognizes as <strong>safe</strong>. Worn against your pulse point, it sends a signal that tells your body to <strong>stand down from survival mode</strong> — so it stops hoarding fat around your midsection.",
             "card_bg_color": ""
@@ -303,6 +304,7 @@
         "card_2": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/magnets_celestite.png",
             "title": "<strong>3 Neodymium Magnets</strong>",
             "text": "Three rare-earth magnets sit on the inner curve of the cuff, pressing gently against your pulse point. They <strong>amplify the crystal's frequency</strong> and improve blood flow — delivering the calming signal deeper and faster.",
             "card_bg_color": ""
@@ -490,6 +492,7 @@
         "pb_1": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/crystal_celestite.png",
             "title": "Celestite Crystal",
             "description": "Cortisol reset frequency",
             "answer": "Celestite emits a specific vibrational frequency that your parasympathetic nervous system reads as a \"stand down\" signal. When the signal reaches your nervous system through your pulse point, cortisol production begins to normalize. And when cortisol drops, your metabolism wakes up."
@@ -498,6 +501,7 @@
         "pb_2": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/magnets_celestite.png",
             "title": "Neodymium Magnets",
             "description": "Signal amplification",
             "answer": "Three rare-earth neodymium magnets amplify the crystal's natural frequency and improve microcirculation — delivering the calming signal faster and deeper than the crystal alone. Think of them as the speakers for the signal."

@@ -295,6 +295,7 @@
         "c1": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/crystal_howlite.png",
             "title": "<strong>Howlite Crystal</strong>",
             "text": "Howlite emits a low-frequency vibration your nervous system reads as a <strong>safety signal</strong>. It tells your body: <strong>stand down. You're safe.</strong> Through your pulse point, in minutes.",
             "card_bg_color": ""
@@ -303,6 +304,7 @@
         "c2": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/magnets_howlite.png",
             "title": "<strong>3 Neodymium Magnets</strong>",
             "text": "Three magnets press against the vagus nerve access point at your wrist. They <strong>amplify the crystal's calming frequency</strong> — switching your nervous system from emergency mode to <strong>rest mode</strong>.",
             "card_bg_color": ""
@@ -490,6 +492,7 @@
         "pb1": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/crystal_howlite.png",
             "title": "Howlite Crystal",
             "description": "Nervous system calm signal",
             "answer": "Howlite emits a low-frequency vibration your parasympathetic nervous system reads as safety. When this reaches the vagus nerve through your pulse point, your body shifts out of fight-or-flight. It doesn't mask anxiety. It tells your nervous system the emergency is over."
@@ -498,6 +501,7 @@
         "pb2": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/magnets_howlite.png",
             "title": "Neodymium Magnets",
             "description": "Signal amplification at vagus nerve",
             "answer": "Three magnets amplify the crystal frequency and improve microcirculation at the wrist. They make the safety signal louder so your nervous system hears it clearly, even when stress is shouting."
