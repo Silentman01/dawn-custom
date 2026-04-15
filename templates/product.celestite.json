@@ -322,6 +322,7 @@
         "card_4": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/big_block_celestite.png",
             "title": "<strong>Open Cuff Design</strong>",
             "text": "The C-shaped cuff adjusts to any wrist. No clasps. No fumbling. <strong>Put it on in 2 seconds</strong> and forget it's there — while it works all day.",
             "card_bg_color": ""
@@ -520,6 +521,7 @@
         "pb_4": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/big_block_celestite.png",
             "title": "Continuous Wear",
             "description": "24-hour cortisol management",
             "answer": "Unlike a supplement you take once, Olmi works every second it touches your skin. Your cortisol spikes at 3am, during your commute, after school pickup. Olmi is there for all of it. Continuous frequency. Continuous calm. Continuous results."
