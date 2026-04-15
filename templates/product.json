@@ -302,6 +302,7 @@
       "custom_css": [],
       "settings": {
         "bg_color": "#1a3018",
+        "bg_image": "shopify://shop_images/all_bracelets.png",
         "image_opacity": 10,
         "text_color": "#ffffff",
         "percentage_color": "#dff47e",

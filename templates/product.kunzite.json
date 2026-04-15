@@ -268,6 +268,7 @@
       ],
       "settings": {
         "bg_color": "#3a1550",
+        "bg_image": "shopify://shop_images/all_bracelets.png",
         "image_opacity": 10,
         "text_color": "#ffffff",
         "percentage_color": "#c77dba",
