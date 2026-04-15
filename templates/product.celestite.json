@@ -313,6 +313,7 @@
         "card_3": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/energy_celestite.png",
             "title": "<strong>Pulse Point Contact</strong>",
             "text": "Your wrist's pulse point is where blood vessels run closest to the skin. It's the body's <strong>fastest entry point</strong> for frequency-based signals. That's why Olmi is worn here — not as jewelry, but as a <strong>delivery system</strong>.",
             "card_bg_color": ""
@@ -510,6 +511,7 @@
         "pb_3": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/energy_celestite.png",
             "title": "Pulse Point Delivery",
             "description": "The body's fastest entry",
             "answer": "Your wrist's radial artery runs millimeters below the skin. Blood circulates past this point with every heartbeat. Direct arterial contact means the calming signal reaches your entire nervous system within minutes, not hours."

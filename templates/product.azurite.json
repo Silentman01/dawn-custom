@@ -313,6 +313,7 @@
         "c3": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/energy_azurite.png",
             "title": "<strong>Prefrontal Cortex Fuel</strong>",
             "text": "Brain fog isn't about intelligence. It's about <strong>blood flow</strong>. When cortisol diverts blood to survival centers, your thinking brain starves. Azurite restores the fuel your prefrontal cortex needs to function.",
             "card_bg_color": ""
@@ -510,6 +511,7 @@
         "pb3": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/energy_azurite.png",
             "title": "Cortisol Redirect",
             "description": "Blood back to your thinking brain",
             "answer": "When cortisol is chronically high, your body diverts blood from the prefrontal cortex to survival centers. You're not getting dumber — your brain is getting less fuel. Azurite helps redirect that flow back where it belongs."

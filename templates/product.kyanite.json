@@ -313,6 +313,7 @@
         "c3": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/energy_kyanite.png",
             "title": "<strong>The Second Brain</strong>",
             "text": "Your gut has its own nervous system — 500 million neurons. When it's stuck in panic mode, every meal is a dice roll. <strong>Bloating isn't about food. It's about the nervous state of your gut.</strong>",
             "card_bg_color": ""
@@ -510,6 +511,7 @@
         "pb3": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/energy_kyanite.png",
             "title": "Gut State, Not Food",
             "description": "Changes how your gut responds",
             "answer": "Elimination diets remove triggers. Kyanite calms the system that's over-triggering. When your gut's nervous system isn't inflamed, the same foods that used to bloat you simply... don't."
