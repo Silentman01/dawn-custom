@@ -345,26 +345,6 @@
     "testimonial_slider": {
       "type": "testimonial-slider",
       "blocks": {
-        "ticker_1": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_2": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_3": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_4": {
-          "type": "ticker_image",
-          "settings": {}
-        },
-        "ticker_5": {
-          "type": "ticker_image",
-          "settings": {}
-        },
         "review_1": {
           "type": "review",
           "settings": {
@@ -427,11 +407,6 @@
         }
       },
       "block_order": [
-        "ticker_1",
-        "ticker_2",
-        "ticker_3",
-        "ticker_4",
-        "ticker_5",
         "review_1",
         "review_2",
         "review_3",

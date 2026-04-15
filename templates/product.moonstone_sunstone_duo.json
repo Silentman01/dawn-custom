@@ -37,13 +37,19 @@
         "title": {
           "type": "title",
           "disabled": true,
-          "settings": {}
+          "settings": {
+            "title_size": 26,
+            "title_weight": "700",
+            "title_transform": "none",
+            "title_color": ""
+          }
         },
         "benefits_list": {
           "type": "benefits_list",
           "settings": {
             "text_color": "#121212",
             "icon_color": "#9a6030",
+            "layout": "two_per_line",
             "benefit_1": "Day Energy",
             "benefit_2": "Night Sleep",
             "benefit_3": "No Caffeine",
@@ -142,10 +148,7 @@
             "border_radius": 50,
             "title": "<strong>Trusted by 50,000+ women</strong>",
             "subtitle": "who fixed both halves of their broken cycle.",
-            "badge_color": "#51af6f",
-            "image_1": "",
-            "image_2": "",
-            "image_3": ""
+            "badge_color": "#51af6f"
           }
         },
         "urgency_notice": {
@@ -169,13 +172,9 @@
           "type": "trust_card_v2",
           "settings": {
             "heading": "<strong>Why the Olmi Duo is the #1</strong> Day & Night System",
-            "feature_icon_1": "",
             "feature_text_1": "Dual Crystal Frequencies",
-            "feature_icon_2": "",
             "feature_text_2": "6 Neodymium Magnets Total",
-            "feature_icon_3": "",
             "feature_text_3": "24-Hour Pulse Point Coverage",
-            "feature_icon_4": "",
             "feature_text_4": "90-Day Money Back Guarantee",
             "item_1": "No Caffeine",
             "item_2": "No Melatonin",
@@ -187,7 +186,6 @@
             "title_color": "#000000",
             "highlight_color": "#e8913a",
             "bg_color": "#f8f4fa",
-            "bg_image": "",
             "image_opacity": 10,
             "border_radius": 10,
             "heading_size": 28,
@@ -302,7 +300,6 @@
         "c1": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>Sunstone — Day</strong>",
             "text": "Wear the warm orange bracelet during the day. Sunstone's thermal frequency <strong>activates your adrenals</strong> — rebuilding natural energy without caffeine. No crash. No jitters. Just steady energy from morning to evening.",
             "card_bg_color": ""
@@ -311,7 +308,6 @@
         "c2": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>Moonstone — Night</strong>",
             "text": "Wear the iridescent white bracelet to bed. Moonstone's circadian frequency <strong>resets your sleep signal</strong> — so you fall asleep and STAY asleep. No melatonin grogginess. No 3am wake-ups.",
             "card_bg_color": ""
@@ -320,7 +316,6 @@
         "c3": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>One Cycle. Two Frequencies.</strong>",
             "text": "Energy and sleep aren't separate problems. They're two halves of one circadian cycle. When one breaks, the other follows. <strong>This duo fixes both halves simultaneously.</strong>",
             "card_bg_color": ""
@@ -329,7 +324,6 @@
         "c4": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>Break the Loop</strong>",
             "text": "Caffeine → can't sleep → melatonin → groggy morning → more caffeine → repeat. <strong>The Duo breaks this loop</strong> by addressing both ends with frequency, not chemistry.",
             "card_bg_color": ""
@@ -360,36 +354,6 @@
     "testimonial_slider": {
       "type": "testimonial-slider",
       "blocks": {
-        "ti1": {
-          "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
-        },
-        "ti2": {
-          "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
-        },
-        "ti3": {
-          "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
-        },
-        "ti4": {
-          "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
-        },
-        "ti5": {
-          "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
-        },
         "r1": {
           "type": "review",
           "settings": {
@@ -452,11 +416,6 @@
         }
       },
       "block_order": [
-        "ti1",
-        "ti2",
-        "ti3",
-        "ti4",
-        "ti5",
         "r1",
         "r2",
         "r3",
@@ -484,7 +443,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "light_mode",
-            "custom_icon": "",
             "title": "Energy All Day"
           }
         },
@@ -492,7 +450,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "dark_mode",
-            "custom_icon": "",
             "title": "Deep Sleep All Night"
           }
         },
@@ -500,7 +457,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "bolt",
-            "custom_icon": "",
             "title": "No Caffeine Needed"
           }
         },
@@ -508,7 +464,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "spa",
-            "custom_icon": "",
             "title": "No Melatonin Needed"
           }
         }
@@ -522,7 +477,6 @@
       "settings": {
         "heading": "<strong>Day & Night.</strong> Total Reset.",
         "subheading": "You don't need two fixes. You need one system that addresses both halves.",
-        "product_image": "",
         "bg_color": "#4a1550",
         "bg_color_bottom": "#1e1e5a",
         "text_color": "#ffffff",
@@ -541,7 +495,6 @@
         "pb1": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Sunstone (Day)",
             "description": "Adrenal activation",
             "answer": "Sunstone's thermal frequency stimulates adrenal recovery during the day — rebuilding natural energy production. Unlike caffeine, it doesn't borrow from tonight's sleep."
@@ -550,7 +503,6 @@
         "pb2": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Moonstone (Night)",
             "description": "Circadian reset",
             "answer": "Moonstone's frequency matches your body's rest-state oscillation — recalibrating the sleep signal. Unlike melatonin, it works on sleep MAINTENANCE. You stay asleep all night."
@@ -559,7 +511,6 @@
         "pb3": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Two Frequencies, One Cycle",
             "description": "Why both matter",
             "answer": "Energy and sleep are connected by the circadian rhythm. Break one, the other follows. Stimulants crash sleep. Sedatives fog mornings. The duo addresses both halves without sabotage."
@@ -568,7 +519,6 @@
         "pb4": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "The Caffeine-Melatonin Exit",
             "description": "Break the loop permanently",
             "answer": "Coffee → can't sleep → melatonin → groggy → more coffee. The duo replaces both chemical crutches with frequency that works WITH your circadian rhythm. By week 3, most women have quit both."
@@ -704,7 +654,6 @@
         "wj4"
       ],
       "settings": {
-        "brand_image": "",
         "heading": "What happens when <strong>both halves of your day work again</strong>",
         "description": "Your body didn't forget how to function. It lost track of time. Here's what happens when both signals reset.",
         "highlight_color": "#e8913a",
@@ -725,7 +674,6 @@
         "r1": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 1",
             "heading": "It fixes BOTH halves — not just one",
             "details": "<p>Every energy product crashes your sleep. Every sleep product fogs your morning. The duo fixes both without sabotage.</p>"
@@ -734,7 +682,6 @@
         "r2": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 2",
             "heading": "Quit caffeine AND melatonin",
             "details": "<p>89% of women stopped both within 3 weeks. Not willpower. Their body just stopped needing the crutches.</p>"
@@ -743,7 +690,6 @@
         "r3": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 3",
             "heading": "93% reported both energy and sleep improved",
             "details": "<p>Not one or the other. BOTH. Within 21 days of wearing the duo daily.</p>"
@@ -752,7 +698,6 @@
         "r4": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 4",
             "heading": "90-day money back guarantee",
             "details": "<p>Your medicine cabinet didn't offer this. We do.</p>"
@@ -761,7 +706,6 @@
         "r5": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 5",
             "heading": "50,000+ women reset their full cycle",
             "details": "<p>They stopped treating halves and fixed the whole. Two bracelets. One complete day.</p>"
@@ -862,7 +806,6 @@
         "highlight_color": "#e8913a",
         "brand_name": "<strong>Olmi Duo</strong>",
         "brand_name_color": "#ffffff",
-        "brand_image": "",
         "brand_col_color": "#6a2a70",
         "brand_icon_color": "#ffffff",
         "competitor_label": "<strong>Caffeine + Sleep Aids</strong>",
@@ -888,14 +831,12 @@
     "risk_free_trial": {
       "type": "risk-free-trial",
       "settings": {
-        "badge_image": "",
         "badge_number": "90",
         "badge_label": "DAYS",
         "subtitle": "THE OLMI FULL RESET GUARANTEE",
         "heading": "Energy + Sleep or Pay Nothing",
         "heading_size": 23,
         "description": "Caffeine that crashed your sleep. Melatonin that fogged your morning. B12, magnesium, CBD, ashwagandha — all tried, all one-sided. Wear the duo for 90 days. If both halves don't improve, we refund everything.",
-        "image": "",
         "bg_color": "#f8f4fa",
         "accent_color": "#4a1550",
         "text_color": "",
