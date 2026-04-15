@@ -473,6 +473,7 @@
         "b3",
         "b4"
       ],
+      "disabled": true,
       "settings": {
         "heading": "<strong>Stop Managing.</strong> Start Resetting.",
         "subheading": "You've been managing anxiety for years. What if you could switch off the thing generating it?",
@@ -723,6 +724,7 @@
         "r4",
         "r5"
       ],
+      "disabled": true,
       "settings": {
         "badge_text": "5 Reasons Why",
         "subheading": "Olmi Howlite Works When Everything Else Faded",

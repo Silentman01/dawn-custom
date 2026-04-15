@@ -658,6 +658,7 @@
         "wj_4"
       ],
       "settings": {
+        "brand_image": "shopify://shop_images/wj_celestite.png",
         "heading": "What happens when you <strong>stop dieting and start resetting</strong>",
         "description": "Your body didn't gain this weight because you ate too much. It gained it because cortisol told it to.",
         "highlight_color": "#4a90a4",
