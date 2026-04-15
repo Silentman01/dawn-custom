@@ -143,7 +143,7 @@
             "title": "<strong>Trusted by 50,000+ women</strong>",
             "subtitle": "who finally turned off emergency mode.",
             "badge_color": "#51af6f",
-            "image_1": "",myolmi.com
+            "image_1": "",
             "image_2": "",
             "image_3": ""
           }
@@ -952,13 +952,13 @@
             "row_content": "<p>Supplements work chemically — your body builds tolerance. Olmi works through <strong>vibrational frequency</strong>. No tolerance. Works the same on day 300 as day 3.</p>",
             "page": ""
           }
-        },myolmi.com
+        },
         "f5": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What if it doesn't work?",
             "icon": "none",
-            "row_content": "<p><strong>90-day money back guarantee.</strong> Email hello@olmi.co. Full refund. No forms.</p>",
+            "row_content": "<p><strong>90-day money back guarantee.</strong> Email support@olmi.co. Full refund. No forms.</p>",
             "page": ""
           }
         },

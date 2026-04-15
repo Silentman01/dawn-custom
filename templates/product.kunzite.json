@@ -143,7 +143,7 @@
             "title": "<strong>Trusted by 50,000+ women</strong>",
             "subtitle": "who stopped white-knuckling through their cycles.",
             "badge_color": "#51af6f",
-            "image_1": "",myolmi.com
+            "image_1": "",
             "image_2": "",
             "image_3": ""
           }
@@ -943,13 +943,13 @@
             "row_content": "<p>Yes. PMS symptoms — bloating, mood swings, cramps, cravings — are driven by hormonal fluctuations. Kunzite targets the endocrine signal governing these fluctuations.</p>",
             "page": ""
           }
-        },myolmi.com
+        },
         "f4": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What if it doesn't work?",
             "icon": "none",
-            "row_content": "<p><strong>90-day guarantee.</strong> Email hello@olmi.co. Full refund.</p>",
+            "row_content": "<p><strong>90-day guarantee.</strong> Email support@olmi.co. Full refund.</p>",
             "page": ""
           }
         },

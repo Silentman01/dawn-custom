@@ -143,7 +143,7 @@
             "title": "<strong>Trusted by 50,000+ women</strong>",
             "subtitle": "who fixed both halves of their broken cycle.",
             "badge_color": "#51af6f",
-            "image_1": "",myolmi.com
+            "image_1": "",
             "image_2": "",
             "image_3": ""
           }
@@ -952,13 +952,13 @@
             "row_content": "<p>Physically, yes — they're the same bracelets. But the <strong>system framing</strong> matters. Women who use them as a duo report better results than those using either alone, because the day signal supports the night signal and vice versa.</p>",
             "page": ""
           }
-        },myolmi.com
+        },
         "f5": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What if it doesn't work?",
             "icon": "none",
-            "row_content": "<p><strong>90-day guarantee.</strong> Email hello@olmi.co. Full refund on the duo.</p>",
+            "row_content": "<p><strong>90-day guarantee.</strong> Email support@olmi.co. Full refund on the duo.</p>",
             "page": ""
           }
         },
