@@ -17,7 +17,6 @@
         "image_kwK7CP": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/verrarituel_logo_white.png",
             "image_width": 200,
             "alignment": "center"
           }
@@ -35,42 +34,18 @@
             "heading": "",
             "menu": "footer"
           }
-        },
-        "footer-2": {
-          "type": "text",
-          "settings": {
-            "heading": "Avertissement sur les résultats",
-            "subtext": "<p><em>Les résultats peuvent varier d’une personne à l’autre. Les témoignages présentés ne sont pas nécessairement représentatifs de l’expérience de tous les utilisateurs. Les résultats mentionnés ne sont pas garantis.</em></p>"
-          }
-        },
-        "text_M4ihBj": {
-          "type": "text",
-          "settings": {
-            "heading": "Avertissement médical",
-            "subtext": "<p><em>Ce produit est destiné à un usage d’hygiène et de bien-être uniquement. Il ne remplace en aucun cas un avis médical ou un traitement prescrit par un professionnel de santé. En cas de condition médicale, de symptômes persistants ou de doute, veuillez consulter un professionnel de santé avant utilisation.</em></p>"
-          }
-        },
-        "text_hJhfpL": {
-          "type": "text",
-          "settings": {
-            "heading": "Avertissement réglementaire",
-            "subtext": "<p><em>Ces déclarations n’ont pas été évaluées par les autorités sanitaires. Ce produit n’est pas destiné à diagnostiquer, traiter, guérir ou prévenir une maladie.</em></p>"
-          }
         }
       },
       "block_order": [
         "image_kwK7CP",
         "link_list_qrNtYp",
-        "footer-1",
-        "footer-2",
-        "text_M4ihBj",
-        "text_hJhfpL"
+        "footer-1"
       ],
       "custom_css": [
         ".inline-richtext,.footer-block__details-content {font-size: 1.2rem;}"
       ],
       "settings": {
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-3",
         "newsletter_enable": false,
         "newsletter_heading": "Verra Rituel",
         "enable_follow_on_shop": false,
