@@ -473,6 +473,7 @@
         "b3",
         "b4"
       ],
+      "disabled": true,
       "settings": {
         "heading": "<strong>Stop Fading.</strong> Start Thinking.",
         "subheading": "Brain fog isn't aging. It's your brain running on less fuel than it needs.",
@@ -723,6 +724,7 @@
         "r4",
         "r5"
       ],
+      "disabled": true,
       "settings": {
         "badge_text": "5 Reasons Why",
         "subheading": "Olmi Azurite Works When Focus Supplements Didn't",
@@ -810,6 +812,7 @@
         "highlight_color": "#3a6bc5",
         "brand_name": "<strong>Olmi</strong>",
         "brand_name_color": "#ffffff",
+        "brand_image": "shopify://shop_images/packaging_transparent_azurite.png",
         "brand_col_color": "#2a4080",
         "brand_icon_color": "#ffffff",
         "competitor_label": "<strong>Nootropics & Coffee</strong>",

@@ -810,6 +810,7 @@
         "highlight_color": "#2e8b57",
         "brand_name": "<strong>Olmi</strong>",
         "brand_name_color": "#ffffff",
+        "brand_image": "shopify://shop_images/packaging_transparent_kyanite.png",
         "brand_col_color": "#0d4030",
         "brand_icon_color": "#ffffff",
         "competitor_label": "<strong>Probiotics & Diets</strong>",

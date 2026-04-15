@@ -810,6 +810,7 @@
         "highlight_color": "#c77dba",
         "brand_name": "<strong>Olmi</strong>",
         "brand_name_color": "#ffffff",
+        "brand_image": "shopify://shop_images/packaging_transparent_kunzite.png",
         "brand_col_color": "#5a2070",
         "brand_icon_color": "#ffffff",
         "competitor_label": "<strong>HRT & Supplements</strong>",
