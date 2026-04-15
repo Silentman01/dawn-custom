@@ -147,7 +147,10 @@
             "border_radius": 50,
             "title": "<strong>Trusted by 50,000+ women</strong>",
             "subtitle": "who stopped dieting and started fixing the real problem.",
-            "badge_color": "#51af6f"
+            "badge_color": "#51af6f",
+            "image_1": "shopify://shop_images/29b857d8bf856605d03d844c19a30596.jpg",
+            "image_2": "shopify://shop_images/social_proof.jpg",
+            "image_3": "shopify://shop_images/626954f3872f40e8cdef92100feba18c.jpg"
           }
         },
         "urgency_notice": {
