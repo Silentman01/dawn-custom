@@ -124,11 +124,59 @@
         "padding_bottom": 8,
         "aria_label": "Scrolling announcements"
       }
+    },
+    "ticker_bar_jLDtnh": {
+      "type": "ticker-bar",
+      "blocks": {
+        "ticker_item_ddHAXq": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Free Shipping on Orders $50+",
+            "icon_name": "local_shipping"
+          }
+        },
+        "ticker_item_E7Rhxg": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "30-Day Money Back Guarantee",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_3XQjQr": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Subscribe & Save 15%",
+            "icon_name": "loyalty"
+          }
+        }
+      },
+      "block_order": [
+        "ticker_item_ddHAXq",
+        "ticker_item_E7Rhxg",
+        "ticker_item_3XQjQr"
+      ],
+      "name": "Ticker bar",
+      "settings": {
+        "background_color": "#1a1a1a",
+        "text_color": "#ffffff",
+        "border_position": "none",
+        "border_thickness": 1,
+        "border_color": "#ffffff",
+        "font_size": 14,
+        "font_weight": "500",
+        "spacing": 40,
+        "icon_size": 20,
+        "speed": 20,
+        "padding_top": 8,
+        "padding_bottom": 8,
+        "aria_label": "Scrolling announcements"
+      }
     }
   },
   "order": [
     "sale_banner",
     "header",
-    "ticker_bar"
+    "ticker_bar",
+    "ticker_bar_jLDtnh"
   ]
 }
