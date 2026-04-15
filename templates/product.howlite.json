@@ -313,6 +313,7 @@
         "c3": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/energy_howlite.png",
             "title": "<strong>The Vagus Nerve Switch</strong>",
             "text": "Your vagus nerve controls the switch between fight-or-flight and rest. It's accessible at your <strong>wrist's pulse point</strong>. Olmi stimulates it through crystal frequency. Your body's <strong>built-in calm switch</strong> — from your wrist.",
             "card_bg_color": ""
@@ -510,6 +511,7 @@
         "pb3": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/energy_howlite.png",
             "title": "Vagus Nerve Access",
             "description": "Your body's off switch — at your wrist",
             "answer": "The vagus nerve controls the switch between stress and calm. It's accessible at your wrist's pulse point. Clinical vagus nerve stimulators cost thousands. Olmi uses crystal frequency to achieve a similar calming effect — worn on your wrist, all day, no prescription."
