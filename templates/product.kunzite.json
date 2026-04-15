@@ -322,6 +322,7 @@
         "c4": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/featured_card1_kunzite.png",
             "title": "<strong>Not HRT. Not Scary.</strong>",
             "text": "No hormones enter your body. No estrogen. No progesterone. Kunzite works through <strong>frequency, not chemistry</strong>. Your body already knows how to balance itself — it just needs the interference removed.",
             "card_bg_color": ""
@@ -520,6 +521,7 @@
         "pb4": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/featured_card1_kunzite.png",
             "title": "Whole-Cycle Support",
             "description": "Not just one symptom",
             "answer": "Most hormone supplements target one symptom. Kunzite targets the endocrine signal that governs ALL of them — hot flashes, mood, cycles, night sweats, PMS. Fix the signal, fix the symptoms."

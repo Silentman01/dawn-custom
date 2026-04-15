@@ -322,6 +322,7 @@
         "c4": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/featured_card1_howlite.png",
             "title": "<strong>Calm Without Chemicals</strong>",
             "text": "Nothing enters your bloodstream. No grogginess. No zombie feeling. No dependence. You stay sharp, present, and yourself — just without the <strong>constant hum of dread</strong>.",
             "card_bg_color": ""
@@ -520,6 +521,7 @@
         "pb4": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/featured_card1_howlite.png",
             "title": "Continuous Wear",
             "description": "Anxiety doesn't clock out. Neither does this.",
             "answer": "Unlike a supplement you take once or breathing you do for 5 minutes, Olmi works every second it touches your skin. Your anxiety spikes in traffic, during meetings, at school pickup, at 3am. The bracelet is there for all of it."

@@ -322,6 +322,7 @@
         "c4": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/featured_card1_kyanite.png",
             "title": "<strong>Eat Without Punishment</strong>",
             "text": "Kyanite doesn't change what you eat. It changes <strong>how your gut responds</strong>. The salad that bloated you? The pasta you gave up? Your gut can handle them again — once the inflammation calms.",
             "card_bg_color": ""
@@ -520,6 +521,7 @@
         "pb4": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/featured_card1_kyanite.png",
             "title": "Continuous Support",
             "description": "Every meal, covered",
             "answer": "Your gut overreacts at breakfast, lunch, snacks, and the 3pm coffee. Kyanite works continuously — calming the enteric system through every meal, not just the one after your pill."

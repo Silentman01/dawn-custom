@@ -322,6 +322,7 @@
         "c4": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/featured_card1_azurite.png",
             "title": "<strong>Clarity Without Stimulants</strong>",
             "text": "No caffeine. No Adderall. No nootropic stack. Azurite works through <strong>circulatory frequency</strong> — real clarity from real blood flow. Sharp, clean, no crash.",
             "card_bg_color": ""
@@ -520,6 +521,7 @@
         "pb4": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/featured_card1_azurite.png",
             "title": "No Stimulants",
             "description": "Clarity without the crash",
             "answer": "Caffeine and nootropics stimulate artificially. Azurite works through circulatory improvement — real blood flow, real oxygen, real fuel to real brain cells. No tolerance. No crash. No jitters. Just clarity."
