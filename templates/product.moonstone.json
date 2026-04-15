@@ -295,6 +295,7 @@
         "c1": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/crystal_moonstone.png",
             "title": "<strong>Moonstone Crystal</strong>",
             "text": "Moonstone emits a frequency that matches your body's natural <strong>rest-state oscillation</strong>. Screens, stress, and hormonal shifts have scrambled that signal. This crystal <strong>recalibrates it</strong> through your pulse point while you sleep.",
             "card_bg_color": ""
@@ -303,6 +304,7 @@
         "c2": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/magnets_moonstone.png",
             "title": "<strong>3 Neodymium Magnets</strong>",
             "text": "Three rare-earth magnets amplify the crystal's circadian frequency and improve blood flow at the pulse point — delivering the sleep signal <strong>deeper into your nervous system</strong>.",
             "card_bg_color": ""
@@ -490,6 +492,7 @@
         "pb1": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/crystal_moonstone.png",
             "title": "Moonstone Crystal",
             "description": "Circadian frequency match",
             "answer": "Moonstone emits a vibrational frequency that matches your body's natural rest-state oscillation — the deep-sleep signal your brain needs. Stress, screens, and hormones have disrupted it. Through pulse-point contact, moonstone re-synchronizes the signal your body lost."
@@ -498,6 +501,7 @@
         "pb2": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/magnets_moonstone.png",
             "title": "Neodymium Magnets",
             "description": "Nighttime signal amplification",
             "answer": "Three magnets amplify the crystal frequency and improve blood microcirculation — delivering the circadian signal faster during the critical 2–4am window when cortisol typically spikes."

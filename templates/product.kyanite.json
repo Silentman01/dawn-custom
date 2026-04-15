@@ -295,6 +295,7 @@
         "c1": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/crystal_kyanite.png",
             "title": "<strong>Kyanite Crystal</strong>",
             "text": "Kyanite resonates at a frequency that calms your <strong>enteric nervous system</strong> — the 'second brain' in your gut. When inflamed, it overreacts to everything you eat. Kyanite calms it through your pulse point.",
             "card_bg_color": ""
@@ -303,6 +304,7 @@
         "c2": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/magnets_kyanite.png",
             "title": "<strong>3 Neodymium Magnets</strong>",
             "text": "Three magnets amplify the crystal frequency and improve vagal tone — strengthening the <strong>brain-gut connection</strong> that keeps digestion smooth and calm.",
             "card_bg_color": ""
@@ -490,6 +492,7 @@
         "pb1": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/crystal_kyanite.png",
             "title": "Kyanite Crystal",
             "description": "Enteric nervous system calm",
             "answer": "Kyanite resonates at a frequency that calms the enteric nervous system — your gut's own nervous system. When inflamed, it overreacts to everything. Kyanite tells it to stand down — through the vagus nerve connection at your wrist."
@@ -498,6 +501,7 @@
         "pb2": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/magnets_kyanite.png",
             "title": "Neodymium Magnets",
             "description": "Vagal tone improvement",
             "answer": "Three magnets amplify the gut-calming frequency and improve vagal tone — the strength of the brain-gut connection that keeps digestion proportional to what you actually ate."
