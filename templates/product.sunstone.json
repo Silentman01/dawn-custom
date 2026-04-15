@@ -473,6 +473,7 @@
         "b3",
         "b4"
       ],
+      "disabled": true,
       "settings": {
         "heading": "<strong>Stop Borrowing.</strong> Start Producing.",
         "subheading": "Caffeine borrows energy from tomorrow. Sunstone helps your body make its own again.",
@@ -723,6 +724,7 @@
         "r4",
         "r5"
       ],
+      "disabled": true,
       "settings": {
         "badge_text": "5 Reasons Why",
         "subheading": "Olmi Sunstone Works When Coffee Stopped",
