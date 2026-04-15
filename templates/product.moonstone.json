@@ -26,6 +26,15 @@
             "highlight_color": "#000000"
           }
         },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": 26,
+            "title_weight": "700",
+            "title_transform": "none",
+            "title_color": ""
+          }
+        },
         "statement": {
           "type": "statement",
           "settings": {
@@ -34,16 +43,12 @@
             "title_size": 26
           }
         },
-        "title": {
-          "type": "title",
-          "disabled": true,
-          "settings": {}
-        },
         "benefits_list": {
           "type": "benefits_list",
           "settings": {
             "text_color": "#121212",
             "icon_color": "#7b6f99",
+            "layout": "two_per_line",
             "benefit_1": "3am Wake-Ups",
             "benefit_2": "Deep Sleep",
             "benefit_3": "No Melatonin",
@@ -142,10 +147,7 @@
             "border_radius": 50,
             "title": "<strong>Trusted by 50,000+ women</strong>",
             "subtitle": "who finally sleep through the night — without pills.",
-            "badge_color": "#51af6f",
-            "image_1": "",
-            "image_2": "",
-            "image_3": ""
+            "badge_color": "#51af6f"
           }
         },
         "urgency_notice": {
@@ -169,13 +171,9 @@
           "type": "trust_card_v2",
           "settings": {
             "heading": "<strong>Why Olmi is the #1</strong> Crystal Frequency Bracelet",
-            "feature_icon_1": "",
             "feature_text_1": "Crystal Frequency Resonance",
-            "feature_icon_2": "",
             "feature_text_2": "3 Neodymium Magnets",
-            "feature_icon_3": "",
             "feature_text_3": "Pulse Point Delivery",
-            "feature_icon_4": "",
             "feature_text_4": "90-Night Money Back Guarantee",
             "item_1": "No Pills",
             "item_2": "No Side Effects",
@@ -187,7 +185,6 @@
             "title_color": "#000000",
             "highlight_color": "#c4b8d9",
             "bg_color": "#f3f0f8",
-            "bg_image": "",
             "image_opacity": 10,
             "border_radius": 10,
             "heading_size": 28,
@@ -205,8 +202,8 @@
       },
       "block_order": [
         "star_rating",
-        "statement",
         "title",
+        "statement",
         "benefits_list",
         "price",
         "variant_picker",
@@ -302,7 +299,6 @@
         "c1": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>Moonstone Crystal</strong>",
             "text": "Moonstone emits a frequency that matches your body's natural <strong>rest-state oscillation</strong>. Screens, stress, and hormonal shifts have scrambled that signal. This crystal <strong>recalibrates it</strong> through your pulse point while you sleep.",
             "card_bg_color": ""
@@ -311,7 +307,6 @@
         "c2": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>3 Neodymium Magnets</strong>",
             "text": "Three rare-earth magnets amplify the crystal's circadian frequency and improve blood flow at the pulse point — delivering the sleep signal <strong>deeper into your nervous system</strong>.",
             "card_bg_color": ""
@@ -320,7 +315,6 @@
         "c3": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>Pulse Point Delivery</strong>",
             "text": "Your wrist's pulse point is the body's <strong>fastest entry for frequency-based signals</strong>. Olmi Moonstone is worn here — not as decoration, but as a <strong>circadian reset device</strong>.",
             "card_bg_color": ""
@@ -329,7 +323,6 @@
         "c4": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>Stays Asleep, Not Sleep Onset</strong>",
             "text": "Melatonin helps you <strong>fall</strong> asleep. Moonstone helps you <strong>stay</strong> asleep. That's the difference. <strong>No grogginess. No hangover. No weird dreams.</strong>",
             "card_bg_color": ""
@@ -362,33 +355,23 @@
       "blocks": {
         "ti1": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "ti2": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "ti3": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "ti4": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "ti5": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "r1": {
           "type": "review",
@@ -484,7 +467,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "bedtime",
-            "custom_icon": "",
             "title": "Sleep Through the Night"
           }
         },
@@ -492,7 +474,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "health_and_safety",
-            "custom_icon": "",
             "title": "No More 3am Wake-Ups"
           }
         },
@@ -500,7 +481,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "bolt",
-            "custom_icon": "",
             "title": "Zero Grogginess"
           }
         },
@@ -508,7 +488,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "spa",
-            "custom_icon": "",
             "title": "Circadian Reset"
           }
         }
@@ -522,7 +501,6 @@
       "settings": {
         "heading": "<strong>Stop Masking.</strong> Start Resetting.",
         "subheading": "Melatonin masks the symptom. Moonstone resets the signal your body lost.",
-        "product_image": "",
         "bg_color": "#2d2b55",
         "bg_color_bottom": "#7b6f99",
         "text_color": "#ffffff",
@@ -541,7 +519,6 @@
         "pb1": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Moonstone Crystal",
             "description": "Circadian frequency match",
             "answer": "Moonstone emits a vibrational frequency that matches your body's natural rest-state oscillation — the deep-sleep signal your brain needs. Stress, screens, and hormones have disrupted it. Through pulse-point contact, moonstone re-synchronizes the signal your body lost."
@@ -550,7 +527,6 @@
         "pb2": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Neodymium Magnets",
             "description": "Nighttime signal amplification",
             "answer": "Three magnets amplify the crystal frequency and improve blood microcirculation — delivering the circadian signal faster during the critical 2–4am window when cortisol typically spikes."
@@ -559,7 +535,6 @@
         "pb3": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Sleep Maintenance",
             "description": "Stays asleep, not just falls asleep",
             "answer": "Melatonin acts on sleep onset and wears off after 4–5 hours — exactly when you wake at 3am. Moonstone's frequency works on sleep maintenance. It targets the exact gap melatonin leaves."
@@ -568,7 +543,6 @@
         "pb4": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "No Residue",
             "description": "Nothing in your bloodstream",
             "answer": "Nothing enters your bloodstream. No grogginess. No weird dreams. No tolerance buildup. No dependence. Works the same on night 500 as night 5. Try saying that about melatonin."
@@ -704,7 +678,6 @@
         "wj4"
       ],
       "settings": {
-        "brand_image": "",
         "heading": "What happens when your body <strong>remembers how to sleep</strong>",
         "description": "Your body didn't forget how to sleep. The signal got scrambled. Here's what happens when it comes back.",
         "highlight_color": "#7b6f99",
@@ -725,7 +698,6 @@
         "r1": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 1",
             "heading": "It fixes STAYING asleep — not falling asleep",
             "details": "<p>Melatonin doesn't touch 3am. Moonstone's frequency works on sleep maintenance — the part that keeps breaking.</p>"
@@ -734,7 +706,6 @@
         "r2": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 2",
             "heading": "Zero grogginess, zero side effects",
             "details": "<p>No sleeping pill hangover. No foggy mornings. No weird dreams. Nothing in your bloodstream.</p>"
@@ -743,7 +714,6 @@
         "r3": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 3",
             "heading": "93% stopped waking at 3am within 2 weeks",
             "details": "<p>Not a vague claim. The middle-of-the-night wake-ups stopped within 14 days for 93% of women.</p>"
@@ -752,7 +722,6 @@
         "r4": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 4",
             "heading": "90-night guarantee — sleep through or pay nothing",
             "details": "<p>None of your melatonin, CBD, or weighted blankets offered this promise. We do.</p>"
@@ -761,7 +730,6 @@
         "r5": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 5",
             "heading": "50,000+ women left the 3am club",
             "details": "<p>They were perpetual 3am wakers. Now they sleep through. Read their reviews below.</p>"
@@ -862,7 +830,6 @@
         "highlight_color": "#c4b8d9",
         "brand_name": "<strong>Olmi</strong>",
         "brand_name_color": "#ffffff",
-        "brand_image": "",
         "brand_col_color": "#4a3f6b",
         "brand_icon_color": "#ffffff",
         "competitor_label": "<strong>Melatonin & Sleep Aids</strong>",
@@ -888,14 +855,12 @@
     "risk_free_trial": {
       "type": "risk-free-trial",
       "settings": {
-        "badge_image": "",
         "badge_number": "90",
         "badge_label": "NIGHTS",
         "subtitle": "THE OLMI SLEEP GUARANTEE",
         "heading": "Sleep Through or Pay Nothing",
         "heading_size": 23,
         "description": "Melatonin that stopped working. Magnesium that did nothing. CBD that made you groggy. Wear Olmi for 90 nights. If you're still waking at 3am, we refund every penny.",
-        "image": "",
         "bg_color": "#f3f0f8",
         "accent_color": "#7b6f99",
         "text_color": "",

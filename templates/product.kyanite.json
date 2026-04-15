@@ -26,6 +26,15 @@
             "highlight_color": "#000000"
           }
         },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": 26,
+            "title_weight": "700",
+            "title_transform": "none",
+            "title_color": ""
+          }
+        },
         "statement": {
           "type": "statement",
           "settings": {
@@ -34,16 +43,12 @@
             "title_size": 26
           }
         },
-        "title": {
-          "type": "title",
-          "disabled": true,
-          "settings": {}
-        },
         "benefits_list": {
           "type": "benefits_list",
           "settings": {
             "text_color": "#121212",
             "icon_color": "#1a6040",
+            "layout": "two_per_line",
             "benefit_1": "Bloating",
             "benefit_2": "Gut Health",
             "benefit_3": "Digestion",
@@ -142,10 +147,7 @@
             "border_radius": 50,
             "title": "<strong>Trusted by 50,000+ women</strong>",
             "subtitle": "who stopped blaming food and started fixing their gut.",
-            "badge_color": "#51af6f",
-            "image_1": "",
-            "image_2": "",
-            "image_3": ""
+            "badge_color": "#51af6f"
           }
         },
         "urgency_notice": {
@@ -169,13 +171,9 @@
           "type": "trust_card_v2",
           "settings": {
             "heading": "<strong>Why Olmi is the #1</strong> Crystal Frequency Bracelet",
-            "feature_icon_1": "",
             "feature_text_1": "Crystal Frequency Resonance",
-            "feature_icon_2": "",
             "feature_text_2": "3 Neodymium Magnets",
-            "feature_icon_3": "",
             "feature_text_3": "Pulse Point Delivery",
-            "feature_icon_4": "",
             "feature_text_4": "90-Day Money Back Guarantee",
             "item_1": "No Pills",
             "item_2": "No Side Effects",
@@ -187,7 +185,6 @@
             "title_color": "#000000",
             "highlight_color": "#2e8b57",
             "bg_color": "#edf7f0",
-            "bg_image": "",
             "image_opacity": 10,
             "border_radius": 10,
             "heading_size": 28,
@@ -205,8 +202,8 @@
       },
       "block_order": [
         "star_rating",
-        "statement",
         "title",
+        "statement",
         "benefits_list",
         "price",
         "variant_picker",
@@ -302,7 +299,6 @@
         "c1": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>Kyanite Crystal</strong>",
             "text": "Kyanite resonates at a frequency that calms your <strong>enteric nervous system</strong> — the 'second brain' in your gut. When inflamed, it overreacts to everything you eat. Kyanite calms it through your pulse point.",
             "card_bg_color": ""
@@ -311,7 +307,6 @@
         "c2": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>3 Neodymium Magnets</strong>",
             "text": "Three magnets amplify the crystal frequency and improve vagal tone — strengthening the <strong>brain-gut connection</strong> that keeps digestion smooth and calm.",
             "card_bg_color": ""
@@ -320,7 +315,6 @@
         "c3": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>The Second Brain</strong>",
             "text": "Your gut has its own nervous system — 500 million neurons. When it's stuck in panic mode, every meal is a dice roll. <strong>Bloating isn't about food. It's about the nervous state of your gut.</strong>",
             "card_bg_color": ""
@@ -329,7 +323,6 @@
         "c4": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>Eat Without Punishment</strong>",
             "text": "Kyanite doesn't change what you eat. It changes <strong>how your gut responds</strong>. The salad that bloated you? The pasta you gave up? Your gut can handle them again — once the inflammation calms.",
             "card_bg_color": ""
@@ -362,33 +355,23 @@
       "blocks": {
         "ti1": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "ti2": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "ti3": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "ti4": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "ti5": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "r1": {
           "type": "review",
@@ -484,7 +467,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "health_and_safety",
-            "custom_icon": "",
             "title": "Calm Gut Inflammation"
           }
         },
@@ -492,7 +474,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "science",
-            "custom_icon": "",
             "title": "Reset Second Brain"
           }
         },
@@ -500,7 +481,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "bolt",
-            "custom_icon": "",
             "title": "End the Bloat"
           }
         },
@@ -508,7 +488,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "spa",
-            "custom_icon": "",
             "title": "Eat Without Fear"
           }
         }
@@ -522,7 +501,6 @@
       "settings": {
         "heading": "<strong>Stop Eliminating.</strong> Start Calming.",
         "subheading": "The problem was never the food. It was the state your gut was in when the food arrived.",
-        "product_image": "",
         "bg_color": "#0a3020",
         "bg_color_bottom": "#1a6040",
         "text_color": "#ffffff",
@@ -541,7 +519,6 @@
         "pb1": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Kyanite Crystal",
             "description": "Enteric nervous system calm",
             "answer": "Kyanite resonates at a frequency that calms the enteric nervous system — your gut's own nervous system. When inflamed, it overreacts to everything. Kyanite tells it to stand down — through the vagus nerve connection at your wrist."
@@ -550,7 +527,6 @@
         "pb2": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Neodymium Magnets",
             "description": "Vagal tone improvement",
             "answer": "Three magnets amplify the gut-calming frequency and improve vagal tone — the strength of the brain-gut connection that keeps digestion proportional to what you actually ate."
@@ -559,7 +535,6 @@
         "pb3": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Gut State, Not Food",
             "description": "Changes how your gut responds",
             "answer": "Elimination diets remove triggers. Kyanite calms the system that's over-triggering. When your gut's nervous system isn't inflamed, the same foods that used to bloat you simply... don't."
@@ -568,7 +543,6 @@
         "pb4": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Continuous Support",
             "description": "Every meal, covered",
             "answer": "Your gut overreacts at breakfast, lunch, snacks, and the 3pm coffee. Kyanite works continuously — calming the enteric system through every meal, not just the one after your pill."
@@ -704,7 +678,6 @@
         "wj4"
       ],
       "settings": {
-        "brand_image": "",
         "heading": "What happens when your gut <strong>stops overreacting</strong>",
         "description": "The problem was never the food. It was the state your gut was in when the food arrived.",
         "highlight_color": "#1a6040",
@@ -725,7 +698,6 @@
         "r1": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 1",
             "heading": "It calms the gut — not the food",
             "details": "<p>Elimination diets remove triggers. Kyanite calms the system that's over-triggering.</p>"
@@ -734,7 +706,6 @@
         "r2": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 2",
             "heading": "No pills, no gas, no probiotics",
             "details": "<p>Nothing to swallow. No probiotic die-off. No digestive enzyme timing. Just wear it.</p>"
@@ -743,7 +714,6 @@
         "r3": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 3",
             "heading": "92% reported bloating reduced in 2 weeks",
             "details": "<p>Visible stomach distension gone. Jeans buttoned all day.</p>"
@@ -752,7 +722,6 @@
         "r4": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 4",
             "heading": "90-day money back guarantee",
             "details": "<p>Probiotics didn't offer this. Digestive enzymes didn't. We do.</p>"
@@ -761,7 +730,6 @@
         "r5": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 5",
             "heading": "50,000+ women eat freely again",
             "details": "<p>They stopped blaming food and started fixing their gut.</p>"
@@ -862,7 +830,6 @@
         "highlight_color": "#2e8b57",
         "brand_name": "<strong>Olmi</strong>",
         "brand_name_color": "#ffffff",
-        "brand_image": "",
         "brand_col_color": "#0d4030",
         "brand_icon_color": "#ffffff",
         "competitor_label": "<strong>Probiotics & Diets</strong>",
@@ -888,14 +855,12 @@
     "risk_free_trial": {
       "type": "risk-free-trial",
       "settings": {
-        "badge_image": "",
         "badge_number": "90",
         "badge_label": "DAYS",
         "subtitle": "THE OLMI GUT GUARANTEE",
         "heading": "Flat Stomach or Pay Nothing",
         "heading_size": 23,
         "description": "3 probiotic brands. Elimination diet. Digestive enzymes. Apple cider vinegar. Bone broth. Wear Kyanite for 90 days. If the bloat doesn't go, we refund everything.",
-        "image": "",
         "bg_color": "#edf7f0",
         "accent_color": "#1a6040",
         "text_color": "",

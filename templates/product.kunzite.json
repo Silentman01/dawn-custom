@@ -26,6 +26,15 @@
             "highlight_color": "#000000"
           }
         },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": 26,
+            "title_weight": "700",
+            "title_transform": "none",
+            "title_color": ""
+          }
+        },
         "statement": {
           "type": "statement",
           "settings": {
@@ -34,16 +43,12 @@
             "title_size": 26
           }
         },
-        "title": {
-          "type": "title",
-          "disabled": true,
-          "settings": {}
-        },
         "benefits_list": {
           "type": "benefits_list",
           "settings": {
             "text_color": "#121212",
             "icon_color": "#9a5a90",
+            "layout": "two_per_line",
             "benefit_1": "Hot Flashes",
             "benefit_2": "Mood Swings",
             "benefit_3": "Irregular Cycles",
@@ -142,10 +147,7 @@
             "border_radius": 50,
             "title": "<strong>Trusted by 50,000+ women</strong>",
             "subtitle": "who stopped white-knuckling through their cycles.",
-            "badge_color": "#51af6f",
-            "image_1": "",
-            "image_2": "",
-            "image_3": ""
+            "badge_color": "#51af6f"
           }
         },
         "urgency_notice": {
@@ -169,13 +171,9 @@
           "type": "trust_card_v2",
           "settings": {
             "heading": "<strong>Why Olmi is the #1</strong> Crystal Frequency Bracelet",
-            "feature_icon_1": "",
             "feature_text_1": "Crystal Frequency Resonance",
-            "feature_icon_2": "",
             "feature_text_2": "3 Neodymium Magnets",
-            "feature_icon_3": "",
             "feature_text_3": "Pulse Point Delivery",
-            "feature_icon_4": "",
             "feature_text_4": "90-Day Money Back Guarantee",
             "item_1": "No Pills",
             "item_2": "No Side Effects",
@@ -187,7 +185,6 @@
             "title_color": "#000000",
             "highlight_color": "#c77dba",
             "bg_color": "#f8f0f6",
-            "bg_image": "",
             "image_opacity": 10,
             "border_radius": 10,
             "heading_size": 28,
@@ -205,8 +202,8 @@
       },
       "block_order": [
         "star_rating",
-        "statement",
         "title",
+        "statement",
         "benefits_list",
         "price",
         "variant_picker",
@@ -302,7 +299,6 @@
         "c1": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>Kunzite Crystal</strong>",
             "text": "Kunzite resonates at a frequency aligned with your <strong>endocrine system</strong> — the network that regulates estrogen, progesterone, cortisol, and thyroid. Through your pulse point, it helps <strong>clear the signal interference</strong> that's jamming your hormones.",
             "card_bg_color": ""
@@ -311,7 +307,6 @@
         "c2": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>3 Neodymium Magnets</strong>",
             "text": "Three magnets amplify the crystal's endocrine frequency and improve blood flow at the pulse point — delivering the <strong>hormonal recalibration signal</strong> deeper into your system.",
             "card_bg_color": ""
@@ -320,7 +315,6 @@
         "c3": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>Endocrine Signal Clearing</strong>",
             "text": "Your brain talks to your ovaries and thyroid through electrical signals. Stress, screens, and environmental toxins <strong>jam those signals</strong>. Kunzite helps clear the channel so your body can <strong>regulate itself again</strong>.",
             "card_bg_color": ""
@@ -329,7 +323,6 @@
         "c4": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>Not HRT. Not Scary.</strong>",
             "text": "No hormones enter your body. No estrogen. No progesterone. Kunzite works through <strong>frequency, not chemistry</strong>. Your body already knows how to balance itself — it just needs the interference removed.",
             "card_bg_color": ""
@@ -362,33 +355,23 @@
       "blocks": {
         "ti1": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "ti2": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "ti3": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "ti4": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "ti5": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "r1": {
           "type": "review",
@@ -484,7 +467,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "health_and_safety",
-            "custom_icon": "",
             "title": "Balance Hormones"
           }
         },
@@ -492,7 +474,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "science",
-            "custom_icon": "",
             "title": "Reduce Hot Flashes"
           }
         },
@@ -500,7 +481,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "bolt",
-            "custom_icon": "",
             "title": "Stabilize Mood"
           }
         },
@@ -508,7 +488,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "spa",
-            "custom_icon": "",
             "title": "Regulate Cycles"
           }
         }
@@ -522,7 +501,6 @@
       "settings": {
         "heading": "<strong>Stop Guessing.</strong> Start Resetting.",
         "subheading": "Your body knows how to balance itself. Something is blocking the signal. Remove the block.",
-        "product_image": "",
         "bg_color": "#3a1550",
         "bg_color_bottom": "#9a5a90",
         "text_color": "#ffffff",
@@ -541,7 +519,6 @@
         "pb1": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Kunzite Crystal",
             "description": "Endocrine frequency alignment",
             "answer": "Kunzite resonates at a frequency aligned with the endocrine system. Through pulse-point contact, it helps clear the electromagnetic interference disrupting signals between your brain, ovaries, and thyroid. Your body already knows how to regulate hormones — it just needs a clear channel."
@@ -550,7 +527,6 @@
         "pb2": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Neodymium Magnets",
             "description": "Endocrine signal amplification",
             "answer": "Three magnets amplify the crystal frequency and improve blood flow — carrying the recalibration signal deeper into the endocrine network."
@@ -559,7 +535,6 @@
         "pb3": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Signal vs. Substance",
             "description": "No hormones. Just frequency.",
             "answer": "HRT adds hormones from outside. Kunzite helps your body regulate its OWN hormones by clearing signal interference. Nothing enters your bloodstream. No estrogen. No progesterone. No side effects. No cancer risk debate."
@@ -568,7 +543,6 @@
         "pb4": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Whole-Cycle Support",
             "description": "Not just one symptom",
             "answer": "Most hormone supplements target one symptom. Kunzite targets the endocrine signal that governs ALL of them — hot flashes, mood, cycles, night sweats, PMS. Fix the signal, fix the symptoms."
@@ -704,7 +678,6 @@
         "wj4"
       ],
       "settings": {
-        "brand_image": "",
         "heading": "What happens when your body <strong>gets a clear signal again</strong>",
         "description": "Your hormones aren't broken. The signal controlling them is jammed. Here's what happens when it clears.",
         "highlight_color": "#9a5a90",
@@ -725,7 +698,6 @@
         "r1": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 1",
             "heading": "It clears the signal — not adds hormones",
             "details": "<p>HRT adds hormones from outside. Kunzite helps your body regulate its own by clearing signal interference.</p>"
@@ -734,7 +706,6 @@
         "r2": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 2",
             "heading": "No estrogen, no progesterone, no risk debate",
             "details": "<p>Nothing hormonal enters your body. Zero. Just crystal frequency helping your endocrine system do what it already knows how.</p>"
@@ -743,7 +714,6 @@
         "r3": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 3",
             "heading": "90% reported hormonal symptoms reduced",
             "details": "<p>Hot flashes, mood swings, irregular cycles — all reduced within 30 days of daily wear.</p>"
@@ -752,7 +722,6 @@
         "r4": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 4",
             "heading": "90-day money back guarantee",
             "details": "<p>DIM didn't offer this. Vitex didn't. Evening primrose didn't. We do.</p>"
@@ -761,7 +730,6 @@
         "r5": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 5",
             "heading": "50,000+ women found their balance",
             "details": "<p>They were white-knuckling through every cycle. Now their bodies work with them.</p>"
@@ -862,7 +830,6 @@
         "highlight_color": "#c77dba",
         "brand_name": "<strong>Olmi</strong>",
         "brand_name_color": "#ffffff",
-        "brand_image": "",
         "brand_col_color": "#5a2070",
         "brand_icon_color": "#ffffff",
         "competitor_label": "<strong>HRT & Supplements</strong>",
@@ -888,14 +855,12 @@
     "risk_free_trial": {
       "type": "risk-free-trial",
       "settings": {
-        "badge_image": "",
         "badge_number": "90",
         "badge_label": "DAYS",
         "subtitle": "THE OLMI HORMONE GUARANTEE",
         "heading": "Feel Balanced or Pay Nothing",
         "heading_size": 23,
         "description": "DIM that did nothing. Vitex that made it worse. Evening primrose that was a guess. Wear Kunzite for 90 days. If your hormones don't stabilize, we refund everything.",
-        "image": "",
         "bg_color": "#f8f0f6",
         "accent_color": "#9a5a90",
         "text_color": "",

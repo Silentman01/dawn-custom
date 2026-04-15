@@ -26,6 +26,15 @@
             "highlight_color": "#000000"
           }
         },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": 26,
+            "title_weight": "700",
+            "title_transform": "none",
+            "title_color": ""
+          }
+        },
         "statement": {
           "type": "statement",
           "settings": {
@@ -34,16 +43,12 @@
             "title_size": 26
           }
         },
-        "title": {
-          "type": "title",
-          "disabled": true,
-          "settings": {}
-        },
         "benefits_list": {
           "type": "benefits_list",
           "settings": {
             "text_color": "#121212",
             "icon_color": "#6b7d66",
+            "layout": "two_per_line",
             "benefit_1": "Anxiety Relief",
             "benefit_2": "Calm Nervous System",
             "benefit_3": "Stop Overthinking",
@@ -142,10 +147,7 @@
             "border_radius": 50,
             "title": "<strong>Trusted by 50,000+ women</strong>",
             "subtitle": "who finally turned off emergency mode.",
-            "badge_color": "#51af6f",
-            "image_1": "",
-            "image_2": "",
-            "image_3": ""
+            "badge_color": "#51af6f"
           }
         },
         "urgency_notice": {
@@ -169,13 +171,9 @@
           "type": "trust_card_v2",
           "settings": {
             "heading": "<strong>Why Olmi is the #1</strong> Crystal Frequency Bracelet",
-            "feature_icon_1": "",
             "feature_text_1": "Crystal Frequency Resonance",
-            "feature_icon_2": "",
             "feature_text_2": "3 Neodymium Magnets",
-            "feature_icon_3": "",
             "feature_text_3": "Pulse Point Delivery",
-            "feature_icon_4": "",
             "feature_text_4": "90-Day Money Back Guarantee",
             "item_1": "No Pills",
             "item_2": "No Side Effects",
@@ -187,7 +185,6 @@
             "title_color": "#000000",
             "highlight_color": "#b8c5b4",
             "bg_color": "#f5f0eb",
-            "bg_image": "",
             "image_opacity": 10,
             "border_radius": 10,
             "heading_size": 28,
@@ -205,8 +202,8 @@
       },
       "block_order": [
         "star_rating",
-        "statement",
         "title",
+        "statement",
         "benefits_list",
         "price",
         "variant_picker",
@@ -302,7 +299,6 @@
         "c1": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>Howlite Crystal</strong>",
             "text": "Howlite emits a low-frequency vibration your nervous system reads as a <strong>safety signal</strong>. It tells your body: <strong>stand down. You're safe.</strong> Through your pulse point, in minutes.",
             "card_bg_color": ""
@@ -311,7 +307,6 @@
         "c2": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>3 Neodymium Magnets</strong>",
             "text": "Three magnets press against the vagus nerve access point at your wrist. They <strong>amplify the crystal's calming frequency</strong> — switching your nervous system from emergency mode to <strong>rest mode</strong>.",
             "card_bg_color": ""
@@ -320,7 +315,6 @@
         "c3": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>The Vagus Nerve Switch</strong>",
             "text": "Your vagus nerve controls the switch between fight-or-flight and rest. It's accessible at your <strong>wrist's pulse point</strong>. Olmi stimulates it through crystal frequency. Your body's <strong>built-in calm switch</strong> — from your wrist.",
             "card_bg_color": ""
@@ -329,7 +323,6 @@
         "c4": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>Calm Without Chemicals</strong>",
             "text": "Nothing enters your bloodstream. No grogginess. No zombie feeling. No dependence. You stay sharp, present, and yourself — just without the <strong>constant hum of dread</strong>.",
             "card_bg_color": ""
@@ -362,33 +355,23 @@
       "blocks": {
         "ti1": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "ti2": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "ti3": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "ti4": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "ti5": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "r1": {
           "type": "review",
@@ -484,7 +467,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "health_and_safety",
-            "custom_icon": "",
             "title": "Nervous System Reset"
           }
         },
@@ -492,7 +474,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "science",
-            "custom_icon": "",
             "title": "Vagus Nerve Activation"
           }
         },
@@ -500,7 +481,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "bolt",
-            "custom_icon": "",
             "title": "Stop the Scanning"
           }
         },
@@ -508,7 +488,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "spa",
-            "custom_icon": "",
             "title": "Feel Normal Again"
           }
         }
@@ -522,7 +501,6 @@
       "settings": {
         "heading": "<strong>Stop Managing.</strong> Start Resetting.",
         "subheading": "You've been managing anxiety for years. What if you could switch off the thing generating it?",
-        "product_image": "",
         "bg_color": "#3d4a3e",
         "bg_color_bottom": "#6b7d66",
         "text_color": "#ffffff",
@@ -541,7 +519,6 @@
         "pb1": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Howlite Crystal",
             "description": "Nervous system calm signal",
             "answer": "Howlite emits a low-frequency vibration your parasympathetic nervous system reads as safety. When this reaches the vagus nerve through your pulse point, your body shifts out of fight-or-flight. It doesn't mask anxiety. It tells your nervous system the emergency is over."
@@ -550,7 +527,6 @@
         "pb2": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Neodymium Magnets",
             "description": "Signal amplification at vagus nerve",
             "answer": "Three magnets amplify the crystal frequency and improve microcirculation at the wrist. They make the safety signal louder so your nervous system hears it clearly, even when stress is shouting."
@@ -559,7 +535,6 @@
         "pb3": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Vagus Nerve Access",
             "description": "Your body's off switch — at your wrist",
             "answer": "The vagus nerve controls the switch between stress and calm. It's accessible at your wrist's pulse point. Clinical vagus nerve stimulators cost thousands. Olmi uses crystal frequency to achieve a similar calming effect — worn on your wrist, all day, no prescription."
@@ -568,7 +543,6 @@
         "pb4": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Continuous Wear",
             "description": "Anxiety doesn't clock out. Neither does this.",
             "answer": "Unlike a supplement you take once or breathing you do for 5 minutes, Olmi works every second it touches your skin. Your anxiety spikes in traffic, during meetings, at school pickup, at 3am. The bracelet is there for all of it."
@@ -704,7 +678,6 @@
         "wj4"
       ],
       "settings": {
-        "brand_image": "",
         "heading": "What happens when your nervous system <strong>remembers it's safe</strong>",
         "description": "You weren't always like this. Your body learned to stay on high alert. Here's what happens when it unlearns.",
         "highlight_color": "#6b7d66",
@@ -725,7 +698,6 @@
         "r1": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 1",
             "heading": "It targets the nervous system — not the symptoms",
             "details": "<p>Ashwagandha blunts cortisol. CBD dulls edges. Olmi goes upstream — to the vagus nerve itself.</p>"
@@ -734,7 +706,6 @@
         "r2": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 2",
             "heading": "No pills, no zombie feeling",
             "details": "<p>Nothing in your bloodstream. No grogginess. No emotional numbness. You stay sharp and yourself.</p>"
@@ -743,7 +714,6 @@
         "r3": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 3",
             "heading": "94% felt the background noise quiet",
             "details": "<p>The scanning, the jaw, the chest — got noticeably quieter within 14 days.</p>"
@@ -752,7 +722,6 @@
         "r4": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 4",
             "heading": "90-day money back guarantee",
             "details": "<p>Ashwagandha that stopped working didn't offer this. CBD that did nothing didn't offer this. We do.</p>"
@@ -761,7 +730,6 @@
         "r5": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 5",
             "heading": "50,000+ women turned off emergency mode",
             "details": "<p>They lived with the hum for years. They wore Howlite and the volume dropped.</p>"
@@ -862,7 +830,6 @@
         "highlight_color": "#b8c5b4",
         "brand_name": "<strong>Olmi</strong>",
         "brand_name_color": "#ffffff",
-        "brand_image": "",
         "brand_col_color": "#4d5c4e",
         "brand_icon_color": "#ffffff",
         "competitor_label": "<strong>Supplements & Meds</strong>",
@@ -888,14 +855,12 @@
     "risk_free_trial": {
       "type": "risk-free-trial",
       "settings": {
-        "badge_image": "",
         "badge_number": "90",
         "badge_label": "DAYS",
         "subtitle": "THE OLMI CALM GUARANTEE",
         "heading": "Feel the Quiet or Pay Nothing",
         "heading_size": 23,
         "description": "Ashwagandha that stopped working. CBD that did nothing. Breathing apps you deleted. Wear it for 90 days. If the hum doesn't quiet, we refund every penny.",
-        "image": "",
         "bg_color": "#f0ece6",
         "accent_color": "#6b7d66",
         "text_color": "",

@@ -26,6 +26,15 @@
             "highlight_color": "#000000"
           }
         },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": 26,
+            "title_weight": "700",
+            "title_transform": "none",
+            "title_color": ""
+          }
+        },
         "statement": {
           "type": "statement",
           "settings": {
@@ -34,16 +43,12 @@
             "title_size": 26
           }
         },
-        "title": {
-          "type": "title",
-          "disabled": true,
-          "settings": {}
-        },
         "benefits_list": {
           "type": "benefits_list",
           "settings": {
             "text_color": "#121212",
             "icon_color": "#c47020",
+            "layout": "two_per_line",
             "benefit_1": "Energy Crash",
             "benefit_2": "Adrenal Fatigue",
             "benefit_3": "2pm Slump",
@@ -142,10 +147,7 @@
             "border_radius": 50,
             "title": "<strong>Trusted by 50,000+ women</strong>",
             "subtitle": "who stopped running on caffeine and started running on their own energy.",
-            "badge_color": "#51af6f",
-            "image_1": "",
-            "image_2": "",
-            "image_3": ""
+            "badge_color": "#51af6f"
           }
         },
         "urgency_notice": {
@@ -169,13 +171,9 @@
           "type": "trust_card_v2",
           "settings": {
             "heading": "<strong>Why Olmi is the #1</strong> Crystal Frequency Bracelet",
-            "feature_icon_1": "",
             "feature_text_1": "Crystal Frequency Resonance",
-            "feature_icon_2": "",
             "feature_text_2": "3 Neodymium Magnets",
-            "feature_icon_3": "",
             "feature_text_3": "Pulse Point Delivery",
-            "feature_icon_4": "",
             "feature_text_4": "90-Day Money Back Guarantee",
             "item_1": "No Pills",
             "item_2": "No Side Effects",
@@ -187,7 +185,6 @@
             "title_color": "#000000",
             "highlight_color": "#e8913a",
             "bg_color": "#fdf5ec",
-            "bg_image": "",
             "image_opacity": 10,
             "border_radius": 10,
             "heading_size": 28,
@@ -205,8 +202,8 @@
       },
       "block_order": [
         "star_rating",
-        "statement",
         "title",
+        "statement",
         "benefits_list",
         "price",
         "variant_picker",
@@ -302,7 +299,6 @@
         "c1": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>Sunstone Crystal</strong>",
             "text": "Sunstone emits a warm-spectrum frequency that stimulates <strong>adrenal recovery</strong> through your pulse point. Instead of borrowing energy from caffeine, it helps your body <strong>produce its own again</strong>.",
             "card_bg_color": ""
@@ -311,7 +307,6 @@
         "c2": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>3 Neodymium Magnets</strong>",
             "text": "Three magnets amplify the crystal's thermal frequency and improve blood flow at the pulse point — delivering the <strong>adrenal activation signal</strong> deeper and faster.",
             "card_bg_color": ""
@@ -320,7 +315,6 @@
         "c3": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>Adrenal Reset</strong>",
             "text": "Your adrenals produce the hormones that give you energy. Chronic stress has drained them to zero. Caffeine <strong>borrows</strong> from tomorrow's supply. Sunstone helps your adrenals <strong>refill</strong>.",
             "card_bg_color": ""
@@ -329,7 +323,6 @@
         "c4": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>Energy Without Crash</strong>",
             "text": "Unlike caffeine, which blocks your tired signal and leaves you crashing 4 hours later, Sunstone works <strong>with</strong> your body's energy system. No spike. No crash. Just <strong>steady, real energy</strong> all day.",
             "card_bg_color": ""
@@ -362,33 +355,23 @@
       "blocks": {
         "ti1": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "ti2": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "ti3": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "ti4": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "ti5": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "r1": {
           "type": "review",
@@ -484,7 +467,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "bolt",
-            "custom_icon": "",
             "title": "All-Day Energy"
           }
         },
@@ -492,7 +474,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "health_and_safety",
-            "custom_icon": "",
             "title": "Adrenal Recovery"
           }
         },
@@ -500,7 +481,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "science",
-            "custom_icon": "",
             "title": "Kill the 2pm Crash"
           }
         },
@@ -508,7 +488,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "spa",
-            "custom_icon": "",
             "title": "Mood & Motivation"
           }
         }
@@ -522,7 +501,6 @@
       "settings": {
         "heading": "<strong>Stop Borrowing.</strong> Start Producing.",
         "subheading": "Caffeine borrows energy from tomorrow. Sunstone helps your body make its own again.",
-        "product_image": "",
         "bg_color": "#4a2c0a",
         "bg_color_bottom": "#c47020",
         "text_color": "#ffffff",
@@ -541,7 +519,6 @@
         "pb1": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Sunstone Crystal",
             "description": "Adrenal activation frequency",
             "answer": "Sunstone emits a warm-spectrum frequency that stimulates adrenal recovery through your pulse point. Your adrenals have been drained by years of chronic stress. Caffeine masks the emptiness. Sunstone helps refill it."
@@ -550,7 +527,6 @@
         "pb2": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Neodymium Magnets",
             "description": "Thermal signal amplification",
             "answer": "Three magnets amplify the crystal's warm frequency and improve microcirculation at the wrist — delivering the adrenal activation signal deeper. More blood flow means more oxygen to depleted glands."
@@ -559,7 +535,6 @@
         "pb3": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Energy Production",
             "description": "Your body makes energy — when it can",
             "answer": "Your body already has the hardware to produce all-day energy. The adrenals, the thyroid, the mitochondria — they're not broken. They're depleted. Sunstone doesn't override them with stimulants. It helps them recover so they can do their job again."
@@ -568,7 +543,6 @@
         "pb4": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "No Crash Architecture",
             "description": "Steady, not spiked",
             "answer": "Caffeine blocks your tired signal, creating artificial alertness that crashes when it wears off. Sunstone works WITH your energy system — no spike, no crash, no withdrawal. Works the same on day 200 as day 2."
@@ -704,7 +678,6 @@
         "wj4"
       ],
       "settings": {
-        "brand_image": "",
         "heading": "What happens when you <strong>stop borrowing energy and start making it</strong>",
         "description": "Your adrenals aren't broken. They're depleted. Here's what happens when they refill.",
         "highlight_color": "#c47020",
@@ -725,7 +698,6 @@
         "r1": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 1",
             "heading": "It refills your energy — doesn't borrow it",
             "details": "<p>Caffeine blocks your tired signal. That's not energy — it's a mask. Sunstone helps your adrenals recover and produce real energy again.</p>"
@@ -734,7 +706,6 @@
         "r2": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 2",
             "heading": "No crash, no jitters, no withdrawal",
             "details": "<p>No spike-and-crash cycle. No jittery hands. No caffeine headache when you skip a day. Just steady energy all day.</p>"
@@ -743,7 +714,6 @@
         "r3": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 3",
             "heading": "91% felt real energy within 2 weeks",
             "details": "<p>Not a vague 'felt better.' Specifically: sustained afternoon energy without caffeine for the first time in months or years.</p>"
@@ -752,7 +722,6 @@
         "r4": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 4",
             "heading": "90-day money back guarantee",
             "details": "<p>Your vitamin graveyard didn't offer this. Your energy drinks didn't offer this. We do.</p>"
@@ -761,7 +730,6 @@
         "r5": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 5",
             "heading": "50,000+ women stopped running on empty",
             "details": "<p>They were the tired mom, the 3-coffee minimum, the 'I'm fine' liar. Now they have their fire back.</p>"
@@ -862,7 +830,6 @@
         "highlight_color": "#e8913a",
         "brand_name": "<strong>Olmi</strong>",
         "brand_name_color": "#ffffff",
-        "brand_image": "",
         "brand_col_color": "#7a4a15",
         "brand_icon_color": "#ffffff",
         "competitor_label": "<strong>Caffeine & Supplements</strong>",
@@ -888,14 +855,12 @@
     "risk_free_trial": {
       "type": "risk-free-trial",
       "settings": {
-        "badge_image": "",
         "badge_number": "90",
         "badge_label": "DAYS",
         "subtitle": "THE OLMI ENERGY GUARANTEE",
         "heading": "Feel Your Energy Back or Pay Nothing",
         "heading_size": 23,
         "description": "B12 that did nothing. Ashwagandha that stopped working. Energy drinks that made the crash worse. Wear Sunstone for 90 days. If you don't feel the difference, we refund every penny.",
-        "image": "",
         "bg_color": "#fdf5ec",
         "accent_color": "#c47020",
         "text_color": "",

@@ -26,6 +26,15 @@
             "highlight_color": "#000000"
           }
         },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": 26,
+            "title_weight": "700",
+            "title_transform": "none",
+            "title_color": ""
+          }
+        },
         "statement": {
           "type": "statement",
           "settings": {
@@ -34,16 +43,12 @@
             "title_size": 26
           }
         },
-        "title": {
-          "type": "title",
-          "disabled": true,
-          "settings": {}
-        },
         "benefits_list": {
           "type": "benefits_list",
           "settings": {
             "text_color": "#121212",
             "icon_color": "#4a90a4",
+            "layout": "two_per_line",
             "benefit_1": "Cortisol Belly",
             "benefit_2": "Stubborn Fat",
             "benefit_3": "Stress Eating",
@@ -142,10 +147,7 @@
             "border_radius": 50,
             "title": "<strong>Trusted by 50,000+ women</strong>",
             "subtitle": "who stopped dieting and started fixing the real problem.",
-            "badge_color": "#51af6f",
-            "image_1": "",
-            "image_2": "",
-            "image_3": ""
+            "badge_color": "#51af6f"
           }
         },
         "urgency_notice": {
@@ -169,13 +171,9 @@
           "type": "trust_card_v2",
           "settings": {
             "heading": "<strong>Why Olmi is the #1</strong> Crystal Frequency Bracelet",
-            "feature_icon_1": "",
             "feature_text_1": "Crystal Frequency Resonance",
-            "feature_icon_2": "",
             "feature_text_2": "3 Neodymium Magnets",
-            "feature_icon_3": "",
             "feature_text_3": "Pulse Point Delivery",
-            "feature_icon_4": "",
             "feature_text_4": "90-Day Money Back Guarantee",
             "item_1": "No Pills",
             "item_2": "No Side Effects",
@@ -187,7 +185,6 @@
             "title_color": "#000000",
             "highlight_color": "#7ec8e3",
             "bg_color": "#f0f7fa",
-            "bg_image": "",
             "image_opacity": 10,
             "border_radius": 10,
             "heading_size": 28,
@@ -205,8 +202,8 @@
       },
       "block_order": [
         "star_rating",
-        "statement",
         "title",
+        "statement",
         "benefits_list",
         "price",
         "variant_picker",
@@ -302,7 +299,6 @@
         "card_1": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>Celestite Crystal</strong>",
             "text": "Celestite vibrates at a frequency your nervous system recognizes as <strong>safe</strong>. Worn against your pulse point, it sends a signal that tells your body to <strong>stand down from survival mode</strong> — so it stops hoarding fat around your midsection.",
             "card_bg_color": ""
@@ -311,7 +307,6 @@
         "card_2": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>3 Neodymium Magnets</strong>",
             "text": "Three rare-earth magnets sit on the inner curve of the cuff, pressing gently against your pulse point. They <strong>amplify the crystal's frequency</strong> and improve blood flow — delivering the calming signal deeper and faster.",
             "card_bg_color": ""
@@ -320,7 +315,6 @@
         "card_3": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>Pulse Point Contact</strong>",
             "text": "Your wrist's pulse point is where blood vessels run closest to the skin. It's the body's <strong>fastest entry point</strong> for frequency-based signals. That's why Olmi is worn here — not as jewelry, but as a <strong>delivery system</strong>.",
             "card_bg_color": ""
@@ -329,7 +323,6 @@
         "card_4": {
           "type": "card",
           "settings": {
-            "image": "",
             "title": "<strong>Open Cuff Design</strong>",
             "text": "The C-shaped cuff adjusts to any wrist. No clasps. No fumbling. <strong>Put it on in 2 seconds</strong> and forget it's there — while it works all day.",
             "card_bg_color": ""
@@ -362,33 +355,23 @@
       "blocks": {
         "ticker_1": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "ticker_2": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "ticker_3": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "ticker_4": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "ticker_5": {
           "type": "ticker_image",
-          "settings": {
-            "image": ""
-          }
+          "settings": {}
         },
         "review_1": {
           "type": "review",
@@ -484,7 +467,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "health_and_safety",
-            "custom_icon": "",
             "title": "Cortisol Reset"
           }
         },
@@ -492,7 +474,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "science",
-            "custom_icon": "",
             "title": "Metabolism Unlock"
           }
         },
@@ -500,7 +481,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "bolt",
-            "custom_icon": "",
             "title": "Stop Stress Eating"
           }
         },
@@ -508,7 +488,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "spa",
-            "custom_icon": "",
             "title": "Flatten Midsection"
           }
         }
@@ -522,7 +501,6 @@
       "settings": {
         "heading": "<strong>Stop Dieting.</strong> Start Resetting.",
         "subheading": "Your body didn't gain this weight because you ate too much. It gained it because cortisol told it to.",
-        "product_image": "",
         "bg_color": "#1a3a4a",
         "bg_color_bottom": "#4a90a4",
         "text_color": "#ffffff",
@@ -541,7 +519,6 @@
         "pb_1": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Celestite Crystal",
             "description": "Cortisol reset frequency",
             "answer": "Celestite emits a specific vibrational frequency that your parasympathetic nervous system reads as a \"stand down\" signal. When the signal reaches your nervous system through your pulse point, cortisol production begins to normalize. And when cortisol drops, your metabolism wakes up."
@@ -550,7 +527,6 @@
         "pb_2": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Neodymium Magnets",
             "description": "Signal amplification",
             "answer": "Three rare-earth neodymium magnets amplify the crystal's natural frequency and improve microcirculation — delivering the calming signal faster and deeper than the crystal alone. Think of them as the speakers for the signal."
@@ -559,7 +535,6 @@
         "pb_3": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Pulse Point Delivery",
             "description": "The body's fastest entry",
             "answer": "Your wrist's radial artery runs millimeters below the skin. Blood circulates past this point with every heartbeat. Direct arterial contact means the calming signal reaches your entire nervous system within minutes, not hours."
@@ -568,7 +543,6 @@
         "pb_4": {
           "type": "benefit",
           "settings": {
-            "image": "",
             "title": "Continuous Wear",
             "description": "24-hour cortisol management",
             "answer": "Unlike a supplement you take once, Olmi works every second it touches your skin. Your cortisol spikes at 3am, during your commute, after school pickup. Olmi is there for all of it. Continuous frequency. Continuous calm. Continuous results."
@@ -704,7 +678,6 @@
         "wj_4"
       ],
       "settings": {
-        "brand_image": "",
         "heading": "What happens when you <strong>stop dieting and start resetting</strong>",
         "description": "Your body didn't gain this weight because you ate too much. It gained it because cortisol told it to.",
         "highlight_color": "#4a90a4",
@@ -725,7 +698,6 @@
         "r1": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 1",
             "heading": "It targets cortisol — not calories",
             "details": "<p>If stress is the root cause, restricting harder just raises cortisol higher. Olmi targets the stress signal itself.</p>"
@@ -734,7 +706,6 @@
         "r2": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 2",
             "heading": "No pills, no side effects, no routine",
             "details": "<p>No supplements. No powders. No protocols. Put it on your wrist. Go live your life.</p>"
@@ -743,7 +714,6 @@
         "r3": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 3",
             "heading": "Results women can see in the mirror",
             "details": "<p>94% reported midsection bloating reduced within 30 days. Not a scale number — a visible change.</p>"
@@ -752,7 +722,6 @@
         "r4": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 4",
             "heading": "90-day money back guarantee",
             "details": "<p>If you don't see results, we give your money back. No forms. No hassle.</p>"
@@ -761,7 +730,6 @@
         "r5": {
           "type": "reason_card",
           "settings": {
-            "image": "",
             "label": "Reason 5",
             "heading": "50,000+ women already made the switch",
             "details": "<p>They stopped dieting and started fixing the real problem. Read their reviews below.</p>"
@@ -862,7 +830,6 @@
         "highlight_color": "#7ec8e3",
         "brand_name": "<strong>Olmi</strong>",
         "brand_name_color": "#ffffff",
-        "brand_image": "",
         "brand_col_color": "#2a6076",
         "brand_icon_color": "#ffffff",
         "competitor_label": "<strong>Diets & Supplements</strong>",
@@ -888,14 +855,12 @@
     "risk_free_trial": {
       "type": "risk-free-trial",
       "settings": {
-        "badge_image": "",
         "badge_number": "90",
         "badge_label": "DAYS",
         "subtitle": "THE OLMI GUARANTEE",
         "heading": "See Results or Pay Nothing",
         "heading_size": 23,
         "description": "You've already spent money on diets, supplements, and programs that promised to fix your belly. We're the first to say: if this doesn't work, you don't pay. 90 days. Full refund. No questions.",
-        "image": "",
         "bg_color": "#e8f4f8",
         "accent_color": "#4a90a4",
         "text_color": "",
