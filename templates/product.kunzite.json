@@ -295,6 +295,7 @@
         "c1": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/crystal_kunzite.png",
             "title": "<strong>Kunzite Crystal</strong>",
             "text": "Kunzite resonates at a frequency aligned with your <strong>endocrine system</strong> — the network that regulates estrogen, progesterone, cortisol, and thyroid. Through your pulse point, it helps <strong>clear the signal interference</strong> that's jamming your hormones.",
             "card_bg_color": ""
