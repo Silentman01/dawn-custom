@@ -658,6 +658,7 @@
         "wj4"
       ],
       "settings": {
+        "brand_image": "shopify://shop_images/wj_duo.png",
         "heading": "What happens when <strong>both halves of your day work again</strong>",
         "description": "Your body didn't forget how to function. It lost track of time. Here's what happens when both signals reset.",
         "highlight_color": "#e8913a",
