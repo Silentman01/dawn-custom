@@ -473,6 +473,7 @@
         "b3",
         "b4"
       ],
+      "disabled": true,
       "settings": {
         "heading": "<strong>Stop Guessing.</strong> Start Resetting.",
         "subheading": "Your body knows how to balance itself. Something is blocking the signal. Remove the block.",
@@ -723,6 +724,7 @@
         "r4",
         "r5"
       ],
+      "disabled": true,
       "settings": {
         "badge_text": "5 Reasons Why",
         "subheading": "Olmi Kunzite Works When Hormone Supplements Didn't",
