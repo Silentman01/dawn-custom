@@ -657,6 +657,7 @@
         "wj4"
       ],
       "settings": {
+        "brand_image": "shopify://shop_images/wj_sunstone.png",
         "heading": "What happens when you <strong>stop borrowing energy and start making it</strong>",
         "description": "Your adrenals aren't broken. They're depleted. Here's what happens when they refill.",
         "highlight_color": "#c47020",

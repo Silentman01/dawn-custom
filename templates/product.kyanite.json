@@ -657,6 +657,7 @@
         "wj4"
       ],
       "settings": {
+        "brand_image": "shopify://shop_images/wj_kyanite.png",
         "heading": "What happens when your gut <strong>stops overreacting</strong>",
         "description": "The problem was never the food. It was the state your gut was in when the food arrived.",
         "highlight_color": "#1a6040",

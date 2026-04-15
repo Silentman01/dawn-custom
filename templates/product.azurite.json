@@ -657,6 +657,7 @@
         "wj4"
       ],
       "settings": {
+        "brand_image": "shopify://shop_images/wj_azurite.png",
         "heading": "What happens when your brain <strong>gets its fuel back</strong>",
         "description": "The fog isn't permanent. It's a fuel problem. Here's what happens when blood flow returns.",
         "highlight_color": "#2a5090",

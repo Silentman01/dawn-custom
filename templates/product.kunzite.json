@@ -657,6 +657,7 @@
         "wj4"
       ],
       "settings": {
+        "brand_image": "shopify://shop_images/wj_kunzite.png",
         "heading": "What happens when your body <strong>gets a clear signal again</strong>",
         "description": "Your hormones aren't broken. The signal controlling them is jammed. Here's what happens when it clears.",
         "highlight_color": "#9a5a90",

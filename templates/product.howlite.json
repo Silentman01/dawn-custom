@@ -657,6 +657,7 @@
         "wj4"
       ],
       "settings": {
+        "brand_image": "shopify://shop_images/wj_howlite.png",
         "heading": "What happens when your nervous system <strong>remembers it's safe</strong>",
         "description": "You weren't always like this. Your body learned to stay on high alert. Here's what happens when it unlearns.",
         "highlight_color": "#6b7d66",
