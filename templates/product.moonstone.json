@@ -322,6 +322,7 @@
         "c4": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/featured_card1_moonstone.png",
             "title": "<strong>Stays Asleep, Not Sleep Onset</strong>",
             "text": "Melatonin helps you <strong>fall</strong> asleep. Moonstone helps you <strong>stay</strong> asleep. That's the difference. <strong>No grogginess. No hangover. No weird dreams.</strong>",
             "card_bg_color": ""
@@ -520,6 +521,7 @@
         "pb4": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/featured_card1_moonstone.png",
             "title": "No Residue",
             "description": "Nothing in your bloodstream",
             "answer": "Nothing enters your bloodstream. No grogginess. No weird dreams. No tolerance buildup. No dependence. Works the same on night 500 as night 5. Try saying that about melatonin."

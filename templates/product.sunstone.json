@@ -322,6 +322,7 @@
         "c4": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/featured_card1_sunstone.png",
             "title": "<strong>Energy Without Crash</strong>",
             "text": "Unlike caffeine, which blocks your tired signal and leaves you crashing 4 hours later, Sunstone works <strong>with</strong> your body's energy system. No spike. No crash. Just <strong>steady, real energy</strong> all day.",
             "card_bg_color": ""
@@ -520,6 +521,7 @@
         "pb4": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/featured_card1_sunstone.png",
             "title": "No Crash Architecture",
             "description": "Steady, not spiked",
             "answer": "Caffeine blocks your tired signal, creating artificial alertness that crashes when it wears off. Sunstone works WITH your energy system — no spike, no crash, no withdrawal. Works the same on day 200 as day 2."
