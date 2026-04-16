@@ -91,41 +91,6 @@
             "button_text_transform": "none"
           }
         },
-        "sticky_cart": {
-          "type": "sticky_cart",
-          "settings": {
-            "function": "link",
-            "button_link": "",
-            "display_when": "after_scroll",
-            "button_label": "Try It Risk-Free",
-            "enable_custom_btn_color": false,
-            "custom_btn_color": "#b8c5b4",
-            "color_scheme": "scheme-1",
-            "star_color": "#ffcc00",
-            "stars_label": "Rated 4.8 Excellent — 4,102+ Reviews",
-            "button_font_size": 1.8,
-            "button_font_weight": "700",
-            "button_text_transform": "none",
-            "desktop_show_image": true,
-            "desktop_show_title": true,
-            "desktop_rating_stars": true,
-            "desktop_show_price": false,
-            "desktop_show_sale_badge": false,
-            "desktop_variant_picker": false,
-            "desktop_full_button_width": false,
-            "desktop_show_price_in_button": false,
-            "desktop_transparent_bg": false,
-            "mobile_show_image": true,
-            "mobile_show_title": true,
-            "mobile_rating_stars": false,
-            "mobile_show_price": false,
-            "mobile_show_sale_badge": false,
-            "mobile_variant_picker": false,
-            "mobile_full_button_width": false,
-            "mobile_show_price_in_button": false,
-            "mobile_transparent_bg": false
-          }
-        },
         "trust_microcopy": {
           "type": "trust_microcopy",
           "settings": {
@@ -205,7 +170,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "sticky_cart",
         "trust_microcopy",
         "social_proof_banner",
         "urgency_notice",
