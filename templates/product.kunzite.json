@@ -211,6 +211,9 @@
         "urgency_notice",
         "trust_card_v2"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {.thumbnail-list__item.slider__slide {width: calc(20% - 0.6rem) !important; }}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "",
