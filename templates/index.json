@@ -83,7 +83,7 @@
         "show_rating": true,
         "quick_add": "none",
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -97,14 +97,15 @@
         "heading": "Feel the Difference or Pay Nothing",
         "heading_size": 23,
         "description": "Every bracelet. 90 days. If you don't feel a difference, we refund every penny. No forms. No hassle.",
+        "image": "shopify://shop_images/all_bracelets.png",
         "bg_color": "#f8f7f5",
         "accent_color": "#1a1a2e",
         "text_color": "",
         "cta_text": "Shop The Collection",
         "cta_link": "/collections/all",
         "cta_height": 50,
-        "cta_bg_color": "#d4af37",
-        "cta_text_color": "#1a1a2e",
+        "cta_bg_color": "#212121",
+        "cta_text_color": "#ffffff",
         "padding_top": 28
       }
     }
