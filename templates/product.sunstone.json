@@ -295,6 +295,7 @@
         "c1": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/crystal_sunstone.png",
             "title": "<strong>Sunstone Crystal</strong>",
             "text": "Sunstone emits a warm-spectrum frequency that stimulates <strong>adrenal recovery</strong> through your pulse point. Instead of borrowing energy from caffeine, it helps your body <strong>produce its own again</strong>.",
             "card_bg_color": ""
@@ -303,6 +304,7 @@
         "c2": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/magnets_sunstone.png",
             "title": "<strong>3 Neodymium Magnets</strong>",
             "text": "Three magnets amplify the crystal's thermal frequency and improve blood flow at the pulse point — delivering the <strong>adrenal activation signal</strong> deeper and faster.",
             "card_bg_color": ""
@@ -311,6 +313,7 @@
         "c3": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/energy_sunstoe.png",
             "title": "<strong>Adrenal Reset</strong>",
             "text": "Your adrenals produce the hormones that give you energy. Chronic stress has drained them to zero. Caffeine <strong>borrows</strong> from tomorrow's supply. Sunstone helps your adrenals <strong>refill</strong>.",
             "card_bg_color": ""
@@ -319,6 +322,7 @@
         "c4": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/featured_card1_sunstone.png",
             "title": "<strong>Energy Without Crash</strong>",
             "text": "Unlike caffeine, which blocks your tired signal and leaves you crashing 4 hours later, Sunstone works <strong>with</strong> your body's energy system. No spike. No crash. Just <strong>steady, real energy</strong> all day.",
             "card_bg_color": ""
@@ -469,6 +473,7 @@
         "b3",
         "b4"
       ],
+      "disabled": true,
       "settings": {
         "heading": "<strong>Stop Borrowing.</strong> Start Producing.",
         "subheading": "Caffeine borrows energy from tomorrow. Sunstone helps your body make its own again.",
@@ -490,6 +495,7 @@
         "pb1": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/crystal_sunstone.png",
             "title": "Sunstone Crystal",
             "description": "Adrenal activation frequency",
             "answer": "Sunstone emits a warm-spectrum frequency that stimulates adrenal recovery through your pulse point. Your adrenals have been drained by years of chronic stress. Caffeine masks the emptiness. Sunstone helps refill it."
@@ -498,6 +504,7 @@
         "pb2": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/magnets_sunstone.png",
             "title": "Neodymium Magnets",
             "description": "Thermal signal amplification",
             "answer": "Three magnets amplify the crystal's warm frequency and improve microcirculation at the wrist — delivering the adrenal activation signal deeper. More blood flow means more oxygen to depleted glands."
@@ -506,6 +513,7 @@
         "pb3": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/energy_sunstoe.png",
             "title": "Energy Production",
             "description": "Your body makes energy — when it can",
             "answer": "Your body already has the hardware to produce all-day energy. The adrenals, the thyroid, the mitochondria — they're not broken. They're depleted. Sunstone doesn't override them with stimulants. It helps them recover so they can do their job again."
@@ -514,6 +522,7 @@
         "pb4": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/featured_card1_sunstone.png",
             "title": "No Crash Architecture",
             "description": "Steady, not spiked",
             "answer": "Caffeine blocks your tired signal, creating artificial alertness that crashes when it wears off. Sunstone works WITH your energy system — no spike, no crash, no withdrawal. Works the same on day 200 as day 2."
@@ -649,6 +658,7 @@
         "wj4"
       ],
       "settings": {
+        "brand_image": "shopify://shop_images/wj_sunstone.png",
         "heading": "What happens when you <strong>stop borrowing energy and start making it</strong>",
         "description": "Your adrenals aren't broken. They're depleted. Here's what happens when they refill.",
         "highlight_color": "#c47020",
@@ -714,6 +724,7 @@
         "r4",
         "r5"
       ],
+      "disabled": true,
       "settings": {
         "badge_text": "5 Reasons Why",
         "subheading": "Olmi Sunstone Works When Coffee Stopped",
@@ -801,6 +812,7 @@
         "highlight_color": "#e8913a",
         "brand_name": "<strong>Olmi</strong>",
         "brand_name_color": "#ffffff",
+        "brand_image": "shopify://shop_images/packaging_transparent_sunstone.png",
         "brand_col_color": "#7a4a15",
         "brand_icon_color": "#ffffff",
         "competitor_label": "<strong>Caffeine & Supplements</strong>",

@@ -295,6 +295,7 @@
         "c1": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/crystal_kunzite.png",
             "title": "<strong>Kunzite Crystal</strong>",
             "text": "Kunzite resonates at a frequency aligned with your <strong>endocrine system</strong> — the network that regulates estrogen, progesterone, cortisol, and thyroid. Through your pulse point, it helps <strong>clear the signal interference</strong> that's jamming your hormones.",
             "card_bg_color": ""
@@ -303,6 +304,7 @@
         "c2": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/magnets_kunzite.png",
             "title": "<strong>3 Neodymium Magnets</strong>",
             "text": "Three magnets amplify the crystal's endocrine frequency and improve blood flow at the pulse point — delivering the <strong>hormonal recalibration signal</strong> deeper into your system.",
             "card_bg_color": ""
@@ -311,6 +313,7 @@
         "c3": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/energy_kunzite.png",
             "title": "<strong>Endocrine Signal Clearing</strong>",
             "text": "Your brain talks to your ovaries and thyroid through electrical signals. Stress, screens, and environmental toxins <strong>jam those signals</strong>. Kunzite helps clear the channel so your body can <strong>regulate itself again</strong>.",
             "card_bg_color": ""
@@ -319,6 +322,7 @@
         "c4": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/featured_card1_kunzite.png",
             "title": "<strong>Not HRT. Not Scary.</strong>",
             "text": "No hormones enter your body. No estrogen. No progesterone. Kunzite works through <strong>frequency, not chemistry</strong>. Your body already knows how to balance itself — it just needs the interference removed.",
             "card_bg_color": ""
@@ -469,6 +473,7 @@
         "b3",
         "b4"
       ],
+      "disabled": true,
       "settings": {
         "heading": "<strong>Stop Guessing.</strong> Start Resetting.",
         "subheading": "Your body knows how to balance itself. Something is blocking the signal. Remove the block.",
@@ -490,6 +495,7 @@
         "pb1": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/crystal_kunzite.png",
             "title": "Kunzite Crystal",
             "description": "Endocrine frequency alignment",
             "answer": "Kunzite resonates at a frequency aligned with the endocrine system. Through pulse-point contact, it helps clear the electromagnetic interference disrupting signals between your brain, ovaries, and thyroid. Your body already knows how to regulate hormones — it just needs a clear channel."
@@ -498,6 +504,7 @@
         "pb2": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/magnets_kunzite.png",
             "title": "Neodymium Magnets",
             "description": "Endocrine signal amplification",
             "answer": "Three magnets amplify the crystal frequency and improve blood flow — carrying the recalibration signal deeper into the endocrine network."
@@ -506,6 +513,7 @@
         "pb3": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/energy_kunzite.png",
             "title": "Signal vs. Substance",
             "description": "No hormones. Just frequency.",
             "answer": "HRT adds hormones from outside. Kunzite helps your body regulate its OWN hormones by clearing signal interference. Nothing enters your bloodstream. No estrogen. No progesterone. No side effects. No cancer risk debate."
@@ -514,6 +522,7 @@
         "pb4": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/featured_card1_kunzite.png",
             "title": "Whole-Cycle Support",
             "description": "Not just one symptom",
             "answer": "Most hormone supplements target one symptom. Kunzite targets the endocrine signal that governs ALL of them — hot flashes, mood, cycles, night sweats, PMS. Fix the signal, fix the symptoms."
@@ -649,6 +658,7 @@
         "wj4"
       ],
       "settings": {
+        "brand_image": "shopify://shop_images/wj_kunzite.png",
         "heading": "What happens when your body <strong>gets a clear signal again</strong>",
         "description": "Your hormones aren't broken. The signal controlling them is jammed. Here's what happens when it clears.",
         "highlight_color": "#9a5a90",
@@ -714,6 +724,7 @@
         "r4",
         "r5"
       ],
+      "disabled": true,
       "settings": {
         "badge_text": "5 Reasons Why",
         "subheading": "Olmi Kunzite Works When Hormone Supplements Didn't",
@@ -801,6 +812,7 @@
         "highlight_color": "#c77dba",
         "brand_name": "<strong>Olmi</strong>",
         "brand_name_color": "#ffffff",
+        "brand_image": "shopify://shop_images/packaging_transparent_kunzite.png",
         "brand_col_color": "#5a2070",
         "brand_icon_color": "#ffffff",
         "competitor_label": "<strong>HRT & Supplements</strong>",

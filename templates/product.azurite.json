@@ -133,7 +133,7 @@
             "font_size_2_items": 1.4,
             "bg_color": "",
             "text_color": "#121212",
-            "text_1": "Free Shipping",
+            "text_1": "Free Shipping Over $35",
             "icon_name_1": "local_shipping",
             "text_2": "90-Day Money Back Guarantee",
             "icon_name_2": "verified_user"
@@ -295,6 +295,7 @@
         "c1": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/crystal_azurite.png",
             "title": "<strong>Azurite Crystal</strong>",
             "text": "Azurite resonates at a frequency that <strong>increases micro-circulation</strong> through your pulse point. More blood flow to your prefrontal cortex means more fuel for thinking, focusing, and finding the right word.",
             "card_bg_color": ""
@@ -303,6 +304,7 @@
         "c2": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/magnets_azurite.png",
             "title": "<strong>3 Neodymium Magnets</strong>",
             "text": "Three magnets amplify the crystal frequency and improve <strong>blood flow at the radial artery</strong> — the highway that carries blood to your brain. Better flow. Better fuel. Better thinking.",
             "card_bg_color": ""
@@ -311,6 +313,7 @@
         "c3": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/energy_azurite.png",
             "title": "<strong>Prefrontal Cortex Fuel</strong>",
             "text": "Brain fog isn't about intelligence. It's about <strong>blood flow</strong>. When cortisol diverts blood to survival centers, your thinking brain starves. Azurite restores the fuel your prefrontal cortex needs to function.",
             "card_bg_color": ""
@@ -319,6 +322,7 @@
         "c4": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/featured_card1_azurite.png",
             "title": "<strong>Clarity Without Stimulants</strong>",
             "text": "No caffeine. No Adderall. No nootropic stack. Azurite works through <strong>circulatory frequency</strong> — real clarity from real blood flow. Sharp, clean, no crash.",
             "card_bg_color": ""
@@ -469,6 +473,7 @@
         "b3",
         "b4"
       ],
+      "disabled": true,
       "settings": {
         "heading": "<strong>Stop Fading.</strong> Start Thinking.",
         "subheading": "Brain fog isn't aging. It's your brain running on less fuel than it needs.",
@@ -490,6 +495,7 @@
         "pb1": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/crystal_azurite.png",
             "title": "Azurite Crystal",
             "description": "Circulatory frequency",
             "answer": "Azurite resonates at a frequency associated with increased micro-circulation. Worn at the radial artery point, it promotes blood flow to the brain's prefrontal cortex — the region responsible for focus, word finding, and decision-making. Clarity returns because fuel returns."
@@ -498,6 +504,7 @@
         "pb2": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/magnets_azurite.png",
             "title": "Neodymium Magnets",
             "description": "Radial artery amplification",
             "answer": "Three magnets at your pulse point amplify the crystal frequency and improve blood flow through the radial artery — the main highway carrying oxygenated blood toward your brain."
@@ -506,6 +513,7 @@
         "pb3": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/energy_azurite.png",
             "title": "Cortisol Redirect",
             "description": "Blood back to your thinking brain",
             "answer": "When cortisol is chronically high, your body diverts blood from the prefrontal cortex to survival centers. You're not getting dumber — your brain is getting less fuel. Azurite helps redirect that flow back where it belongs."
@@ -514,6 +522,7 @@
         "pb4": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/featured_card1_azurite.png",
             "title": "No Stimulants",
             "description": "Clarity without the crash",
             "answer": "Caffeine and nootropics stimulate artificially. Azurite works through circulatory improvement — real blood flow, real oxygen, real fuel to real brain cells. No tolerance. No crash. No jitters. Just clarity."
@@ -649,6 +658,7 @@
         "wj4"
       ],
       "settings": {
+        "brand_image": "shopify://shop_images/wj_azurite.png",
         "heading": "What happens when your brain <strong>gets its fuel back</strong>",
         "description": "The fog isn't permanent. It's a fuel problem. Here's what happens when blood flow returns.",
         "highlight_color": "#2a5090",
@@ -714,6 +724,7 @@
         "r4",
         "r5"
       ],
+      "disabled": true,
       "settings": {
         "badge_text": "5 Reasons Why",
         "subheading": "Olmi Azurite Works When Focus Supplements Didn't",
@@ -801,6 +812,7 @@
         "highlight_color": "#3a6bc5",
         "brand_name": "<strong>Olmi</strong>",
         "brand_name_color": "#ffffff",
+        "brand_image": "shopify://shop_images/packaging_transparent_azurite.png",
         "brand_col_color": "#2a4080",
         "brand_icon_color": "#ffffff",
         "competitor_label": "<strong>Nootropics & Coffee</strong>",

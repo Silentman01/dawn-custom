@@ -295,6 +295,7 @@
         "c1": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/crystal_moonstone.png",
             "title": "<strong>Moonstone Crystal</strong>",
             "text": "Moonstone emits a frequency that matches your body's natural <strong>rest-state oscillation</strong>. Screens, stress, and hormonal shifts have scrambled that signal. This crystal <strong>recalibrates it</strong> through your pulse point while you sleep.",
             "card_bg_color": ""
@@ -303,6 +304,7 @@
         "c2": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/magnets_moonstone.png",
             "title": "<strong>3 Neodymium Magnets</strong>",
             "text": "Three rare-earth magnets amplify the crystal's circadian frequency and improve blood flow at the pulse point — delivering the sleep signal <strong>deeper into your nervous system</strong>.",
             "card_bg_color": ""
@@ -311,6 +313,7 @@
         "c3": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/energy_moonstone.png",
             "title": "<strong>Pulse Point Delivery</strong>",
             "text": "Your wrist's pulse point is the body's <strong>fastest entry for frequency-based signals</strong>. Olmi Moonstone is worn here — not as decoration, but as a <strong>circadian reset device</strong>.",
             "card_bg_color": ""
@@ -319,6 +322,7 @@
         "c4": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/featured_card1_moonstone.png",
             "title": "<strong>Stays Asleep, Not Sleep Onset</strong>",
             "text": "Melatonin helps you <strong>fall</strong> asleep. Moonstone helps you <strong>stay</strong> asleep. That's the difference. <strong>No grogginess. No hangover. No weird dreams.</strong>",
             "card_bg_color": ""
@@ -469,6 +473,7 @@
         "b3",
         "b4"
       ],
+      "disabled": true,
       "settings": {
         "heading": "<strong>Stop Masking.</strong> Start Resetting.",
         "subheading": "Melatonin masks the symptom. Moonstone resets the signal your body lost.",
@@ -490,6 +495,7 @@
         "pb1": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/crystal_moonstone.png",
             "title": "Moonstone Crystal",
             "description": "Circadian frequency match",
             "answer": "Moonstone emits a vibrational frequency that matches your body's natural rest-state oscillation — the deep-sleep signal your brain needs. Stress, screens, and hormones have disrupted it. Through pulse-point contact, moonstone re-synchronizes the signal your body lost."
@@ -498,6 +504,7 @@
         "pb2": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/magnets_moonstone.png",
             "title": "Neodymium Magnets",
             "description": "Nighttime signal amplification",
             "answer": "Three magnets amplify the crystal frequency and improve blood microcirculation — delivering the circadian signal faster during the critical 2–4am window when cortisol typically spikes."
@@ -506,6 +513,7 @@
         "pb3": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/energy_moonstone.png",
             "title": "Sleep Maintenance",
             "description": "Stays asleep, not just falls asleep",
             "answer": "Melatonin acts on sleep onset and wears off after 4–5 hours — exactly when you wake at 3am. Moonstone's frequency works on sleep maintenance. It targets the exact gap melatonin leaves."
@@ -514,6 +522,7 @@
         "pb4": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/featured_card1_moonstone.png",
             "title": "No Residue",
             "description": "Nothing in your bloodstream",
             "answer": "Nothing enters your bloodstream. No grogginess. No weird dreams. No tolerance buildup. No dependence. Works the same on night 500 as night 5. Try saying that about melatonin."
@@ -649,6 +658,7 @@
         "wj4"
       ],
       "settings": {
+        "brand_image": "shopify://shop_images/wj_moonstone.png",
         "heading": "What happens when your body <strong>remembers how to sleep</strong>",
         "description": "Your body didn't forget how to sleep. The signal got scrambled. Here's what happens when it comes back.",
         "highlight_color": "#7b6f99",
@@ -714,6 +724,7 @@
         "r4",
         "r5"
       ],
+      "disabled": true,
       "settings": {
         "badge_text": "5 Reasons Why",
         "subheading": "Olmi Moonstone Works When Melatonin Didn't",
@@ -801,6 +812,7 @@
         "highlight_color": "#c4b8d9",
         "brand_name": "<strong>Olmi</strong>",
         "brand_name_color": "#ffffff",
+        "brand_image": "shopify://shop_images/packaging_transparent_moonstone.png",
         "brand_col_color": "#4a3f6b",
         "brand_icon_color": "#ffffff",
         "competitor_label": "<strong>Melatonin & Sleep Aids</strong>",

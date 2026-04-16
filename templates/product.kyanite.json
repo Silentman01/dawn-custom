@@ -295,6 +295,7 @@
         "c1": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/crystal_kyanite.png",
             "title": "<strong>Kyanite Crystal</strong>",
             "text": "Kyanite resonates at a frequency that calms your <strong>enteric nervous system</strong> — the 'second brain' in your gut. When inflamed, it overreacts to everything you eat. Kyanite calms it through your pulse point.",
             "card_bg_color": ""
@@ -303,6 +304,7 @@
         "c2": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/magnets_kyanite.png",
             "title": "<strong>3 Neodymium Magnets</strong>",
             "text": "Three magnets amplify the crystal frequency and improve vagal tone — strengthening the <strong>brain-gut connection</strong> that keeps digestion smooth and calm.",
             "card_bg_color": ""
@@ -311,6 +313,7 @@
         "c3": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/energy_kyanite.png",
             "title": "<strong>The Second Brain</strong>",
             "text": "Your gut has its own nervous system — 500 million neurons. When it's stuck in panic mode, every meal is a dice roll. <strong>Bloating isn't about food. It's about the nervous state of your gut.</strong>",
             "card_bg_color": ""
@@ -319,6 +322,7 @@
         "c4": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/featured_card1_kyanite.png",
             "title": "<strong>Eat Without Punishment</strong>",
             "text": "Kyanite doesn't change what you eat. It changes <strong>how your gut responds</strong>. The salad that bloated you? The pasta you gave up? Your gut can handle them again — once the inflammation calms.",
             "card_bg_color": ""
@@ -469,6 +473,7 @@
         "b3",
         "b4"
       ],
+      "disabled": true,
       "settings": {
         "heading": "<strong>Stop Eliminating.</strong> Start Calming.",
         "subheading": "The problem was never the food. It was the state your gut was in when the food arrived.",
@@ -490,6 +495,7 @@
         "pb1": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/crystal_kyanite.png",
             "title": "Kyanite Crystal",
             "description": "Enteric nervous system calm",
             "answer": "Kyanite resonates at a frequency that calms the enteric nervous system — your gut's own nervous system. When inflamed, it overreacts to everything. Kyanite tells it to stand down — through the vagus nerve connection at your wrist."
@@ -498,6 +504,7 @@
         "pb2": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/magnets_kyanite.png",
             "title": "Neodymium Magnets",
             "description": "Vagal tone improvement",
             "answer": "Three magnets amplify the gut-calming frequency and improve vagal tone — the strength of the brain-gut connection that keeps digestion proportional to what you actually ate."
@@ -506,6 +513,7 @@
         "pb3": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/energy_kyanite.png",
             "title": "Gut State, Not Food",
             "description": "Changes how your gut responds",
             "answer": "Elimination diets remove triggers. Kyanite calms the system that's over-triggering. When your gut's nervous system isn't inflamed, the same foods that used to bloat you simply... don't."
@@ -514,6 +522,7 @@
         "pb4": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/featured_card1_kyanite.png",
             "title": "Continuous Support",
             "description": "Every meal, covered",
             "answer": "Your gut overreacts at breakfast, lunch, snacks, and the 3pm coffee. Kyanite works continuously — calming the enteric system through every meal, not just the one after your pill."
@@ -649,6 +658,7 @@
         "wj4"
       ],
       "settings": {
+        "brand_image": "shopify://shop_images/wj_kyanite.png",
         "heading": "What happens when your gut <strong>stops overreacting</strong>",
         "description": "The problem was never the food. It was the state your gut was in when the food arrived.",
         "highlight_color": "#1a6040",
@@ -714,6 +724,7 @@
         "r4",
         "r5"
       ],
+      "disabled": true,
       "settings": {
         "badge_text": "5 Reasons Why",
         "subheading": "Olmi Kyanite Works When Probiotics Didn't",
@@ -801,6 +812,7 @@
         "highlight_color": "#2e8b57",
         "brand_name": "<strong>Olmi</strong>",
         "brand_name_color": "#ffffff",
+        "brand_image": "shopify://shop_images/packaging_transparent_kyanite.png",
         "brand_col_color": "#0d4030",
         "brand_icon_color": "#ffffff",
         "competitor_label": "<strong>Probiotics & Diets</strong>",
