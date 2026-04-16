@@ -148,61 +148,75 @@
     justify-content: center;
   }
 
+  .pb-card {
+    perspective: 800px;
+  }
+
+  .pb-card__flip {
+    position: relative;
+    transition: transform 0.5s ease;
+    transform-style: preserve-3d;
+  }
+
   .pb-card__answer {
     background: #fff;
-    width: 85%;
+    width: 100%;
+    min-height: 100%;
     position: absolute;
     top: 0;
-    bottom: 0;
-    display: none;
+    left: 0;
+    display: flex;
     align-items: center;
     font-size: 17px;
     line-height: 23px;
     text-align: left;
-    padding: 12.5px 31.5px 12.5px;
+    padding: 12.5px 31.5px;
     border-radius: 8px;
-    transition: all 0.5s ease;
-    transform-style: preserve-3d;
-    background: transparent;
-    overflow: visible;
+    box-sizing: border-box;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    cursor: pointer;
   }
 
   .pb-card__answer p {
     margin: 0;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    transform: rotateY(180deg);
   }
 
-  .pb-card__front-inner {
-    transition: all 0.5s ease;
+  .pb-card__front {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
 
-  .pb-card.active .pb-card__front-inner {
+  .pb-card.active .pb-card__flip {
     transform: rotateY(180deg);
   }
 
   .pb-card.active .pb-card__answer {
-    display: inline-flex;
-    background: #fff;
-    transform: rotateY(180deg);
-    cursor: pointer;
+    position: relative;
   }
 
   .pb-card.active .pb-card__front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     cursor: pointer;
   }
 
-  .pb-card.closing .pb-card__front-inner {
+  .pb-card.closing .pb-card__flip {
     transform: rotateY(0deg);
   }
 
   .pb-card.closing .pb-card__answer {
-    display: inline-flex;
-    background: #fff;
-    transform: rotateY(0deg);
+    position: relative;
+  }
+
+  .pb-card.closing .pb-card__front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
   }
 
   /* Mobile CTA */
@@ -321,7 +335,7 @@
     .pb-card__answer {
       font-size: 14px;
       line-height: 17px;
-      padding: 19px 19px 19px 0;
+      padding: 16px 16px;
     }
   }
 </style>
@@ -345,43 +359,45 @@
     <div class="pb-grid">
       {%- for block in section.blocks -%}
         <div class="pb-card" {{ block.shopify_attributes }}>
-          <div class="pb-card__front" data-pb-toggle>
-            <div class="pb-card__front-inner">
-              {%- if block.settings.image != blank -%}
-                {{
-                  block.settings.image
-                  | image_url: width: 300
-                  | image_tag: loading: 'lazy', class: 'pb-card__img', widths: '125,250,300'
-                }}
-              {%- else -%}
-                <div class="pb-card__img-placeholder">
-                  {{ 'product-apparel-2' | placeholder_svg_tag }}
+          <div class="pb-card__flip">
+            <div class="pb-card__front" data-pb-toggle>
+              <div class="pb-card__front-inner">
+                {%- if block.settings.image != blank -%}
+                  {{
+                    block.settings.image
+                    | image_url: width: 300
+                    | image_tag: loading: 'lazy', class: 'pb-card__img', widths: '125,250,300'
+                  }}
+                {%- else -%}
+                  <div class="pb-card__img-placeholder">
+                    {{ 'product-apparel-2' | placeholder_svg_tag }}
+                  </div>
+                {%- endif -%}
+                <div>
+                  {%- if block.settings.title != blank -%}
+                    <h3 class="pb-card__title">{{ block.settings.title }}</h3>
+                  {%- endif -%}
+                  {%- if block.settings.description != blank -%}
+                    <p class="pb-card__desc">{{ block.settings.description }}</p>
+                  {%- endif -%}
                 </div>
-              {%- endif -%}
-              <div>
-                {%- if block.settings.title != blank -%}
-                  <h3 class="pb-card__title">{{ block.settings.title }}</h3>
-                {%- endif -%}
-                {%- if block.settings.description != blank -%}
-                  <p class="pb-card__desc">{{ block.settings.description }}</p>
-                {%- endif -%}
               </div>
+              <button class="pb-card__toggle" type="button" aria-label="Expand">
+                <span class="pb-icon-plus">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.72069 11.033V5.96898H0.656637V5.38515H5.72069V0.321103H6.30451V5.38515H11.3686V5.96898H6.30451V11.033H5.72069Z" fill="black"/>
+                  </svg>
+                </span>
+                <span class="pb-icon-minus">
+                  <svg width="8" height="1" viewBox="0 0 8 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.97719 0.0678547V0.65168H0.920525V0.0678547H7.97719Z" fill="black"/>
+                  </svg>
+                </span>
+              </button>
             </div>
-            <button class="pb-card__toggle" type="button" aria-label="Expand">
-              <span class="pb-icon-plus">
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5.72069 11.033V5.96898H0.656637V5.38515H5.72069V0.321103H6.30451V5.38515H11.3686V5.96898H6.30451V11.033H5.72069Z" fill="black"/>
-                </svg>
-              </span>
-              <span class="pb-icon-minus">
-                <svg width="8" height="1" viewBox="0 0 8 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M7.97719 0.0678547V0.65168H0.920525V0.0678547H7.97719Z" fill="black"/>
-                </svg>
-              </span>
-            </button>
-          </div>
-          <div class="pb-card__answer">
-            <p>{{ block.settings.answer }}</p>
+            <div class="pb-card__answer" data-pb-toggle>
+              <p>{{ block.settings.answer }}</p>
+            </div>
           </div>
         </div>
       {%- endfor -%}
