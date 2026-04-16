@@ -35,12 +35,20 @@
             "heading": "",
             "menu": "footer"
           }
+        },
+        "text_q9xAPn": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "subtext": "<p><em>† These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.<br/><br/>* Individual results may vary. Testimonials and reviews reflect individual experiences and are not guaranteed outcomes.<br/><br/>‡ Olmi bracelets are not a substitute for medical treatment. Consult your healthcare provider before use, especially if you are pregnant, nursing, have a pacemaker or other electronic medical implant, or have a medical condition.</em></p>"
+          }
         }
       },
       "block_order": [
         "image_kwK7CP",
         "link_list_qrNtYp",
-        "footer-1"
+        "footer-1",
+        "text_q9xAPn"
       ],
       "custom_css": [
         ".inline-richtext,.footer-block__details-content {font-size: 1.2rem;}"
