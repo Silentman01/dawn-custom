@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "hero_banner": {
@@ -26,32 +17,15 @@
         "stars_text": "<strong>Excellent 4.8/5</strong> — 18,000+ Verified Reviews",
         "heading": "Crystal Frequency Bracelets",
         "heading_size": 40,
-        "subheadline": "7 crystals. 7 frequencies. Each one targets what's keeping you stuck — stress, broken sleep, stubborn weight, zero energy, brain fog, hormone chaos, or gut problems. Through 3 magnetic contact points at your pulse point.",
+        "subheadline": "7 crystals. 7 frequencies. Each one targets what's keeping you stuck — through 3 magnetic contact points at your pulse point.",
         "cta_function": "link",
         "cta_text": "Shop The Collection",
         "cta_url": "/collections/all",
         "cta_bg_color": "#d4af37",
         "cta_text_color": "#1a1a2e",
-        "guarantee_text": "90-Day Money Back Guarantee",
+        "guarantee_text": "",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "usp_bar": {
-      "type": "usp-bar",
-      "settings": {
-        "bg_color": "#1a1a2e",
-        "text_color": "#d4af37",
-        "border_color": "#d4af37",
-        "font_size": 14,
-        "item_gap": 30,
-        "item_padding_vertical": 7,
-        "item_padding_horizontal": 0,
-        "text_1": "FREE SHIPPING OVER $35",
-        "text_2": "90-DAY MONEY BACK GUARANTEE",
-        "text_3": "50,000+ WOMEN WEARING OLMI DAILY",
-        "padding_top": 16,
-        "padding_bottom": 16
       }
     },
     "rich_text": {
@@ -60,63 +34,45 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Your body is talking. <strong>Something is blocking the signal.</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>You've tried the supplements. The diets. The apps. The pills. Some worked for a week. Most didn't work at all. And the ones that did eventually stopped.</p><p>Here's what nobody told you: <strong>the problem isn't willpower. It's not your routine. It's not your age.</strong></p><p>Your body runs on signals — electrical frequencies that tell your nervous system when to sleep, when to wake, when to store fat, when to burn it, when to panic, and when to calm down. Stress, screens, and hormonal shifts have scrambled those signals. And no pill can fix a signal problem.</p><p><strong>Olmi can.</strong></p><p>Each bracelet uses a specific crystal frequency + 3 neodymium magnets delivered through your pulse point — the body's fastest entry for frequency-based signals. One crystal per problem. One mechanism per signal. Precision, not guesswork.</p><p>Start with the symptom that's loudest. Your body will tell you what to add next.</p>"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Find Your Bracelet",
-            "button_link": "/collections/all",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "heading": "Olmi harnesses crystal frequency and magnetic therapy to reset the signals your body lost — delivering calm, deep sleep, and natural energy through the stone that shaped ancient healing.",
+            "heading_size": "h2"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "heading"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 60,
-        "padding_bottom": 60
+        "padding_top": 52,
+        "padding_bottom": 52
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "all",
-        "products_to_show": 8,
         "title": "The Collection",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
         "columns_desktop": 4,
-        "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
+        "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 36,
@@ -132,12 +88,12 @@
         "subtitle": "THE OLMI GUARANTEE",
         "heading": "Feel the Difference or Pay Nothing",
         "heading_size": 23,
-        "description": "Every bracelet comes with the same promise: wear it for 90 days. If you don't feel a difference — in your sleep, your energy, your calm, your clarity, your hormones, your gut, or your weight — we refund every penny. No forms. No hassle. No questions. You've spent enough money on things that didn't work. This one is risk-free.",
+        "description": "Every bracelet. 90 days. If you don't feel a difference, we refund every penny. No forms. No hassle.",
         "image": "",
         "bg_color": "#f8f7f5",
         "accent_color": "#1a1a2e",
         "text_color": "",
-        "cta_text": "Shop Risk-Free",
+        "cta_text": "Shop The Collection",
         "cta_link": "/collections/all",
         "cta_height": 50,
         "cta_bg_color": "#d4af37",
@@ -148,7 +104,6 @@
   },
   "order": [
     "hero_banner",
-    "usp_bar",
     "rich_text",
     "featured_collection",
     "risk_free_trial"
