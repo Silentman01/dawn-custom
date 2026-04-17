@@ -162,6 +162,11 @@
         "type": "shopify://apps/nospy-protect-data/blocks/app-block/0ea824f6-5b8e-445c-b27f-1d4763c81aa3",
         "disabled": false,
         "settings": {}
+      },
+      "7313114205116804392": {
+        "type": "shopify://apps/propel-replays-heatmaps/blocks/app-embed/64fbaaa3-2d4a-49f3-aba7-86e92e44999f",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
