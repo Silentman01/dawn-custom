@@ -197,6 +197,7 @@
         },
         "collapsible_tab_ship": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Shipping & Delivery",
             "icon": "none",
