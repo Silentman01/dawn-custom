@@ -135,6 +135,15 @@
             "icon_scale": 1.2
           }
         },
+        "collapsible_tab_VgKY78": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
         "trust_card_v2": {
           "type": "trust_card_v2",
           "settings": {
@@ -173,6 +182,7 @@
         "trust_microcopy",
         "social_proof_banner",
         "urgency_notice",
+        "collapsible_tab_VgKY78",
         "trust_card_v2"
       ],
       "custom_css": [
