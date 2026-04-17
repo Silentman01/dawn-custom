@@ -135,15 +135,6 @@
             "icon_scale": 1.2
           }
         },
-        "collapsible_tab_VgKY78": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
-            "page": ""
-          }
-        },
         "trust_card_v2": {
           "type": "trust_card_v2",
           "settings": {
@@ -168,6 +159,42 @@
             "feature_text_size": 11,
             "item_text_size": 16
           }
+        },
+        "collapsible_tab_desc": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Description",
+            "icon": "none",
+            "content": "<p>Olmi uses crystal frequency resonance and 3 neodymium magnets to interact with your body’s natural electromagnetic field through your pulse point. Each stone carries a specific frequency. The magnets amplify it. Your nervous system receives it. No pills. No chemicals. Just physics you can wear.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_size": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "One Size Fits All",
+            "icon": "none",
+            "content": "<p>Olmi is an open cuff design — gently squeeze or widen the opening to fit your wrist perfectly. No clasps, no links, no sizing charts. Fits wrists from 14cm to 20cm. One size, every wrist.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_specs": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifications",
+            "icon": "none",
+            "content": "<p>Material: Natural polished crystal stone<br>Band Width: ~10mm<br>Internal Diameter: ~6.5cm (adjustable)<br>Magnets: 3 neodymium per bracelet (6 total, inner surface only)<br>Weight: ~28g<br>Waterproof: Yes</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_ship": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Delivery",
+            "icon": "none",
+            "content": "<p>All orders are processed within 1–2 business days.</p><p>US: 4–7 Business Days<br>UK: 5–9 Business Days<br>International: 7–14 Business Days</p><p>Free shipping on all orders.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -182,7 +209,10 @@
         "trust_microcopy",
         "social_proof_banner",
         "urgency_notice",
-        "collapsible_tab_VgKY78",
+        "collapsible_tab_desc",
+        "collapsible_tab_size",
+        "collapsible_tab_specs",
+        "collapsible_tab_ship",
         "trust_card_v2"
       ],
       "custom_css": [
