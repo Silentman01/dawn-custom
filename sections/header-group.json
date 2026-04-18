@@ -35,7 +35,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".header__search {display: none !important;}"
+        ".header__search, .menu-drawer__utility-links {display: none !important;}"
       ],
       "settings": {
         "logo_position": "middle-left",
