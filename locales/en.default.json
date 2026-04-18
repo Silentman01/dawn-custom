@@ -545,7 +545,7 @@
         "pay_now_button_label": "Confirm my order"
       },
       "marketing": {
-        "accept_marketing_checkbox_label": "Recevoir des informations sur ma commande"
+        "accept_marketing_checkbox_label": "Send me updates on my order"
       }
     },
     "links": {
