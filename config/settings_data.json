@@ -158,13 +158,13 @@
         "disabled": false,
         "settings": {}
       },
-      "12715431849321867433": {
-        "type": "shopify://apps/nospy-protect-data/blocks/app-block/0ea824f6-5b8e-445c-b27f-1d4763c81aa3",
+      "7313114205116804392": {
+        "type": "shopify://apps/propel-replays-heatmaps/blocks/app-embed/64fbaaa3-2d4a-49f3-aba7-86e92e44999f",
         "disabled": false,
         "settings": {}
       },
-      "7313114205116804392": {
-        "type": "shopify://apps/propel-replays-heatmaps/blocks/app-embed/64fbaaa3-2d4a-49f3-aba7-86e92e44999f",
+      "12429728106950981667": {
+        "type": "shopify://apps/blocky-fraud-blocker/blocks/app-embed/aa25b3bf-c2c5-4359-aa61-7836c225c5a9",
         "disabled": false,
         "settings": {}
       }
