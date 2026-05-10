@@ -14,7 +14,7 @@
     "sale_banner": {
       "type": "sale-banner",
       "settings": {
-        "heading": "Spring Sale 40% Off",
+        "heading": "MOTHER'S DAY 40% Off",
         "heading_color": "#ffffff",
         "heading_font_size": 16,
         "heading_font_weight": "700",
@@ -35,7 +35,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".header__search, .menu-drawer__utility-links {display: none !important;}"
+        ".header__search,.menu-drawer__utility-links {display: none !important;}"
       ],
       "settings": {
         "logo_position": "middle-left",
