@@ -158,13 +158,18 @@
         "disabled": false,
         "settings": {}
       },
-      "12715431849321867433": {
-        "type": "shopify://apps/nospy-protect-data/blocks/app-block/0ea824f6-5b8e-445c-b27f-1d4763c81aa3",
+      "12429728106950981667": {
+        "type": "shopify://apps/blocky-fraud-blocker/blocks/app-embed/aa25b3bf-c2c5-4359-aa61-7836c225c5a9",
         "disabled": false,
         "settings": {}
       },
-      "7313114205116804392": {
-        "type": "shopify://apps/propel-replays-heatmaps/blocks/app-embed/64fbaaa3-2d4a-49f3-aba7-86e92e44999f",
+      "1513253815146976218": {
+        "type": "shopify://apps/omnisend-email-marketing-sms/blocks/app-embed/44704aa2-794f-4c5d-8c8e-039c841158e9",
+        "disabled": false,
+        "settings": {}
+      },
+      "16273355016472601751": {
+        "type": "shopify://apps/peek-better-replay-survey/blocks/app-embed/1f29cc96-61f9-4675-b0d8-7ada6610e575",
         "disabled": false,
         "settings": {}
       }

@@ -956,7 +956,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "frontpage",
+        "collection": "our-bracelets",
         "products_to_show": 4,
         "title": "You might also like",
         "heading_size": "h1",
