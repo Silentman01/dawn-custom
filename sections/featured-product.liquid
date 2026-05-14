@@ -352,6 +352,7 @@
     }
     .trust-card-v2__features {
       display: flex;
+      flex-wrap: wrap;
       gap: 1rem;
       margin-bottom: 2.4rem;
     }
@@ -364,7 +365,7 @@
       border: 1px solid currentColor;
       border-radius: 8px;
       padding: 1.4rem 0.6rem;
-      flex: 1;
+      flex: 0 0 calc(50% - 0.5rem);
       min-width: 0;
     }
     .trust-card-v2__feature-icon {
@@ -436,7 +437,6 @@
         font-size: calc(var(--tcv2-heading-size, 2.8rem) * 0.78);
       }
       .trust-card-v2__features {
-        flex-wrap: wrap;
         gap: 0.8rem;
       }
       .trust-card-v2__feature-box {
