@@ -14,14 +14,14 @@
     "sale_banner": {
       "type": "sale-banner",
       "settings": {
-        "heading": "SPRING SALE 40% Off",
+        "heading": "SPRING SALE",
         "heading_color": "#ffffff",
         "heading_font_size": 16,
         "heading_font_weight": "700",
         "heading_letter_spacing": 1,
         "heading_transform": "none",
-        "subtext": "",
-        "subtext_color": "#ff1493",
+        "subtext": "Shop Now and get Up To 40% Off",
+        "subtext_color": "#d1d1d1",
         "subtext_font_size": 14,
         "subtext_font_weight": "400",
         "show_timer": true,
