@@ -883,15 +883,6 @@
             "page": ""
           }
         },
-        "faq_2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How is this different from every other bracelet on Instagram?",
-            "icon": "none",
-            "row_content": "<p>Most bracelets use generic magnetic therapy or vague crystal claims. Olmi uses <strong>Celestite crystal + 3 neodymium magnetic contact points</strong> positioned on your pulse point. The mechanism: lower cortisol through your nervous system so your body stops hoarding fat.</p>",
-            "page": ""
-          }
-        },
         "faq_3": {
           "type": "collapsible_row",
           "settings": {
@@ -915,7 +906,7 @@
           "settings": {
             "heading": "What if it doesn't work for me?",
             "icon": "none",
-            "row_content": "<p><strong>90-day money back guarantee.</strong> Email hello@myolmi.com. Full refund. No forms.</p>",
+            "row_content": "<p><strong>90-day money back guarantee.</strong> Email hello@myolmi.com. Full refund. No questions asked.</p>",
             "page": ""
           }
         },
@@ -924,14 +915,13 @@
           "settings": {
             "heading": "What size will fit my wrist?",
             "icon": "none",
-            "row_content": "<p>Open cuff design — adjusts to any wrist 14cm to 20cm. No clasps.</p>",
+            "row_content": "<p>Olmi is an open cuff design — gently squeeze or widen the opening to fit your wrist perfectly. No clasps, no links, no sizing charts. Suitable for all wrist sizes.</p>",
             "page": ""
           }
         }
       },
       "block_order": [
         "faq_1",
-        "faq_2",
         "faq_3",
         "faq_4",
         "faq_5",
