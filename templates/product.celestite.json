@@ -361,6 +361,30 @@
     "testimonial_slider": {
       "type": "testimonial-slider",
       "blocks": {
+        "ticker_image_qqaqcC": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/p6_celestite.png"
+          }
+        },
+        "ticker_image_QDQ7et": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/p7_celestite.png"
+          }
+        },
+        "ticker_image_8etWA4": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/p8_celestite.png"
+          }
+        },
+        "ticker_image_y3AFCn": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/p9_celestite.png"
+          }
+        },
         "review_1": {
           "type": "review",
           "settings": {
@@ -423,6 +447,10 @@
         }
       },
       "block_order": [
+        "ticker_image_qqaqcC",
+        "ticker_image_QDQ7et",
+        "ticker_image_8etWA4",
+        "ticker_image_y3AFCn",
         "review_1",
         "review_2",
         "review_3",
