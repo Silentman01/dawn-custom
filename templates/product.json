@@ -254,33 +254,33 @@
         "stat_1": {
           "type": "stat",
           "settings": {
-            "percentage": "97%",
-            "heading": "Less odor and sweat",
-            "caption": "Noticed clearly less odor and sweat buildup through the day."
+            "percentage": 90,
+            "heading": "Grab whatever’s there",
+            "caption": "of guys just reach for whatever body wash is already in the shower, with no thought for the skin down there."
           }
         },
         "stat_2": {
           "type": "stat",
           "settings": {
-            "percentage": "95%",
-            "heading": "Fresher all day",
-            "caption": "Felt fresher for longer, well past the two hours regular soap gives you."
+            "percentage": 95,
+            "heading": "Strip your natural oils",
+            "caption": "of regular body washes strip the natural oils that protect intimate skin."
           }
         },
         "stat_3": {
           "type": "stat",
           "settings": {
-            "percentage": "92%",
-            "heading": "Would never go back",
-            "caption": "Said they would not switch back to regular body wash."
+            "percentage": 87,
+            "heading": "Down to bad habits",
+            "caption": "of irritation and discomfort traces back to poor hygiene or the wrong products."
           }
         },
         "stat_4": {
           "type": "stat",
           "settings": {
-            "percentage": "5.5",
-            "heading": "Skin matched pH",
-            "caption": "Formulated to intimate skin’s natural pH, so it cleans without stripping."
+            "percentage": 100,
+            "heading": "Can be calmed",
+            "caption": "of dry, itchy, irritated skin can be soothed with a gentle pH matched wash."
           }
         }
       },
@@ -298,11 +298,11 @@
         "text_color": "#ffffff",
         "percentage_color": "#6FD6E8",
         "highlight_color": "#6FD6E8",
-        "heading": "<strong>What men feel</strong> after the switch",
+        "heading": "<strong>Let’s be honest…</strong>",
         "heading_size": 31,
-        "subtitle": "Based on what CoolBro users report after swapping from regular body wash.",
+        "subtitle": "A few things most guys never stop to think about in the shower.",
         "cta_function": "link",
-        "cta_text": "Try it risk free",
+        "cta_text": "Make the switch",
         "cta_url": "#ProductInfo-template--27090456740203__main",
         "cta_bg_color": "#6FD6E8",
         "cta_text_color": "#137DC5",
@@ -379,11 +379,11 @@
           "type": "review",
           "settings": {
             "rating": "5.0",
-            "quote": "No more end of day funk",
-            "details": "Tried everything for that end of day smell and nothing lasted. First wash that keeps me fresh morning to night.",
-            "author_name": "Marcus T.",
+            "quote": "Proved me wrong",
+            "details": "Went in skeptical and CoolBro changed my mind fast. Gentle enough for every day, keeps me fresh for hours, and gives me a confidence I did not know I was missing. You can tell real thought went into the formula.",
+            "author_name": "Devin S.",
             "tag_1": "Daily use",
-            "tag_2": "All day fresh",
+            "tag_2": "Confidence",
             "card_bg_color": ""
           }
         },
@@ -391,11 +391,11 @@
           "type": "review",
           "settings": {
             "rating": "5.0",
-            "quote": "Gentle and it works",
-            "details": "Sensitive skin here so I was cautious. No itch, no dryness, just clean and calm. Daily driver now.",
-            "author_name": "Jordan R.",
-            "tag_1": "Sensitive skin",
-            "tag_2": "No irritation",
+            "quote": "Changed my routine",
+            "details": "Did not expect much and it completely changed my routine. Clean, fresh and confident all day with zero irritation. After years of regular body wash, nothing comes close. This one stays stocked in my shower.",
+            "author_name": "Marcus T.",
+            "tag_1": "No irritation",
+            "tag_2": "All day fresh",
             "card_bg_color": ""
           }
         },
@@ -403,11 +403,11 @@
           "type": "review",
           "settings": {
             "rating": "5.0",
-            "quote": "She noticed",
-            "details": "My girlfriend asked what I changed in the shower. Just this. Fresh, clean, and I do not think about it anymore.",
-            "author_name": "Anthony M.",
-            "tag_1": "Confidence",
-            "tag_2": "Cooling",
+            "quote": "Cooling you feel instantly",
+            "details": "CoolBro beat my expectations. The cooling freshness hits right away and it never leaves my skin dry the way most soaps do. Now it is one of those things I refuse to run out of. Easy recommend for any guy upgrading his routine.",
+            "author_name": "Jordan R.",
+            "tag_1": "Cooling",
+            "tag_2": "Not drying",
             "card_bg_color": ""
           }
         },
@@ -415,11 +415,11 @@
           "type": "review",
           "settings": {
             "rating": "5.0",
-            "quote": "Skeptic, converted",
-            "details": "Was sure it could not beat my normal body wash. It did, easily. The cooling in summer is unreal.",
-            "author_name": "Devin S.",
-            "tag_1": "Summer ready",
-            "tag_2": "Gentle daily",
+            "quote": "Made for men",
+            "details": "Within a few days I could feel the difference. Fresher all day and no worrying about odor after a workout or a long day at work. The formula feels premium and you can tell it was made specifically for men.",
+            "author_name": "Anthony M.",
+            "tag_1": "Post workout",
+            "tag_2": "Premium feel",
             "card_bg_color": ""
           }
         }
@@ -453,21 +453,28 @@
         "ticker_item_hPwWHQ": {
           "type": "ticker_item",
           "settings": {
-            "text": "FELT FRESHER ALL DAY",
+            "text": "92% WOULD NEVER GO BACK",
             "icon_name": "verified"
           }
         },
         "ticker_item_Ft8VNk": {
           "type": "ticker_item",
           "settings": {
-            "text": "pH BALANCED FOR INTIMATE SKIN",
+            "text": "PH BALANCED FOR INTIMATE SKIN",
             "icon_name": "verified"
           }
         },
         "ticker_item_NVjamN": {
           "type": "ticker_item",
           "settings": {
-            "text": "97% NOTICED LESS ODOR AND SWEAT",
+            "text": "97% NOTICED LESS ODOR & SWEAT",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_cb4th": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "95% FELT FRESHER ALL DAY",
             "icon_name": "verified"
           }
         }
@@ -475,7 +482,8 @@
       "block_order": [
         "ticker_item_hPwWHQ",
         "ticker_item_Ft8VNk",
-        "ticker_item_NVjamN"
+        "ticker_item_NVjamN",
+        "ticker_item_cb4th"
       ],
       "settings": {
         "background_color": "#0B1B2B",
@@ -843,7 +851,7 @@
       "type": "risk-free-trial",
       "settings": {
         "badge_image": "shopify://shop_images/coolbro_guarantee_badge.png",
-        "badge_number": 30,
+        "badge_number": "30",
         "badge_label": "DAYS",
         "subtitle": "30 DAY GUARANTEE",
         "heading": "Try it. Worst case, it is free.",
