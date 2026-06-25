@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -254,7 +263,7 @@
         "stat_1": {
           "type": "stat",
           "settings": {
-            "percentage": "5.5",
+            "percentage": 5,
             "heading": "<strong>Skin matched pH</strong>",
             "caption": "Formulated to your intimate skin’s natural pH — so it cleans without stripping the barrier that keeps you comfortable."
           }
@@ -262,7 +271,7 @@
         "stat_2": {
           "type": "stat",
           "settings": {
-            "percentage": "0",
+            "percentage": 0,
             "heading": "<strong>Harsh chemicals</strong>",
             "caption": "No sulphates, parabens, silicones or artificial colours. Nothing that quietly makes the problem worse."
           }
@@ -270,7 +279,7 @@
         "stat_3": {
           "type": "stat",
           "settings": {
-            "percentage": "8",
+            "percentage": 8,
             "heading": "<strong>Active ingredients</strong>",
             "caption": "Eight skin friendly actives — cooling, deodorising, soothing and hydrating — in one daily wash."
           }
@@ -278,7 +287,7 @@
         "stat_4": {
           "type": "stat",
           "settings": {
-            "percentage": "30",
+            "percentage": 30,
             "heading": "<strong>Day guarantee</strong>",
             "caption": "Use it for a full month. If your skin doesn’t feel fresher and calmer, you get your money back."
           }
@@ -843,7 +852,7 @@
       "type": "risk-free-trial",
       "settings": {
         "badge_image": "shopify://shop_images/coolbro_guarantee_badge.png",
-        "badge_number": 30,
+        "badge_number": "30",
         "badge_label": "DAYS",
         "subtitle": "30 DAY GUARANTEE",
         "heading": "Try it. Worst case, it’s free.",
