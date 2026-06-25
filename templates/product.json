@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -16,8 +7,8 @@
           "type": "star_rating",
           "settings": {
             "rating": 4.8,
-            "text": "<strong>Excellent</strong> 4.8 sur 5",
-            "star_color": "#ffd600",
+            "text": "<strong>Excellent</strong> — 4.8/5 from early reviews",
+            "star_color": "#FFC400",
             "star_bg_color": "#ececec",
             "star_size": 1.3,
             "star_gap": 0.4,
@@ -38,7 +29,7 @@
         "text_Urya33": {
           "type": "text",
           "settings": {
-            "text": "Intégrez notre <strong>savon artisanal</strong>, d’expertise <strong>française</strong>, à <strong>votre routine</strong> et retrouvez des <strong>pieds sains</strong> en <strong>3 semaines</strong>!",
+            "text": "Add <strong>CoolBro</strong> to your shower and walk out genuinely fresh below the belt — pH matched, menthol cool, and still working long after the gym, the commute and the date are behind you.",
             "text_style": "body"
           }
         },
@@ -46,8 +37,8 @@
           "type": "statement",
           "disabled": true,
           "settings": {
-            "subtitle": "97% des utilisateurs constatent :",
-            "title": "Une réduction visible des mycoses et une peau plus saine en 2 semaines",
+            "subtitle": "What early testers told us:",
+            "title": "Fresher for longer, calmer skin, and the quiet confidence that comes with it.",
             "title_size": 26
           }
         },
@@ -55,12 +46,12 @@
           "type": "benefits_list",
           "settings": {
             "text_color": "#121212",
-            "icon_color": "#1a3018",
+            "icon_color": "#137DC5",
             "layout": "one_per_line",
-            "benefit_1": "Élimine le champignon qui revient sans cesse",
-            "benefit_2": "Stoppe les démangeaisons et les sensations de brûlure persistantes",
-            "benefit_3": "Élimine durablement les mauvaises odeurs embarrassantes des pieds",
-            "benefit_4": "Marchez enfin pieds nus en toute confiance",
+            "benefit_1": "Knocks out odor at the source — so you stay fresh long past the towel, not just for an hour",
+            "benefit_2": "Calms the itch, heat and chafe of a day spent trapped under clothes",
+            "benefit_3": "pH matched to intimate skin (5.5) — so washing stops causing the dryness it’s meant to fix",
+            "benefit_4": "Cool, clean, confident — the kind of fresh she notices and you stop thinking about",
             "benefit_5": "",
             "benefit_6": ""
           }
@@ -69,9 +60,9 @@
           "type": "price",
           "disabled": true,
           "settings": {
-            "price_color": "#1a3018",
+            "price_color": "#137DC5",
             "compare_price_color": "",
-            "sale_badge_text": "Offre Limitée — Économisez 55%",
+            "sale_badge_text": "Limited Drop — Save 40%",
             "sale_badge_weight": "600",
             "price_font_size": 2,
             "price_font_weight": "700",
@@ -107,12 +98,12 @@
             "function": "link",
             "button_link": "",
             "display_when": "after_scroll",
-            "button_label": "Ajouter au panier",
+            "button_label": "Add to Cart",
             "enable_custom_btn_color": false,
-            "custom_btn_color": "#dd1d1d",
+            "custom_btn_color": "#137DC5",
             "color_scheme": "scheme-1",
             "star_color": "#ffcc00",
-            "stars_label": "Excellent 4.8 — 1 422+ avis",
+            "stars_label": "Excellent 4.8 — loved by early testers",
             "button_font_size": 1.6,
             "button_font_weight": "700",
             "button_text_transform": "none",
@@ -143,68 +134,68 @@
             "font_size_2_items": 1.4,
             "bg_color": "",
             "text_color": "#121212",
-            "text_1": "Livraison gratuite dès 35€",
+            "text_1": "Free shipping over €35",
             "icon_name_1": "local_shipping",
-            "text_2": "Paiement sécurisé",
+            "text_2": "Secure checkout",
             "icon_name_2": "verified_user"
           }
         },
         "custom_liquid_ELCB4G": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"fb-comment-block\" id=\"block-facebook_comment_F4EbHy\" style=\"margin-top: 0px; margin-bottom: 0px;\">\n  <div class=\"fb-comment-container\" style=\"\n      border-radius: 0px;\n      width: 100%;\n      max-width: none;\n      margin: 0;\n      padding: 16px;\n      overflow: hidden;\n      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\n      line-height: 1.34;\n    \">\n    <div class=\"fb-comment-inner\" style=\"\n        display: flex;\n        gap: 8px;\n        align-items: flex-start;\n      \">\n      \n        <div class=\"fb-comment-profile\" style=\"\n            width: 32px;\n            height: 32px;\n            border-radius: 50%;\n            position: relative;\n            overflow: hidden;\n            flex-shrink: 0;\n          \">\n          <img src=\"//nolarituel.com/cdn/shop/files/53a565bdb49a1212118e037cc3dc3795_1.jpg?v=1766505770\" alt=\"Profile picture\" style=\"width: 100%; height: 100%; object-fit: cover; object-position: center; display: block;\" width=\"\" height=\"\">\n        </div>\n      \n\n      <div class=\"fb-comment-content\" style=\"flex: 1;\">\n        <div class=\"fb-comment-bubble\" style=\"\n            background: #f0f2f5;\n            border-radius: 18px;\n            padding: 8px 12px;\n            margin-bottom: 4px;\n            position: relative;\n          \">\n          <div class=\"fb-comment-author\" style=\"\n              font-weight: var(--font-weight-bold) !important;\n              font-size: 13px;\n              letter-spacing: var(--letter-spacing-body);\n              color: #050505;\n              margin-bottom: 2px;\n              \n            \"><strong>\n            Nicolas Fauvel</strong>\n          </div>\n\n          <div class=\"fb-comment-text\" style=\"\n              color: #050505;\n              letters-spacing: var(--letter-spacing-body);\n              font-size: 15px;\n              line-height: 1.3;\n              \n            \">\n            Après 5 ans à cacher mes pieds, le rituel de Verra a complètement éliminé les mycoses. Je reviens tout juste de vacances et pour la première fois depuis des années, j’ai marché pieds nus sur le sable sans aucune gêne. Ma copine me dit que mes pieds paraissent et sentent enfin normaux, comme au début de notre relation. Franchement, je ne pensais pas retrouver ça un jour, et en seulement 2 mois d’utilisation.\n          </div>\n\n          <div class=\"fb-comment-reactions\" style=\"\n              position: absolute;\n              bottom: -10px;\n              right: 12px;\n              display: flex;\n              align-items: center;\n              gap: 4px;\n              background: #ffffff;\n              border-radius: 12px;\n              padding: 2px 6px;\n              box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);\n              border: 1px solid #e4e6ea;\n            \">\n            <div class=\"fb-comment-reaction-icons\" style=\"display: flex; margin-right: 0px;\">\n              <!-- Like Icon -->\n              <div class=\"fb-comment-reaction-icon\" style=\"\n                  width: 16px;\n                  height: 16px;\n                  border-radius: 50%;\n                  margin-left: -2px;\n                  border: 1px solid white;\n                  overflow: hidden;\n                  flex-shrink: 0;\n                  display: flex;\n                  align-items: center;\n                  justify-content: center;\n                \">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\" style=\"display: block;\">\n                  <path fill=\"url(#fb-like-gradient-facebook_comment_F4EbHy)\" d=\"M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z\"></path>\n                  <path fill=\"#fff\" d=\"M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725.1.163.132.36.089.546-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666ZM3.6 7h.8a.6.6 0 0 1 .6.6v3.8a.6.6 0 0 1-.6.6h-.8a.6.6 0 0 1-.6-.6V7.6a.6.6 0 0 1 .6-.6Z\"></path>\n                  <defs>\n                    <linearGradient id=\"fb-like-gradient-facebook_comment_F4EbHy\" x1=\"8\" x2=\"8\" y2=\"16\" gradientUnits=\"userSpaceOnUse\">\n                      <stop stop-color=\"#18AFFF\"></stop>\n                      <stop offset=\"1\" stop-color=\"#0062DF\"></stop>\n                    </linearGradient>\n                  </defs>\n                </svg>\n              </div>\n\n              <!-- Love Icon -->\n              <div class=\"fb-comment-reaction-icon\" style=\"\n                  width: 16px;\n                  height: 16px;\n                  border-radius: 50%;\n                  margin-left: -2px;\n                  border: 1px solid white;\n                  overflow: hidden;\n                  flex-shrink: 0;\n                  display: flex;\n                  align-items: center;\n                  justify-content: center;\n                \">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\" style=\"display: block;\">\n                  <path fill=\"url(#fb-love-gradient-facebook_comment_F4EbHy)\" d=\"M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z\"></path>\n                  <path fill=\"#fff\" d=\"M10.473 4C8.275 4 8 5.824 8 5.824S7.726 4 5.528 4c-2.114 0-2.73 2.222-2.472 3.41C3.736 10.55 8 12.75 8 12.75s4.265-2.2 4.945-5.34c.257-1.188-.36-3.41-2.472-3.41Z\"></path>\n                  <defs>\n                    <linearGradient id=\"fb-love-gradient-facebook_comment_F4EbHy\" x1=\"8\" x2=\"8\" y2=\"16\" gradientUnits=\"userSpaceOnUse\">\n                      <stop stop-color=\"#FF6680\"></stop>\n                      <stop offset=\"1\" stop-color=\"#E61739\"></stop>\n                    </linearGradient>\n                  </defs>\n                </svg>\n              </div>\n\n              <!-- Care Icon -->\n              <div class=\"fb-comment-reaction-icon\" style=\"\n                  width: 16px;\n                  height: 16px;\n                  border-radius: 50%;\n                  margin-left: -2px;\n                  border: 1px solid white;\n                  overflow: hidden;\n                  flex-shrink: 0;\n                  display: flex;\n                  align-items: center;\n                  justify-content: center;\n                \">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" style=\"display: block;\">\n                  <defs>\n                    <linearGradient id=\"fb-care-bg-facebook_comment_F4EbHy\" x1=\"-2.313\" x2=\"-2.313\" y1=\"19.862\" y2=\"20.738\" gradientTransform=\"matrix(16 0 0 -16 45 333)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#f28a2d\"></stop>\n                      <stop offset=\"1\" stop-color=\"#fde86f\"></stop>\n                    </linearGradient>\n                    <linearGradient id=\"fb-care-mouth-facebook_comment_F4EbHy\" x1=\"-1.619\" x2=\"-1.619\" y1=\"18.2\" y2=\"16.681\" gradientTransform=\"matrix(3.4035 0 0 -.9374 13.51 22.37)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#482314\"></stop>\n                      <stop offset=\"1\" stop-color=\"#9a4111\"></stop>\n                    </linearGradient>\n                    <radialGradient id=\"fb-care-eye1-facebook_comment_F4EbHy\" cx=\"-3.9\" cy=\"18.924\" r=\".872\" gradientTransform=\"matrix(0 -2.1326 -2.1327 0 45.352 -4.046)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#3b446b\"></stop>\n                      <stop offset=\".688\" stop-color=\"#202340\"></stop>\n                    </radialGradient>\n                    <radialGradient id=\"fb-care-eye2-facebook_comment_F4EbHy\" cx=\"-3.914\" cy=\"18.924\" r=\".872\" gradientTransform=\"matrix(0 -2.1326 -2.1327 0 51.366 -4.077)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#3b446b\"></stop>\n                      <stop offset=\".688\" stop-color=\"#202340\"></stop>\n                    </radialGradient>\n                    <linearGradient id=\"fb-care-heart-facebook_comment_F4EbHy\" x1=\"-2.17\" x2=\"-2.407\" y1=\"20.358\" y2=\"19.647\" gradientTransform=\"matrix(9.7496 0 0 -9.079 27.91 194.578)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#f34462\"></stop>\n                      <stop offset=\"1\" stop-color=\"#cc0820\"></stop>\n                    </linearGradient>\n                  </defs>\n                  <path fill=\"url(#fb-care-bg-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M16 8c0 4.4-3.6 8-8 8s-8-3.6-8-8 3.6-8 8-8 8 3.6 8 8z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-mouth-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M9.7 5.9c-.1-.3-3.3-.3-3.4 0-.1.3.6.7 1.7.7s1.8-.4 1.7-.7z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-eye1-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M6 4.1c0 .7-.4.9-1 1-.6.1-1.1-.2-1.1-1 0-.6.3-1.4 1.1-1.4.7 0 1 .8 1 1.4z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-eye2-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M10 4.1c0 .7.4.9 1.1 1 .6.1 1.1-.2 1.1-1 0-.6-.3-1.4-1.1-1.4S10 3.5 10 4.1z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-heart-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M9.7 8.5c-2.1-.6-2.8.8-2.8.8S7.1 7.7 5 7c-2-.6-3.2 1.3-3.3 2.4-.2 2.5 2 5.3 2.8 6.3.1.3.4.3.7.3 1.2-.3 4.6-1.4 5.9-3.6.5-1.1.6-3.3-1.4-3.9z\" clip-rule=\"evenodd\"></path>\n                </svg>\n              </div>\n            </div>\n            <span class=\"fb-comment-reaction-count\" style=\"\n                color: #65676b;\n                font-size: 13px;\n                font-weight: 400;\n                \n              \">14</span>\n          </div>\n        </div>\n\n        <div class=\"fb-comment-meta\" style=\"\n            display: flex;\n            letter-spacing: var(--letter-spacing-body) !important;\n            align-items: center;\n            gap: 12px;\n            margin-left: 12px;\n            margin-bottom: 12px;\n            font-size: 13px;\n            color: #65676b;\n            \n          \">\n          <span class=\"fb-comment-meta-item\" style=\"\n              cursor: pointer;\n              font-weight: 600;\n              \n            \">J'aime</span>\n          <span class=\"fb-comment-meta-item\" style=\"\n              cursor: pointer;\n              font-weight: 600;\n              \n            \">Commenter</span>\n          <span class=\"fb-comment-timestamp\" style=\"\n                          \n            \">2j</span>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<style>\n  .fb-comment-meta-item:hover {\n    text-decoration: underline;\n  }\n\n  @media (max-width: 520px) {\n    .fb-comment-container {\n      margin: 0;\n      border-radius: 0;\n      box-shadow: none;\n      width: 100%;\n      max-width: none;\n    }\n    .fb-comment-meta {\n      gap: 8px;\n    }\n    .fb-comment-meta-item {\n      font-size: 12px;\n    }\n  }\n</style>"
+            "custom_liquid": "<div class=\"fb-comment-block\" id=\"block-facebook_comment_F4EbHy\" style=\"margin-top: 0px; margin-bottom: 0px;\">\n  <div class=\"fb-comment-container\" style=\"\n      border-radius: 0px;\n      width: 100%;\n      max-width: none;\n      margin: 0;\n      padding: 16px;\n      overflow: hidden;\n      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\n      line-height: 1.34;\n    \">\n    <div class=\"fb-comment-inner\" style=\"\n        display: flex;\n        gap: 8px;\n        align-items: flex-start;\n      \">\n      \n        <div class=\"fb-comment-profile\" style=\"\n            width: 32px;\n            height: 32px;\n            border-radius: 50%;\n            position: relative;\n            overflow: hidden;\n            flex-shrink: 0;\n          \">\n          <img src=\"shopify://shop_images/coolbro_review_avatar.png\" alt=\"Profile picture\" style=\"width: 100%; height: 100%; object-fit: cover; object-position: center; display: block;\" width=\"\" height=\"\">\n        </div>\n      \n\n      <div class=\"fb-comment-content\" style=\"flex: 1;\">\n        <div class=\"fb-comment-bubble\" style=\"\n            background: #f0f2f5;\n            border-radius: 18px;\n            padding: 8px 12px;\n            margin-bottom: 4px;\n            position: relative;\n          \">\n          <div class=\"fb-comment-author\" style=\"\n              font-weight: var(--font-weight-bold) !important;\n              font-size: 13px;\n              letter-spacing: var(--letter-spacing-body);\n              color: #050505;\n              margin-bottom: 2px;\n              \n            \"><strong>\n            Marcus Bell</strong>\n          </div>\n\n          <div class=\"fb-comment-text\" style=\"\n              color: #050505;\n              letters-spacing: var(--letter-spacing-body);\n              font-size: 15px;\n              line-height: 1.3;\n              \n            \">\n            Honestly didn’t expect much from a “wash for down there”… three weeks in and the difference is stupid. No more end-of-day funk, no itch after the gym, and my girlfriend literally asked what I’d changed in the shower. Just this. Wish I’d found it years ago.\n          </div>\n\n          <div class=\"fb-comment-reactions\" style=\"\n              position: absolute;\n              bottom: -10px;\n              right: 12px;\n              display: flex;\n              align-items: center;\n              gap: 4px;\n              background: #ffffff;\n              border-radius: 12px;\n              padding: 2px 6px;\n              box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);\n              border: 1px solid #e4e6ea;\n            \">\n            <div class=\"fb-comment-reaction-icons\" style=\"display: flex; margin-right: 0px;\">\n              <!-- Like Icon -->\n              <div class=\"fb-comment-reaction-icon\" style=\"\n                  width: 16px;\n                  height: 16px;\n                  border-radius: 50%;\n                  margin-left: -2px;\n                  border: 1px solid white;\n                  overflow: hidden;\n                  flex-shrink: 0;\n                  display: flex;\n                  align-items: center;\n                  justify-content: center;\n                \">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\" style=\"display: block;\">\n                  <path fill=\"url(#fb-like-gradient-facebook_comment_F4EbHy)\" d=\"M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z\"></path>\n                  <path fill=\"#fff\" d=\"M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725.1.163.132.36.089.546-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666ZM3.6 7h.8a.6.6 0 0 1 .6.6v3.8a.6.6 0 0 1-.6.6h-.8a.6.6 0 0 1-.6-.6V7.6a.6.6 0 0 1 .6-.6Z\"></path>\n                  <defs>\n                    <linearGradient id=\"fb-like-gradient-facebook_comment_F4EbHy\" x1=\"8\" x2=\"8\" y2=\"16\" gradientUnits=\"userSpaceOnUse\">\n                      <stop stop-color=\"#18AFFF\"></stop>\n                      <stop offset=\"1\" stop-color=\"#0062DF\"></stop>\n                    </linearGradient>\n                  </defs>\n                </svg>\n              </div>\n\n              <!-- Love Icon -->\n              <div class=\"fb-comment-reaction-icon\" style=\"\n                  width: 16px;\n                  height: 16px;\n                  border-radius: 50%;\n                  margin-left: -2px;\n                  border: 1px solid white;\n                  overflow: hidden;\n                  flex-shrink: 0;\n                  display: flex;\n                  align-items: center;\n                  justify-content: center;\n                \">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\" style=\"display: block;\">\n                  <path fill=\"url(#fb-love-gradient-facebook_comment_F4EbHy)\" d=\"M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z\"></path>\n                  <path fill=\"#fff\" d=\"M10.473 4C8.275 4 8 5.824 8 5.824S7.726 4 5.528 4c-2.114 0-2.73 2.222-2.472 3.41C3.736 10.55 8 12.75 8 12.75s4.265-2.2 4.945-5.34c.257-1.188-.36-3.41-2.472-3.41Z\"></path>\n                  <defs>\n                    <linearGradient id=\"fb-love-gradient-facebook_comment_F4EbHy\" x1=\"8\" x2=\"8\" y2=\"16\" gradientUnits=\"userSpaceOnUse\">\n                      <stop stop-color=\"#FF6680\"></stop>\n                      <stop offset=\"1\" stop-color=\"#E61739\"></stop>\n                    </linearGradient>\n                  </defs>\n                </svg>\n              </div>\n\n              <!-- Care Icon -->\n              <div class=\"fb-comment-reaction-icon\" style=\"\n                  width: 16px;\n                  height: 16px;\n                  border-radius: 50%;\n                  margin-left: -2px;\n                  border: 1px solid white;\n                  overflow: hidden;\n                  flex-shrink: 0;\n                  display: flex;\n                  align-items: center;\n                  justify-content: center;\n                \">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" style=\"display: block;\">\n                  <defs>\n                    <linearGradient id=\"fb-care-bg-facebook_comment_F4EbHy\" x1=\"-2.313\" x2=\"-2.313\" y1=\"19.862\" y2=\"20.738\" gradientTransform=\"matrix(16 0 0 -16 45 333)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#f28a2d\"></stop>\n                      <stop offset=\"1\" stop-color=\"#fde86f\"></stop>\n                    </linearGradient>\n                    <linearGradient id=\"fb-care-mouth-facebook_comment_F4EbHy\" x1=\"-1.619\" x2=\"-1.619\" y1=\"18.2\" y2=\"16.681\" gradientTransform=\"matrix(3.4035 0 0 -.9374 13.51 22.37)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#482314\"></stop>\n                      <stop offset=\"1\" stop-color=\"#9a4111\"></stop>\n                    </linearGradient>\n                    <radialGradient id=\"fb-care-eye1-facebook_comment_F4EbHy\" cx=\"-3.9\" cy=\"18.924\" r=\".872\" gradientTransform=\"matrix(0 -2.1326 -2.1327 0 45.352 -4.046)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#3b446b\"></stop>\n                      <stop offset=\".688\" stop-color=\"#202340\"></stop>\n                    </radialGradient>\n                    <radialGradient id=\"fb-care-eye2-facebook_comment_F4EbHy\" cx=\"-3.914\" cy=\"18.924\" r=\".872\" gradientTransform=\"matrix(0 -2.1326 -2.1327 0 51.366 -4.077)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#3b446b\"></stop>\n                      <stop offset=\".688\" stop-color=\"#202340\"></stop>\n                    </radialGradient>\n                    <linearGradient id=\"fb-care-heart-facebook_comment_F4EbHy\" x1=\"-2.17\" x2=\"-2.407\" y1=\"20.358\" y2=\"19.647\" gradientTransform=\"matrix(9.7496 0 0 -9.079 27.91 194.578)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#f34462\"></stop>\n                      <stop offset=\"1\" stop-color=\"#cc0820\"></stop>\n                    </linearGradient>\n                  </defs>\n                  <path fill=\"url(#fb-care-bg-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M16 8c0 4.4-3.6 8-8 8s-8-3.6-8-8 3.6-8 8-8 8 3.6 8 8z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-mouth-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M9.7 5.9c-.1-.3-3.3-.3-3.4 0-.1.3.6.7 1.7.7s1.8-.4 1.7-.7z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-eye1-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M6 4.1c0 .7-.4.9-1 1-.6.1-1.1-.2-1.1-1 0-.6.3-1.4 1.1-1.4.7 0 1 .8 1 1.4z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-eye2-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M10 4.1c0 .7.4.9 1.1 1 .6.1 1.1-.2 1.1-1 0-.6-.3-1.4-1.1-1.4S10 3.5 10 4.1z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-heart-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M9.7 8.5c-2.1-.6-2.8.8-2.8.8S7.1 7.7 5 7c-2-.6-3.2 1.3-3.3 2.4-.2 2.5 2 5.3 2.8 6.3.1.3.4.3.7.3 1.2-.3 4.6-1.4 5.9-3.6.5-1.1.6-3.3-1.4-3.9z\" clip-rule=\"evenodd\"></path>\n                </svg>\n              </div>\n            </div>\n            <span class=\"fb-comment-reaction-count\" style=\"\n                color: #65676b;\n                font-size: 13px;\n                font-weight: 400;\n                \n              \">14</span>\n          </div>\n        </div>\n\n        <div class=\"fb-comment-meta\" style=\"\n            display: flex;\n            letter-spacing: var(--letter-spacing-body) !important;\n            align-items: center;\n            gap: 12px;\n            margin-left: 12px;\n            margin-bottom: 12px;\n            font-size: 13px;\n            color: #65676b;\n            \n          \">\n          <span class=\"fb-comment-meta-item\" style=\"\n              cursor: pointer;\n              font-weight: 600;\n              \n            \">J'aime</span>\n          <span class=\"fb-comment-meta-item\" style=\"\n              cursor: pointer;\n              font-weight: 600;\n              \n            \">Commenter</span>\n          <span class=\"fb-comment-timestamp\" style=\"\n                          \n            \">2j</span>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<style>\n  .fb-comment-meta-item:hover {\n    text-decoration: underline;\n  }\n\n  @media (max-width: 520px) {\n    .fb-comment-container {\n      margin: 0;\n      border-radius: 0;\n      box-shadow: none;\n      width: 100%;\n      max-width: none;\n    }\n    .fb-comment-meta {\n      gap: 8px;\n    }\n    .fb-comment-meta-item {\n      font-size: 12px;\n    }\n  }\n</style>"
           }
         },
         "collapsible_tab_desc": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Est-ce que ça marche vraiment ? En combien de temps ?",
+            "heading": "Does it actually work? How fast?",
             "icon": "none",
-            "content": "<p><strong>Oui, à condition d’être régulier.</strong> La plupart des clients observent des <strong>résultats visibles en ~4 semaines</strong>, avec une amélioration progressive dès les premières semaines (démangeaisons, brûlures, odeurs). Le point clé : <strong>la constance</strong>, car l’objectif est de traiter <strong>la cause</strong> (le champignon), pas seulement les symptômes.</p>",
+            "content": "<p><strong>Yes — and you’ll feel the difference the first shower.</strong> The cool, clean finish is immediate; the all day odor control and comfort build as <strong>CoolBro</strong> replaces the harsh, high pH soap that was quietly working against you. Most men make it their daily wash within a week.</p>",
             "page": ""
           }
         },
         "collapsible_tab_why": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Comment l’utiliser pour de meilleurs résultats ?",
+            "heading": "How do I use it?",
             "icon": "none",
-            "content": "<p>Sous la douche, <strong>1 fois par jour</strong> :</p><ol><li>Faites mousser, surtout <strong>entre les orteils</strong><br/></li><li>Massez la zone <strong>30 secondes</strong><br/></li><li>Laissez poser <strong>1 à 2 minutes</strong><br/></li><li>Rincez puis <strong>séchez parfaitement</strong><br/></li></ol><p>Gardez cette routine <strong>4 à 6 semaines</strong> pour limiter les récidives.</p>",
+            "content": "<p>In the shower, <strong>once a day</strong>:</p><ol><li>Lather a small amount in your hands<br/></li><li>Massage gently over the groin, inner thighs and anywhere that traps heat<br/></li><li>Leave it on <strong>30 to 60 seconds</strong><br/></li><li>Rinse well and <strong>pat dry</strong>, especially the folds<br/></li></ol><p>Use daily — fresh below the belt becomes the default, not the exception.</p>",
             "page": ""
           }
         },
         "collapsible_tab_benefits": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Quels ingrédients ? Est-ce naturel / doux pour la peau ?",
+            "heading": "What’s in it? Is it gentle?",
             "icon": "none",
-            "content": "<p>La formule met en avant des ingrédients connus pour leurs propriétés purifiantes et apaisantes :</p><ul><li><strong>huile de tea tree</strong></li><li><strong>huile de coco</strong></li><li><strong>aloe vera</strong></li><li>base <strong>huile d’olive </strong>ainsi que <strong>eucalyptus </strong>et <strong>hamamélis</strong>.<br/></li></ul><p>L’idée : <strong>assainir </strong>tout en aidant à <strong>calmer la peau irritée </strong>(tiraillements, sensations de brûlure).</p>",
+            "content": "<p>Built around skin friendly actives chosen for one job each:</p><ul><li><strong>Menthol</strong> — instant cooling</li><li><strong>Zinc ricinoleate</strong> — neutralises odor (doesn’t mask it)</li><li><strong>Ceramides + glycerin</strong> — lock in moisture</li><li><strong>Fermented probiotics</strong> — protect your skin’s natural balance</li><li>An <strong>aloe + bamboo + moringa</strong> soothing complex</li></ul><p>No sulphates, parabens, silicones or artificial colours.</p>",
             "page": ""
           }
         },
         "collapsible_tab_use": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Et si ça ne marche pas pour moi ? Livraison / garantie ?",
+            "heading": "What if it’s not for me? Shipping & guarantee",
             "icon": "none",
-            "content": "<p>Vous achetez <strong>sans risque</strong> : Verra Rituel propose une <strong>garantie 30 jours</strong> (satisfait ou remboursé) et une <strong>livraison suivie</strong>.<br/><br/>Si vous avez la moindre question, vous pouvez aussi orienter vers notre support.</p><p>contact@verrarituel.com</p>",
+            "content": "<p>You buy <strong>risk free</strong>: CoolBro comes with a <strong>30 day money back guarantee</strong> and <strong>tracked shipping</strong> on every order.<br/><br/>If it’s not your thing, email us and we’ll sort it — no awkward questions.</p><p>support@coolbro.co</p>",
             "page": ""
           }
         },
         "collapsible_tab_guarantee": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Livraison & garantie",
+            "heading": "Shipping & guarantee",
             "icon": "none",
-            "content": "<p>Vous achetez sans risque : Verra Rituel propose une <strong>garantie 30 jours satisfait ou remboursé</strong> et une livraison suivie.</p><p>Si vous ne constatez pas d'amélioration ou si le produit ne vous convient pas, vous disposez de 30 jours pour changer d'avis. Aucun formulaire. Aucune complication.</p>",
+            "content": "<p>Every order ships tracked, and you’re covered by a <strong>30 day satisfaction guarantee</strong>. Not happy? You get your money back.</p>",
             "page": ""
           }
         },
         "urgency_notice": {
           "type": "urgency_notice",
           "settings": {
-            "line_1": "<p><strong>Attention Aux Imitations.</strong></p>",
-            "line_2": "<p><strong>verrarituel.com</strong>est la seule marque officielle à proposer ce savon antifongique avec une formulation de <strong>haute qualité</strong>. Nous ne vendons ni sur Amazon ni sur d’autres sites.</p>",
+            "line_1": "<p><strong>Beware of copycats.</strong></p>",
+            "line_2": "<p><strong>coolbro.co</strong> is the only place to get the original CoolBro formula — sold direct, never through third party sellers.</p>",
             "font_size": 1.2,
             "bg_color": "#fef2f2",
             "text_color": "#9f3f3f",
@@ -263,33 +254,33 @@
         "stat_1": {
           "type": "stat",
           "settings": {
-            "percentage": 97,
-            "heading": "<strong>Diminution de l'inconfort</strong>",
-            "caption": "Ont ressenti une diminution des démangeaisons et de l'inconfort au cours des premières semaines d'utilisation."
+            "percentage": "5.5",
+            "heading": "<strong>Skin matched pH</strong>",
+            "caption": "Formulated to your intimate skin’s natural pH — so it cleans without stripping the barrier that keeps you comfortable."
           }
         },
         "stat_2": {
           "type": "stat",
           "settings": {
-            "percentage": 94,
-            "heading": "<strong>Peau plus saine et nette</strong>",
-            "caption": "Ont constaté une peau visiblement plus propre, plus saine, avec moins d'odeurs persistantes et de zones qui pèlent."
+            "percentage": "0",
+            "heading": "<strong>Harsh chemicals</strong>",
+            "caption": "No sulphates, parabens, silicones or artificial colours. Nothing that quietly makes the problem worse."
           }
         },
         "stat_3": {
           "type": "stat",
           "settings": {
-            "percentage": 92,
-            "heading": "<strong>Confiance retrouvée</strong>",
-            "caption": "Se sentent à nouveau à l'aise pour marcher pieds nus ou porter des sandales, même en public."
+            "percentage": "8",
+            "heading": "<strong>Active ingredients</strong>",
+            "caption": "Eight skin friendly actives — cooling, deodorising, soothing and hydrating — in one daily wash."
           }
         },
         "stat_4": {
           "type": "stat",
           "settings": {
-            "percentage": 93,
-            "heading": "<strong>Ne reviendraient jamais en arrière</strong>",
-            "caption": "Préfèrent Verra Rituel aux crèmes et sprays antifongiques classiques qu'ils utilisaient avant."
+            "percentage": "30",
+            "heading": "<strong>Day guarantee</strong>",
+            "caption": "Use it for a full month. If your skin doesn’t feel fresher and calmer, you get your money back."
           }
         }
       },
@@ -301,21 +292,21 @@
       ],
       "custom_css": [],
       "settings": {
-        "bg_color": "#1a3018",
-        "bg_image": "shopify://shop_images/all_bracelets.png",
+        "bg_color": "#137DC5",
+        "bg_image": "shopify://shop_images/coolbro_clinical_bg.png",
         "image_opacity": 10,
         "text_color": "#ffffff",
-        "percentage_color": "#dff47e",
-        "highlight_color": "#dff47e",
-        "heading": "<strong>Des résultats visibles</strong> en quelques semaines",
+        "percentage_color": "#6FD6E8",
+        "highlight_color": "#6FD6E8",
+        "heading": "<strong>Built right</strong>, not hyped",
         "heading_size": 31,
-        "subtitle": "Quand des actifs naturels puissants rencontrent une efficacité prouvée, les résultats parlent d'eux-mêmes.",
+        "subtitle": "When skin matched actives replace harsh soap, the difference shows up exactly where it counts.",
         "cta_function": "link",
-        "cta_text": "Essayer sans risque",
+        "cta_text": "Try it risk free",
         "cta_url": "#ProductInfo-template--27090456740203__main",
-        "cta_bg_color": "#dff47e",
-        "cta_text_color": "#1a3018",
-        "guarantee_text": "Garantie 30 jours satisfait ou remboursé",
+        "cta_bg_color": "#6FD6E8",
+        "cta_text_color": "#137DC5",
+        "guarantee_text": "30 day money back guarantee",
         "padding_top": 84,
         "padding_bottom": 80
       }
@@ -326,36 +317,36 @@
         "card_1": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/d1b.png",
-            "title": "<strong>Huile de Tea Tree</strong>",
-            "text": "L'actif phare de la formule. L'huile d'arbre à thé est reconnue pour ses <strong>propriétés naturellement purifiantes</strong>. Elle aide à <strong>assainir la peau en profondeur</strong> et à limiter la propagation des déséquilibres cutanés — sans produits chimiques agressifs.",
+            "image": "shopify://shop_images/coolbro_ing_menthol.png",
+            "title": "<strong>Menthol</strong>",
+            "text": "The cool hit you feel the second you rinse. Not a gimmick — it’s the signal that tells you you’re clean, and it lingers in the best way.",
             "card_bg_color": ""
           }
         },
         "card_2": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/d2.png",
-            "title": "<strong>Huile d'eucalyptus</strong>",
-            "text": "Un antiseptique naturel qui <strong>nettoie les pores en profondeur et élimine les bactéries au contact</strong> — supprimant les conditions qui permettent aux mycoses de prospérer, tout en laissant une sensation de fraîcheur.",
+            "image": "shopify://shop_images/coolbro_ing_zinc.png",
+            "title": "<strong>Zinc Ricinoleate</strong>",
+            "text": "Traps and neutralises odor molecules instead of burying them under fragrance. The smell doesn’t get masked — it’s gone.",
             "card_bg_color": ""
           }
         },
         "card_3": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/d3.png",
-            "title": "<strong>Aloe Vera</strong>",
-            "text": "Reconnu pour ses vertus apaisantes, l'aloe vera aide à <strong>calmer la peau irritée</strong> — tiraillements, sensations de brûlure — tout en favorisant l'hydratation naturelle des zones fragilisées.",
+            "image": "shopify://shop_images/coolbro_ing_ceramides.png",
+            "title": "<strong>Ceramides & Glycerin</strong>",
+            "text": "Lock moisture back into the skin after washing, so you skip the next day tightness, itch and irritation harsh soap leaves behind.",
             "card_bg_color": ""
           }
         },
         "card_4": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/d4.png",
-            "title": "<strong>Huile de Coco & Huile d'Olive</strong>",
-            "text": "La base nourrissante de la formule. L'huile de coco et l'huile d'olive <strong>protègent et restaurent la barrière cutanée</strong>, pour une peau douce et hydratée même après un nettoyage en profondeur.",
+            "image": "shopify://shop_images/coolbro_ing_botanical.png",
+            "title": "<strong>Aloe, Bamboo & Moringa</strong>",
+            "text": "A plant based soothing complex that calms redness and sensitivity — especially handy if you trim. Purposeful, not filler.",
             "card_bg_color": ""
           }
         }
@@ -367,10 +358,10 @@
         "card_4"
       ],
       "settings": {
-        "heading": "Des ingrédients antifongiques naturels pour des <strong>résultats concrets</strong>",
-        "highlight_color": "#1a3018",
+        "heading": "Skin friendly actives that <strong>actually do something</strong>",
+        "highlight_color": "#137DC5",
         "card_title_size": 22,
-        "card_title_highlight": "#1a3018",
+        "card_title_highlight": "#137DC5",
         "section_bg_color": "",
         "text_alignment": "center",
         "card_border_radius": 12,
@@ -388,11 +379,11 @@
           "type": "review",
           "settings": {
             "rating": "5.0",
-            "quote": "fonctionne vraiment",
-            "details": "J'ai testé énormément de produits contre les problèmes de pieds, sans succès durable.\nCe savon est le premier qui a vraiment fait une différence : moins d'odeur, une peau plus saine et surtout une vraie sensation de propreté après chaque utilisation.\nSimple, efficace, et agréable à utiliser. Je recommande sans hésiter.",
-            "author_name": "Élise Morel",
-            "tag_1": "Pied d'athlète",
-            "tag_2": "Peau saine",
+            "quote": "It just works",
+            "details": "Tried everything for that end of day funk and nothing held up. First wash that keeps me fresh morning to night — even after training.",
+            "author_name": "Marcus T.",
+            "tag_1": "Daily gym",
+            "tag_2": "All day fresh",
             "card_bg_color": ""
           }
         },
@@ -400,11 +391,11 @@
           "type": "review",
           "settings": {
             "rating": "5.0",
-            "quote": "Mes pieds ont complètement changé",
-            "details": "Après quelques semaines d'utilisation, mes pieds sont méconnaissables.\nFini la peau sèche, les fissures et l'inconfort.\nLe savon sent bon sans être agressif et laisse la peau douce.\nC'est devenu un indispensable dans ma routine.",
-            "author_name": "Antoine Pelletier",
-            "tag_1": "Fissures",
-            "tag_2": "Routine quotidienne",
+            "quote": "Didn’t expect this",
+            "details": "Thought a “wash for down there” was a gimmick. Three weeks in and I’m a convert — no itch, no smell, skin feels calm instead of dried out.",
+            "author_name": "Jordan R.",
+            "tag_1": "Sensitive skin",
+            "tag_2": "No more itch",
             "card_bg_color": ""
           }
         },
@@ -412,11 +403,11 @@
           "type": "review",
           "settings": {
             "rating": "5.0",
-            "quote": "terriblement efficace",
-            "details": "J'avais honte de mes pieds et j'évitais même de les montrer.\nCe savon a clairement amélioré la situation : peau plus saine, moins de gêne, et surtout plus de confiance.\nJe ne pensais pas qu'un produit aussi simple pouvait être aussi efficace.",
-            "author_name": "Thomas Lefèvre",
-            "tag_1": "Confiance",
-            "tag_2": "Résultats rapides",
+            "quote": "She noticed",
+            "details": "My girlfriend asked what I’d changed. Just this. Fresh, clean, confident — I don’t think about it anymore, which is the whole point.",
+            "author_name": "Anthony M.",
+            "tag_1": "Confidence",
+            "tag_2": "Cooling",
             "card_bg_color": ""
           }
         },
@@ -424,11 +415,11 @@
           "type": "review",
           "settings": {
             "rating": "5.0",
-            "quote": "Le seul savon que je rachèterai",
-            "details": "J'étais sceptique au départ, mais les résultats parlent d'eux-mêmes.\nDès les premières utilisations, on sent une vraie différence.\nMes pieds restent frais plus longtemps et la peau est beaucoup plus nette.\nJe ne reviendrai jamais aux produits classiques.",
-            "author_name": "Camille Renaud",
-            "tag_1": "Odeurs",
-            "tag_2": "Peau nette",
+            "quote": "Skeptic, converted",
+            "details": "Was sure it wouldn’t beat my usual body wash. It did. Gentle enough for every day and the cooling is unreal in summer.",
+            "author_name": "Devin S.",
+            "tag_1": "Summer proof",
+            "tag_2": "Gentle daily",
             "card_bg_color": ""
           }
         }
@@ -443,15 +434,15 @@
         ".ts-review__quote {font-weight: bold;}"
       ],
       "settings": {
-        "heading": "« Le meilleur savon antifongique que j’ai utilisé »",
-        "subheading": "Découvrez ce que nos clients disent de Verra Rituel",
-        "highlight_color": "#1a3018",
-        "star_color": "#1a3018",
-        "verified_color": "#1a3018",
-        "tag_color": "#1a3018",
-        "tag_bg_color": "#e8f5e0",
+        "heading": "“The best switch I’ve made in years”",
+        "subheading": "What early customers are saying about CoolBro",
+        "highlight_color": "#137DC5",
+        "star_color": "#137DC5",
+        "verified_color": "#137DC5",
+        "tag_color": "#137DC5",
+        "tag_bg_color": "#E1F1FA",
         "ticker_speed": 30,
-        "section_bg_color": "#f5fdf4",
+        "section_bg_color": "#EAF6FB",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -462,21 +453,21 @@
         "ticker_item_hPwWHQ": {
           "type": "ticker_item",
           "settings": {
-            "text": "FABRICATION ARTISANALE",
+            "text": "SKIN MATCHED pH 5.5",
             "icon_name": "verified"
           }
         },
         "ticker_item_Ft8VNk": {
           "type": "ticker_item",
           "settings": {
-            "text": "SENTEUR FRAÎCHE NATURELLE",
+            "text": "COOLING MENTHOL FINISH",
             "icon_name": "verified"
           }
         },
         "ticker_item_NVjamN": {
           "type": "ticker_item",
           "settings": {
-            "text": "LIVRAISON RAPIDE",
+            "text": "FREE TRACKED SHIPPING",
             "icon_name": "verified"
           }
         }
@@ -487,8 +478,8 @@
         "ticker_item_NVjamN"
       ],
       "settings": {
-        "background_color": "#1a1a1a",
-        "text_color": "#dff47e",
+        "background_color": "#0B1B2B",
+        "text_color": "#6FD6E8",
         "border_position": "none",
         "border_thickness": 1,
         "border_color": "#ffffff",
@@ -508,29 +499,29 @@
         "wj_1": {
           "type": "milestone",
           "settings": {
-            "week_label": "7 jours : les premiers signes",
-            "bullets": "<ul><li>La peau paraît plus propre et plus fraîche au quotidien</li><li>Les odeurs et l'inconfort liés à l'humidité commencent à diminuer</li><li>Votre peau s'adapte, continuez</li></ul>"
+            "week_label": "Shower 1: instant",
+            "bullets": "<ul><li>Immediate cool, clean finish you can feel</li><li>That “actually fresh” sensation — not perfumed</li><li>Skin feels comfortable, not stripped</li></ul>"
           }
         },
         "wj_2": {
           "type": "milestone",
           "settings": {
-            "week_label": "1 mois : résultats visibles",
-            "bullets": "<ul><li>L'aspect de la peau s'améliore visiblement</li><li>Elle est plus nette, plus saine et plus confortable</li><li>Les démangeaisons et irritations diminuent nettement</li></ul>"
+            "week_label": "Week 1: the switch",
+            "bullets": "<ul><li>End of day odor noticeably fades</li><li>Less heat, itch and chafe under clothes</li><li>It quietly becomes your daily wash</li></ul>"
           }
         },
         "wj_3": {
           "type": "milestone",
           "settings": {
-            "week_label": "2 mois : stabilisation",
-            "bullets": "<ul><li>Les résultats se stabilisent durablement</li><li>La peau devient plus régulière et facile à maintenir</li><li>Vous retrouvez confiance au quotidien</li></ul>"
+            "week_label": "Weeks 2 to 3: it holds",
+            "bullets": "<ul><li>Fresh lasts through the gym and the commute</li><li>Dryness and next day irritation calm down</li><li>You stop thinking about it — it just works</li></ul>"
           }
         },
         "wj_4": {
           "type": "milestone",
           "settings": {
-            "week_label": "4 mois+ : entretien durable",
-            "bullets": "<ul><li>Le savon devient un allié d'entretien quotidien</li><li>La peau reste saine, équilibrée et confortable</li><li>Plus besoin de penser à vos pieds — ils sont enfin libres</li></ul>"
+            "week_label": "Week 4: the new normal",
+            "bullets": "<ul><li>Consistent all day comfort and confidence</li><li>Skin looks and feels balanced</li><li>Going back to regular soap isn’t an option</li></ul>"
           }
         }
       },
@@ -541,13 +532,13 @@
         "wj_4"
       ],
       "settings": {
-        "brand_image": "shopify://shop_images/d8.png",
-        "heading": "<strong>Votre parcours</strong> avec Verra Rituel®",
-        "description": "Avec une utilisation régulière, de nombreux utilisateurs constatent une amélioration nette de l'état de leurs pieds dès les premières semaines.",
-        "highlight_color": "#1a3018",
-        "button_color": "#dff47e",
+        "brand_image": "shopify://shop_images/coolbro_lifestyle.png",
+        "heading": "What the first month feels like",
+        "description": "Switching your daily wash is a small change with a fast payoff. Here’s the timeline early testers reported.",
+        "highlight_color": "#137DC5",
+        "button_color": "#6FD6E8",
         "bg_color": "",
-        "cta_text": "",
+        "cta_text": "Start your first week",
         "cta_link": "",
         "cta_note": "",
         "cta_note_icon_name": "",
@@ -562,28 +553,28 @@
         "reason_card_rMYEKy": {
           "type": "reason_card",
           "settings": {
-            "image": "shopify://shop_images/d5.png",
-            "label": "Étape 1",
-            "heading": "Mouillez et faites mousser",
-            "details": "<p>Humidifiez vos pieds, puis faites mousser le savon entre vos mains ou directement sur la peau.</p>"
+            "image": "shopify://shop_images/coolbro_step1.png",
+            "label": "Step 1",
+            "heading": "Lather",
+            "details": "<p>Work a small amount into a lather in your hands or straight onto wet skin.</p>"
           }
         },
         "reason_card_iCbCKe": {
           "type": "reason_card",
           "settings": {
-            "image": "shopify://shop_images/d6.png",
-            "label": "Étape 2",
-            "heading": "Nettoyez en douceur",
-            "details": "<p>Massez délicatement, en insistant entre les orteils et sur les zones concernées, puis laissez agir quelques instants.</p>"
+            "image": "shopify://shop_images/coolbro_step2.png",
+            "label": "Step 2",
+            "heading": "Massage in",
+            "details": "<p>Massage gently over the groin, inner thighs and anywhere that traps heat, then let it sit 30 to 60 seconds.</p>"
           }
         },
         "reason_card_3J3gPM": {
           "type": "reason_card",
           "settings": {
-            "image": "shopify://shop_images/d7.png",
-            "label": "Étape 3",
-            "heading": "Rincez et séchez soigneusement",
-            "details": "<p>Rincez abondamment à l’eau claire, puis séchez bien vos pieds, notamment entre les orteils.</p>"
+            "image": "shopify://shop_images/coolbro_step3.png",
+            "label": "Step 3",
+            "heading": "Rinse & dry",
+            "details": "<p>Rinse clean and pat dry — especially the folds. Done. Fresh that lasts all day.</p>"
           }
         }
       },
@@ -594,14 +585,14 @@
       ],
       "name": "Reasons why",
       "settings": {
-        "badge_text": "Comment utiliser notre savon ",
-        "subheading": "Une routine simple, rapide et efficace à intégrer au quotidien.",
-        "bg_color": "#f1f3ea",
+        "badge_text": "How to use CoolBro ",
+        "subheading": "One step in the shower. That’s the whole routine.",
+        "bg_color": "#EAF6FB",
         "text_color": "#000000",
-        "badge_bg_color": "#3a7830",
+        "badge_bg_color": "#137DC5",
         "badge_text_color": "#ffffff",
-        "label_bg_color": "#dff47e",
-        "label_text_color": "#1a3018",
+        "label_bg_color": "#6FD6E8",
+        "label_text_color": "#137DC5",
         "card_bg_color": "#ffffff",
         "card_border_color": "#0000004d",
         "card_text_color": "#000000",
@@ -614,14 +605,14 @@
         "card_radius": 7,
         "card_gap": 13,
         "max_width": 1500,
-        "cta_text": "Essayer dès maintenant",
+        "cta_text": "Try it now",
         "cta_url": "#ProductInfo-template--27090456740203__main",
-        "cta_bg_color": "#dff47e",
-        "cta_text_color": "#1a3018",
+        "cta_bg_color": "#6FD6E8",
+        "cta_text_color": "#137DC5",
         "cta_font_size": 19,
         "cta_margin_top": 40,
-        "guarantee_text": "Garantie 30 jours satisfait ou remboursé",
-        "guarantee_icon": "shopify://shop_images/reasons_why.png",
+        "guarantee_text": "30 day money back guarantee",
+        "guarantee_icon": "shopify://shop_images/coolbro_guarantee_badge.png",
         "padding_top": 40,
         "padding_bottom": 40
       }
@@ -632,37 +623,37 @@
         "pb_1": {
           "type": "benefit",
           "settings": {
-            "image": "shopify://shop_images/d1b.png",
-            "title": "Arbre à thé",
-            "description": "Antifongique à la source",
-            "answer": "L'huile d'arbre à thé contient du terpinène-4-ol, un composé qui détruit les membranes des cellules fongiques et élimine les infections à la racine."
+            "image": "shopify://shop_images/coolbro_ing_menthol.png",
+            "title": "Menthol",
+            "description": "Instant cooling cue",
+            "answer": "Triggers the cool, clean sensation that tells you the job’s done — and keeps the area feeling fresh long after you towel off."
           }
         },
         "pb_2": {
           "type": "benefit",
           "settings": {
-            "image": "shopify://shop_images/d2.png",
-            "title": "Eucalyptus",
-            "description": "Nettoyage antiseptique en profondeur",
-            "answer": "L'huile d'eucalyptus pénètre profondément dans les pores pour éliminer bactéries et spores fongiques, créant un environnement où les infections ne peuvent tout simplement pas survivre."
+            "image": "shopify://shop_images/coolbro_ing_zinc.png",
+            "title": "Zinc Ricinoleate",
+            "description": "Real odor control",
+            "answer": "Binds and neutralises the molecules behind odor rather than covering them with fragrance — so freshness is real, not perfumed over."
           }
         },
         "pb_3": {
           "type": "benefit",
           "settings": {
-            "image": "shopify://shop_images/d3.png",
-            "title": "Aloe Vera",
-            "description": "Apaisement et hydratation",
-            "answer": "L'aloe vera calme les peaux irritées et fragilisées — tiraillements, sensations de brûlure. Il aide à restaurer l'hydratation naturelle et favorise le confort cutané au quotidien."
+            "image": "shopify://shop_images/coolbro_ing_ceramides.png",
+            "title": "Ceramides",
+            "description": "Barrier & moisture",
+            "answer": "Replenish the skin barrier and lock in moisture after washing, heading off the dryness, tightness and itch harsh soap leaves behind."
           }
         },
         "pb_4": {
           "type": "benefit",
           "settings": {
-            "image": "shopify://shop_images/d4.png",
-            "title": "Huile de coco",
-            "description": "Hydratation et protection",
-            "answer": "L'huile de coco nourrit et protège la barrière cutanée pendant que les actifs antifongiques agissent. Elle empêche le dessèchement et adoucit la peau fragilisée."
+            "image": "shopify://shop_images/coolbro_ing_botanical.png",
+            "title": "Fermented Probiotics",
+            "description": "Microbiome support",
+            "answer": "Help maintain your skin’s natural balance instead of wiping it out — keeping sensitive skin calm and resilient with daily use."
           }
         }
       },
@@ -673,11 +664,11 @@
         "pb_4"
       ],
       "settings": {
-        "heading": "Pourquoi ces <strong>ingrédients</strong> fonctionnent",
-        "subheading": "La formule met en avant des ingrédients connus pour leurs propriétés purifiantes et apaisantes : huile d'arbre à thé, huile de coco, aloe vera, eucalyptus et hamamélis.",
-        "highlight_color": "#1a3018",
+        "heading": "Why these <strong>ingredients</strong> work",
+        "subheading": "Skin friendly actives chosen for one job each: cool, deodorise, soothe, hydrate.",
+        "highlight_color": "#137DC5",
         "bg_color": "",
-        "cta_text": "",
+        "cta_text": "Try it risk free",
         "cta_link": "",
         "cta_note": "",
         "cta_note_icon_name": "",
@@ -692,41 +683,41 @@
         "reason_1": {
           "type": "reason_card",
           "settings": {
-            "label": "Raison 1",
-            "heading": "6 actifs naturels, une formule complète",
-            "details": "<p>Huile de tea tree, huile de coco, aloe vera, huile d'olive, eucalyptus et hamamélis — des ingrédients qui assainissent en profondeur tout en apaisant la peau irritée.</p>"
+            "label": "Built for the zone",
+            "heading": "Made for groin skin, not a one size body wash",
+            "details": "<p>Built for groin and inner thigh skin — not a one size body wash that treats every part of you the same.</p>"
           }
         },
         "reason_2": {
           "type": "reason_card",
           "settings": {
-            "label": "Raison 2",
-            "heading": "Résultats dès les premières semaines",
-            "details": "<p>97% des utilisateurs constatent une diminution de l'inconfort au cours des premières semaines. Un soulagement rapide et durable.</p>"
+            "label": "Fresh that lasts",
+            "heading": "All day odor control, not a two hour head start",
+            "details": "<p>Real all day odor control instead of a two hour head start. Fresh that holds through the gym and the commute.</p>"
           }
         },
         "reason_3": {
           "type": "reason_card",
           "settings": {
-            "label": "Raison 3",
-            "heading": "Simple et pratique",
-            "details": "<p>Un seul savon, sous la douche, une fois par jour. Pas de crèmes, pas de sprays, pas de routine compliquée.</p>"
+            "label": "pH 5.5",
+            "heading": "Cleans without stripping your skin’s barrier",
+            "details": "<p>pH matched to 5.5 so it cleans without stripping the barrier that keeps skin calm and comfortable.</p>"
           }
         },
         "reason_4": {
           "type": "reason_card",
           "settings": {
-            "label": "Raison 4",
-            "heading": "Sans risque — Garantie 30 jours",
-            "details": "<p>Pas d'amélioration ? On vous rembourse intégralement. Sans formulaire, sans complication.</p>"
+            "label": "Calm, not raw",
+            "heading": "Soothes itch, heat and chafe instead of causing it",
+            "details": "<p>Soothing actives calm itch, heat and chafe — instead of drying you out and making it worse.</p>"
           }
         },
         "reason_5": {
           "type": "reason_card",
           "settings": {
-            "label": "Raison 5",
-            "heading": "20 000+ clients satisfaits",
-            "details": "<p>Des milliers de personnes ont retrouvé des pieds sains et la confiance de marcher pieds nus à nouveau.</p>"
+            "label": "One simple step",
+            "heading": "Replaces the three in one you’ve used since uni",
+            "details": "<p>One simple step in the shower. No creams, no sprays, no routine — it replaces the three in one you’ve used since uni.</p>"
           }
         }
       },
@@ -739,14 +730,14 @@
       ],
       "disabled": true,
       "settings": {
-        "badge_text": "5 raisons",
-        "subheading": "Pourquoi Verra Rituel® est différent de tout ce que vous avez essayé",
-        "bg_color": "#f5fdf4",
+        "badge_text": "Why men switch to CoolBro",
+        "subheading": "Everything regular body wash gets wrong below the belt — fixed.",
+        "bg_color": "#EAF6FB",
         "text_color": "#000000",
-        "badge_bg_color": "#1a3018",
-        "badge_text_color": "#dff47e",
-        "label_bg_color": "#1a3018",
-        "label_text_color": "#dff47e",
+        "badge_bg_color": "#137DC5",
+        "badge_text_color": "#6FD6E8",
+        "label_bg_color": "#137DC5",
+        "label_text_color": "#6FD6E8",
         "card_bg_color": "#ffffff",
         "card_border_color": "#0000004d",
         "card_text_color": "#000000",
@@ -759,13 +750,13 @@
         "card_radius": 12,
         "card_gap": 13,
         "max_width": 1500,
-        "cta_text": "Essayer sans risque",
+        "cta_text": "Make the switch",
         "cta_url": "",
-        "cta_bg_color": "#dff47e",
-        "cta_text_color": "#1a3018",
+        "cta_bg_color": "#6FD6E8",
+        "cta_text_color": "#137DC5",
         "cta_font_size": 19,
         "cta_margin_top": 40,
-        "guarantee_text": "Garantie 30 jours satisfait ou remboursé",
+        "guarantee_text": "30 day money back guarantee",
         "padding_top": 40,
         "padding_bottom": 40
       }
@@ -776,36 +767,36 @@
         "bc_1": {
           "type": "feature",
           "settings": {
-            "brand_text": "Sans odeur en quelques jours",
-            "competitor_text": "Masque l'odeur, ne l'élimine pas"
+            "brand_text": "Fresh that lasts all day",
+            "competitor_text": "Fades in about two hours"
           }
         },
         "bc_2": {
           "type": "feature",
           "settings": {
-            "brand_text": "Peau saine et nette",
-            "competitor_text": "Peau sèche et irritée"
+            "brand_text": "pH matched to intimate skin",
+            "competitor_text": "pH 9 to 11, strips your barrier"
           }
         },
         "bc_3": {
           "type": "feature",
           "settings": {
-            "brand_text": "Fini les démangeaisons",
-            "competitor_text": "Soulagement temporaire"
+            "brand_text": "Neutralises odor at the source",
+            "competitor_text": "Masks it with fragrance"
           }
         },
         "bc_4": {
           "type": "feature",
           "settings": {
-            "brand_text": "1 savon, 0 prise de tête",
-            "competitor_text": "Crèmes + sprays + poudres"
+            "brand_text": "Calms itch, heat and chafe",
+            "competitor_text": "Often makes irritation worse"
           }
         },
         "bc_5": {
           "type": "feature",
           "settings": {
-            "brand_text": "Résultats qui durent",
-            "competitor_text": "Le problème revient"
+            "brand_text": "Made for below the belt",
+            "competitor_text": "A general three in one"
           }
         }
       },
@@ -817,33 +808,33 @@
         "bc_5"
       ],
       "settings": {
-        "heading": "<strong>Verra Rituel®</strong> vs. les autres produits",
+        "heading": "<strong>CoolBro</strong> vs. regular body wash",
         "heading_size": 36,
-        "bg_gradient_start": "#1a3018",
-        "bg_gradient_end": "#839e07",
+        "bg_gradient_start": "#137DC5",
+        "bg_gradient_end": "#6FD6E8",
         "text_color": "#ffffff",
-        "highlight_color": "#dff47e",
-        "brand_name": "<strong>Verra Rituel</strong>",
+        "highlight_color": "#6FD6E8",
+        "brand_name": "<strong>CoolBro</strong>",
         "brand_name_color": "#ffffff",
-        "brand_image": "shopify://shop_images/p.png",
-        "brand_col_color": "#3a7830",
+        "brand_image": "shopify://shop_images/coolbro_bottle.png",
+        "brand_col_color": "#137DC5",
         "brand_icon_color": "#ffffff",
-        "competitor_label": "<strong>Autres produits</strong>",
+        "competitor_label": "<strong>Regular body wash</strong>",
         "comp_col_color": "#ffffff",
         "comp_text_color": "#000000",
         "comp_icon_color": "#999999",
         "icons_filled": true,
-        "checklist_1": "<strong>Retrouvez des pieds sains</strong> — Plus de gêne, plus de confiance",
-        "checklist_2": "<strong>Résultats dès les premiers jours</strong> — Moins d'odeur, moins de démangeaisons",
-        "checklist_3": "<strong>Un seul geste sous la douche</strong> — Simple et efficace",
-        "checklist_4": "<strong>100% naturel</strong> — Doux pour la peau, redoutable contre les mycoses",
-        "cta_text": "Essayer sans risque",
+        "checklist_1": "<strong>Fresh that lasts</strong> — past lunch, past the gym, past the commute",
+        "checklist_2": "<strong>Calms the itch & chafe</strong> — instead of drying you out",
+        "checklist_3": "<strong>One step in the shower</strong> — simple, daily, done",
+        "checklist_4": "<strong>Skin matched & clean</strong> — pH 5.5, no harsh chemicals",
+        "cta_text": "Try it risk free",
         "cta_link": "",
         "cta_height": 54,
-        "cta_bg_color": "#dff47e",
-        "cta_text_color": "#004c3c",
+        "cta_bg_color": "#6FD6E8",
+        "cta_text_color": "#0B1B2B",
         "cta_font_weight": "700",
-        "note_text": "Garantie 30 jours satisfait ou remboursé",
+        "note_text": "30 day money back guarantee",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -851,22 +842,22 @@
     "risk_free_trial": {
       "type": "risk-free-trial",
       "settings": {
-        "badge_image": "shopify://shop_images/d10.png",
-        "badge_number": "30",
-        "badge_label": "JOURS",
-        "subtitle": "GARANTIE 30 JOURS",
-        "heading": "Aimez votre savon",
+        "badge_image": "shopify://shop_images/coolbro_guarantee_badge.png",
+        "badge_number": 30,
+        "badge_label": "DAYS",
+        "subtitle": "30 DAY GUARANTEE",
+        "heading": "Try it. Worst case, it’s free.",
         "heading_size": 23,
-        "description": "Si vous ne constatez pas d'amélioration ou si le produit ne vous convient pas, vous disposez de 30 jours pour changer d'avis.",
-        "image": "shopify://shop_images/d9_c4a01fd5-cfcb-40e5-ac28-8caea78d80fd.png",
-        "bg_color": "#e8f5e0",
-        "accent_color": "#095946",
+        "description": "Use CoolBro daily for 30 days. If your skin doesn’t feel fresher, calmer and more comfortable, email us for a full refund — and keep the bottle. All the risk is on us.",
+        "image": "shopify://shop_images/coolbro_guarantee_lifestyle.png",
+        "bg_color": "#E1F1FA",
+        "accent_color": "#0E5E94",
         "text_color": "",
-        "cta_text": "Essayer sans risque",
+        "cta_text": "Try it risk free",
         "cta_link": "",
         "cta_height": 50,
-        "cta_bg_color": "#dff47e",
-        "cta_text_color": "#1a3018",
+        "cta_bg_color": "#6FD6E8",
+        "cta_text_color": "#137DC5",
         "padding_top": 36
       }
     },
@@ -883,72 +874,72 @@
         "faq_1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "En combien de temps puis-je espérer voir une amélioration visible ?",
+            "heading": "Will my girlfriend notice?",
             "icon": "none",
-            "row_content": "<p>Beaucoup de personnes constatent une diminution des démangeaisons et des odeurs dès <strong>1 à 2 semaines</strong>. Pour une peau visiblement plus saine et confortable, une utilisation régulière sur <strong>4 à 6 semaines</strong> est généralement recommandée.</p>",
+            "row_content": "<p>In the best way. Most men tell us the first thing a partner notices is that they smell <strong>clean and fresh</strong> — not heavily fragranced. It reads as natural, just better.</p>",
             "page": ""
           }
         },
         "faq_2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "En quoi est-il différent des crèmes et sprays que j'ai déjà essayés ?",
+            "heading": "What does the cooling feel like?",
             "icon": "none",
-            "row_content": "<p>La plupart des solutions agissent surtout en surface. Le savon Verra Rituel® nettoie la peau en profondeur à chaque lavage, sans laisser de résidus, ce qui permet de <strong>limiter durablement les déséquilibres</strong> responsables de l'inconfort, plutôt que de simplement masquer les symptômes.</p>",
+            "row_content": "<p><strong>Fresh, not freezing.</strong> A light menthol cool that signals “clean” and settles into all day comfort. Refreshing in summer, never harsh.</p>",
             "page": ""
           }
         },
         "faq_3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Est-ce que ce savon peut fonctionner là où les traitements antifongiques prescrits ont échoué ?",
+            "heading": "Is it safe for sensitive skin?",
             "icon": "none",
-            "row_content": "<p>Oui. De nombreuses personnes se tournent vers l'huile d'arbre à thé pour ses propriétés naturellement purifiantes, notamment après des traitements synthétiques peu efficaces ou mal tolérés. Notre savon aide à <strong>assainir la peau en profondeur</strong>, dans le cadre d'une routine régulière et douce.</p>",
+            "row_content": "<p>It’s built for it. pH matched to <strong>5.5</strong>, free from sulphates, parabens and silicones, and loaded with soothing actives like aloe and ceramides. Gentle enough for daily use.</p>",
             "page": ""
           }
         },
         "faq_4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Puis-je l'utiliser tous les jours sans irriter ma peau ?",
+            "heading": "Why not just use my regular body wash?",
             "icon": "none",
-            "row_content": "<p>Oui. Sa formule naturelle a été pensée pour un <strong>usage quotidien</strong>. Elle nettoie efficacement tout en respectant l'équilibre de la peau, même sensible, sans effet agressif ou asséchant.</p>",
+            "row_content": "<p>Regular soap runs at pH 9 to 11 and is built to scrub, not to care for intimate skin at pH 5.5. Over time it strips the barrier — which is what brings back dryness, itch and odor. <strong>CoolBro cleans without the collateral damage.</strong></p>",
             "page": ""
           }
         },
         "faq_5": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Est-ce que cela aide à éviter que le problème revienne ?",
+            "heading": "Does it actually help with odor?",
             "icon": "none",
-            "row_content": "<p>Oui. Une utilisation régulière et continue permet de maintenir une peau propre et équilibrée. Comme pour toute routine de soin, la <strong>constance est essentielle</strong> pour éviter les récidives liées à l'humidité et aux déséquilibres cutanés.</p>",
+            "row_content": "<p>Yes — at the source. <strong>Zinc ricinoleate</strong> neutralises odor molecules instead of masking them, so freshness lasts well beyond the shower.</p>",
             "page": ""
           }
         },
         "faq_6": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Convient-il aux peaux très sensibles ou abîmées ?",
+            "heading": "What makes CoolBro different?",
             "icon": "none",
-            "row_content": "<p>Oui. La formule a été conçue pour nettoyer tout en apaisant. Les ingrédients naturels contribuent à <strong>calmer la peau fragilisée</strong>, tout en aidant à assainir les zones concernées.</p>",
+            "row_content": "<p>It’s made specifically for below the belt: skin matched pH, real odor control, a soothing complex and a cooling finish — in one daily step. Not a cheeky three in one with a new label.</p>",
             "page": ""
           }
         },
         "faq_7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Est-ce qu'il peut aussi aider en cas de problèmes au niveau des ongles ?",
+            "heading": "Can I use it every day?",
             "icon": "none",
-            "row_content": "<p>Bien qu'il soit principalement destiné à la peau, certains utilisateurs constatent une amélioration globale lorsqu'il est utilisé régulièrement. Il contribue à maintenir une <strong>bonne hygiène</strong> et à limiter la propagation des déséquilibres autour des ongles.</p>",
+            "row_content": "<p>That’s the idea. The gentle, skin matched formula is <strong>designed for daily use</strong> — the more consistent you are, the better skin stays balanced and fresh.</p>",
             "page": ""
           }
         },
         "faq_8": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Quels sont les principaux bénéfices pour les problèmes de pieds récurrents ?",
+            "heading": "How fast will I notice a difference?",
             "icon": "none",
-            "row_content": "<p>Le savon Verra Rituel aide à <strong>nettoyer en profondeur</strong>, réduire les odeurs, calmer les irritations et maintenir une peau saine sur le long terme. Il est conçu pour accompagner les personnes sujettes aux déséquilibres cutanés des pieds dans leur routine quotidienne.</p>",
+            "row_content": "<p>The cool, clean feeling is <strong>immediate</strong>. All day odor control and calmer skin build over the first <strong>1 to 2 weeks</strong> as it replaces the harsh soap working against you.</p>",
             "page": ""
           }
         }
@@ -965,7 +956,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Questions fréquentes",
+        "heading": "Frequently asked questions",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
@@ -987,7 +978,7 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "heading": "Vous pourriez aussi aimer",
+        "heading": "You might also like",
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
