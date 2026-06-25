@@ -7,7 +7,7 @@
           "type": "star_rating",
           "settings": {
             "rating": 4.8,
-            "text": "<strong>Excellent</strong> — 4.8/5 from early reviews",
+            "text": "<strong>Excellent</strong> 4.8 out of 5",
             "star_color": "#FFC400",
             "star_bg_color": "#ececec",
             "star_size": 1.3,
@@ -29,7 +29,7 @@
         "text_Urya33": {
           "type": "text",
           "settings": {
-            "text": "Add <strong>CoolBro</strong> to your shower and walk out genuinely fresh below the belt — pH matched, menthol cool, and still working long after the gym, the commute and the date are behind you.",
+            "text": "We built CoolBro because hoping for the best is not a hygiene plan. Our pH matched formula helps fight odor at the source, lifts away sweat and buildup, and leaves you feeling fresh, comfortable and confident after every single shower.",
             "text_style": "body"
           }
         },
@@ -48,10 +48,10 @@
             "text_color": "#121212",
             "icon_color": "#137DC5",
             "layout": "one_per_line",
-            "benefit_1": "Knocks out odor at the source — so you stay fresh long past the towel, not just for an hour",
-            "benefit_2": "Calms the itch, heat and chafe of a day spent trapped under clothes",
-            "benefit_3": "pH matched to intimate skin (5.5) — so washing stops causing the dryness it’s meant to fix",
-            "benefit_4": "Cool, clean, confident — the kind of fresh she notices and you stop thinking about",
+            "benefit_1": "Neutralises odor at the source instead of just masking it",
+            "benefit_2": "pH matched to intimate skin, so it cleans without stripping",
+            "benefit_3": "Cooling, all day freshness that actually lasts",
+            "benefit_4": "Deep cleans sweat and buildup while helping reduce dryness and irritation",
             "benefit_5": "",
             "benefit_6": ""
           }
@@ -134,7 +134,7 @@
             "font_size_2_items": 1.4,
             "bg_color": "",
             "text_color": "#121212",
-            "text_1": "Free shipping over €35",
+            "text_1": "Free gift with every order",
             "icon_name_1": "local_shipping",
             "text_2": "Secure checkout",
             "icon_name_2": "verified_user"
@@ -143,59 +143,59 @@
         "custom_liquid_ELCB4G": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"fb-comment-block\" id=\"block-facebook_comment_F4EbHy\" style=\"margin-top: 0px; margin-bottom: 0px;\">\n  <div class=\"fb-comment-container\" style=\"\n      border-radius: 0px;\n      width: 100%;\n      max-width: none;\n      margin: 0;\n      padding: 16px;\n      overflow: hidden;\n      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\n      line-height: 1.34;\n    \">\n    <div class=\"fb-comment-inner\" style=\"\n        display: flex;\n        gap: 8px;\n        align-items: flex-start;\n      \">\n      \n        <div class=\"fb-comment-profile\" style=\"\n            width: 32px;\n            height: 32px;\n            border-radius: 50%;\n            position: relative;\n            overflow: hidden;\n            flex-shrink: 0;\n          \">\n          <img src=\"shopify://shop_images/coolbro_review_avatar.png\" alt=\"Profile picture\" style=\"width: 100%; height: 100%; object-fit: cover; object-position: center; display: block;\" width=\"\" height=\"\">\n        </div>\n      \n\n      <div class=\"fb-comment-content\" style=\"flex: 1;\">\n        <div class=\"fb-comment-bubble\" style=\"\n            background: #f0f2f5;\n            border-radius: 18px;\n            padding: 8px 12px;\n            margin-bottom: 4px;\n            position: relative;\n          \">\n          <div class=\"fb-comment-author\" style=\"\n              font-weight: var(--font-weight-bold) !important;\n              font-size: 13px;\n              letter-spacing: var(--letter-spacing-body);\n              color: #050505;\n              margin-bottom: 2px;\n              \n            \"><strong>\n            Marcus Bell</strong>\n          </div>\n\n          <div class=\"fb-comment-text\" style=\"\n              color: #050505;\n              letters-spacing: var(--letter-spacing-body);\n              font-size: 15px;\n              line-height: 1.3;\n              \n            \">\n            Honestly didn’t expect much from a “wash for down there”… three weeks in and the difference is stupid. No more end-of-day funk, no itch after the gym, and my girlfriend literally asked what I’d changed in the shower. Just this. Wish I’d found it years ago.\n          </div>\n\n          <div class=\"fb-comment-reactions\" style=\"\n              position: absolute;\n              bottom: -10px;\n              right: 12px;\n              display: flex;\n              align-items: center;\n              gap: 4px;\n              background: #ffffff;\n              border-radius: 12px;\n              padding: 2px 6px;\n              box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);\n              border: 1px solid #e4e6ea;\n            \">\n            <div class=\"fb-comment-reaction-icons\" style=\"display: flex; margin-right: 0px;\">\n              <!-- Like Icon -->\n              <div class=\"fb-comment-reaction-icon\" style=\"\n                  width: 16px;\n                  height: 16px;\n                  border-radius: 50%;\n                  margin-left: -2px;\n                  border: 1px solid white;\n                  overflow: hidden;\n                  flex-shrink: 0;\n                  display: flex;\n                  align-items: center;\n                  justify-content: center;\n                \">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\" style=\"display: block;\">\n                  <path fill=\"url(#fb-like-gradient-facebook_comment_F4EbHy)\" d=\"M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z\"></path>\n                  <path fill=\"#fff\" d=\"M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725.1.163.132.36.089.546-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666ZM3.6 7h.8a.6.6 0 0 1 .6.6v3.8a.6.6 0 0 1-.6.6h-.8a.6.6 0 0 1-.6-.6V7.6a.6.6 0 0 1 .6-.6Z\"></path>\n                  <defs>\n                    <linearGradient id=\"fb-like-gradient-facebook_comment_F4EbHy\" x1=\"8\" x2=\"8\" y2=\"16\" gradientUnits=\"userSpaceOnUse\">\n                      <stop stop-color=\"#18AFFF\"></stop>\n                      <stop offset=\"1\" stop-color=\"#0062DF\"></stop>\n                    </linearGradient>\n                  </defs>\n                </svg>\n              </div>\n\n              <!-- Love Icon -->\n              <div class=\"fb-comment-reaction-icon\" style=\"\n                  width: 16px;\n                  height: 16px;\n                  border-radius: 50%;\n                  margin-left: -2px;\n                  border: 1px solid white;\n                  overflow: hidden;\n                  flex-shrink: 0;\n                  display: flex;\n                  align-items: center;\n                  justify-content: center;\n                \">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\" style=\"display: block;\">\n                  <path fill=\"url(#fb-love-gradient-facebook_comment_F4EbHy)\" d=\"M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z\"></path>\n                  <path fill=\"#fff\" d=\"M10.473 4C8.275 4 8 5.824 8 5.824S7.726 4 5.528 4c-2.114 0-2.73 2.222-2.472 3.41C3.736 10.55 8 12.75 8 12.75s4.265-2.2 4.945-5.34c.257-1.188-.36-3.41-2.472-3.41Z\"></path>\n                  <defs>\n                    <linearGradient id=\"fb-love-gradient-facebook_comment_F4EbHy\" x1=\"8\" x2=\"8\" y2=\"16\" gradientUnits=\"userSpaceOnUse\">\n                      <stop stop-color=\"#FF6680\"></stop>\n                      <stop offset=\"1\" stop-color=\"#E61739\"></stop>\n                    </linearGradient>\n                  </defs>\n                </svg>\n              </div>\n\n              <!-- Care Icon -->\n              <div class=\"fb-comment-reaction-icon\" style=\"\n                  width: 16px;\n                  height: 16px;\n                  border-radius: 50%;\n                  margin-left: -2px;\n                  border: 1px solid white;\n                  overflow: hidden;\n                  flex-shrink: 0;\n                  display: flex;\n                  align-items: center;\n                  justify-content: center;\n                \">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" style=\"display: block;\">\n                  <defs>\n                    <linearGradient id=\"fb-care-bg-facebook_comment_F4EbHy\" x1=\"-2.313\" x2=\"-2.313\" y1=\"19.862\" y2=\"20.738\" gradientTransform=\"matrix(16 0 0 -16 45 333)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#f28a2d\"></stop>\n                      <stop offset=\"1\" stop-color=\"#fde86f\"></stop>\n                    </linearGradient>\n                    <linearGradient id=\"fb-care-mouth-facebook_comment_F4EbHy\" x1=\"-1.619\" x2=\"-1.619\" y1=\"18.2\" y2=\"16.681\" gradientTransform=\"matrix(3.4035 0 0 -.9374 13.51 22.37)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#482314\"></stop>\n                      <stop offset=\"1\" stop-color=\"#9a4111\"></stop>\n                    </linearGradient>\n                    <radialGradient id=\"fb-care-eye1-facebook_comment_F4EbHy\" cx=\"-3.9\" cy=\"18.924\" r=\".872\" gradientTransform=\"matrix(0 -2.1326 -2.1327 0 45.352 -4.046)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#3b446b\"></stop>\n                      <stop offset=\".688\" stop-color=\"#202340\"></stop>\n                    </radialGradient>\n                    <radialGradient id=\"fb-care-eye2-facebook_comment_F4EbHy\" cx=\"-3.914\" cy=\"18.924\" r=\".872\" gradientTransform=\"matrix(0 -2.1326 -2.1327 0 51.366 -4.077)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#3b446b\"></stop>\n                      <stop offset=\".688\" stop-color=\"#202340\"></stop>\n                    </radialGradient>\n                    <linearGradient id=\"fb-care-heart-facebook_comment_F4EbHy\" x1=\"-2.17\" x2=\"-2.407\" y1=\"20.358\" y2=\"19.647\" gradientTransform=\"matrix(9.7496 0 0 -9.079 27.91 194.578)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#f34462\"></stop>\n                      <stop offset=\"1\" stop-color=\"#cc0820\"></stop>\n                    </linearGradient>\n                  </defs>\n                  <path fill=\"url(#fb-care-bg-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M16 8c0 4.4-3.6 8-8 8s-8-3.6-8-8 3.6-8 8-8 8 3.6 8 8z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-mouth-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M9.7 5.9c-.1-.3-3.3-.3-3.4 0-.1.3.6.7 1.7.7s1.8-.4 1.7-.7z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-eye1-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M6 4.1c0 .7-.4.9-1 1-.6.1-1.1-.2-1.1-1 0-.6.3-1.4 1.1-1.4.7 0 1 .8 1 1.4z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-eye2-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M10 4.1c0 .7.4.9 1.1 1 .6.1 1.1-.2 1.1-1 0-.6-.3-1.4-1.1-1.4S10 3.5 10 4.1z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-heart-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M9.7 8.5c-2.1-.6-2.8.8-2.8.8S7.1 7.7 5 7c-2-.6-3.2 1.3-3.3 2.4-.2 2.5 2 5.3 2.8 6.3.1.3.4.3.7.3 1.2-.3 4.6-1.4 5.9-3.6.5-1.1.6-3.3-1.4-3.9z\" clip-rule=\"evenodd\"></path>\n                </svg>\n              </div>\n            </div>\n            <span class=\"fb-comment-reaction-count\" style=\"\n                color: #65676b;\n                font-size: 13px;\n                font-weight: 400;\n                \n              \">14</span>\n          </div>\n        </div>\n\n        <div class=\"fb-comment-meta\" style=\"\n            display: flex;\n            letter-spacing: var(--letter-spacing-body) !important;\n            align-items: center;\n            gap: 12px;\n            margin-left: 12px;\n            margin-bottom: 12px;\n            font-size: 13px;\n            color: #65676b;\n            \n          \">\n          <span class=\"fb-comment-meta-item\" style=\"\n              cursor: pointer;\n              font-weight: 600;\n              \n            \">J'aime</span>\n          <span class=\"fb-comment-meta-item\" style=\"\n              cursor: pointer;\n              font-weight: 600;\n              \n            \">Commenter</span>\n          <span class=\"fb-comment-timestamp\" style=\"\n                          \n            \">2j</span>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<style>\n  .fb-comment-meta-item:hover {\n    text-decoration: underline;\n  }\n\n  @media (max-width: 520px) {\n    .fb-comment-container {\n      margin: 0;\n      border-radius: 0;\n      box-shadow: none;\n      width: 100%;\n      max-width: none;\n    }\n    .fb-comment-meta {\n      gap: 8px;\n    }\n    .fb-comment-meta-item {\n      font-size: 12px;\n    }\n  }\n</style>"
+            "custom_liquid": "<div class=\"fb-comment-block\" id=\"block-facebook_comment_F4EbHy\" style=\"margin-top: 0px; margin-bottom: 0px;\">\n  <div class=\"fb-comment-container\" style=\"\n      border-radius: 0px;\n      width: 100%;\n      max-width: none;\n      margin: 0;\n      padding: 16px;\n      overflow: hidden;\n      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\n      line-height: 1.34;\n    \">\n    <div class=\"fb-comment-inner\" style=\"\n        display: flex;\n        gap: 8px;\n        align-items: flex-start;\n      \">\n      \n        <div class=\"fb-comment-profile\" style=\"\n            width: 32px;\n            height: 32px;\n            border-radius: 50%;\n            position: relative;\n            overflow: hidden;\n            flex-shrink: 0;\n          \">\n          <img src=\"shopify://shop_images/coolbro_review_avatar.png\" alt=\"Profile picture\" style=\"width: 100%; height: 100%; object-fit: cover; object-position: center; display: block;\" width=\"\" height=\"\">\n        </div>\n      \n\n      <div class=\"fb-comment-content\" style=\"flex: 1;\">\n        <div class=\"fb-comment-bubble\" style=\"\n            background: #f0f2f5;\n            border-radius: 18px;\n            padding: 8px 12px;\n            margin-bottom: 4px;\n            position: relative;\n          \">\n          <div class=\"fb-comment-author\" style=\"\n              font-weight: var(--font-weight-bold) !important;\n              font-size: 13px;\n              letter-spacing: var(--letter-spacing-body);\n              color: #050505;\n              margin-bottom: 2px;\n              \n            \"><strong>\n            Marcus Bell</strong>\n          </div>\n\n          <div class=\"fb-comment-text\" style=\"\n              color: #050505;\n              letters-spacing: var(--letter-spacing-body);\n              font-size: 15px;\n              line-height: 1.3;\n              \n            \">\n            No more odor, no more dryness, and that cool clean feeling lasts the whole day. My girlfriend even asked what I changed in the shower. Just this. Should have switched years ago.\n          </div>\n\n          <div class=\"fb-comment-reactions\" style=\"\n              position: absolute;\n              bottom: -10px;\n              right: 12px;\n              display: flex;\n              align-items: center;\n              gap: 4px;\n              background: #ffffff;\n              border-radius: 12px;\n              padding: 2px 6px;\n              box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);\n              border: 1px solid #e4e6ea;\n            \">\n            <div class=\"fb-comment-reaction-icons\" style=\"display: flex; margin-right: 0px;\">\n              <!-- Like Icon -->\n              <div class=\"fb-comment-reaction-icon\" style=\"\n                  width: 16px;\n                  height: 16px;\n                  border-radius: 50%;\n                  margin-left: -2px;\n                  border: 1px solid white;\n                  overflow: hidden;\n                  flex-shrink: 0;\n                  display: flex;\n                  align-items: center;\n                  justify-content: center;\n                \">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\" style=\"display: block;\">\n                  <path fill=\"url(#fb-like-gradient-facebook_comment_F4EbHy)\" d=\"M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z\"></path>\n                  <path fill=\"#fff\" d=\"M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725.1.163.132.36.089.546-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666ZM3.6 7h.8a.6.6 0 0 1 .6.6v3.8a.6.6 0 0 1-.6.6h-.8a.6.6 0 0 1-.6-.6V7.6a.6.6 0 0 1 .6-.6Z\"></path>\n                  <defs>\n                    <linearGradient id=\"fb-like-gradient-facebook_comment_F4EbHy\" x1=\"8\" x2=\"8\" y2=\"16\" gradientUnits=\"userSpaceOnUse\">\n                      <stop stop-color=\"#18AFFF\"></stop>\n                      <stop offset=\"1\" stop-color=\"#0062DF\"></stop>\n                    </linearGradient>\n                  </defs>\n                </svg>\n              </div>\n\n              <!-- Love Icon -->\n              <div class=\"fb-comment-reaction-icon\" style=\"\n                  width: 16px;\n                  height: 16px;\n                  border-radius: 50%;\n                  margin-left: -2px;\n                  border: 1px solid white;\n                  overflow: hidden;\n                  flex-shrink: 0;\n                  display: flex;\n                  align-items: center;\n                  justify-content: center;\n                \">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\" style=\"display: block;\">\n                  <path fill=\"url(#fb-love-gradient-facebook_comment_F4EbHy)\" d=\"M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z\"></path>\n                  <path fill=\"#fff\" d=\"M10.473 4C8.275 4 8 5.824 8 5.824S7.726 4 5.528 4c-2.114 0-2.73 2.222-2.472 3.41C3.736 10.55 8 12.75 8 12.75s4.265-2.2 4.945-5.34c.257-1.188-.36-3.41-2.472-3.41Z\"></path>\n                  <defs>\n                    <linearGradient id=\"fb-love-gradient-facebook_comment_F4EbHy\" x1=\"8\" x2=\"8\" y2=\"16\" gradientUnits=\"userSpaceOnUse\">\n                      <stop stop-color=\"#FF6680\"></stop>\n                      <stop offset=\"1\" stop-color=\"#E61739\"></stop>\n                    </linearGradient>\n                  </defs>\n                </svg>\n              </div>\n\n              <!-- Care Icon -->\n              <div class=\"fb-comment-reaction-icon\" style=\"\n                  width: 16px;\n                  height: 16px;\n                  border-radius: 50%;\n                  margin-left: -2px;\n                  border: 1px solid white;\n                  overflow: hidden;\n                  flex-shrink: 0;\n                  display: flex;\n                  align-items: center;\n                  justify-content: center;\n                \">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" style=\"display: block;\">\n                  <defs>\n                    <linearGradient id=\"fb-care-bg-facebook_comment_F4EbHy\" x1=\"-2.313\" x2=\"-2.313\" y1=\"19.862\" y2=\"20.738\" gradientTransform=\"matrix(16 0 0 -16 45 333)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#f28a2d\"></stop>\n                      <stop offset=\"1\" stop-color=\"#fde86f\"></stop>\n                    </linearGradient>\n                    <linearGradient id=\"fb-care-mouth-facebook_comment_F4EbHy\" x1=\"-1.619\" x2=\"-1.619\" y1=\"18.2\" y2=\"16.681\" gradientTransform=\"matrix(3.4035 0 0 -.9374 13.51 22.37)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#482314\"></stop>\n                      <stop offset=\"1\" stop-color=\"#9a4111\"></stop>\n                    </linearGradient>\n                    <radialGradient id=\"fb-care-eye1-facebook_comment_F4EbHy\" cx=\"-3.9\" cy=\"18.924\" r=\".872\" gradientTransform=\"matrix(0 -2.1326 -2.1327 0 45.352 -4.046)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#3b446b\"></stop>\n                      <stop offset=\".688\" stop-color=\"#202340\"></stop>\n                    </radialGradient>\n                    <radialGradient id=\"fb-care-eye2-facebook_comment_F4EbHy\" cx=\"-3.914\" cy=\"18.924\" r=\".872\" gradientTransform=\"matrix(0 -2.1326 -2.1327 0 51.366 -4.077)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#3b446b\"></stop>\n                      <stop offset=\".688\" stop-color=\"#202340\"></stop>\n                    </radialGradient>\n                    <linearGradient id=\"fb-care-heart-facebook_comment_F4EbHy\" x1=\"-2.17\" x2=\"-2.407\" y1=\"20.358\" y2=\"19.647\" gradientTransform=\"matrix(9.7496 0 0 -9.079 27.91 194.578)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#f34462\"></stop>\n                      <stop offset=\"1\" stop-color=\"#cc0820\"></stop>\n                    </linearGradient>\n                  </defs>\n                  <path fill=\"url(#fb-care-bg-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M16 8c0 4.4-3.6 8-8 8s-8-3.6-8-8 3.6-8 8-8 8 3.6 8 8z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-mouth-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M9.7 5.9c-.1-.3-3.3-.3-3.4 0-.1.3.6.7 1.7.7s1.8-.4 1.7-.7z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-eye1-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M6 4.1c0 .7-.4.9-1 1-.6.1-1.1-.2-1.1-1 0-.6.3-1.4 1.1-1.4.7 0 1 .8 1 1.4z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-eye2-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M10 4.1c0 .7.4.9 1.1 1 .6.1 1.1-.2 1.1-1 0-.6-.3-1.4-1.1-1.4S10 3.5 10 4.1z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-heart-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M9.7 8.5c-2.1-.6-2.8.8-2.8.8S7.1 7.7 5 7c-2-.6-3.2 1.3-3.3 2.4-.2 2.5 2 5.3 2.8 6.3.1.3.4.3.7.3 1.2-.3 4.6-1.4 5.9-3.6.5-1.1.6-3.3-1.4-3.9z\" clip-rule=\"evenodd\"></path>\n                </svg>\n              </div>\n            </div>\n            <span class=\"fb-comment-reaction-count\" style=\"\n                color: #65676b;\n                font-size: 13px;\n                font-weight: 400;\n                \n              \">14</span>\n          </div>\n        </div>\n\n        <div class=\"fb-comment-meta\" style=\"\n            display: flex;\n            letter-spacing: var(--letter-spacing-body) !important;\n            align-items: center;\n            gap: 12px;\n            margin-left: 12px;\n            margin-bottom: 12px;\n            font-size: 13px;\n            color: #65676b;\n            \n          \">\n          <span class=\"fb-comment-meta-item\" style=\"\n              cursor: pointer;\n              font-weight: 600;\n              \n            \">J'aime</span>\n          <span class=\"fb-comment-meta-item\" style=\"\n              cursor: pointer;\n              font-weight: 600;\n              \n            \">Commenter</span>\n          <span class=\"fb-comment-timestamp\" style=\"\n                          \n            \">2j</span>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<style>\n  .fb-comment-meta-item:hover {\n    text-decoration: underline;\n  }\n\n  @media (max-width: 520px) {\n    .fb-comment-container {\n      margin: 0;\n      border-radius: 0;\n      box-shadow: none;\n      width: 100%;\n      max-width: none;\n    }\n    .fb-comment-meta {\n      gap: 8px;\n    }\n    .fb-comment-meta-item {\n      font-size: 12px;\n    }\n  }\n</style>"
           }
         },
         "collapsible_tab_desc": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Does it actually work? How fast?",
+            "heading": "What is it?",
             "icon": "none",
-            "content": "<p><strong>Yes — and you’ll feel the difference the first shower.</strong> The cool, clean finish is immediate; the all day odor control and comfort build as <strong>CoolBro</strong> replaces the harsh, high pH soap that was quietly working against you. Most men make it their daily wash within a week.</p>",
+            "content": "<p>CoolBro is a daily intimate wash built specifically for men. It is made for the groin, inner thighs and everywhere that traps heat and sweat, using a gentle pH matched formula that keeps you clean, cool and fresh without the dryness and irritation regular body wash leaves behind.</p>",
             "page": ""
           }
         },
         "collapsible_tab_why": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "How do I use it?",
+            "heading": "Why CoolBro exists",
             "icon": "none",
-            "content": "<p>In the shower, <strong>once a day</strong>:</p><ol><li>Lather a small amount in your hands<br/></li><li>Massage gently over the groin, inner thighs and anywhere that traps heat<br/></li><li>Leave it on <strong>30 to 60 seconds</strong><br/></li><li>Rinse well and <strong>pat dry</strong>, especially the folds<br/></li></ol><p>Use daily — fresh below the belt becomes the default, not the exception.</p>",
+            "content": "<p>Women have had dedicated intimate care for decades. Most men have been using the same harsh three in one body wash since university and wondering why they never feel properly fresh. CoolBro exists to fix that, in one simple step in the shower.</p>",
             "page": ""
           }
         },
         "collapsible_tab_benefits": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "What’s in it? Is it gentle?",
+            "heading": "Key benefits",
             "icon": "none",
-            "content": "<p>Built around skin friendly actives chosen for one job each:</p><ul><li><strong>Menthol</strong> — instant cooling</li><li><strong>Zinc ricinoleate</strong> — neutralises odor (doesn’t mask it)</li><li><strong>Ceramides + glycerin</strong> — lock in moisture</li><li><strong>Fermented probiotics</strong> — protect your skin’s natural balance</li><li>An <strong>aloe + bamboo + moringa</strong> soothing complex</li></ul><p>No sulphates, parabens, silicones or artificial colours.</p>",
+            "content": "<ul><li>Neutralises odor instead of masking it</li><li>pH matched for intimate skin</li><li>Cooling freshness that lasts all day</li><li>Deep cleans sweat and buildup</li><li>Helps reduce dryness and irritation</li></ul>",
             "page": ""
           }
         },
         "collapsible_tab_use": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "What if it’s not for me? Shipping & guarantee",
+            "heading": "How to use",
             "icon": "none",
-            "content": "<p>You buy <strong>risk free</strong>: CoolBro comes with a <strong>30 day money back guarantee</strong> and <strong>tracked shipping</strong> on every order.<br/><br/>If it’s not your thing, email us and we’ll sort it — no awkward questions.</p><p>support@coolbro.co</p>",
+            "content": "<p>In the shower, once a day. Lather a small amount over the groin, inner thighs and anywhere that traps heat, leave it for 30 to 60 seconds, then rinse well and pat dry. Use daily for lasting freshness.</p>",
             "page": ""
           }
         },
         "collapsible_tab_guarantee": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping & guarantee",
+            "heading": "Ingredients",
             "icon": "none",
-            "content": "<p>Every order ships tracked, and you’re covered by a <strong>30 day satisfaction guarantee</strong>. Not happy? You get your money back.</p>",
+            "content": "<p>Powered by menthol for cooling, zinc ricinoleate for real odor control, ceramides and glycerin to lock in moisture, fermented probiotics to protect your skin’s natural balance, and a soothing aloe, bamboo and moringa complex. Free from sulphates, parabens, silicones and artificial colours.</p>",
             "page": ""
           }
         },
         "urgency_notice": {
           "type": "urgency_notice",
           "settings": {
-            "line_1": "<p><strong>Beware of copycats.</strong></p>",
-            "line_2": "<p><strong>coolbro.co</strong> is the only place to get the original CoolBro formula — sold direct, never through third party sellers.</p>",
+            "line_1": "<p><strong>Summer heatwave sale is live.</strong></p>",
+            "line_2": "<p>Bundle pricing and a free gift while stock lasts. Once this drop sells out, it is gone.</p>",
             "font_size": 1.2,
             "bg_color": "#fef2f2",
             "text_color": "#9f3f3f",
@@ -254,33 +254,33 @@
         "stat_1": {
           "type": "stat",
           "settings": {
-            "percentage": "5.5",
-            "heading": "<strong>Skin matched pH</strong>",
-            "caption": "Formulated to your intimate skin’s natural pH — so it cleans without stripping the barrier that keeps you comfortable."
+            "percentage": "97%",
+            "heading": "Less odor and sweat",
+            "caption": "Noticed clearly less odor and sweat buildup through the day."
           }
         },
         "stat_2": {
           "type": "stat",
           "settings": {
-            "percentage": "0",
-            "heading": "<strong>Harsh chemicals</strong>",
-            "caption": "No sulphates, parabens, silicones or artificial colours. Nothing that quietly makes the problem worse."
+            "percentage": "95%",
+            "heading": "Fresher all day",
+            "caption": "Felt fresher for longer, well past the two hours regular soap gives you."
           }
         },
         "stat_3": {
           "type": "stat",
           "settings": {
-            "percentage": "8",
-            "heading": "<strong>Active ingredients</strong>",
-            "caption": "Eight skin friendly actives — cooling, deodorising, soothing and hydrating — in one daily wash."
+            "percentage": "92%",
+            "heading": "Would never go back",
+            "caption": "Said they would not switch back to regular body wash."
           }
         },
         "stat_4": {
           "type": "stat",
           "settings": {
-            "percentage": "30",
-            "heading": "<strong>Day guarantee</strong>",
-            "caption": "Use it for a full month. If your skin doesn’t feel fresher and calmer, you get your money back."
+            "percentage": "5.5",
+            "heading": "Skin matched pH",
+            "caption": "Formulated to intimate skin’s natural pH, so it cleans without stripping."
           }
         }
       },
@@ -298,9 +298,9 @@
         "text_color": "#ffffff",
         "percentage_color": "#6FD6E8",
         "highlight_color": "#6FD6E8",
-        "heading": "<strong>Built right</strong>, not hyped",
+        "heading": "<strong>What men feel</strong> after the switch",
         "heading_size": 31,
-        "subtitle": "When skin matched actives replace harsh soap, the difference shows up exactly where it counts.",
+        "subtitle": "Based on what CoolBro users report after swapping from regular body wash.",
         "cta_function": "link",
         "cta_text": "Try it risk free",
         "cta_url": "#ProductInfo-template--27090456740203__main",
@@ -319,7 +319,7 @@
           "settings": {
             "image": "shopify://shop_images/coolbro_ing_menthol.png",
             "title": "<strong>Menthol</strong>",
-            "text": "The cool hit you feel the second you rinse. Not a gimmick — it’s the signal that tells you you’re clean, and it lingers in the best way.",
+            "text": "Cooling freshness. The clean, cool finish that tells your body the job is done. Not a gimmick, a signal.",
             "card_bg_color": ""
           }
         },
@@ -328,7 +328,7 @@
           "settings": {
             "image": "shopify://shop_images/coolbro_ing_zinc.png",
             "title": "<strong>Zinc Ricinoleate</strong>",
-            "text": "Traps and neutralises odor molecules instead of burying them under fragrance. The smell doesn’t get masked — it’s gone.",
+            "text": "True odor control. It neutralises odor molecules rather than covering them with fragrance. Gone, not masked.",
             "card_bg_color": ""
           }
         },
@@ -336,8 +336,8 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/coolbro_ing_ceramides.png",
-            "title": "<strong>Ceramides & Glycerin</strong>",
-            "text": "Lock moisture back into the skin after washing, so you skip the next day tightness, itch and irritation harsh soap leaves behind.",
+            "title": "<strong>Ceramides</strong>",
+            "text": "Skin barrier. Lock in moisture after washing so the dryness that causes next day itch and irritation does not come back.",
             "card_bg_color": ""
           }
         },
@@ -345,8 +345,8 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/coolbro_ing_botanical.png",
-            "title": "<strong>Aloe, Bamboo & Moringa</strong>",
-            "text": "A plant based soothing complex that calms redness and sensitivity — especially handy if you trim. Purposeful, not filler.",
+            "title": "<strong>Aloe, Bamboo and Moringa</strong>",
+            "text": "Soothing complex. Calms sensitive skin and reduces redness, especially after you trim. Plant based, nothing for show.",
             "card_bg_color": ""
           }
         }
@@ -358,7 +358,7 @@
         "card_4"
       ],
       "settings": {
-        "heading": "Skin friendly actives that <strong>actually do something</strong>",
+        "heading": "<strong>Inside CoolBro</strong>",
         "highlight_color": "#137DC5",
         "card_title_size": 22,
         "card_title_highlight": "#137DC5",
@@ -379,10 +379,10 @@
           "type": "review",
           "settings": {
             "rating": "5.0",
-            "quote": "It just works",
-            "details": "Tried everything for that end of day funk and nothing held up. First wash that keeps me fresh morning to night — even after training.",
+            "quote": "No more end of day funk",
+            "details": "Tried everything for that end of day smell and nothing lasted. First wash that keeps me fresh morning to night.",
             "author_name": "Marcus T.",
-            "tag_1": "Daily gym",
+            "tag_1": "Daily use",
             "tag_2": "All day fresh",
             "card_bg_color": ""
           }
@@ -391,11 +391,11 @@
           "type": "review",
           "settings": {
             "rating": "5.0",
-            "quote": "Didn’t expect this",
-            "details": "Thought a “wash for down there” was a gimmick. Three weeks in and I’m a convert — no itch, no smell, skin feels calm instead of dried out.",
+            "quote": "Gentle and it works",
+            "details": "Sensitive skin here so I was cautious. No itch, no dryness, just clean and calm. Daily driver now.",
             "author_name": "Jordan R.",
             "tag_1": "Sensitive skin",
-            "tag_2": "No more itch",
+            "tag_2": "No irritation",
             "card_bg_color": ""
           }
         },
@@ -404,7 +404,7 @@
           "settings": {
             "rating": "5.0",
             "quote": "She noticed",
-            "details": "My girlfriend asked what I’d changed. Just this. Fresh, clean, confident — I don’t think about it anymore, which is the whole point.",
+            "details": "My girlfriend asked what I changed in the shower. Just this. Fresh, clean, and I do not think about it anymore.",
             "author_name": "Anthony M.",
             "tag_1": "Confidence",
             "tag_2": "Cooling",
@@ -416,9 +416,9 @@
           "settings": {
             "rating": "5.0",
             "quote": "Skeptic, converted",
-            "details": "Was sure it wouldn’t beat my usual body wash. It did. Gentle enough for every day and the cooling is unreal in summer.",
+            "details": "Was sure it could not beat my normal body wash. It did, easily. The cooling in summer is unreal.",
             "author_name": "Devin S.",
-            "tag_1": "Summer proof",
+            "tag_1": "Summer ready",
             "tag_2": "Gentle daily",
             "card_bg_color": ""
           }
@@ -434,8 +434,8 @@
         ".ts-review__quote {font-weight: bold;}"
       ],
       "settings": {
-        "heading": "“The best switch I’ve made in years”",
-        "subheading": "What early customers are saying about CoolBro",
+        "heading": "“The best switch I have made in years”",
+        "subheading": "What men are saying about CoolBro",
         "highlight_color": "#137DC5",
         "star_color": "#137DC5",
         "verified_color": "#137DC5",
@@ -453,21 +453,21 @@
         "ticker_item_hPwWHQ": {
           "type": "ticker_item",
           "settings": {
-            "text": "SKIN MATCHED pH 5.5",
+            "text": "FELT FRESHER ALL DAY",
             "icon_name": "verified"
           }
         },
         "ticker_item_Ft8VNk": {
           "type": "ticker_item",
           "settings": {
-            "text": "COOLING MENTHOL FINISH",
+            "text": "pH BALANCED FOR INTIMATE SKIN",
             "icon_name": "verified"
           }
         },
         "ticker_item_NVjamN": {
           "type": "ticker_item",
           "settings": {
-            "text": "FREE TRACKED SHIPPING",
+            "text": "97% NOTICED LESS ODOR AND SWEAT",
             "icon_name": "verified"
           }
         }
@@ -499,29 +499,29 @@
         "wj_1": {
           "type": "milestone",
           "settings": {
-            "week_label": "Shower 1: instant",
-            "bullets": "<ul><li>Immediate cool, clean finish you can feel</li><li>That “actually fresh” sensation — not perfumed</li><li>Skin feels comfortable, not stripped</li></ul>"
+            "week_label": "Shower 1",
+            "bullets": "<ul><li>Immediate cool, clean finish you can feel</li><li>Fresh, not perfumed</li><li>Skin feels comfortable, not stripped</li></ul>"
           }
         },
         "wj_2": {
           "type": "milestone",
           "settings": {
-            "week_label": "Week 1: the switch",
-            "bullets": "<ul><li>End of day odor noticeably fades</li><li>Less heat, itch and chafe under clothes</li><li>It quietly becomes your daily wash</li></ul>"
+            "week_label": "Week 1",
+            "bullets": "<ul><li>End of day odor noticeably fades</li><li>Less heat, itch and chafe under clothes</li><li>It becomes your daily wash</li></ul>"
           }
         },
         "wj_3": {
           "type": "milestone",
           "settings": {
-            "week_label": "Weeks 2 to 3: it holds",
-            "bullets": "<ul><li>Fresh lasts through the gym and the commute</li><li>Dryness and next day irritation calm down</li><li>You stop thinking about it — it just works</li></ul>"
+            "week_label": "Weeks 2 to 3",
+            "bullets": "<ul><li>Fresh lasts through the gym and the commute</li><li>Dryness and next day irritation calm down</li><li>You stop thinking about it</li></ul>"
           }
         },
         "wj_4": {
           "type": "milestone",
           "settings": {
-            "week_label": "Week 4: the new normal",
-            "bullets": "<ul><li>Consistent all day comfort and confidence</li><li>Skin looks and feels balanced</li><li>Going back to regular soap isn’t an option</li></ul>"
+            "week_label": "Week 4",
+            "bullets": "<ul><li>Consistent all day comfort and confidence</li><li>Skin looks and feels balanced</li><li>Going back to regular soap is not an option</li></ul>"
           }
         }
       },
@@ -533,12 +533,12 @@
       ],
       "settings": {
         "brand_image": "shopify://shop_images/coolbro_lifestyle.png",
-        "heading": "What the first month feels like",
-        "description": "Switching your daily wash is a small change with a fast payoff. Here’s the timeline early testers reported.",
+        "heading": "What the switch feels like",
+        "description": "A small change in the shower with a fast payoff. Here is what men report after making CoolBro their daily wash.",
         "highlight_color": "#137DC5",
         "button_color": "#6FD6E8",
         "bg_color": "",
-        "cta_text": "Start your first week",
+        "cta_text": "Make the switch",
         "cta_link": "",
         "cta_note": "",
         "cta_note_icon_name": "",
@@ -554,27 +554,27 @@
           "type": "reason_card",
           "settings": {
             "image": "shopify://shop_images/coolbro_step1.png",
-            "label": "Step 1",
-            "heading": "Lather",
-            "details": "<p>Work a small amount into a lather in your hands or straight onto wet skin.</p>"
+            "label": "1",
+            "heading": "Regular body wash runs at pH 9 to 11",
+            "details": "<p>Your intimate skin sits around pH 5 to 6. Every time you use regular soap down there you strip the barrier that protects it. That is why the itch and odor keep coming back.</p>"
           }
         },
         "reason_card_iCbCKe": {
           "type": "reason_card",
           "settings": {
             "image": "shopify://shop_images/coolbro_step2.png",
-            "label": "Step 2",
-            "heading": "Massage in",
-            "details": "<p>Massage gently over the groin, inner thighs and anywhere that traps heat, then let it sit 30 to 60 seconds.</p>"
+            "label": "2",
+            "heading": "Heat and friction turn it into a swamp",
+            "details": "<p>Thighs, waistband, groin. Your skin spends the day trapped under clothes in the warmest, most friction heavy part of your body. Regular soap buys you about two hours. After that you are on your own.</p>"
           }
         },
         "reason_card_3J3gPM": {
           "type": "reason_card",
           "settings": {
             "image": "shopify://shop_images/coolbro_step3.png",
-            "label": "Step 3",
-            "heading": "Rinse & dry",
-            "details": "<p>Rinse clean and pat dry — especially the folds. Done. Fresh that lasts all day.</p>"
+            "label": "3",
+            "heading": "The wrong products make it worse",
+            "details": "<p>Harsh surfactants. Fragrance masking. Alkaline pH stripping your natural moisture. You have been cleaning the area with something that was quietly making the problem harder to fix.</p>"
           }
         }
       },
@@ -585,8 +585,8 @@
       ],
       "name": "Reasons why",
       "settings": {
-        "badge_text": "How to use CoolBro ",
-        "subheading": "One step in the shower. That’s the whole routine.",
+        "badge_text": "The real problem ",
+        "subheading": "Nobody told you there was a better way.",
         "bg_color": "#EAF6FB",
         "text_color": "#000000",
         "badge_bg_color": "#137DC5",
@@ -605,7 +605,7 @@
         "card_radius": 7,
         "card_gap": 13,
         "max_width": 1500,
-        "cta_text": "Try it now",
+        "cta_text": "Fix it with CoolBro",
         "cta_url": "#ProductInfo-template--27090456740203__main",
         "cta_bg_color": "#6FD6E8",
         "cta_text_color": "#137DC5",
@@ -625,8 +625,8 @@
           "settings": {
             "image": "shopify://shop_images/coolbro_ing_menthol.png",
             "title": "Menthol",
-            "description": "Instant cooling cue",
-            "answer": "Triggers the cool, clean sensation that tells you the job’s done — and keeps the area feeling fresh long after you towel off."
+            "description": "Cooling freshness",
+            "answer": "Triggers the cool, clean signal that tells you the job is done and keeps you feeling fresh long after you towel off."
           }
         },
         "pb_2": {
@@ -634,8 +634,8 @@
           "settings": {
             "image": "shopify://shop_images/coolbro_ing_zinc.png",
             "title": "Zinc Ricinoleate",
-            "description": "Real odor control",
-            "answer": "Binds and neutralises the molecules behind odor rather than covering them with fragrance — so freshness is real, not perfumed over."
+            "description": "True odor control",
+            "answer": "Binds and neutralises the molecules behind odor instead of covering them with fragrance, so freshness is real and lasts."
           }
         },
         "pb_3": {
@@ -643,8 +643,8 @@
           "settings": {
             "image": "shopify://shop_images/coolbro_ing_ceramides.png",
             "title": "Ceramides",
-            "description": "Barrier & moisture",
-            "answer": "Replenish the skin barrier and lock in moisture after washing, heading off the dryness, tightness and itch harsh soap leaves behind."
+            "description": "Skin barrier",
+            "answer": "Replenish the barrier and lock in moisture after washing, heading off the dryness and itch that harsh soap leaves behind."
           }
         },
         "pb_4": {
@@ -653,7 +653,7 @@
             "image": "shopify://shop_images/coolbro_ing_botanical.png",
             "title": "Fermented Probiotics",
             "description": "Microbiome support",
-            "answer": "Help maintain your skin’s natural balance instead of wiping it out — keeping sensitive skin calm and resilient with daily use."
+            "answer": "Help keep your skin’s natural balance intact instead of wiping everything out, keeping sensitive skin calm with daily use."
           }
         }
       },
@@ -664,8 +664,8 @@
         "pb_4"
       ],
       "settings": {
-        "heading": "Why these <strong>ingredients</strong> work",
-        "subheading": "Skin friendly actives chosen for one job each: cool, deodorise, soothe, hydrate.",
+        "heading": "<strong>Why these ingredients work</strong>",
+        "subheading": "Each active is in here for one job, no filler.",
         "highlight_color": "#137DC5",
         "bg_color": "",
         "cta_text": "Try it risk free",
@@ -683,40 +683,40 @@
         "reason_1": {
           "type": "reason_card",
           "settings": {
-            "label": "Built for the zone",
-            "heading": "Made for groin skin, not a one size body wash",
+            "label": "Made for men",
+            "heading": "Designed specifically for men, not a general body wash",
             "details": "<p>Built for groin and inner thigh skin — not a one size body wash that treats every part of you the same.</p>"
           }
         },
         "reason_2": {
           "type": "reason_card",
           "settings": {
-            "label": "Fresh that lasts",
-            "heading": "All day odor control, not a two hour head start",
+            "label": "Odor control",
+            "heading": "Helps fight odor at the source, not just cover it",
             "details": "<p>Real all day odor control instead of a two hour head start. Fresh that holds through the gym and the commute.</p>"
           }
         },
         "reason_3": {
           "type": "reason_card",
           "settings": {
-            "label": "pH 5.5",
-            "heading": "Cleans without stripping your skin’s barrier",
+            "label": "pH matched",
+            "heading": "A pH matched formula that cleans without stripping",
             "details": "<p>pH matched to 5.5 so it cleans without stripping the barrier that keeps skin calm and comfortable.</p>"
           }
         },
         "reason_4": {
           "type": "reason_card",
           "settings": {
-            "label": "Calm, not raw",
-            "heading": "Soothes itch, heat and chafe instead of causing it",
+            "label": "Instant cool",
+            "heading": "An instant cooling, clean feeling every shower",
             "details": "<p>Soothing actives calm itch, heat and chafe — instead of drying you out and making it worse.</p>"
           }
         },
         "reason_5": {
           "type": "reason_card",
           "settings": {
-            "label": "One simple step",
-            "heading": "Replaces the three in one you’ve used since uni",
+            "label": "Gentle daily",
+            "heading": "Gentle enough to use every single day",
             "details": "<p>One simple step in the shower. No creams, no sprays, no routine — it replaces the three in one you’ve used since uni.</p>"
           }
         }
@@ -730,8 +730,8 @@
       ],
       "disabled": true,
       "settings": {
-        "badge_text": "Why men switch to CoolBro",
-        "subheading": "Everything regular body wash gets wrong below the belt — fixed.",
+        "badge_text": "What CoolBro does",
+        "subheading": "Designed for one job and built to do it properly.",
         "bg_color": "#EAF6FB",
         "text_color": "#000000",
         "badge_bg_color": "#137DC5",
@@ -767,8 +767,8 @@
         "bc_1": {
           "type": "feature",
           "settings": {
-            "brand_text": "Fresh that lasts all day",
-            "competitor_text": "Fades in about two hours"
+            "brand_text": "Designed specifically for men",
+            "competitor_text": "A general three in one"
           }
         },
         "bc_2": {
@@ -788,15 +788,15 @@
         "bc_4": {
           "type": "feature",
           "settings": {
-            "brand_text": "Calms itch, heat and chafe",
-            "competitor_text": "Often makes irritation worse"
+            "brand_text": "Cooling freshness that lasts all day",
+            "competitor_text": "Fades in about two hours"
           }
         },
         "bc_5": {
           "type": "feature",
           "settings": {
-            "brand_text": "Made for below the belt",
-            "competitor_text": "A general three in one"
+            "brand_text": "Helps soothe dryness and irritation",
+            "competitor_text": "Often dries you out and makes it worse"
           }
         }
       },
@@ -808,7 +808,7 @@
         "bc_5"
       ],
       "settings": {
-        "heading": "<strong>CoolBro</strong> vs. regular body wash",
+        "heading": "<strong>CoolBro</strong> vs regular body wash",
         "heading_size": 36,
         "bg_gradient_start": "#137DC5",
         "bg_gradient_end": "#6FD6E8",
@@ -824,10 +824,10 @@
         "comp_text_color": "#000000",
         "comp_icon_color": "#999999",
         "icons_filled": true,
-        "checklist_1": "<strong>Fresh that lasts</strong> — past lunch, past the gym, past the commute",
-        "checklist_2": "<strong>Calms the itch & chafe</strong> — instead of drying you out",
-        "checklist_3": "<strong>One step in the shower</strong> — simple, daily, done",
-        "checklist_4": "<strong>Skin matched & clean</strong> — pH 5.5, no harsh chemicals",
+        "checklist_1": "<strong>No sulphates</strong>",
+        "checklist_2": "<strong>No parabens</strong>",
+        "checklist_3": "<strong>No silicones</strong>",
+        "checklist_4": "<strong>No artificial colours</strong>",
         "cta_text": "Try it risk free",
         "cta_link": "",
         "cta_height": 54,
@@ -846,9 +846,9 @@
         "badge_number": 30,
         "badge_label": "DAYS",
         "subtitle": "30 DAY GUARANTEE",
-        "heading": "Try it. Worst case, it’s free.",
+        "heading": "Try it. Worst case, it is free.",
         "heading_size": 23,
-        "description": "Use CoolBro daily for 30 days. If your skin doesn’t feel fresher, calmer and more comfortable, email us for a full refund — and keep the bottle. All the risk is on us.",
+        "description": "Use CoolBro daily for 30 days. If you are not fresher, cleaner and more comfortable, email us for a full refund and keep the bottle. A free gift ships with every order.",
         "image": "shopify://shop_images/coolbro_guarantee_lifestyle.png",
         "bg_color": "#E1F1FA",
         "accent_color": "#0E5E94",
@@ -876,7 +876,7 @@
           "settings": {
             "heading": "Will my girlfriend notice?",
             "icon": "none",
-            "row_content": "<p>In the best way. Most men tell us the first thing a partner notices is that they smell <strong>clean and fresh</strong> — not heavily fragranced. It reads as natural, just better.</p>",
+            "row_content": "<p>In the best way. Most men say the first thing a partner notices is that they smell clean and fresh, not heavily fragranced. It reads as natural, just better.</p>",
             "page": ""
           }
         },
@@ -885,7 +885,7 @@
           "settings": {
             "heading": "What does the cooling feel like?",
             "icon": "none",
-            "row_content": "<p><strong>Fresh, not freezing.</strong> A light menthol cool that signals “clean” and settles into all day comfort. Refreshing in summer, never harsh.</p>",
+            "row_content": "<p>Fresh, not freezing. A light menthol cool that signals clean and settles into all day comfort. Refreshing in summer, never harsh.</p>",
             "page": ""
           }
         },
@@ -894,52 +894,52 @@
           "settings": {
             "heading": "Is it safe for sensitive skin?",
             "icon": "none",
-            "row_content": "<p>It’s built for it. pH matched to <strong>5.5</strong>, free from sulphates, parabens and silicones, and loaded with soothing actives like aloe and ceramides. Gentle enough for daily use.</p>",
+            "row_content": "<p>It is built for it. pH matched, free from sulphates, parabens and silicones, and packed with soothing actives like aloe and ceramides. Gentle enough for daily use.</p>",
             "page": ""
           }
         },
         "faq_4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Why not just use my regular body wash?",
+            "heading": "What is CoolBro?",
             "icon": "none",
-            "row_content": "<p>Regular soap runs at pH 9 to 11 and is built to scrub, not to care for intimate skin at pH 5.5. Over time it strips the barrier — which is what brings back dryness, itch and odor. <strong>CoolBro cleans without the collateral damage.</strong></p>",
+            "row_content": "<p>A daily intimate wash made specifically for men, for the groin, inner thighs and anywhere that traps heat and sweat. One gentle, pH matched step that keeps you clean, cool and fresh.</p>",
             "page": ""
           }
         },
         "faq_5": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Does it actually help with odor?",
+            "heading": "Why not just use regular body wash?",
             "icon": "none",
-            "row_content": "<p>Yes — at the source. <strong>Zinc ricinoleate</strong> neutralises odor molecules instead of masking them, so freshness lasts well beyond the shower.</p>",
+            "row_content": "<p>Regular soap runs at pH 9 to 11 and is built to scrub, not to care for intimate skin at pH 5 to 6. Over time it strips the barrier, which is what brings back dryness, itch and odor. CoolBro cleans without the collateral damage.</p>",
             "page": ""
           }
         },
         "faq_6": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What makes CoolBro different?",
+            "heading": "Does it actually help with odor?",
             "icon": "none",
-            "row_content": "<p>It’s made specifically for below the belt: skin matched pH, real odor control, a soothing complex and a cooling finish — in one daily step. Not a cheeky three in one with a new label.</p>",
+            "row_content": "<p>Yes, at the source. Zinc ricinoleate neutralises odor molecules instead of masking them, so freshness lasts well beyond the shower.</p>",
             "page": ""
           }
         },
         "faq_7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can I use it every day?",
+            "heading": "What makes CoolBro different?",
             "icon": "none",
-            "row_content": "<p>That’s the idea. The gentle, skin matched formula is <strong>designed for daily use</strong> — the more consistent you are, the better skin stays balanced and fresh.</p>",
+            "row_content": "<p>It is made specifically for below the belt: a pH matched formula, real odor control, a soothing complex and a cooling finish in one daily step. Not a general three in one with a new label.</p>",
             "page": ""
           }
         },
         "faq_8": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How fast will I notice a difference?",
+            "heading": "Can I use it every day?",
             "icon": "none",
-            "row_content": "<p>The cool, clean feeling is <strong>immediate</strong>. All day odor control and calmer skin build over the first <strong>1 to 2 weeks</strong> as it replaces the harsh soap working against you.</p>",
+            "row_content": "<p>That is the idea. The gentle, pH matched formula is designed for daily use. The more consistent you are, the fresher and more balanced your skin stays.</p>",
             "page": ""
           }
         }
