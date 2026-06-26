@@ -826,8 +826,8 @@
       "settings": {
         "heading": "<strong>CoolBro</strong> vs regular body wash",
         "heading_size": 36,
-        "bg_gradient_start": "#137dc5",
-        "bg_gradient_end": "#6fd6e8",
+        "bg_gradient_start": "#00192B",
+        "bg_gradient_end": "#003B65",
         "text_color": "#ffffff",
         "highlight_color": "#6fd6e8",
         "brand_name": "<strong>CoolBro</strong>",
@@ -863,6 +863,7 @@
         "heading": "Try it. Worst case, it is free.",
         "heading_size": 23,
         "description": "Use CoolBro daily for 30 days. If you are not fresher, cleaner and more comfortable, email us for a full refund and keep the bottle. A free gift ships with every order.",
+        "image": "shopify://shop_images/p0.png",
         "bg_color": "#e1f1fa",
         "accent_color": "#0e5e94",
         "text_color": "",
