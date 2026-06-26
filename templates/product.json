@@ -204,7 +204,7 @@
           "type": "urgency_notice",
           "settings": {
             "line_1": "<p><strong>Summer heatwave sale is live.</strong></p>",
-            "line_2": "<p>Bundle pricing and a free gift while stock lasts. Once this drop sells out, it is gone.</p>",
+            "line_2": "",
             "font_size": 1.2,
             "bg_color": "#fef2f2",
             "text_color": "#9f3f3f",
@@ -301,8 +301,9 @@
       ],
       "custom_css": [],
       "settings": {
-        "bg_color": "#137dc5",
-        "image_opacity": 10,
+        "bg_color": "#00192B",
+        "bg_image": "shopify://shop_images/cool-bro-banner1.png",
+        "image_opacity": 5,
         "text_color": "#ffffff",
         "percentage_color": "#6fd6e8",
         "highlight_color": "#6fd6e8",
@@ -313,7 +314,7 @@
         "cta_text": "Make the switch",
         "cta_url": "#ProductInfo-template--27090456740203__main",
         "cta_bg_color": "#6fd6e8",
-        "cta_text_color": "#137dc5",
+        "cta_text_color": "#00192B",
         "guarantee_text": "30 day money back guarantee",
         "padding_top": 84,
         "padding_bottom": 80
@@ -620,7 +621,7 @@
         "cta_text": "Fix it with CoolBro",
         "cta_url": "#ProductInfo-template--27090456740203__main",
         "cta_bg_color": "#6fd6e8",
-        "cta_text_color": "#137dc5",
+        "cta_text_color": "#00192B",
         "cta_font_size": 19,
         "cta_margin_top": 40,
         "guarantee_text": "30 day money back guarantee",
@@ -841,8 +842,8 @@
         "cta_text": "Try it risk free",
         "cta_link": "",
         "cta_height": 54,
-        "cta_bg_color": "#6fd6e8",
-        "cta_text_color": "#0b1b2b",
+        "cta_bg_color": "#00192B",
+        "cta_text_color": "#FFFFFF",
         "cta_font_weight": "700",
         "note_text": "30 day money back guarantee",
         "padding_top": 36,
@@ -865,7 +866,7 @@
         "cta_link": "",
         "cta_height": 50,
         "cta_bg_color": "#6fd6e8",
-        "cta_text_color": "#137dc5",
+        "cta_text_color": "#00192B",
         "padding_top": 36
       }
     },
