@@ -35,6 +35,12 @@
             "title_color": ""
           }
         },
+        "custom_liquid_EaYYiz": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<hr>"
+          }
+        },
         "text_Urya33": {
           "type": "text",
           "settings": {
@@ -235,6 +241,7 @@
       "block_order": [
         "star_rating",
         "title",
+        "custom_liquid_EaYYiz",
         "text_Urya33",
         "text_JVzdUr",
         "statement_vr",
