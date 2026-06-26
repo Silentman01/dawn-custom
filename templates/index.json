@@ -1,38 +1,29 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "hero_banner": {
       "type": "hero-banner",
       "settings": {
-        "bg_color": "#ffffff",
-        "desktop_image": "shopify://shop_images/olmi_packaging_banner.png",
-        "text_color": "#000000",
-        "badge_text": "",
-        "badge_bg_color": "#1a1a2e",
-        "badge_text_color": "#d4af37",
+        "bg_color": "#0B1B2B",
+        "desktop_image": "shopify://shop_images/coolbro_banner_clean.png",
+        "text_color": "#ffffff",
+        "badge_text": "Free gift with every order",
+        "badge_bg_color": "#0B1B2B",
+        "badge_text_color": "#6FD6E8",
         "badge_font_size": 16,
         "show_stars": true,
         "star_rating": 4.8,
-        "star_color": "#d4af37",
+        "star_color": "#FFC400",
         "star_empty_color": "#ececec",
-        "stars_text": "<strong>Excellent 4.8/5</strong> — 18,000+ Verified Reviews",
-        "heading": "Crystal Frequency Bracelets",
+        "stars_text": "<strong>Excellent 4.8 out of 5</strong>, from men who made the switch",
+        "heading": "Built For Down There",
         "heading_size": 40,
-        "subheadline": "7 crystals. 7 frequencies. Each one targets what's keeping you stuck — through 3 magnetic contact points at your pulse point.",
+        "subheadline": "A daily wash made just for men. pH matched, cooling, and built to keep you fresh down there all day.",
         "cta_function": "link",
         "cta_text": "Get Yours Today",
-        "cta_url": "shopify://collections/our-bracelets",
-        "cta_bg_color": "#212121",
+        "cta_url": "shopify://collections/all",
+        "cta_bg_color": "#137DC5",
         "cta_text_color": "#ffffff",
-        "guarantee_text": "",
+        "guarantee_text": "30 day money back guarantee",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -43,7 +34,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Olmi harnesses crystal frequency and magnetic therapy to reset the signals your body lost — delivering calm, deep sleep, and natural energy through the stone that shaped ancient healing.",
+            "heading": "CoolBro makes one thing and makes it properly: a gentle, pH matched wash built for men, so you stay clean, cool and fresh down there from your morning shower to the end of the day.",
             "heading_size": "h2"
           }
         }
@@ -65,7 +56,7 @@
       "settings": {
         "collection": "all",
         "products_to_show": 8,
-        "title": "Our Bracelets",
+        "title": "Our Range",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -91,20 +82,20 @@
     "risk_free_trial": {
       "type": "risk-free-trial",
       "settings": {
-        "badge_number": "90",
+        "badge_number": "30",
         "badge_label": "DAYS",
-        "subtitle": "THE OLMI GUARANTEE",
-        "heading": "Feel the Difference or Pay Nothing",
+        "subtitle": "THE COOLBRO GUARANTEE",
+        "heading": "Feel Fresher Or Pay Nothing",
         "heading_size": 23,
-        "description": "Every bracelet. 90 days. If you don't feel a difference, we refund every penny. No forms. No hassle.",
-        "image": "shopify://shop_images/all_bracelets.png",
-        "bg_color": "#f8f7f5",
-        "accent_color": "#1a1a2e",
+        "description": "Every bottle. 30 days. If you do not feel fresher and more comfortable, we refund every penny. No forms. No hassle, and you keep the bottle.",
+        "image": "shopify://shop_images/coolbro_bottle_hero.png",
+        "bg_color": "#E1F1FA",
+        "accent_color": "#0B1B2B",
         "text_color": "",
-        "cta_text": "Shop The Collection",
+        "cta_text": "Shop CoolBro",
         "cta_link": "/collections/all",
         "cta_height": 50,
-        "cta_bg_color": "#212121",
+        "cta_bg_color": "#137DC5",
         "cta_text_color": "#ffffff",
         "padding_top": 28
       }
