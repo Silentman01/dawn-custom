@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -8,7 +17,7 @@
           "settings": {
             "rating": 4.8,
             "text": "<strong>Excellent</strong> 4.8 out of 5",
-            "star_color": "#FFC400",
+            "star_color": "#ffc400",
             "star_bg_color": "#ececec",
             "star_size": 1.3,
             "star_gap": 0.4,
@@ -46,7 +55,7 @@
           "type": "benefits_list",
           "settings": {
             "text_color": "#121212",
-            "icon_color": "#137DC5",
+            "icon_color": "#137dc5",
             "layout": "one_per_line",
             "benefit_1": "Neutralises odor at the source instead of just masking it",
             "benefit_2": "pH matched to intimate skin, so it cleans without stripping",
@@ -60,7 +69,7 @@
           "type": "price",
           "disabled": true,
           "settings": {
-            "price_color": "#137DC5",
+            "price_color": "#137dc5",
             "compare_price_color": "",
             "sale_badge_text": "Limited Drop — Save 40%",
             "sale_badge_weight": "600",
@@ -100,7 +109,7 @@
             "display_when": "after_scroll",
             "button_label": "Add to Cart",
             "enable_custom_btn_color": false,
-            "custom_btn_color": "#137DC5",
+            "custom_btn_color": "#137dc5",
             "color_scheme": "scheme-1",
             "star_color": "#ffcc00",
             "stars_label": "Excellent 4.8 — loved by early testers",
@@ -143,7 +152,7 @@
         "custom_liquid_ELCB4G": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"fb-comment-block\" id=\"block-facebook_comment_F4EbHy\" style=\"margin-top: 0px; margin-bottom: 0px;\">\n  <div class=\"fb-comment-container\" style=\"\n      border-radius: 0px;\n      width: 100%;\n      max-width: none;\n      margin: 0;\n      padding: 16px;\n      overflow: hidden;\n      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\n      line-height: 1.34;\n    \">\n    <div class=\"fb-comment-inner\" style=\"\n        display: flex;\n        gap: 8px;\n        align-items: flex-start;\n      \">\n      \n        <div class=\"fb-comment-profile\" style=\"\n            width: 32px;\n            height: 32px;\n            border-radius: 50%;\n            position: relative;\n            overflow: hidden;\n            flex-shrink: 0;\n          \">\n          <img src=\"shopify://shop_images/coolbro_review_avatar.png\" alt=\"Profile picture\" style=\"width: 100%; height: 100%; object-fit: cover; object-position: center; display: block;\" width=\"\" height=\"\">\n        </div>\n      \n\n      <div class=\"fb-comment-content\" style=\"flex: 1;\">\n        <div class=\"fb-comment-bubble\" style=\"\n            background: #f0f2f5;\n            border-radius: 18px;\n            padding: 8px 12px;\n            margin-bottom: 4px;\n            position: relative;\n          \">\n          <div class=\"fb-comment-author\" style=\"\n              font-weight: var(--font-weight-bold) !important;\n              font-size: 13px;\n              letter-spacing: var(--letter-spacing-body);\n              color: #050505;\n              margin-bottom: 2px;\n              \n            \"><strong>\n            Marcus Bell</strong>\n          </div>\n\n          <div class=\"fb-comment-text\" style=\"\n              color: #050505;\n              letters-spacing: var(--letter-spacing-body);\n              font-size: 15px;\n              line-height: 1.3;\n              \n            \">\n            No more odor, no more dryness, and that cool clean feeling lasts the whole day. My girlfriend even asked what I changed in the shower. Just this. Should have switched years ago.\n          </div>\n\n          <div class=\"fb-comment-reactions\" style=\"\n              position: absolute;\n              bottom: -10px;\n              right: 12px;\n              display: flex;\n              align-items: center;\n              gap: 4px;\n              background: #ffffff;\n              border-radius: 12px;\n              padding: 2px 6px;\n              box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);\n              border: 1px solid #e4e6ea;\n            \">\n            <div class=\"fb-comment-reaction-icons\" style=\"display: flex; margin-right: 0px;\">\n              <!-- Like Icon -->\n              <div class=\"fb-comment-reaction-icon\" style=\"\n                  width: 16px;\n                  height: 16px;\n                  border-radius: 50%;\n                  margin-left: -2px;\n                  border: 1px solid white;\n                  overflow: hidden;\n                  flex-shrink: 0;\n                  display: flex;\n                  align-items: center;\n                  justify-content: center;\n                \">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\" style=\"display: block;\">\n                  <path fill=\"url(#fb-like-gradient-facebook_comment_F4EbHy)\" d=\"M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z\"></path>\n                  <path fill=\"#fff\" d=\"M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725.1.163.132.36.089.546-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666ZM3.6 7h.8a.6.6 0 0 1 .6.6v3.8a.6.6 0 0 1-.6.6h-.8a.6.6 0 0 1-.6-.6V7.6a.6.6 0 0 1 .6-.6Z\"></path>\n                  <defs>\n                    <linearGradient id=\"fb-like-gradient-facebook_comment_F4EbHy\" x1=\"8\" x2=\"8\" y2=\"16\" gradientUnits=\"userSpaceOnUse\">\n                      <stop stop-color=\"#18AFFF\"></stop>\n                      <stop offset=\"1\" stop-color=\"#0062DF\"></stop>\n                    </linearGradient>\n                  </defs>\n                </svg>\n              </div>\n\n              <!-- Love Icon -->\n              <div class=\"fb-comment-reaction-icon\" style=\"\n                  width: 16px;\n                  height: 16px;\n                  border-radius: 50%;\n                  margin-left: -2px;\n                  border: 1px solid white;\n                  overflow: hidden;\n                  flex-shrink: 0;\n                  display: flex;\n                  align-items: center;\n                  justify-content: center;\n                \">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\" style=\"display: block;\">\n                  <path fill=\"url(#fb-love-gradient-facebook_comment_F4EbHy)\" d=\"M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z\"></path>\n                  <path fill=\"#fff\" d=\"M10.473 4C8.275 4 8 5.824 8 5.824S7.726 4 5.528 4c-2.114 0-2.73 2.222-2.472 3.41C3.736 10.55 8 12.75 8 12.75s4.265-2.2 4.945-5.34c.257-1.188-.36-3.41-2.472-3.41Z\"></path>\n                  <defs>\n                    <linearGradient id=\"fb-love-gradient-facebook_comment_F4EbHy\" x1=\"8\" x2=\"8\" y2=\"16\" gradientUnits=\"userSpaceOnUse\">\n                      <stop stop-color=\"#FF6680\"></stop>\n                      <stop offset=\"1\" stop-color=\"#E61739\"></stop>\n                    </linearGradient>\n                  </defs>\n                </svg>\n              </div>\n\n              <!-- Care Icon -->\n              <div class=\"fb-comment-reaction-icon\" style=\"\n                  width: 16px;\n                  height: 16px;\n                  border-radius: 50%;\n                  margin-left: -2px;\n                  border: 1px solid white;\n                  overflow: hidden;\n                  flex-shrink: 0;\n                  display: flex;\n                  align-items: center;\n                  justify-content: center;\n                \">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" style=\"display: block;\">\n                  <defs>\n                    <linearGradient id=\"fb-care-bg-facebook_comment_F4EbHy\" x1=\"-2.313\" x2=\"-2.313\" y1=\"19.862\" y2=\"20.738\" gradientTransform=\"matrix(16 0 0 -16 45 333)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#f28a2d\"></stop>\n                      <stop offset=\"1\" stop-color=\"#fde86f\"></stop>\n                    </linearGradient>\n                    <linearGradient id=\"fb-care-mouth-facebook_comment_F4EbHy\" x1=\"-1.619\" x2=\"-1.619\" y1=\"18.2\" y2=\"16.681\" gradientTransform=\"matrix(3.4035 0 0 -.9374 13.51 22.37)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#482314\"></stop>\n                      <stop offset=\"1\" stop-color=\"#9a4111\"></stop>\n                    </linearGradient>\n                    <radialGradient id=\"fb-care-eye1-facebook_comment_F4EbHy\" cx=\"-3.9\" cy=\"18.924\" r=\".872\" gradientTransform=\"matrix(0 -2.1326 -2.1327 0 45.352 -4.046)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#3b446b\"></stop>\n                      <stop offset=\".688\" stop-color=\"#202340\"></stop>\n                    </radialGradient>\n                    <radialGradient id=\"fb-care-eye2-facebook_comment_F4EbHy\" cx=\"-3.914\" cy=\"18.924\" r=\".872\" gradientTransform=\"matrix(0 -2.1326 -2.1327 0 51.366 -4.077)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#3b446b\"></stop>\n                      <stop offset=\".688\" stop-color=\"#202340\"></stop>\n                    </radialGradient>\n                    <linearGradient id=\"fb-care-heart-facebook_comment_F4EbHy\" x1=\"-2.17\" x2=\"-2.407\" y1=\"20.358\" y2=\"19.647\" gradientTransform=\"matrix(9.7496 0 0 -9.079 27.91 194.578)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#f34462\"></stop>\n                      <stop offset=\"1\" stop-color=\"#cc0820\"></stop>\n                    </linearGradient>\n                  </defs>\n                  <path fill=\"url(#fb-care-bg-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M16 8c0 4.4-3.6 8-8 8s-8-3.6-8-8 3.6-8 8-8 8 3.6 8 8z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-mouth-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M9.7 5.9c-.1-.3-3.3-.3-3.4 0-.1.3.6.7 1.7.7s1.8-.4 1.7-.7z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-eye1-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M6 4.1c0 .7-.4.9-1 1-.6.1-1.1-.2-1.1-1 0-.6.3-1.4 1.1-1.4.7 0 1 .8 1 1.4z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-eye2-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M10 4.1c0 .7.4.9 1.1 1 .6.1 1.1-.2 1.1-1 0-.6-.3-1.4-1.1-1.4S10 3.5 10 4.1z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-heart-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M9.7 8.5c-2.1-.6-2.8.8-2.8.8S7.1 7.7 5 7c-2-.6-3.2 1.3-3.3 2.4-.2 2.5 2 5.3 2.8 6.3.1.3.4.3.7.3 1.2-.3 4.6-1.4 5.9-3.6.5-1.1.6-3.3-1.4-3.9z\" clip-rule=\"evenodd\"></path>\n                </svg>\n              </div>\n            </div>\n            <span class=\"fb-comment-reaction-count\" style=\"\n                color: #65676b;\n                font-size: 13px;\n                font-weight: 400;\n                \n              \">14</span>\n          </div>\n        </div>\n\n        <div class=\"fb-comment-meta\" style=\"\n            display: flex;\n            letter-spacing: var(--letter-spacing-body) !important;\n            align-items: center;\n            gap: 12px;\n            margin-left: 12px;\n            margin-bottom: 12px;\n            font-size: 13px;\n            color: #65676b;\n            \n          \">\n          <span class=\"fb-comment-meta-item\" style=\"\n              cursor: pointer;\n              font-weight: 600;\n              \n            \">J'aime</span>\n          <span class=\"fb-comment-meta-item\" style=\"\n              cursor: pointer;\n              font-weight: 600;\n              \n            \">Commenter</span>\n          <span class=\"fb-comment-timestamp\" style=\"\n                          \n            \">2j</span>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<style>\n  .fb-comment-meta-item:hover {\n    text-decoration: underline;\n  }\n\n  @media (max-width: 520px) {\n    .fb-comment-container {\n      margin: 0;\n      border-radius: 0;\n      box-shadow: none;\n      width: 100%;\n      max-width: none;\n    }\n    .fb-comment-meta {\n      gap: 8px;\n    }\n    .fb-comment-meta-item {\n      font-size: 12px;\n    }\n  }\n</style>"
+            "custom_liquid": "<div class=\"fb-comment-block\" id=\"block-facebook_comment_F4EbHy\" style=\"margin-top: 0px; margin-bottom: 0px;\">\n  <div class=\"fb-comment-container\" style=\"\n      border-radius: 0px;\n      width: 100%;\n      max-width: none;\n      margin: 0;\n      padding: 16px;\n      overflow: hidden;\n      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\n      line-height: 1.34;\n    \">\n    <div class=\"fb-comment-inner\" style=\"\n        display: flex;\n        gap: 8px;\n        align-items: flex-start;\n      \">\n      \n        <div class=\"fb-comment-profile\" style=\"\n            width: 32px;\n            height: 32px;\n            border-radius: 50%;\n            position: relative;\n            overflow: hidden;\n            flex-shrink: 0;\n          \">\n          <img src=\"shopify://shop_images/coolbro_review_avatar.png\" alt=\"Profile picture\" style=\"width: 100%; height: 100%; object-fit: cover; object-position: center; display: block;\" width=\"\" height=\"\">\n        </div>\n      \n\n      <div class=\"fb-comment-content\" style=\"flex: 1;\">\n        <div class=\"fb-comment-bubble\" style=\"\n            background: #f0f2f5;\n            border-radius: 18px;\n            padding: 8px 12px;\n            margin-bottom: 4px;\n            position: relative;\n          \">\n          <div class=\"fb-comment-author\" style=\"\n              font-weight: var(--font-weight-bold) !important;\n              font-size: 13px;\n              letter-spacing: var(--letter-spacing-body);\n              color: #050505;\n              margin-bottom: 2px;\n              \n            \"><strong>\n            Marcus Bell</strong>\n          </div>\n\n          <div class=\"fb-comment-text\" style=\"\n              color: #050505;\n              letters-spacing: var(--letter-spacing-body);\n              font-size: 15px;\n              line-height: 1.3;\n              \n            \">\n            No more odor, no more dryness, and that cool clean feeling lasts the whole day. My girlfriend even asked what I changed in the shower. Just this. Should have switched years ago.\n          </div>\n\n          <div class=\"fb-comment-reactions\" style=\"\n              position: absolute;\n              bottom: -10px;\n              right: 12px;\n              display: flex;\n              align-items: center;\n              gap: 4px;\n              background: #ffffff;\n              border-radius: 12px;\n              padding: 2px 6px;\n              box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);\n              border: 1px solid #e4e6ea;\n            \">\n            <div class=\"fb-comment-reaction-icons\" style=\"display: flex; margin-right: 0px;\">\n              <!-- Like Icon -->\n              <div class=\"fb-comment-reaction-icon\" style=\"\n                  width: 16px;\n                  height: 16px;\n                  border-radius: 50%;\n                  margin-left: -2px;\n                  border: 1px solid white;\n                  overflow: hidden;\n                  flex-shrink: 0;\n                  display: flex;\n                  align-items: center;\n                  justify-content: center;\n                \">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\" style=\"display: block;\">\n                  <path fill=\"url(#fb-like-gradient-facebook_comment_F4EbHy)\" d=\"M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z\"></path>\n                  <path fill=\"#fff\" d=\"M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725.1.163.132.36.089.546-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666ZM3.6 7h.8a.6.6 0 0 1 .6.6v3.8a.6.6 0 0 1-.6.6h-.8a.6.6 0 0 1-.6-.6V7.6a.6.6 0 0 1 .6-.6Z\"></path>\n                  <defs>\n                    <linearGradient id=\"fb-like-gradient-facebook_comment_F4EbHy\" x1=\"8\" x2=\"8\" y2=\"16\" gradientUnits=\"userSpaceOnUse\">\n                      <stop stop-color=\"#18AFFF\"></stop>\n                      <stop offset=\"1\" stop-color=\"#0062DF\"></stop>\n                    </linearGradient>\n                  </defs>\n                </svg>\n              </div>\n\n              <!-- Love Icon -->\n              <div class=\"fb-comment-reaction-icon\" style=\"\n                  width: 16px;\n                  height: 16px;\n                  border-radius: 50%;\n                  margin-left: -2px;\n                  border: 1px solid white;\n                  overflow: hidden;\n                  flex-shrink: 0;\n                  display: flex;\n                  align-items: center;\n                  justify-content: center;\n                \">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\" style=\"display: block;\">\n                  <path fill=\"url(#fb-love-gradient-facebook_comment_F4EbHy)\" d=\"M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z\"></path>\n                  <path fill=\"#fff\" d=\"M10.473 4C8.275 4 8 5.824 8 5.824S7.726 4 5.528 4c-2.114 0-2.73 2.222-2.472 3.41C3.736 10.55 8 12.75 8 12.75s4.265-2.2 4.945-5.34c.257-1.188-.36-3.41-2.472-3.41Z\"></path>\n                  <defs>\n                    <linearGradient id=\"fb-love-gradient-facebook_comment_F4EbHy\" x1=\"8\" x2=\"8\" y2=\"16\" gradientUnits=\"userSpaceOnUse\">\n                      <stop stop-color=\"#FF6680\"></stop>\n                      <stop offset=\"1\" stop-color=\"#E61739\"></stop>\n                    </linearGradient>\n                  </defs>\n                </svg>\n              </div>\n\n              <!-- Care Icon -->\n              <div class=\"fb-comment-reaction-icon\" style=\"\n                  width: 16px;\n                  height: 16px;\n                  border-radius: 50%;\n                  margin-left: -2px;\n                  border: 1px solid white;\n                  overflow: hidden;\n                  flex-shrink: 0;\n                  display: flex;\n                  align-items: center;\n                  justify-content: center;\n                \">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" style=\"display: block;\">\n                  <defs>\n                    <linearGradient id=\"fb-care-bg-facebook_comment_F4EbHy\" x1=\"-2.313\" x2=\"-2.313\" y1=\"19.862\" y2=\"20.738\" gradientTransform=\"matrix(16 0 0 -16 45 333)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#f28a2d\"></stop>\n                      <stop offset=\"1\" stop-color=\"#fde86f\"></stop>\n                    </linearGradient>\n                    <linearGradient id=\"fb-care-mouth-facebook_comment_F4EbHy\" x1=\"-1.619\" x2=\"-1.619\" y1=\"18.2\" y2=\"16.681\" gradientTransform=\"matrix(3.4035 0 0 -.9374 13.51 22.37)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#482314\"></stop>\n                      <stop offset=\"1\" stop-color=\"#9a4111\"></stop>\n                    </linearGradient>\n                    <radialGradient id=\"fb-care-eye1-facebook_comment_F4EbHy\" cx=\"-3.9\" cy=\"18.924\" r=\".872\" gradientTransform=\"matrix(0 -2.1326 -2.1327 0 45.352 -4.046)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#3b446b\"></stop>\n                      <stop offset=\".688\" stop-color=\"#202340\"></stop>\n                    </radialGradient>\n                    <radialGradient id=\"fb-care-eye2-facebook_comment_F4EbHy\" cx=\"-3.914\" cy=\"18.924\" r=\".872\" gradientTransform=\"matrix(0 -2.1326 -2.1327 0 51.366 -4.077)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#3b446b\"></stop>\n                      <stop offset=\".688\" stop-color=\"#202340\"></stop>\n                    </radialGradient>\n                    <linearGradient id=\"fb-care-heart-facebook_comment_F4EbHy\" x1=\"-2.17\" x2=\"-2.407\" y1=\"20.358\" y2=\"19.647\" gradientTransform=\"matrix(9.7496 0 0 -9.079 27.91 194.578)\" gradientUnits=\"userSpaceOnUse\">\n                      <stop offset=\"0\" stop-color=\"#f34462\"></stop>\n                      <stop offset=\"1\" stop-color=\"#cc0820\"></stop>\n                    </linearGradient>\n                  </defs>\n                  <path fill=\"url(#fb-care-bg-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M16 8c0 4.4-3.6 8-8 8s-8-3.6-8-8 3.6-8 8-8 8 3.6 8 8z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-mouth-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M9.7 5.9c-.1-.3-3.3-.3-3.4 0-.1.3.6.7 1.7.7s1.8-.4 1.7-.7z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-eye1-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M6 4.1c0 .7-.4.9-1 1-.6.1-1.1-.2-1.1-1 0-.6.3-1.4 1.1-1.4.7 0 1 .8 1 1.4z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-eye2-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M10 4.1c0 .7.4.9 1.1 1 .6.1 1.1-.2 1.1-1 0-.6-.3-1.4-1.1-1.4S10 3.5 10 4.1z\" clip-rule=\"evenodd\"></path>\n                  <path fill=\"url(#fb-care-heart-facebook_comment_F4EbHy)\" fill-rule=\"evenodd\" d=\"M9.7 8.5c-2.1-.6-2.8.8-2.8.8S7.1 7.7 5 7c-2-.6-3.2 1.3-3.3 2.4-.2 2.5 2 5.3 2.8 6.3.1.3.4.3.7.3 1.2-.3 4.6-1.4 5.9-3.6.5-1.1.6-3.3-1.4-3.9z\" clip-rule=\"evenodd\"></path>\n                </svg>\n              </div>\n            </div>\n            <span class=\"fb-comment-reaction-count\" style=\"\n                color: #65676b;\n                font-size: 13px;\n                font-weight: 400;\n                \n              \">14</span>\n          </div>\n        </div>\n\n        <div class=\"fb-comment-meta\" style=\"\n            display: flex;\n            letter-spacing: var(--letter-spacing-body) !important;\n            align-items: center;\n            gap: 12px;\n            margin-left: 12px;\n            margin-bottom: 12px;\n            font-size: 13px;\n            color: #65676b;\n            \n          \">\n          <span class=\"fb-comment-meta-item\" style=\"\n              cursor: pointer;\n              font-weight: 600;\n              \n            \">Like</span>\n          <span class=\"fb-comment-meta-item\" style=\"\n              cursor: pointer;\n              font-weight: 600;\n              \n            \">Comment</span>\n          <span class=\"fb-comment-timestamp\" style=\"\n                          \n            \">3h</span>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<style>\n  .fb-comment-meta-item:hover {\n    text-decoration: underline;\n  }\n\n  @media (max-width: 520px) {\n    .fb-comment-container {\n      margin: 0;\n      border-radius: 0;\n      box-shadow: none;\n      width: 100%;\n      max-width: none;\n    }\n    .fb-comment-meta {\n      gap: 8px;\n    }\n    .fb-comment-meta-item {\n      font-size: 12px;\n    }\n  }\n</style>"
           }
         },
         "collapsible_tab_desc": {
@@ -292,20 +301,19 @@
       ],
       "custom_css": [],
       "settings": {
-        "bg_color": "#137DC5",
-        "bg_image": "shopify://shop_images/coolbro_clinical_bg.png",
+        "bg_color": "#137dc5",
         "image_opacity": 10,
         "text_color": "#ffffff",
-        "percentage_color": "#6FD6E8",
-        "highlight_color": "#6FD6E8",
+        "percentage_color": "#6fd6e8",
+        "highlight_color": "#6fd6e8",
         "heading": "<strong>Let’s be honest…</strong>",
         "heading_size": 31,
         "subtitle": "A few things most guys never stop to think about in the shower.",
         "cta_function": "link",
         "cta_text": "Make the switch",
         "cta_url": "#ProductInfo-template--27090456740203__main",
-        "cta_bg_color": "#6FD6E8",
-        "cta_text_color": "#137DC5",
+        "cta_bg_color": "#6fd6e8",
+        "cta_text_color": "#137dc5",
         "guarantee_text": "30 day money back guarantee",
         "padding_top": 84,
         "padding_bottom": 80
@@ -317,7 +325,6 @@
         "card_1": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/coolbro_ing_menthol.png",
             "title": "<strong>Menthol</strong>",
             "text": "Cooling freshness. The clean, cool finish that tells your body the job is done. Not a gimmick, a signal.",
             "card_bg_color": ""
@@ -326,7 +333,6 @@
         "card_2": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/coolbro_ing_zinc.png",
             "title": "<strong>Zinc Ricinoleate</strong>",
             "text": "True odor control. It neutralises odor molecules rather than covering them with fragrance. Gone, not masked.",
             "card_bg_color": ""
@@ -335,7 +341,6 @@
         "card_3": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/coolbro_ing_ceramides.png",
             "title": "<strong>Ceramides</strong>",
             "text": "Skin barrier. Lock in moisture after washing so the dryness that causes next day itch and irritation does not come back.",
             "card_bg_color": ""
@@ -344,7 +349,6 @@
         "card_4": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/coolbro_ing_botanical.png",
             "title": "<strong>Aloe, Bamboo and Moringa</strong>",
             "text": "Soothing complex. Calms sensitive skin and reduces redness, especially after you trim. Plant based, nothing for show.",
             "card_bg_color": ""
@@ -359,9 +363,9 @@
       ],
       "settings": {
         "heading": "<strong>Inside CoolBro</strong>",
-        "highlight_color": "#137DC5",
+        "highlight_color": "#137dc5",
         "card_title_size": 22,
-        "card_title_highlight": "#137DC5",
+        "card_title_highlight": "#137dc5",
         "section_bg_color": "",
         "text_alignment": "center",
         "card_border_radius": 12,
@@ -436,13 +440,13 @@
       "settings": {
         "heading": "“The best switch I have made in years”",
         "subheading": "What men are saying about CoolBro",
-        "highlight_color": "#137DC5",
-        "star_color": "#137DC5",
-        "verified_color": "#137DC5",
-        "tag_color": "#137DC5",
-        "tag_bg_color": "#E1F1FA",
+        "highlight_color": "#137dc5",
+        "star_color": "#137dc5",
+        "verified_color": "#137dc5",
+        "tag_color": "#137dc5",
+        "tag_bg_color": "#e1f1fa",
         "ticker_speed": 30,
-        "section_bg_color": "#EAF6FB",
+        "section_bg_color": "#eaf6fb",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -486,8 +490,8 @@
         "ticker_item_cb4th"
       ],
       "settings": {
-        "background_color": "#0B1B2B",
-        "text_color": "#6FD6E8",
+        "background_color": "#0b1b2b",
+        "text_color": "#6fd6e8",
         "border_position": "none",
         "border_thickness": 1,
         "border_color": "#ffffff",
@@ -540,11 +544,10 @@
         "wj_4"
       ],
       "settings": {
-        "brand_image": "shopify://shop_images/coolbro_lifestyle.png",
         "heading": "What the switch feels like",
         "description": "A small change in the shower with a fast payoff. Here is what men report after making CoolBro their daily wash.",
-        "highlight_color": "#137DC5",
-        "button_color": "#6FD6E8",
+        "highlight_color": "#137dc5",
+        "button_color": "#6fd6e8",
         "bg_color": "",
         "cta_text": "Make the switch",
         "cta_link": "",
@@ -561,7 +564,6 @@
         "reason_card_rMYEKy": {
           "type": "reason_card",
           "settings": {
-            "image": "shopify://shop_images/coolbro_step1.png",
             "label": "1",
             "heading": "Regular body wash runs at pH 9 to 11",
             "details": "<p>Your intimate skin sits around pH 5 to 6. Every time you use regular soap down there you strip the barrier that protects it. That is why the itch and odor keep coming back.</p>"
@@ -570,7 +572,6 @@
         "reason_card_iCbCKe": {
           "type": "reason_card",
           "settings": {
-            "image": "shopify://shop_images/coolbro_step2.png",
             "label": "2",
             "heading": "Heat and friction turn it into a swamp",
             "details": "<p>Thighs, waistband, groin. Your skin spends the day trapped under clothes in the warmest, most friction heavy part of your body. Regular soap buys you about two hours. After that you are on your own.</p>"
@@ -579,7 +580,6 @@
         "reason_card_3J3gPM": {
           "type": "reason_card",
           "settings": {
-            "image": "shopify://shop_images/coolbro_step3.png",
             "label": "3",
             "heading": "The wrong products make it worse",
             "details": "<p>Harsh surfactants. Fragrance masking. Alkaline pH stripping your natural moisture. You have been cleaning the area with something that was quietly making the problem harder to fix.</p>"
@@ -593,14 +593,14 @@
       ],
       "name": "Reasons why",
       "settings": {
-        "badge_text": "The real problem ",
+        "badge_text": "The real problem",
         "subheading": "Nobody told you there was a better way.",
-        "bg_color": "#EAF6FB",
+        "bg_color": "#eaf6fb",
         "text_color": "#000000",
-        "badge_bg_color": "#137DC5",
+        "badge_bg_color": "#137dc5",
         "badge_text_color": "#ffffff",
-        "label_bg_color": "#6FD6E8",
-        "label_text_color": "#137DC5",
+        "label_bg_color": "#6fd6e8",
+        "label_text_color": "#137dc5",
         "card_bg_color": "#ffffff",
         "card_border_color": "#0000004d",
         "card_text_color": "#000000",
@@ -615,12 +615,11 @@
         "max_width": 1500,
         "cta_text": "Fix it with CoolBro",
         "cta_url": "#ProductInfo-template--27090456740203__main",
-        "cta_bg_color": "#6FD6E8",
-        "cta_text_color": "#137DC5",
+        "cta_bg_color": "#6fd6e8",
+        "cta_text_color": "#137dc5",
         "cta_font_size": 19,
         "cta_margin_top": 40,
         "guarantee_text": "30 day money back guarantee",
-        "guarantee_icon": "shopify://shop_images/coolbro_guarantee_badge.png",
         "padding_top": 40,
         "padding_bottom": 40
       }
@@ -631,7 +630,6 @@
         "pb_1": {
           "type": "benefit",
           "settings": {
-            "image": "shopify://shop_images/coolbro_ing_menthol.png",
             "title": "Menthol",
             "description": "Cooling freshness",
             "answer": "Triggers the cool, clean signal that tells you the job is done and keeps you feeling fresh long after you towel off."
@@ -640,7 +638,6 @@
         "pb_2": {
           "type": "benefit",
           "settings": {
-            "image": "shopify://shop_images/coolbro_ing_zinc.png",
             "title": "Zinc Ricinoleate",
             "description": "True odor control",
             "answer": "Binds and neutralises the molecules behind odor instead of covering them with fragrance, so freshness is real and lasts."
@@ -649,7 +646,6 @@
         "pb_3": {
           "type": "benefit",
           "settings": {
-            "image": "shopify://shop_images/coolbro_ing_ceramides.png",
             "title": "Ceramides",
             "description": "Skin barrier",
             "answer": "Replenish the barrier and lock in moisture after washing, heading off the dryness and itch that harsh soap leaves behind."
@@ -658,7 +654,6 @@
         "pb_4": {
           "type": "benefit",
           "settings": {
-            "image": "shopify://shop_images/coolbro_ing_botanical.png",
             "title": "Fermented Probiotics",
             "description": "Microbiome support",
             "answer": "Help keep your skin’s natural balance intact instead of wiping everything out, keeping sensitive skin calm with daily use."
@@ -674,7 +669,7 @@
       "settings": {
         "heading": "<strong>Why these ingredients work</strong>",
         "subheading": "Each active is in here for one job, no filler.",
-        "highlight_color": "#137DC5",
+        "highlight_color": "#137dc5",
         "bg_color": "",
         "cta_text": "Try it risk free",
         "cta_link": "",
@@ -740,12 +735,12 @@
       "settings": {
         "badge_text": "What CoolBro does",
         "subheading": "Designed for one job and built to do it properly.",
-        "bg_color": "#EAF6FB",
+        "bg_color": "#eaf6fb",
         "text_color": "#000000",
-        "badge_bg_color": "#137DC5",
-        "badge_text_color": "#6FD6E8",
-        "label_bg_color": "#137DC5",
-        "label_text_color": "#6FD6E8",
+        "badge_bg_color": "#137dc5",
+        "badge_text_color": "#6fd6e8",
+        "label_bg_color": "#137dc5",
+        "label_text_color": "#6fd6e8",
         "card_bg_color": "#ffffff",
         "card_border_color": "#0000004d",
         "card_text_color": "#000000",
@@ -760,8 +755,8 @@
         "max_width": 1500,
         "cta_text": "Make the switch",
         "cta_url": "",
-        "cta_bg_color": "#6FD6E8",
-        "cta_text_color": "#137DC5",
+        "cta_bg_color": "#6fd6e8",
+        "cta_text_color": "#137dc5",
         "cta_font_size": 19,
         "cta_margin_top": 40,
         "guarantee_text": "30 day money back guarantee",
@@ -818,14 +813,13 @@
       "settings": {
         "heading": "<strong>CoolBro</strong> vs regular body wash",
         "heading_size": 36,
-        "bg_gradient_start": "#137DC5",
-        "bg_gradient_end": "#6FD6E8",
+        "bg_gradient_start": "#137dc5",
+        "bg_gradient_end": "#6fd6e8",
         "text_color": "#ffffff",
-        "highlight_color": "#6FD6E8",
+        "highlight_color": "#6fd6e8",
         "brand_name": "<strong>CoolBro</strong>",
         "brand_name_color": "#ffffff",
-        "brand_image": "shopify://shop_images/coolbro_bottle.png",
-        "brand_col_color": "#137DC5",
+        "brand_col_color": "#137dc5",
         "brand_icon_color": "#ffffff",
         "competitor_label": "<strong>Regular body wash</strong>",
         "comp_col_color": "#ffffff",
@@ -839,8 +833,8 @@
         "cta_text": "Try it risk free",
         "cta_link": "",
         "cta_height": 54,
-        "cta_bg_color": "#6FD6E8",
-        "cta_text_color": "#0B1B2B",
+        "cta_bg_color": "#6fd6e8",
+        "cta_text_color": "#0b1b2b",
         "cta_font_weight": "700",
         "note_text": "30 day money back guarantee",
         "padding_top": 36,
@@ -850,22 +844,20 @@
     "risk_free_trial": {
       "type": "risk-free-trial",
       "settings": {
-        "badge_image": "shopify://shop_images/coolbro_guarantee_badge.png",
         "badge_number": "30",
         "badge_label": "DAYS",
         "subtitle": "30 DAY GUARANTEE",
         "heading": "Try it. Worst case, it is free.",
         "heading_size": 23,
         "description": "Use CoolBro daily for 30 days. If you are not fresher, cleaner and more comfortable, email us for a full refund and keep the bottle. A free gift ships with every order.",
-        "image": "shopify://shop_images/coolbro_guarantee_lifestyle.png",
-        "bg_color": "#E1F1FA",
-        "accent_color": "#0E5E94",
+        "bg_color": "#e1f1fa",
+        "accent_color": "#0e5e94",
         "text_color": "",
         "cta_text": "Try it risk free",
         "cta_link": "",
         "cta_height": 50,
-        "cta_bg_color": "#6FD6E8",
-        "cta_text_color": "#137DC5",
+        "cta_bg_color": "#6fd6e8",
+        "cta_text_color": "#137dc5",
         "padding_top": 36
       }
     },
