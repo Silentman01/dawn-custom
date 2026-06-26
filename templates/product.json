@@ -16,7 +16,7 @@
           "type": "star_rating",
           "settings": {
             "rating": 4.8,
-            "text": "<strong>Excellent</strong> 4.8 out of 5",
+            "text": "<strong>4.8/5</strong> 2,967 Reviews",
             "star_color": "#ffc400",
             "star_bg_color": "#ececec",
             "star_size": 1.3,
