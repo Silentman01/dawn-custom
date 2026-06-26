@@ -325,6 +325,7 @@
         "card_1": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/ingredients1.png",
             "title": "<strong>Menthol</strong>",
             "text": "Cooling freshness. The clean, cool finish that tells your body the job is done. Not a gimmick, a signal.",
             "card_bg_color": ""
@@ -333,6 +334,7 @@
         "card_2": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/ingredients2.png",
             "title": "<strong>Zinc Ricinoleate</strong>",
             "text": "True odor control. It neutralises odor molecules rather than covering them with fragrance. Gone, not masked.",
             "card_bg_color": ""
@@ -341,6 +343,7 @@
         "card_3": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/ingredients4.png",
             "title": "<strong>Ceramides</strong>",
             "text": "Skin barrier. Lock in moisture after washing so the dryness that causes next day itch and irritation does not come back.",
             "card_bg_color": ""
@@ -349,6 +352,7 @@
         "card_4": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/ingredients3.png",
             "title": "<strong>Aloe, Bamboo and Moringa</strong>",
             "text": "Soothing complex. Calms sensitive skin and reduces redness, especially after you trim. Plant based, nothing for show.",
             "card_bg_color": ""
@@ -630,6 +634,7 @@
         "pb_1": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/ingredients1.png",
             "title": "Menthol",
             "description": "Cooling freshness",
             "answer": "Triggers the cool, clean signal that tells you the job is done and keeps you feeling fresh long after you towel off."
@@ -638,6 +643,7 @@
         "pb_2": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/ingredients2.png",
             "title": "Zinc Ricinoleate",
             "description": "True odor control",
             "answer": "Binds and neutralises the molecules behind odor instead of covering them with fragrance, so freshness is real and lasts."
@@ -646,6 +652,7 @@
         "pb_3": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/ingredients4.png",
             "title": "Ceramides",
             "description": "Skin barrier",
             "answer": "Replenish the barrier and lock in moisture after washing, heading off the dryness and itch that harsh soap leaves behind."
@@ -654,6 +661,7 @@
         "pb_4": {
           "type": "benefit",
           "settings": {
+            "image": "shopify://shop_images/ingredients5.png",
             "title": "Fermented Probiotics",
             "description": "Microbiome support",
             "answer": "Help keep your skin’s natural balance intact instead of wiping everything out, keeping sensitive skin calm with daily use."
