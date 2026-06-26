@@ -570,6 +570,7 @@
         "reason_card_rMYEKy": {
           "type": "reason_card",
           "settings": {
+            "image": "shopify://shop_images/reasons_why1.png",
             "label": "1",
             "heading": "Regular body wash runs at pH 9 to 11",
             "details": "<p>Your intimate skin sits around pH 5 to 6. Every time you use regular soap down there you strip the barrier that protects it. That is why the itch and odor keep coming back.</p>"
@@ -578,6 +579,7 @@
         "reason_card_iCbCKe": {
           "type": "reason_card",
           "settings": {
+            "image": "shopify://shop_images/reasons_why2.png",
             "label": "2",
             "heading": "Heat and friction turn it into a swamp",
             "details": "<p>Thighs, waistband, groin. Your skin spends the day trapped under clothes in the warmest, most friction heavy part of your body. Regular soap buys you about two hours. After that you are on your own.</p>"
@@ -586,6 +588,7 @@
         "reason_card_3J3gPM": {
           "type": "reason_card",
           "settings": {
+            "image": "shopify://shop_images/reasons_why3.png",
             "label": "3",
             "heading": "The wrong products make it worse",
             "details": "<p>Harsh surfactants. Fragrance masking. Alkaline pH stripping your natural moisture. You have been cleaning the area with something that was quietly making the problem harder to fix.</p>"
