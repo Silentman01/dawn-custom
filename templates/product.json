@@ -504,7 +504,7 @@
         "font_weight": "500",
         "spacing": 40,
         "icon_size": 20,
-        "speed": 5,
+        "speed": 15,
         "padding_top": 16,
         "padding_bottom": 16,
         "aria_label": "Scrolling announcements"
@@ -549,6 +549,7 @@
         "wj_4"
       ],
       "settings": {
+        "brand_image": "shopify://shop_images/wellness.png",
         "heading": "What the switch feels like",
         "description": "A small change in the shower with a fast payoff. Here is what men report after making CoolBro their daily wash.",
         "highlight_color": "#137dc5",
