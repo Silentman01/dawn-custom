@@ -122,7 +122,6 @@
         },
         "sticky_cart": {
           "type": "sticky_cart",
-          "disabled": true,
           "settings": {
             "function": "link",
             "button_link": "",
@@ -132,7 +131,7 @@
             "custom_btn_color": "#137dc5",
             "color_scheme": "scheme-1",
             "star_color": "#ffcc00",
-            "stars_label": "Excellent 4.8 — loved by early testers",
+            "stars_label": "4.8/5",
             "button_font_size": 1.6,
             "button_font_weight": "700",
             "button_text_transform": "none",
@@ -324,7 +323,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "bg_color": "#00192B",
+        "bg_color": "#00192b",
         "bg_image": "shopify://shop_images/cool-bro-banner1.png",
         "image_opacity": 5,
         "text_color": "#ffffff",
@@ -337,7 +336,7 @@
         "cta_text": "Make the switch",
         "cta_url": "#ProductInfo-template--29397627863375__main",
         "cta_bg_color": "#6fd6e8",
-        "cta_text_color": "#00192B",
+        "cta_text_color": "#00192b",
         "guarantee_text": "30 day money back guarantee",
         "padding_top": 84,
         "padding_bottom": 80
@@ -391,7 +390,7 @@
       ],
       "settings": {
         "heading": "<strong>Inside CoolBro</strong>",
-        "highlight_color": "#00192B",
+        "highlight_color": "#00192b",
         "card_title_size": 22,
         "card_title_highlight": "#137dc5",
         "section_bg_color": "",
@@ -518,8 +517,8 @@
         "ticker_item_cb4th"
       ],
       "settings": {
-        "background_color": "#6FD6E8",
-        "text_color": "#00192B",
+        "background_color": "#6fd6e8",
+        "text_color": "#00192b",
         "border_position": "none",
         "border_thickness": 1,
         "border_color": "#ffffff",
@@ -576,7 +575,7 @@
         "heading": "What the switch feels like",
         "description": "A small change in the shower with a fast payoff. Here is what men report after making CoolBro their daily wash.",
         "highlight_color": "#137dc5",
-        "button_color": "#6FD6E8",
+        "button_color": "#6fd6e8",
         "bg_color": "",
         "cta_text": "",
         "cta_link": "#ProductInfo-template--29397627863375__main",
@@ -648,7 +647,7 @@
         "cta_text": "Fix it with CoolBro",
         "cta_url": "#ProductInfo-template--29397627863375__main",
         "cta_bg_color": "#6fd6e8",
-        "cta_text_color": "#00192B",
+        "cta_text_color": "#00192b",
         "cta_font_size": 19,
         "cta_margin_top": 40,
         "guarantee_text": "30 day money back guarantee",
@@ -849,8 +848,8 @@
       "settings": {
         "heading": "<strong>CoolBro</strong> vs regular body wash",
         "heading_size": 36,
-        "bg_gradient_start": "#00192B",
-        "bg_gradient_end": "#003B65",
+        "bg_gradient_start": "#00192b",
+        "bg_gradient_end": "#003b65",
         "text_color": "#ffffff",
         "highlight_color": "#6fd6e8",
         "brand_name": "<strong>CoolBro</strong>",
@@ -869,8 +868,8 @@
         "cta_text": "Try it risk free",
         "cta_link": "#ProductInfo-template--29397627863375__main",
         "cta_height": 54,
-        "cta_bg_color": "#6FD6E8",
-        "cta_text_color": "#00192B",
+        "cta_bg_color": "#6fd6e8",
+        "cta_text_color": "#00192b",
         "cta_font_weight": "700",
         "note_text": "30 day money back guarantee",
         "padding_top": 36,
@@ -894,7 +893,7 @@
         "cta_link": "#ProductInfo-template--29397627863375__main",
         "cta_height": 50,
         "cta_bg_color": "#6fd6e8",
-        "cta_text_color": "#00192B",
+        "cta_text_color": "#00192b",
         "padding_top": 36
       }
     },
