@@ -135,9 +135,9 @@
             "title": "<strong>Un rituel adopté par des milliers de familles</strong>",
             "subtitle": "qui ont remplacé le plastique par le cuivre pur.",
             "badge_color": "#51af6f",
-            "image_1": "shopify://shop_images/AVNA_NT6_0320655c-43de-402d-8d42-1f35bd87f6b6.png",
-            "image_2": "shopify://shop_images/hf_20260302_081452_a175dc1f-3072-4dc9-b87f-87431d9253f1.png",
-            "image_3": "shopify://shop_images/hf_20260302_081452_a175dc1f-3072-4dc9-b87f-87431d9253f1.png"
+            "image_1": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/2.jpg",
+            "image_2": "https://cdn.shopify.com/s/files/1/0984/8930/3351/files/MonCuivre_4.png",
+            "image_3": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/MyTamra_2.jpg"
           }
         },
         "urgency_notice": {
@@ -162,7 +162,7 @@
           "settings": {
             "heading": "Description",
             "icon": "none",
-            "content": "<p>La gourde Cuivra™ est façonnée dans du <strong>cuivre pur massif 99,9%</strong>, martelé à la main, sans revêtement intérieur, sans plastique, sans peinture.</p><p style=\"text-align: center;\"><img src=\"https://cdn.shopify.com/s/files/1/1012/7110/9975/files/MyTamra_13.jpg\" alt=\"Gourde en cuivre pur Cuivra martelée main\" style=\"max-width:100%;\"></p><ul><li>Le cuivre est <strong>naturellement antibactérien</strong> : il purifie l'eau pendant qu'elle repose</li><li><strong>Zéro contact plastique</strong>, zéro microparticule relarguée</li><li>Chaque pièce est unique : le martelage est fait main</li><li>Un objet qui dure des années et <strong>embellit en vieillissant</strong></li></ul>",
+            "content": "<p>La gourde Cuivra™ est façonnée dans du <strong>cuivre pur massif 99,9%</strong>, martelé à la main, sans revêtement intérieur, sans plastique, sans peinture.</p><ul><li>Le cuivre est <strong>naturellement antibactérien</strong> : il purifie l'eau pendant qu'elle repose</li><li><strong>Zéro contact plastique</strong>, zéro microparticule relarguée</li><li>Chaque pièce est unique : le martelage est fait main</li><li>Un objet qui dure des années et <strong>embellit en vieillissant</strong></li></ul>",
             "page": ""
           }
         },
@@ -171,7 +171,7 @@
           "settings": {
             "heading": "Pourquoi vous en avez besoin",
             "icon": "none",
-            "content": "<p>Une bouteille d'eau en plastique, c'est plus de <strong>240 000 microparticules de plastique</strong>. Peu importe la marque. Elles ne se digèrent pas : elles s'accumulent.</p><p style=\"text-align: center;\"><img src=\"https://cdn.shopify.com/s/files/1/0984/8930/3351/files/MonCuivre_15.png\" alt=\"Le plastique libere des microparticules\" style=\"max-width:100%;\"></p><p>La gourde inox est neutre, c'est déjà mieux. Mais le cuivre fait plus que ne rien relarguer : <strong>il travaille pour vous</strong>. C'est l'effet oligodynamique, connu de la médecine ayurvédique depuis 5 000 ans et documenté par la science moderne : le cuivre neutralise naturellement les bactéries dans l'eau qui y repose.</p><p><strong>Votre eau mérite un contenant qui la purifie, pas un contenant qui la contamine.</strong></p>",
+            "content": "<p>Une bouteille d'eau en plastique, c'est plus de <strong>240 000 microparticules de plastique</strong>. Peu importe la marque. Elles ne se digèrent pas : elles s'accumulent.</p><p>La gourde inox est neutre, c'est déjà mieux. Mais le cuivre fait plus que ne rien relarguer : <strong>il travaille pour vous</strong>. C'est l'effet oligodynamique, connu de la médecine ayurvédique depuis 5 000 ans et documenté par la science moderne : le cuivre neutralise naturellement les bactéries dans l'eau qui y repose.</p><p><strong>Votre eau mérite un contenant qui la purifie, pas un contenant qui la contamine.</strong></p>",
             "page": ""
           }
         },
@@ -180,7 +180,7 @@
           "settings": {
             "heading": "Bénéfices ✨",
             "icon": "none",
-            "content": "<p>✓ <strong>Eau purifiée naturellement</strong> pendant qu'elle repose, sans filtre ni produit</p><p>✓ <strong>Zéro plastique, zéro toxine :</strong> cuivre pur, sans revêtement intérieur</p><p>✓ <strong>Un rituel bien-être quotidien :</strong> remplie le soir, savourée au réveil</p><p>✓ <strong>Un objet artisanal unique :</strong> martelage main, patine noble avec les années</p><p>✓ <strong>Fini les gourdes à remplacer :</strong> le cuivre massif dure des décennies</p><p style=\"text-align: center;\"><img src=\"https://cdn.shopify.com/s/files/1/1012/7110/9975/files/MyTamra_8_1e24394c-de37-4806-bd12-8a7c589313b5.jpg\" alt=\"Le rituel du matin avec la gourde en cuivre\" style=\"max-width:100%;\"></p>",
+            "content": "<p>✓ <strong>Eau purifiée naturellement</strong> pendant qu'elle repose, sans filtre ni produit</p><p>✓ <strong>Zéro plastique, zéro toxine :</strong> cuivre pur, sans revêtement intérieur</p><p>✓ <strong>Un rituel bien-être quotidien :</strong> remplie le soir, savourée au réveil</p><p>✓ <strong>Un objet artisanal unique :</strong> martelage main, patine noble avec les années</p><p>✓ <strong>Fini les gourdes à remplacer :</strong> le cuivre massif dure des décennies</p>",
             "page": ""
           }
         },
@@ -189,7 +189,7 @@
           "settings": {
             "heading": "Le rituel (conseils d'utilisation)",
             "icon": "none",
-            "content": "<p><strong>1.</strong> Remplissez la gourde le soir.</p><p><strong>2.</strong> Laissez le cuivre agir pendant la nuit (6 à 8 heures).</p><p><strong>3.</strong> Buvez au réveil, à jeun. C'est le rituel ayurvédique du Tamra Jal, vieux de 5 000 ans.</p><p style=\"text-align: center;\"><img src=\"https://cdn.shopify.com/s/files/1/1012/7110/9975/files/2.jpg\" alt=\"Le rituel du soir au matin\" style=\"max-width:100%;\"></p><p>Entretien : un demi-citron et une pincée de sel raviveront l'éclat du cuivre en 30 secondes. La patine qui se forme avec le temps est naturelle et recherchée.</p>",
+            "content": "<p><strong>1.</strong> Remplissez la gourde le soir.</p><p><strong>2.</strong> Laissez le cuivre agir pendant la nuit (6 à 8 heures).</p><p><strong>3.</strong> Buvez au réveil, à jeun. C'est le rituel ayurvédique du Tamra Jal, vieux de 5 000 ans.</p><p>Entretien : un demi-citron et une pincée de sel raviveront l'éclat du cuivre en 30 secondes. La patine qui se forme avec le temps est naturelle et recherchée.</p>",
             "page": ""
           }
         },
@@ -224,7 +224,7 @@
             "title_color": "#1a1a1a",
             "highlight_color": "#c2410c",
             "bg_color": "#ffe4cc",
-            "bg_image": "shopify://shop_images/drw1.png",
+            "bg_image": "https://cdn.shopify.com/s/files/1/0984/8930/3351/files/MonCuivre_15.png",
             "image_opacity": 10,
             "border_radius": 10,
             "heading_size": 28,
@@ -289,8 +289,8 @@
         "stat_JT8ghy": {
           "type": "stat",
           "settings": {
-            "percentage": 99.9,
-            "heading": "de cuivre pur massif",
+            "percentage": 99,
+            "heading": "de cuivre pur massif (99,9% exactement)",
             "caption": "sans revêtement, sans alliage douteux, sans peinture intérieure"
           }
         },
@@ -329,7 +329,7 @@
       "name": "Clinical proven",
       "settings": {
         "bg_color": "#431407",
-        "bg_image": "shopify://shop_images/dcp1.jpg",
+        "bg_image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/MyTamra_13.jpg",
         "image_opacity": 10,
         "text_color": "#ffffff",
         "percentage_color": "#fdba74",
@@ -353,7 +353,7 @@
         "card_1": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/dfc1.png",
+            "image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/MyTamra_13.jpg",
             "title": "<strong>Le Cuivre Pur</strong>",
             "text": "L'effet oligodynamique : les ions cuivre neutralisent naturellement les bactéries de l'eau qui repose. <strong>Sans filtre, sans cartouche, sans électricité.</strong>",
             "card_bg_color": ""
@@ -362,7 +362,7 @@
         "card_bYRYEb": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/dfc2.png",
+            "image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/MyTamra_8_1e24394c-de37-4806-bd12-8a7c589313b5.jpg",
             "title": "<strong>Le Martelage Main</strong>",
             "text": "Des heures de travail artisanal par pièce. Les reliefs sont profonds, uniques, <strong>impossibles à reproduire en usine</strong>. Votre gourde n'a pas de jumelle.",
             "card_bg_color": ""
@@ -371,7 +371,7 @@
         "card_GPx6MR": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/dfc3.png",
+            "image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/MyTamra_1_3860f3de-527c-4425-9a5e-c2b1bb9e6727.jpg",
             "title": "<strong>L'Intérieur Nu</strong>",
             "text": "Aucun revêtement, aucun vernis, aucun film : votre eau ne touche <strong>que le cuivre pur</strong>. C'est toute la différence avec les gourdes \"cuivrées\".",
             "card_bg_color": ""
@@ -380,7 +380,7 @@
         "card_xANGWn": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/dfc4.png",
+            "image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/2.jpg",
             "title": "<strong>La Patine Vivante</strong>",
             "text": "Le cuivre vit : il fonce, se nuance, raconte vos mois d'utilisation. <strong>Un demi-citron le ramène à l'éclat du premier jour</strong>, quand vous le souhaitez.",
             "card_bg_color": ""
@@ -414,61 +414,61 @@
         "ticker_1": {
           "type": "ticker_image",
           "settings": {
-            "image": "shopify://shop_images/dts1_49d2b79c-bfee-4401-ae42-1cc6f04ad95f.png"
+            "image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/MyTamra_13.jpg"
           }
         },
         "ticker_image_pGm3ig": {
           "type": "ticker_image",
           "settings": {
-            "image": "shopify://shop_images/dts2_bb044f24-db2e-4223-b4e8-b57d009e5295.png"
+            "image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/MyTamra_8_1e24394c-de37-4806-bd12-8a7c589313b5.jpg"
           }
         },
         "ticker_image_DeKwWj": {
           "type": "ticker_image",
           "settings": {
-            "image": "shopify://shop_images/dts3_e58c285f-45b1-4933-ba09-ea00437d9ae8.png"
+            "image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/MyTamra_1_3860f3de-527c-4425-9a5e-c2b1bb9e6727.jpg"
           }
         },
         "ticker_image_ziYp3P": {
           "type": "ticker_image",
           "settings": {
-            "image": "shopify://shop_images/dts4_1292ac0b-f648-4ff3-ae77-016cd785dcb9.png"
+            "image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/2.jpg"
           }
         },
         "ticker_image_p4UjJw": {
           "type": "ticker_image",
           "settings": {
-            "image": "shopify://shop_images/dts5_b1d5e285-0d09-4f0c-aaa7-06abd385ba23.png"
+            "image": "https://cdn.shopify.com/s/files/1/0984/8930/3351/files/MonCuivre_15.png"
           }
         },
         "ticker_image_AGTRdD": {
           "type": "ticker_image",
           "settings": {
-            "image": "shopify://shop_images/dts6_23472b45-967b-466d-94ec-bd4a39329e36.png"
+            "image": "https://cdn.shopify.com/s/files/1/0984/8930/3351/files/MonCuivre_4.png"
           }
         },
         "ticker_image_eQnJRE": {
           "type": "ticker_image",
           "settings": {
-            "image": "shopify://shop_images/dts7_027feb78-7ba0-4008-8772-7eca00292153.png"
+            "image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/MyTamra_2.jpg"
           }
         },
         "ticker_image_wgRraX": {
           "type": "ticker_image",
           "settings": {
-            "image": "shopify://shop_images/dts8_79011c57-9040-4c11-8892-9f9b21512415.png"
+            "image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/creas_MyTamra_1.jpg"
           }
         },
         "ticker_image_E7knVa": {
           "type": "ticker_image",
           "settings": {
-            "image": "shopify://shop_images/dts9_3e7dd178-39ba-4162-b6ee-83043c7062b9.png"
+            "image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/5.jpg"
           }
         },
         "ticker_image_3CWTUR": {
           "type": "ticker_image",
           "settings": {
-            "image": "shopify://shop_images/dts10.png"
+            "image": "https://cdn.shopify.com/s/files/1/0984/8930/3351/files/MonCuivre_2.png"
           }
         },
         "review_1": {
@@ -478,7 +478,7 @@
             "quote": "\"Dès que je l'ai tenue en main, j'ai compris.\"",
             "details": "Le cuivre est dense, les reliefs du martelage sont profonds, on sent le travail derrière. Et l'eau du matin a vraiment un autre goût, plus douce. C'est devenu mon premier geste de la journée.",
             "author_name": "ISABELLE P.",
-            "author_image": "shopify://shop_images/dts11.png",
+            "author_image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/MyTamra_13.jpg",
             "tag_1": "Artisanat",
             "tag_2": "Goût de l'eau",
             "card_bg_color": ""
@@ -491,7 +491,7 @@
             "quote": "\"Offerte à ma mère pour ses 60 ans, elle ne jure plus que par elle.\"",
             "details": "Je cherchais un cadeau qui ait du sens. Le rituel du matin est devenu son moment à elle : elle la remplit le soir, la pose sur la table de nuit, et boit au réveil. Elle dit qu'elle attend ce moment.",
             "author_name": "CAMILLE R.",
-            "author_image": "shopify://shop_images/dts10.png",
+            "author_image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/MyTamra_8_1e24394c-de37-4806-bd12-8a7c589313b5.jpg",
             "tag_1": "Cadeau",
             "tag_2": "Rituel du matin",
             "card_bg_color": ""
@@ -504,7 +504,7 @@
             "quote": "\"J'avais acheté une gourde 'cuivre' pas chère avant. Rien à voir.\"",
             "details": "La première était cuivrée à l'extérieur et douteuse à l'intérieur. Ici c'est du cuivre massif, nu, dedans comme dehors. Le poids, le son, la matière : c'est une autre catégorie d'objet.",
             "author_name": "PIERRE M.",
-            "author_image": "shopify://shop_images/dts8_79011c57-9040-4c11-8892-9f9b21512415.png",
+            "author_image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/MyTamra_1_3860f3de-527c-4425-9a5e-c2b1bb9e6727.jpg",
             "tag_1": "Cuivre massif",
             "tag_2": "Qualité",
             "card_bg_color": ""
@@ -517,7 +517,7 @@
             "quote": "\"La patine après deux mois est magnifique.\"",
             "details": "Je m'inquiétais de voir le cuivre foncer, en fait c'est ce que je préfère : la gourde raconte quelque chose. Et quand je veux la raviver, citron et sel, 30 secondes, elle brille comme au premier jour.",
             "author_name": "NADINE G.",
-            "author_image": "shopify://shop_images/dts5_b1d5e285-0d09-4f0c-aaa7-06abd385ba23.png",
+            "author_image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/2.jpg",
             "tag_1": "Patine",
             "tag_2": "Entretien facile",
             "card_bg_color": ""
@@ -530,7 +530,7 @@
             "quote": "\"Plus une seule bouteille en plastique à la maison.\"",
             "details": "On a pris trois gourdes avec la remise, une chacun. Six mois plus tard on n'a littéralement plus acheté un pack d'eau. Le budget bouteilles est devenu zéro et on boit une eau qui a reposé dans le cuivre.",
             "author_name": "JULIEN B.",
-            "author_image": "shopify://shop_images/dts2_bb044f24-db2e-4223-b4e8-b57d009e5295.png",
+            "author_image": "https://cdn.shopify.com/s/files/1/0984/8930/3351/files/MonCuivre_15.png",
             "tag_1": "Zéro plastique",
             "tag_2": "Toute la famille",
             "card_bg_color": ""
@@ -616,7 +616,7 @@
       "settings": {
         "heading": "<strong>Une eau plus pure.</strong> Tous les matins.",
         "subheading": "Du premier remplissage au rituel installé : ce que Cuivra™ change.",
-        "product_image": "shopify://shop_images/huuha_bgcircles.png",
+        "product_image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/MyTamra_13.jpg",
         "bg_color": "#431407",
         "bg_color_bottom": "#c2410c",
         "text_color": "#ffffff",
@@ -635,7 +635,7 @@
         "pb_1": {
           "type": "benefit",
           "settings": {
-            "image": "shopify://shop_images/dhiw1.png",
+            "image": "https://cdn.shopify.com/s/files/1/0984/8930/3351/files/MonCuivre_15.png",
             "title": "Le soir",
             "description": "Vous remplissez",
             "answer": "Eau du robinet ou filtrée, la gourde se remplit en 10 secondes et se pose sur la table de nuit ou le plan de travail."
@@ -644,7 +644,7 @@
         "pb_2": {
           "type": "benefit",
           "settings": {
-            "image": "shopify://shop_images/dhiw2.png",
+            "image": "https://cdn.shopify.com/s/files/1/0984/8930/3351/files/MonCuivre_4.png",
             "title": "La nuit",
             "description": "Le cuivre agit",
             "answer": "Pendant 6 à 8 heures, les ions cuivre neutralisent naturellement les bactéries : c'est l'effet oligodynamique, documenté par la microbiologie."
@@ -653,7 +653,7 @@
         "pb_3": {
           "type": "benefit",
           "settings": {
-            "image": "shopify://shop_images/dhiw3.png",
+            "image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/MyTamra_2.jpg",
             "title": "Au réveil",
             "description": "Vous buvez",
             "answer": "Une eau reposée, adoucie, bue à jeun : le rituel ayurvédique du Tamra Jal, dans sa forme la plus simple."
@@ -662,7 +662,7 @@
         "pb_4": {
           "type": "benefit",
           "settings": {
-            "image": "shopify://shop_images/dhiw4.png",
+            "image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/creas_MyTamra_1.jpg",
             "title": "Avec les années",
             "description": "L'objet vit",
             "answer": "Le cuivre massif ne s'use pas : il se patine. Un demi-citron ravive l'éclat quand vous voulez. La gourde vous suivra des décennies."
@@ -802,7 +802,7 @@
         ".wj-cta-button {color: black;}"
       ],
       "settings": {
-        "brand_image": "shopify://shop_images/dwj1.png",
+        "brand_image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/MyTamra_8_1e24394c-de37-4806-bd12-8a7c589313b5.jpg",
         "heading": "<strong>Vos premières semaines</strong> avec Cuivra™",
         "description": "Un rituel de 10 secondes par jour. Voilà comment il s'installe :",
         "highlight_color": "#c2410c",
@@ -823,7 +823,7 @@
         "reason_card_XmWM9Y": {
           "type": "reason_card",
           "settings": {
-            "image": "shopify://shop_images/drw2_0cb6b337-84f9-414b-8f31-4f78d585c11f.png",
+            "image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/MyTamra_1_3860f3de-527c-4425-9a5e-c2b1bb9e6727.jpg",
             "label": "Raison 1",
             "heading": "Elle travaille, les autres se contentent de contenir",
             "details": "<p>L'inox est neutre. Le plastique contamine. Le cuivre, lui, purifie activement l'eau qui repose à son contact : c'est le seul contenant du marché qui améliore ce qu'on y verse.</p>"
@@ -832,7 +832,7 @@
         "reason_card_493cPn": {
           "type": "reason_card",
           "settings": {
-            "image": "shopify://shop_images/drw2_0cb6b337-84f9-414b-8f31-4f78d585c11f.png",
+            "image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/2.jpg",
             "label": "Raison 2",
             "heading": "5 000 ans de recul, pas une tendance",
             "details": "<p>Le Tamra Jal traverse les siècles pendant que les tendances santé passent. Dans un monde saturé de gadgets bien-être, un rituel millénaire confirmé par la science moderne est une valeur sûre.</p>"
@@ -841,7 +841,7 @@
         "reason_card_HHJT9J": {
           "type": "reason_card",
           "settings": {
-            "image": "shopify://shop_images/drw3_189b4c66-d713-4e14-9850-187be932002e.png",
+            "image": "https://cdn.shopify.com/s/files/1/0984/8930/3351/files/MonCuivre_15.png",
             "label": "Raison 3",
             "heading": "Du cuivre pur jusqu'au fond",
             "details": "<p>Beaucoup de gourdes \"cuivre\" sont des placages sur de l'inox, avec vernis intérieur. La Cuivra™ est massive et nue : votre eau ne touche que du cuivre 99,9%, dedans comme dehors.</p>"
@@ -850,7 +850,7 @@
         "reason_card_VCdJrA": {
           "type": "reason_card",
           "settings": {
-            "image": "shopify://shop_images/drw4_3ece4dd2-fe65-4f8e-92f8-9ff6a916fd65.png",
+            "image": "https://cdn.shopify.com/s/files/1/0984/8930/3351/files/MonCuivre_4.png",
             "label": "Raison 4",
             "heading": "Un objet, pas un consommable",
             "details": "<p>Martelée à la main, unique, faite pour durer des décennies et embellir en vieillissant. Pendant ce temps, les gourdes classiques se rayent, se cabossent et se remplacent.</p>"
@@ -859,7 +859,7 @@
         "reason_card_Np8tDa": {
           "type": "reason_card",
           "settings": {
-            "image": "shopify://shop_images/drw5.png",
+            "image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/MyTamra_2.jpg",
             "label": "Raison 5",
             "heading": "30 jours pour installer le rituel",
             "details": "<p>Satisfait ou remboursé pendant un mois : le temps d'adopter le geste du soir et le verre du matin. Si le rituel ne prend pas, retour et remboursement intégral.</p>"
@@ -962,7 +962,7 @@
         "highlight_color": "#fdba74",
         "brand_name": "<strong>Cuivra™</strong>",
         "brand_name_color": "#ffffff",
-        "brand_image": "shopify://shop_images/huuha_packaging_transparent.png",
+        "brand_image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/MyTamra_13.jpg",
         "brand_col_color": "#c2410c",
         "brand_icon_color": "#ffffff",
         "competitor_label": "<strong>Plastique et inox</strong>",
@@ -996,7 +996,7 @@
         "heading": "Satisfait ou remboursé 30 jours",
         "heading_size": 23,
         "description": "Un mois entier pour adopter le geste du soir et le verre du matin. Si le rituel ne vous convainc pas, renvoyez la gourde et nous vous remboursons intégralement.",
-        "image": "shopify://shop_images/guarantee_54b87e0c-6c47-42cc-b06a-85d6cf84039b.png",
+        "image": "https://cdn.shopify.com/s/files/1/1012/7110/9975/files/MyTamra_1_3860f3de-527c-4425-9a5e-c2b1bb9e6727.jpg",
         "bg_color": "#fff5ec",
         "accent_color": "#c2410c",
         "text_color": "",
@@ -1053,7 +1053,7 @@
           "settings": {
             "heading": "Le cuivre qui fonce, c'est normal ?",
             "icon": "none",
-            "row_content": "<p>Oui, c'est la <strong>patine naturelle</strong> du cuivre pur : elle prouve d'ailleurs que votre gourde n'est ni vernie ni plaquée. Pour retrouver l'éclat du premier jour : un demi-citron et une pincée de sel, 30 secondes.</p><p style=\"text-align: center;\"><img src=\"https://cdn.shopify.com/s/files/1/0984/8930/3351/files/MonCuivre_4.png\" alt=\"Entretien de la gourde au citron\" style=\"max-width:100%;\"></p>",
+            "row_content": "<p>Oui, c'est la <strong>patine naturelle</strong> du cuivre pur : elle prouve d'ailleurs que votre gourde n'est ni vernie ni plaquée. Pour retrouver l'éclat du premier jour : un demi-citron et une pincée de sel, 30 secondes.</p>",
             "page": ""
           }
         },
