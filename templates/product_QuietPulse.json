@@ -1,0 +1,1150 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "star_rating": {
+          "type": "star_rating",
+          "settings": {
+            "rating": 4.8,
+            "text": "[Disabled until real reviews exist]",
+            "star_color": "#2563eb",
+            "star_bg_color": "#ececec",
+            "star_size": 1.3,
+            "star_gap": 0.4,
+            "alignment": "flex-start",
+            "text_color": "#121212",
+            "highlight_color": "#000000"
+          },
+          "disabled": true
+        },
+        "statement_tcR3Ug": {
+          "type": "statement",
+          "settings": {
+            "subtitle": "For the 6-in-10 households that sleep next to a snorer:",
+            "title": "Snoring, Retrained at the Source — Silently, From the Wrist",
+            "title_size": 26
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {}
+        },
+        "benefits_list": {
+          "type": "benefits_list",
+          "settings": {
+            "text_color": "#121212",
+            "icon_color": "#2563eb",
+            "benefit_1": "Quiets Snoring",
+            "benefit_2": "Silent for the Room",
+            "benefit_3": "No Mask or Mouthpiece",
+            "benefit_4": "Any Sleep Position",
+            "benefit_5": "Sleep Data App",
+            "benefit_6": "USB Rechargeable"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_color": "#2563eb",
+            "compare_price_color": "",
+            "sale_badge_text": "Launch Sale — Bundle & Save",
+            "sale_badge_weight": "600",
+            "price_font_size": 2,
+            "price_font_weight": "700",
+            "compare_font_size": 1.8
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false,
+            "button_font_size": 1.8,
+            "button_font_weight": "700",
+            "button_text_transform": "uppercase"
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "function": "link",
+            "button_link": "",
+            "display_when": "after_scroll",
+            "button_label": "ADD TO CART",
+            "enable_custom_btn_color": false,
+            "custom_btn_color": "#dd1d1d",
+            "color_scheme": "scheme-1",
+            "star_color": "#2563eb",
+            "stars_label": "30-Night Money-Back Guarantee",
+            "button_font_size": 1.8,
+            "button_font_weight": "700",
+            "button_text_transform": "uppercase",
+            "desktop_show_image": true,
+            "desktop_show_title": true,
+            "desktop_rating_stars": false,
+            "desktop_show_price": false,
+            "desktop_show_sale_badge": false,
+            "desktop_variant_picker": true,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": true,
+            "mobile_show_title": true,
+            "mobile_rating_stars": false,
+            "mobile_show_price": false,
+            "mobile_show_sale_badge": false,
+            "mobile_variant_picker": true,
+            "mobile_full_button_width": false,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        },
+        "trust_microcopy": {
+          "type": "trust_microcopy",
+          "settings": {
+            "font_size": 1.6,
+            "font_size_2_items": 1.4,
+            "bg_color": "",
+            "text_color": "#121212",
+            "text_1": "30-Night Money-Back Guarantee",
+            "icon_name_1": "verified_user",
+            "icon_image_1": "shopify://shop_images/microcopy1.svg",
+            "text_2": "Free Tracked Shipping (3–5 Days)",
+            "icon_name_2": "local_shipping",
+            "icon_image_2": "shopify://shop_images/microcopy2.svg"
+          }
+        },
+        "social_proof_banner": {
+          "type": "social_proof_banner",
+          "settings": {
+            "text_color": "#121212",
+            "bg_color": "#fff0f6",
+            "border_radius": 50,
+            "title": "<strong>[Disabled]</strong>",
+            "subtitle": "[Enable with real customer content once reviews exist]",
+            "badge_color": "#51af6f",
+            "image_1": "shopify://shop_images/AVNA_NT6_0320655c-43de-402d-8d42-1f35bd87f6b6.png",
+            "image_2": "shopify://shop_images/hf_20260302_081452_a175dc1f-3072-4dc9-b87f-87431d9253f1.png",
+            "image_3": "shopify://shop_images/hf_20260302_081452_a175dc1f-3072-4dc9-b87f-87431d9253f1.png"
+          },
+          "disabled": true
+        },
+        "urgency_notice": {
+          "type": "urgency_notice",
+          "settings": {
+            "line_1": "<p><strong>Launch batch notice</strong></p>",
+            "line_2": "<p>Launch pricing applies to the current batch only, and the couple's bundle is always the first to sell through. If it shows in stock, it's available. <strong>PS:</strong> QuietPulse™ is only sold here.</p>",
+            "font_size": 1.2,
+            "bg_color": "#fef2f2",
+            "text_color": "#9f3f3f",
+            "border_width": 2,
+            "border_style": "dashed",
+            "border_color": "#fca5a5",
+            "border_radius": 3,
+            "icon_name": "error",
+            "icon_color": "#d61717",
+            "icon_scale": 1.2
+          }
+        },
+        "collapsible_tab_mjEF8T": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Description",
+            "icon": "none",
+            "content": "<p>QuietPulse™ is a slim wrist-worn band that <strong>detects snoring the moment it starts and gently pulses — cueing your body to shift position and your airway to reopen.</strong></p><p>No mask. No mouthpiece. Nothing on your face. You don't wake up, and your partner never hears a thing.</p><ul><li>Sensors detect the <strong>sound and rhythm</strong> of snoring</li><li>Silent vibration pulses <strong>escalate gently</strong> until you shift</li><li>Companion app shows <strong>sleep, snore, and intervention data</strong> night by night</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_gBgAbF": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Why you need QuietPulse™",
+            "icon": "none",
+            "content": "<p>If you're reading this, you've probably already tried things. The strips that peel off by 2 a.m. The mouthpiece that made your jaw ache. The chin strap you refused to be seen in.</p><p>Here's why none of it stuck: those products fight the <strong>noise</strong>, or force your body into one position all night. They treat the symptom — and they're uncomfortable enough that you quit before they help.</p><p><strong>QuietPulse™ takes the opposite approach: it retrains the habit instead of muzzling it.</strong></p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_akEwJj": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Benefits 😴",
+            "icon": "none",
+            "content": "<p>✓ Quieter nights <strong>from the first week</strong></p><p>✓ Both of you <strong>fall asleep — and stay asleep</strong></p><p>✓ <strong>Silent for the room</strong> — felt only on your wrist</p><p>✓ Comfortable enough <strong>to forget you're wearing it</strong></p><p>✓ Ends the 3 a.m. elbow and the sofa exile</p><p>✓ <strong>Reusable every night</strong> — no refills, no consumables</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_MTCgw9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to use it",
+            "icon": "none",
+            "content": "<p><strong>1.</strong> Charge it with the included USB cable.</p><p><strong>2.</strong> Wear it like a watch and switch it ON.</p><p><strong>3.</strong> Sleep. It listens, nudges, and adapts — automatically.</p><p>Optional: sync the app to see your night-by-night data and tune sensitivity and pulse intensity.</p><p>Most people stop noticing the band by night two or three.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_FPPE7p": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do you offer a guarantee?",
+            "icon": "none",
+            "content": "<p>Yes — every order is covered by a <strong>30-night money-back guarantee.</strong></p><p>Snoring has several causes, and no device can honestly promise every case. That's exactly what the guarantee is for: if your nights aren't quieter after a month in your own bed, contact us and we refund you in full. No hoops.</p>",
+            "page": ""
+          }
+        },
+        "trust_card_v2_BX8HtK": {
+          "type": "trust_card_v2",
+          "settings": {
+            "heading": "<strong>Why QuietPulse™ Beats</strong> Everything You've Tried?",
+            "feature_icon_1": "shopify://shop_images/trust_card_v2_1.svg",
+            "feature_text_1": "Silent Vibration Pulse",
+            "feature_icon_2": "shopify://shop_images/trust_card_v2_2.svg",
+            "feature_text_2": "Auto-Adaptive Intensity",
+            "feature_icon_3": "shopify://shop_images/trust_card_v2_3.svg",
+            "feature_text_3": "Night-by-Night Sleep Data",
+            "feature_icon_4": "shopify://shop_images/trust_card_v2_4.svg",
+            "feature_text_4": "USB Rechargeable",
+            "item_1": "No Mask",
+            "item_2": "No Mouthpiece",
+            "item_3": "No Strips",
+            "item_4": "Any Sleep Position",
+            "item_5": "Reusable Nightly",
+            "item_6": "Travel-Light",
+            "text_color": "#000000",
+            "title_color": "#000000",
+            "highlight_color": "#2563eb",
+            "bg_color": "#dbeafe",
+            "bg_image": "shopify://shop_images/drw1.png",
+            "image_opacity": 10,
+            "border_radius": 10,
+            "heading_size": 28,
+            "feature_text_size": 11,
+            "item_text_size": 16
+          }
+        },
+        "testimonial_videos_block": {
+          "type": "testimonial_videos",
+          "settings": {
+            "heading": "[Disabled — real customer videos go here]",
+            "heading_size": 23,
+            "video_1": "shopify://files/videos/avena_d4.mp4",
+            "video_2": "shopify://files/videos/avena_d4.mp4",
+            "video_3": "shopify://files/videos/avena_d4.mp4"
+          },
+          "disabled": true
+        }
+      },
+      "block_order": [
+        "star_rating",
+        "statement_tcR3Ug",
+        "title",
+        "benefits_list",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "sticky_cart",
+        "trust_microcopy",
+        "social_proof_banner",
+        "urgency_notice",
+        "collapsible_tab_mjEF8T",
+        "collapsible_tab_gBgAbF",
+        "collapsible_tab_akEwJj",
+        "collapsible_tab_MTCgw9",
+        "collapsible_tab_FPPE7p",
+        "trust_card_v2_BX8HtK",
+        "testimonial_videos_block"
+      ],
+      "custom_css": [
+        ".urgency-notice {margin-bottom: 15px;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "mobile_thumbnails": "show",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "clinical_proven_XJiV6J": {
+      "type": "clinical-proven",
+      "blocks": {
+        "stat_JT8ghy": {
+          "type": "stat",
+          "settings": {
+            "percentage": 60,
+            "heading": "of adults snore",
+            "caption": "almost none of them hear it — the person beside them does"
+          }
+        },
+        "stat_W9mrjV": {
+          "type": "stat",
+          "settings": {
+            "percentage": 100,
+            "heading": "<strong>silent to the room</strong>",
+            "caption": "the pulse is felt only by the wearer"
+          }
+        },
+        "stat_7gdyWK": {
+          "type": "stat",
+          "settings": {
+            "percentage": 100,
+            "heading": "<strong>face-free</strong>",
+            "caption": "no mask, no mouthpiece, no strips — just a wristband"
+          }
+        }
+      },
+      "block_order": [
+        "stat_JT8ghy",
+        "stat_W9mrjV",
+        "stat_7gdyWK"
+      ],
+      "custom_css": [],
+      "name": "Clinical proven",
+      "settings": {
+        "bg_color": "#0f172a",
+        "bg_image": "shopify://shop_images/dcp1.jpg",
+        "image_opacity": 10,
+        "text_color": "#000000",
+        "percentage_color": "#60a5fa",
+        "highlight_color": "#60a5fa",
+        "heading": "<strong>The Numbers</strong> Behind Quiet Nights",
+        "heading_size": 31,
+        "subtitle": "Snoring is one of the most common sleep problems there is. Solving it without a mask is the rare part.",
+        "cta_function": "link",
+        "cta_text": "Try It for 30 Nights",
+        "cta_url": "",
+        "cta_bg_color": "#ffd600",
+        "cta_text_color": "#000000",
+        "guarantee_text": "30-night money back guarantee",
+        "padding_top": 84,
+        "padding_bottom": 80
+      }
+    },
+    "feature_cards": {
+      "type": "feature-cards",
+      "blocks": {
+        "card_1": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/dfc1.png",
+            "title": "<strong>The Sensors</strong>",
+            "text": "Motion and sound sensors recognize the <strong>pattern of snoring</strong> — not your partner rolling over, not the fan.",
+            "card_bg_color": ""
+          }
+        },
+        "card_bYRYEb": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/dfc2.png",
+            "title": "<strong>The Pulse</strong>",
+            "text": "A soft vibration cues you to shift <strong>without fully waking you</strong> — the same way you'd move if your arm went numb.",
+            "card_bg_color": ""
+          }
+        },
+        "card_GPx6MR": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/dfc3.png",
+            "title": "<strong>The Adaptive Loop</strong>",
+            "text": "Still snoring? The pulse steps up <strong>one gentle level at a time</strong> until your position changes — then eases back off.",
+            "card_bg_color": ""
+          }
+        },
+        "card_xANGWn": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/dfc4.png",
+            "title": "<strong>The App</strong>",
+            "text": "Sleep, snore, and intervention data, night by night — <strong>watch the graph drop</strong> week after week.",
+            "card_bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_1",
+        "card_bYRYEb",
+        "card_GPx6MR",
+        "card_xANGWn"
+      ],
+      "settings": {
+        "heading": "What's Inside <strong>the Band</strong>",
+        "highlight_color": "#2563eb",
+        "card_title_size": 22,
+        "card_title_highlight": "#2563eb",
+        "section_bg_color": "",
+        "text_alignment": "center",
+        "card_border_radius": 12,
+        "image_border_radius": 0.8,
+        "mobile_layout": "slider",
+        "pagination_type": "both",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "testimonial_slider": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "ticker_1": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/dts1_49d2b79c-bfee-4401-ae42-1cc6f04ad95f.png"
+          }
+        },
+        "ticker_image_pGm3ig": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/dts2_bb044f24-db2e-4223-b4e8-b57d009e5295.png"
+          }
+        },
+        "ticker_image_DeKwWj": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/dts3_e58c285f-45b1-4933-ba09-ea00437d9ae8.png"
+          }
+        },
+        "ticker_image_ziYp3P": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/dts4_1292ac0b-f648-4ff3-ae77-016cd785dcb9.png"
+          }
+        },
+        "ticker_image_p4UjJw": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/dts5_b1d5e285-0d09-4f0c-aaa7-06abd385ba23.png"
+          }
+        },
+        "ticker_image_AGTRdD": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/dts6_23472b45-967b-466d-94ec-bd4a39329e36.png"
+          }
+        },
+        "ticker_image_eQnJRE": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/dts7_027feb78-7ba0-4008-8772-7eca00292153.png"
+          }
+        },
+        "ticker_image_wgRraX": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/dts8_79011c57-9040-4c11-8892-9f9b21512415.png"
+          }
+        },
+        "ticker_image_E7knVa": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/dts9_3e7dd178-39ba-4162-b6ee-83043c7062b9.png"
+          }
+        },
+        "ticker_image_3CWTUR": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/dts10.png"
+          }
+        },
+        "review_1": {
+          "type": "review",
+          "settings": {
+            "rating": "4.9",
+            "quote": "\"[PLACEHOLDER — real customer review]\"",
+            "details": "[Replace with a real customer review before enabling this section]",
+            "author_name": "—",
+            "author_image": "shopify://shop_images/dts11.png",
+            "tag_1": "",
+            "tag_2": "",
+            "card_bg_color": ""
+          }
+        },
+        "review_2": {
+          "type": "review",
+          "settings": {
+            "rating": "5.0",
+            "quote": "\"[PLACEHOLDER — real customer review]\"",
+            "details": "[Replace with a real customer review before enabling this section]",
+            "author_name": "—",
+            "author_image": "shopify://shop_images/dts10.png",
+            "tag_1": "",
+            "tag_2": "",
+            "card_bg_color": ""
+          }
+        },
+        "review_3": {
+          "type": "review",
+          "settings": {
+            "rating": "4.9",
+            "quote": "\"[PLACEHOLDER — real customer review]\"",
+            "details": "[Replace with a real customer review before enabling this section]",
+            "author_name": "—",
+            "author_image": "shopify://shop_images/dts8_79011c57-9040-4c11-8892-9f9b21512415.png",
+            "tag_1": "",
+            "tag_2": "",
+            "card_bg_color": ""
+          }
+        },
+        "review_4": {
+          "type": "review",
+          "settings": {
+            "rating": "5.0",
+            "quote": "\"[PLACEHOLDER — real customer review]\"",
+            "details": "[Replace with a real customer review before enabling this section]",
+            "author_name": "—",
+            "author_image": "shopify://shop_images/dts5_b1d5e285-0d09-4f0c-aaa7-06abd385ba23.png",
+            "tag_1": "",
+            "tag_2": "",
+            "card_bg_color": ""
+          }
+        },
+        "review_5": {
+          "type": "review",
+          "settings": {
+            "rating": "4.8",
+            "quote": "\"[PLACEHOLDER — real customer review]\"",
+            "details": "[Replace with a real customer review before enabling this section]",
+            "author_name": "—",
+            "author_image": "shopify://shop_images/dts2_bb044f24-db2e-4223-b4e8-b57d009e5295.png",
+            "tag_1": "",
+            "tag_2": "",
+            "card_bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "ticker_1",
+        "ticker_image_pGm3ig",
+        "ticker_image_DeKwWj",
+        "ticker_image_ziYp3P",
+        "ticker_image_p4UjJw",
+        "ticker_image_AGTRdD",
+        "ticker_image_eQnJRE",
+        "ticker_image_wgRraX",
+        "ticker_image_E7knVa",
+        "ticker_image_3CWTUR",
+        "review_1",
+        "review_2",
+        "review_3",
+        "review_4",
+        "review_5"
+      ],
+      "custom_css": [
+        ".ts-review__quote {font-weight: bold;}"
+      ],
+      "settings": {
+        "heading": "[Disabled] Customer Reviews",
+        "subheading": "Enable this section when real reviews exist",
+        "highlight_color": "#2563eb",
+        "star_color": "#2563eb",
+        "verified_color": "#2563eb",
+        "tag_color": "#2563eb",
+        "tag_bg_color": "#eff6ff",
+        "ticker_speed": 30,
+        "section_bg_color": "#eff6ff",
+        "padding_top": 36,
+        "padding_bottom": 36
+      },
+      "disabled": true
+    },
+    "benefits_showcase": {
+      "type": "benefits-showcase",
+      "blocks": {
+        "benefit_1": {
+          "type": "benefit",
+          "settings": {
+            "icon_name": "health_and_safety",
+            "custom_icon": "shopify://shop_images/benefits_showcase1.png",
+            "title": "Quieter Nights"
+          }
+        },
+        "benefit_2": {
+          "type": "benefit",
+          "settings": {
+            "icon_name": "science",
+            "custom_icon": "shopify://shop_images/benefits_showcase2.png",
+            "title": "Deeper Sleep"
+          }
+        },
+        "benefit_3": {
+          "type": "benefit",
+          "settings": {
+            "icon_name": "bolt",
+            "custom_icon": "shopify://shop_images/benefits_showcase3.png",
+            "title": "No More 3 a.m. Elbow"
+          }
+        },
+        "benefit_4": {
+          "type": "benefit",
+          "settings": {
+            "icon_name": "spa",
+            "custom_icon": "shopify://shop_images/benefits_showcase4.png",
+            "title": "Wake Up Rested"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_1",
+        "benefit_2",
+        "benefit_3",
+        "benefit_4"
+      ],
+      "settings": {
+        "heading": "<strong>Sleep Better.</strong> Both of You.",
+        "subheading": "From the first quiet week to mornings that feel different — here's what QuietPulse™ changes.",
+        "product_image": "shopify://shop_images/huuha_bgcircles.png",
+        "bg_color": "#0f172a",
+        "bg_color_bottom": "#2563eb",
+        "text_color": "#ffffff",
+        "highlight_color": "#60a5fa",
+        "subheading_color": "",
+        "heading_size": 3,
+        "subheading_size": 1.5,
+        "benefit_size": 1.8,
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
+    "proven_benefits": {
+      "type": "proven-benefits",
+      "blocks": {
+        "pb_1": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/dhiw1.png",
+            "title": "It Listens",
+            "description": "Sensors on watch",
+            "answer": "Motion and sound sensors pick up the pattern of snoring the moment it starts."
+          }
+        },
+        "pb_2": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/dhiw2.png",
+            "title": "It Nudges",
+            "description": "A silent pulse",
+            "answer": "A soft vibration cues you to shift position — you half-consciously move, and the airway reopens."
+          }
+        },
+        "pb_3": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/dhiw3.png",
+            "title": "It Adapts",
+            "description": "Escalates gently",
+            "answer": "The pulse steps up one level at a time until your position changes, then eases back off for the rest of the night."
+          }
+        },
+        "pb_4": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/dhiw4.png",
+            "title": "It Reports",
+            "description": "Proof on a graph",
+            "answer": "The app logs snoring episodes and interventions night by night — you're not guessing whether it works, you watch the trend."
+          }
+        }
+      },
+      "block_order": [
+        "pb_1",
+        "pb_2",
+        "pb_3",
+        "pb_4"
+      ],
+      "settings": {
+        "heading": "<strong>How It Works.</strong> Three Steps, All Silent.",
+        "subheading": "Snoring happens when your airway muscles relax too far. <strong>QuietPulse™ uses your body's own response to gentle touch cues</strong> — without fully waking you.",
+        "highlight_color": "#2563eb",
+        "bg_color": "#eff6ff",
+        "cta_text": "Get QuietPulse™",
+        "cta_link": "",
+        "cta_note": "30-night money back guarantee",
+        "cta_note_icon_name": "verified_user",
+        "cta_height": 40,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "ticker_bar_E76PpF": {
+      "type": "ticker-bar",
+      "blocks": {
+        "ticker_item_HqnLzq": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Quiet the Snoring",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_k8LYdF": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Silent for the Room",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_TGPdcq": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "No Mask",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_R9aqEp": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "No Mouthpiece",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_EdVTLR": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Any Sleep Position",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_WW7aKr": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "30-Night Guarantee",
+            "icon_name": "verified"
+          }
+        }
+      },
+      "block_order": [
+        "ticker_item_HqnLzq",
+        "ticker_item_k8LYdF",
+        "ticker_item_TGPdcq",
+        "ticker_item_R9aqEp",
+        "ticker_item_EdVTLR",
+        "ticker_item_WW7aKr"
+      ],
+      "name": "Ticker bar",
+      "settings": {
+        "background_color": "#2563eb",
+        "text_color": "#ffffff",
+        "border_position": "none",
+        "border_thickness": 1,
+        "border_color": "#ffffff",
+        "font_size": 14,
+        "font_weight": "500",
+        "spacing": 60,
+        "icon_size": 20,
+        "speed": 20,
+        "padding_top": 8,
+        "padding_bottom": 8,
+        "aria_label": "Scrolling announcements"
+      }
+    },
+    "wellness_journey": {
+      "type": "wellness-journey",
+      "blocks": {
+        "wj_1": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Nights 1–3: Getting Used to It",
+            "bullets": "<ul><li>The band takes a night or two to forget</li><li>The first pulses do their job — you shift without waking</li><li>Your partner notices before you do</li></ul>"
+          }
+        },
+        "wj_2": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Weeks 1–2: The Quiet Sets In",
+            "bullets": "<ul><li>Quieter nights, fewer elbow-nudges</li><li>Both of you waking up less</li><li>The app graph starts trending down</li></ul>"
+          }
+        },
+        "wj_3": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Week 3: The New Default",
+            "bullets": "<ul><li>Shifting on cue starts becoming automatic</li><li>Longer stretches of uninterrupted sleep</li><li>Mornings start feeling different</li></ul>"
+          }
+        },
+        "wj_4": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Week 4+: The Verdict",
+            "bullets": "<ul><li>Check the month of data in the app</li><li>Quieter house, better sleep — or send it back</li><li>That's what the 30 nights are for</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "wj_1",
+        "wj_2",
+        "wj_3",
+        "wj_4"
+      ],
+      "custom_css": [
+        ".wj-cta-button {color: black;}"
+      ],
+      "settings": {
+        "brand_image": "shopify://shop_images/dwj1.png",
+        "heading": "<strong>Your First Month</strong> with QuietPulse™",
+        "description": "No device fixes a habit overnight — and we'd rather promise you the honest curve most households experience:",
+        "highlight_color": "#2563eb",
+        "button_color": "#ffd600",
+        "bg_color": "",
+        "cta_text": "Start My 30 Nights →",
+        "cta_link": "",
+        "cta_note": "30-night money-back guarantee",
+        "cta_note_icon_name": "verified_user",
+        "cta_height": 40,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "reasons_why_VdQFQx": {
+      "type": "reasons-why",
+      "blocks": {
+        "reason_card_XmWM9Y": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/drw2_0cb6b337-84f9-414b-8f31-4f78d585c11f.png",
+            "label": "Reason 1",
+            "heading": "It Targets the Habit, Not the Noise",
+            "details": "<p>Strips and sprays chase the sound. QuietPulse™ works on the cause — your position and airway — with a touch cue your body answers in its sleep.</p>"
+          }
+        },
+        "reason_card_493cPn": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/drw2_0cb6b337-84f9-414b-8f31-4f78d585c11f.png",
+            "label": "Reason 2",
+            "heading": "Nothing On Your Face",
+            "details": "<p>No mask to seal, no mouthpiece to gag on, no chin strap to be embarrassed by. It's a wristband. That's the whole ask.</p>"
+          }
+        },
+        "reason_card_HHJT9J": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/drw3_189b4c66-d713-4e14-9850-187be932002e.png",
+            "label": "Reason 3",
+            "heading": "It Adapts to You",
+            "details": "<p>Adjustable sensitivity and pulse intensity, escalating only as needed — gentle for light sleepers, firmer for the deep ones.</p>"
+          }
+        },
+        "reason_card_VCdJrA": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/drw4_3ece4dd2-fe65-4f8e-92f8-9ff6a916fd65.png",
+            "label": "Reason 4",
+            "heading": "You See the Proof",
+            "details": "<p>Night-by-night snore and intervention data in the app. You're not guessing whether it works — you watch the graph.</p>"
+          }
+        },
+        "reason_card_Np8tDa": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/drw5.png",
+            "label": "Reason 5",
+            "heading": "The Risk Is Ours",
+            "details": "<p>30 nights in your own bed. If the house isn't quieter, full refund. The people who try it, keep it — that's why we can offer this.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "reason_card_XmWM9Y",
+        "reason_card_493cPn",
+        "reason_card_HHJT9J",
+        "reason_card_VCdJrA",
+        "reason_card_Np8tDa"
+      ],
+      "name": "Reasons why",
+      "settings": {
+        "badge_text": "5 Reasons Why",
+        "subheading": "QuietPulse™ Is Different From Everything You've Tried",
+        "bg_color": "#eff6ff",
+        "text_color": "#000000",
+        "badge_bg_color": "#2563eb",
+        "badge_text_color": "#ffffff",
+        "label_bg_color": "#2563eb",
+        "label_text_color": "#ffffff",
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#0000004d",
+        "card_text_color": "#000000",
+        "badge_font_size": 28,
+        "subheading_font_size": 31,
+        "label_font_size": 17,
+        "card_heading_font_size": 21,
+        "details_font_size": 16,
+        "card_height": 408,
+        "card_radius": 12,
+        "card_gap": 13,
+        "max_width": 1500,
+        "cta_text": "Try Risk-Free Tonight",
+        "cta_url": "",
+        "cta_bg_color": "#ffd600",
+        "cta_text_color": "#000000",
+        "cta_font_size": 19,
+        "cta_margin_top": 40,
+        "guarantee_text": "30-night money back guarantee",
+        "guarantee_icon": "shopify://shop_images/reasons_why.png",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "brand_comparison": {
+      "type": "brand-comparison",
+      "blocks": {
+        "bc_1": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Silent wrist pulse",
+            "competitor_text": "Bulky gear on your face"
+          }
+        },
+        "bc_2": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Works in any sleep position",
+            "competitor_text": "Forces one position all night"
+          }
+        },
+        "bc_3": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Comfortable enough to forget",
+            "competitor_text": "Abandoned by week two"
+          }
+        },
+        "bc_4": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Targets the cause",
+            "competitor_text": "Muffles the symptom"
+          }
+        },
+        "bc_5": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Reusable — no refills",
+            "competitor_text": "Strips & refills forever"
+          }
+        }
+      },
+      "block_order": [
+        "bc_1",
+        "bc_2",
+        "bc_3",
+        "bc_4",
+        "bc_5"
+      ],
+      "settings": {
+        "heading": "<strong>QuietPulse™</strong> vs. Everything Else",
+        "heading_size": 36,
+        "bg_gradient_start": "#0f172a",
+        "bg_gradient_end": "#2563eb",
+        "text_color": "#ffffff",
+        "highlight_color": "#60a5fa",
+        "brand_name": "<strong>QuietPulse™</strong>",
+        "brand_name_color": "#ffffff",
+        "brand_image": "shopify://shop_images/huuha_packaging_transparent.png",
+        "brand_col_color": "#2563eb",
+        "brand_icon_color": "#ffffff",
+        "competitor_label": "<strong>Masks, Strips & Mouthpieces</strong>",
+        "competitor_image": "shopify://shop_images/comparison.png",
+        "comp_col_color": "#ffffff",
+        "comp_text_color": "#000000",
+        "comp_icon_color": "#999999",
+        "icons_filled": true,
+        "checklist_1": "<strong>Face-Free</strong> — nothing to seal, bite, or strap on",
+        "checklist_2": "<strong>Silent</strong> — your partner hears nothing but quiet",
+        "checklist_3": "<strong>Adaptive</strong> — the pulse escalates only as needed",
+        "checklist_4": "<strong>Provable</strong> — your results on a graph, night by night",
+        "cta_text": "Try Risk-Free Tonight",
+        "cta_link": "",
+        "cta_height": 46,
+        "cta_bg_color": "#ffd600",
+        "cta_text_color": "#000000",
+        "cta_font_weight": "700",
+        "note_text": "30-night money back guarantee",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "risk_free_trial": {
+      "type": "risk-free-trial",
+      "settings": {
+        "badge_image": "shopify://shop_images/guarantee_badge_d0cf0c43-aa64-4b01-911f-5f9ca9cefdb1.png",
+        "badge_number": "30",
+        "badge_label": "NIGHTS",
+        "subtitle": "PROVE IT IN YOUR OWN BED",
+        "heading": "30-Night Risk-Free Trial",
+        "heading_size": 23,
+        "description": "If your household isn't sleeping better after 30 nights, return it for a full refund — no questions asked.",
+        "image": "shopify://shop_images/guarantee_54b87e0c-6c47-42cc-b06a-85d6cf84039b.png",
+        "bg_color": "#eff6ff",
+        "accent_color": "#2563eb",
+        "text_color": "",
+        "cta_text": "Try Risk-Free Today",
+        "cta_link": "",
+        "cta_height": 50,
+        "cta_bg_color": "",
+        "cta_text_color": "",
+        "padding_top": 28
+      }
+    },
+    "1773377171b98d1ae1": {
+      "type": "apps",
+      "blocks": {
+        "kaching_bundles_app_block_C9PxPR": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{product}}",
+            "manual_deal_block_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "kaching_bundles_app_block_C9PxPR"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "collapsible_content_TCEeNz": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_kP7dka": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will the vibration wake me up?",
+            "icon": "none",
+            "row_content": "<p>It's designed not to. The pulse starts at the gentlest level and only steps up until you shift position — <strong>the same kind of cue that makes you roll over on your own.</strong> Most people don't remember it firing.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jgAFHc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does it wake or disturb my partner?",
+            "icon": "none",
+            "row_content": "<p>No — it's <strong>completely silent</strong>. The only thing your partner notices is what's missing.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qUEDkw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does it hurt?",
+            "icon": "none",
+            "row_content": "<p>No. It's a vibration, not a shock — <strong>closer to a phone buzz</strong> than anything else.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FCYENr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do I need the app?",
+            "icon": "none",
+            "row_content": "<p>No — the band works standalone. The app adds your <strong>night-by-night data</strong> and lets you fine-tune sensitivity and intensity.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_JXE9KX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if it doesn't work for me?",
+            "icon": "none",
+            "row_content": "<p>Snoring has several causes, and no device can honestly promise every case. That's what the <strong>30-night money-back guarantee</strong> is for: if your nights aren't quieter, full refund — no interrogation.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xwHJdL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does shipping take?",
+            "icon": "none",
+            "row_content": "<p><strong>Free tracked shipping, 3–5 business days.</strong> Order before 11 p.m. and it's processed the same day. Track it any time from the Track Order page.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_kP7dka",
+        "collapsible_row_jgAFHc",
+        "collapsible_row_qUEDkw",
+        "collapsible_row_FCYENr",
+        "collapsible_row_JXE9KX",
+        "collapsible_row_xwHJdL"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1773377263ad90805a": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "clinical_proven_XJiV6J",
+    "feature_cards",
+    "testimonial_slider",
+    "benefits_showcase",
+    "proven_benefits",
+    "ticker_bar_E76PpF",
+    "wellness_journey",
+    "reasons_why_VdQFQx",
+    "brand_comparison",
+    "risk_free_trial",
+    "1773377171b98d1ae1",
+    "collapsible_content_TCEeNz",
+    "1773377263ad90805a",
+    "related-products"
+  ]
+}
