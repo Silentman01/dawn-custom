@@ -37,13 +37,19 @@
         "title": {
           "type": "title",
           "disabled": true,
-          "settings": {}
+          "settings": {
+            "title_size": 26,
+            "title_weight": "700",
+            "title_transform": "none",
+            "title_color": ""
+          }
         },
         "benefits_list": {
           "type": "benefits_list",
           "settings": {
             "text_color": "#121212",
             "icon_color": "#c2410c",
+            "layout": "two_per_line",
             "benefit_1": "99.9% pure copper",
             "benefit_2": "Purifies water naturally",
             "benefit_3": "Zero microplastics",
@@ -129,10 +135,8 @@
             "text_color": "#121212",
             "text_1": "Free tracked shipping",
             "icon_name_1": "verified_user",
-            "icon_image_1": "shopify://shop_images/microcopy1.svg",
             "text_2": "30-day money-back guarantee",
-            "icon_name_2": "local_shipping",
-            "icon_image_2": "shopify://shop_images/microcopy2.svg"
+            "icon_name_2": "local_shipping"
           }
         },
         "social_proof_banner": {
@@ -215,13 +219,9 @@
           "type": "trust_card_v2",
           "settings": {
             "heading": "<strong>Why Cupro™ is the #1</strong> plastic-free hydration upgrade?",
-            "feature_icon_1": "shopify://shop_images/trust_card_v2_1.svg",
             "feature_text_1": "Solid 99.9% Pure Copper",
-            "feature_icon_2": "shopify://shop_images/trust_card_v2_2.svg",
             "feature_text_2": "Hammered by Hand",
-            "feature_icon_3": "shopify://shop_images/trust_card_v2_3.svg",
             "feature_text_3": "No Inner Coating",
-            "feature_icon_4": "shopify://shop_images/trust_card_v2_4.svg",
             "feature_text_4": "Naturally Antibacterial",
             "item_1": "0% Plastic",
             "item_2": "0 Microplastics",
@@ -584,7 +584,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "health_and_safety",
-            "custom_icon": "shopify://shop_images/benefits_showcase1.png",
             "title": "Naturally purified water"
           }
         },
@@ -592,7 +591,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "science",
-            "custom_icon": "shopify://shop_images/benefits_showcase2.png",
             "title": "Zero microplastics"
           }
         },
@@ -600,7 +598,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "bolt",
-            "custom_icon": "shopify://shop_images/benefits_showcase3.png",
             "title": "One-of-one artisan piece"
           }
         },
@@ -608,7 +605,6 @@
           "type": "benefit",
           "settings": {
             "icon_name": "spa",
-            "custom_icon": "shopify://shop_images/benefits_showcase4.png",
             "title": "Lasts for decades"
           }
         }
@@ -908,7 +904,6 @@
         "cta_font_size": 19,
         "cta_margin_top": 40,
         "guarantee_text": "30-day money back guarantee",
-        "guarantee_icon": "shopify://shop_images/reasons_why.png",
         "padding_top": 40,
         "padding_bottom": 40
       }
@@ -972,7 +967,6 @@
         "brand_col_color": "#c2410c",
         "brand_icon_color": "#ffffff",
         "competitor_label": "<strong>Plastic and stainless</strong>",
-        "competitor_image": "shopify://shop_images/comparison.png",
         "comp_col_color": "#ffffff",
         "comp_text_color": "#1a1a1a",
         "comp_icon_color": "#999999",
