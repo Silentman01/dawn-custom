@@ -17,8 +17,8 @@
         "image_kwK7CP": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/cool-bro-logo-white.png",
-            "image_width": 180,
+            "image": "shopify://shop_images/avena-logo-white.png",
+            "image_width": 150,
             "alignment": "center"
           }
         },
@@ -46,7 +46,7 @@
         ".inline-richtext,.footer-block__details-content {font-size: 1.2rem;}"
       ],
       "settings": {
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-5",
         "newsletter_enable": false,
         "newsletter_heading": "Verra Rituel",
         "enable_follow_on_shop": false,
