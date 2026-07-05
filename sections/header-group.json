@@ -15,7 +15,7 @@
       "type": "sale-banner",
       "settings": {
         "heading": "SUMMER HEATWAVE SALE",
-        "heading_color": "#ffffff",
+        "heading_color": "#FFFFFF",
         "heading_font_size": 16,
         "heading_font_weight": "700",
         "heading_letter_spacing": 1,
@@ -26,8 +26,8 @@
         "subtext_font_weight": "400",
         "show_timer": true,
         "timer_hours": 2,
-        "timer_color": "#ffffff",
-        "background_color": "#18001a",
+        "timer_color": "#FCA311",
+        "background_color": "#14213D",
         "padding_top": 10,
         "padding_bottom": 10
       }
