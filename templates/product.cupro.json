@@ -63,7 +63,7 @@
           "settings": {
             "price_color": "#c2410c",
             "compare_price_color": "",
-            "sale_badge_text": "4th of July Sale - Save 29%",
+            "sale_badge_text": "4th of July Sale - Save 30%",
             "sale_badge_weight": "600",
             "price_font_size": 2,
             "price_font_weight": "700",
@@ -1165,13 +1165,13 @@
   },
   "order": [
     "main",
+    "video_carousel",
     "clinical_proven_XJiV6J",
     "feature_cards",
     "testimonial_slider",
     "benefits_showcase",
     "proven_benefits",
     "ticker_bar_E76PpF",
-    "video_carousel",
     "wellness_journey",
     "reasons_why_VdQFQx",
     "brand_comparison",
