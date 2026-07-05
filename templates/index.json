@@ -1,33 +1,51 @@
 {
   "sections": {
     "hero": {
-      "type": "hero-banner",
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shop the best, delivered fast.",
+            "heading_size": "hxl"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "A carefully chosen range, quality-checked and shipped fast. Backed by our 30-day promise.",
+            "text_style": "body"
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all products",
+            "button_link_1": "/collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "buttons"
+      ],
       "settings": {
-        "bg_color": "#14213D",
-        "desktop_image": "shopify://shop_images/avena-hero.png",
-        "mobile_bg_image": "",
-        "text_color": "#FFFFFF",
-        "badge_text": "Free tracked shipping  ·  30-day returns",
-        "badge_bg_color": "#FCA311",
-        "badge_text_color": "#14213D",
-        "badge_font_size": 15,
-        "show_stars": false,
-        "star_rating": 4.9,
-        "star_color": "#FCA311",
-        "star_empty_color": "#ececec",
-        "stars_text": "",
-        "heading": "<strong>Things worth keeping.</strong>",
-        "heading_size": 46,
-        "subheadline": "A small, careful edit of things we'd actually use. Quality-checked, shipped fast, and backed for a full 30 days.",
-        "cta_function": "link",
-        "cta_text": "Shop the collection",
-        "cta_url": "/collections/all",
-        "cta_bg_color": "#FCA311",
-        "cta_text_color": "#14213D",
-        "guarantee_text": "30-day money-back guarantee",
-        "guarantee_icon": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "image": "shopify://shop_images/avena-hero.png",
+        "image_overlay_opacity": 25,
+        "image_height": "large",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-5",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
       }
     },
     "featured_collection": {
@@ -35,7 +53,7 @@
       "settings": {
         "collection": "all",
         "products_to_show": 25,
-        "title": "The Avena edit",
+        "title": "Our products",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -67,6 +85,7 @@
         "heading": "Love it, or your money back",
         "heading_size": 26,
         "description": "Every order is backed for a full 30 days. If anything isn't right, we'll make it right with a refund or a replacement, no hassle. Free tracked shipping and real US support on every order.",
+        "image": "shopify://shop_images/avena-guarantee.png",
         "bg_color": "#14213D",
         "accent_color": "#FCA311",
         "text_color": "#FFFFFF",
