@@ -1,0 +1,1168 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "star_rating": {
+          "type": "star_rating",
+          "settings": {
+            "rating": 4.8,
+            "text": "Rated <strong>4.8 Excellent</strong> 2,850+ Reviews",
+            "star_color": "#0f766e",
+            "star_bg_color": "#ececec",
+            "star_size": 1.3,
+            "star_gap": 0.4,
+            "alignment": "flex-start",
+            "text_color": "#121212",
+            "highlight_color": "#000000"
+          }
+        },
+        "statement_tcR3Ug": {
+          "type": "statement",
+          "settings": {
+            "subtitle": "Built for CCL recovery without surgery.",
+            "title": "Watch Them Come Back to Themselves, One Chew a Day",
+            "title_size": 26
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title_size": 26,
+            "title_weight": "700",
+            "title_transform": "none",
+            "title_color": ""
+          }
+        },
+        "benefits_list": {
+          "type": "benefits_list",
+          "settings": {
+            "text_color": "#121212",
+            "icon_color": "#0f766e",
+            "layout": "two_per_line",
+            "benefit_1": "First steps without the cry",
+            "benefit_2": "Protects both knees",
+            "benefit_3": "One soft chew a day",
+            "benefit_4": "Built for recovery without surgery",
+            "benefit_5": "Progress you can see",
+            "benefit_6": "Every size, every age"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_color": "#0f766e",
+            "compare_price_color": "",
+            "sale_badge_text": "Today Only - Save 20%",
+            "sale_badge_weight": "600",
+            "price_font_size": 2,
+            "price_font_weight": "700",
+            "compare_font_size": 1.8
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false,
+            "button_font_size": 1.8,
+            "button_font_weight": "700",
+            "button_text_transform": "uppercase"
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "function": "link",
+            "button_link": "",
+            "display_when": "after_scroll",
+            "button_label": "ADD TO CART",
+            "enable_custom_btn_color": false,
+            "custom_btn_color": "#dd1d1d",
+            "color_scheme": "scheme-1",
+            "star_color": "#0f766e",
+            "stars_label": "Rated 4.8 Excellent · 30-day money-back guarantee",
+            "button_font_size": 1.8,
+            "button_font_weight": "700",
+            "button_text_transform": "uppercase",
+            "desktop_show_image": true,
+            "desktop_show_title": true,
+            "desktop_rating_stars": true,
+            "desktop_show_price": false,
+            "desktop_show_sale_badge": false,
+            "desktop_variant_picker": true,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": true,
+            "mobile_show_title": true,
+            "mobile_rating_stars": false,
+            "mobile_show_price": false,
+            "mobile_show_sale_badge": false,
+            "mobile_variant_picker": true,
+            "mobile_full_button_width": false,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        },
+        "trust_microcopy": {
+          "type": "trust_microcopy",
+          "settings": {
+            "font_size": 1.6,
+            "font_size_2_items": 1.4,
+            "bg_color": "",
+            "text_color": "#121212",
+            "text_1": "30-day money-back guarantee",
+            "icon_name_1": "verified_user",
+            "text_2": "",
+            "icon_name_2": "local_shipping"
+          }
+        },
+        "social_proof_banner": {
+          "type": "social_proof_banner",
+          "settings": {
+            "text_color": "#121212",
+            "bg_color": "#f0fdfa",
+            "border_radius": 50,
+            "title": "<strong>10,000+ dog parents chose recovery without surgery</strong>",
+            "subtitle": "and watched the zoomies come back.",
+            "badge_color": "#51af6f",
+            "image_1": "shopify://shop_images/strideback-social-1.png",
+            "image_2": "shopify://shop_images/strideback-social-2.png",
+            "image_3": "shopify://shop_images/strideback-social-3.png"
+          }
+        },
+        "urgency_notice": {
+          "type": "urgency_notice",
+          "settings": {
+            "line_1": "<p><strong>Small batches, third-party tested</strong></p>",
+            "line_2": "<p>Every StrideBack™ batch is third-party tested before it ships, so stock moves in waves and restocks take weeks. Today's 20% savings apply while the current batch lasts. <strong>PS:</strong> StrideBack™ is only sold here.</p>",
+            "font_size": 1.2,
+            "bg_color": "#fef2f2",
+            "text_color": "#9f3f3f",
+            "border_width": 2,
+            "border_style": "dashed",
+            "border_color": "#fca5a5",
+            "border_radius": 3,
+            "icon_name": "error",
+            "icon_color": "#d61717",
+            "icon_scale": 1.2
+          }
+        },
+        "collapsible_tab_mjEF8T": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What is StrideBack™?",
+            "icon": "none",
+            "content": "<p>You're giving your dog the one chew that was <strong>built for conservative CCL recovery</strong>, not another everything-chew. Five research-backed actives, one soft daily treat.</p><ul><li>Their healing knee gets what it needs: piperine drives absorption where blood supply is weakest</li><li>The rebuild finally outpaces the damage: glucosamine + chondroitin work while the enzymes slow down</li><li>Progress stops falling apart: curcumin (95% curcuminoids) calms the immune overreaction</li><li>The other knee stays safe: green lipped mussel and hemp seed cushion the leg doing double duty</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_gBgAbF": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Why you need it",
+            "icon": "none",
+            "content": "<p>You've watched them hesitate at the stairs. Heard the little cry when they stand up. And everyone keeps telling you surgery is the only way, at $4,000 to $10,000 you may not have.</p><p>Here's what nobody explained: the CCL has <strong>the worst blood supply in your dog's entire body</strong>. Nutrients can't reach it, the immune system attacks the new collagen, and enzymes strip it out faster than it rebuilds. That cycle is why months of generic glucosamine change nothing.</p><p>StrideBack™ was formulated around that cycle: delivery, rebuild, calm, protection. All four fronts, every day.</p><p><strong>You're not failing your dog by skipping surgery. You just needed something built for the road you chose.</strong></p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_akEwJj": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Benefits ✨",
+            "icon": "none",
+            "content": "<p>✓ <strong>Hear the morning cry fade</strong>: the actives reach the ligament thanks to piperine-boosted absorption</p><p>✓ <strong>See weight shift back onto the leg</strong>: glucosamine + chondroitin rebuild while enzyme damage slows</p><p>✓ <strong>Watch progress stick, week over week</strong>: curcumin calms the immune flare-ups that undo it</p><p>✓ <strong>Stop bracing for the second tear</strong>: omega-rich green lipped mussel and hemp seed protect the loaded knee</p><p>✓ <strong>Skip the pill fights</strong>: one soft, tasty chew a day, every size and life stage</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_MTCgw9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to give it (10 seconds a day)",
+            "icon": "none",
+            "content": "<p><strong>1.</strong> Give the chews with breakfast, dosed by weight (small dogs 1, medium 2, large 3).</p><p><strong>2.</strong> Keep it daily. The rebuild cycle needs consistency, not perfection.</p><p><strong>3.</strong> Watch for the small wins: steadier mornings, longer walks, weight back on the leg.</p><p>Works alongside crate rest, braces, and whatever plan you and your vet have chosen.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_FPPE7p": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do you offer a guarantee?",
+            "icon": "none",
+            "content": "<p>Yes: <strong>30 days, money back.</strong></p><p>A full month of chews to see the first signs. If you can't point to progress, send it back and we refund every cent.</p>",
+            "page": ""
+          }
+        },
+        "trust_card_v2_BX8HtK": {
+          "type": "trust_card_v2",
+          "settings": {
+            "heading": "<strong>Why StrideBack™ is the #1</strong> chew for recovery without surgery?",
+            "feature_text_1": "Built for CCL Recovery",
+            "feature_text_2": "Protects Both Knees",
+            "feature_text_3": "Progress You Can See",
+            "feature_text_4": "One Soft Chew a Day",
+            "item_1": "5 Root-Cause Actives",
+            "item_2": "Third-Party Tested",
+            "item_3": "All Breeds & Sizes",
+            "item_4": "Soft & Tasty",
+            "item_5": "No Pill Fights",
+            "item_6": "30-Day Guarantee",
+            "text_color": "#1a1a1a",
+            "title_color": "#1a1a1a",
+            "highlight_color": "#0f766e",
+            "bg_color": "#ffe4cc",
+            "bg_image": "shopify://shop_images/strideback-texture-soft.png",
+            "image_opacity": 10,
+            "border_radius": 10,
+            "heading_size": 28,
+            "feature_text_size": 11,
+            "item_text_size": 16
+          }
+        },
+        "testimonial_videos_block": {
+          "type": "testimonial_videos",
+          "settings": {
+            "heading": "What dog parents are sharing:",
+            "heading_size": 23
+          }
+        }
+      },
+      "block_order": [
+        "star_rating",
+        "statement_tcR3Ug",
+        "title",
+        "benefits_list",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "sticky_cart",
+        "trust_microcopy",
+        "social_proof_banner",
+        "urgency_notice",
+        "collapsible_tab_mjEF8T",
+        "collapsible_tab_gBgAbF",
+        "collapsible_tab_akEwJj",
+        "collapsible_tab_MTCgw9",
+        "collapsible_tab_FPPE7p",
+        "trust_card_v2_BX8HtK",
+        "testimonial_videos_block"
+      ],
+      "custom_css": [
+        ".urgency-notice {margin-bottom: 15px;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "mobile_thumbnails": "show",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "clinical_proven_XJiV6J": {
+      "type": "clinical-proven",
+      "blocks": {
+        "stat_JT8ghy": {
+          "type": "stat",
+          "settings": {
+            "percentage": 50,
+            "heading": "<strong>of CCL dogs tear the second knee</strong>",
+            "caption": "within 1 to 2 years: the loop StrideBack™ is built to interrupt"
+          }
+        },
+        "stat_W9mrjV": {
+          "type": "stat",
+          "settings": {
+            "percentage": 95,
+            "heading": "<strong>curcuminoids, the strongest grade</strong>",
+            "caption": "calming the immune overreaction that keeps undoing your dog's progress"
+          }
+        },
+        "stat_7gdyWK": {
+          "type": "stat",
+          "settings": {
+            "percentage": 99,
+            "heading": "<strong>of dog parents keep it</strong>",
+            "caption": "10,000+ on board, with a less than 1% return rate"
+          }
+        },
+        "stat_BTktYW": {
+          "type": "stat",
+          "settings": {
+            "percentage": 100,
+            "heading": "<strong>money back if you don't see it</strong>",
+            "caption": "30 days to point to real progress, risk-free"
+          }
+        }
+      },
+      "block_order": [
+        "stat_JT8ghy",
+        "stat_W9mrjV",
+        "stat_7gdyWK",
+        "stat_BTktYW"
+      ],
+      "custom_css": [],
+      "name": "Clinical proven",
+      "settings": {
+        "bg_color": "#134e4a",
+        "bg_image": "shopify://shop_images/strideback-texture-dark.png",
+        "image_opacity": 10,
+        "text_color": "#ffffff",
+        "percentage_color": "#5eead4",
+        "highlight_color": "#5eead4",
+        "heading": "<strong>The root cause, handled.</strong> Backed by 1,000+ ingredient studies.",
+        "heading_size": 31,
+        "subtitle": "The CCL has the worst blood supply in your dog's body. StrideBack™ was formulated around that one brutal fact.",
+        "cta_function": "link",
+        "cta_text": "Start their comeback",
+        "cta_url": "",
+        "cta_bg_color": "#ffd600",
+        "cta_text_color": "#000000",
+        "guarantee_text": "30-day money back guarantee",
+        "padding_top": 84,
+        "padding_bottom": 80
+      }
+    },
+    "feature_cards": {
+      "type": "feature-cards",
+      "blocks": {
+        "card_1": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/strideback-card-1.png",
+            "title": "<strong>The Delivery</strong>",
+            "text": "Your dog's CCL gets less blood than any other tissue in their body. Piperine boosts blood flow and absorption so <strong>the actives actually arrive</strong> where healing stalls.",
+            "card_bg_color": ""
+          }
+        },
+        "card_bYRYEb": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/strideback-card-2.png",
+            "title": "<strong>The Rebuild</strong>",
+            "text": "Their body removes old collagen faster than it lays new. Glucosamine + chondroitin flip that math: <strong>rebuilding tissue while slowing the enzymes</strong> that tear it down.",
+            "card_bg_color": ""
+          }
+        },
+        "card_GPx6MR": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/strideback-card-3.png",
+            "title": "<strong>The Ceasefire</strong>",
+            "text": "Their immune system attacks the healing ligament like an invader. Curcumin at 95% curcuminoids <strong>calms the overreaction</strong>, so this week's progress is still there next week.",
+            "card_bg_color": ""
+          }
+        },
+        "card_xANGWn": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/strideback-card-4.png",
+            "title": "<strong>The Second Knee</strong>",
+            "text": "The good leg is carrying double weight right now. Omega-rich green lipped mussel and hemp seed <strong>cushion the loaded knee</strong> so one tear doesn't become two.",
+            "card_bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_1",
+        "card_bYRYEb",
+        "card_GPx6MR",
+        "card_xANGWn"
+      ],
+      "settings": {
+        "heading": "What's working inside them, <strong>while they rest</strong>",
+        "highlight_color": "#0f766e",
+        "card_title_size": 22,
+        "card_title_highlight": "#0f766e",
+        "section_bg_color": "",
+        "text_alignment": "center",
+        "card_border_radius": 12,
+        "image_border_radius": 0.8,
+        "mobile_layout": "slider",
+        "pagination_type": "both",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "testimonial_slider": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "ticker_1": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/strideback-ticker-1.png"
+          }
+        },
+        "ticker_image_pGm3ig": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/strideback-ticker-2.png"
+          }
+        },
+        "ticker_image_DeKwWj": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/strideback-ticker-3.png"
+          }
+        },
+        "ticker_image_ziYp3P": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/strideback-ticker-4.png"
+          }
+        },
+        "ticker_image_p4UjJw": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/strideback-ticker-5.png"
+          }
+        },
+        "ticker_image_AGTRdD": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/strideback-ticker-6.png"
+          }
+        },
+        "ticker_image_eQnJRE": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/strideback-ticker-7.png"
+          }
+        },
+        "ticker_image_wgRraX": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/strideback-ticker-8.png"
+          }
+        },
+        "ticker_image_E7knVa": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/strideback-ticker-9.png"
+          }
+        },
+        "ticker_image_3CWTUR": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/strideback-ticker-10.png"
+          }
+        },
+        "review_1": {
+          "type": "review",
+          "settings": {
+            "rating": "5.0",
+            "quote": "\"By week three she was putting weight on the leg again.\"",
+            "details": "The vet said my Golden needed surgery or she'd suffer for the rest of her life. I couldn't afford it and I couldn't sleep. I tried these as a last resort: by month two she was stealing socks off the floor and running away with them. She hadn't done that in months. I actually cried.",
+            "author_name": "DIANE M.",
+            "author_image": "shopify://shop_images/strideback-avatar-1.png",
+            "tag_1": "Weight bearing",
+            "tag_2": "Golden Retriever",
+            "card_bg_color": ""
+          }
+        },
+        "review_2": {
+          "type": "review",
+          "settings": {
+            "rating": "4.9",
+            "quote": "\"At the follow-up, the vet said surgery wasn't urgent anymore.\"",
+            "details": "My corgi was diagnosed with a full CCL rupture and quoted $6,000 we didn't have. I started her on these while we figured out financing. Three months later her mobility had improved so much the conversation changed. She takes the porch steps on her own and I haven't heard her cry getting up in weeks.",
+            "author_name": "CAROL R.",
+            "author_image": "shopify://shop_images/strideback-avatar-2.png",
+            "tag_1": "CCL rupture",
+            "tag_2": "3-month update",
+            "card_bg_color": ""
+          }
+        },
+        "review_3": {
+          "type": "review",
+          "settings": {
+            "rating": "4.8",
+            "quote": "\"Two weeks in, he stopped that little cry when he gets up.\"",
+            "details": "I spent countless hours on contradicting forum threads and felt like a mess. We're on month three now: he's bearing weight on both legs pretty evenly and I finally feel like I'm doing enough for him.",
+            "author_name": "MARK L.",
+            "author_image": "shopify://shop_images/strideback-avatar-3.png",
+            "tag_1": "Morning cry gone",
+            "tag_2": "Both legs",
+            "card_bg_color": ""
+          }
+        },
+        "review_4": {
+          "type": "review",
+          "settings": {
+            "rating": "4.9",
+            "quote": "\"I finally feel like I'm not failing my best friend.\"",
+            "details": "Choosing recovery without surgery made every decision exhausting. Now he is jumping on the bed again and getting the zoomies. I did not fail him after all.",
+            "author_name": "HEATHER G.",
+            "author_image": "shopify://shop_images/strideback-avatar-4.png",
+            "tag_1": "Zoomies back",
+            "tag_2": "CM recovery",
+            "card_bg_color": ""
+          }
+        },
+        "review_5": {
+          "type": "review",
+          "settings": {
+            "rating": "5.0",
+            "quote": "\"The guilt was heavier than the diagnosis. This lifted both.\"",
+            "details": "Everyone made skipping surgery sound like giving up on him. A month in, the small wins started stacking: steadier mornings, longer walks, no more bracing to stand.",
+            "author_name": "JUSTIN B.",
+            "author_image": "shopify://shop_images/strideback-avatar-5.png",
+            "tag_1": "Steadier mornings",
+            "tag_2": "Longer walks",
+            "card_bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "ticker_1",
+        "ticker_image_pGm3ig",
+        "ticker_image_DeKwWj",
+        "ticker_image_ziYp3P",
+        "ticker_image_p4UjJw",
+        "ticker_image_AGTRdD",
+        "ticker_image_eQnJRE",
+        "ticker_image_wgRraX",
+        "ticker_image_E7knVa",
+        "ticker_image_3CWTUR",
+        "review_1",
+        "review_2",
+        "review_3",
+        "review_4",
+        "review_5"
+      ],
+      "custom_css": [
+        ".ts-review__quote {font-weight: bold;}"
+      ],
+      "settings": {
+        "heading": "Real dogs, <strong>real comebacks</strong>",
+        "subheading": "What dog parents who skipped surgery are saying",
+        "highlight_color": "#0f766e",
+        "star_color": "#0f766e",
+        "verified_color": "#0f766e",
+        "tag_color": "#0f766e",
+        "tag_bg_color": "#f0fdfa",
+        "ticker_speed": 30,
+        "section_bg_color": "#f0fdfa",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "benefits_showcase": {
+      "type": "benefits-showcase",
+      "blocks": {
+        "benefit_1": {
+          "type": "benefit",
+          "settings": {
+            "icon_name": "health_and_safety",
+            "title": "First steps without the cry"
+          }
+        },
+        "benefit_2": {
+          "type": "benefit",
+          "settings": {
+            "icon_name": "science",
+            "title": "The stairs, then the zoomies"
+          }
+        },
+        "benefit_3": {
+          "type": "benefit",
+          "settings": {
+            "icon_name": "bolt",
+            "title": "Both knees protected"
+          }
+        },
+        "benefit_4": {
+          "type": "benefit",
+          "settings": {
+            "icon_name": "spa",
+            "title": "You stop second-guessing"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_1",
+        "benefit_2",
+        "benefit_3",
+        "benefit_4"
+      ],
+      "settings": {
+        "heading": "<strong>Their comeback.</strong> Week by week.",
+        "subheading": "What changes at home from the first jar.",
+        "product_image": "shopify://shop_images/strideback-hero.png",
+        "bg_color": "#134e4a",
+        "bg_color_bottom": "#0f766e",
+        "text_color": "#ffffff",
+        "highlight_color": "#5eead4",
+        "subheading_color": "",
+        "heading_size": 3,
+        "subheading_size": 1.5,
+        "benefit_size": 1.8,
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
+    "proven_benefits": {
+      "type": "proven-benefits",
+      "blocks": {
+        "pb_1": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/strideback-step-1.png",
+            "title": "Day 1",
+            "description": "The chew goes down easy",
+            "answer": "Soft and tasty: give it like a treat with breakfast, dosed by weight. No pills, no wrestling, no stress."
+          }
+        },
+        "pb_2": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/strideback-step-2.png",
+            "title": "Weeks 1-2",
+            "description": "The delivery ramps",
+            "answer": "Piperine boosts blood flow and absorption, so the actives reach the ligament with the worst blood supply in their body."
+          }
+        },
+        "pb_3": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/strideback-step-3.png",
+            "title": "Weeks 3-6",
+            "description": "The rebuild shows",
+            "answer": "Glucosamine and chondroitin rebuild while curcumin keeps inflammation from undoing it: first steps without the cry."
+          }
+        },
+        "pb_4": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/strideback-step-4.png",
+            "title": "Month 2+",
+            "description": "Both knees covered",
+            "answer": "You stop bracing for the second tear: green lipped mussel and hemp seed cushion the loaded knee while the healing one gets stronger."
+          }
+        }
+      },
+      "block_order": [
+        "pb_1",
+        "pb_2",
+        "pb_3",
+        "pb_4"
+      ],
+      "settings": {
+        "heading": "<strong>How it works.</strong> The cycle, interrupted.",
+        "subheading": "No injections, no guesswork, no $8,000 surgery bill. <strong>Just the stack built for how CCL tears actually heal.</strong>",
+        "highlight_color": "#0f766e",
+        "bg_color": "#f0fdfa",
+        "cta_text": "Start their comeback",
+        "cta_link": "",
+        "cta_note": "30-day money back guarantee",
+        "cta_note_icon_name": "verified_user",
+        "cta_height": 40,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "ticker_bar_E76PpF": {
+      "type": "ticker-bar",
+      "blocks": {
+        "ticker_item_HqnLzq": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Built for CCL Recovery",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_k8LYdF": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Protects Both Knees",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_TGPdcq": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "One Soft Chew a Day",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_R9aqEp": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Progress You Can See",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_EdVTLR": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Save 20% Today",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_WW7aKr": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "30-Day Guarantee",
+            "icon_name": "verified"
+          }
+        }
+      },
+      "block_order": [
+        "ticker_item_HqnLzq",
+        "ticker_item_k8LYdF",
+        "ticker_item_TGPdcq",
+        "ticker_item_R9aqEp",
+        "ticker_item_EdVTLR",
+        "ticker_item_WW7aKr"
+      ],
+      "name": "Ticker bar",
+      "settings": {
+        "background_color": "#0f766e",
+        "text_color": "#ffffff",
+        "border_position": "none",
+        "border_thickness": 1,
+        "border_color": "#ffffff",
+        "font_size": 14,
+        "font_weight": "500",
+        "spacing": 60,
+        "icon_size": 20,
+        "speed": 20,
+        "padding_top": 8,
+        "padding_bottom": 8,
+        "aria_label": "Scrolling announcements"
+      }
+    },
+    "wellness_journey": {
+      "type": "wellness-journey",
+      "blocks": {
+        "wj_1": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Day 1: the first chew",
+            "bullets": "<ul><li>Goes down like a treat, with breakfast</li><li>No pills, no wrestling, no guilt trip</li><li>The routine starts tonight</li></ul>"
+          }
+        },
+        "wj_2": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Week 2: the first signs",
+            "bullets": "<ul><li>The morning cry starts to soften</li><li>Weight begins shifting back onto the leg</li><li>You stop counting every limp</li></ul>"
+          }
+        },
+        "wj_3": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Week 4: the confidence",
+            "bullets": "<ul><li>The stairs stop being scary</li><li>Walks stretch longer on their own</li><li>The good knee stays protected through it all</li></ul>"
+          }
+        },
+        "wj_4": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Month 2 and beyond",
+            "bullets": "<ul><li>Zoomies, sock theft, door greetings: they're back</li><li>Both knees covered for the long run</li><li>You finally exhale</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "wj_1",
+        "wj_2",
+        "wj_3",
+        "wj_4"
+      ],
+      "custom_css": [
+        ".wj-cta-button {color: black;}"
+      ],
+      "settings": {
+        "brand_image": "shopify://shop_images/strideback-journey.png",
+        "heading": "<strong>Your first weeks</strong> with StrideBack™",
+        "description": "One soft chew a day. Here's how the comeback takes hold:",
+        "highlight_color": "#0f766e",
+        "button_color": "#ffd600",
+        "bg_color": "",
+        "cta_text": "Start their comeback →",
+        "cta_link": "",
+        "cta_note": "30-day money-back guarantee",
+        "cta_note_icon_name": "verified_user",
+        "cta_height": 40,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "reasons_why_VdQFQx": {
+      "type": "reasons-why",
+      "blocks": {
+        "reason_card_XmWM9Y": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/strideback-reason-1.png",
+            "label": "Reason 1",
+            "heading": "Built for this. Not for everything.",
+            "details": "<p>You've tried the everything-chews. They're made for every dog and no dog. StrideBack™ is formulated for one situation: a CCL healing without surgery, in a body that's working against it.</p>"
+          }
+        },
+        "reason_card_493cPn": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/strideback-reason-2.png",
+            "label": "Reason 2",
+            "heading": "It targets why tears don't heal",
+            "details": "<p>Your dog's progress keeps stalling because of blood supply, immune attacks, and enzyme damage. Every active in the stack answers one of those three, so the effort you put in finally shows.</p>"
+          }
+        },
+        "reason_card_HHJT9J": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/strideback-reason-3.png",
+            "label": "Reason 3",
+            "heading": "Both knees, not just the bad one",
+            "details": "<p>You've heard the scary stat: up to half of CCL dogs tear the other knee within two years. The omega stack cushions the leg doing double duty, so one tear doesn't become two.</p>"
+          }
+        },
+        "reason_card_VCdJrA": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/strideback-reason-4.png",
+            "label": "Reason 4",
+            "heading": "Progress you can point to",
+            "details": "<p>You'll stop asking \"is this even doing anything?\" Steadier mornings, weight back on the leg, longer walks: small wins that stack week over week, visible at home.</p>"
+          }
+        },
+        "reason_card_Np8tDa": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/strideback-reason-5.png",
+            "label": "Reason 5",
+            "heading": "30 days to see it, risk-free",
+            "details": "<p>Money back for a full month: enough time for the first signs to show. If you can't point to progress, return it for a full refund, no questions.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "reason_card_XmWM9Y",
+        "reason_card_493cPn",
+        "reason_card_HHJT9J",
+        "reason_card_VCdJrA",
+        "reason_card_Np8tDa"
+      ],
+      "name": "Reasons why",
+      "settings": {
+        "badge_text": "5 Reasons Why",
+        "subheading": "StrideBack™ is unlike any joint chew you've tried",
+        "bg_color": "#f0fdfa",
+        "text_color": "#1a1a1a",
+        "badge_bg_color": "#0f766e",
+        "badge_text_color": "#ffffff",
+        "label_bg_color": "#0f766e",
+        "label_text_color": "#ffffff",
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#0000004d",
+        "card_text_color": "#000000",
+        "badge_font_size": 28,
+        "subheading_font_size": 31,
+        "label_font_size": 17,
+        "card_heading_font_size": 21,
+        "details_font_size": 16,
+        "card_height": 408,
+        "card_radius": 12,
+        "card_gap": 13,
+        "max_width": 1500,
+        "cta_text": "Start their comeback",
+        "cta_url": "",
+        "cta_bg_color": "#ffd600",
+        "cta_text_color": "#000000",
+        "cta_font_size": 19,
+        "cta_margin_top": 40,
+        "guarantee_text": "30-day money back guarantee",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "brand_comparison": {
+      "type": "brand-comparison",
+      "blocks": {
+        "bc_1": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "The morning cry fades week by week",
+            "competitor_text": "You keep watching and nothing changes"
+          }
+        },
+        "bc_2": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "The actives reach the ligament that needs them",
+            "competitor_text": "Ingredients that never make it to the knee"
+          }
+        },
+        "bc_3": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "The second knee is protected too",
+            "competitor_text": "You brace for the other leg to go"
+          }
+        },
+        "bc_4": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "You stop second-guessing every choice",
+            "competitor_text": "2am forum threads and guilt"
+          }
+        },
+        "bc_5": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "30 days, money back, no questions",
+            "competitor_text": "Another jar wasted, no way back"
+          }
+        }
+      },
+      "block_order": [
+        "bc_1",
+        "bc_2",
+        "bc_3",
+        "bc_4",
+        "bc_5"
+      ],
+      "settings": {
+        "heading": "Your next 3 months with <strong>StrideBack™</strong> vs. without it",
+        "heading_size": 36,
+        "bg_gradient_start": "#134e4a",
+        "bg_gradient_end": "#0f766e",
+        "text_color": "#ffffff",
+        "highlight_color": "#5eead4",
+        "brand_name": "<strong>StrideBack™</strong>",
+        "brand_name_color": "#ffffff",
+        "brand_image": "",
+        "brand_col_color": "#0f766e",
+        "brand_icon_color": "#ffffff",
+        "competitor_label": "<strong>Generic joint chews</strong>",
+        "comp_col_color": "#ffffff",
+        "comp_text_color": "#1a1a1a",
+        "comp_icon_color": "#999999",
+        "icons_filled": true,
+        "checklist_1": "<strong>Root-cause</strong> : built for why CCL tears stall",
+        "checklist_2": "<strong>Both knees</strong> : the second-tear loop, interrupted",
+        "checklist_3": "<strong>Visible</strong> : progress you can point to, week over week",
+        "checklist_4": "<strong>Risk-free</strong> : 30-day money-back guarantee",
+        "cta_text": "Start their comeback",
+        "cta_link": "",
+        "cta_height": 46,
+        "cta_bg_color": "#ffd600",
+        "cta_text_color": "#000000",
+        "cta_font_weight": "700",
+        "note_text": "30-day money back guarantee",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "competitor_image": ""
+      }
+    },
+    "risk_free_trial": {
+      "type": "risk-free-trial",
+      "settings": {
+        "badge_image": "shopify://shop_images/strideback-badge.png",
+        "badge_number": "30",
+        "badge_label": "DAYS",
+        "subtitle": "TIME TO SEE THE COMEBACK",
+        "heading": "30-Day Money-Back Guarantee",
+        "heading_size": 23,
+        "description": "A full month of chews to see the first signs: steadier mornings, longer walks, weight back on the leg. If you can't point to progress, send it back and we refund every cent.",
+        "image": "shopify://shop_images/strideback-guarantee.png",
+        "bg_color": "#f0fdfa",
+        "accent_color": "#0f766e",
+        "text_color": "",
+        "cta_text": "Start their comeback",
+        "cta_link": "",
+        "cta_height": 50,
+        "cta_bg_color": "",
+        "cta_text_color": "",
+        "padding_top": 28
+      }
+    },
+    "1773377171b98d1ae1": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "collapsible_content_TCEeNz": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_kP7dka": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will this replace surgery or my vet?",
+            "icon": "none",
+            "row_content": "<p>No, and we won't pretend otherwise. StrideBack™ is built to support <strong>conservative management</strong>: the non-surgical path many dog parents choose with their vet. Keep your vet in the loop; bring the ingredient list to your next visit.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jgAFHc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why not just plain glucosamine?",
+            "icon": "none",
+            "row_content": "<p>Because delivery is the choke point: the CCL has the worst blood supply in your dog's body. Glucosamine that never reaches the ligament can't help it. The stack pairs the rebuilders with <strong>piperine for absorption and curcumin for the immune overreaction</strong>: the parts generic chews skip.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qUEDkw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How fast will I see something?",
+            "icon": "none",
+            "row_content": "<p>In the reviews, the earliest signs show around <strong>weeks 2 to 3</strong>: a softer morning cry, weight shifting back. Bigger changes tend to land in months 2 to 3. Consistency matters more than anything, and the first 30 days are covered by the guarantee.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FCYENr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "My dog is picky. Will they actually eat it?",
+            "icon": "none",
+            "row_content": "<p>They're soft, palatable chews designed to be given <strong>like a treat</strong>, not hidden like a pill. Most dogs take them straight from your hand. If yours refuses, the 30-day guarantee has you covered.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_JXE9KX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What size and age of dog is this for?",
+            "icon": "none",
+            "row_content": "<p><strong>Every size and life stage.</strong> Dosing scales by weight: 1 chew for small dogs, 2 for medium, 3 for large. Senior dogs and big breeds, the ones most prone to CCL trouble, are exactly who it was built for.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xwHJdL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Shipping and returns?",
+            "icon": "none",
+            "row_content": "<p><strong>Free tracked shipping.</strong> Every batch is third-party tested before release, so allow the delivery window shown at checkout. And you're covered: <strong>30-day money-back guarantee</strong>, simple return, full refund.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_kP7dka",
+        "collapsible_row_jgAFHc",
+        "collapsible_row_qUEDkw",
+        "collapsible_row_FCYENr",
+        "collapsible_row_JXE9KX",
+        "collapsible_row_xwHJdL"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1773377263ad90805a": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "video_carousel": {
+      "type": "video-carousel",
+      "blocks": {
+        "video_1": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/34e36ed3ce81452a9ac93c6de826221e.mp4"
+          }
+        },
+        "video_2": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/6bb61c8d19ed4605b758d6340d81f9a1.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "video_1",
+        "video_2"
+      ],
+      "settings": {
+        "eyebrow": "The StrideBack community",
+        "title": "They share the comeback",
+        "accent_color": "#0f766e",
+        "accent_icon_color": "#ffffff",
+        "bg_color": "#f0fdfa",
+        "text_color": "#134e4a",
+        "corner_radius": 20,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_carousel",
+    "clinical_proven_XJiV6J",
+    "feature_cards",
+    "testimonial_slider",
+    "benefits_showcase",
+    "proven_benefits",
+    "ticker_bar_E76PpF",
+    "wellness_journey",
+    "reasons_why_VdQFQx",
+    "brand_comparison",
+    "risk_free_trial",
+    "1773377171b98d1ae1",
+    "collapsible_content_TCEeNz",
+    "1773377263ad90805a",
+    "related-products"
+  ]
+}
