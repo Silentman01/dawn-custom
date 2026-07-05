@@ -289,38 +289,6 @@
         "padding_bottom": 12
       }
     },
-    "video_carousel": {
-      "type": "video-carousel",
-      "blocks": {
-        "video_1": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/34e36ed3ce81452a9ac93c6de826221e.mp4"
-          }
-        },
-        "video_2": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/6bb61c8d19ed4605b758d6340d81f9a1.mp4"
-          }
-        }
-      },
-      "block_order": [
-        "video_1",
-        "video_2"
-      ],
-      "settings": {
-        "eyebrow": "The StrideBack community",
-        "title": "They share the comeback",
-        "accent_color": "#0f766e",
-        "accent_icon_color": "#ffffff",
-        "bg_color": "#f0fdfa",
-        "text_color": "#134e4a",
-        "corner_radius": 20,
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
     "clinical_proven_XJiV6J": {
       "type": "clinical-proven",
       "blocks": {
@@ -1128,6 +1096,38 @@
         "padding_bottom": 36
       }
     },
+    "video_carousel": {
+      "type": "video-carousel",
+      "blocks": {
+        "video_1": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/34e36ed3ce81452a9ac93c6de826221e.mp4"
+          }
+        },
+        "video_2": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/6bb61c8d19ed4605b758d6340d81f9a1.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "video_1",
+        "video_2"
+      ],
+      "settings": {
+        "eyebrow": "The StrideBack community",
+        "title": "They share the comeback",
+        "accent_color": "#0f766e",
+        "accent_icon_color": "#ffffff",
+        "bg_color": "#f0fdfa",
+        "text_color": "#134e4a",
+        "corner_radius": 20,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "1773377263ad90805a": {
       "type": "apps",
       "settings": {
@@ -1156,7 +1156,6 @@
   },
   "order": [
     "main",
-    "video_carousel",
     "clinical_proven_XJiV6J",
     "feature_cards",
     "testimonial_slider",
@@ -1169,6 +1168,7 @@
     "risk_free_trial",
     "1773377171b98d1ae1",
     "collapsible_content_TCEeNz",
+    "video_carousel",
     "1773377263ad90805a",
     "related-products"
   ]
