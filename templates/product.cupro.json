@@ -29,8 +29,8 @@
         "statement_tcR3Ug": {
           "type": "statement",
           "settings": {
-            "subtitle": "0% plastic. 0 compromise.",
-            "title": "Naturally Purified Water, in Hand-Hammered Pure Copper",
+            "subtitle": "You sleep. The copper works.",
+            "title": "Wake Up to Water That Purified Itself Overnight",
             "title_size": 26
           }
         },
@@ -50,12 +50,12 @@
             "text_color": "#121212",
             "icon_color": "#c2410c",
             "layout": "two_per_line",
-            "benefit_1": "99.9% pure copper",
-            "benefit_2": "Purifies water naturally",
-            "benefit_3": "Zero microplastics",
-            "benefit_4": "Hammered by hand",
-            "benefit_5": "No inner coating",
-            "benefit_6": "Lasts for decades"
+            "benefit_1": "Purer water by sunrise",
+            "benefit_2": "Zero plastic in your body",
+            "benefit_3": "A 10-second morning ritual",
+            "benefit_4": "No two bottles alike",
+            "benefit_5": "Water touches only copper",
+            "benefit_6": "The last bottle you'll buy"
           }
         },
         "price": {
@@ -102,7 +102,7 @@
             "custom_btn_color": "#dd1d1d",
             "color_scheme": "scheme-1",
             "star_color": "#c2410c",
-            "stars_label": "Rated 4.9 Excellent · 30-day money-back guarantee",
+            "stars_label": "Rated 4.8 Excellent · 30-day money-back guarantee",
             "button_font_size": 1.8,
             "button_font_weight": "700",
             "button_text_transform": "uppercase",
@@ -145,8 +145,8 @@
             "text_color": "#121212",
             "bg_color": "#fff5ec",
             "border_radius": 50,
-            "title": "<strong>A ritual adopted by thousands of families</strong>",
-            "subtitle": "who replaced plastic with pure copper.",
+            "title": "<strong>Thousands of families ditched plastic this year</strong>",
+            "subtitle": "and made copper their morning ritual.",
             "badge_color": "#51af6f",
             "image_1": "shopify://shop_images/cupro-social-1.png",
             "image_2": "shopify://shop_images/cupro-social-2.png",
@@ -175,7 +175,7 @@
           "settings": {
             "heading": "Description",
             "icon": "none",
-            "content": "<p>The Cupro™ bottle is shaped from <strong>solid 99.9% pure copper</strong>, hammered by hand, with no inner coating, no plastic, no paint. Just the metal.</p><ul><li>Copper is <strong>naturally antibacterial</strong>: it purifies the water resting inside it</li><li><strong>Zero plastic contact</strong>, zero shedding, zero microplastics</li><li>Every piece is unique: the hammering is done by hand</li><li>An object that lasts decades and <strong>gets more beautiful as it ages</strong></li></ul>",
+            "content": "<p>You're holding the only bottle where <strong>nothing stands between your water and 99.9% pure copper</strong>: no lining, no lacquer, no plastic anywhere. Hammered by hand, one piece at a time.</p><ul><li>Your water gets purified while it rests: copper is naturally antibacterial</li><li>Nothing sheds into your body: zero plastic contact, zero microplastics</li><li>Nobody else owns yours: every hammer pattern is one of one</li><li>You'll never shop for a bottle again: solid copper outlives trends and gets more beautiful doing it</li></ul>",
             "page": ""
           }
         },
@@ -184,7 +184,7 @@
           "settings": {
             "heading": "Why you need it",
             "icon": "none",
-            "content": "<p>One plastic water bottle sheds over <strong>240,000 microplastic particles</strong> into your water. Any brand. They don't digest. They accumulate.</p><p>Your stainless bottle is better: it's neutral. But that's all it is. It just holds water.</p><p>Copper does more than not shed. <strong>It works for you.</strong> It's called the oligodynamic effect: known to Ayurvedic medicine for 5,000 years, documented by modern microbiology. Copper naturally neutralizes bacteria in the water that rests against it.</p><p><strong>Your water deserves a vessel that purifies it, not one that contaminates it.</strong></p>",
+            "content": "<p>Every day you drink from plastic, over <strong>240,000 microplastic particles</strong> ride along. Any brand. They don't digest. They accumulate in you.</p><p>Your stainless bottle? Better. But it does nothing for you: it just holds water.</p><p>Copper is the only vessel that works while you sleep. Ayurveda has trusted it for 5,000 years; microbiology calls it the oligodynamic effect: copper naturally neutralizes bacteria in the water resting against it.</p><p><strong>You deserve water that got better overnight, not worse.</strong></p>",
             "page": ""
           }
         },
@@ -193,7 +193,7 @@
           "settings": {
             "heading": "Benefits ✨",
             "icon": "none",
-            "content": "<p>✓ <strong>Naturally purified water</strong> while it rests, no filter, no cartridge</p><p>✓ <strong>Zero plastic, zero toxins:</strong> pure copper with no inner coating</p><p>✓ <strong>A daily wellness ritual:</strong> filled at night, savored at sunrise</p><p>✓ <strong>A one-of-one artisan piece:</strong> hand-hammered, with a patina that turns noble over the years</p><p>✓ <strong>The last bottle you replace:</strong> solid copper lasts for decades</p>",
+            "content": "<p>✓ <strong>Wake up to purer water</strong>: the copper worked on it all night, no filter, no cartridge</p><p>✓ <strong>Get plastic out of your body</strong>: nothing but bare metal ever touches your water</p><p>✓ <strong>Start your day with a ritual, not a chore</strong>: fill at night, drink at sunrise, 10 seconds</p><p>✓ <strong>Own something nobody can copy</strong>: hand-hammered, one of one, more beautiful every year</p><p>✓ <strong>Stop replacing bottles forever</strong>: solid copper outlasts every trend in your cabinet</p>",
             "page": ""
           }
         },
@@ -219,10 +219,10 @@
           "type": "trust_card_v2",
           "settings": {
             "heading": "<strong>Why Cupro™ is the #1</strong> plastic-free hydration upgrade?",
-            "feature_text_1": "Solid 99.9% Pure Copper",
-            "feature_text_2": "Hammered by Hand",
-            "feature_text_3": "No Inner Coating",
-            "feature_text_4": "Naturally Antibacterial",
+            "feature_text_1": "Purifies While You Sleep",
+            "feature_text_2": "Yours Is One of One",
+            "feature_text_3": "Only Copper Touches Water",
+            "feature_text_4": "Outlasts Every Trend",
             "item_1": "0% Plastic",
             "item_2": "0 Microplastics",
             "item_3": "One-of-One Piece",
@@ -296,8 +296,8 @@
           "type": "stat",
           "settings": {
             "percentage": 99,
-            "heading": "pure solid copper (99.9% exactly)",
-            "caption": "no coating, no mystery alloy, no painted interior"
+            "heading": "pure copper against your water",
+            "caption": "no coating, no mystery alloy: purity you can verify yourself, the patina proves it"
           }
         },
         "stat_W9mrjV": {
@@ -305,7 +305,7 @@
           "settings": {
             "percentage": 0,
             "heading": "<strong>plastic touching your water</strong>",
-            "caption": "while a plastic bottle sheds over 240,000 microplastic particles"
+            "caption": "your body stops collecting the 240,000+ particles a plastic bottle sheds"
           }
         },
         "stat_7gdyWK": {
@@ -313,7 +313,7 @@
           "settings": {
             "percentage": 100,
             "heading": "<strong>hammered by hand</strong>",
-            "caption": "every bottle is a unique artisan piece, not a factory run"
+            "caption": "nobody on earth owns the same bottle as you"
           }
         },
         "stat_BTktYW": {
@@ -361,7 +361,7 @@
           "settings": {
             "image": "shopify://shop_images/cupro-card-1.png",
             "title": "<strong>The Pure Copper</strong>",
-            "text": "The oligodynamic effect: copper ions naturally neutralize bacteria in resting water. <strong>No filter, no cartridge, no electricity.</strong>",
+            "text": "While you sleep, copper ions neutralize bacteria in your water: the oligodynamic effect. <strong>No filter, no cartridge, no electricity.</strong> You just wake up and drink.",
             "card_bg_color": ""
           }
         },
@@ -370,7 +370,7 @@
           "settings": {
             "image": "shopify://shop_images/cupro-card-2.png",
             "title": "<strong>The Hand-Hammering</strong>",
-            "text": "Hours of artisan work per piece. The facets are deep, irregular, <strong>impossible to reproduce in a factory</strong>. Your bottle has no twin.",
+            "text": "Your bottle spent hours under an artisan's hammer. The facets are deep, irregular, <strong>impossible to reproduce in a factory</strong>. No one has yours.",
             "card_bg_color": ""
           }
         },
@@ -379,7 +379,7 @@
           "settings": {
             "image": "shopify://shop_images/cupro-card-3.png",
             "title": "<strong>The Bare Interior</strong>",
-            "text": "No lining, no lacquer, no film: your water touches <strong>nothing but pure copper</strong>. That's the whole difference with \"copper-look\" bottles.",
+            "text": "Your water touches <strong>nothing but pure copper</strong>: no lining, no lacquer, no film. That's the whole difference with the “copper-look” bottles you've seen.",
             "card_bg_color": ""
           }
         },
@@ -388,7 +388,7 @@
           "settings": {
             "image": "shopify://shop_images/cupro-card-4.png",
             "title": "<strong>The Living Patina</strong>",
-            "text": "Copper lives: it deepens, shifts, tells the story of your months of use. <strong>Half a lemon brings back day-one shine</strong> whenever you want it.",
+            "text": "Your bottle will look better in year three than on day one: the patina deepens and tells your story. <strong>Half a lemon brings back day-one shine</strong> whenever you want it.",
             "card_bg_color": ""
           }
         }
@@ -584,28 +584,28 @@
           "type": "benefit",
           "settings": {
             "icon_name": "health_and_safety",
-            "title": "Naturally purified water"
+            "title": "Wake up to purer water"
           }
         },
         "benefit_2": {
           "type": "benefit",
           "settings": {
             "icon_name": "science",
-            "title": "Zero microplastics"
+            "title": "Get plastic out of your life"
           }
         },
         "benefit_3": {
           "type": "benefit",
           "settings": {
             "icon_name": "bolt",
-            "title": "One-of-one artisan piece"
+            "title": "Own a piece nobody can copy"
           }
         },
         "benefit_4": {
           "type": "benefit",
           "settings": {
             "icon_name": "spa",
-            "title": "Lasts for decades"
+            "title": "Never buy a bottle again"
           }
         }
       },
@@ -617,7 +617,7 @@
       ],
       "settings": {
         "heading": "<strong>Purer water.</strong> Every morning.",
-        "subheading": "From the first fill to a ritual you keep: what Cupro™ changes.",
+        "subheading": "What changes in your mornings from the very first fill.",
         "product_image": "shopify://shop_images/cupro-hero.png",
         "bg_color": "#431407",
         "bg_color_bottom": "#c2410c",
@@ -667,7 +667,7 @@
             "image": "shopify://shop_images/cupro-step-4.png",
             "title": "Over the years",
             "description": "The object lives",
-            "answer": "Solid copper doesn't wear out: it patinas. Half a lemon revives the shine whenever you like. This bottle will follow you for decades."
+            "answer": "You'll never shop for a bottle again: copper doesn't wear out, it patinas. Half a lemon revives the shine whenever you like, for decades."
           }
         }
       },
@@ -697,28 +697,28 @@
         "ticker_item_HqnLzq": {
           "type": "ticker_item",
           "settings": {
-            "text": "99.9% Pure Copper",
+            "text": "Purifies While You Sleep",
             "icon_name": "verified"
           }
         },
         "ticker_item_k8LYdF": {
           "type": "ticker_item",
           "settings": {
-            "text": "Zero Microplastics",
+            "text": "Zero Plastic in Your Body",
             "icon_name": "verified"
           }
         },
         "ticker_item_TGPdcq": {
           "type": "ticker_item",
           "settings": {
-            "text": "Hammered by Hand",
+            "text": "No Two Bottles Alike",
             "icon_name": "verified"
           }
         },
         "ticker_item_R9aqEp": {
           "type": "ticker_item",
           "settings": {
-            "text": "Naturally Antibacterial",
+            "text": "Softer Water by Sunrise",
             "icon_name": "verified"
           }
         },
@@ -846,7 +846,7 @@
             "image": "shopify://shop_images/cupro-reason-3.png",
             "label": "Reason 3",
             "heading": "Copper to the core",
-            "details": "<p>Many \"copper\" bottles are plating over steel with a lacquered interior. The Cupro™ is solid and bare: your water touches 99.9% copper, inside and out.</p>"
+            "details": "<p>You've seen “copper” bottles that are really plating over steel with a lacquered interior. Yours is solid and bare: your water touches 99.9% copper, inside and out.</p>"
           }
         },
         "reason_card_VCdJrA": {
@@ -855,7 +855,7 @@
             "image": "shopify://shop_images/cupro-reason-4.png",
             "label": "Reason 4",
             "heading": "An heirloom, not a consumable",
-            "details": "<p>Hand-hammered, unique, built to last decades and grow more beautiful with age. Meanwhile, ordinary bottles scratch, dent, and get replaced.</p>"
+            "details": "<p>You'll hand this one down. Hand-hammered, one of one, more beautiful with age, while ordinary bottles scratch, dent, and end up in the trash.</p>"
           }
         },
         "reason_card_Np8tDa": {
@@ -914,36 +914,36 @@
         "bc_1": {
           "type": "feature",
           "settings": {
-            "brand_text": "Actively purifies the water",
-            "competitor_text": "Neutral at best, sheds at worst"
+            "brand_text": "Your water gets purer while you sleep",
+            "competitor_text": "It sits there all night, or absorbs plastic"
           }
         },
         "bc_2": {
           "type": "feature",
           "settings": {
-            "brand_text": "Zero microplastic particles",
-            "competitor_text": "240,000+ particles (plastic)"
+            "brand_text": "You stop thinking about microplastics",
+            "competitor_text": "240,000+ particles ride along in every fill"
           }
         },
         "bc_3": {
           "type": "feature",
           "settings": {
-            "brand_text": "Solid copper, no coating",
-            "competitor_text": "Platings, lacquers, inner films"
+            "brand_text": "People pick it up and ask where it's from",
+            "competitor_text": "Nobody has ever asked about a plastic bottle"
           }
         },
         "bc_4": {
           "type": "feature",
           "settings": {
-            "brand_text": "One-of-one artisan piece",
-            "competitor_text": "Anonymous factory run"
+            "brand_text": "Looks better in year three than on day one",
+            "competitor_text": "Scratched, faded, replaced by next summer"
           }
         },
         "bc_5": {
           "type": "feature",
           "settings": {
-            "brand_text": "Patinas and grows beautiful",
-            "competitor_text": "Scratches and gets replaced"
+            "brand_text": "The last bottle you'll ever buy",
+            "competitor_text": "You've already replaced three this year"
           }
         }
       },
@@ -955,7 +955,7 @@
         "bc_5"
       ],
       "settings": {
-        "heading": "<strong>Cupro™</strong> vs. plastic and stainless bottles",
+        "heading": "Your mornings with <strong>Cupro™</strong> vs. the bottle you own now",
         "heading_size": 36,
         "bg_gradient_start": "#431407",
         "bg_gradient_end": "#c2410c",
@@ -966,15 +966,15 @@
         "brand_image": "",
         "brand_col_color": "#c2410c",
         "brand_icon_color": "#ffffff",
-        "competitor_label": "<strong>Plastic and stainless</strong>",
+        "competitor_label": "<strong>The bottle you own now</strong>",
         "comp_col_color": "#ffffff",
         "comp_text_color": "#1a1a1a",
         "comp_icon_color": "#999999",
         "icons_filled": true,
-        "checklist_1": "<strong>Active</strong> : the copper purifies while the water rests",
-        "checklist_2": "<strong>Clean</strong> : zero plastic touching your water",
-        "checklist_3": "<strong>Artisan</strong> : hand-hammered, one of one",
-        "checklist_4": "<strong>Risk-free</strong> : 30-day money-back guarantee",
+        "checklist_1": "<strong>Overnight</strong> : your water purifies itself while you sleep",
+        "checklist_2": "<strong>Clean</strong> : plastic never touches what you drink",
+        "checklist_3": "<strong>Yours</strong> : hand-hammered, no two alike",
+        "checklist_4": "<strong>Risk-free</strong> : 30 days to fall for it or full refund",
         "cta_text": "Start the ritual",
         "cta_link": "",
         "cta_height": 46,
