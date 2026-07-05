@@ -1,91 +1,41 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
-    "image_banner_VhgaLG": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_D8RAFP": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "text_r8pPqT": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "buttons_a8FWBK": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_D8RAFP",
-        "text_r8pPqT",
-        "buttons_a8FWBK"
-      ],
-      "name": "t:sections.image-banner.presets.name",
+    "hero": {
+      "type": "hero-banner",
       "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "CoolBro makes one thing and makes it properly: a gentle, pH matched wash built for men, so you stay clean, cool and fresh down there from your morning shower to the end of the day.",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 52,
-        "padding_bottom": 52
+        "bg_color": "#14213D",
+        "desktop_image": "shopify://shop_images/avena-hero.png",
+        "mobile_bg_image": "",
+        "text_color": "#FFFFFF",
+        "badge_text": "Free tracked shipping  ·  30-day returns",
+        "badge_bg_color": "#FCA311",
+        "badge_text_color": "#14213D",
+        "badge_font_size": 15,
+        "show_stars": false,
+        "star_rating": 4.9,
+        "star_color": "#FCA311",
+        "star_empty_color": "#ececec",
+        "stars_text": "",
+        "heading": "<strong>Things worth keeping.</strong>",
+        "heading_size": 46,
+        "subheadline": "A small, careful edit of things we'd actually use. Quality-checked, shipped fast, and backed for a full 30 days.",
+        "cta_function": "link",
+        "cta_text": "Shop the collection",
+        "cta_url": "/collections/all",
+        "cta_bg_color": "#FCA311",
+        "cta_text_color": "#14213D",
+        "guarantee_text": "30-day money-back guarantee",
+        "guarantee_icon": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
         "collection": "all",
-        "products_to_show": 8,
-        "title": "Our Range",
+        "products_to_show": 25,
+        "title": "The Avena edit",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -100,39 +50,38 @@
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
-        "show_rating": true,
+        "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
-    "risk_free_trial": {
+    "guarantee": {
       "type": "risk-free-trial",
       "settings": {
         "badge_number": "30",
         "badge_label": "DAYS",
-        "subtitle": "THE COOLBRO GUARANTEE",
-        "heading": "Feel Fresher Or Pay Nothing",
-        "heading_size": 23,
-        "description": "Every bottle. 30 days. If you do not feel fresher and more comfortable, we refund every penny. No forms. No hassle, and you keep the bottle.",
-        "bg_color": "#e1f1fa",
-        "accent_color": "#0b1b2b",
-        "text_color": "",
-        "cta_text": "Shop CoolBro",
+        "subtitle": "THE AVENA PROMISE",
+        "heading": "Love it, or your money back",
+        "heading_size": 26,
+        "description": "Every order is backed for a full 30 days. If anything isn't right, we'll make it right with a refund or a replacement, no hassle. Free tracked shipping and real US support on every order.",
+        "bg_color": "#14213D",
+        "accent_color": "#FCA311",
+        "text_color": "#FFFFFF",
+        "cta_text": "Shop the collection",
         "cta_link": "/collections/all",
-        "cta_height": 50,
-        "cta_bg_color": "#137dc5",
-        "cta_text_color": "#ffffff",
-        "padding_top": 28
+        "cta_height": 52,
+        "cta_bg_color": "#FCA311",
+        "cta_text_color": "#14213D",
+        "padding_top": 40
       }
     }
   },
   "order": [
-    "image_banner_VhgaLG",
-    "rich_text",
+    "hero",
     "featured_collection",
-    "risk_free_trial"
+    "guarantee"
   ]
 }
