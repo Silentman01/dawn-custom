@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -225,7 +234,7 @@
             "highlight_color": "#0f766e",
             "bg_color": "#ffe4cc",
             "bg_image": "shopify://shop_images/strideback-texture-soft.png",
-            "image_opacity": 10,
+            "image_opacity": 30,
             "border_radius": 10,
             "heading_size": 28,
             "feature_text_size": 11,
@@ -278,6 +287,38 @@
         "enable_video_looping": true,
         "padding_top": 36,
         "padding_bottom": 12
+      }
+    },
+    "video_carousel": {
+      "type": "video-carousel",
+      "blocks": {
+        "video_1": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/34e36ed3ce81452a9ac93c6de826221e.mp4"
+          }
+        },
+        "video_2": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/6bb61c8d19ed4605b758d6340d81f9a1.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "video_1",
+        "video_2"
+      ],
+      "settings": {
+        "eyebrow": "The StrideBack community",
+        "title": "They share the comeback",
+        "accent_color": "#0f766e",
+        "accent_icon_color": "#ffffff",
+        "bg_color": "#f0fdfa",
+        "text_color": "#134e4a",
+        "corner_radius": 20,
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "clinical_proven_XJiV6J": {
@@ -954,7 +995,6 @@
         "highlight_color": "#5eead4",
         "brand_name": "<strong>StrideBack™</strong>",
         "brand_name_color": "#ffffff",
-        "brand_image": "",
         "brand_col_color": "#0f766e",
         "brand_icon_color": "#ffffff",
         "competitor_label": "<strong>Generic joint chews</strong>",
@@ -974,8 +1014,7 @@
         "cta_font_weight": "700",
         "note_text": "30-day money back guarantee",
         "padding_top": 36,
-        "padding_bottom": 36,
-        "competitor_image": ""
+        "padding_bottom": 36
       }
     },
     "risk_free_trial": {
@@ -1112,38 +1151,6 @@
         "show_rating": false,
         "padding_top": 36,
         "padding_bottom": 28
-      }
-    },
-    "video_carousel": {
-      "type": "video-carousel",
-      "blocks": {
-        "video_1": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/34e36ed3ce81452a9ac93c6de826221e.mp4"
-          }
-        },
-        "video_2": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/6bb61c8d19ed4605b758d6340d81f9a1.mp4"
-          }
-        }
-      },
-      "block_order": [
-        "video_1",
-        "video_2"
-      ],
-      "settings": {
-        "eyebrow": "The StrideBack community",
-        "title": "They share the comeback",
-        "accent_color": "#0f766e",
-        "accent_icon_color": "#ffffff",
-        "bg_color": "#f0fdfa",
-        "text_color": "#134e4a",
-        "corner_radius": 20,
-        "padding_top": 60,
-        "padding_bottom": 60
       }
     }
   },
