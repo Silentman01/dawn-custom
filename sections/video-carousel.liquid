@@ -1,0 +1,199 @@
+{%- comment -%}
+  Video carousel (UGC / community ritual videos).
+  Desktop: videos aligned in a row. Mobile: one-per-view carousel with
+  left/right arrows and dot pagination below.
+  Only control on each video: a volume toggle bottom-right in the brand color.
+{%- endcomment -%}
+
+<style>
+  #vc-{{ section.id }} {
+    padding: {{ section.settings.padding_top }}px 2rem {{ section.settings.padding_bottom }}px;
+    background: {{ section.settings.bg_color | default: '#ffffff' }};
+  }
+  #vc-{{ section.id }} .vc-head { text-align: center; margin-bottom: 2.8rem; }
+  #vc-{{ section.id }} .vc-eyebrow {
+    font-size: 1.2rem; letter-spacing: .18em; text-transform: uppercase;
+    color: {{ section.settings.accent_color }}; font-weight: 600; margin: 0 0 .8rem;
+  }
+  #vc-{{ section.id }} .vc-title {
+    font-size: 3.2rem; line-height: 1.15; margin: 0;
+    color: {{ section.settings.text_color | default: '#111111' }};
+  }
+  #vc-{{ section.id }} .vc-track {
+    display: flex; gap: 2rem; justify-content: center; align-items: stretch;
+  }
+  #vc-{{ section.id }} .vc-card {
+    position: relative; border-radius: {{ section.settings.corner_radius }}px;
+    overflow: hidden; flex: 0 1 32rem; background: #000;
+  }
+  #vc-{{ section.id }} .vc-card video {
+    width: 100%; height: 100%; display: block; object-fit: cover; aspect-ratio: 9/16;
+  }
+  #vc-{{ section.id }} .vc-vol {
+    position: absolute; bottom: 1.2rem; right: 1.2rem; z-index: 2;
+    width: 4rem; height: 4rem; border-radius: 50%; border: none; cursor: pointer;
+    background: {{ section.settings.accent_color }}; color: {{ section.settings.accent_icon_color }};
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,.35); transition: transform .15s ease;
+  }
+  #vc-{{ section.id }} .vc-vol:hover { transform: scale(1.08); }
+  #vc-{{ section.id }} .vc-vol svg { width: 2rem; height: 2rem; }
+  #vc-{{ section.id }} .vc-vol .on { display: none; }
+  #vc-{{ section.id }} .vc-vol.unmuted .on { display: block; }
+  #vc-{{ section.id }} .vc-vol.unmuted .off { display: none; }
+  #vc-{{ section.id }} .vc-arrow, #vc-{{ section.id }} .vc-dots { display: none; }
+
+  @media screen and (max-width: 749px) {
+    #vc-{{ section.id }} { padding-left: 0; padding-right: 0; }
+    #vc-{{ section.id }} .vc-wrap { position: relative; }
+    #vc-{{ section.id }} .vc-track {
+      justify-content: flex-start; gap: 0; overflow-x: auto;
+      scroll-snap-type: x mandatory; scrollbar-width: none; -webkit-overflow-scrolling: touch;
+    }
+    #vc-{{ section.id }} .vc-track::-webkit-scrollbar { display: none; }
+    #vc-{{ section.id }} .vc-card {
+      flex: 0 0 100%; scroll-snap-align: center;
+      margin: 0 6vw; flex-basis: 88vw;
+    }
+    #vc-{{ section.id }} .vc-arrow {
+      display: flex; position: absolute; top: 50%; transform: translateY(-50%); z-index: 3;
+      width: 3.6rem; height: 3.6rem; border-radius: 50%; border: none; cursor: pointer;
+      background: {{ section.settings.accent_color }}; color: {{ section.settings.accent_icon_color }};
+      align-items: center; justify-content: center; box-shadow: 0 2px 8px rgba(0,0,0,.3);
+    }
+    #vc-{{ section.id }} .vc-prev { left: .8rem; }
+    #vc-{{ section.id }} .vc-next { right: .8rem; }
+    #vc-{{ section.id }} .vc-arrow svg { width: 1.8rem; height: 1.8rem; }
+    #vc-{{ section.id }} .vc-dots {
+      display: flex; justify-content: center; gap: .8rem; margin-top: 1.6rem;
+    }
+    #vc-{{ section.id }} .vc-dot {
+      width: .8rem; height: .8rem; border-radius: 50%; border: none; padding: 0; cursor: pointer;
+      background: {{ section.settings.accent_color }}; opacity: .3; transition: opacity .2s;
+    }
+    #vc-{{ section.id }} .vc-dot.active { opacity: 1; }
+  }
+</style>
+
+<section id="vc-{{ section.id }}">
+  <div class="vc-head">
+    {%- if section.settings.eyebrow != blank -%}
+      <p class="vc-eyebrow">{{ section.settings.eyebrow }}</p>
+    {%- endif -%}
+    {%- if section.settings.title != blank -%}
+      <h2 class="vc-title">{{ section.settings.title }}</h2>
+    {%- endif -%}
+  </div>
+  <div class="vc-wrap">
+    <button class="vc-arrow vc-prev" aria-label="Previous video">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15,18 9,12 15,6"/></svg>
+    </button>
+    <div class="vc-track" data-vc-track>
+      {%- for block in section.blocks -%}
+        {%- if block.settings.video_url != blank -%}
+          <div class="vc-card" {{ block.shopify_attributes }}>
+            <video src="{{ block.settings.video_url }}" autoplay muted loop playsinline preload="metadata"></video>
+            <button class="vc-vol" aria-label="Toggle sound">
+              <svg class="off" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.59 3L14 9.41 15.41 8 18 10.59 20.59 8 22 9.41 19.41 12 22 14.59 20.59 16 18 13.41 15.41 16 14 14.59 16.59 12z"/></svg>
+              <svg class="on" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 7.97v8.05A4.5 4.5 0 0 0 16.5 12zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+            </button>
+          </div>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+    <button class="vc-arrow vc-next" aria-label="Next video">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="9,18 15,12 9,6"/></svg>
+    </button>
+  </div>
+  <div class="vc-dots" data-vc-dots></div>
+</section>
+
+<script>
+  (function () {
+    var root = document.getElementById('vc-{{ section.id }}');
+    if (!root) return;
+    var track = root.querySelector('[data-vc-track]');
+    var cards = Array.prototype.slice.call(root.querySelectorAll('.vc-card'));
+
+    root.querySelectorAll('.vc-vol').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var video = btn.parentElement.querySelector('video');
+        video.muted = !video.muted;
+        btn.classList.toggle('unmuted', !video.muted);
+        if (!video.muted) {
+          root.querySelectorAll('video').forEach(function (v) {
+            if (v !== video) {
+              v.muted = true;
+              var b = v.parentElement.querySelector('.vc-vol');
+              if (b) b.classList.remove('unmuted');
+            }
+          });
+        }
+      });
+    });
+
+    var dotsWrap = root.querySelector('[data-vc-dots]');
+    cards.forEach(function (_, i) {
+      var dot = document.createElement('button');
+      dot.className = 'vc-dot' + (i === 0 ? ' active' : '');
+      dot.setAttribute('aria-label', 'Go to video ' + (i + 1));
+      dot.addEventListener('click', function () { scrollTo(i); });
+      dotsWrap.appendChild(dot);
+    });
+    var dots = Array.prototype.slice.call(dotsWrap.children);
+
+    function current() {
+      var c = track.scrollLeft + track.clientWidth / 2;
+      var best = 0, bestD = Infinity;
+      cards.forEach(function (card, i) {
+        var d = Math.abs(card.offsetLeft + card.offsetWidth / 2 - c);
+        if (d < bestD) { bestD = d; best = i; }
+      });
+      return best;
+    }
+    function scrollTo(i) {
+      i = Math.max(0, Math.min(cards.length - 1, i));
+      var card = cards[i];
+      track.scrollTo({ left: card.offsetLeft - (track.clientWidth - card.offsetWidth) / 2, behavior: 'smooth' });
+    }
+    root.querySelector('.vc-prev').addEventListener('click', function () { scrollTo(current() - 1); });
+    root.querySelector('.vc-next').addEventListener('click', function () { scrollTo(current() + 1); });
+    var t;
+    track.addEventListener('scroll', function () {
+      clearTimeout(t);
+      t = setTimeout(function () {
+        var i = current();
+        dots.forEach(function (d, j) { d.classList.toggle('active', j === i); });
+      }, 80);
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Video carousel",
+  "tag": "section",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "The community" },
+    { "type": "text", "id": "title", "label": "Title", "default": "They share their ritual" },
+    { "type": "color", "id": "accent_color", "label": "Brand accent color", "default": "#14213D" },
+    { "type": "color", "id": "accent_icon_color", "label": "Accent icon color", "default": "#FFFFFF" },
+    { "type": "color", "id": "bg_color", "label": "Background color", "default": "#FFFFFF" },
+    { "type": "color", "id": "text_color", "label": "Text color", "default": "#111111" },
+    { "type": "range", "id": "corner_radius", "label": "Video corner radius", "min": 0, "max": 40, "step": 2, "unit": "px", "default": 20 },
+    { "type": "range", "id": "padding_top", "label": "Padding top", "min": 0, "max": 120, "step": 4, "unit": "px", "default": 60 },
+    { "type": "range", "id": "padding_bottom", "label": "Padding bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "default": 60 }
+  ],
+  "blocks": [
+    {
+      "type": "video",
+      "name": "Video",
+      "settings": [
+        { "type": "text", "id": "video_url", "label": "Video URL (.mp4/.mov CDN link)" }
+      ]
+    }
+  ],
+  "max_blocks": 8,
+  "presets": [{ "name": "Video carousel" }]
+}
+{% endschema %}

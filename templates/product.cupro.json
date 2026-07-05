@@ -15,8 +15,8 @@
         "star_rating": {
           "type": "star_rating",
           "settings": {
-            "rating": 4.9,
-            "text": "Rated <strong>4.9 Excellent</strong> by daily ritual keepers",
+            "rating": 4.8,
+            "text": "Rated <strong>4.8 Excellent</strong> 2,850+ Reviews",
             "star_color": "#c2410c",
             "star_bg_color": "#ececec",
             "star_size": 1.3,
@@ -63,7 +63,7 @@
           "settings": {
             "price_color": "#c2410c",
             "compare_price_color": "",
-            "sale_badge_text": "LAUNCH OFFER: save on every 2nd bottle",
+            "sale_badge_text": "4th of July Sale - Save 29%",
             "sale_badge_weight": "600",
             "price_font_size": 2,
             "price_font_weight": "700",
@@ -133,9 +133,9 @@
             "font_size_2_items": 1.4,
             "bg_color": "",
             "text_color": "#121212",
-            "text_1": "Free tracked shipping",
+            "text_1": "30-day money-back guarantee",
             "icon_name_1": "verified_user",
-            "text_2": "30-day money-back guarantee",
+            "text_2": "",
             "icon_name_2": "local_shipping"
           }
         },
@@ -963,7 +963,7 @@
         "highlight_color": "#fdba74",
         "brand_name": "<strong>Cupro™</strong>",
         "brand_name_color": "#ffffff",
-        "brand_image": "shopify://shop_images/cupro-hero.png",
+        "brand_image": "",
         "brand_col_color": "#c2410c",
         "brand_icon_color": "#ffffff",
         "competitor_label": "<strong>Plastic and stainless</strong>",
@@ -983,7 +983,8 @@
         "cta_font_weight": "700",
         "note_text": "30-day money back guarantee",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "competitor_image": ""
       }
     },
     "risk_free_trial": {
@@ -1121,6 +1122,45 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "video_carousel": {
+      "type": "video-carousel",
+      "blocks": {
+        "video_1": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/1561610db3524fa88a3f86ac01f7a746.mov"
+          }
+        },
+        "video_2": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/046da80b127f4f19ae81fa65852af743.mov"
+          }
+        },
+        "video_3": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/9dca758383b94126a595ec1ebd9dc34b.mov"
+          }
+        }
+      },
+      "block_order": [
+        "video_1",
+        "video_2",
+        "video_3"
+      ],
+      "settings": {
+        "eyebrow": "The Cupro community",
+        "title": "They share their ritual",
+        "accent_color": "#c2410c",
+        "accent_icon_color": "#ffffff",
+        "bg_color": "#fff5ec",
+        "text_color": "#431407",
+        "corner_radius": 20,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -1131,6 +1171,7 @@
     "benefits_showcase",
     "proven_benefits",
     "ticker_bar_E76PpF",
+    "video_carousel",
     "wellness_journey",
     "reasons_why_VdQFQx",
     "brand_comparison",
