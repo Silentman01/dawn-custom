@@ -1,31 +1,60 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "hero_banner": {
-      "type": "hero-banner",
+    "image_banner_VhgaLG": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_D8RAFP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_r8pPqT": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_a8FWBK": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_D8RAFP",
+        "text_r8pPqT",
+        "buttons_a8FWBK"
+      ],
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "bg_color": "#0B1B2B",
-        "desktop_image": "shopify://shop_images/coolbro_banner_clean.png",
-        "text_color": "#ffffff",
-        "badge_text": "Free gift with every order",
-        "badge_bg_color": "#0B1B2B",
-        "badge_text_color": "#6FD6E8",
-        "badge_font_size": 16,
-        "show_stars": true,
-        "star_rating": 4.8,
-        "star_color": "#FFC400",
-        "star_empty_color": "#ececec",
-        "stars_text": "<strong>Excellent 4.8 out of 5</strong>, from men who made the switch",
-        "heading": "Built For Down There",
-        "heading_size": 40,
-        "subheadline": "A daily wash made just for men. pH matched, cooling, and built to keep you fresh down there all day.",
-        "cta_function": "link",
-        "cta_text": "Get Yours Today",
-        "cta_url": "shopify://collections/all",
-        "cta_bg_color": "#137DC5",
-        "cta_text_color": "#ffffff",
-        "guarantee_text": "30 day money back guarantee",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
       }
     },
     "rich_text": {
@@ -88,21 +117,20 @@
         "heading": "Feel Fresher Or Pay Nothing",
         "heading_size": 23,
         "description": "Every bottle. 30 days. If you do not feel fresher and more comfortable, we refund every penny. No forms. No hassle, and you keep the bottle.",
-        "image": "shopify://shop_images/coolbro_bottle_hero.png",
-        "bg_color": "#E1F1FA",
-        "accent_color": "#0B1B2B",
+        "bg_color": "#e1f1fa",
+        "accent_color": "#0b1b2b",
         "text_color": "",
         "cta_text": "Shop CoolBro",
         "cta_link": "/collections/all",
         "cta_height": 50,
-        "cta_bg_color": "#137DC5",
+        "cta_bg_color": "#137dc5",
         "cta_text_color": "#ffffff",
         "padding_top": 28
       }
     }
   },
   "order": [
-    "hero_banner",
+    "image_banner_VhgaLG",
     "rich_text",
     "featured_collection",
     "risk_free_trial"

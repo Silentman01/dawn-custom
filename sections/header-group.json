@@ -26,8 +26,8 @@
         "subtext_font_weight": "400",
         "show_timer": true,
         "timer_hours": 2,
-        "timer_color": "#FCA311",
-        "background_color": "#14213D",
+        "timer_color": "#FFFFFF",
+        "background_color": "#446CC1",
         "padding_top": 10,
         "padding_bottom": 10
       }
@@ -38,13 +38,13 @@
         ".header__search,.menu-drawer__utility-links {display: none !important;}"
       ],
       "settings": {
-        "logo_position": "middle-left",
+        "logo_position": "middle-center",
         "mobile_logo_position": "center",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "none",
         "show_line_separator": true,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-5",
         "menu_color_scheme": "",
         "enable_country_selector": false,
         "enable_language_selector": false,

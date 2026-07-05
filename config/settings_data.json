@@ -9,8 +9,8 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/cool-bro-logo.png",
-    "logo_width": 190,
+    "logo": "shopify://shop_images/avena-logo-white.png",
+    "logo_width": 150,
     "favicon": "shopify://shop_images/olmi_favicon.png",
     "type_header_font": "figtree_n7",
     "heading_scale": 100,
@@ -148,8 +148,8 @@
           "background": "#ffffff",
           "background_gradient": "",
           "text": "#000000",
-          "button": "#14213D",
-          "button_label": "#FFFFFF",
+          "button": "#14213d",
+          "button_label": "#ffffff",
           "secondary_button_label": "#000000",
           "shadow": "#242833"
         }
@@ -189,11 +189,11 @@
       },
       "scheme-5": {
         "settings": {
-          "background": "#1a3018",
+          "background": "#14213D",
           "background_gradient": "",
           "text": "#ffffff",
-          "button": "#ffffff",
-          "button_label": "#334fb4",
+          "button": "#FCA311",
+          "button_label": "#14213D",
           "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }
