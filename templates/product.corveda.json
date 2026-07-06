@@ -1,0 +1,1129 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "star_rating": {
+          "type": "star_rating",
+          "settings": {
+            "rating": 4.8,
+            "text": "Rated <strong>4.8 Excellent</strong> 2,850+ Reviews",
+            "star_color": "#b01e2e",
+            "star_bg_color": "#ececec",
+            "star_size": 1.3,
+            "star_gap": 0.4,
+            "alignment": "flex-start",
+            "text_color": "#121212",
+            "highlight_color": "#000000"
+          }
+        },
+        "statement_tcR3Ug": {
+          "type": "statement",
+          "settings": {
+            "subtitle": "The natural way to support blood flow. Three softgels a day.",
+            "title": "Your Arteries Don't Care How Old You Are. They Care How Clear They Are.",
+            "title_size": 26
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title_size": 26,
+            "title_weight": "700",
+            "title_transform": "none",
+            "title_color": ""
+          }
+        },
+        "benefits_list": {
+          "type": "benefits_list",
+          "settings": {
+            "text_color": "#121212",
+            "icon_color": "#b01e2e",
+            "layout": "two_per_line",
+            "benefit_1": "Supports healthy circulation and blood flow",
+            "benefit_2": "Helps your body make its own nitric oxide",
+            "benefit_3": "Cayenne from 30,000 peppers, zero heat",
+            "benefit_4": "A 12-in-1 heart and vessel formula",
+            "benefit_5": "3rd-party lab tested, FDA-registered facility",
+            "benefit_6": "No prescription, no spice"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_color": "#b01e2e",
+            "compare_price_color": "",
+            "sale_badge_text": "Summer Sale - Save 18%",
+            "sale_badge_weight": "600",
+            "price_font_size": 2,
+            "price_font_weight": "700",
+            "compare_font_size": 1.8,
+            "hide_price": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false,
+            "button_font_size": 1.8,
+            "button_font_weight": "700",
+            "button_text_transform": "uppercase"
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "function": "link",
+            "button_link": "",
+            "display_when": "after_scroll",
+            "button_label": "ADD TO CART",
+            "enable_custom_btn_color": false,
+            "custom_btn_color": "#dd1d1d",
+            "color_scheme": "scheme-1",
+            "star_color": "#b01e2e",
+            "stars_label": "Rated 4.8 Excellent · 120-day money-back guarantee",
+            "button_font_size": 1.8,
+            "button_font_weight": "700",
+            "button_text_transform": "uppercase",
+            "desktop_show_image": true,
+            "desktop_show_title": true,
+            "desktop_rating_stars": true,
+            "desktop_show_price": false,
+            "desktop_show_sale_badge": false,
+            "desktop_variant_picker": true,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": true,
+            "mobile_show_title": true,
+            "mobile_rating_stars": false,
+            "mobile_show_price": false,
+            "mobile_show_sale_badge": false,
+            "mobile_variant_picker": true,
+            "mobile_full_button_width": false,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        },
+        "trust_microcopy": {
+          "type": "trust_microcopy",
+          "settings": {
+            "font_size": 1.6,
+            "font_size_2_items": 1.4,
+            "bg_color": "",
+            "text_color": "#121212",
+            "text_1": "120-day money-back guarantee",
+            "icon_name_1": "verified_user",
+            "text_2": "",
+            "icon_name_2": "local_shipping"
+          }
+        },
+        "social_proof_banner": {
+          "type": "social_proof_banner",
+          "settings": {
+            "text_color": "#121212",
+            "bg_color": "#fdf4f2",
+            "border_radius": 50,
+            "title": "Thousands are supporting their circulation the natural way",
+            "subtitle": "three softgels a day, one meal at a time.",
+            "badge_color": "#51af6f",
+            "image_1": "shopify://shop_images/corveda-social-1.png",
+            "image_2": "shopify://shop_images/corveda-social-2.png",
+            "image_3": "shopify://shop_images/corveda-social-3.png"
+          }
+        },
+        "urgency_notice": {
+          "type": "urgency_notice",
+          "settings": {
+            "line_1": "Made in small batches",
+            "line_2": "Every batch of Corveda™ is 3rd-party lab tested for heavy metals and microbes in the USA, so stock moves in waves and sells out.",
+            "font_size": 1.2,
+            "bg_color": "#fef2f2",
+            "text_color": "#9f3f3f",
+            "border_width": 2,
+            "border_style": "dashed",
+            "border_color": "#fca5a5",
+            "border_radius": 3,
+            "icon_name": "error",
+            "icon_color": "#d61717",
+            "icon_scale": 1.2
+          }
+        },
+        "collapsible_tab_mjEF8T": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What is Corveda™?",
+            "icon": "none",
+            "content": "You're getting a once-a-day capsaicin softgel built to do one thing: support the circulation your whole body runs on. Cayenne concentrated from 30,000 peppers, plus 11 more circulation nutrients, sealed so there is zero heat on your tongue.",
+            "page": ""
+          }
+        },
+        "collapsible_tab_gBgAbF": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Why you need it",
+            "icon": "none",
+            "content": "After 40, the lining of your blood vessels makes less nitric oxide, the molecule that keeps them open and relaxed. That is when blood pressure creeps up, hands and feet run cold, and your energy fades. Corveda™ helps switch that production back on, the way your body was built to.",
+            "page": ""
+          }
+        },
+        "collapsible_tab_akEwJj": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Benefits ✨",
+            "icon": "none",
+            "content": "✓ Supports healthy blood flow and circulation : capsaicin activates your own nitric oxide\n✓ Backs healthy blood pressure and steady energy : the endothelium is supported at the source\n✓ Around-the-clock support : not a 2-hour beet-juice spike\n✓ 12 circulation nutrients : cayenne, beet root, hawthorn, curcumin, berberine, ginseng and more\n✓ Zero heat, easy on your stomach : sealed softgel, turmeric included",
+            "page": ""
+          }
+        },
+        "collapsible_tab_MTCgw9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to take it (once a day)",
+            "icon": "none",
+            "content": "1. Take 3 softgels once a day. 2. With your largest meal, because capsaicin is fat-soluble and food helps it absorb. 3. Stay consistent: the vascular benefits compound over 6 to 10 weeks. No spice, no stacking, no cycling.",
+            "page": ""
+          }
+        },
+        "collapsible_tab_FPPE7p": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do you offer a guarantee?",
+            "icon": "none",
+            "content": "Yes: 120 days, money back. Take it daily for a few months. If you do not feel your circulation and energy respond, email us for a full refund. Fewer than 0.5% of customers ask.",
+            "page": ""
+          }
+        },
+        "trust_card_v2_BX8HtK": {
+          "type": "trust_card_v2",
+          "settings": {
+            "heading": "Why Corveda™ is the smarter way to support your circulation",
+            "feature_text_1": "12-in-1 Circulation Formula",
+            "feature_text_2": "Activates Your Own Nitric Oxide",
+            "feature_text_3": "No Prescription, Zero Spice",
+            "feature_text_4": "120-Day Guarantee",
+            "item_1": "12-in-1 Formula",
+            "item_2": "Own Nitric Oxide",
+            "item_3": "Zero Heat",
+            "item_4": "Lab Tested",
+            "item_5": "No Prescription",
+            "item_6": "120-Day Guarantee",
+            "text_color": "#1a1a1a",
+            "title_color": "#1a1a1a",
+            "highlight_color": "#b01e2e",
+            "bg_color": "#ffe4cc",
+            "bg_image": "shopify://shop_images/corveda-texture-soft.png",
+            "image_opacity": 10,
+            "border_radius": 10,
+            "heading_size": 28,
+            "feature_text_size": 11,
+            "item_text_size": 16
+          }
+        }
+      },
+      "block_order": [
+        "star_rating",
+        "statement_tcR3Ug",
+        "title",
+        "benefits_list",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "sticky_cart",
+        "trust_microcopy",
+        "social_proof_banner",
+        "urgency_notice",
+        "collapsible_tab_mjEF8T",
+        "collapsible_tab_gBgAbF",
+        "collapsible_tab_akEwJj",
+        "collapsible_tab_MTCgw9",
+        "collapsible_tab_FPPE7p",
+        "trust_card_v2_BX8HtK"
+      ],
+      "custom_css": [
+        ".urgency-notice {margin-bottom: 15px;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "mobile_thumbnails": "show",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "clinical_proven_XJiV6J": {
+      "type": "clinical-proven",
+      "blocks": {
+        "stat_JT8ghy": {
+          "type": "stat",
+          "settings": {
+            "percentage": 0,
+            "heading": "<strong>30,000 peppers</strong>",
+            "caption": "the cayenne concentrated into every serving, with zero heat on your tongue"
+          }
+        },
+        "stat_W9mrjV": {
+          "type": "stat",
+          "settings": {
+            "percentage": 98,
+            "heading": "<strong>around the clock</strong>",
+            "caption": "capsaicin supports your own nitric oxide, not a 2-hour beet spike"
+          }
+        },
+        "stat_7gdyWK": {
+          "type": "stat",
+          "settings": {
+            "percentage": 100,
+            "heading": "<strong>12 ingredients</strong>",
+            "caption": "cayenne, beet root, hawthorn, curcumin, berberine, ginseng and more"
+          }
+        },
+        "stat_BTktYW": {
+          "type": "stat",
+          "settings": {
+            "percentage": 100,
+            "heading": "<strong>money back for 120 days</strong>",
+            "caption": "support your circulation risk-free or get every cent back"
+          }
+        }
+      },
+      "block_order": [
+        "stat_JT8ghy",
+        "stat_W9mrjV",
+        "stat_7gdyWK",
+        "stat_BTktYW"
+      ],
+      "custom_css": [],
+      "name": "Clinical proven",
+      "settings": {
+        "bg_color": "#1c0f10",
+        "bg_image": "shopify://shop_images/corveda-texture-dark.png",
+        "image_opacity": 10,
+        "text_color": "#ffffff",
+        "percentage_color": "#e0a93a",
+        "highlight_color": "#e0a93a",
+        "heading": "Your circulation runs on nitric oxide. After 40, you make less.",
+        "heading_size": 31,
+        "subtitle": "Nitric oxide is what tells your blood vessels to relax and open. As the vessel lining ages it makes less, and blood pressure, cold hands, and low energy follow. Capsaicin helps switch that production back on.",
+        "cta_function": "link",
+        "cta_text": "Revive your circulation",
+        "cta_url": "",
+        "cta_bg_color": "#ffd600",
+        "cta_text_color": "#000000",
+        "guarantee_text": "120-day money back guarantee",
+        "padding_top": 84,
+        "padding_bottom": 80
+      }
+    },
+    "feature_cards": {
+      "type": "feature-cards",
+      "blocks": {
+        "card_1": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/corveda-card-1.png",
+            "title": "<strong>The Switch</strong>",
+            "text": "Capsaicin activates TRPV1 receptors, which signal your body to make its own <strong>nitric oxide</strong>, the molecule that keeps blood vessels open and blood flowing.",
+            "card_bg_color": ""
+          }
+        },
+        "card_bYRYEb": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/corveda-card-2.png",
+            "title": "<strong>The Source</strong>",
+            "text": "Not a 2-hour spike from beet juice. Corveda™ supports your body’s own around-the-clock nitric oxide pathway, so the effect lives in daily use.",
+            "card_bg_color": ""
+          }
+        },
+        "card_GPx6MR": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/corveda-card-3.png",
+            "title": "<strong>The Formula</strong>",
+            "text": "Cayenne from 30,000 peppers, plus beet root, hawthorn, curcumin, cinnamon, berberine and ginseng. <strong>12 circulation nutrients</strong> in one softgel.",
+            "card_bg_color": ""
+          }
+        },
+        "card_xANGWn": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/corveda-card-4.png",
+            "title": "<strong>The Routine</strong>",
+            "text": "Three softgels, once a day, with your largest meal. No spice on your tongue, no prescription, no cycling. It fits the life you already have.",
+            "card_bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_1",
+        "card_bYRYEb",
+        "card_GPx6MR",
+        "card_xANGWn"
+      ],
+      "settings": {
+        "heading": "What's actually working, every time you take it",
+        "highlight_color": "#b01e2e",
+        "card_title_size": 22,
+        "card_title_highlight": "#b01e2e",
+        "section_bg_color": "",
+        "text_alignment": "center",
+        "card_border_radius": 12,
+        "image_border_radius": 0.8,
+        "mobile_layout": "slider",
+        "pagination_type": "both",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "testimonial_slider": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "ticker_1": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/corveda-ticker-1.png"
+          }
+        },
+        "ticker_image_pGm3ig": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/corveda-ticker-2.png"
+          }
+        },
+        "ticker_image_DeKwWj": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/corveda-ticker-3.png"
+          }
+        },
+        "ticker_image_ziYp3P": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/corveda-ticker-4.png"
+          }
+        },
+        "ticker_image_p4UjJw": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/corveda-ticker-5.png"
+          }
+        },
+        "ticker_image_AGTRdD": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/corveda-ticker-6.png"
+          }
+        },
+        "ticker_image_eQnJRE": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/corveda-ticker-7.png"
+          }
+        },
+        "ticker_image_wgRraX": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/corveda-ticker-8.png"
+          }
+        },
+        "ticker_image_E7knVa": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/corveda-ticker-9.png"
+          }
+        },
+        "ticker_image_3CWTUR": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/corveda-ticker-10.png"
+          }
+        },
+        "review_1": {
+          "type": "review",
+          "settings": {
+            "rating": 5.0,
+            "quote": "\"My blood pressure readings finally settled into a healthy range.\"",
+            "details": "I'm usually skeptical about supplements, but my doctor actually commented on the improvement at my last visit. It's a relief to have something natural that works.",
+            "author_name": "MARK T.",
+            "author_image": "shopify://shop_images/corveda-avatar-1.png",
+            "tag_1": "Healthy BP",
+            "tag_2": "Doctor noticed",
+            "card_bg_color": ""
+          }
+        },
+        "review_2": {
+          "type": "review",
+          "settings": {
+            "rating": 5.0,
+            "quote": "\"My hands and feet aren’t cold all the time anymore.\"",
+            "details": "A few weeks in and the change in my circulation is real. Warmer hands, steadier energy through the afternoon. I don't hit that 3 PM wall.",
+            "author_name": "SUSAN R.",
+            "author_image": "shopify://shop_images/corveda-avatar-2.png",
+            "tag_1": "Warmer hands",
+            "tag_2": "Steady energy",
+            "card_bg_color": ""
+          }
+        },
+        "review_3": {
+          "type": "review",
+          "settings": {
+            "rating": 5.0,
+            "quote": "\"No spice at all, and no more choking down beet powder.\"",
+            "details": "I expected it to burn. It doesn't, the softgel opens past your throat. And it lasts all day instead of a 2-hour beet-juice buzz.",
+            "author_name": "DAVID L.",
+            "author_image": "shopify://shop_images/corveda-avatar-3.png",
+            "tag_1": "Zero heat",
+            "tag_2": "All-day",
+            "card_bg_color": ""
+          }
+        },
+        "review_4": {
+          "type": "review",
+          "settings": {
+            "rating": 5.0,
+            "quote": "\"My labs came back better and my doctor was surprised.\"",
+            "details": "My LDL was creeping up, so I gave Corveda a real shot. Three months later the numbers moved the right way. I'll keep taking it.",
+            "author_name": "LINDA G.",
+            "author_image": "shopify://shop_images/corveda-avatar-4.png",
+            "tag_1": "Better labs",
+            "tag_2": "3 months",
+            "card_bg_color": ""
+          }
+        },
+        "review_5": {
+          "type": "review",
+          "settings": {
+            "rating": 5.0,
+            "quote": "\"Finally something that supports the cause, not just the number.\"",
+            "details": "I was tired of pills that only pushed a number down. This actually supports the circulation underneath it. Wish I'd found it years ago.",
+            "author_name": "ROBERT B.",
+            "author_image": "shopify://shop_images/corveda-avatar-5.png",
+            "tag_1": "Root cause",
+            "tag_2": "Natural",
+            "card_bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "ticker_1",
+        "ticker_image_pGm3ig",
+        "ticker_image_DeKwWj",
+        "ticker_image_ziYp3P",
+        "ticker_image_p4UjJw",
+        "ticker_image_AGTRdD",
+        "ticker_image_eQnJRE",
+        "ticker_image_wgRraX",
+        "ticker_image_E7knVa",
+        "ticker_image_3CWTUR",
+        "review_1",
+        "review_2",
+        "review_3",
+        "review_4",
+        "review_5"
+      ],
+      "custom_css": [
+        ".ts-review__quote {font-weight: bold;}"
+      ],
+      "settings": {
+        "heading": "Real people, real circulation",
+        "subheading": "What customers taking Corveda™ are saying",
+        "highlight_color": "#b01e2e",
+        "star_color": "#b01e2e",
+        "verified_color": "#b01e2e",
+        "tag_color": "#b01e2e",
+        "tag_bg_color": "#fdf4f2",
+        "ticker_speed": 30,
+        "section_bg_color": "#fdf4f2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "benefits_showcase": {
+      "type": "benefits-showcase",
+      "blocks": {
+        "benefit_1": {
+          "type": "benefit",
+          "settings": {
+            "icon_name": "health_and_safety",
+            "title": "Healthy blood flow and pressure"
+          }
+        },
+        "benefit_2": {
+          "type": "benefit",
+          "settings": {
+            "icon_name": "science",
+            "title": "Your own nitric oxide, supported"
+          }
+        },
+        "benefit_3": {
+          "type": "benefit",
+          "settings": {
+            "icon_name": "bolt",
+            "title": "Steadier energy, warmer hands"
+          }
+        },
+        "benefit_4": {
+          "type": "benefit",
+          "settings": {
+            "icon_name": "spa",
+            "title": "Natural, once a day, no spice"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_1",
+        "benefit_2",
+        "benefit_3",
+        "benefit_4"
+      ],
+      "settings": {
+        "heading": "Better circulation. On your own terms.",
+        "subheading": "What changes when you support the blood flow your whole body depends on.",
+        "product_image": "shopify://shop_images/corveda-hero.png",
+        "bg_color": "#1c0f10",
+        "bg_color_bottom": "#b01e2e",
+        "text_color": "#ffffff",
+        "highlight_color": "#e0a93a",
+        "subheading_color": "",
+        "heading_size": 3,
+        "subheading_size": 1.5,
+        "benefit_size": 1.8,
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
+    "proven_benefits": {
+      "type": "proven-benefits",
+      "blocks": {
+        "pb_1": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/corveda-step-1.png",
+            "title": "Week 1",
+            "description": "Your body meets capsaicin",
+            "answer": "A gentle inner warmth as your TRPV1 receptors start responding. The first sign the formula is reaching your system. Three softgels with your largest meal."
+          }
+        },
+        "pb_2": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/corveda-step-2.png",
+            "title": "Week 2",
+            "description": "Circulation responds",
+            "answer": "Many people describe warmer hands and feet, steadier energy through the afternoon, fewer sluggish moments. Blood flow is waking up."
+          }
+        },
+        "pb_3": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/corveda-step-3.png",
+            "title": "Week 6",
+            "description": "The compounding window",
+            "answer": "The vascular benefits capsaicin is studied for show up here, not in days but in weeks of consistent daily use. This is where 30-day trials quit too early."
+          }
+        },
+        "pb_4": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/corveda-step-4.png",
+            "title": "Week 10+",
+            "description": "Daily, not occasional",
+            "answer": "Capsaicin does not store up. Its benefits live in consistent daily presence, which is why Corveda™ comes as a 60-day supply, not a 30-day bottle."
+          }
+        }
+      },
+      "block_order": [
+        "pb_1",
+        "pb_2",
+        "pb_3",
+        "pb_4"
+      ],
+      "settings": {
+        "heading": "How it works. Support that compounds, week by week.",
+        "subheading": "No prescription, no clinic. Just the circulation nutrient your modern diet leaves out, taken once a day.",
+        "highlight_color": "#b01e2e",
+        "bg_color": "#fdf4f2",
+        "cta_text": "Revive your circulation",
+        "cta_link": "",
+        "cta_note": "120-day money back guarantee",
+        "cta_note_icon_name": "verified_user",
+        "cta_height": 40,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "ticker_bar_E76PpF": {
+      "type": "ticker-bar",
+      "blocks": {
+        "ticker_item_HqnLzq": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "12-in-1 Circulation Formula",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_k8LYdF": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Activates Your Own Nitric Oxide",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_TGPdcq": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Cayenne From 30,000 Peppers",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_R9aqEp": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Zero Heat, No Prescription",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_EdVTLR": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Save 18% Today",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_WW7aKr": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "120-Day Guarantee",
+            "icon_name": "verified"
+          }
+        }
+      },
+      "block_order": [
+        "ticker_item_HqnLzq",
+        "ticker_item_k8LYdF",
+        "ticker_item_TGPdcq",
+        "ticker_item_R9aqEp",
+        "ticker_item_EdVTLR",
+        "ticker_item_WW7aKr"
+      ],
+      "name": "Ticker bar",
+      "settings": {
+        "background_color": "#b01e2e",
+        "text_color": "#ffffff",
+        "border_position": "none",
+        "border_thickness": 1,
+        "border_color": "#ffffff",
+        "font_size": 14,
+        "font_weight": "500",
+        "spacing": 60,
+        "icon_size": 20,
+        "speed": 20,
+        "padding_top": 8,
+        "padding_bottom": 8,
+        "aria_label": "Scrolling announcements"
+      }
+    },
+    "wellness_journey": {
+      "type": "wellness-journey",
+      "blocks": {
+        "wj_1": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Week 1: your body meets capsaicin",
+            "bullets": "<ul><li>A gentle inner warmth as TRPV1 receptors respond</li><li>The first sign the formula is reaching your system</li><li>Three softgels with your largest meal</li></ul>"
+          }
+        },
+        "wj_2": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Week 2: circulation responds",
+            "bullets": "<ul><li>Warmer hands and feet for many users</li><li>Steadier energy through the afternoon</li><li>Taking it with a meal becomes routine</li></ul>"
+          }
+        },
+        "wj_3": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Week 6: the compounding window",
+            "bullets": "<ul><li>The vascular benefits show up here, not in days</li><li>Weeks of consistency, not a quick spike</li><li>This is where 30-day trials quit too early</li></ul>"
+          }
+        },
+        "wj_4": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Week 10 and beyond",
+            "bullets": "<ul><li>The support holds because you kept it daily</li><li>Capsaicin works by consistent presence, not storage</li><li>A 60-day supply, built for the long game</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "wj_1",
+        "wj_2",
+        "wj_3",
+        "wj_4"
+      ],
+      "custom_css": [
+        ".wj-cta-button {color: black;}"
+      ],
+      "settings": {
+        "brand_image": "shopify://shop_images/corveda-journey.png",
+        "heading": "Your first weeks with Corveda™",
+        "description": "Three softgels a day, with your largest meal. Here is how circulation comes back:",
+        "highlight_color": "#b01e2e",
+        "button_color": "#ffd600",
+        "bg_color": "",
+        "cta_text": "Revive your circulation →",
+        "cta_link": "",
+        "cta_note": "120-day money-back guarantee",
+        "cta_note_icon_name": "verified_user",
+        "cta_height": 40,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "reasons_why_VdQFQx": {
+      "type": "reasons-why",
+      "blocks": {
+        "reason_card_XmWM9Y": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/corveda-reason-1.png",
+            "label": "Reason 1",
+            "heading": "Built for the cause, not the number",
+            "details": "<p>Pills push your numbers down without touching what caused them. Corveda™ supports the vessel lining that decides how open your arteries stay, at the source.</p>"
+          }
+        },
+        "reason_card_493cPn": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/corveda-reason-2.png",
+            "label": "Reason 2",
+            "heading": "Your own nitric oxide, around the clock",
+            "details": "<p>Dietary nitrates from beets give a 2-hour spike. Capsaicin activates your body’s own nitric oxide pathway through TRPV1, so support lasts through the day.</p>"
+          }
+        },
+        "reason_card_HHJT9J": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/corveda-reason-3.png",
+            "label": "Reason 3",
+            "heading": "Ancestral, not synthetic",
+            "details": "<p>Chili peppers have supported heart and circulation for 7,000 years, from the Mayans to Thailand to China. Corveda™ goes back to what worked, in a clean softgel.</p>"
+          }
+        },
+        "reason_card_VCdJrA": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/corveda-reason-4.png",
+            "label": "Reason 4",
+            "heading": "Zero heat, easy on your stomach",
+            "details": "<p>The softgel stays sealed past your tongue and throat, so there is no spice. Turmeric is in the formula to keep it gentle on your stomach.</p>"
+          }
+        },
+        "reason_card_Np8tDa": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/corveda-reason-5.png",
+            "label": "Reason 5",
+            "heading": "120 days to feel it, risk-free",
+            "details": "<p>Give it the 6 to 10 weeks real vascular support takes. If your circulation and energy do not respond, send it back for a full refund.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "reason_card_XmWM9Y",
+        "reason_card_493cPn",
+        "reason_card_HHJT9J",
+        "reason_card_VCdJrA",
+        "reason_card_Np8tDa"
+      ],
+      "name": "Reasons why",
+      "settings": {
+        "badge_text": "5 Reasons Why",
+        "subheading": "Corveda™ is unlike any circulation supplement you have tried",
+        "bg_color": "#fdf4f2",
+        "text_color": "#1a1a1a",
+        "badge_bg_color": "#b01e2e",
+        "badge_text_color": "#ffffff",
+        "label_bg_color": "#b01e2e",
+        "label_text_color": "#ffffff",
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#0000004d",
+        "card_text_color": "#000000",
+        "badge_font_size": 28,
+        "subheading_font_size": 31,
+        "label_font_size": 17,
+        "card_heading_font_size": 21,
+        "details_font_size": 16,
+        "card_height": 408,
+        "card_radius": 12,
+        "card_gap": 13,
+        "max_width": 1500,
+        "cta_text": "Revive your circulation",
+        "cta_url": "",
+        "cta_bg_color": "#ffd600",
+        "cta_text_color": "#000000",
+        "cta_font_size": 19,
+        "cta_margin_top": 40,
+        "guarantee_text": "120-day money back guarantee",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "brand_comparison": {
+      "type": "brand-comparison",
+      "blocks": {
+        "bc_1": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Supports the cause: your vessel lining",
+            "competitor_text": "Only pushes a number down"
+          }
+        },
+        "bc_2": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Your own nitric oxide, around the clock",
+            "competitor_text": "A 2-hour beet-juice spike"
+          }
+        },
+        "bc_3": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "12 circulation nutrients in one softgel",
+            "competitor_text": "Isolated vitamins or fish oil"
+          }
+        },
+        "bc_4": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Zero heat, easy on the stomach",
+            "competitor_text": "Spicy powders or heartburn"
+          }
+        },
+        "bc_5": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "120-day money-back guarantee",
+            "competitor_text": "A lifetime of refills"
+          }
+        }
+      },
+      "block_order": [
+        "bc_1",
+        "bc_2",
+        "bc_3",
+        "bc_4",
+        "bc_5"
+      ],
+      "settings": {
+        "heading": "Corveda™ vs. the pills and powders you have tried",
+        "heading_size": 36,
+        "bg_gradient_start": "#1c0f10",
+        "bg_gradient_end": "#b01e2e",
+        "text_color": "#ffffff",
+        "highlight_color": "#e0a93a",
+        "brand_name": "Corveda™",
+        "brand_name_color": "#ffffff",
+        "brand_image": "",
+        "brand_col_color": "#b01e2e",
+        "brand_icon_color": "#ffffff",
+        "competitor_label": "Other options",
+        "comp_col_color": "#ffffff",
+        "comp_text_color": "#1a1a1a",
+        "comp_icon_color": "#999999",
+        "icons_filled": true,
+        "checklist_1": "Cause : supports the vessel lining, not just the number",
+        "checklist_2": "Source : activates your own nitric oxide, around the clock",
+        "checklist_3": "Clean : 12 whole-food nutrients, no seed oils, zero spice",
+        "checklist_4": "Risk-free : 120 days to feel it or full refund",
+        "cta_text": "Revive your circulation",
+        "cta_link": "",
+        "cta_height": 46,
+        "cta_bg_color": "#ffd600",
+        "cta_text_color": "#000000",
+        "cta_font_weight": "700",
+        "note_text": "120-day money back guarantee",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "competitor_image": ""
+      }
+    },
+    "risk_free_trial": {
+      "type": "risk-free-trial",
+      "settings": {
+        "badge_image": "",
+        "badge_number": 120,
+        "badge_label": "DAYS",
+        "subtitle": "TIME TO FEEL THE DIFFERENCE",
+        "heading": "120-Day Money-Back Guarantee",
+        "heading_size": 23,
+        "description": "A full four months to feel it work. If your circulation, your energy, and the numbers you watch do not respond, email us for a full refund. Fewer than 0.5% of customers ask.",
+        "image": "shopify://shop_images/corveda-guarantee.png",
+        "bg_color": "#fdf4f2",
+        "accent_color": "#b01e2e",
+        "text_color": "",
+        "cta_text": "Revive your circulation",
+        "cta_link": "",
+        "cta_height": 50,
+        "cta_bg_color": "",
+        "cta_text_color": "",
+        "padding_top": 28,
+        "badge_color": "#b01e2e"
+      }
+    },
+    "1773377171b98d1ae1": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "collapsible_content_TCEeNz": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_kP7dka": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can capsaicin really support my circulation?",
+            "icon": "none",
+            "row_content": "<p>Yes. Capsaicin activates <strong>TRPV1 receptors</strong>, which stimulate your body’s own nitric oxide production, the molecule that keeps blood vessels relaxed and open. This is a well-studied pathway. Results vary; this is a dietary supplement, not a medicine.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jgAFHc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will it burn my mouth or upset my stomach?",
+            "icon": "none",
+            "row_content": "<p>No. The softgel stays sealed past your tongue and throat, then releases in your small intestine, so there is <strong>zero heat</strong>. Turmeric is in the formula to help keep it easy on your stomach. Take it with food.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qUEDkw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How fast will I notice a difference?",
+            "icon": "none",
+            "row_content": "<p>Many people feel warmer hands and steadier energy within the first weeks. The vascular benefits capsaicin is studied for compound over <strong>6 to 10 weeks</strong> of daily use, which is why we send a 60-day supply, not a 30-day bottle.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FCYENr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How is this different from beet supplements?",
+            "icon": "none",
+            "row_content": "<p>Beet nitrates give a short 2-hour spike and rely on external conversion. Capsaicin activates <strong>your own</strong> nitric oxide pathway around the clock, in low doses with high bioavailability. Corveda™ also adds hawthorn, curcumin, berberine and more.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_JXE9KX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I take it, and how much?",
+            "icon": "none",
+            "row_content": "<p>Three softgels, once a day, with your largest meal. Capsaicin is fat-soluble, so taking it with food helps it absorb. No stacking, no cycling, just three softgels with whatever is already on your plate.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xwHJdL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Shipping and returns?",
+            "icon": "none",
+            "row_content": "<p>Fast tracked shipping from our US facility. And you are covered: a <strong>120-day money-back guarantee</strong>, no questions. If your circulation and energy do not respond, email us for a full refund.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_kP7dka",
+        "collapsible_row_jgAFHc",
+        "collapsible_row_qUEDkw",
+        "collapsible_row_FCYENr",
+        "collapsible_row_JXE9KX",
+        "collapsible_row_xwHJdL"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1773377263ad90805a": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "clinical_proven_XJiV6J",
+    "feature_cards",
+    "testimonial_slider",
+    "benefits_showcase",
+    "proven_benefits",
+    "ticker_bar_E76PpF",
+    "wellness_journey",
+    "reasons_why_VdQFQx",
+    "brand_comparison",
+    "risk_free_trial",
+    "1773377171b98d1ae1",
+    "collapsible_content_TCEeNz",
+    "1773377263ad90805a",
+    "related-products"
+  ]
+}
