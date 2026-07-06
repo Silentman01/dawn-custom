@@ -148,8 +148,8 @@
         "urgency_notice": {
           "type": "urgency_notice",
           "settings": {
-            "line_1": "Made in small batches",
-            "line_2": "Every batch of Corveda™ is 3rd-party lab tested for heavy metals and microbes in the USA, so stock moves in waves and sells out.",
+            "line_1": "<p><strong>Made in small batches</strong></p>",
+            "line_2": "<p>Every batch of Corveda™ is 3rd-party lab tested for heavy metals and microbes in the USA, so stock moves in waves and sells out.</p>",
             "font_size": 1.2,
             "bg_color": "#fef2f2",
             "text_color": "#9f3f3f",
@@ -167,7 +167,7 @@
           "settings": {
             "heading": "What is Corveda™?",
             "icon": "none",
-            "content": "You're getting a once-a-day capsaicin softgel built to do one thing: support the circulation your whole body runs on. Cayenne concentrated from 30,000 peppers, plus 11 more circulation nutrients, sealed so there is zero heat on your tongue.",
+            "content": "<p>You're getting a once-a-day capsaicin softgel built to do one thing: support the circulation your whole body runs on. Cayenne concentrated from 30,000 peppers, plus 11 more circulation nutrients, sealed so there is zero heat on your tongue.</p>",
             "page": ""
           }
         },
@@ -176,7 +176,7 @@
           "settings": {
             "heading": "Why you need it",
             "icon": "none",
-            "content": "After 40, the lining of your blood vessels makes less nitric oxide, the molecule that keeps them open and relaxed. That is when blood pressure creeps up, hands and feet run cold, and your energy fades. Corveda™ helps switch that production back on, the way your body was built to.",
+            "content": "<p>After 40, the lining of your blood vessels makes less nitric oxide, the molecule that keeps them open and relaxed. That is when blood pressure creeps up, hands and feet run cold, and your energy fades. Corveda™ helps switch that production back on, the way your body was built to.</p>",
             "page": ""
           }
         },
@@ -185,7 +185,7 @@
           "settings": {
             "heading": "Benefits ✨",
             "icon": "none",
-            "content": "✓ Supports healthy blood flow and circulation : capsaicin activates your own nitric oxide\n✓ Backs healthy blood pressure and steady energy : the endothelium is supported at the source\n✓ Around-the-clock support : not a 2-hour beet-juice spike\n✓ 12 circulation nutrients : cayenne, beet root, hawthorn, curcumin, berberine, ginseng and more\n✓ Zero heat, easy on your stomach : sealed softgel, turmeric included",
+            "content": "<ul><li>Supports healthy blood flow and circulation: capsaicin activates your own nitric oxide</li><li>Backs healthy blood pressure and steady energy: the endothelium is supported at the source</li><li>Around-the-clock support: not a 2-hour beet-juice spike</li><li>12 circulation nutrients: cayenne, beet root, hawthorn, curcumin, berberine, ginseng and more</li><li>Zero heat, easy on your stomach: sealed softgel, turmeric included</li></ul>",
             "page": ""
           }
         },
@@ -194,7 +194,7 @@
           "settings": {
             "heading": "How to take it (once a day)",
             "icon": "none",
-            "content": "1. Take 3 softgels once a day. 2. With your largest meal, because capsaicin is fat-soluble and food helps it absorb. 3. Stay consistent: the vascular benefits compound over 6 to 10 weeks. No spice, no stacking, no cycling.",
+            "content": "<p>1. Take 3 softgels once a day. 2. With your largest meal, because capsaicin is fat-soluble and food helps it absorb. 3. Stay consistent: the vascular benefits compound over 6 to 10 weeks. No spice, no stacking, no cycling.</p>",
             "page": ""
           }
         },
@@ -203,7 +203,7 @@
           "settings": {
             "heading": "Do you offer a guarantee?",
             "icon": "none",
-            "content": "Yes: 120 days, money back. Take it daily for a few months. If you do not feel your circulation and energy respond, email us for a full refund. Fewer than 0.5% of customers ask.",
+            "content": "<p>Yes: 120 days, money back. Take it daily for a few months. If you do not feel your circulation and energy respond, email us for a full refund. Fewer than 0.5% of customers ask.</p>",
             "page": ""
           }
         },
@@ -464,7 +464,7 @@
         "review_1": {
           "type": "review",
           "settings": {
-            "rating": 5.0,
+            "rating": "5.0",
             "quote": "\"My blood pressure readings finally settled into a healthy range.\"",
             "details": "I'm usually skeptical about supplements, but my doctor actually commented on the improvement at my last visit. It's a relief to have something natural that works.",
             "author_name": "MARK T.",
@@ -477,7 +477,7 @@
         "review_2": {
           "type": "review",
           "settings": {
-            "rating": 5.0,
+            "rating": "5.0",
             "quote": "\"My hands and feet aren’t cold all the time anymore.\"",
             "details": "A few weeks in and the change in my circulation is real. Warmer hands, steadier energy through the afternoon. I don't hit that 3 PM wall.",
             "author_name": "SUSAN R.",
@@ -490,7 +490,7 @@
         "review_3": {
           "type": "review",
           "settings": {
-            "rating": 5.0,
+            "rating": "5.0",
             "quote": "\"No spice at all, and no more choking down beet powder.\"",
             "details": "I expected it to burn. It doesn't, the softgel opens past your throat. And it lasts all day instead of a 2-hour beet-juice buzz.",
             "author_name": "DAVID L.",
@@ -503,7 +503,7 @@
         "review_4": {
           "type": "review",
           "settings": {
-            "rating": 5.0,
+            "rating": "5.0",
             "quote": "\"My labs came back better and my doctor was surprised.\"",
             "details": "My LDL was creeping up, so I gave Corveda a real shot. Three months later the numbers moved the right way. I'll keep taking it.",
             "author_name": "LINDA G.",
@@ -516,7 +516,7 @@
         "review_5": {
           "type": "review",
           "settings": {
-            "rating": 5.0,
+            "rating": "5.0",
             "quote": "\"Finally something that supports the cause, not just the number.\"",
             "details": "I was tired of pills that only pushed a number down. This actually supports the circulation underneath it. Wish I'd found it years ago.",
             "author_name": "ROBERT B.",
@@ -975,7 +975,7 @@
       "type": "risk-free-trial",
       "settings": {
         "badge_image": "",
-        "badge_number": 120,
+        "badge_number": "120",
         "badge_label": "DAYS",
         "subtitle": "TIME TO FEEL THE DIFFERENCE",
         "heading": "120-Day Money-Back Guarantee",
