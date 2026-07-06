@@ -1,0 +1,1183 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "star_rating": {
+          "type": "star_rating",
+          "settings": {
+            "rating": 4.8,
+            "text": "Rated <strong>4.8 Excellent</strong> 2,850+ Reviews",
+            "star_color": "#06b6d4",
+            "star_bg_color": "#ececec",
+            "star_size": 1.3,
+            "star_gap": 0.4,
+            "alignment": "flex-start",
+            "text_color": "#121212",
+            "highlight_color": "#000000"
+          }
+        },
+        "statement_tcR3Ug": {
+          "type": "statement",
+          "settings": {
+            "subtitle": "15 minutes a day. No needles.",
+            "title": "Train the One Muscle That Frames Your Whole Face",
+            "title_size": 26
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title_size": 26,
+            "title_weight": "700",
+            "title_transform": "none",
+            "title_color": ""
+          }
+        },
+        "benefits_list": {
+          "type": "benefits_list",
+          "settings": {
+            "text_color": "#121212",
+            "icon_color": "#06b6d4",
+            "layout": "two_per_line",
+            "benefit_1": "A sharper, more defined jaw",
+            "benefit_2": "Trained like any other muscle",
+            "benefit_3": "15x harder than normal gum",
+            "benefit_4": "Sugar-free, no aspartame",
+            "benefit_5": "B-vitamins for the work",
+            "benefit_6": "No needles, no surgery"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_color": "#06b6d4",
+            "compare_price_color": "",
+            "sale_badge_text": "Summer Sale - Save 28%",
+            "sale_badge_weight": "600",
+            "price_font_size": 2,
+            "price_font_weight": "700",
+            "compare_font_size": 1.8
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false,
+            "button_font_size": 1.8,
+            "button_font_weight": "700",
+            "button_text_transform": "uppercase"
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "function": "link",
+            "button_link": "",
+            "display_when": "after_scroll",
+            "button_label": "ADD TO CART",
+            "enable_custom_btn_color": false,
+            "custom_btn_color": "#dd1d1d",
+            "color_scheme": "scheme-1",
+            "star_color": "#06b6d4",
+            "stars_label": "Rated 4.8 Excellent · 30-day money-back guarantee",
+            "button_font_size": 1.8,
+            "button_font_weight": "700",
+            "button_text_transform": "uppercase",
+            "desktop_show_image": true,
+            "desktop_show_title": true,
+            "desktop_rating_stars": true,
+            "desktop_show_price": false,
+            "desktop_show_sale_badge": false,
+            "desktop_variant_picker": true,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": true,
+            "mobile_show_title": true,
+            "mobile_rating_stars": false,
+            "mobile_show_price": false,
+            "mobile_show_sale_badge": false,
+            "mobile_variant_picker": true,
+            "mobile_full_button_width": false,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        },
+        "trust_microcopy": {
+          "type": "trust_microcopy",
+          "settings": {
+            "font_size": 1.6,
+            "font_size_2_items": 1.4,
+            "bg_color": "",
+            "text_color": "#121212",
+            "text_1": "30-day money-back guarantee",
+            "icon_name_1": "verified_user",
+            "text_2": "",
+            "icon_name_2": "local_shipping"
+          }
+        },
+        "social_proof_banner": {
+          "type": "social_proof_banner",
+          "settings": {
+            "text_color": "#121212",
+            "bg_color": "#ecfeff",
+            "border_radius": 50,
+            "title": "<strong>Thousands are training their jaw, not just their body</strong>",
+            "subtitle": "one 15-minute session at a time.",
+            "badge_color": "#51af6f",
+            "image_1": "shopify://shop_images/chizel-social-1.png",
+            "image_2": "shopify://shop_images/chizel-social-2.png",
+            "image_3": "shopify://shop_images/chizel-social-3.png"
+          }
+        },
+        "urgency_notice": {
+          "type": "urgency_notice",
+          "settings": {
+            "line_1": "<p><strong>Made in small batches</strong></p>",
+            "line_2": "<p>Every batch of Chizel™ is pressed to the same ultra-hard density, so it moves in waves and restocks take weeks. The launch savings apply while this batch lasts. <strong>PS:</strong> Chizel™ is only sold here.</p>",
+            "font_size": 1.2,
+            "bg_color": "#fef2f2",
+            "text_color": "#9f3f3f",
+            "border_width": 2,
+            "border_style": "dashed",
+            "border_color": "#fca5a5",
+            "border_radius": 3,
+            "icon_name": "error",
+            "icon_color": "#d61717",
+            "icon_scale": 1.2
+          }
+        },
+        "collapsible_tab_mjEF8T": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What is Chizel™?",
+            "icon": "none",
+            "content": "<p>You're getting a chewing gum built to do one thing: <strong>load the muscle that shapes your jawline</strong>. It's 15x harder than normal gum, so your jaw actually has to work.</p><ul><li>Your masseter finally gets trained: real resistance, like a weight for your face</li><li>You do it anywhere: at your desk, in the gym, before bed, 15 minutes a day</li><li>Nothing your dentist would frown at: sugar-free, no aspartame, 100% vegan</li><li>You feel the work, not a chore: fresh, intense taste plus B-vitamins (B3, B5, B6, B12)</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_gBgAbF": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Why you need it",
+            "icon": "none",
+            "content": "<p>You train your chest, your arms, your abs. And then you leave the one muscle that frames your entire face completely untouched.</p><p>Your jawline sits on top of the <strong>masseter</strong>, one of the strongest muscles in your body. Like any muscle, it grows when you load it, and it softens when you don't. Normal gum is far too soft to load anything.</p><p>Chizel™ is 15x harder, so every chew is a rep. No needles, no filler, no surgery. Just progressive overload for your jaw.</p><p><strong>You already know how to build a muscle. This is the one you've been skipping.</strong></p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_akEwJj": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Benefits ✨",
+            "icon": "none",
+            "content": "<p>✓ <strong>Sharpen the muscle under your jawline</strong>: 15x-harder gum loads the masseter like a weight</p><p>✓ <strong>Train it anywhere</strong>: desk, gym, or before bed, 15 minutes a day, every other day</p><p>✓ <strong>Skip the needles</strong>: a defined jaw the natural way, no filler and no surgery</p><p>✓ <strong>Chew clean</strong>: sugar-free, no aspartame, 100% vegan, with B-vitamins for the work</p><p>✓ <strong>Actually enjoy it</strong>: fresh, intense mint or strawberry, as good as normal gum</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_MTCgw9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to use it (15 minutes a day)",
+            "icon": "none",
+            "content": "<p><strong>1.</strong> Pick your level: 1 piece to start, 2 for intermediate, 3 for an intense session.</p><p><strong>2.</strong> Chew 15 minutes to 1 hour, every other day. Like any muscle, your jaw needs rest to grow.</p><p><strong>3.</strong> Be consistent. The mirror moves on constancy, not on one hard session.</p><p>Stop if you feel jaw pain and give the joint time. Not for under 14. Results vary with training, sleep, and diet.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_FPPE7p": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do you offer a guarantee?",
+            "icon": "none",
+            "content": "<p>Yes: <strong>30 days, money back.</strong></p><p>Train with it for a month. If your jaw doesn't feel stronger and you don't like the routine, send it back and we refund every cent.</p>",
+            "page": ""
+          }
+        },
+        "trust_card_v2_BX8HtK": {
+          "type": "trust_card_v2",
+          "settings": {
+            "heading": "<strong>Why Chizel™ is the #1</strong> way to train your jawline?",
+            "feature_text_1": "15x Harder Than Normal Gum",
+            "feature_text_2": "Loads the Masseter",
+            "feature_text_3": "No Needles, No Surgery",
+            "feature_text_4": "15 Minutes a Day",
+            "item_1": "15x Harder",
+            "item_2": "Sugar-Free",
+            "item_3": "100% Vegan",
+            "item_4": "B-Vitamins",
+            "item_5": "Fresh Taste",
+            "item_6": "30-Day Guarantee",
+            "text_color": "#1a1a1a",
+            "title_color": "#1a1a1a",
+            "highlight_color": "#06b6d4",
+            "bg_color": "#ffe4cc",
+            "bg_image": "shopify://shop_images/chizel-texture-soft.png",
+            "image_opacity": 10,
+            "border_radius": 10,
+            "heading_size": 28,
+            "feature_text_size": 11,
+            "item_text_size": 16
+          }
+        },
+        "testimonial_videos_block": {
+          "type": "testimonial_videos",
+          "settings": {
+            "heading": "First-chew reactions, no script:",
+            "heading_size": 23
+          }
+        }
+      },
+      "block_order": [
+        "star_rating",
+        "statement_tcR3Ug",
+        "title",
+        "benefits_list",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "sticky_cart",
+        "trust_microcopy",
+        "social_proof_banner",
+        "urgency_notice",
+        "collapsible_tab_mjEF8T",
+        "collapsible_tab_gBgAbF",
+        "collapsible_tab_akEwJj",
+        "collapsible_tab_MTCgw9",
+        "collapsible_tab_FPPE7p",
+        "trust_card_v2_BX8HtK",
+        "testimonial_videos_block"
+      ],
+      "custom_css": [
+        ".urgency-notice {margin-bottom: 15px;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "mobile_thumbnails": "show",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "clinical_proven_XJiV6J": {
+      "type": "clinical-proven",
+      "blocks": {
+        "stat_JT8ghy": {
+          "type": "stat",
+          "settings": {
+            "percentage": 0,
+            "heading": "<strong>needles, fillers, or surgery</strong>",
+            "caption": "a defined jaw the natural way, just 15 minutes of reps"
+          }
+        },
+        "stat_W9mrjV": {
+          "type": "stat",
+          "settings": {
+            "percentage": 98,
+            "heading": "<strong>of reviewers would recommend it</strong>",
+            "caption": "the jaw responds like any muscle you actually train"
+          }
+        },
+        "stat_7gdyWK": {
+          "type": "stat",
+          "settings": {
+            "percentage": 100,
+            "heading": "<strong>vegan, sugar-free, no aspartame</strong>",
+            "caption": "clean enough to chew every training day"
+          }
+        },
+        "stat_BTktYW": {
+          "type": "stat",
+          "settings": {
+            "percentage": 100,
+            "heading": "<strong>money back within 30 days</strong>",
+            "caption": "train risk-free or get every cent back"
+          }
+        }
+      },
+      "block_order": [
+        "stat_JT8ghy",
+        "stat_W9mrjV",
+        "stat_7gdyWK",
+        "stat_BTktYW"
+      ],
+      "custom_css": [],
+      "name": "Clinical proven",
+      "settings": {
+        "bg_color": "#0b1220",
+        "bg_image": "shopify://shop_images/chizel-texture-dark.png",
+        "image_opacity": 10,
+        "text_color": "#ffffff",
+        "percentage_color": "#67e8f9",
+        "highlight_color": "#67e8f9",
+        "heading": "<strong>Your jaw is a muscle.</strong> Train it like one.",
+        "heading_size": 31,
+        "subtitle": "The masseter is one of the strongest muscles in your body. Like any muscle, it grows when you load it, and Chizel™ is the load.",
+        "cta_function": "link",
+        "cta_text": "Start training your jaw",
+        "cta_url": "",
+        "cta_bg_color": "#ffd600",
+        "cta_text_color": "#000000",
+        "guarantee_text": "30-day money back guarantee",
+        "padding_top": 84,
+        "padding_bottom": 80
+      }
+    },
+    "feature_cards": {
+      "type": "feature-cards",
+      "blocks": {
+        "card_1": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/chizel-card-1.png",
+            "title": "<strong>The Resistance</strong>",
+            "text": "Normal gum is too soft to train anything. Chizel™ is <strong>15x harder</strong>, so your jaw fights back on every rep, the way a weight makes your arm work.",
+            "card_bg_color": ""
+          }
+        },
+        "card_bYRYEb": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/chizel-card-2.png",
+            "title": "<strong>The Muscle</strong>",
+            "text": "Your jawline sits on the masseter, one of the strongest muscles in your body. <strong>Load it and it grows</strong>, exactly like every other muscle you train.",
+            "card_bg_color": ""
+          }
+        },
+        "card_GPx6MR": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/chizel-card-3.png",
+            "title": "<strong>The Clean Fuel</strong>",
+            "text": "Sugar-free, no aspartame, 100% vegan, with B-vitamins (B3, B5, B6, B12). <strong>Nothing your dentist would frown at</strong>, so you can train every other day.",
+            "card_bg_color": ""
+          }
+        },
+        "card_xANGWn": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/chizel-card-4.png",
+            "title": "<strong>The Routine</strong>",
+            "text": "15 minutes a day, every other day, at three levels. <strong>It fits the life you already have</strong>: desk, gym, or the drive home.",
+            "card_bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_1",
+        "card_bYRYEb",
+        "card_GPx6MR",
+        "card_xANGWn"
+      ],
+      "settings": {
+        "heading": "What's actually working, <strong>every time you chew</strong>",
+        "highlight_color": "#06b6d4",
+        "card_title_size": 22,
+        "card_title_highlight": "#06b6d4",
+        "section_bg_color": "",
+        "text_alignment": "center",
+        "card_border_radius": 12,
+        "image_border_radius": 0.8,
+        "mobile_layout": "slider",
+        "pagination_type": "both",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "testimonial_slider": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "ticker_1": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/chizel-ticker-1.png"
+          }
+        },
+        "ticker_image_pGm3ig": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/chizel-ticker-2.png"
+          }
+        },
+        "ticker_image_DeKwWj": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/chizel-ticker-3.png"
+          }
+        },
+        "ticker_image_ziYp3P": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/chizel-ticker-4.png"
+          }
+        },
+        "ticker_image_p4UjJw": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/chizel-ticker-5.png"
+          }
+        },
+        "ticker_image_AGTRdD": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/chizel-ticker-6.png"
+          }
+        },
+        "ticker_image_eQnJRE": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/chizel-ticker-7.png"
+          }
+        },
+        "ticker_image_wgRraX": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/chizel-ticker-8.png"
+          }
+        },
+        "ticker_image_E7knVa": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/chizel-ticker-9.png"
+          }
+        },
+        "ticker_image_3CWTUR": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/chizel-ticker-10.png"
+          }
+        },
+        "review_1": {
+          "type": "review",
+          "settings": {
+            "rating": "5.0",
+            "quote": "\"The first piece humbled me. My jaw was sore like after a workout.\"",
+            "details": "That's when I knew it was actually doing something. A few weeks in, the definition on the sides is real. It's the only supplement-style thing I've stuck with because it feels like training.",
+            "author_name": "DIANE M.",
+            "author_image": "shopify://shop_images/chizel-avatar-1.png",
+            "tag_1": "Sore day one",
+            "tag_2": "Real resistance",
+            "card_bg_color": ""
+          }
+        },
+        "review_2": {
+          "type": "review",
+          "settings": {
+            "rating": "4.9",
+            "quote": "\"Cheaper than filler and I actually earned it.\"",
+            "details": "I looked into jaw filler and noped out at the price and the needles. This is 15 minutes while I work. The mirror is slowly agreeing with me and I didn't pay a clinic a grand.",
+            "author_name": "CAROL R.",
+            "author_image": "shopify://shop_images/chizel-avatar-2.png",
+            "tag_1": "No needles",
+            "tag_2": "Worth it",
+            "card_bg_color": ""
+          }
+        },
+        "review_3": {
+          "type": "review",
+          "settings": {
+            "rating": "4.8",
+            "quote": "\"Mint is legit fresh, not chalky like most fitness stuff.\"",
+            "details": "I expected it to taste like a supplement. It tastes like actual gum, just way harder. That's the only reason I chew it every other day without forgetting.",
+            "author_name": "MARK L.",
+            "author_image": "shopify://shop_images/chizel-avatar-3.png",
+            "tag_1": "Fresh taste",
+            "tag_2": "Actually enjoyable",
+            "card_bg_color": ""
+          }
+        },
+        "review_4": {
+          "type": "review",
+          "settings": {
+            "rating": "4.9",
+            "quote": "\"Two months in and people asked if I lost weight. I didn't.\"",
+            "details": "Same weight, sharper face. The jaw is the only thing I changed. Wish I'd started treating it like a muscle years ago.",
+            "author_name": "HEATHER G.",
+            "author_image": "shopify://shop_images/chizel-avatar-4.png",
+            "tag_1": "Sharper face",
+            "tag_2": "2-month update",
+            "card_bg_color": ""
+          }
+        },
+        "review_5": {
+          "type": "review",
+          "settings": {
+            "rating": "5.0",
+            "quote": "\"The hardest one on the market, and that's the point.\"",
+            "details": "I tried a softer jaw gum first and felt nothing. This one you feel immediately. If it isn't hard, it isn't training anything.",
+            "author_name": "JUSTIN B.",
+            "author_image": "shopify://shop_images/chizel-avatar-5.png",
+            "tag_1": "15x harder",
+            "tag_2": "You feel it",
+            "card_bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "ticker_1",
+        "ticker_image_pGm3ig",
+        "ticker_image_DeKwWj",
+        "ticker_image_ziYp3P",
+        "ticker_image_p4UjJw",
+        "ticker_image_AGTRdD",
+        "ticker_image_eQnJRE",
+        "ticker_image_wgRraX",
+        "ticker_image_E7knVa",
+        "ticker_image_3CWTUR",
+        "review_1",
+        "review_2",
+        "review_3",
+        "review_4",
+        "review_5"
+      ],
+      "custom_css": [
+        ".ts-review__quote {font-weight: bold;}"
+      ],
+      "settings": {
+        "heading": "Real jaws, <strong>real reps</strong>",
+        "subheading": "What guys training with Chizel are saying",
+        "highlight_color": "#06b6d4",
+        "star_color": "#06b6d4",
+        "verified_color": "#06b6d4",
+        "tag_color": "#06b6d4",
+        "tag_bg_color": "#ecfeff",
+        "ticker_speed": 30,
+        "section_bg_color": "#ecfeff",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "benefits_showcase": {
+      "type": "benefits-showcase",
+      "blocks": {
+        "benefit_1": {
+          "type": "benefit",
+          "settings": {
+            "icon_name": "health_and_safety",
+            "title": "A more defined jawline"
+          }
+        },
+        "benefit_2": {
+          "type": "benefit",
+          "settings": {
+            "icon_name": "science",
+            "title": "Real resistance, real reps"
+          }
+        },
+        "benefit_3": {
+          "type": "benefit",
+          "settings": {
+            "icon_name": "bolt",
+            "title": "No needles or surgery"
+          }
+        },
+        "benefit_4": {
+          "type": "benefit",
+          "settings": {
+            "icon_name": "spa",
+            "title": "15 minutes, anywhere"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_1",
+        "benefit_2",
+        "benefit_3",
+        "benefit_4"
+      ],
+      "settings": {
+        "heading": "<strong>A sharper jaw.</strong> On your own schedule.",
+        "subheading": "What changes when you finally train the muscle under it.",
+        "product_image": "shopify://shop_images/chizel-hero.png",
+        "bg_color": "#0b1220",
+        "bg_color_bottom": "#06b6d4",
+        "text_color": "#ffffff",
+        "highlight_color": "#67e8f9",
+        "subheading_color": "",
+        "heading_size": 3,
+        "subheading_size": 1.5,
+        "benefit_size": 1.8,
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
+    "proven_benefits": {
+      "type": "proven-benefits",
+      "blocks": {
+        "pb_1": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/chizel-step-1.png",
+            "title": "Day 1",
+            "description": "Pick your level",
+            "answer": "Start with 1 piece if you're new, 2 or 3 as you progress. Chew 15 minutes to an hour, and expect your jaw to feel it."
+          }
+        },
+        "pb_2": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/chizel-step-2.png",
+            "title": "Weeks 1-2",
+            "description": "The muscle wakes up",
+            "answer": "Like any first workout, your jaw gets sore, then adapts. The 15x-harder density is what makes it actual training instead of a habit."
+          }
+        },
+        "pb_3": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/chizel-step-3.png",
+            "title": "Weeks 3-6",
+            "description": "The mirror moves",
+            "answer": "With every-other-day consistency, the sides of your jaw start to firm and define. Slow, like any muscle, and it stays because you built it."
+          }
+        },
+        "pb_4": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/chizel-step-4.png",
+            "title": "Month 2+",
+            "description": "Maintain the line",
+            "answer": "You keep a lean routine to hold the definition, the same way you keep training any muscle you care about."
+          }
+        }
+      },
+      "block_order": [
+        "pb_1",
+        "pb_2",
+        "pb_3",
+        "pb_4"
+      ],
+      "settings": {
+        "heading": "<strong>How it works.</strong> Progressive overload for your jaw.",
+        "subheading": "No gadgets, no guesswork, no clinic. <strong>Just the one muscle you've been skipping, finally under load.</strong>",
+        "highlight_color": "#06b6d4",
+        "bg_color": "#ecfeff",
+        "cta_text": "Start training your jaw",
+        "cta_link": "",
+        "cta_note": "30-day money back guarantee",
+        "cta_note_icon_name": "verified_user",
+        "cta_height": 40,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "ticker_bar_E76PpF": {
+      "type": "ticker-bar",
+      "blocks": {
+        "ticker_item_HqnLzq": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "15x Harder Than Normal Gum",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_k8LYdF": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Trains the Masseter",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_TGPdcq": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "No Needles, No Surgery",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_R9aqEp": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Sugar-Free & Vegan",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_EdVTLR": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Save 28% Today",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_WW7aKr": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "30-Day Guarantee",
+            "icon_name": "verified"
+          }
+        }
+      },
+      "block_order": [
+        "ticker_item_HqnLzq",
+        "ticker_item_k8LYdF",
+        "ticker_item_TGPdcq",
+        "ticker_item_R9aqEp",
+        "ticker_item_EdVTLR",
+        "ticker_item_WW7aKr"
+      ],
+      "name": "Ticker bar",
+      "settings": {
+        "background_color": "#06b6d4",
+        "text_color": "#ffffff",
+        "border_position": "none",
+        "border_thickness": 1,
+        "border_color": "#ffffff",
+        "font_size": 14,
+        "font_weight": "500",
+        "spacing": 60,
+        "icon_size": 20,
+        "speed": 20,
+        "padding_top": 8,
+        "padding_bottom": 8,
+        "aria_label": "Scrolling announcements"
+      }
+    },
+    "wellness_journey": {
+      "type": "wellness-journey",
+      "blocks": {
+        "wj_1": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Day 1: the first session",
+            "bullets": "<ul><li>Pick your level and chew 15 minutes</li><li>Your jaw feels it, the way a first workout does</li><li>The routine starts today</li></ul>"
+          }
+        },
+        "wj_2": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Week 2: the muscle adapts",
+            "bullets": "<ul><li>The soreness fades, the endurance climbs</li><li>Chewing every other day becomes a reflex</li><li>You stop skipping the one muscle you used to</li></ul>"
+          }
+        },
+        "wj_3": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Week 4: the line shows",
+            "bullets": "<ul><li>The sides of your jaw start to firm and define</li><li>People notice something is different</li><li>The mirror finally agrees with you</li></ul>"
+          }
+        },
+        "wj_4": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Month 2 and beyond",
+            "bullets": "<ul><li>The definition holds because you built it</li><li>A lean routine keeps the line sharp</li><li>No filler, no surgery, no touch-ups</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "wj_1",
+        "wj_2",
+        "wj_3",
+        "wj_4"
+      ],
+      "custom_css": [
+        ".wj-cta-button {color: black;}"
+      ],
+      "settings": {
+        "brand_image": "shopify://shop_images/chizel-journey.png",
+        "heading": "<strong>Your first weeks</strong> with Chizel™",
+        "description": "15 minutes a day, every other day. Here's how the jawline comes in:",
+        "highlight_color": "#06b6d4",
+        "button_color": "#ffd600",
+        "bg_color": "",
+        "cta_text": "Start training your jaw →",
+        "cta_link": "",
+        "cta_note": "30-day money-back guarantee",
+        "cta_note_icon_name": "verified_user",
+        "cta_height": 40,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "reasons_why_VdQFQx": {
+      "type": "reasons-why",
+      "blocks": {
+        "reason_card_XmWM9Y": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/chizel-reason-1.png",
+            "label": "Reason 1",
+            "heading": "Built to train, not to snack",
+            "details": "<p>You've chewed normal gum your whole life and your jaw never changed. Chizel™ is 15x harder for one reason: soft gum can't load a muscle. This can.</p>"
+          }
+        },
+        "reason_card_493cPn": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/chizel-reason-2.png",
+            "label": "Reason 2",
+            "heading": "It targets a real muscle",
+            "details": "<p>The masseter frames your jawline and responds to load like any muscle. Train it and it grows; ignore it and it stays soft. You already know how this works from the gym.</p>"
+          }
+        },
+        "reason_card_HHJT9J": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/chizel-reason-3.png",
+            "label": "Reason 3",
+            "heading": "No needles, no clinic",
+            "details": "<p>Filler fades and costs a fortune; surgery is permanent and scary. This is 15 minutes a day and a mirror that slowly agrees with you, on your terms.</p>"
+          }
+        },
+        "reason_card_VCdJrA": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/chizel-reason-4.png",
+            "label": "Reason 4",
+            "heading": "Clean enough for every day",
+            "details": "<p>Sugar-free, no aspartame, 100% vegan, with B-vitamins for the work. Your dentist won't wince and your training won't stall.</p>"
+          }
+        },
+        "reason_card_Np8tDa": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/chizel-reason-5.png",
+            "label": "Reason 5",
+            "heading": "30 days to feel it, risk-free",
+            "details": "<p>Money back for a full month: enough time to feel your jaw get stronger. If it doesn't, return it for a full refund, no questions.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "reason_card_XmWM9Y",
+        "reason_card_493cPn",
+        "reason_card_HHJT9J",
+        "reason_card_VCdJrA",
+        "reason_card_Np8tDa"
+      ],
+      "name": "Reasons why",
+      "settings": {
+        "badge_text": "5 Reasons Why",
+        "subheading": "Chizel™ is unlike anything you've chewed",
+        "bg_color": "#ecfeff",
+        "text_color": "#1a1a1a",
+        "badge_bg_color": "#06b6d4",
+        "badge_text_color": "#ffffff",
+        "label_bg_color": "#06b6d4",
+        "label_text_color": "#ffffff",
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#0000004d",
+        "card_text_color": "#000000",
+        "badge_font_size": 28,
+        "subheading_font_size": 31,
+        "label_font_size": 17,
+        "card_heading_font_size": 21,
+        "details_font_size": 16,
+        "card_height": 408,
+        "card_radius": 12,
+        "card_gap": 13,
+        "max_width": 1500,
+        "cta_text": "Start training your jaw",
+        "cta_url": "",
+        "cta_bg_color": "#ffd600",
+        "cta_text_color": "#000000",
+        "cta_font_size": 19,
+        "cta_margin_top": 40,
+        "guarantee_text": "30-day money back guarantee",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "brand_comparison": {
+      "type": "brand-comparison",
+      "blocks": {
+        "bc_1": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Your jaw is sore like after a workout",
+            "competitor_text": "You feel absolutely nothing"
+          }
+        },
+        "bc_2": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "15x harder, so the muscle actually loads",
+            "competitor_text": "Too soft to train anything"
+          }
+        },
+        "bc_3": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "The sides of your jaw start to define",
+            "competitor_text": "Fresh breath and nothing else"
+          }
+        },
+        "bc_4": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Sugar-free, vegan, B-vitamins",
+            "competitor_text": "Sugar, aspartame, or who knows"
+          }
+        },
+        "bc_5": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "A sharper face in the mirror",
+            "competitor_text": "The same face you started with"
+          }
+        }
+      },
+      "block_order": [
+        "bc_1",
+        "bc_2",
+        "bc_3",
+        "bc_4",
+        "bc_5"
+      ],
+      "settings": {
+        "heading": "Training with <strong>Chizel™</strong> vs. the gum in your drawer",
+        "heading_size": 36,
+        "bg_gradient_start": "#0b1220",
+        "bg_gradient_end": "#06b6d4",
+        "text_color": "#ffffff",
+        "highlight_color": "#67e8f9",
+        "brand_name": "<strong>Chizel™</strong>",
+        "brand_name_color": "#ffffff",
+        "brand_image": "",
+        "brand_col_color": "#06b6d4",
+        "brand_icon_color": "#ffffff",
+        "competitor_label": "<strong>Normal gum</strong>",
+        "comp_col_color": "#ffffff",
+        "comp_text_color": "#1a1a1a",
+        "comp_icon_color": "#999999",
+        "icons_filled": true,
+        "checklist_1": "<strong>Loads</strong> : 15x harder, real resistance for the masseter",
+        "checklist_2": "<strong>Clean</strong> : sugar-free, no aspartame, 100% vegan",
+        "checklist_3": "<strong>Yours</strong> : 15 minutes a day, no needles or clinic",
+        "checklist_4": "<strong>Risk-free</strong> : 30 days to feel it or full refund",
+        "cta_text": "Start training your jaw",
+        "cta_link": "",
+        "cta_height": 46,
+        "cta_bg_color": "#ffd600",
+        "cta_text_color": "#000000",
+        "cta_font_weight": "700",
+        "note_text": "30-day money back guarantee",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "competitor_image": ""
+      }
+    },
+    "risk_free_trial": {
+      "type": "risk-free-trial",
+      "settings": {
+        "badge_image": "",
+        "badge_number": "30",
+        "badge_label": "DAYS",
+        "subtitle": "TIME TO FEEL THE DIFFERENCE",
+        "heading": "30-Day Money-Back Guarantee",
+        "heading_size": 23,
+        "description": "A full month to train with it. If your jaw doesn't feel stronger and you don't love the routine, send it back and we refund every cent.",
+        "image": "shopify://shop_images/chizel-guarantee.png",
+        "bg_color": "#ecfeff",
+        "accent_color": "#06b6d4",
+        "text_color": "",
+        "cta_text": "Start training your jaw",
+        "cta_link": "",
+        "cta_height": 50,
+        "cta_bg_color": "",
+        "cta_text_color": "",
+        "padding_top": 28,
+        "badge_color": "#06b6d4"
+      }
+    },
+    "1773377171b98d1ae1": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "collapsible_content_TCEeNz": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_kP7dka": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can you really train your jawline?",
+            "icon": "none",
+            "row_content": "<p>Yes. Your jawline sits on the <strong>masseter</strong>, a real muscle. Medical literature notes that heavy, repeated chewing (even bruxism) can enlarge it, which is muscle growth from load. Like any muscle, work it and it responds. Results vary with training, sleep, and diet.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jgAFHc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is it bad for my teeth or jaw?",
+            "icon": "none",
+            "row_content": "<p>Chizel™ is <strong>sugar-free, no aspartame, and vegan</strong>, so there's no cavity risk from sweeteners, and chewing boosts saliva that protects enamel. That said, it's a workout: respect the joint. Chew <strong>15 minutes to an hour, every other day</strong>, and stop if you feel jaw pain. Not for under 14.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qUEDkw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How fast will I see a difference?",
+            "icon": "none",
+            "row_content": "<p>Like the gym, the first sessions bring soreness, then adaptation. Reviewers tend to notice firmer definition around <strong>weeks 3 to 6</strong> of every-other-day training. It's slow because it's real muscle, and the first 30 days are covered by the guarantee.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FCYENr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How is this different from normal gum?",
+            "icon": "none",
+            "row_content": "<p><strong>It's 15x harder.</strong> Normal gum is far too soft to load a muscle, which is why chewing it your whole life changed nothing. Chizel™ gives your jaw real resistance, so every chew is a rep.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_JXE9KX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much do I chew, and which level?",
+            "icon": "none",
+            "row_content": "<p>Three levels: <strong>1 piece (beginner), 2 (intermediate), 3 (expert)</strong>. Chew 15 minutes to an hour, every other day. Your jaw needs rest days to grow, exactly like any muscle. Mint or strawberry, your choice.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xwHJdL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Shipping and returns?",
+            "icon": "none",
+            "row_content": "<p><strong>Free tracked shipping.</strong> Allow the delivery window shown at checkout. And you're covered: <strong>30-day money-back guarantee</strong>, simple return, full refund.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_kP7dka",
+        "collapsible_row_jgAFHc",
+        "collapsible_row_qUEDkw",
+        "collapsible_row_FCYENr",
+        "collapsible_row_JXE9KX",
+        "collapsible_row_xwHJdL"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1773377263ad90805a": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "video_carousel": {
+      "type": "video-carousel",
+      "blocks": {
+        "video_1": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/78fc05ec6a4c4c688ddb4221a6ef43ba.mp4"
+          }
+        },
+        "video_2": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/407eb59ca36c42d3b9d2ee7d36919b04.mp4"
+          }
+        },
+        "video_3": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/36a403b69c954be99aa4b8de605ba6a0.mp4"
+          }
+        },
+        "video_4": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/750aca534ebc4a1897f32d9005869bfb.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "video_1",
+        "video_2",
+        "video_3",
+        "video_4"
+      ],
+      "settings": {
+        "eyebrow": "The Chizel community",
+        "title": "First-chew reactions",
+        "accent_color": "#06b6d4",
+        "accent_icon_color": "#ffffff",
+        "bg_color": "#ecfeff",
+        "text_color": "#0b1220",
+        "corner_radius": 20,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_carousel",
+    "clinical_proven_XJiV6J",
+    "feature_cards",
+    "testimonial_slider",
+    "benefits_showcase",
+    "proven_benefits",
+    "ticker_bar_E76PpF",
+    "wellness_journey",
+    "reasons_why_VdQFQx",
+    "brand_comparison",
+    "risk_free_trial",
+    "1773377171b98d1ae1",
+    "collapsible_content_TCEeNz",
+    "1773377263ad90805a",
+    "related-products"
+  ]
+}
