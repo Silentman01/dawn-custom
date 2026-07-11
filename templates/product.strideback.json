@@ -574,28 +574,28 @@
         "benefit_1": {
           "type": "benefit",
           "settings": {
-            "icon_name": "",
+            "icon_name": "pets",
             "title": "First steps without the cry"
           }
         },
         "benefit_2": {
           "type": "benefit",
           "settings": {
-            "icon_name": "",
+            "icon_name": "directions_run",
             "title": "The stairs, then the zoomies"
           }
         },
         "benefit_3": {
           "type": "benefit",
           "settings": {
-            "icon_name": "",
+            "icon_name": "shield",
             "title": "Both knees protected"
           }
         },
         "benefit_4": {
           "type": "benefit",
           "settings": {
-            "icon_name": "",
+            "icon_name": "sentiment_satisfied",
             "title": "You stop second-guessing"
           }
         }

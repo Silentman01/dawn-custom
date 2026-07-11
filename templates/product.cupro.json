@@ -574,28 +574,28 @@
         "benefit_1": {
           "type": "benefit",
           "settings": {
-            "icon_name": "",
+            "icon_name": "water_drop",
             "title": "Wake up to purer water"
           }
         },
         "benefit_2": {
           "type": "benefit",
           "settings": {
-            "icon_name": "",
+            "icon_name": "eco",
             "title": "Get plastic out of your life"
           }
         },
         "benefit_3": {
           "type": "benefit",
           "settings": {
-            "icon_name": "",
+            "icon_name": "diamond",
             "title": "Own a piece nobody can copy"
           }
         },
         "benefit_4": {
           "type": "benefit",
           "settings": {
-            "icon_name": "",
+            "icon_name": "savings",
             "title": "Never buy a bottle again"
           }
         }
