@@ -1,0 +1,1129 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "star_rating": {
+          "type": "star_rating",
+          "settings": {
+            "rating": 4.8,
+            "text": "Noté <strong>4.8 Excellent</strong> · 2 850+ avis",
+            "star_color": "#b5762a",
+            "star_bg_color": "#ececec",
+            "star_size": 1.3,
+            "star_gap": 0.4,
+            "alignment": "flex-start",
+            "text_color": "#121212",
+            "highlight_color": "#000000"
+          }
+        },
+        "statement_tcR3Ug": {
+          "type": "statement",
+          "settings": {
+            "subtitle": "Coton et cire d’abeille pure. Croustillante bien plus longtemps.",
+            "title": "Votre Baguette Mérite Mieux Qu’un Sachet Plastique.",
+            "title_size": 26
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title_size": 26,
+            "title_weight": "700",
+            "title_transform": "none",
+            "title_color": ""
+          }
+        },
+        "benefits_list": {
+          "type": "benefits_list",
+          "settings": {
+            "text_color": "#121212",
+            "icon_color": "#b5762a",
+            "layout": "two_per_line",
+            "benefit_1": "Garde votre baguette croustillante plus longtemps",
+            "benefit_2": "Coton respirant + doublure en cire d’abeille pure",
+            "benefit_3": "Fermeture éclair : protège de l’air et de l’humidité",
+            "benefit_4": "Format 70x10 : jusqu’à 2 baguettes entières",
+            "benefit_5": "Fini l’effet mou du sachet et le pain durci à l’air libre",
+            "benefit_6": "Lavable, réutilisable et durable"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_color": "#b5762a",
+            "compare_price_color": "",
+            "sale_badge_text": "Soldes d’Été -40%",
+            "sale_badge_weight": "600",
+            "price_font_size": 2,
+            "price_font_weight": "700",
+            "compare_font_size": 1.8,
+            "hide_price": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false,
+            "button_font_size": 1.8,
+            "button_font_weight": "700",
+            "button_text_transform": "uppercase"
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "function": "link",
+            "button_link": "",
+            "display_when": "after_scroll",
+            "button_label": "AJOUTER AU PANIER",
+            "enable_custom_btn_color": false,
+            "custom_btn_color": "#dd1d1d",
+            "color_scheme": "scheme-1",
+            "star_color": "#b5762a",
+            "stars_label": "Noté 4.8 · Satisfait ou remboursé 30 jours",
+            "button_font_size": 1.8,
+            "button_font_weight": "700",
+            "button_text_transform": "uppercase",
+            "desktop_show_image": true,
+            "desktop_show_title": true,
+            "desktop_rating_stars": true,
+            "desktop_show_price": false,
+            "desktop_show_sale_badge": false,
+            "desktop_variant_picker": true,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": true,
+            "mobile_show_title": true,
+            "mobile_rating_stars": false,
+            "mobile_show_price": false,
+            "mobile_show_sale_badge": false,
+            "mobile_variant_picker": true,
+            "mobile_full_button_width": false,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        },
+        "trust_microcopy": {
+          "type": "trust_microcopy",
+          "settings": {
+            "font_size": 1.6,
+            "font_size_2_items": 1.4,
+            "bg_color": "",
+            "text_color": "#121212",
+            "text_1": "Satisfait ou remboursé 30 jours",
+            "icon_name_1": "verified_user",
+            "text_2": "",
+            "icon_name_2": "local_shipping"
+          }
+        },
+        "social_proof_banner": {
+          "type": "social_proof_banner",
+          "settings": {
+            "text_color": "#121212",
+            "bg_color": "#f7f0e1",
+            "border_radius": 50,
+            "title": "Plus de 16 500 familles ne jettent plus leur pain",
+            "subtitle": "un geste simple qui change le quotidien.",
+            "badge_color": "#51af6f",
+            "image_1": "shopify://shop_images/adelebag-social-1.png",
+            "image_2": "shopify://shop_images/adelebag-social-2.png",
+            "image_3": "shopify://shop_images/adelebag-social-3.png"
+          }
+        },
+        "urgency_notice": {
+          "type": "urgency_notice",
+          "settings": {
+            "line_1": "<p><strong>Fabriqué en petites séries</strong></p>",
+            "line_2": "<p>Marque française, qualité artisanale. Le stock part vite pendant les soldes.</p>",
+            "font_size": 1.2,
+            "bg_color": "#fef2f2",
+            "text_color": "#9f3f3f",
+            "border_width": 2,
+            "border_style": "dashed",
+            "border_color": "#fca5a5",
+            "border_radius": 3,
+            "icon_name": "error",
+            "icon_color": "#d61717",
+            "icon_scale": 1.2
+          }
+        },
+        "collapsible_tab_mjEF8T": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Qu’est-ce que le sac à baguette Adèle ?",
+            "icon": "none",
+            "content": "<p>Un sac à baguette en coton naturel doublé de cire d’abeille pure, avec fermeture éclair. Vous y glissez vos baguettes, vous fermez la fermeture éclair, c’est tout. Le coton laisse le pain respirer, la cire régule l’humidité : votre baguette reste croustillante bien plus longtemps, sans plastique.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_gBgAbF": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Pourquoi vous en avez besoin",
+            "icon": "none",
+            "content": "<p>Une baguette perd son croustillant en quelques heures. Le sachet plastique la ramollit, à l’air libre elle durcit, et le lendemain on la jette souvent. Le sac à baguette Adèle trouve le bon équilibre pour la garder bonne plus longtemps.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_akEwJj": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Les bénéfices ✨",
+            "icon": "none",
+            "content": "<ul><li>Garde la baguette croustillante bien plus longtemps</li><li>Régule naturellement l’humidité : ni molle, ni sèche</li><li>Doublure en cire d’abeille pure, naturellement antibactérienne</li><li>Fermeture éclair : protège de l’air et de l’humidité</li><li>Format 70x10, jusqu’à 2 baguettes, réutilisable et lavable</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_MTCgw9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Comment l’utiliser",
+            "icon": "none",
+            "content": "<p>1. Glissez vos baguettes dans le sac (jusqu’à 2 baguettes entières). 2. Fermez la fermeture éclair. 3. Laissez-le sur le plan de travail, sans sachet plastique ni congélateur. 4. Rincez à l’eau froide après usage. C’est tout.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_FPPE7p": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Offrez-vous une garantie ?",
+            "icon": "none",
+            "content": "<p>Oui : satisfait ou remboursé 30 jours. Testez le sac Adèle un mois entier. Si votre pain ne se conserve pas mieux et que vous n’êtes pas conquis, on vous rembourse. Livraison offerte dès 49 € d’achat.</p>",
+            "page": ""
+          }
+        },
+        "trust_card_v2_BX8HtK": {
+          "type": "trust_card_v2",
+          "settings": {
+            "heading": "Pourquoi le sac Adèle garde votre baguette croustillante",
+            "feature_text_1": "Doublure Cire d’Abeille Pure",
+            "feature_text_2": "Coton Respirant 100% Naturel",
+            "feature_text_3": "Fermeture Éclair Étanche à l’Air",
+            "feature_text_4": "Garantie 30 Jours",
+            "item_1": "2 baguettes",
+            "item_2": "Coton & cire",
+            "item_3": "Fermeture éclair",
+            "item_4": "Réutilisable",
+            "item_5": "70x10 cm",
+            "item_6": "Garantie 30j",
+            "text_color": "#1a1a1a",
+            "title_color": "#1a1a1a",
+            "highlight_color": "#b5762a",
+            "bg_color": "#ffe4cc",
+            "bg_image": "shopify://shop_images/adelebag-texture-soft.png",
+            "image_opacity": 10,
+            "border_radius": 10,
+            "heading_size": 28,
+            "feature_text_size": 11,
+            "item_text_size": 16
+          }
+        }
+      },
+      "block_order": [
+        "star_rating",
+        "statement_tcR3Ug",
+        "title",
+        "benefits_list",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "sticky_cart",
+        "trust_microcopy",
+        "social_proof_banner",
+        "urgency_notice",
+        "collapsible_tab_mjEF8T",
+        "collapsible_tab_gBgAbF",
+        "collapsible_tab_akEwJj",
+        "collapsible_tab_MTCgw9",
+        "collapsible_tab_FPPE7p",
+        "trust_card_v2_BX8HtK"
+      ],
+      "custom_css": [
+        ".urgency-notice {margin-bottom: 15px;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "mobile_thumbnails": "show",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "clinical_proven_XJiV6J": {
+      "type": "clinical-proven",
+      "blocks": {
+        "stat_JT8ghy": {
+          "type": "stat",
+          "settings": {
+            "percentage": 98,
+            "heading": "de clients satisfaits",
+            "caption": "plus de 16 500 familles ne jettent plus leur pain"
+          }
+        },
+        "stat_W9mrjV": {
+          "type": "stat",
+          "settings": {
+            "percentage": 100,
+            "heading": "naturel",
+            "caption": "coton et cire d’abeille pure, sans traitement chimique"
+          }
+        },
+        "stat_7gdyWK": {
+          "type": "stat",
+          "settings": {
+            "percentage": 0,
+            "heading": "de plastique",
+            "caption": "un seul sac remplace des centaines d’emballages jetables"
+          }
+        },
+        "stat_BTktYW": {
+          "type": "stat",
+          "settings": {
+            "percentage": 93,
+            "heading": "rachètent ou offrent Adèle",
+            "caption": "un cadeau utile qu’on utilise vraiment"
+          }
+        }
+      },
+      "block_order": [
+        "stat_JT8ghy",
+        "stat_W9mrjV",
+        "stat_7gdyWK",
+        "stat_BTktYW"
+      ],
+      "custom_css": [],
+      "name": "Clinical proven",
+      "settings": {
+        "bg_color": "#3a2c1c",
+        "bg_image": "shopify://shop_images/adelebag-texture-dark.png",
+        "image_opacity": 10,
+        "text_color": "#ffffff",
+        "percentage_color": "#7c8c5a",
+        "highlight_color": "#7c8c5a",
+        "heading": "Le sachet ramollit votre baguette. La cire d’abeille la garde croustillante.",
+        "heading_size": 31,
+        "subtitle": "Le coton laisse la baguette respirer, la cire d’abeille régule juste ce qu’il faut d’humidité. Ni enfermée comme dans un sachet (molle), ni à l’air libre (dure). Le bon équilibre.",
+        "cta_function": "link",
+        "cta_text": "Adoptez le geste",
+        "cta_url": "",
+        "cta_bg_color": "#ffd600",
+        "cta_text_color": "#000000",
+        "guarantee_text": "Satisfait ou remboursé 30 jours",
+        "padding_top": 84,
+        "padding_bottom": 80
+      }
+    },
+    "feature_cards": {
+      "type": "feature-cards",
+      "blocks": {
+        "card_1": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/adelebag-card-1.png",
+            "title": "<strong>Le coton respire</strong>",
+            "text": "Le coton naturel laisse l’air circuler autour du pain, pour qu’il ne s’étouffe pas et ne moisisse pas comme dans un sac plastique.",
+            "card_bg_color": ""
+          }
+        },
+        "card_bYRYEb": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/adelebag-card-2.png",
+            "title": "<strong>La cire régule</strong>",
+            "text": "La <strong>cire d’abeille pure</strong> crée une barrière naturelle qui garde juste ce qu’il faut d’humidité. La croûte reste croustillante, la mie reste moelleuse.",
+            "card_bg_color": ""
+          }
+        },
+        "card_GPx6MR": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/adelebag-card-3.png",
+            "title": "<strong>La fermeture éclair</strong>",
+            "text": "La fermeture éclair referme entièrement le sac : votre baguette est protégée de l’air et de l’humidité, sans être étouffée comme dans un sachet plastique.",
+            "card_bg_color": ""
+          }
+        },
+        "card_xANGWn": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/adelebag-card-4.png",
+            "title": "<strong>Format 70x10, 2 baguettes</strong>",
+            "text": "70x10 cm : jusqu’à 2 baguettes entières, sans les plier ni les casser. Lavable, réutilisable des années.",
+            "card_bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_1",
+        "card_bYRYEb",
+        "card_GPx6MR",
+        "card_xANGWn"
+      ],
+      "settings": {
+        "heading": "Ce qui se passe vraiment, à chaque fois que vous rangez votre baguette",
+        "highlight_color": "#b5762a",
+        "card_title_size": 22,
+        "card_title_highlight": "#b5762a",
+        "section_bg_color": "",
+        "text_alignment": "center",
+        "card_border_radius": 12,
+        "image_border_radius": 0.8,
+        "mobile_layout": "slider",
+        "pagination_type": "both",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "testimonial_slider": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "ticker_1": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/adelebag-ticker-1.png"
+          }
+        },
+        "ticker_image_pGm3ig": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/adelebag-ticker-2.png"
+          }
+        },
+        "ticker_image_DeKwWj": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/adelebag-ticker-3.png"
+          }
+        },
+        "ticker_image_ziYp3P": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/adelebag-ticker-4.png"
+          }
+        },
+        "ticker_image_p4UjJw": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/adelebag-ticker-5.png"
+          }
+        },
+        "ticker_image_AGTRdD": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/adelebag-ticker-6.png"
+          }
+        },
+        "ticker_image_eQnJRE": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/adelebag-ticker-7.png"
+          }
+        },
+        "ticker_image_wgRraX": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/adelebag-ticker-8.png"
+          }
+        },
+        "ticker_image_E7knVa": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/adelebag-ticker-9.png"
+          }
+        },
+        "ticker_image_3CWTUR": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/adelebag-ticker-10.png"
+          }
+        },
+        "review_1": {
+          "type": "review",
+          "settings": {
+            "rating": "5.0",
+            "quote": "\"Avant, tous les 3 jours, le reste finissait à la poubelle.\"",
+            "details": "Chez nous c’est pain de campagne, et ça me faisait mal au cœur de jeter. Depuis le sac Adèle, je ne jette plus rien : le lendemain, le surlendemain, même au troisième jour, le pain est encore bon. Mon mari n’en revient pas.",
+            "author_name": "NICOLE M.",
+            "author_image": "shopify://shop_images/adelebag-avatar-1.png",
+            "tag_1": "Fini le gaspi",
+            "tag_2": "Économies",
+            "card_bg_color": ""
+          }
+        },
+        "review_2": {
+          "type": "review",
+          "settings": {
+            "rating": "5.0",
+            "quote": "\"Le pain reste frais 4 jours, la croûte craque encore.\"",
+            "details": "Ce sont mes grands-parents qui nous l’ont offert. On ne s’attendait à rien, et depuis on ne jette plus un seul pain. Avant, c’était au moins une baguette par semaine à la poubelle.",
+            "author_name": "JULIE & THOMAS",
+            "author_image": "shopify://shop_images/adelebag-avatar-2.png",
+            "tag_1": "Croûte croustillante",
+            "tag_2": "Cadeau",
+            "card_bg_color": ""
+          }
+        },
+        "review_3": {
+          "type": "review",
+          "settings": {
+            "rating": "5.0",
+            "quote": "\"Mon pain reste frais même après 5 jours.\"",
+            "details": "Ma petite-fille me l’a offert car je fais du pain régulièrement, et il m’arrivait d’en jeter. Depuis, mon pain se conserve bien plus longtemps et je fais de vraies économies. Très satisfaite !",
+            "author_name": "CLAUDETTE R.",
+            "author_image": "shopify://shop_images/adelebag-avatar-3.png",
+            "tag_1": "5 jours frais",
+            "tag_2": "Fait maison",
+            "card_bg_color": ""
+          }
+        },
+        "review_4": {
+          "type": "review",
+          "settings": {
+            "rating": "5.0",
+            "quote": "\"Un seul sac a remplacé le plastique, le torchon et le congélo.\"",
+            "details": "J’avais tout essayé pour conserver mon pain. Maintenant, un seul sac en coton et cire d’abeille, et c’est réglé. Naturel, respirant, et il dure. Je recommande.",
+            "author_name": "DAVID L.",
+            "author_image": "shopify://shop_images/adelebag-avatar-4.png",
+            "tag_1": "Tout-en-un",
+            "tag_2": "Naturel",
+            "card_bg_color": ""
+          }
+        },
+        "review_5": {
+          "type": "review",
+          "settings": {
+            "rating": "5.0",
+            "quote": "\"Ma grand-mère disait de ne jamais mettre le pain dans le plastique.\"",
+            "details": "J’avais oublié son astuce pendant des années. Depuis que j’ai retrouvé le sac en cire d’abeille, mon pain tient toute la semaine, sans congélateur. Comme avant.",
+            "author_name": "SYLVIE B.",
+            "author_image": "shopify://shop_images/adelebag-avatar-5.png",
+            "tag_1": "Astuce mamie",
+            "tag_2": "7 jours",
+            "card_bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "ticker_1",
+        "ticker_image_pGm3ig",
+        "ticker_image_DeKwWj",
+        "ticker_image_ziYp3P",
+        "ticker_image_p4UjJw",
+        "ticker_image_AGTRdD",
+        "ticker_image_eQnJRE",
+        "ticker_image_wgRraX",
+        "ticker_image_E7knVa",
+        "ticker_image_3CWTUR",
+        "review_1",
+        "review_2",
+        "review_3",
+        "review_4",
+        "review_5"
+      ],
+      "custom_css": [
+        ".ts-review__quote {font-weight: bold;}"
+      ],
+      "settings": {
+        "heading": "Ils ne jettent plus leur pain",
+        "subheading": "Ce que disent les familles qui utilisent le sac Adèle",
+        "highlight_color": "#b5762a",
+        "star_color": "#b5762a",
+        "verified_color": "#b5762a",
+        "tag_color": "#b5762a",
+        "tag_bg_color": "#f7f0e1",
+        "ticker_speed": 30,
+        "section_bg_color": "#f7f0e1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "benefits_showcase": {
+      "type": "benefits-showcase",
+      "blocks": {
+        "benefit_1": {
+          "type": "benefit",
+          "settings": {
+            "icon_name": "schedule",
+            "title": "Croustillante plus longtemps"
+          }
+        },
+        "benefit_2": {
+          "type": "benefit",
+          "settings": {
+            "icon_name": "bakery_dining",
+            "title": "Coton et cire d’abeille pure"
+          }
+        },
+        "benefit_3": {
+          "type": "benefit",
+          "settings": {
+            "icon_name": "lock",
+            "title": "Fermeture éclair étanche à l’air"
+          }
+        },
+        "benefit_4": {
+          "type": "benefit",
+          "settings": {
+            "icon_name": "recycling",
+            "title": "Naturel, réutilisable, lavable"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_1",
+        "benefit_2",
+        "benefit_3",
+        "benefit_4"
+      ],
+      "settings": {
+        "heading": "Une baguette croustillante, plus longtemps.",
+        "subheading": "Ce qui change quand vous rangez enfin votre baguette comme elle le mérite.",
+        "product_image": "shopify://shop_images/adelebag-hero.png",
+        "bg_color": "#3a2c1c",
+        "bg_color_bottom": "#b5762a",
+        "text_color": "#ffffff",
+        "highlight_color": "#7c8c5a",
+        "subheading_color": "",
+        "heading_size": 3,
+        "subheading_size": 1.5,
+        "benefit_size": 1.8,
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
+    "proven_benefits": {
+      "type": "proven-benefits",
+      "blocks": {
+        "pb_1": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/adelebag-step-1.png",
+            "title": "Jour 1",
+            "description": "Vous rangez votre baguette",
+            "answer": "Vous glissez vos baguettes dans le sac, vous fermez la fermeture éclair. Le coton et la cire se mettent au travail dès la première heure."
+          }
+        },
+        "pb_2": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/adelebag-step-2.png",
+            "title": "Jour 2",
+            "description": "Toujours croustillante",
+            "answer": "Là où le sachet plastique aurait déjà ramolli la croûte, votre baguette garde son croquant. La différence se sent vraiment."
+          }
+        },
+        "pb_3": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/adelebag-step-3.png",
+            "title": "Jour 3",
+            "description": "Encore bonne",
+            "answer": "La plupart des gens jettent déjà leur baguette. La vôtre est encore agréable, sans condensation ni pain caoutchouteux."
+          }
+        },
+        "pb_4": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/adelebag-step-4.png",
+            "title": "Jour 4+",
+            "description": "Zéro gaspillage",
+            "answer": "Plusieurs jours de baguette encore bonne avec un seul sac. Moins d’achats, moins de gaspillage, plus d’économies."
+          }
+        }
+      },
+      "block_order": [
+        "pb_1",
+        "pb_2",
+        "pb_3",
+        "pb_4"
+      ],
+      "settings": {
+        "heading": "Jour après jour, votre baguette reste bonne.",
+        "subheading": "Pas de sachet plastique, pas de congélateur. Juste le bon équilibre entre respiration et humidité.",
+        "highlight_color": "#b5762a",
+        "bg_color": "#f7f0e1",
+        "cta_text": "Adoptez le geste",
+        "cta_link": "",
+        "cta_note": "Satisfait ou remboursé 30 jours",
+        "cta_note_icon_name": "verified_user",
+        "cta_height": 40,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "ticker_bar_E76PpF": {
+      "type": "ticker-bar",
+      "blocks": {
+        "ticker_item_HqnLzq": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Croustillante plus longtemps",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_k8LYdF": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Coton & cire d’abeille pure",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_TGPdcq": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Fermeture éclair",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_R9aqEp": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Format 70x10 - 2 baguettes",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_EdVTLR": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Marque française",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_WW7aKr": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Garantie 30 jours",
+            "icon_name": "verified"
+          }
+        }
+      },
+      "block_order": [
+        "ticker_item_HqnLzq",
+        "ticker_item_k8LYdF",
+        "ticker_item_TGPdcq",
+        "ticker_item_R9aqEp",
+        "ticker_item_EdVTLR",
+        "ticker_item_WW7aKr"
+      ],
+      "name": "Ticker bar",
+      "settings": {
+        "background_color": "#b5762a",
+        "text_color": "#ffffff",
+        "border_position": "none",
+        "border_thickness": 1,
+        "border_color": "#ffffff",
+        "font_size": 14,
+        "font_weight": "500",
+        "spacing": 60,
+        "icon_size": 20,
+        "speed": 20,
+        "padding_top": 8,
+        "padding_bottom": 8,
+        "aria_label": "Scrolling announcements"
+      }
+    },
+    "wellness_journey": {
+      "type": "wellness-journey",
+      "blocks": {
+        "wj_1": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Jour 1 : vous rangez votre baguette",
+            "bullets": "<ul><li>Vous glissez la baguette et fermez la fermeture éclair</li><li>Le coton respire, la cire régule l’humidité</li><li>Ni sachet plastique, ni congélateur</li></ul>"
+          }
+        },
+        "wj_2": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Jour 2 : toujours croustillante",
+            "bullets": "<ul><li>La croûte garde son croquant</li><li>La mie reste moelleuse</li><li>Là où le sachet aurait déjà ramolli</li></ul>"
+          }
+        },
+        "wj_3": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Jour 3 : encore bonne",
+            "bullets": "<ul><li>Pas de condensation, pas de pain caoutchouteux</li><li>La baguette que les autres auraient déjà jetée</li><li>De vraies économies au quotidien</li></ul>"
+          }
+        },
+        "wj_4": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Jour 4 et plus : zéro gaspillage",
+            "bullets": "<ul><li>Plusieurs jours de baguette encore bonne</li><li>Un seul sac, réutilisable des années</li><li>Moins d’achats, moins de gaspillage</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "wj_1",
+        "wj_2",
+        "wj_3",
+        "wj_4"
+      ],
+      "custom_css": [
+        ".wj-cta-button {color: black;}"
+      ],
+      "settings": {
+        "brand_image": "shopify://shop_images/adelebag-journey.png",
+        "heading": "Vos premiers jours avec le sac à baguette Adèle",
+        "description": "Un geste simple, et votre pain reste bon toute la semaine :",
+        "highlight_color": "#b5762a",
+        "button_color": "#ffd600",
+        "bg_color": "",
+        "cta_text": "Adoptez le geste →",
+        "cta_link": "",
+        "cta_note": "Satisfait ou remboursé 30 jours",
+        "cta_note_icon_name": "verified_user",
+        "cta_height": 40,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "reasons_why_VdQFQx": {
+      "type": "reasons-why",
+      "blocks": {
+        "reason_card_XmWM9Y": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/adelebag-reason-1.png",
+            "label": "Reason 1",
+            "heading": "Pensé pour l’équilibre, pas juste pour ranger",
+            "details": "<p>Le sachet enferme, l’air libre dessèche. Le sac Adèle laisse la baguette respirer tout en régulant l’humidité grâce à la cire d’abeille, et se referme entièrement avec sa fermeture éclair. C’est là toute la différence.</p>"
+          }
+        },
+        "reason_card_493cPn": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/adelebag-reason-2.png",
+            "label": "Reason 2",
+            "heading": "Cire d’abeille pure, naturellement",
+            "details": "<p>Doublure en cire d’abeille 100% pure, naturellement antibactérienne. Aucun traitement chimique, aucun plastique au contact de votre pain.</p>"
+          }
+        },
+        "reason_card_HHJT9J": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/adelebag-reason-3.png",
+            "label": "Reason 3",
+            "heading": "L’astuce de nos grands-mères",
+            "details": "<p>« On ne met jamais le pain dans le plastique. » Le linge enduit de cire est une méthode qui a fait ses preuves depuis des générations. On l’a simplement remise au goût du jour.</p>"
+          }
+        },
+        "reason_card_VCdJrA": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/adelebag-reason-4.png",
+            "label": "Reason 4",
+            "heading": "Anti-gaspi, et bon pour le budget",
+            "details": "<p>Jusqu’à 150 € de pain jetés par an, ça compte. En gardant votre pain frais plusieurs jours, vous achetez moins souvent et vous ne jetez plus. Un geste écolo qui rapporte.</p>"
+          }
+        },
+        "reason_card_Np8tDa": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/adelebag-reason-5.png",
+            "label": "Reason 5",
+            "heading": "30 jours pour l’essayer, sans risque",
+            "details": "<p>Satisfait ou remboursé pendant un mois entier. Testez-le sur votre pain du quotidien. S’il ne vous convainc pas, on vous rembourse.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "reason_card_XmWM9Y",
+        "reason_card_493cPn",
+        "reason_card_HHJT9J",
+        "reason_card_VCdJrA",
+        "reason_card_Np8tDa"
+      ],
+      "name": "Reasons why",
+      "settings": {
+        "badge_text": "5 Raisons",
+        "subheading": "Le sac à baguette Adèle n’est pas un simple sachet",
+        "bg_color": "#f7f0e1",
+        "text_color": "#1a1a1a",
+        "badge_bg_color": "#b5762a",
+        "badge_text_color": "#ffffff",
+        "label_bg_color": "#b5762a",
+        "label_text_color": "#ffffff",
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#0000004d",
+        "card_text_color": "#000000",
+        "badge_font_size": 28,
+        "subheading_font_size": 31,
+        "label_font_size": 17,
+        "card_heading_font_size": 21,
+        "details_font_size": 16,
+        "card_height": 408,
+        "card_radius": 12,
+        "card_gap": 13,
+        "max_width": 1500,
+        "cta_text": "Adoptez le geste",
+        "cta_url": "",
+        "cta_bg_color": "#ffd600",
+        "cta_text_color": "#000000",
+        "cta_font_size": 19,
+        "cta_margin_top": 40,
+        "guarantee_text": "Satisfait ou remboursé 30 jours",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "brand_comparison": {
+      "type": "brand-comparison",
+      "blocks": {
+        "bc_1": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Baguette croustillante plusieurs jours",
+            "competitor_text": "Molle ou dure dès le lendemain"
+          }
+        },
+        "bc_2": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Croûte croustillante préservée",
+            "competitor_text": "Croûte ramollie par l’humidité"
+          }
+        },
+        "bc_3": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "100% naturel, zéro plastique",
+            "competitor_text": "Plastique au contact du pain"
+          }
+        },
+        "bc_4": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Réutilisable des années",
+            "competitor_text": "Jetable ou encombrant"
+          }
+        },
+        "bc_5": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Anti-gaspillage, économies",
+            "competitor_text": "Du pain (et de l’argent) à la poubelle"
+          }
+        }
+      },
+      "block_order": [
+        "bc_1",
+        "bc_2",
+        "bc_3",
+        "bc_4",
+        "bc_5"
+      ],
+      "settings": {
+        "heading": "Le sac à baguette Adèle face au sachet, au torchon et à la boîte à pain",
+        "heading_size": 36,
+        "bg_gradient_start": "#3a2c1c",
+        "bg_gradient_end": "#b5762a",
+        "text_color": "#ffffff",
+        "highlight_color": "#7c8c5a",
+        "brand_name": "La Maison d’Adèle",
+        "brand_name_color": "#ffffff",
+        "brand_image": "",
+        "brand_col_color": "#b5762a",
+        "brand_icon_color": "#ffffff",
+        "competitor_label": "Les autres méthodes",
+        "comp_col_color": "#ffffff",
+        "comp_text_color": "#1a1a1a",
+        "comp_icon_color": "#999999",
+        "icons_filled": true,
+        "checklist_1": "Équilibre : respire ET régule l’humidité",
+        "checklist_2": "Naturel : coton et cire d’abeille pure, zéro plastique",
+        "checklist_3": "Durable : réutilisable des années, lavable",
+        "checklist_4": "Sans risque : 30 jours satisfait ou remboursé",
+        "cta_text": "Adoptez le geste",
+        "cta_link": "",
+        "cta_height": 46,
+        "cta_bg_color": "#ffd600",
+        "cta_text_color": "#000000",
+        "cta_font_weight": "700",
+        "note_text": "Satisfait ou remboursé 30 jours",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "competitor_image": ""
+      }
+    },
+    "risk_free_trial": {
+      "type": "risk-free-trial",
+      "settings": {
+        "badge_image": "",
+        "badge_number": "30",
+        "badge_label": "JOURS",
+        "subtitle": "LE TEMPS DE VOUS FAIRE UN AVIS",
+        "heading": "Satisfait ou Remboursé 30 Jours",
+        "heading_size": 23,
+        "description": "Un mois entier pour l’essayer sur votre pain. Si votre pain ne se conserve pas mieux et que vous n’êtes pas conquis, écrivez-nous : on vous rembourse. Livraison offerte dès 49 €.",
+        "image": "shopify://shop_images/adelebag-guarantee.png",
+        "bg_color": "#f7f0e1",
+        "accent_color": "#b5762a",
+        "text_color": "",
+        "cta_text": "Adoptez le geste",
+        "cta_link": "",
+        "cta_height": 50,
+        "cta_bg_color": "",
+        "cta_text_color": "",
+        "padding_top": 28,
+        "badge_color": "#b5762a"
+      }
+    },
+    "1773377171b98d1ae1": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "collapsible_content_TCEeNz": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_kP7dka": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment ça fonctionne exactement ?",
+            "icon": "none",
+            "row_content": "<p>La cire d’abeille crée une <strong>barrière naturelle</strong> qui laisse le pain respirer sans le dessécher, et la fermeture éclair protège de l’air. Vous glissez votre baguette, vous fermez, c’est tout : une baguette croustillante plus longtemps, sans condensation ni pain caoutchouteux.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jgAFHc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Combien de baguettes rentrent dedans ?",
+            "icon": "none",
+            "row_content": "<p>Le format <strong>70x10 cm</strong> accueille jusqu’à <strong>2 baguettes entières</strong> (jusqu’à environ 60 cm), sans les plier ni les casser.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qUEDkw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Est-ce hygiénique ?",
+            "icon": "none",
+            "row_content": "<p>Oui. La cire d’abeille possède des propriétés <strong>naturellement antibactériennes</strong>. Un simple nettoyage à l’eau froide suffit après chaque utilisation.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FCYENr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "La fermeture éclair, ça sert à quoi ?",
+            "icon": "none",
+            "row_content": "<p>Elle referme entièrement le sac pour protéger la baguette de l’air et de l’humidité, tout en la laissant respirer grâce au coton et à la cire. Le bon équilibre entre protection et respiration.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_JXE9KX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ça remplace vraiment le sachet plastique ?",
+            "icon": "none",
+            "row_content": "<p>Oui. Plus besoin de sachet plastique ni d’aluminium pour votre pain. Un seul sac remplace des <strong>centaines d’emballages jetables</strong>.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xwHJdL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Je vis seul, est-ce que ça vaut le coup ?",
+            "icon": "none",
+            "row_content": "<p>Justement. Quand on vit seul, on jette encore plus de pain rassis. Le sac garde votre baguette bonne plusieurs jours : vous achetez moins souvent et vous ne gaspillez plus. Livraison offerte dès 49 €, satisfait ou remboursé 30 jours.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_kP7dka",
+        "collapsible_row_jgAFHc",
+        "collapsible_row_qUEDkw",
+        "collapsible_row_FCYENr",
+        "collapsible_row_JXE9KX",
+        "collapsible_row_xwHJdL"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1773377263ad90805a": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "clinical_proven_XJiV6J",
+    "feature_cards",
+    "testimonial_slider",
+    "benefits_showcase",
+    "proven_benefits",
+    "ticker_bar_E76PpF",
+    "wellness_journey",
+    "reasons_why_VdQFQx",
+    "brand_comparison",
+    "risk_free_trial",
+    "1773377171b98d1ae1",
+    "collapsible_content_TCEeNz",
+    "1773377263ad90805a",
+    "related-products"
+  ]
+}
