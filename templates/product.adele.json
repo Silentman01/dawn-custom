@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -576,28 +567,28 @@
         "benefit_1": {
           "type": "benefit",
           "settings": {
-            "icon_name": "health_and_safety",
+            "icon_name": "",
             "title": "Frais jusqu’à 7 jours"
           }
         },
         "benefit_2": {
           "type": "benefit",
           "settings": {
-            "icon_name": "science",
+            "icon_name": "",
             "title": "Croûte croustillante, mie moelleuse"
           }
         },
         "benefit_3": {
           "type": "benefit",
           "settings": {
-            "icon_name": "bolt",
+            "icon_name": "",
             "title": "Zéro plastique, anti-gaspillage"
           }
         },
         "benefit_4": {
           "type": "benefit",
           "settings": {
-            "icon_name": "spa",
+            "icon_name": "",
             "title": "Naturel, réutilisable, lavable"
           }
         }

@@ -194,17 +194,19 @@
       <div class="bs-benefits">
         {%- for block in section.blocks -%}
           <div class="bs-benefit" {{ block.shopify_attributes }}>
-            <div class="bs-benefit__icon">
-              {%- if block.settings.custom_icon != blank -%}
-                {{
-                  block.settings.custom_icon
-                  | image_url: width: 100
-                  | image_tag: widths: '42,84,100', loading: 'lazy'
-                }}
-              {%- elsif block.settings.icon_name != blank -%}
-                <span class="material-symbols-outlined">{{ block.settings.icon_name }}</span>
-              {%- endif -%}
-            </div>
+            {%- if block.settings.custom_icon != blank or block.settings.icon_name != blank -%}
+              <div class="bs-benefit__icon">
+                {%- if block.settings.custom_icon != blank -%}
+                  {{
+                    block.settings.custom_icon
+                    | image_url: width: 100
+                    | image_tag: widths: '42,84,100', loading: 'lazy'
+                  }}
+                {%- else -%}
+                  <span class="material-symbols-outlined">{{ block.settings.icon_name }}</span>
+                {%- endif -%}
+              </div>
+            {%- endif -%}
             {%- if block.settings.title != blank -%}
               <p class="bs-benefit__title">{{ block.settings.title }}</p>
             {%- endif -%}
@@ -374,28 +376,28 @@
         {
           "type": "benefit",
           "settings": {
-            "icon_name": "health_and_safety",
+            "icon_name": "",
             "title": "Daily Immune Defense"
           }
         },
         {
           "type": "benefit",
           "settings": {
-            "icon_name": "science",
+            "icon_name": "",
             "title": "Gut Health & Digestion Support"
           }
         },
         {
           "type": "benefit",
           "settings": {
-            "icon_name": "bolt",
+            "icon_name": "",
             "title": "Boosts Energy & Clarity"
           }
         },
         {
           "type": "benefit",
           "settings": {
-            "icon_name": "spa",
+            "icon_name": "",
             "title": "Soothes Inflammation"
           }
         }
