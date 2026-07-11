@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -295,33 +286,33 @@
         "stat_JT8ghy": {
           "type": "stat",
           "settings": {
-            "percentage": 0,
-            "heading": "<strong>needles, fillers, or surgery</strong>",
-            "caption": "a defined jaw the natural way, just 15 minutes of reps"
+            "percentage": 96,
+            "heading": "would recommend it",
+            "caption": "the jaw responds like any muscle you actually train"
           }
         },
         "stat_W9mrjV": {
           "type": "stat",
           "settings": {
-            "percentage": 98,
-            "heading": "<strong>of reviewers would recommend it</strong>",
-            "caption": "the jaw responds like any muscle you actually train"
+            "percentage": 100,
+            "heading": "vegan and sugar-free",
+            "caption": "clean enough to chew every training day"
           }
         },
         "stat_7gdyWK": {
           "type": "stat",
           "settings": {
-            "percentage": 100,
-            "heading": "<strong>vegan, sugar-free, no aspartame</strong>",
-            "caption": "clean enough to chew every training day"
+            "percentage": 0,
+            "heading": "needles, fillers or surgery",
+            "caption": "a defined jaw the natural way, 15 minutes of reps"
           }
         },
         "stat_BTktYW": {
           "type": "stat",
           "settings": {
-            "percentage": 100,
-            "heading": "<strong>money back within 30 days</strong>",
-            "caption": "train risk-free or get every cent back"
+            "percentage": 92,
+            "heading": "would train with it again",
+            "caption": "the definition holds when you keep the routine"
           }
         }
       },
