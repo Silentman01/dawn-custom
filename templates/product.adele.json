@@ -49,7 +49,7 @@
           "settings": {
             "text_color": "#121212",
             "icon_color": "#b5762a",
-            "layout": "pills",
+            "layout": "checklist",
             "benefit_1": "Garde le pain frais jusqu’à 7 jours",
             "benefit_2": "Croûte croustillante, mie moelleuse",
             "benefit_3": "Sans plastique, fini l’effet ramolli",
@@ -61,14 +61,14 @@
         "price": {
           "type": "price",
           "settings": {
+            "hide_price": true,
             "price_color": "#b5762a",
             "compare_price_color": "",
             "sale_badge_text": "Soldes d’Été -40%",
             "sale_badge_weight": "600",
             "price_font_size": 2,
             "price_font_weight": "700",
-            "compare_font_size": 1.8,
-            "hide_price": true
+            "compare_font_size": 1.8
           }
         },
         "variant_picker": {
@@ -956,7 +956,6 @@
         "highlight_color": "#7c8c5a",
         "brand_name": "La Maison d’Adèle",
         "brand_name_color": "#ffffff",
-        "brand_image": "",
         "brand_col_color": "#b5762a",
         "brand_icon_color": "#ffffff",
         "competitor_label": "Les autres méthodes",
@@ -976,14 +975,13 @@
         "cta_font_weight": "700",
         "note_text": "Satisfait ou remboursé 30 jours",
         "padding_top": 36,
-        "padding_bottom": 36,
-        "competitor_image": ""
+        "padding_bottom": 36
       }
     },
     "risk_free_trial": {
       "type": "risk-free-trial",
       "settings": {
-        "badge_image": "",
+        "badge_color": "#b5762a",
         "badge_number": "30",
         "badge_label": "JOURS",
         "subtitle": "LE TEMPS DE VOUS FAIRE UN AVIS",
@@ -999,8 +997,7 @@
         "cta_height": 50,
         "cta_bg_color": "",
         "cta_text_color": "",
-        "padding_top": 28,
-        "badge_color": "#b5762a"
+        "padding_top": 28
       }
     },
     "1773377171b98d1ae1": {
