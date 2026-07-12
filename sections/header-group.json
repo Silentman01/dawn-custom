@@ -14,9 +14,9 @@
     "sale_banner": {
       "type": "sale-banner",
       "settings": {
-        "heading": "SUMMER HEATWAVE SALE",
-        "heading_color": "#FFFFFF",
-        "heading_font_size": 16,
+        "heading": "LIVRAISON SUIVIE OFFERTE · SATISFAIT OU REMBOURSÉ 30 JOURS",
+        "heading_color": "#F7F0E1",
+        "heading_font_size": 15,
         "heading_font_weight": "700",
         "heading_letter_spacing": 1,
         "heading_transform": "none",
@@ -24,10 +24,10 @@
         "subtext_color": "#d1d1d1",
         "subtext_font_size": 14,
         "subtext_font_weight": "400",
-        "show_timer": true,
+        "show_timer": false,
         "timer_hours": 2,
         "timer_color": "#FFFFFF",
-        "background_color": "#446CC1",
+        "background_color": "#3A2C1C",
         "padding_top": 10,
         "padding_bottom": 10
       }
@@ -60,42 +60,42 @@
         "ticker_item_1": {
           "type": "ticker_item",
           "settings": {
-            "text": "End Dryness",
+            "text": "Pain frais 5 à 7 jours",
             "icon_name": "verified"
           }
         },
         "ticker_item_zC3Fe3": {
           "type": "ticker_item",
           "settings": {
-            "text": "Stop Odor",
+            "text": "Zéro plastique",
             "icon_name": "verified"
           }
         },
         "ticker_item_B7FHL3": {
           "type": "ticker_item",
           "settings": {
-            "text": "Balance pH",
+            "text": "100% coton bio",
             "icon_name": "verified"
           }
         },
         "ticker_item_LnWmLW": {
           "type": "ticker_item",
           "settings": {
-            "text": "Prevent BV & Yeast",
+            "text": "Fabriqué en France",
             "icon_name": "verified"
           }
         },
         "ticker_item_YAU8MH": {
           "type": "ticker_item",
           "settings": {
-            "text": "Boost Moisture",
+            "text": "Anti-gaspillage",
             "icon_name": "verified"
           }
         },
         "ticker_item_UqjmUe": {
           "type": "ticker_item",
           "settings": {
-            "text": "No More Itch",
+            "text": "Lavable & réutilisable",
             "icon_name": "verified"
           }
         }
@@ -108,13 +108,13 @@
         "ticker_item_YAU8MH",
         "ticker_item_UqjmUe"
       ],
-      "disabled": true,
+      "disabled": false,
       "settings": {
-        "background_color": "#ff1493",
-        "text_color": "#ffffff",
+        "background_color": "#F7F0E1",
+        "text_color": "#3A2C1C",
         "border_position": "both",
         "border_thickness": 1,
-        "border_color": "#121212",
+        "border_color": "#7C8C5A",
         "font_size": 14,
         "font_weight": "600",
         "spacing": 40,
@@ -122,7 +122,7 @@
         "speed": 20,
         "padding_top": 8,
         "padding_bottom": 8,
-        "aria_label": "Scrolling announcements"
+        "aria_label": "Nos engagements"
       }
     }
   },

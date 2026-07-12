@@ -12,25 +12,11 @@
     "hero": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Shop the best, delivered fast.",
-            "heading_size": "hxl"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "A carefully chosen range, quality-checked and shipped fast. Backed by our 30-day promise.",
-            "text_style": "body"
-          }
-        },
         "buttons": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all products",
-            "button_link_1": "/collections/all",
+            "button_label_1": "Découvrir le sac Adèle",
+            "button_link_1": "/products/sac-a-pain-cire-abeille-adele",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -39,18 +25,34 @@
         }
       },
       "block_order": [
-        "heading",
-        "text",
         "buttons"
       ],
       "settings": {
-        "image": "shopify://shop_images/avena-hero.png",
-        "image_overlay_opacity": 20,
-        "image_height": "large",
+        "image": "shopify://shop_images/avena-home-hero.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "bottom-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-5",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "benefits": {
+      "type": "image-banner",
+      "blocks": {},
+      "block_order": [],
+      "settings": {
+        "image": "shopify://shop_images/avena-home-benefits.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
         "image_behavior": "none",
         "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
-        "show_text_box": true,
+        "show_text_box": false,
         "color_scheme": "scheme-5",
         "stack_images_on_mobile": true,
         "mobile_content_alignment": "center",
@@ -61,13 +63,13 @@
       "type": "featured-collection",
       "settings": {
         "collection": "all",
-        "products_to_show": 25,
-        "title": "Our products",
+        "products_to_show": 8,
+        "title": "La collection La Maison d'Adèle",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "columns_desktop": 4,
+        "columns_desktop": 2,
         "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": true,
@@ -89,26 +91,27 @@
       "type": "risk-free-trial",
       "settings": {
         "badge_number": "30",
-        "badge_label": "DAYS",
-        "subtitle": "THE AVENA PROMISE",
-        "heading": "Love it, or your money back",
+        "badge_label": "JOURS",
+        "subtitle": "LA PROMESSE LA MAISON D'ADÈLE",
+        "heading": "Adoptez-le, ou vous êtes remboursé",
         "heading_size": 26,
-        "description": "Every order is backed for a full 30 days. If anything isn't right, we'll make it right with a refund or a replacement, no hassle. Free tracked shipping and real US support on every order.",
-        "image": "shopify://shop_images/avena-guarantee.png",
-        "bg_color": "#14213D",
-        "accent_color": "#FCA311",
-        "text_color": "#FFFFFF",
-        "cta_text": "Shop the collection",
-        "cta_link": "/collections/all",
+        "description": "Chaque commande est garantie 30 jours. Si votre sac ne vous convient pas, on vous rembourse ou on le remplace, sans discuter. Livraison suivie offerte et un service client français sur chaque commande.",
+        "image": "shopify://shop_images/adele-guarantee.png",
+        "bg_color": "#3A2C1C",
+        "accent_color": "#B5762A",
+        "text_color": "#F7F0E1",
+        "cta_text": "Commander mon sac Adèle",
+        "cta_link": "/products/sac-a-pain-cire-abeille-adele",
         "cta_height": 52,
-        "cta_bg_color": "#FCA311",
-        "cta_text_color": "#14213D",
+        "cta_bg_color": "#B5762A",
+        "cta_text_color": "#FFFFFF",
         "padding_top": 40
       }
     }
   },
   "order": [
     "hero",
+    "benefits",
     "featured_collection",
     "guarantee"
   ]
