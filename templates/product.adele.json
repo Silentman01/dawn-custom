@@ -146,8 +146,8 @@
             "text_color": "#121212",
             "bg_color": "#f7f0e1",
             "border_radius": 50,
-            "title": "Plus de 16 500 familles ne jettent plus leur pain",
-            "subtitle": "un geste simple qui change le quotidien.",
+            "title": "Plus de 16 500 familles",
+            "subtitle": "un geste simple.",
             "badge_color": "#51af6f",
             "image_1": "shopify://shop_images/adele-social-1.png",
             "image_2": "shopify://shop_images/adele-social-2.png",
@@ -218,6 +218,7 @@
         },
         "trust_card_v2_BX8HtK": {
           "type": "trust_card_v2",
+          "disabled": true,
           "settings": {
             "heading": "Pourquoi le sac Adèle conserve mieux votre pain",
             "feature_text_1": "Doublure Cire d’Abeille Pure",
@@ -324,6 +325,7 @@
         "stat_7gdyWK",
         "stat_BTktYW"
       ],
+      "disabled": true,
       "custom_css": [],
       "name": "Clinical proven",
       "settings": {
