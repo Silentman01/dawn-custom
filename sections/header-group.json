@@ -13,9 +13,10 @@
   "sections": {
     "sale_banner": {
       "type": "sale-banner",
+      "disabled": true,
       "settings": {
         "heading": "LIVRAISON SUIVIE OFFERTE · SATISFAIT OU REMBOURSÉ 30 JOURS",
-        "heading_color": "#F7F0E1",
+        "heading_color": "#f7f0e1",
         "heading_font_size": 15,
         "heading_font_weight": "700",
         "heading_letter_spacing": 1,
@@ -24,12 +25,50 @@
         "subtext_color": "#d1d1d1",
         "subtext_font_size": 14,
         "subtext_font_weight": "400",
-        "show_timer": false,
+        "show_timer": true,
         "timer_hours": 2,
-        "timer_color": "#FFFFFF",
-        "background_color": "#3A2C1C",
+        "timer_color": "#ffffff",
+        "background_color": "#3a2c1c",
         "padding_top": 10,
         "padding_bottom": 10
+      }
+    },
+    "ticker_bar_bQ44TX": {
+      "type": "ticker-bar",
+      "blocks": {
+        "ticker_item_Xyz3FC": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "LIVRAISON SUIVIE OFFERTE",
+            "icon_name": "verified"
+          }
+        },
+        "ticker_item_YGkLmU": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "SATISFAIT OU REMBOURSÉ 30 JOURS",
+            "icon_name": "verified"
+          }
+        }
+      },
+      "block_order": [
+        "ticker_item_Xyz3FC",
+        "ticker_item_YGkLmU"
+      ],
+      "settings": {
+        "background_color": "#3A2C1C",
+        "text_color": "#F7F0E1",
+        "border_position": "both",
+        "border_thickness": 1,
+        "border_color": "#3A2C1C",
+        "font_size": 14,
+        "font_weight": "600",
+        "spacing": 40,
+        "icon_size": 18,
+        "speed": 20,
+        "padding_top": 8,
+        "padding_bottom": 8,
+        "aria_label": "Nos engagements"
       }
     },
     "header": {
@@ -109,11 +148,11 @@
         "ticker_item_UqjmUe"
       ],
       "settings": {
-        "background_color": "#F7F0E1",
-        "text_color": "#3A2C1C",
+        "background_color": "#f7f0e1",
+        "text_color": "#3a2c1c",
         "border_position": "both",
         "border_thickness": 1,
-        "border_color": "#7C8C5A",
+        "border_color": "#3A2C1C",
         "font_size": 14,
         "font_weight": "600",
         "spacing": 40,
@@ -127,6 +166,7 @@
   },
   "order": [
     "sale_banner",
+    "ticker_bar_bQ44TX",
     "header",
     "ticker_bar"
   ]
