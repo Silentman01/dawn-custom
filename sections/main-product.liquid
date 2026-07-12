@@ -49,13 +49,44 @@
       display: grid;
       gap: 0.6em;
     }
-    .product__benefits-list--two-per-line {
-      grid-template-columns: 1fr 1fr;
-    }
     .product__benefit-item {
       display: flex;
       align-items: center;
       gap: 0.5em;
+    }
+    /* Layout: pills — each benefit is a rounded chip that wraps */
+    .product__benefits-list--pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5em;
+    }
+    .product__benefits-list--pills .product__benefit-item {
+      padding: 0.5em 0.95em;
+      border-radius: 999px;
+      background: color-mix(in srgb, currentColor 7%, transparent);
+      border: 1px solid color-mix(in srgb, currentColor 16%, transparent);
+    }
+    /* Layout: cards — responsive two-up tiles */
+    .product__benefits-list--cards {
+      grid-template-columns: 1fr 1fr;
+    }
+    .product__benefits-list--cards .product__benefit-item {
+      align-items: flex-start;
+      padding: 0.7em 0.85em;
+      border-radius: 0.7em;
+      background: color-mix(in srgb, currentColor 5%, transparent);
+      border: 1px solid color-mix(in srgb, currentColor 12%, transparent);
+    }
+    /* Layout: checklist — clean divided rows */
+    .product__benefits-list--checklist {
+      gap: 0;
+    }
+    .product__benefits-list--checklist .product__benefit-item {
+      padding: 0.6em 0;
+      border-bottom: 1px solid color-mix(in srgb, currentColor 12%, transparent);
+    }
+    .product__benefits-list--checklist .product__benefit-item:last-child {
+      border-bottom: 0;
     }
     .benefit-item__icon {
       flex-shrink: 0;
@@ -75,6 +106,11 @@
     }
     .benefit-item__text {
       line-height: 1.4;
+    }
+    @media (max-width: 749px) {
+      .product__benefits-list--cards {
+        grid-template-columns: 1fr;
+      }
     }
 
     /* Fake variant picker */
@@ -1040,8 +1076,10 @@
                   </a>
                 </div>
               {%- when 'benefits_list' -%}
+                {%- assign bl = block.settings.layout | default: 'pills' -%}
+                {%- if bl == 'two_per_line' -%}{%- assign bl = 'cards' -%}{%- elsif bl == 'one_per_line' -%}{%- assign bl = 'checklist' -%}{%- endif -%}
                 <div
-                  class="product__benefits-list{% if block.settings.layout == 'two_per_line' %} product__benefits-list--two-per-line{% endif %}"
+                  class="product__benefits-list product__benefits-list--{{ bl }}"
                   style="{% if block.settings.text_color != blank %}color: {{ block.settings.text_color }};{% endif %}"
                   {{ block.shopify_attributes }}
                 >
@@ -3040,10 +3078,11 @@
           "id": "layout",
           "label": "Layout",
           "options": [
-            { "value": "one_per_line", "label": "One per line" },
-            { "value": "two_per_line", "label": "Two per line" }
+            { "value": "pills", "label": "Pills" },
+            { "value": "cards", "label": "Cards" },
+            { "value": "checklist", "label": "Checklist" }
           ],
-          "default": "two_per_line"
+          "default": "pills"
         },
         {
           "type": "header",
