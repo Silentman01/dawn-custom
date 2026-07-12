@@ -1,0 +1,123 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "intro": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": { "heading": "Notre histoire", "heading_size": "h1" }
+        },
+        "text": {
+          "type": "text",
+          "settings": { "text": "<p>Tout est parti d'un souvenir tout simple : l'odeur du pain frais, le matin, dans la cuisine de notre grand-mère.</p>" }
+        }
+      },
+      "block_order": ["heading", "text"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 12
+      }
+    },
+    "origin": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": { "heading": "Dans la cuisine d'Adèle", "heading_size": "h2" }
+        },
+        "body": {
+          "type": "text",
+          "settings": { "text": "<p>Adèle gardait son pain dans un linge de coton, jamais dans du plastique. Elle disait qu'un bon pain doit respirer pour rester tendre plus longtemps. Chez elle, rien ne se jetait, et le pain restait bon jusqu'au dernier morceau.</p><p>Nous avons repris ce geste tout simple : du coton biologique, une couche de cire d'abeille pure, et le pain reste frais cinq à sept jours. Sans plastique, sans congélateur. La Maison d'Adèle est née pour transmettre ce savoir d'avant, jusqu'à votre table.</p>", "text_style": "body" }
+        },
+        "quote": {
+          "type": "text",
+          "settings": { "text": "<p><em>« On ne jette pas le bon pain. On apprend à le garder. »</em></p>", "text_style": "body" }
+        }
+      },
+      "block_order": ["heading", "body", "quote"],
+      "settings": {
+        "image": "shopify://shop_images/adele-reason-3.png",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "padding_top": 20,
+        "padding_bottom": 32
+      }
+    },
+    "valeurs": {
+      "type": "multicolumn",
+      "blocks": {
+        "c1": {
+          "type": "column",
+          "settings": { "title": "01", "text": "<p><strong>Le geste transmis</strong><br>Un savoir-faire d'autrefois, passé de main en main, jusqu'à votre cuisine.</p>" }
+        },
+        "c2": {
+          "type": "column",
+          "settings": { "title": "02", "text": "<p><strong>La matière vraie</strong><br>Du coton biologique et de la cire d'abeille pure, sans aucun plastique.</p>" }
+        },
+        "c3": {
+          "type": "column",
+          "settings": { "title": "03", "text": "<p><strong>Rien ne se jette</strong><br>Votre pain reste frais cinq à sept jours, pour ne plus rien gaspiller.</p>" }
+        }
+      },
+      "block_order": ["c1", "c2", "c3"],
+      "settings": {
+        "title": "Ce en quoi nous croyons",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 40
+      }
+    },
+    "signature": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": { "heading": "Faites une place au bon pain", "heading_size": "h2" }
+        },
+        "text": {
+          "type": "text",
+          "settings": { "text": "<p>Merci de faire une place à nos sacs dans votre cuisine, et de garder ce savoir-faire vivant avec nous.</p><p><em>Avec tout notre cœur, la famille de La Maison d'Adèle.</em></p>" }
+        },
+        "button": {
+          "type": "button",
+          "settings": { "button_label": "Découvrir le sac à pain", "button_link": "/products/sac-a-pain-cire-abeille-adele", "button_style_secondary": false }
+        }
+      },
+      "block_order": ["heading", "text", "button"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": ["intro", "origin", "valeurs", "signature"]
+}
