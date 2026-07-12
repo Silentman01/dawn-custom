@@ -212,7 +212,7 @@
           "settings": {
             "heading": "Offrez-vous une garantie ?",
             "icon": "none",
-            "content": "<p>Oui : satisfait ou remboursé 30 jours. Testez le sac Adèle un mois entier. Si votre pain ne se conserve pas mieux et que vous n’êtes pas conquis, on vous rembourse. Livraison offerte dès 49 € d’achat.</p>",
+            "content": "<p>Oui : satisfait ou remboursé 30 jours. Testez le sac Adèle un mois entier. Si votre pain ne se conserve pas mieux et que vous n’êtes pas conquis, on vous rembourse. Livraison offerte dès 35 € d’achat.</p>",
             "page": ""
           }
         },
@@ -987,7 +987,7 @@
         "subtitle": "LE TEMPS DE VOUS FAIRE UN AVIS",
         "heading": "Satisfait ou Remboursé 30 Jours",
         "heading_size": 23,
-        "description": "Un mois entier pour l’essayer sur votre pain. Si votre pain ne se conserve pas mieux et que vous n’êtes pas conquis, écrivez-nous : on vous rembourse. Livraison offerte dès 49 €.",
+        "description": "Un mois entier pour l’essayer sur votre pain. Si votre pain ne se conserve pas mieux et que vous n’êtes pas conquis, écrivez-nous : on vous rembourse. Livraison offerte dès 35 €.",
         "image": "shopify://shop_images/adelebag-guarantee.png",
         "bg_color": "#f7f0e1",
         "accent_color": "#b5762a",
@@ -1060,7 +1060,7 @@
           "settings": {
             "heading": "Je vis seul, est-ce que ça vaut le coup ?",
             "icon": "none",
-            "row_content": "<p>Justement. Quand on vit seul, on jette encore plus de pain rassis. Le sac garde votre baguette bonne plusieurs jours : vous achetez moins souvent et vous ne gaspillez plus. Livraison offerte dès 49 €, satisfait ou remboursé 30 jours.</p>",
+            "row_content": "<p>Justement. Quand on vit seul, on jette encore plus de pain rassis. Le sac garde votre baguette bonne plusieurs jours : vous achetez moins souvent et vous ne gaspillez plus. Livraison offerte dès 35 €, satisfait ou remboursé 30 jours.</p>",
             "page": ""
           }
         }
