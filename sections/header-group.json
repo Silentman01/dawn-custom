@@ -77,7 +77,7 @@
         ".header__search,.menu-drawer__utility-links {display: none !important;}"
       ],
       "settings": {
-        "logo_position": "middle-center",
+        "logo_position": "middle-left",
         "mobile_logo_position": "center",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
