@@ -43,8 +43,6 @@
     },
     "benefits": {
       "type": "image-banner",
-      "blocks": {},
-      "block_order": [],
       "settings": {
         "image": "shopify://shop_images/avena-home-benefits.png",
         "image_overlay_opacity": 0,
