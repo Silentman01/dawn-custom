@@ -11,22 +11,6 @@
   "sections": {
     "hero": {
       "type": "image-banner",
-      "blocks": {
-        "buttons": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Découvrir le sac Adèle",
-            "button_link_1": "/products/sac-a-pain-cire-abeille-adele",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "buttons"
-      ],
       "settings": {
         "image": "shopify://shop_images/avena-home-hero.png",
         "image_overlay_opacity": 0,
@@ -88,6 +72,7 @@
     "guarantee": {
       "type": "risk-free-trial",
       "settings": {
+        "badge_color": "#14213d",
         "badge_number": "30",
         "badge_label": "JOURS",
         "subtitle": "LA PROMESSE LA MAISON D'ADÈLE",
@@ -95,14 +80,14 @@
         "heading_size": 26,
         "description": "Chaque commande est garantie 30 jours. Si votre sac ne vous convient pas, on vous rembourse ou on le remplace, sans discuter. Livraison suivie offerte et un service client français sur chaque commande.",
         "image": "shopify://shop_images/adele-guarantee.png",
-        "bg_color": "#3A2C1C",
-        "accent_color": "#B5762A",
-        "text_color": "#F7F0E1",
+        "bg_color": "#3a2c1c",
+        "accent_color": "#b5762a",
+        "text_color": "#f7f0e1",
         "cta_text": "Commander mon sac Adèle",
         "cta_link": "/products/sac-a-pain-cire-abeille-adele",
         "cta_height": 52,
-        "cta_bg_color": "#B5762A",
-        "cta_text_color": "#FFFFFF",
+        "cta_bg_color": "#b5762a",
+        "cta_text_color": "#ffffff",
         "padding_top": 40
       }
     }
