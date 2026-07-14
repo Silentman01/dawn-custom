@@ -7,11 +7,6 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-/*
- * A/B TEST VARIANT — 1:1 structural clone of the competitor's proven product page
- * (section flow + content architecture mirrored; copy paraphrased; our images).
- * Suffix: adele-1v1 — preview with ?view=adele-1v1
- */
 {
   "sections": {
     "main": {
@@ -43,6 +38,7 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "hide_price": false,
             "price_color": "#b5762a",
@@ -259,7 +255,7 @@
         "body": "<p>Du coton doublé de cire d’abeille pure. Rien d’autre.</p>",
         "image": "shopify://shop_images/adele1v1-nature.png",
         "image_width": "medium",
-        "accent_color": "#B5762A",
+        "accent_color": "#b5762a",
         "color_scheme": "scheme-1",
         "padding_top": 64,
         "padding_bottom": 56
@@ -304,7 +300,7 @@
       "settings": {
         "heading": "Ils ont arrêté de jeter leur pain. <em>Et ça change tout.</em>",
         "subheading": "Déjà plus de 10 500 foyers utilisent Adèle au quotidien.",
-        "accent_color": "#B5762A",
+        "accent_color": "#b5762a",
         "color_scheme": "scheme-2",
         "padding_top": 56,
         "padding_bottom": 56
@@ -317,12 +313,12 @@
         "heading": "",
         "stat": "+184 € de bon pain par an… à la poubelle.",
         "body": "",
+        "image": "shopify://shop_images/adele1v1-plastique.png",
         "image_width": "medium",
-        "accent_color": "#B5762A",
+        "accent_color": "#b5762a",
         "color_scheme": "scheme-3",
         "padding_top": 64,
-        "padding_bottom": 64,
-        "image": "shopify://shop_images/adele1v1-plastique.png"
+        "padding_bottom": 64
       }
     },
     "stmt_test": {
@@ -334,7 +330,7 @@
         "body": "",
         "image": "shopify://shop_images/adele1v1-jour1-5.png",
         "image_width": "medium",
-        "accent_color": "#B5762A",
+        "accent_color": "#b5762a",
         "color_scheme": "scheme-1",
         "padding_top": 64,
         "padding_bottom": 56
@@ -348,7 +344,8 @@
           "settings": {
             "heading": "Comment ça marche, concrètement ?",
             "icon": "none",
-            "row_content": "<p>La cire d’abeille forme une <strong>barrière naturelle</strong> : le pain respire sans se dessécher. Vous glissez votre pain, vous refermez le cordon, c’est tout. Résultat : un pain frais <strong>jusqu’à 7 jours</strong>, sans condensation ni moisissure.</p>"
+            "row_content": "<p>La cire d’abeille forme une <strong>barrière naturelle</strong> : le pain respire sans se dessécher. Vous glissez votre pain, vous refermez le cordon, c’est tout. Résultat : un pain frais <strong>jusqu’à 7 jours</strong>, sans condensation ni moisissure.</p>",
+            "page": ""
           }
         },
         "q2": {
@@ -356,7 +353,8 @@
           "settings": {
             "heading": "Ma baguette rentre-t-elle dedans ?",
             "icon": "none",
-            "row_content": "<p>Oui. Le format <strong>30 × 40 cm</strong> accueille une baguette entière, une miche, un pain de campagne ou une brioche. Le tissu souple épouse toutes les formes.</p>"
+            "row_content": "<p>Oui. Le format <strong>30 × 40 cm</strong> accueille une baguette entière, une miche, un pain de campagne ou une brioche. Le tissu souple épouse toutes les formes.</p>",
+            "page": ""
           }
         },
         "q3": {
@@ -364,7 +362,8 @@
           "settings": {
             "heading": "Est-ce hygiénique ?",
             "icon": "none",
-            "row_content": "<p>Oui. La cire d’abeille est <strong>naturellement antibactérienne</strong>. Un rinçage à l’eau froide suffit pour l’entretenir.</p>"
+            "row_content": "<p>Oui. La cire d’abeille est <strong>naturellement antibactérienne</strong>. Un rinçage à l’eau froide suffit pour l’entretenir.</p>",
+            "page": ""
           }
         },
         "q4": {
@@ -372,7 +371,8 @@
           "settings": {
             "heading": "Le tissu ne colle pas au pain ?",
             "icon": "none",
-            "row_content": "<p>Non. L’intérieur du tissu enduit est lisse : le pain glisse et ressort sans accrocher, sans résidu.</p>"
+            "row_content": "<p>Non. L’intérieur du tissu enduit est lisse : le pain glisse et ressort sans accrocher, sans résidu.</p>",
+            "page": ""
           }
         },
         "q5": {
@@ -380,7 +380,8 @@
           "settings": {
             "heading": "Ça remplace vraiment le film alimentaire ?",
             "icon": "none",
-            "row_content": "<p>Oui. Un seul sac remplace <strong>des centaines d’emballages jetables</strong> : plus besoin de film plastique ni d’aluminium.</p>"
+            "row_content": "<p>Oui. Un seul sac remplace <strong>des centaines d’emballages jetables</strong> : plus besoin de film plastique ni d’aluminium.</p>",
+            "page": ""
           }
         },
         "q6": {
@@ -388,7 +389,8 @@
           "settings": {
             "heading": "Je vis seul(e) : est-ce que ça vaut le coup ?",
             "icon": "none",
-            "row_content": "<p>Oui, encore plus. Quand on vit seul, on jette proportionnellement plus de pain rassis. Le sac le garde frais plusieurs jours : vous achetez moins souvent et vous ne jetez plus. <strong>Livraison offerte dès 35 €, satisfait ou remboursé 30 jours.</strong></p>"
+            "row_content": "<p>Oui, encore plus. Quand on vit seul, on jette proportionnellement plus de pain rassis. Le sac le garde frais plusieurs jours : vous achetez moins souvent et vous ne jetez plus. <strong>Livraison offerte dès 35 €, satisfait ou remboursé 30 jours.</strong></p>",
+            "page": ""
           }
         }
       },
