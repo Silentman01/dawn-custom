@@ -327,7 +327,7 @@
                 </div>
 
                 {%- if block.settings.details != blank -%}
-                  <button class="rw-card__toggle" aria-expanded="false" aria-label="Toggle details">
+                  <button class="rw-card__toggle" aria-expanded="false" aria-label="Afficher les détails">
                     <span class="rw-card__toggle-icon rw-toggle-plus">
                       <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5.72069 11.033V5.96898H0.656637V5.38515H5.72069V0.321103H6.30451V5.38515H11.3686V5.96898H6.30451V11.033H5.72069Z" fill="black"/>
@@ -348,7 +348,7 @@
 
       {%- if section.blocks.size > 1 -%}
         <div class="rw-controls" id="rw-controls-{{ section.id }}">
-          <button class="rw-arrow rw-arrow--prev disabled" aria-label="Previous">
+          <button class="rw-arrow rw-arrow--prev disabled" aria-label="Précédent">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="12" cy="12" r="12" fill="black" fill-opacity="0.1"/>
               <path d="M15 6L9 12L15 18" stroke="black"/>
@@ -356,10 +356,10 @@
           </button>
           <div class="rw-dots">
             {%- for block in section.blocks -%}
-              <button class="rw-dot{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}" aria-label="Slide {{ forloop.index }}"></button>
+              <button class="rw-dot{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}" aria-label="Diapositive {{ forloop.index }}"></button>
             {%- endfor -%}
           </div>
-          <button class="rw-arrow rw-arrow--next" aria-label="Next">
+          <button class="rw-arrow rw-arrow--next" aria-label="Suivant">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="12" cy="12" r="12" transform="rotate(180 12 12)" fill="black" fill-opacity="0.1"/>
               <path d="M9 18L15 12L9 6" stroke="black"/>

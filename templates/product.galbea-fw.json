@@ -825,7 +825,7 @@
           "type": "reason_card",
           "settings": {
             "image": "shopify://shop_images/galbea-reason-1.png",
-            "label": "Reason 1",
+            "label": "Raison 1",
             "heading": "Le principe du bengkung, en culotte",
             "details": "<p>La technique malaisienne vieille de 500 ans, sans les 20 minutes d’enroulage.</p>"
           }
@@ -834,7 +834,7 @@
           "type": "reason_card",
           "settings": {
             "image": "shopify://shop_images/galbea-reason-2.jpg",
-            "label": "Reason 2",
+            "label": "Raison 2",
             "heading": "360°, pas juste le devant",
             "details": "<p>Les gaines classiques écrasent l’avant. La Galbéa enveloppe tout le tour.</p>"
           }
@@ -843,7 +843,7 @@
           "type": "reason_card",
           "settings": {
             "image": "shopify://shop_images/galbea-reason-3.png",
-            "label": "Reason 3",
+            "label": "Raison 3",
             "heading": "Pensée césarienne",
             "details": "<p>Aucune pression sur la cicatrice : le maintien vient des côtés et du dos.</p>"
           }
@@ -852,7 +852,7 @@
           "type": "reason_card",
           "settings": {
             "image": "shopify://shop_images/galbea-reason-4.png",
-            "label": "Reason 4",
+            "label": "Raison 4",
             "heading": "Elle tient VRAIMENT toute la journée",
             "details": "<p>Pas de roulage, pas de glissement : vous l’oubliez.</p>"
           }
@@ -861,7 +861,7 @@
           "type": "reason_card",
           "settings": {
             "image": "shopify://shop_images/galbea-reason-5.png",
-            "label": "Reason 5",
+            "label": "Raison 5",
             "heading": "Zéro risque",
             "details": "<p>30 jours pour juger sur votre corps. Satisfaite ou remboursée.</p>"
           }

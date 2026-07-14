@@ -821,7 +821,7 @@
           "type": "reason_card",
           "settings": {
             "image": "shopify://shop_images/lissea-reason-1.png",
-            "label": "Reason 1",
+            "label": "Raison 1",
             "heading": "Il pénètre là où les crèmes s’arrêtent",
             "details": "<p>Le BHA liposoluble descend dans le pore et dissout ce qui emprisonne le poil.</p>"
           }
@@ -830,7 +830,7 @@
           "type": "reason_card",
           "settings": {
             "image": "shopify://shop_images/lissea-reason-2.png",
-            "label": "Reason 2",
+            "label": "Raison 2",
             "heading": "Calibré pour les zones intimes",
             "details": "<p>pH 5,5, sans parfum, sans alcool agressif : maillot et aisselles sans brûlure.</p>"
           }
@@ -839,7 +839,7 @@
           "type": "reason_card",
           "settings": {
             "image": "shopify://shop_images/lissea-reason-3.png",
-            "label": "Reason 3",
+            "label": "Raison 3",
             "heading": "Le geste qui remplace 3 produits",
             "details": "<p>Exfoliant, apaisant et unifiant en un seul passage de roll-on.</p>"
           }
@@ -848,7 +848,7 @@
           "type": "reason_card",
           "settings": {
             "image": "shopify://shop_images/lissea-reason-4.png",
-            "label": "Reason 4",
+            "label": "Raison 4",
             "heading": "0,33 € par jour",
             "details": "<p>Un flacon de 50 ml couvre environ deux mois d’utilisation quotidienne.</p>"
           }
@@ -857,7 +857,7 @@
           "type": "reason_card",
           "settings": {
             "image": "shopify://shop_images/lissea-reason-5.png",
-            "label": "Reason 5",
+            "label": "Raison 5",
             "heading": "Zéro risque",
             "details": "<p>30 jours pour juger sur votre peau. Satisfaite ou remboursée.</p>"
           }

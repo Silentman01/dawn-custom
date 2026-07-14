@@ -270,15 +270,15 @@
 
     {%- if section.settings.mobile_layout == 'slider' and section.blocks.size > 1 -%}
       <div class="feature-cards__slider-controls" data-pagination="{{ section.settings.pagination_type }}">
-        <button class="feature-cards__arrow feature-cards__arrow--prev disabled" aria-label="Previous">
+        <button class="feature-cards__arrow feature-cards__arrow--prev disabled" aria-label="Précédent">
           <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg>
         </button>
         <div class="feature-cards__dots">
           {%- for block in section.blocks -%}
-            <button class="feature-cards__dot{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}" aria-label="Slide {{ forloop.index }}"></button>
+            <button class="feature-cards__dot{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}" aria-label="Diapositive {{ forloop.index }}"></button>
           {%- endfor -%}
         </div>
-        <button class="feature-cards__arrow feature-cards__arrow--next" aria-label="Next">
+        <button class="feature-cards__arrow feature-cards__arrow--next" aria-label="Suivant">
           <svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"></polyline></svg>
         </button>
       </div>
