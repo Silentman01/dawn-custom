@@ -175,61 +175,9 @@
         "padding_bottom": 12
       }
     },
-    "ab_trust": {
-      "type": "ab-trust-badges",
-      "blocks": {
-        "b1": {
-          "type": "badge",
-          "settings": {
-            "emoji": "🔒",
-            "text": "Paiement 100% sécurisé"
-          }
-        },
-        "b2": {
-          "type": "badge",
-          "settings": {
-            "emoji": "📦",
-            "text": "Expédié sous 24 à 48 h"
-          }
-        },
-        "b3": {
-          "type": "badge",
-          "settings": {
-            "emoji": "🚚",
-            "text": "Livraison en 6 à 10 jours"
-          }
-        },
-        "b4": {
-          "type": "badge",
-          "settings": {
-            "emoji": "🎁",
-            "text": "Offerte dès 35 €"
-          }
-        },
-        "b5": {
-          "type": "badge",
-          "settings": {
-            "emoji": "↩️",
-            "text": "Retours 30 jours"
-          }
-        }
-      },
-      "block_order": [
-        "b1",
-        "b2",
-        "b3",
-        "b4",
-        "b5"
-      ],
-      "settings": {
-        "show_payment_icons": true,
-        "color_scheme": "scheme-2",
-        "padding_top": 24,
-        "padding_bottom": 28
-      }
-    },
     "related": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "Vous aimerez aussi…",
         "heading_size": "h2",
@@ -268,6 +216,7 @@
           "type": "review",
           "settings": {
             "image": "shopify://shop_images/adele1v1-cliente.png",
+            "title": "",
             "quote": "<p>À la maison, c’est pain de campagne. Et tous les trois jours, le reste partait à la poubelle. Ça me serrait le cœur. Depuis que j’ai le sac Adèle, plus rien ne se jette : le lendemain, le surlendemain, même au troisième jour, le pain est encore bon. Mon mari n’en revient pas. Et ça se voit sur le budget.</p>",
             "author": "Martine, 56 ans — Bayonne",
             "verified_text": "Avis vérifié"
@@ -277,6 +226,7 @@
           "type": "review",
           "settings": {
             "image": "shopify://shop_images/adele1v1-couple.png",
+            "title": "",
             "quote": "<p>Obligés de laisser un avis. Ce sont nos grands-parents qui nous ont offert le sac Adèle à Noël. Franchement, on n’y croyait pas. Depuis, plus un seul pain à la poubelle, alors qu’avant c’était au moins un par semaine. Le pain reste frais quatre jours et la croûte craque encore.</p>",
             "author": "Camille & Hugo, 31 et 34 ans — Besançon",
             "verified_text": "Avis vérifié"
@@ -286,6 +236,7 @@
           "type": "review",
           "settings": {
             "image": "shopify://shop_images/adele1v1-mamie.png",
+            "title": "",
             "quote": "<p>Ma petite-fille me l’a offert parce que je fais mon pain moi-même. Avant, il finissait parfois à la poubelle. Maintenant il reste frais même après cinq jours, et je fais de vraies économies. Très satisfaite !</p>",
             "author": "Huguette, 72 ans — Quimper",
             "verified_text": "Avis vérifié"
@@ -300,6 +251,10 @@
       "settings": {
         "heading": "Ils ont arrêté de jeter leur pain. <em>Et ça change tout.</em>",
         "subheading": "Déjà plus de 10 500 foyers utilisent Adèle au quotidien.",
+        "star_color": "#e8a33d",
+        "title_color": "#1a1a1a",
+        "card_bg": "#ffffff",
+        "card_border": "#f0ece6",
         "accent_color": "#b5762a",
         "color_scheme": "scheme-2",
         "padding_top": 56,
@@ -464,7 +419,6 @@
   },
   "order": [
     "main",
-    "ab_trust",
     "related",
     "stmt_nature",
     "reviews",
