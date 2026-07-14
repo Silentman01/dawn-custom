@@ -1,110 +1,114 @@
 {%- comment -%}
-  A/B clone section: photo testimonial cards. Heading (em = italic accent) + social-proof
-  subline + review cards with photo, quote, author and a "verified" pill. Grid on desktop,
-  horizontal snap-scroll carousel on mobile (mirrors the competitor's review carousel).
+  A/B clone section: review cards — EXACT mirror of the competitor's reviews section CSS
+  (2026-07-14, from their live section code): 300-320px white cards, 220px cover image,
+  Playfair Display serif titles, DM Sans body, gold letter-spaced stars, hidden-scrollbar
+  horizontal snap scroll (no arrows), hover lift. Fully parameterized.
 {%- endcomment -%}
 
 {%- style -%}
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@400;500;600&display=swap');
+
   #AbRev-{{ section.id }} {
     padding-top: {{ section.settings.padding_top }}px;
     padding-bottom: {{ section.settings.padding_bottom }}px;
   }
-  #AbRev-{{ section.id }} .ab-rev__inner { max-width: 110rem; margin: 0 auto; padding: 0 2rem; }
-  #AbRev-{{ section.id }} .ab-rev__head { text-align: center; margin-bottom: 3rem; }
-  #AbRev-{{ section.id }} .ab-rev__heading { margin: 0; font-size: clamp(2.4rem, 5vw, 3.8rem); line-height: 1.15; }
-  #AbRev-{{ section.id }} .ab-rev__heading em { font-style: italic; color: {{ section.settings.accent_color }}; }
-  #AbRev-{{ section.id }} .ab-rev__sub { margin: 1.2rem 0 0; font-size: 1.5rem; opacity: 0.75; }
-  #AbRev-{{ section.id }} .ab-rev__wrap { position: relative; }
+  #AbRev-{{ section.id }} .ab-rev__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: 'DM Sans', sans-serif;
+  }
+  #AbRev-{{ section.id }} .ab-rev__heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 40px;
+    color: {{ section.settings.title_color }};
+  }
   #AbRev-{{ section.id }} .ab-rev__grid {
     display: flex;
+    gap: 20px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
-    gap: 2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 16px;
+    scrollbar-width: none;
   }
-  #AbRev-{{ section.id }} .ab-rev__arrow {
-    position: absolute; top: 40%; transform: translateY(-50%);
-    width: 3.6rem; height: 3.6rem; border-radius: 50%; border: none; cursor: pointer; z-index: 2;
-    background: rgba(255,255,255,0.95); color: #33272a; font-size: 1.9rem; font-weight: 700;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.14); display: flex; align-items: center; justify-content: center;
-  }
-  #AbRev-{{ section.id }} .ab-rev__arrow--left { left: -0.5rem; }
-  #AbRev-{{ section.id }} .ab-rev__arrow--right { right: -0.5rem; }}, 1fr);
-    gap: 2.4rem;
-  }
+  #AbRev-{{ section.id }} .ab-rev__grid::-webkit-scrollbar { display: none; }
   #AbRev-{{ section.id }} .ab-rev__card {
-    flex: 0 0 28rem;
+    min-width: 300px;
+    max-width: 320px;
+    flex-shrink: 0;
     scroll-snap-align: start;
-    background: rgba(var(--color-foreground), 0.03);
-    border: 1px solid rgba(var(--color-foreground), 0.08);
-    border-radius: 1.4rem;
+    background: {{ section.settings.card_bg }};
+    border: 1px solid {{ section.settings.card_border }};
+    border-radius: 12px;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
-  #AbRev-{{ section.id }} .ab-rev__photo img { width: 100%; height: auto; aspect-ratio: 3/4; object-fit: cover; display: block; }
-  #AbRev-{{ section.id }} .ab-rev__content { padding: 2rem 2rem 2.4rem; display: flex; flex-direction: column; gap: 1.2rem; flex: 1; }
-  #AbRev-{{ section.id }} .ab-rev__stars { color: {{ section.settings.accent_color }}; font-size: 1.5rem; letter-spacing: 0.15em; }
-  #AbRev-{{ section.id }} .ab-rev__title { margin: 0; font-size: 1.55rem; font-weight: 700; }
-  #AbRev-{{ section.id }} .ab-rev__quote { margin: 0; font-size: 1.45rem; line-height: 1.6; flex: 1; }
-  #AbRev-{{ section.id }} .ab-rev__author { font-weight: 700; font-size: 1.4rem; }
-  #AbRev-{{ section.id }} .ab-rev__verified {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    align-self: flex-start;
-    background: #eaf3e6;
-    color: #3e6b2f;
-    font-size: 1.2rem;
-    font-weight: 600;
-    border-radius: 999px;
-    padding: 0.35rem 1rem;
+  #AbRev-{{ section.id }} .ab-rev__card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
   }
-  @media screen and (max-width: 749px) {
-    #AbRev-{{ section.id }} .ab-rev__grid {
-      display: flex;
-      overflow-x: auto;
-      scroll-snap-type: x mandatory;
-      -webkit-overflow-scrolling: touch;
-      gap: 1.6rem;
-      padding-bottom: 1rem;
-      margin: 0 -2rem;
-      padding-left: 2rem;
-      padding-right: 2rem;
-    }
-    #AbRev-{{ section.id }} .ab-rev__card { flex: 0 0 82%; scroll-snap-align: center; }
+  #AbRev-{{ section.id }} .ab-rev__card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+  }
+  #AbRev-{{ section.id }} .ab-rev__body { padding: 20px 22px 24px; }
+  #AbRev-{{ section.id }} .ab-rev__stars {
+    color: {{ section.settings.star_color }};
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  #AbRev-{{ section.id }} .ab-rev__title {
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: {{ section.settings.title_color }};
+    margin: 0 0 8px;
+    line-height: 1.3;
+  }
+  #AbRev-{{ section.id }} .ab-rev__quote {
+    font-size: 14px;
+    line-height: 1.65;
+    color: #555555;
+    margin: 0 0 14px;
+  }
+  #AbRev-{{ section.id }} .ab-rev__quote strong { color: {{ section.settings.title_color }}; }
+  #AbRev-{{ section.id }} .ab-rev__quote p { margin: 0; font-size: 14px; line-height: 1.65; }
+  #AbRev-{{ section.id }} .ab-rev__author {
+    font-size: 13px;
+    color: #999999;
+    font-weight: 500;
+  }
+  @media (max-width: 768px) {
+    #AbRev-{{ section.id }} .ab-rev__card { min-width: 270px; max-width: 280px; }
+    #AbRev-{{ section.id }} .ab-rev__card img { height: 180px; }
+    #AbRev-{{ section.id }} .ab-rev__heading { font-size: 22px; }
   }
 {%- endstyle -%}
 
 <div id="AbRev-{{ section.id }}" class="color-{{ section.settings.color_scheme }} gradient">
   <div class="ab-rev__inner">
-    <div class="ab-rev__head">
-      {%- if section.settings.heading != blank -%}
-        <h2 class="ab-rev__heading">{{ section.settings.heading }}</h2>
-      {%- endif -%}
-      {%- if section.settings.subheading != blank -%}
-        <p class="ab-rev__sub">{{ section.settings.subheading }}</p>
-      {%- endif -%}
-    </div>
-    <div class="ab-rev__wrap">
-    <button type="button" class="ab-rev__arrow ab-rev__arrow--left" aria-label="Précédent" onclick="this.parentElement.querySelector('.ab-rev__grid').scrollBy({left:-320,behavior:'smooth'})">‹</button>
+    {%- if section.settings.heading != blank -%}
+      <h2 class="ab-rev__heading">{{ section.settings.heading }}</h2>
+    {%- endif -%}
     <div class="ab-rev__grid">
       {%- for block in section.blocks -%}
         <div class="ab-rev__card" {{ block.shopify_attributes }}>
           {%- if block.settings.image != blank -%}
-            <div class="ab-rev__photo">
-              {{ block.settings.image | image_url: width: 900 | image_tag: loading: 'lazy', widths: '450, 700, 900', sizes: '(min-width: 750px) 36rem, 82vw' }}
-            </div>
+            {{ block.settings.image | image_url: width: 640 | image_tag: loading: 'lazy', widths: '320, 480, 640' }}
           {%- endif -%}
-          <div class="ab-rev__content">
+          <div class="ab-rev__body">
             <div class="ab-rev__stars" aria-hidden="true">★★★★★</div>
             {%- if block.settings.title != blank -%}<p class="ab-rev__title">{{ block.settings.title }}</p>{%- endif -%}
-            <blockquote class="ab-rev__quote">{{ block.settings.quote }}</blockquote>
+            <div class="ab-rev__quote">{{ block.settings.quote }}</div>
             <div class="ab-rev__author">{{ block.settings.author }}</div>
-            {%- if block.settings.verified_text != blank -%}
-              <span class="ab-rev__verified">✓ {{ block.settings.verified_text }}</span>
-            {%- endif -%}
           </div>
         </div>
       {%- endfor -%}
@@ -117,12 +121,16 @@
   "name": "AB Review cards",
   "tag": "section",
   "settings": [
-    { "type": "inline_richtext", "id": "heading", "label": "Heading (italic = accent)", "default": "Ils ont arrêté de jeter leur pain. <em>Et ça change tout.</em>" },
-    { "type": "text", "id": "subheading", "label": "Subheading" },
-    { "type": "color", "id": "accent_color", "label": "Accent color", "default": "#B5762A" },
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Ce que nos clientes en pensent" },
+    { "type": "text", "id": "subheading", "label": "Subheading (unused, kept for compat)" },
+    { "type": "color", "id": "star_color", "label": "Star color", "default": "#E8A33D" },
+    { "type": "color", "id": "title_color", "label": "Title color", "default": "#1A1A1A" },
+    { "type": "color", "id": "card_bg", "label": "Card background", "default": "#FFFFFF" },
+    { "type": "color", "id": "card_border", "label": "Card border", "default": "#F0ECE6" },
+    { "type": "color", "id": "accent_color", "label": "Accent (compat)", "default": "#B76E79" },
     { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-1" },
-    { "type": "range", "id": "padding_top", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding top", "default": 56 },
-    { "type": "range", "id": "padding_bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding bottom", "default": 56 }
+    { "type": "range", "id": "padding_top", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding top", "default": 40 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding bottom", "default": 52 }
   ],
   "blocks": [
     {
@@ -130,10 +138,10 @@
       "name": "Review",
       "settings": [
         { "type": "image_picker", "id": "image", "label": "Photo" },
-        { "type": "text", "id": "title", "label": "Bold quote title (optional)" },
-        { "type": "richtext", "id": "quote", "label": "Quote" },
-        { "type": "text", "id": "author", "label": "Author line", "default": "Prénom, 54 ans — Ville" },
-        { "type": "text", "id": "verified_text", "label": "Verified pill text", "default": "Avis vérifié" }
+        { "type": "text", "id": "title", "label": "Bold quote title" },
+        { "type": "richtext", "id": "quote", "label": "Quote (bold = emphasized sentence)" },
+        { "type": "text", "id": "author", "label": "Author line" },
+        { "type": "text", "id": "verified_text", "label": "(compat, unused)" }
       ]
     }
   ],

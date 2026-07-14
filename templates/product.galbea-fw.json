@@ -1,11 +1,6 @@
 /*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
+ * Galbéa™ - OUR framework page (rule 56b). A/B pair of product.galbea.json (1:1).
+ * Suffix: galbea-fw
  */
 {
   "sections": {
@@ -30,7 +25,7 @@
           "type": "statement",
           "settings": {
             "subtitle": "Compression croisée 360°. Le principe du bengkung.",
-            "title": "Le Bon Pain Mérite Mieux Qu’un Sac Plastique.",
+            "title": "Votre Ventre A Porté La Vie. Il Mérite D’Être Accompagné.",
             "title_size": 26
           }
         },
@@ -146,7 +141,7 @@
             "text_color": "#121212",
             "bg_color": "#FAF3EF",
             "border_radius": 50,
-            "title": "Plus de 16 500 familles",
+            "title": "Plus de 6 000 mamans françaises",
             "subtitle": "un geste simple.",
             "badge_color": "#51af6f",
             "image_1": "shopify://shop_images/galbea-social-1.png",
@@ -612,7 +607,7 @@
       ],
       "settings": {
         "heading": "Ce que la Galbéa change",
-        "subheading": "Ce qui change quand vous rangez enfin votre pain comme il le mérite.",
+        "subheading": "Ce qui change quand votre ventre est enfin accompagné comme il le mérite.",
         "product_image": "shopify://shop_images/galbea-hero.png",
         "bg_color": "#2E4B45",
         "bg_color_bottom": "#B76E79",
@@ -674,7 +669,7 @@
       ],
       "settings": {
         "heading": "Semaine après semaine",
-        "subheading": "Pas de plastique, pas de congélateur. Juste le bon équilibre entre respiration et humidité.",
+        "subheading": "Pas d’écrasement, pas de contrainte. Juste le bon équilibre entre maintien et douceur.",
         "highlight_color": "#B76E79",
         "bg_color": "#FAF3EF",
         "cta_text": "Adoptez le geste",
@@ -763,28 +758,28 @@
         "wj_1": {
           "type": "milestone",
           "settings": {
-            "week_label": "Jour 1 : vous rangez votre pain",
+            "week_label": "Jour 1 : vous l’enfilez",
             "bullets": "<ul><li>Enfilez-la en 10 secondes</li><li>Sentez le maintien immédiat</li><li>Habillez-vous comme vous voulez</li></ul>"
           }
         },
         "wj_2": {
           "type": "milestone",
           "settings": {
-            "week_label": "Jours 2 à 3 : toujours croustillant",
+            "week_label": "Semaine 1 : vous l’oubliez",
             "bullets": "<ul><li>Elle ne remonte pas, ne glisse pas</li><li>Invisible au bureau comme en balade</li><li>Compatible allaitement</li></ul>"
           }
         },
         "wj_3": {
           "type": "milestone",
           "settings": {
-            "week_label": "Jour 5 : encore bon",
+            "week_label": "Semaine 2 : ça se voit",
             "bullets": "<ul><li>Le ventre remonte et se lisse</li><li>Les vêtements d’avant ressortent</li><li>La confiance revient</li></ul>"
           }
         },
         "wj_4": {
           "type": "milestone",
           "settings": {
-            "week_label": "Jour 7 : zéro gaspillage",
+            "week_label": "Semaine 3 : ça se confirme",
             "bullets": "<ul><li>Une paroi accompagnée, pas écrasée</li><li>Une silhouette retrouvée</li><li>Le geste que les mamans se transmettent</li></ul>"
           }
         }
@@ -801,7 +796,7 @@
       "settings": {
         "brand_image": "shopify://shop_images/galbea-journey.png",
         "heading": "Votre retour à vous",
-        "description": "Un geste simple, et votre pain reste bon toute la semaine :",
+        "description": "Un geste simple, et votre silhouette se redessine semaine après semaine :",
         "highlight_color": "#B76E79",
         "button_color": "#ffd600",
         "bg_color": "",
