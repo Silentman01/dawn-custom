@@ -353,7 +353,7 @@
           "settings": {
             "image": "shopify://shop_images/galbea-card-1.png",
             "title": "Bandes croisées en X",
-            "text": "<p>La compression suit le trajet du bengkung : croisée, continue, sans point d’écrasement.</p>",
+            "text": "La compression suit le trajet du bengkung : croisée, continue, sans point d’écrasement.",
             "card_bg_color": ""
           }
         },
@@ -362,7 +362,7 @@
           "settings": {
             "image": "shopify://shop_images/galbea-card-2.png",
             "title": "Maille technique douce",
-            "text": "<p>Une maille technique douce qui tient toute la journée sans rouler ni glisser.</p>",
+            "text": "Une maille technique douce qui tient toute la journée sans rouler ni glisser.",
             "card_bg_color": ""
           }
         },
@@ -371,7 +371,7 @@
           "settings": {
             "image": "shopify://shop_images/galbea-card-3.png",
             "title": "Taille haute couvrante",
-            "text": "<p>Elle couvre tout le ventre, du pubis jusqu’au-dessus du nombril.</p>",
+            "text": "Elle couvre tout le ventre, du pubis jusqu’au-dessus du nombril.",
             "card_bg_color": ""
           }
         },
@@ -380,7 +380,7 @@
           "settings": {
             "image": "shopify://shop_images/galbea-card-4.png",
             "title": "Invisible sous les tenues",
-            "text": "<p>Coutures plates et découpe lisse : personne ne devine que vous la portez.</p>",
+            "text": "Coutures plates et découpe lisse : personne ne devine que vous la portez.",
             "card_bg_color": ""
           }
         }
@@ -474,7 +474,7 @@
           "settings": {
             "rating": "5",
             "quote": "« 2 semaines et mon ventre a déjà changé »",
-            "details": "<p>J’ai accouché il y a 4 mois et ce ventre mou ne partait pas. Je l’enfile comme une culotte normale et je l’oublie. Mon mari a remarqué la différence avant moi.</p>",
+            "details": "J’ai accouché il y a 4 mois et ce ventre mou ne partait pas. Je l’enfile comme une culotte normale et je l’oublie. Mon mari a remarqué la différence avant moi.",
             "author_name": "NICOLE M.",
             "author_image": "shopify://shop_images/galbea-avatar-1.png",
             "tag_1": "Post-partum 4 mois",
@@ -487,7 +487,7 @@
           "settings": {
             "rating": "5",
             "quote": "« Invisible sous ma robe moulante »",
-            "details": "<p>J’avais peur que ça se voie ou que ça roule. Rien. Je la porte tous les jours au bureau, assise, et je ne la sens pas.</p>",
+            "details": "J’avais peur que ça se voie ou que ça roule. Rien. Je la porte tous les jours au bureau, assise, et je ne la sens pas.",
             "author_name": "JULIE & THOMAS",
             "author_image": "shopify://shop_images/galbea-avatar-2.png",
             "tag_1": "Bureau toute la journée",
@@ -500,7 +500,7 @@
           "settings": {
             "rating": "5",
             "quote": "« Exactement ce qu’il me fallait après ma césarienne »",
-            "details": "<p>Ça ne touche pas la cicatrice et ça tient tout le ventre, les côtés, le dos. Un vrai soulagement dès les premiers jours.</p>",
+            "details": "Ça ne touche pas la cicatrice et ça tient tout le ventre, les côtés, le dos. Un vrai soulagement dès les premiers jours.",
             "author_name": "CLAUDETTE R.",
             "author_image": "shopify://shop_images/galbea-avatar-3.png",
             "tag_1": "Césarienne",
@@ -513,7 +513,7 @@
           "settings": {
             "rating": "5",
             "quote": "« 3 ans après, ça marche quand même »",
-            "details": "<p>Je pensais que c’était trop tard. En 3 semaines, la différence est visible. Il n’est jamais trop tard.</p>",
+            "details": "Je pensais que c’était trop tard. En 3 semaines, la différence est visible. Il n’est jamais trop tard.",
             "author_name": "DAVID L.",
             "author_image": "shopify://shop_images/galbea-avatar-4.png",
             "tag_1": "3 ans après",
@@ -526,7 +526,7 @@
           "settings": {
             "rating": "5",
             "quote": "« La seule que je supporte toute la journée »",
-            "details": "<p>J’ai essayé 3 gaines avant. Toutes remontaient ou serraient trop. Celle-ci, je l’oublie et elle travaille.</p>",
+            "details": "J’ai essayé 3 gaines avant. Toutes remontaient ou serraient trop. Celle-ci, je l’oublie et elle travaille.",
             "author_name": "SYLVIE B.",
             "author_image": "shopify://shop_images/galbea-avatar-5.png",
             "tag_1": "Ex-gaines classiques",
