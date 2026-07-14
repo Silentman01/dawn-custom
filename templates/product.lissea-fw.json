@@ -1,6 +1,11 @@
 /*
- * Lisséa™ - OUR framework page (rule 56b). A/B pair of product.lissea.json (1:1).
- * Suffix: lissea-fw
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
  */
 {
   "sections": {
@@ -26,8 +31,7 @@
           "settings": {
             "subtitle": "BHA + PHA + niacinamide. Le geste coréen anti poils incarnés.",
             "title": "Une Peau Nette, Même Sur Les Zones Les Plus Délicates.",
-            "title_size": 26,
-            "text": "Le roll-on aux actifs coréens qui libère les poils incarnés et apaise les rougeurs, en 10 secondes par jour."
+            "title_size": 26
           }
         },
         "title": {
