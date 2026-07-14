@@ -1,6 +1,11 @@
 /*
- * Galbéa™ — OUR framework page (rule 56b). A/B pair of product.galbea.json (1:1).
- * Suffix: galbea-fw
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
  */
 {
   "sections": {
@@ -26,8 +31,7 @@
           "settings": {
             "subtitle": "Compression croisée 360°. Le principe du bengkung.",
             "title": "Le Bon Pain Mérite Mieux Qu’un Sac Plastique.",
-            "title_size": 26,
-            "text": "Votre ventre a porté la vie pendant 9 mois. Il mérite d’être accompagné, pas comprimé."
+            "title_size": 26
           }
         },
         "title": {
@@ -147,8 +151,7 @@
             "badge_color": "#51af6f",
             "image_1": "shopify://shop_images/galbea-social-1.png",
             "image_2": "shopify://shop_images/galbea-social-2.png",
-            "image_3": "shopify://shop_images/galbea-social-3.png",
-            "text": "<p><strong>+ de 6 000 mamans françaises</strong> ont déjà adopté la Galbéa</p>"
+            "image_3": "shopify://shop_images/galbea-social-3.png"
           }
         },
         "urgency_notice": {
