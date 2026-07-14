@@ -1,8 +1,8 @@
 {%- comment -%}
-  A/B clone section: autoplay video row. One block = one muted looping video (URL-based,
-  self-hosted Files URLs). With a single block it renders as one centered video (mirrors
-  the competitor's "Avant / Après" video block); with several, a horizontal snap-scroll
-  track with arrows (mirrors their UGC video carousel).
+  A/B clone section: autoplay video row (rule 56 library). HARDENED 2026-07-15:
+  - items flex to share the row on desktop (no dead "empty cell" space), capped width
+  - arrows use addEventListener (not inline onclick) and AUTO-HIDE when nothing overflows
+  - mobile: real touch scrolling (snap proximity, touch-action pan-x, overscroll contain)
 {%- endcomment -%}
 
 {%- style -%}
@@ -12,20 +12,30 @@
   }
   #AbVid-{{ section.id }} .ab-vid__inner { max-width: 110rem; margin: 0 auto; padding: 0 2rem; }
   #AbVid-{{ section.id }} .ab-vid__head { text-align: center; margin-bottom: 2.4rem; }
+  #AbVid-{{ section.id }} .ab-vid__head:empty { display: none; }
   #AbVid-{{ section.id }} .ab-vid__heading { margin: 0; font-size: clamp(2.2rem, 4.6vw, 3.6rem); line-height: 1.15; }
   #AbVid-{{ section.id }} .ab-vid__heading em { font-style: italic; color: {{ section.settings.accent_color }}; }
-  #AbVid-{{ section.id }} .ab-vid__wrap { position: relative; }
+  #AbVid-{{ section.id }} .ab-vid__wrap { position: relative; max-width: 100%; }
   #AbVid-{{ section.id }} .ab-vid__track {
     display: flex;
     gap: 1.6rem;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
     overflow-x: auto;
-    scroll-snap-type: x mandatory;
+    scroll-snap-type: x proximity;
     -webkit-overflow-scrolling: touch;
+    touch-action: pan-x pan-y;
+    overscroll-behavior-x: contain;
     padding-bottom: 0.6rem;
-    {% if section.blocks.size == 1 %}justify-content: center; overflow-x: visible;{% endif %}
+    scrollbar-width: none;
   }
+  #AbVid-{{ section.id }} .ab-vid__track::-webkit-scrollbar { display: none; }
+  #AbVid-{{ section.id }} .ab-vid__track.is-overflowing { justify-content: flex-start; }
   #AbVid-{{ section.id }} .ab-vid__item {
-    flex: 0 0 {% if section.blocks.size == 1 %}min(46rem, 92%){% else %}26rem{% endif %};
+    flex: 1 1 0;
+    min-width: 22rem;
+    max-width: 34rem;
     scroll-snap-align: center;
     border-radius: 1.4rem;
     overflow: hidden;
@@ -36,28 +46,31 @@
     position: absolute; top: 50%; transform: translateY(-50%);
     width: 3.6rem; height: 3.6rem; border-radius: 50%;
     border: none; cursor: pointer; z-index: 2;
-    background: rgba(255,255,255,0.92); color: #33272a;
+    background: rgba(255,255,255,0.94); color: #222;
     font-size: 1.8rem; line-height: 1; font-weight: 700;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.12);
-    display: {% if section.blocks.size > 1 %}flex{% else %}none{% endif %};
-    align-items: center; justify-content: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.14);
+    display: none; align-items: center; justify-content: center;
   }
-  #AbVid-{{ section.id }} .ab-vid__arrow--left { left: -0.6rem; }
-  #AbVid-{{ section.id }} .ab-vid__arrow--right { right: -0.6rem; }
+  #AbVid-{{ section.id }} .ab-vid__wrap.has-overflow .ab-vid__arrow { display: flex; }
+  #AbVid-{{ section.id }} .ab-vid__arrow--left { left: -0.4rem; }
+  #AbVid-{{ section.id }} .ab-vid__arrow--right { right: -0.4rem; }
   @media screen and (max-width: 749px) {
-    #AbVid-{{ section.id }} .ab-vid__item { flex-basis: {% if section.blocks.size == 1 %}94%{% else %}70%{% endif %}; }
-    #AbVid-{{ section.id }} .ab-vid__arrow { display: none; }
+    #AbVid-{{ section.id }} .ab-vid__item { flex: 0 0 72%; min-width: 72%; max-width: 72%; }
+    #AbVid-{{ section.id }} .ab-vid__track { justify-content: flex-start; }
+    #AbVid-{{ section.id }} .ab-vid__arrow { display: none !important; }
   }
 {%- endstyle -%}
 
 <div id="AbVid-{{ section.id }}" class="color-{{ section.settings.color_scheme }} gradient">
   <div class="ab-vid__inner">
+    {%- if section.settings.heading != blank or section.settings.subheading != blank -%}
     <div class="ab-vid__head">
       {%- if section.settings.heading != blank -%}<h2 class="ab-vid__heading">{{ section.settings.heading }}</h2>{%- endif -%}
       {%- if section.settings.subheading != blank -%}<p class="ab-vid__sub">{{ section.settings.subheading }}</p>{%- endif -%}
     </div>
+    {%- endif -%}
     <div class="ab-vid__wrap">
-      <button type="button" class="ab-vid__arrow ab-vid__arrow--left" aria-label="Précédent" onclick="this.parentElement.querySelector('.ab-vid__track').scrollBy({left:-320,behavior:'smooth'})">‹</button>
+      <button type="button" class="ab-vid__arrow ab-vid__arrow--left" aria-label="Précédent">‹</button>
       <div class="ab-vid__track">
         {%- for block in section.blocks -%}
           {%- if block.settings.video_url != blank -%}
@@ -67,10 +80,32 @@
           {%- endif -%}
         {%- endfor -%}
       </div>
-      <button type="button" class="ab-vid__arrow ab-vid__arrow--right" aria-label="Suivant" onclick="this.parentElement.querySelector('.ab-vid__track').scrollBy({left:320,behavior:'smooth'})">›</button>
+      <button type="button" class="ab-vid__arrow ab-vid__arrow--right" aria-label="Suivant">›</button>
     </div>
   </div>
 </div>
+
+<script>
+(function () {
+  var root = document.getElementById('AbVid-{{ section.id }}');
+  if (!root) return;
+  var wrap = root.querySelector('.ab-vid__wrap');
+  var track = root.querySelector('.ab-vid__track');
+  var left = root.querySelector('.ab-vid__arrow--left');
+  var right = root.querySelector('.ab-vid__arrow--right');
+  function update() {
+    var over = track.scrollWidth > track.clientWidth + 4;
+    wrap.classList.toggle('has-overflow', over);
+    track.classList.toggle('is-overflowing', over);
+  }
+  function step() { return Math.max(240, Math.round(track.clientWidth * 0.6)); }
+  if (left) left.addEventListener('click', function () { track.scrollBy({ left: -step(), behavior: 'smooth' }); });
+  if (right) right.addEventListener('click', function () { track.scrollBy({ left: step(), behavior: 'smooth' }); });
+  window.addEventListener('resize', update);
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', update); else update();
+  setTimeout(update, 800);
+})();
+</script>
 
 {% schema %}
 {

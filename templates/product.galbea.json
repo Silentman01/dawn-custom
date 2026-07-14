@@ -187,7 +187,7 @@
         "price": {
           "type": "price",
           "settings": {
-            "hide_price": false,
+            "hide_price": true,
             "price_color": "#B76E79",
             "compare_price_color": "",
             "sale_badge_text": "Offre de lancement",
@@ -243,7 +243,7 @@
           "settings": {
             "name": "Femme Actuelle",
             "style": "script",
-            "image": "shopify://shop_images/galbea-press-1.webp"
+            "image": "shopify://shop_images/galbea-press-1.png"
           }
         },
         "p2": {
@@ -251,7 +251,7 @@
           "settings": {
             "name": "COSMOPOLITAN",
             "style": "sans",
-            "image": "shopify://shop_images/galbea-press-2.webp"
+            "image": "shopify://shop_images/galbea-press-2.jpg"
           }
         },
         "p3": {
@@ -259,7 +259,7 @@
           "settings": {
             "name": "Marie France",
             "style": "serif",
-            "image": "shopify://shop_images/galbea-press-3.webp"
+            "image": "shopify://shop_images/galbea-press-3.png"
           }
         },
         "p4": {
@@ -267,7 +267,7 @@
           "settings": {
             "name": "magicmaman",
             "style": "sans",
-            "image": "shopify://shop_images/galbea-press-4.webp"
+            "image": "shopify://shop_images/galbea-press-4.png"
           }
         }
       },
@@ -518,7 +518,7 @@
         "r2": {
           "type": "review",
           "settings": {
-            "image": "shopify://shop_images/galbea-avis-5.png",
+            "image": "shopify://shop_images/galbea-avis-5.jpg",
             "title": "« Invisible sous ma robe, même moulante. »",
             "quote": "<p>J’avais peur que ça se voie ou que ça roule. Pas du tout : je la porte tous les jours sous mes robes d’été et <strong>personne ne devine que j’ai une gaine.</strong> C’est la première qui ne me gêne pas, même assise toute la journée au bureau.</p>",
             "author": "- Salomé M., 28 ans",
@@ -538,7 +538,7 @@
         "r4": {
           "type": "review",
           "settings": {
-            "image": "shopify://shop_images/galbea-avis-2.png",
+            "image": "shopify://shop_images/galbea-avis-2.jpg",
             "title": "« Mon dernier accouchement date de 3 ans. Ça marche quand même. »",
             "quote": "<p>Je pensais que c’était trop tard pour moi, je m’étais résignée à garder ce petit ventre. <strong>En 3 semaines de Galbéa, ma taille s’est redessinée.</strong> Je rentre dans des jeans que j’avais rangés. Mon seul regret : ne pas avoir essayé avant.</p>",
             "author": "- Audrey L., 38 ans",
@@ -558,7 +558,7 @@
         "r6": {
           "type": "review",
           "settings": {
-            "image": "shopify://shop_images/galbea-avis-4.png",
+            "image": "shopify://shop_images/galbea-avis-4.jpg",
             "title": "« J’ai commandé pour ma sœur aussi. »",
             "quote": "<p>Ma fille a 5 mois. Dès la première journée, j’ai senti la différence : <strong>le ventre maintenu, le dos soulagé, la sensation que tout est remis en place.</strong> Après 2 semaines, j’ai commandé la deuxième pour ma sœur qui accouche en septembre.</p>",
             "author": "- Morgane P., 33 ans",

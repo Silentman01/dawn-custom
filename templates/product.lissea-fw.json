@@ -433,7 +433,7 @@
         "ticker_image_ziYp3P": {
           "type": "ticker_image",
           "settings": {
-            "image": "shopify://shop_images/lissea-ticker-4.png"
+            "image": "shopify://shop_images/lissea-ticker-4.jpg"
           }
         },
         "ticker_image_p4UjJw": {
@@ -445,7 +445,7 @@
         "ticker_image_AGTRdD": {
           "type": "ticker_image",
           "settings": {
-            "image": "shopify://shop_images/lissea-ticker-6.png"
+            "image": "shopify://shop_images/lissea-ticker-6.jpg"
           }
         },
         "ticker_image_eQnJRE": {
@@ -457,7 +457,7 @@
         "ticker_image_wgRraX": {
           "type": "ticker_image",
           "settings": {
-            "image": "shopify://shop_images/lissea-ticker-8.png"
+            "image": "shopify://shop_images/lissea-ticker-8.jpg"
           }
         },
         "ticker_image_E7knVa": {
@@ -531,7 +531,7 @@
             "quote": "« Mes jambes sans effet fraise »",
             "details": "L’effet peau de fraise sur les jambes a nettement diminué en un mois. Je le passe après chaque rasage, c’est devenu automatique.",
             "author_name": "SYLVIE B.",
-            "author_image": "shopify://shop_images/lissea-avatar-5.png",
+            "author_image": "shopify://shop_images/lissea-avatar-5.jpg",
             "tag_1": "Jambes",
             "tag_2": "Vérifié",
             "card_bg_color": ""
@@ -632,7 +632,7 @@
         "pb_1": {
           "type": "benefit",
           "settings": {
-            "image": "shopify://shop_images/lissea-step-1.png",
+            "image": "shopify://shop_images/lissea-step-1.jpg",
             "title": "Jours 1 à 3",
             "description": "Les rougeurs s’apaisent, la peau est plus confortable après le rasage.",
             "answer": "Les rougeurs s’apaisent, la peau est plus confortable après le rasage."
@@ -650,7 +650,7 @@
         "pb_3": {
           "type": "benefit",
           "settings": {
-            "image": "shopify://shop_images/lissea-step-3.png",
+            "image": "shopify://shop_images/lissea-step-3.jpg",
             "title": "Semaine 2",
             "description": "Les poils incarnés se libèrent : la zone devient visiblement plus nette.",
             "answer": "Les poils incarnés se libèrent : la zone devient visiblement plus nette."

@@ -49,7 +49,7 @@
         "price": {
           "type": "price",
           "settings": {
-            "hide_price": false,
+            "hide_price": true,
             "price_color": "#4A3D6B",
             "compare_price_color": "",
             "sale_badge_text": "Offre de lancement",
@@ -316,7 +316,7 @@
         "pair": {
           "type": "pair",
           "settings": {
-            "before": "shopify://shop_images/lissea-avant.png",
+            "before": "shopify://shop_images/lissea-avant.jpg",
             "after": "shopify://shop_images/lissea-apres.png",
             "caption": "*Résultats individuels. Utilisez-le régulièrement pour des résultats durables et plus rapides."
           }
@@ -369,7 +369,7 @@
         "a4": {
           "type": "active",
           "settings": {
-            "image": "shopify://shop_images/lissea-actif-apaisants.png",
+            "image": "shopify://shop_images/lissea-actif-apaisants.jpg",
             "kicker": "Apaise · Hamamélis, centella & aloé",
             "title": "Calme la peau après le rasage",
             "text": "Un trio d'extraits botaniques apaisants qui réduit l'inconfort immédiat, pour une peau confortable même après une épilation intégrale."
@@ -408,7 +408,7 @@
           "type": "column",
           "settings": {
             "title": "Crème classique",
-            "image": "shopify://shop_images/lissea-compare-creme.png",
+            "image": "shopify://shop_images/lissea-compare-creme.jpg",
             "highlight": false,
             "rows": "[x] Reste en surface de la peau\n[x] Souvent parfumée et irritante\n[x] Grasse, nécessite un temps de pose\n[x] Résultats aléatoires"
           }
@@ -487,7 +487,8 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "button_label": ""
       }
     },
     "faq": {

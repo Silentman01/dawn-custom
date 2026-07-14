@@ -155,7 +155,7 @@
             "badge_color": "#51af6f",
             "image_1": "shopify://shop_images/galbea-social-1.png",
             "image_2": "shopify://shop_images/galbea-social-2.png",
-            "image_3": "shopify://shop_images/galbea-social-3.png"
+            "image_3": "shopify://shop_images/galbea-social-3.jpg"
           }
         },
         "urgency_notice": {
@@ -358,7 +358,7 @@
         "card_1": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/galbea-card-1.png",
+            "image": "shopify://shop_images/galbea-card-1.jpg",
             "title": "Bandes croisées en X",
             "text": "La compression suit le trajet du bengkung : croisée, continue, sans point d’écrasement.",
             "card_bg_color": ""
@@ -449,7 +449,7 @@
         "ticker_image_AGTRdD": {
           "type": "ticker_image",
           "settings": {
-            "image": "shopify://shop_images/galbea-ticker-6.png"
+            "image": "shopify://shop_images/galbea-ticker-6.jpg"
           }
         },
         "ticker_image_eQnJRE": {
@@ -461,19 +461,19 @@
         "ticker_image_wgRraX": {
           "type": "ticker_image",
           "settings": {
-            "image": "shopify://shop_images/galbea-ticker-8.png"
+            "image": "shopify://shop_images/galbea-ticker-8.jpg"
           }
         },
         "ticker_image_E7knVa": {
           "type": "ticker_image",
           "settings": {
-            "image": "shopify://shop_images/galbea-ticker-9.png"
+            "image": "shopify://shop_images/galbea-ticker-9.jpg"
           }
         },
         "ticker_image_3CWTUR": {
           "type": "ticker_image",
           "settings": {
-            "image": "shopify://shop_images/galbea-ticker-10.png"
+            "image": "shopify://shop_images/galbea-ticker-10.jpg"
           }
         },
         "review_1": {
@@ -509,7 +509,7 @@
             "quote": "« Exactement ce qu’il me fallait après ma césarienne »",
             "details": "Ça ne touche pas la cicatrice et ça tient tout le ventre, les côtés, le dos. Un vrai soulagement dès les premiers jours.",
             "author_name": "CLAUDETTE R.",
-            "author_image": "shopify://shop_images/galbea-avatar-3.png",
+            "author_image": "shopify://shop_images/galbea-avatar-3.jpg",
             "tag_1": "Césarienne",
             "tag_2": "Vérifié",
             "card_bg_color": ""
@@ -522,7 +522,7 @@
             "quote": "« 3 ans après, ça marche quand même »",
             "details": "Je pensais que c’était trop tard. En 3 semaines, la différence est visible. Il n’est jamais trop tard.",
             "author_name": "DAVID L.",
-            "author_image": "shopify://shop_images/galbea-avatar-4.png",
+            "author_image": "shopify://shop_images/galbea-avatar-4.jpg",
             "tag_1": "3 ans après",
             "tag_2": "Vérifié",
             "card_bg_color": ""
@@ -535,7 +535,7 @@
             "quote": "« La seule que je supporte toute la journée »",
             "details": "J’ai essayé 3 gaines avant. Toutes remontaient ou serraient trop. Celle-ci, je l’oublie et elle travaille.",
             "author_name": "SYLVIE B.",
-            "author_image": "shopify://shop_images/galbea-avatar-5.png",
+            "author_image": "shopify://shop_images/galbea-avatar-5.jpg",
             "tag_1": "Ex-gaines classiques",
             "tag_2": "Vérifié",
             "card_bg_color": ""
@@ -617,7 +617,7 @@
       "settings": {
         "heading": "Ce que la Galbéa change",
         "subheading": "Ce qui change quand votre ventre est enfin accompagné comme il le mérite.",
-        "product_image": "shopify://shop_images/galbea-hero.png",
+        "product_image": "shopify://shop_images/galbea-hero.jpg",
         "bg_color": "#2E4B45",
         "bg_color_bottom": "#B76E79",
         "text_color": "#ffffff",
@@ -636,7 +636,7 @@
         "pb_1": {
           "type": "benefit",
           "settings": {
-            "image": "shopify://shop_images/galbea-step-1.png",
+            "image": "shopify://shop_images/galbea-step-1.jpg",
             "title": "Jours 1 à 7",
             "description": "Le ventre est soutenu, la posture se redresse, vous vous sentez « tenue ».",
             "answer": "Enfilez-la comme une culotte : la compression croisée soutient immédiatement la paroi, tout le tour."
@@ -645,7 +645,7 @@
         "pb_2": {
           "type": "benefit",
           "settings": {
-            "image": "shopify://shop_images/galbea-step-2.png",
+            "image": "shopify://shop_images/galbea-step-2.jpg",
             "title": "Semaine 2",
             "description": "Le ventre commence à remonter : vos vêtements tombent déjà mieux.",
             "answer": "Le maintien continu aide le ventre à remonter : vos vêtements tombent déjà mieux."
@@ -833,7 +833,7 @@
         "reason_card_493cPn": {
           "type": "reason_card",
           "settings": {
-            "image": "shopify://shop_images/galbea-reason-2.png",
+            "image": "shopify://shop_images/galbea-reason-2.jpg",
             "label": "Reason 2",
             "heading": "360°, pas juste le devant",
             "details": "<p>Les gaines classiques écrasent l’avant. La Galbéa enveloppe tout le tour.</p>"
