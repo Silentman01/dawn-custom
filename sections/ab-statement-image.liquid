@@ -1,0 +1,110 @@
+{%- comment -%}
+  A/B clone section: centered editorial statement — small uppercase kicker, big serif
+  heading (em = italic gold accent), optional huge stat line, optional body text and
+  image below. Mirrors the competitor's statement blocks ("Ce que vous utilisez
+  vraiment", "Ce que vous jetez chaque semaine", "Testé sur plusieurs jours").
+{%- endcomment -%}
+
+{%- style -%}
+  #AbStmt-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+    text-align: center;
+  }
+  #AbStmt-{{ section.id }} .ab-stmt__inner { max-width: 86rem; margin: 0 auto; padding: 0 2rem; }
+  #AbStmt-{{ section.id }} .ab-stmt__kicker {
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-size: 1.25rem;
+    font-weight: 600;
+    opacity: 0.65;
+    margin: 0 0 1.4rem;
+  }
+  #AbStmt-{{ section.id }} .ab-stmt__heading {
+    margin: 0;
+    font-size: clamp(2.4rem, 5vw, 4rem);
+    line-height: 1.15;
+  }
+  #AbStmt-{{ section.id }} .ab-stmt__heading em {
+    font-style: italic;
+    color: {{ section.settings.accent_color }};
+  }
+  #AbStmt-{{ section.id }} .ab-stmt__stat {
+    margin: 1.6rem 0 0;
+    font-size: clamp(3rem, 7vw, 5.4rem);
+    font-weight: 700;
+    line-height: 1.05;
+    color: {{ section.settings.accent_color }};
+  }
+  #AbStmt-{{ section.id }} .ab-stmt__body {
+    max-width: 62rem;
+    margin: 1.8rem auto 0;
+    font-size: 1.55rem;
+    line-height: 1.65;
+  }
+  #AbStmt-{{ section.id }} .ab-stmt__image { margin: 3rem auto 0; }
+  #AbStmt-{{ section.id }} .ab-stmt__image img {
+    width: 100%;
+    height: auto;
+    border-radius: 1.2rem;
+    display: block;
+  }
+  #AbStmt-{{ section.id }} .ab-stmt__image--narrow { max-width: 56rem; }
+  #AbStmt-{{ section.id }} .ab-stmt__image--medium { max-width: 76rem; }
+  #AbStmt-{{ section.id }} .ab-stmt__image--full { max-width: 110rem; }
+  @media screen and (max-width: 749px) {
+    #AbStmt-{{ section.id }} .ab-stmt__body { font-size: 1.4rem; }
+  }
+{%- endstyle -%}
+
+<div id="AbStmt-{{ section.id }}" class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="ab-stmt__inner">
+    {%- if section.settings.kicker != blank -%}
+      <p class="ab-stmt__kicker">{{ section.settings.kicker }}</p>
+    {%- endif -%}
+    {%- if section.settings.heading != blank -%}
+      <h2 class="ab-stmt__heading">{{ section.settings.heading }}</h2>
+    {%- endif -%}
+    {%- if section.settings.stat != blank -%}
+      <p class="ab-stmt__stat">{{ section.settings.stat }}</p>
+    {%- endif -%}
+    {%- if section.settings.body != blank -%}
+      <div class="ab-stmt__body rte">{{ section.settings.body }}</div>
+    {%- endif -%}
+    {%- if section.settings.image != blank -%}
+      <div class="ab-stmt__image ab-stmt__image--{{ section.settings.image_width }}">
+        {{ section.settings.image | image_url: width: 1500 | image_tag: loading: 'lazy', widths: '550, 750, 1100, 1500', sizes: '(min-width: 750px) 76rem, 100vw' }}
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "AB Statement + image",
+  "tag": "section",
+  "settings": [
+    { "type": "text", "id": "kicker", "label": "Kicker (small uppercase line)" },
+    { "type": "inline_richtext", "id": "heading", "label": "Heading (italic = accent)", "default": "Pas de plastique caché. <em>Rien que du naturel.</em>" },
+    { "type": "text", "id": "stat", "label": "Big stat line (optional)" },
+    { "type": "richtext", "id": "body", "label": "Body text (optional)" },
+    { "type": "image_picker", "id": "image", "label": "Image (optional)" },
+    {
+      "type": "select",
+      "id": "image_width",
+      "label": "Image width",
+      "options": [
+        { "value": "narrow", "label": "Narrow" },
+        { "value": "medium", "label": "Medium" },
+        { "value": "full", "label": "Full" }
+      ],
+      "default": "medium"
+    },
+    { "type": "color", "id": "accent_color", "label": "Accent color", "default": "#B5762A" },
+    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-1" },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding top", "default": 56 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding bottom", "default": 56 }
+  ],
+  "presets": [{ "name": "AB Statement + image" }]
+}
+{% endschema %}

@@ -1,0 +1,465 @@
+/*
+ * A/B TEST VARIANT — 1:1 structural clone of the competitor's proven product page
+ * (section flow + content architecture mirrored; copy paraphrased; our images).
+ * Suffix: adele-1v1 — preview with ?view=adele-1v1
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "star_rating": {
+          "type": "star_rating",
+          "settings": {
+            "rating": 4.6,
+            "text": "Noté <strong>4,6 Excellent</strong> · 775 avis",
+            "star_color": "#b5762a",
+            "star_bg_color": "#ececec",
+            "star_size": 1.3,
+            "star_gap": 0.4,
+            "alignment": "flex-start",
+            "text_color": "#121212",
+            "highlight_color": "#000000"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title_size": 26,
+            "title_weight": "700",
+            "title_transform": "none",
+            "title_color": ""
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "hide_price": false,
+            "price_color": "#b5762a",
+            "compare_price_color": "",
+            "sale_badge_text": "Économisez 20 €",
+            "sale_badge_weight": "600",
+            "price_font_size": 2,
+            "price_font_weight": "700",
+            "compare_font_size": 1.8
+          }
+        },
+        "bullet_1": {
+          "type": "text",
+          "settings": {
+            "text": "🍞 Garde votre pain frais jusqu'à 7 jours",
+            "text_style": "body"
+          }
+        },
+        "bullet_2": {
+          "type": "text",
+          "settings": {
+            "text": "✨ Croûte qui craque, mie moelleuse, jour après jour",
+            "text_style": "body"
+          }
+        },
+        "bullet_3": {
+          "type": "text",
+          "settings": {
+            "text": "🚫 Fini le plastique qui étouffe le pain et le ramollit",
+            "text_style": "body"
+          }
+        },
+        "bullet_4": {
+          "type": "text",
+          "settings": {
+            "text": "♻️ Moins de gaspillage au quotidien",
+            "text_style": "body"
+          }
+        },
+        "bullet_5": {
+          "type": "text",
+          "settings": {
+            "text": "📏 Format 30 × 40 cm : baguette entière, miche, pain tranché, brioche",
+            "text_style": "body"
+          }
+        },
+        "bullet_6": {
+          "type": "text",
+          "settings": {
+            "text": "🔁 Réutilisable des années, plus élégant qu'un emballage jetable",
+            "text_style": "body"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false,
+            "button_font_size": 1.8,
+            "button_font_weight": "700",
+            "button_text_transform": "uppercase"
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "function": "link",
+            "button_link": "",
+            "display_when": "after_scroll",
+            "button_label": "AJOUTER AU PANIER",
+            "enable_custom_btn_color": false,
+            "custom_btn_color": "#dd1d1d",
+            "color_scheme": "scheme-1",
+            "star_color": "#b5762a",
+            "stars_label": "Noté 4,6 · Satisfait ou remboursé 30 jours",
+            "button_font_size": 1.8,
+            "button_font_weight": "700",
+            "button_text_transform": "uppercase",
+            "desktop_show_image": true,
+            "desktop_show_title": true,
+            "desktop_rating_stars": true,
+            "desktop_show_price": false,
+            "desktop_show_sale_badge": false,
+            "desktop_variant_picker": true,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": true,
+            "mobile_show_title": true,
+            "mobile_rating_stars": false,
+            "mobile_show_price": false,
+            "mobile_show_sale_badge": false,
+            "mobile_variant_picker": true,
+            "mobile_full_button_width": false,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        }
+      },
+      "block_order": [
+        "star_rating",
+        "title",
+        "price",
+        "bullet_1",
+        "bullet_2",
+        "bullet_3",
+        "bullet_4",
+        "bullet_5",
+        "bullet_6",
+        "variant_picker",
+        "buy_buttons",
+        "sticky_cart"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "mobile_thumbnails": "show",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "ab_trust": {
+      "type": "ab-trust-badges",
+      "blocks": {
+        "b1": {
+          "type": "badge",
+          "settings": {
+            "emoji": "🔒",
+            "text": "Paiement 100% sécurisé"
+          }
+        },
+        "b2": {
+          "type": "badge",
+          "settings": {
+            "emoji": "📦",
+            "text": "Expédié sous 24 à 48 h"
+          }
+        },
+        "b3": {
+          "type": "badge",
+          "settings": {
+            "emoji": "🚚",
+            "text": "Livraison en 6 à 10 jours"
+          }
+        },
+        "b4": {
+          "type": "badge",
+          "settings": {
+            "emoji": "🎁",
+            "text": "Offerte dès 35 €"
+          }
+        },
+        "b5": {
+          "type": "badge",
+          "settings": {
+            "emoji": "↩️",
+            "text": "Retours 30 jours"
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5"
+      ],
+      "settings": {
+        "show_payment_icons": true,
+        "color_scheme": "scheme-2",
+        "padding_top": 24,
+        "padding_bottom": 28
+      }
+    },
+    "related": {
+      "type": "related-products",
+      "settings": {
+        "heading": "Vous aimerez aussi…",
+        "heading_size": "h2",
+        "products_to_show": 2,
+        "columns_desktop": 2,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 44,
+        "padding_bottom": 44
+      }
+    },
+    "stmt_nature": {
+      "type": "ab-statement-image",
+      "settings": {
+        "kicker": "Ce que vous mettez vraiment sur votre table",
+        "heading": "Aucun plastique caché. <em>Rien que du naturel.</em>",
+        "stat": "",
+        "body": "<p>Du coton doublé de cire d’abeille pure. Rien d’autre.</p>",
+        "image": "shopify://shop_images/adele-card-2.png",
+        "image_width": "medium",
+        "accent_color": "#B5762A",
+        "color_scheme": "scheme-1",
+        "padding_top": 64,
+        "padding_bottom": 56
+      }
+    },
+    "reviews": {
+      "type": "ab-review-cards",
+      "blocks": {
+        "r1": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/adele-avatar-1.png",
+            "quote": "<p>À la maison, c’est pain de campagne. Et tous les trois jours, le reste partait à la poubelle. Ça me serrait le cœur. Depuis que j’ai le sac Adèle, plus rien ne se jette : le lendemain, le surlendemain, même au troisième jour, le pain est encore bon. Mon mari n’en revient pas. Et ça se voit sur le budget.</p>",
+            "author": "Martine, 56 ans — Bayonne",
+            "verified_text": "Avis vérifié"
+          }
+        },
+        "r2": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/adele-social-3.png",
+            "quote": "<p>Obligés de laisser un avis. Ce sont nos grands-parents qui nous ont offert le sac Adèle à Noël. Franchement, on n’y croyait pas. Depuis, plus un seul pain à la poubelle, alors qu’avant c’était au moins un par semaine. Le pain reste frais quatre jours et la croûte craque encore.</p>",
+            "author": "Camille & Hugo, 31 et 34 ans — Besançon",
+            "verified_text": "Avis vérifié"
+          }
+        },
+        "r3": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/adele-avatar-3.png",
+            "quote": "<p>Ma petite-fille me l’a offert parce que je fais mon pain moi-même. Avant, il finissait parfois à la poubelle. Maintenant il reste frais même après cinq jours, et je fais de vraies économies. Très satisfaite !</p>",
+            "author": "Huguette, 72 ans — Quimper",
+            "verified_text": "Avis vérifié"
+          }
+        }
+      },
+      "block_order": [
+        "r1",
+        "r2",
+        "r3"
+      ],
+      "settings": {
+        "heading": "Ils ont arrêté de jeter leur pain. <em>Et ça change tout.</em>",
+        "subheading": "Déjà plus de 10 500 foyers utilisent Adèle au quotidien.",
+        "accent_color": "#B5762A",
+        "color_scheme": "scheme-2",
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "stmt_waste": {
+      "type": "ab-statement-image",
+      "settings": {
+        "kicker": "Ce qui part à la poubelle chaque semaine",
+        "heading": "",
+        "stat": "+184 € de bon pain par an… à la poubelle.",
+        "body": "",
+        "image_width": "medium",
+        "accent_color": "#B5762A",
+        "color_scheme": "scheme-3",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "stmt_test": {
+      "type": "ab-statement-image",
+      "settings": {
+        "kicker": "Testé sur plusieurs jours",
+        "heading": "Comme au premier jour. <em>Jusqu’au dernier morceau.</em>",
+        "stat": "",
+        "body": "",
+        "image": "shopify://shop_images/adele-step-2.png",
+        "image_width": "medium",
+        "accent_color": "#B5762A",
+        "color_scheme": "scheme-1",
+        "padding_top": 64,
+        "padding_bottom": 56
+      }
+    },
+    "faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "q1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment ça marche, concrètement ?",
+            "icon": "none",
+            "row_content": "<p>La cire d’abeille forme une <strong>barrière naturelle</strong> : le pain respire sans se dessécher. Vous glissez votre pain, vous refermez le cordon, c’est tout. Résultat : un pain frais <strong>jusqu’à 7 jours</strong>, sans condensation ni moisissure.</p>"
+          }
+        },
+        "q2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ma baguette rentre-t-elle dedans ?",
+            "icon": "none",
+            "row_content": "<p>Oui. Le format <strong>30 × 40 cm</strong> accueille une baguette entière, une miche, un pain de campagne ou une brioche. Le tissu souple épouse toutes les formes.</p>"
+          }
+        },
+        "q3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Est-ce hygiénique ?",
+            "icon": "none",
+            "row_content": "<p>Oui. La cire d’abeille est <strong>naturellement antibactérienne</strong>. Un rinçage à l’eau froide suffit pour l’entretenir.</p>"
+          }
+        },
+        "q4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Le tissu ne colle pas au pain ?",
+            "icon": "none",
+            "row_content": "<p>Non. L’intérieur du tissu enduit est lisse : le pain glisse et ressort sans accrocher, sans résidu.</p>"
+          }
+        },
+        "q5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ça remplace vraiment le film alimentaire ?",
+            "icon": "none",
+            "row_content": "<p>Oui. Un seul sac remplace <strong>des centaines d’emballages jetables</strong> : plus besoin de film plastique ni d’aluminium.</p>"
+          }
+        },
+        "q6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Je vis seul(e) : est-ce que ça vaut le coup ?",
+            "icon": "none",
+            "row_content": "<p>Oui, encore plus. Quand on vit seul, on jette proportionnellement plus de pain rassis. Le sac le garde frais plusieurs jours : vous achetez moins souvent et vous ne jetez plus. <strong>Livraison offerte dès 35 €, satisfait ou remboursé 30 jours.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Une question ? On vous répond.",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "none",
+        "padding_top": 56,
+        "padding_bottom": 12
+      }
+    },
+    "support_note": {
+      "type": "rich-text",
+      "blocks": {
+        "txt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Une autre question ? Notre service client vous répond 7 j/7, généralement en moins de 24 h.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "txt"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "guarantee": {
+      "type": "risk-free-trial",
+      "settings": {
+        "badge_color": "#b5762a",
+        "badge_number": "30",
+        "badge_label": "JOURS",
+        "subtitle": "LE TEMPS DE VOUS FAIRE UN AVIS",
+        "heading": "Satisfait ou Remboursé 30 Jours",
+        "heading_size": 23,
+        "description": "Un mois entier pour l’essayer sur votre pain. Si votre pain ne se conserve pas mieux et que vous n’êtes pas conquis, écrivez-nous : on vous rembourse. Livraison offerte dès 35 €.",
+        "image": "shopify://shop_images/adele-guarantee.png",
+        "bg_color": "#f7f0e1",
+        "accent_color": "#b5762a",
+        "text_color": "",
+        "cta_text": "Adoptez le geste",
+        "cta_link": "",
+        "cta_height": 50,
+        "cta_bg_color": "",
+        "cta_text_color": "",
+        "padding_top": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ab_trust",
+    "related",
+    "stmt_nature",
+    "reviews",
+    "stmt_waste",
+    "stmt_test",
+    "faq",
+    "support_note",
+    "guarantee"
+  ]
+}

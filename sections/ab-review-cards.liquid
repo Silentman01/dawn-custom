@@ -1,0 +1,124 @@
+{%- comment -%}
+  A/B clone section: photo testimonial cards. Heading (em = italic accent) + social-proof
+  subline + review cards with photo, quote, author and a "verified" pill. Grid on desktop,
+  horizontal snap-scroll carousel on mobile (mirrors the competitor's review carousel).
+{%- endcomment -%}
+
+{%- style -%}
+  #AbRev-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+  #AbRev-{{ section.id }} .ab-rev__inner { max-width: 110rem; margin: 0 auto; padding: 0 2rem; }
+  #AbRev-{{ section.id }} .ab-rev__head { text-align: center; margin-bottom: 3rem; }
+  #AbRev-{{ section.id }} .ab-rev__heading { margin: 0; font-size: clamp(2.4rem, 5vw, 3.8rem); line-height: 1.15; }
+  #AbRev-{{ section.id }} .ab-rev__heading em { font-style: italic; color: {{ section.settings.accent_color }}; }
+  #AbRev-{{ section.id }} .ab-rev__sub { margin: 1.2rem 0 0; font-size: 1.5rem; opacity: 0.75; }
+  #AbRev-{{ section.id }} .ab-rev__grid {
+    display: grid;
+    grid-template-columns: repeat({{ section.blocks.size | at_most: 3 }}, 1fr);
+    gap: 2.4rem;
+  }
+  #AbRev-{{ section.id }} .ab-rev__card {
+    background: rgba(var(--color-foreground), 0.04);
+    border: 1px solid rgba(var(--color-foreground), 0.08);
+    border-radius: 1.4rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  #AbRev-{{ section.id }} .ab-rev__photo img { width: 100%; height: auto; aspect-ratio: 4/3; object-fit: cover; display: block; }
+  #AbRev-{{ section.id }} .ab-rev__content { padding: 2rem 2rem 2.4rem; display: flex; flex-direction: column; gap: 1.2rem; flex: 1; }
+  #AbRev-{{ section.id }} .ab-rev__stars { color: {{ section.settings.accent_color }}; font-size: 1.5rem; letter-spacing: 0.15em; }
+  #AbRev-{{ section.id }} .ab-rev__quote { margin: 0; font-size: 1.45rem; line-height: 1.6; flex: 1; }
+  #AbRev-{{ section.id }} .ab-rev__author { font-weight: 700; font-size: 1.4rem; }
+  #AbRev-{{ section.id }} .ab-rev__verified {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: flex-start;
+    background: #eaf3e6;
+    color: #3e6b2f;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 999px;
+    padding: 0.35rem 1rem;
+  }
+  @media screen and (max-width: 749px) {
+    #AbRev-{{ section.id }} .ab-rev__grid {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      gap: 1.6rem;
+      padding-bottom: 1rem;
+      margin: 0 -2rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+    #AbRev-{{ section.id }} .ab-rev__card { flex: 0 0 82%; scroll-snap-align: center; }
+  }
+{%- endstyle -%}
+
+<div id="AbRev-{{ section.id }}" class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="ab-rev__inner">
+    <div class="ab-rev__head">
+      {%- if section.settings.heading != blank -%}
+        <h2 class="ab-rev__heading">{{ section.settings.heading }}</h2>
+      {%- endif -%}
+      {%- if section.settings.subheading != blank -%}
+        <p class="ab-rev__sub">{{ section.settings.subheading }}</p>
+      {%- endif -%}
+    </div>
+    <div class="ab-rev__grid">
+      {%- for block in section.blocks -%}
+        <div class="ab-rev__card" {{ block.shopify_attributes }}>
+          {%- if block.settings.image != blank -%}
+            <div class="ab-rev__photo">
+              {{ block.settings.image | image_url: width: 900 | image_tag: loading: 'lazy', widths: '450, 700, 900', sizes: '(min-width: 750px) 36rem, 82vw' }}
+            </div>
+          {%- endif -%}
+          <div class="ab-rev__content">
+            <div class="ab-rev__stars" aria-hidden="true">★★★★★</div>
+            <blockquote class="ab-rev__quote">{{ block.settings.quote }}</blockquote>
+            <div class="ab-rev__author">{{ block.settings.author }}</div>
+            {%- if block.settings.verified_text != blank -%}
+              <span class="ab-rev__verified">✓ {{ block.settings.verified_text }}</span>
+            {%- endif -%}
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "AB Review cards",
+  "tag": "section",
+  "settings": [
+    { "type": "inline_richtext", "id": "heading", "label": "Heading (italic = accent)", "default": "Ils ont arrêté de jeter leur pain. <em>Et ça change tout.</em>" },
+    { "type": "text", "id": "subheading", "label": "Subheading" },
+    { "type": "color", "id": "accent_color", "label": "Accent color", "default": "#B5762A" },
+    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-1" },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding top", "default": 56 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding bottom", "default": 56 }
+  ],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Review",
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "Photo" },
+        { "type": "richtext", "id": "quote", "label": "Quote" },
+        { "type": "text", "id": "author", "label": "Author line", "default": "Prénom, 54 ans — Ville" },
+        { "type": "text", "id": "verified_text", "label": "Verified pill text", "default": "Avis vérifié" }
+      ]
+    }
+  ],
+  "max_blocks": 6,
+  "presets": [
+    { "name": "AB Review cards", "blocks": [{ "type": "review" }, { "type": "review" }, { "type": "review" }] }
+  ]
+}
+{% endschema %}
