@@ -1,0 +1,91 @@
+{%- comment -%}
+  A/B clone section: "La presse en parle" — a row of press wordmarks (text-styled,
+  serif/sans per block). Responsive: wraps, dims to grayscale-ish opacity.
+{%- endcomment -%}
+
+{%- style -%}
+  #AbPress-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+    text-align: center;
+  }
+  #AbPress-{{ section.id }} .ab-press__title {
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    font-size: 1.25rem;
+    font-weight: 600;
+    opacity: 0.6;
+    margin: 0 0 1.8rem;
+  }
+  #AbPress-{{ section.id }} .ab-press__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem 3.6rem;
+    max-width: 92rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  #AbPress-{{ section.id }} .ab-press__logo {
+    opacity: 0.55;
+    font-size: 2.2rem;
+    line-height: 1;
+    white-space: nowrap;
+  }
+  #AbPress-{{ section.id }} .ab-press__logo--serif { font-family: Georgia, 'Times New Roman', serif; font-weight: 700; }
+  #AbPress-{{ section.id }} .ab-press__logo--sans { font-family: Arial, Helvetica, sans-serif; font-weight: 800; letter-spacing: 0.02em; }
+  #AbPress-{{ section.id }} .ab-press__logo--script { font-family: Georgia, serif; font-style: italic; font-weight: 400; }
+  @media screen and (max-width: 749px) {
+    #AbPress-{{ section.id }} .ab-press__row { gap: 1rem 2.2rem; }
+    #AbPress-{{ section.id }} .ab-press__logo { font-size: 1.7rem; }
+  }
+{%- endstyle -%}
+
+<div id="AbPress-{{ section.id }}" class="color-{{ section.settings.color_scheme }} gradient">
+  {%- if section.settings.title != blank -%}
+    <p class="ab-press__title">{{ section.settings.title }}</p>
+  {%- endif -%}
+  <div class="ab-press__row">
+    {%- for block in section.blocks -%}
+      <span class="ab-press__logo ab-press__logo--{{ block.settings.style }}" {{ block.shopify_attributes }}>{{ block.settings.name }}</span>
+    {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "AB Press logos",
+  "tag": "section",
+  "settings": [
+    { "type": "text", "id": "title", "label": "Title", "default": "La presse en parle" },
+    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-1" },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Padding top", "default": 36 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Padding bottom", "default": 36 }
+  ],
+  "blocks": [
+    {
+      "type": "logo",
+      "name": "Press name",
+      "settings": [
+        { "type": "text", "id": "name", "label": "Publication name", "default": "Magazine" },
+        {
+          "type": "select",
+          "id": "style",
+          "label": "Wordmark style",
+          "options": [
+            { "value": "serif", "label": "Serif" },
+            { "value": "sans", "label": "Sans" },
+            { "value": "script", "label": "Italic serif" }
+          ],
+          "default": "serif"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 8,
+  "presets": [
+    { "name": "AB Press logos", "blocks": [{ "type": "logo" }, { "type": "logo" }, { "type": "logo" }] }
+  ]
+}
+{% endschema %}

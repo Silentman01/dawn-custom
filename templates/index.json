@@ -10,48 +10,55 @@
 {
   "sections": {
     "hero": {
-      "type": "image-banner",
+      "type": "rich-text",
+      "blocks": {
+        "h": {
+          "type": "heading",
+          "settings": {
+            "heading": "Des essentiels bien pensés, pour la maison et le quotidien",
+            "heading_size": "h1"
+          }
+        },
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Une sélection courte, testée et approuvée par des milliers de clients français. Livraison suivie offerte dès 35 €, satisfait ou remboursé 30 jours.</p>"
+          }
+        },
+        "b": {
+          "type": "button",
+          "settings": {
+            "button_label": "Découvrir la boutique",
+            "button_link": "/collections/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "h",
+        "t",
+        "b"
+      ],
       "settings": {
-        "image": "shopify://shop_images/avena-home-hero.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "image_behavior": "none",
-        "desktop_content_position": "bottom-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": false,
-        "color_scheme": "scheme-5",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
-      }
-    },
-    "benefits": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify://shop_images/avena-home-benefits.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": false,
-        "color_scheme": "scheme-5",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
         "collection": "all",
-        "products_to_show": 8,
-        "title": "La collection La Maison d'Adèle",
+        "products_to_show": 12,
+        "title": "Nos produits",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": true,
@@ -66,36 +73,73 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 48,
-        "padding_bottom": 48
+        "padding_bottom": 40
       }
     },
-    "guarantee": {
-      "type": "risk-free-trial",
+    "trust": {
+      "type": "ab-trust-badges",
+      "blocks": {
+        "b1": {
+          "type": "badge",
+          "settings": {
+            "emoji": "🚚",
+            "text": "Livraison suivie offerte dès 35 €"
+          }
+        },
+        "b2": {
+          "type": "badge",
+          "settings": {
+            "emoji": "↩️",
+            "text": "Satisfait ou remboursé 30 jours"
+          }
+        },
+        "b3": {
+          "type": "badge",
+          "settings": {
+            "emoji": "🇫🇷",
+            "text": "Service client français 7j/7"
+          }
+        },
+        "b4": {
+          "type": "badge",
+          "settings": {
+            "emoji": "🔒",
+            "text": "Paiement 100% sécurisé"
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4"
+      ],
       "settings": {
-        "badge_color": "#14213d",
-        "badge_number": "30",
-        "badge_label": "JOURS",
-        "subtitle": "LA PROMESSE LA MAISON D'ADÈLE",
-        "heading": "Adoptez-le, ou vous êtes remboursé",
-        "heading_size": 26,
-        "description": "Chaque commande est garantie 30 jours. Si votre sac ne vous convient pas, on vous rembourse ou on le remplace, sans discuter. Livraison suivie offerte et un service client français sur chaque commande.",
-        "image": "shopify://shop_images/adele-guarantee.png",
-        "bg_color": "#3a2c1c",
-        "accent_color": "#b5762a",
-        "text_color": "#f7f0e1",
-        "cta_text": "Commander mon sac Adèle",
-        "cta_link": "/products/sac-a-pain-cire-abeille-adele",
-        "cta_height": 52,
-        "cta_bg_color": "#b5762a",
-        "cta_text_color": "#ffffff",
-        "padding_top": 40
+        "show_payment_icons": true,
+        "color_scheme": "scheme-2",
+        "padding_top": 28,
+        "padding_bottom": 32
+      }
+    },
+    "promesse": {
+      "type": "ab-statement-image",
+      "settings": {
+        "kicker": "LA PROMESSE AVENA",
+        "heading": "Essayez. Si vous n’êtes pas conquis, <em>on vous rembourse</em>.",
+        "stat": "",
+        "body": "<p>Chaque commande est protégée 30 jours : remboursement ou remplacement, sans discuter.</p>",
+        "image_width": "medium",
+        "accent_color": "#B08968",
+        "color_scheme": "scheme-3",
+        "padding_top": 56,
+        "padding_bottom": 56
       }
     }
   },
   "order": [
     "hero",
-    "benefits",
     "featured_collection",
-    "guarantee"
+    "trust",
+    "promesse"
   ]
 }

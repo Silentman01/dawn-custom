@@ -1,0 +1,98 @@
+{%- comment -%}
+  A/B clone section: Avant / Après photo pairs. Each block = one pair (before image +
+  after image + optional caption). Desktop: pairs in a row; mobile: horizontal
+  snap-scroll. AVANT/APRÈS chips overlay the photos.
+{%- endcomment -%}
+
+{%- style -%}
+  #AbBA-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+  #AbBA-{{ section.id }} .ab-ba__inner { max-width: 110rem; margin: 0 auto; padding: 0 2rem; }
+  #AbBA-{{ section.id }} .ab-ba__head { text-align: center; margin-bottom: 2.6rem; }
+  #AbBA-{{ section.id }} .ab-ba__heading { margin: 0; font-size: clamp(2.4rem, 5vw, 3.8rem); line-height: 1.15; }
+  #AbBA-{{ section.id }} .ab-ba__heading em { font-style: italic; color: {{ section.settings.accent_color }}; }
+  #AbBA-{{ section.id }} .ab-ba__sub { margin: 1rem 0 0; font-size: 1.5rem; opacity: 0.75; }
+  #AbBA-{{ section.id }} .ab-ba__grid { display: grid; grid-template-columns: repeat({{ section.blocks.size | at_most: 3 }}, 1fr); gap: 2.4rem; }
+  #AbBA-{{ section.id }} .ab-ba__pair { display: flex; flex-direction: column; gap: 1rem; }
+  #AbBA-{{ section.id }} .ab-ba__imgs { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; }
+  #AbBA-{{ section.id }} .ab-ba__cell { position: relative; border-radius: 1.2rem; overflow: hidden; }
+  #AbBA-{{ section.id }} .ab-ba__cell img { width: 100%; height: 100%; aspect-ratio: 3/4; object-fit: cover; display: block; }
+  #AbBA-{{ section.id }} .ab-ba__chip {
+    position: absolute; left: 50%; bottom: 1rem; transform: translateX(-50%);
+    background: rgba(255,255,255,0.92); color: #33272a;
+    font-size: 1.15rem; font-weight: 700; letter-spacing: 0.08em;
+    border-radius: 999px; padding: 0.35rem 1.2rem; text-transform: uppercase;
+  }
+  #AbBA-{{ section.id }} .ab-ba__chip--after { background: {{ section.settings.accent_color }}; color: #fff; }
+  #AbBA-{{ section.id }} .ab-ba__caption { text-align: center; font-size: 1.35rem; opacity: 0.8; margin: 0; }
+  @media screen and (max-width: 749px) {
+    #AbBA-{{ section.id }} .ab-ba__grid {
+      display: flex; overflow-x: auto; scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch; gap: 1.6rem;
+      margin: 0 -2rem; padding: 0 2rem 1rem;
+    }
+    #AbBA-{{ section.id }} .ab-ba__pair { flex: 0 0 88%; scroll-snap-align: center; }
+  }
+{%- endstyle -%}
+
+<div id="AbBA-{{ section.id }}" class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="ab-ba__inner">
+    <div class="ab-ba__head">
+      {%- if section.settings.heading != blank -%}<h2 class="ab-ba__heading">{{ section.settings.heading }}</h2>{%- endif -%}
+      {%- if section.settings.subheading != blank -%}<p class="ab-ba__sub">{{ section.settings.subheading }}</p>{%- endif -%}
+    </div>
+    <div class="ab-ba__grid">
+      {%- for block in section.blocks -%}
+        <div class="ab-ba__pair" {{ block.shopify_attributes }}>
+          <div class="ab-ba__imgs">
+            <div class="ab-ba__cell">
+              {%- if block.settings.before != blank -%}
+                {{ block.settings.before | image_url: width: 800 | image_tag: loading: 'lazy', widths: '400, 600, 800' }}
+              {%- endif -%}
+              <span class="ab-ba__chip">{{ section.settings.before_label }}</span>
+            </div>
+            <div class="ab-ba__cell">
+              {%- if block.settings.after != blank -%}
+                {{ block.settings.after | image_url: width: 800 | image_tag: loading: 'lazy', widths: '400, 600, 800' }}
+              {%- endif -%}
+              <span class="ab-ba__chip ab-ba__chip--after">{{ section.settings.after_label }}</span>
+            </div>
+          </div>
+          {%- if block.settings.caption != blank -%}<p class="ab-ba__caption">{{ block.settings.caption }}</p>{%- endif -%}
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "AB Before After",
+  "tag": "section",
+  "settings": [
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Avant / Après" },
+    { "type": "text", "id": "subheading", "label": "Subheading" },
+    { "type": "text", "id": "before_label", "label": "Before label", "default": "Avant" },
+    { "type": "text", "id": "after_label", "label": "After label", "default": "Après" },
+    { "type": "color", "id": "accent_color", "label": "Accent color", "default": "#B76E79" },
+    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-1" },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding top", "default": 52 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding bottom", "default": 52 }
+  ],
+  "blocks": [
+    {
+      "type": "pair",
+      "name": "Before/after pair",
+      "settings": [
+        { "type": "image_picker", "id": "before", "label": "Before image" },
+        { "type": "image_picker", "id": "after", "label": "After image" },
+        { "type": "text", "id": "caption", "label": "Caption" }
+      ]
+    }
+  ],
+  "max_blocks": 3,
+  "presets": [{ "name": "AB Before After", "blocks": [{ "type": "pair" }] }]
+}
+{% endschema %}

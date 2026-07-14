@@ -16,7 +16,7 @@
       "disabled": true,
       "settings": {
         "heading": "LIVRAISON SUIVIE OFFERTE · SATISFAIT OU REMBOURSÉ 30 JOURS",
-        "heading_color": "#f7f0e1",
+        "heading_color": "#F6F4F1",
         "heading_font_size": 15,
         "heading_font_weight": "700",
         "heading_letter_spacing": 1,
@@ -28,7 +28,7 @@
         "show_timer": true,
         "timer_hours": 2,
         "timer_color": "#ffffff",
-        "background_color": "#3a2c1c",
+        "background_color": "#23272A",
         "padding_top": 10,
         "padding_bottom": 10
       }
@@ -56,11 +56,11 @@
         "ticker_item_YGkLmU"
       ],
       "settings": {
-        "background_color": "#3a2c1c",
-        "text_color": "#f7f0e1",
+        "background_color": "#23272A",
+        "text_color": "#F6F4F1",
         "border_position": "both",
         "border_thickness": 1,
-        "border_color": "#3a2c1c",
+        "border_color": "#23272A",
         "font_size": 14,
         "font_weight": "600",
         "spacing": 40,
@@ -99,35 +99,35 @@
         "ticker_item_1": {
           "type": "ticker_item",
           "settings": {
-            "text": "Pain frais 5 à 7 jours",
+            "text": "Livraison suivie offerte dès 35 €",
             "icon_name": "verified"
           }
         },
         "ticker_item_zC3Fe3": {
           "type": "ticker_item",
           "settings": {
-            "text": "Zéro plastique",
+            "text": "Satisfait ou remboursé 30 jours",
             "icon_name": "verified"
           }
         },
         "ticker_item_B7FHL3": {
           "type": "ticker_item",
           "settings": {
-            "text": "100% coton bio",
+            "text": "Service client français 7j/7",
             "icon_name": "verified"
           }
         },
         "ticker_item_YAU8MH": {
           "type": "ticker_item",
           "settings": {
-            "text": "Anti-gaspillage",
+            "text": "Paiement 100% sécurisé",
             "icon_name": "verified"
           }
         },
         "ticker_item_UqjmUe": {
           "type": "ticker_item",
           "settings": {
-            "text": "Lavable & réutilisable",
+            "text": "Qualité contrôlée",
             "icon_name": "verified"
           }
         }
@@ -140,11 +140,11 @@
         "ticker_item_UqjmUe"
       ],
       "settings": {
-        "background_color": "#f7f0e1",
-        "text_color": "#3a2c1c",
+        "background_color": "#F6F4F1",
+        "text_color": "#23272A",
         "border_position": "both",
         "border_thickness": 1,
-        "border_color": "#3a2c1c",
+        "border_color": "#B08968",
         "font_size": 14,
         "font_weight": "600",
         "spacing": 40,
