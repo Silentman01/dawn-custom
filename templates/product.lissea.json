@@ -1,0 +1,571 @@
+/*
+ * Lisséa™ - rouleau anti poils incarnés. 1:1 clone of levitycare.fr DermaSkin (rules 55/56).
+ * Suffix: lissea
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "badge": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"display:inline-block;background:#EFEAFB;color:#4A3D6B;font-size:12px;font-weight:700;border-radius:999px;padding:5px 14px;margin-bottom:6px\">Satisfaite ou remboursée - 30 j</div>"
+          }
+        },
+        "star_rating": {
+          "type": "star_rating",
+          "settings": {
+            "rating": 4.8,
+            "text": "<strong>4,8/5</strong> (7 867 avis vérifiés)",
+            "star_color": "#4A3D6B",
+            "star_bg_color": "#ececec",
+            "star_size": 1.3,
+            "star_gap": 0.4,
+            "alignment": "flex-start",
+            "text_color": "#121212",
+            "highlight_color": "#000000"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title_size": 26,
+            "title_weight": "700",
+            "title_transform": "none",
+            "title_color": ""
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "hide_price": false,
+            "price_color": "#4A3D6B",
+            "compare_price_color": "",
+            "sale_badge_text": "Offre de lancement",
+            "sale_badge_weight": "600",
+            "price_font_size": 2,
+            "price_font_weight": "700",
+            "compare_font_size": 1.8
+          }
+        },
+        "iconlist": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"margin:8px 0 4px\"><div style=\"display:flex;align-items:center;gap:9px;margin:0 0 8px\"><svg viewBox='0 0 24 24' fill='none' stroke='#4A3D6B' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' style='width:17px;height:17px;flex:none'><polyline points='4 12.5 9.5 18 20 6.5'/></svg><span style=\"font-size:14.5px;line-height:1.4\">Réduit l'apparence des <strong>poils incarnés</strong></span></div><div style=\"display:flex;align-items:center;gap:9px;margin:0 0 8px\"><svg viewBox='0 0 24 24' fill='none' stroke='#4A3D6B' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' style='width:17px;height:17px;flex:none'><polyline points='4 12.5 9.5 18 20 6.5'/></svg><span style=\"font-size:14.5px;line-height:1.4\">Sans odeur ni résidu gras</span></div><div style=\"display:flex;align-items:center;gap:9px;margin:0 0 8px\"><svg viewBox='0 0 24 24' fill='none' stroke='#4A3D6B' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' style='width:17px;height:17px;flex:none'><polyline points='4 12.5 9.5 18 20 6.5'/></svg><span style=\"font-size:14.5px;line-height:1.4\">Fini les <strong>irritations</strong> sur la peau</span></div><div style=\"display:flex;align-items:center;gap:9px;margin:0 0 8px\"><svg viewBox='0 0 24 24' fill='none' stroke='#4A3D6B' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' style='width:17px;height:17px;flex:none'><polyline points='4 12.5 9.5 18 20 6.5'/></svg><span style=\"font-size:14.5px;line-height:1.4\">100 % végétal &amp; sans hormones</span></div></div>"
+          }
+        },
+        "t_desc": {
+          "type": "text",
+          "settings": {
+            "text": "Lisséa™ est un roll-on conçu pour aider à réduire les poils incarnés, les rougeurs et les imperfections en quelques utilisations.",
+            "text_style": "body"
+          }
+        },
+        "progress": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"margin:10px 0 6px\"><div style=\"display:flex;justify-content:space-between;font-size:12.5px;font-weight:600;margin-bottom:5px\"><span>Forte demande</span><span>87% déjà vendu</span></div><div style=\"background:#EFEAFB;border-radius:999px;height:8px;overflow:hidden\"><div style=\"width:87%;height:100%;background:linear-gradient(90deg,#C3B8E3,#4A3D6B)\"></div></div></div>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false,
+            "button_font_size": 1.8,
+            "button_font_weight": "700",
+            "button_text_transform": "uppercase"
+          }
+        },
+        "guarantee_line": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p style=\"text-align:center;font-size:13px;opacity:.8;margin:10px 0 4px\">Essayez 30 jours sans risque. Aucun résultat visible ? On vous rembourse.</p>"
+          }
+        },
+        "mini_avis": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"background:#FAF9F6;border:1px solid #EDE9E1;border-radius:12px;padding:14px 16px;margin:10px 0\"><div style=\"color:#E8A33D;font-size:13px;letter-spacing:2px;margin-bottom:6px\">★★★★★</div><p style=\"font-size:13.5px;line-height:1.55;margin:0 0 6px\">Après quelques jours d'utilisation, les rougeurs après le rasage étaient déjà beaucoup moins visibles. Ma peau est plus nette et beaucoup plus confortable.</p><p style=\"font-size:12.5px;opacity:.65;margin:0\">Selma M. · Cliente vérifiée</p></div><div style=\"background:#FAF9F6;border:1px solid #EDE9E1;border-radius:12px;padding:14px 16px;margin:0 0 6px\"><div style=\"color:#E8A33D;font-size:13px;letter-spacing:2px;margin-bottom:6px\">★★★★★</div><p style=\"font-size:13.5px;line-height:1.55;margin:0 0 6px\">Les petits boutons après l'épilation du maillot ont disparu en deux semaines. Je l'utilise après chaque rasage, c'est devenu un réflexe.</p><p style=\"font-size:12.5px;opacity:.65;margin:0\">Léna B. · Cliente vérifiée</p></div>"
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "function": "link",
+            "button_link": "",
+            "display_when": "after_scroll",
+            "button_label": "AJOUTER AU PANIER",
+            "enable_custom_btn_color": false,
+            "custom_btn_color": "#dd1d1d",
+            "color_scheme": "scheme-1",
+            "star_color": "#4A3D6B",
+            "stars_label": "Notée 4,8 · Satisfaite ou remboursée 30 jours",
+            "button_font_size": 1.8,
+            "button_font_weight": "700",
+            "button_text_transform": "uppercase",
+            "desktop_show_image": true,
+            "desktop_show_title": true,
+            "desktop_rating_stars": true,
+            "desktop_show_price": false,
+            "desktop_show_sale_badge": false,
+            "desktop_variant_picker": true,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": true,
+            "mobile_show_title": true,
+            "mobile_rating_stars": false,
+            "mobile_show_price": false,
+            "mobile_show_sale_badge": false,
+            "mobile_variant_picker": true,
+            "mobile_full_button_width": false,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        }
+      },
+      "block_order": [
+        "badge",
+        "star_rating",
+        "title",
+        "price",
+        "iconlist",
+        "t_desc",
+        "progress",
+        "variant_picker",
+        "buy_buttons",
+        "guarantee_line",
+        "mini_avis",
+        "sticky_cart"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "mobile_thumbnails": "show",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "press": {
+      "type": "ab-press-logos",
+      "blocks": {
+        "p1": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/lissea-press-1.png",
+            "name": "ELLE",
+            "style": "serif"
+          }
+        },
+        "p2": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/lissea-press-2.png",
+            "name": "COSMOPOLITAN",
+            "style": "sans"
+          }
+        },
+        "p3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/lissea-press-3.png",
+            "name": "Marie Claire",
+            "style": "serif"
+          }
+        },
+        "p4": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/lissea-press-4.png",
+            "name": "VOGUE",
+            "style": "serif"
+          }
+        }
+      },
+      "block_order": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "settings": {
+        "title": "",
+        "color_scheme": "scheme-1",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "videos": {
+      "type": "ab-video-carousel",
+      "blocks": {
+        "v1": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/vp/8294e47937314e7fb3b91ad163ffa75e/8294e47937314e7fb3b91ad163ffa75e.HD-720p-2.1Mbps-88922660.mp4"
+          }
+        },
+        "v2": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/vp/db4f0fef3bf944629deb2d5b001b5674/db4f0fef3bf944629deb2d5b001b5674.HD-720p-3.0Mbps-88922662.mp4"
+          }
+        },
+        "v3": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/vp/e9e03495ce0447caa1fe3797f79a8fba/e9e03495ce0447caa1fe3797f79a8fba.HD-720p-3.0Mbps-88922664.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "accent_color": "#4A3D6B",
+        "color_scheme": "scheme-1",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "avis": {
+      "type": "ab-review-cards",
+      "blocks": {
+        "r1": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/lissea-avis-1.png",
+            "title": "",
+            "quote": "<p>Après chaque épilation du maillot, je récoltais une dizaine de poils incarnés et des petits boutons rouges. Je passe le rouleau deux fois par semaine : <strong>en trois semaines, la zone est nette, plus douce, sans une seule rougeur.</strong> Je n'y croyais plus ! 🙌</p>",
+            "author": "Iris R.",
+            "verified_text": ""
+          }
+        },
+        "r2": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/lissea-avis-2.png",
+            "title": "",
+            "quote": "<p>Le rasage et les frottements avaient laissé des taches foncées sur l'aine que je n'osais plus montrer. <strong>Le teint s'unifie petit à petit et les boutons ont disparu.</strong> Discret, indolore, et ça tient vraiment ses promesses.</p>",
+            "author": "Coline D.",
+            "verified_text": ""
+          }
+        },
+        "r3": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/lissea-avis-3.png",
+            "title": "",
+            "quote": "<p>Je l'utilise sur le maillot et les aisselles. Fini les poils qui repoussent sous la peau et les démangeaisons après le rasoir. <strong>Ma peau est lisse comme jamais, même mon esthéticienne l'a remarqué.</strong></p>",
+            "author": "Nora S.",
+            "verified_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "r1",
+        "r2",
+        "r3"
+      ],
+      "settings": {
+        "heading": "Une peau enfin nette, même sur les zones les plus délicates.",
+        "subheading": "",
+        "star_color": "#E8A33D",
+        "title_color": "#1A1A1A",
+        "card_bg": "#FFFFFF",
+        "card_border": "#EDE9E1",
+        "accent_color": "#4A3D6B",
+        "color_scheme": "scheme-1",
+        "padding_top": 44,
+        "padding_bottom": 44
+      }
+    },
+    "avant_apres": {
+      "type": "ab-before-after",
+      "blocks": {
+        "pair": {
+          "type": "pair",
+          "settings": {
+            "before": "shopify://shop_images/lissea-avant.png",
+            "after": "shopify://shop_images/lissea-apres.png",
+            "caption": "*Résultats individuels. Utilisez-le régulièrement pour des résultats durables et plus rapides."
+          }
+        }
+      },
+      "block_order": [
+        "pair"
+      ],
+      "settings": {
+        "heading": "Une peau plus lisse, en un seul geste",
+        "subheading": "",
+        "before_label": "Avant",
+        "after_label": "Après",
+        "accent_color": "#4A3D6B",
+        "color_scheme": "scheme-2",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "formule": {
+      "type": "ab-formula-sequence",
+      "blocks": {
+        "a1": {
+          "type": "active",
+          "settings": {
+            "image": "shopify://shop_images/lissea-actif-bha.png",
+            "kicker": "Pénètre · Acide Salicylique (BHA <1 %)",
+            "title": "Dissout ce qui emprisonne le poil",
+            "text": "Le seul acide liposoluble capable de pénétrer dans le pore et de dissoudre le bouchon de cellules mortes qui retient le poil incarné. Concentration inférieure à 1 % : efficace sans agresser les zones intimes sensibles."
+          }
+        },
+        "a2": {
+          "type": "active",
+          "settings": {
+            "image": "shopify://shop_images/lissea-actif-pha.png",
+            "kicker": "Nettoie · Gluconolactone (PHA 2 %)",
+            "title": "Exfolie sans irriter",
+            "text": "Exfoliant nouvelle génération qui élimine en douceur les résidus qui referment le follicule après l'épilation. Adapté aux peaux qui ont mal réagi à d'autres produits."
+          }
+        },
+        "a3": {
+          "type": "active",
+          "settings": {
+            "image": "shopify://shop_images/lissea-actif-niacinamide.png",
+            "kicker": "Unifie · Niacinamide",
+            "title": "Estompe les taches et rougeurs",
+            "text": "Aide à uniformiser le teint des zones marquées par le rasage et les frottements, et à réduire l'apparence des rougeurs au fil des utilisations."
+          }
+        },
+        "a4": {
+          "type": "active",
+          "settings": {
+            "image": "shopify://shop_images/lissea-actif-apaisants.png",
+            "kicker": "Apaise · Hamamélis, centella & aloé",
+            "title": "Calme la peau après le rasage",
+            "text": "Un trio d'extraits botaniques apaisants qui réduit l'inconfort immédiat, pour une peau confortable même après une épilation intégrale."
+          }
+        }
+      },
+      "block_order": [
+        "a1",
+        "a2",
+        "a3",
+        "a4"
+      ],
+      "settings": {
+        "heading": "Formule étudiée et prouvée",
+        "intro": "<p>Formulée pour les peaux les plus sensibles : sans alcool agressif, sans parfum, avec un pH de 5,5. Convient à tous les types de peau, y compris celles qui ont mal réagi à d'autres produits. 6 actifs d'origine coréenne qui agissent en séquence pour éliminer boutons, poils incarnés et taches.</p>",
+        "proof_line": "Efficacité prouvée de 92 %.",
+        "accent_color": "#4A3D6B",
+        "color_scheme": "scheme-1",
+        "padding_top": 52,
+        "padding_bottom": 44
+      }
+    },
+    "compare": {
+      "type": "ab-compare-columns",
+      "blocks": {
+        "c1": {
+          "type": "column",
+          "settings": {
+            "title": "Lisséa™",
+            "image": "shopify://shop_images/lissea-compare-produit.png",
+            "highlight": true,
+            "rows": "Pénètre dans le pore (BHA)\nZones sensibles et intimes\nSans rinçage, 10 secondes par jour\nEnviron 0,33 € par jour"
+          }
+        },
+        "c2": {
+          "type": "column",
+          "settings": {
+            "title": "Crème classique",
+            "image": "shopify://shop_images/lissea-compare-creme.png",
+            "highlight": false,
+            "rows": "[x] Reste en surface de la peau\n[x] Souvent parfumée et irritante\n[x] Grasse, nécessite un temps de pose\n[x] Résultats aléatoires"
+          }
+        },
+        "c3": {
+          "type": "column",
+          "settings": {
+            "title": "IPL / Laser",
+            "image": "shopify://shop_images/lissea-compare-ipl.png",
+            "highlight": false,
+            "rows": "[x] Plusieurs centaines d'euros\n[x] Séances contraignantes\n[x] Déconseillé sur peau irritée\n[x] Ne traite pas les rougeurs"
+          }
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "settings": {
+        "heading": "Lisséa face à…",
+        "columns": 3,
+        "accent_color": "#4A3D6B",
+        "color_scheme": "scheme-2",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "trust": {
+      "type": "multicolumn",
+      "blocks": {
+        "t1": {
+          "type": "column",
+          "settings": {
+            "title": "Livraison offerte",
+            "text": "<p>Pour toutes les commandes, en 3 à 5 jours ouvrés.</p>"
+          }
+        },
+        "t2": {
+          "type": "column",
+          "settings": {
+            "title": "Satisfaite ou remboursée",
+            "text": "<p>Si cela ne vous convient pas sous 30 jours, on vous rembourse.</p>"
+          }
+        },
+        "t3": {
+          "type": "column",
+          "settings": {
+            "title": "Service client 6j/7",
+            "text": "<p>Une vraie personne vous répond et vous aide.</p>"
+          }
+        },
+        "t4": {
+          "type": "column",
+          "settings": {
+            "title": "Paiements sécurisés",
+            "text": "<p>Tous les paiements sont cryptés et protégés.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "q1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "J'ai déjà tout essayé. Pourquoi Lisséa serait différent ?",
+            "icon": "none",
+            "row_content": "<p>Pas de promesse miracle : Lisséa agit sur les causes concrètes des <strong>poils incarnés, irritations, rougeurs et effet peau de fraise</strong>. Sa formule douce (BHA + PHA + niacinamide, pH 5,5) et son applicateur roll-on aident la peau à redevenir nette au fil des utilisations. Beaucoup de clientes voient la différence après quelques jours d'usage régulier.</p>"
+          }
+        },
+        "q2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Puis-je l’utiliser sur la zone intime ?",
+            "icon": "none",
+            "row_content": "<p>Oui : la formule est pensée pour les <strong>zones sensibles</strong> (maillot, aisselles), sans alcool agressif ni parfum, avec un pH physiologique de 5,5.</p>"
+          }
+        },
+        "q3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Est-ce que cela risque d’irriter ma peau ?",
+            "icon": "none",
+            "row_content": "<p>La concentration en actifs est calibrée pour les peaux sensibles (BHA sous 1 %). En cas de doute, testez sur une petite zone 24 h avant la première utilisation complète.</p>"
+          }
+        },
+        "q4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "À quelle fréquence l’utiliser ?",
+            "icon": "none",
+            "row_content": "<p>Une passe le soir sur peau propre, <strong>sans rinçage</strong>. Sur zones très réactives, commencez par un jour sur deux.</p>"
+          }
+        },
+        "q5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Sous combien de temps voit-on des résultats ?",
+            "icon": "none",
+            "row_content": "<p>Les rougeurs s’apaisent en général en quelques jours ; pour les poils incarnés installés et les taches, comptez <strong>2 à 3 semaines</strong> d’usage régulier.</p>"
+          }
+        },
+        "q6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Et si ça ne fonctionne pas sur moi ?",
+            "icon": "none",
+            "row_content": "<p><strong>Satisfaite ou remboursée pendant 30 jours</strong> : essayez, jugez sur votre peau. Sans condition.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ],
+      "settings": {
+        "caption": "Consultez notre FAQ ou contactez-nous si vous avez d’autres questions.",
+        "heading": "Foire aux questions",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "none",
+        "padding_top": 48,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "press",
+    "videos",
+    "avis",
+    "avant_apres",
+    "formule",
+    "compare",
+    "trust",
+    "faq"
+  ]
+}
