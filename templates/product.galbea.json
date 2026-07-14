@@ -241,65 +241,82 @@
       }
     },
     "avant_apres": {
-      "type": "multicolumn",
+      "type": "ab-video-carousel",
       "blocks": {
-        "c1": {
-          "type": "column",
+        "v1": {
+          "type": "video",
           "settings": {
-            "image": "shopify://shop_images/galbea-avant-apres-robe-verte.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "c2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/galbea-avant-apres-robe-marine.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "c3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/galbea-cesarienne-7-semaines.png",
-            "title": "",
-            "text": ""
+            "video_url": "https://cdn.shopify.com/videos/c/vp/cd383237be004330b0bebf3d3ece43ae/cd383237be004330b0bebf3d3ece43ae.HD-720p-1.6Mbps-88910837.mp4"
           }
         }
       },
       "block_order": [
-        "c1",
-        "c2",
-        "c3"
+        "v1"
       ],
       "settings": {
-        "title": "Avant / Après",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
+        "heading": "Avant / Après",
+        "subheading": "",
+        "accent_color": "#B76E79",
         "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
         "padding_top": 44,
         "padding_bottom": 36
       }
     },
     "milliers": {
-      "type": "ab-statement-image",
+      "type": "ab-video-carousel",
+      "blocks": {
+        "v1": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/vp/6a352e43e50e401589926c7688d7092f/6a352e43e50e401589926c7688d7092f.HD-1080p-3.3Mbps-88910840.mp4"
+          }
+        },
+        "v2": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/vp/c338ab890b294a719ec3038b3541e530/c338ab890b294a719ec3038b3541e530.HD-1080p-3.3Mbps-88910843.mp4"
+          }
+        },
+        "v3": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/vp/b0711731a0ff4d988f748c862756771e/b0711731a0ff4d988f748c862756771e.HD-1080p-3.3Mbps-88910833.mp4"
+          }
+        },
+        "v4": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/vp/11b1624904b44d1fbe0e801a0207460b/11b1624904b44d1fbe0e801a0207460b.HD-1080p-3.3Mbps-88910848.mp4"
+          }
+        },
+        "v5": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/vp/654c6afab08a4486aaf66641e5ace1b1/654c6afab08a4486aaf66641e5ace1b1.HD-1080p-3.3Mbps-88910845.mp4"
+          }
+        },
+        "v6": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/vp/f477a0033d324ecb80d8cdeada6ddbf3/f477a0033d324ecb80d8cdeada6ddbf3.HD-1080p-3.3Mbps-88910835.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6"
+      ],
       "settings": {
-        "kicker": "",
-        "heading": "Des milliers de mamans ont déjà retrouvé leur silhouette avec <em>Galbéa</em>.",
-        "stat": "",
-        "body": "",
-        "image_width": "medium",
-        "accent_color": "#E8B4BC",
-        "color_scheme": "scheme-3",
-        "padding_top": 56,
-        "padding_bottom": 56
+        "heading": "Des milliers de mamans ont déjà retrouvé leur silhouette avec <em>Galbéa</em>",
+        "subheading": "",
+        "accent_color": "#B76E79",
+        "color_scheme": "scheme-1",
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
     "fondatrices": {
