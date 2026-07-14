@@ -58,6 +58,30 @@
   }
   #AbRev-{{ section.id }} .ab-rev__card img {
     width: 100%;
+    max-width: 100%;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 16px;
+    scrollbar-width: none;
+  }
+  #AbRev-{{ section.id }} .ab-rev__grid::-webkit-scrollbar { display: none; }
+  #AbRev-{{ section.id }} .ab-rev__card {
+    min-width: 300px;
+    max-width: 320px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    background: {{ section.settings.card_bg }};
+    border: 1px solid {{ section.settings.card_border }};
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  #AbRev-{{ section.id }} .ab-rev__card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+  }
+  #AbRev-{{ section.id }} .ab-rev__card img {
+    width: 100%;
     height: 220px;
     object-fit: cover;
     display: block;
