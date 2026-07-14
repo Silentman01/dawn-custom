@@ -14,20 +14,36 @@
   #AbRev-{{ section.id }} .ab-rev__heading { margin: 0; font-size: clamp(2.4rem, 5vw, 3.8rem); line-height: 1.15; }
   #AbRev-{{ section.id }} .ab-rev__heading em { font-style: italic; color: {{ section.settings.accent_color }}; }
   #AbRev-{{ section.id }} .ab-rev__sub { margin: 1.2rem 0 0; font-size: 1.5rem; opacity: 0.75; }
+  #AbRev-{{ section.id }} .ab-rev__wrap { position: relative; }
   #AbRev-{{ section.id }} .ab-rev__grid {
-    display: grid;
-    grid-template-columns: repeat({{ section.blocks.size | at_most: 3 }}, 1fr);
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 2rem;
+    padding-bottom: 1rem;
+  }
+  #AbRev-{{ section.id }} .ab-rev__arrow {
+    position: absolute; top: 40%; transform: translateY(-50%);
+    width: 3.6rem; height: 3.6rem; border-radius: 50%; border: none; cursor: pointer; z-index: 2;
+    background: rgba(255,255,255,0.95); color: #33272a; font-size: 1.9rem; font-weight: 700;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.14); display: flex; align-items: center; justify-content: center;
+  }
+  #AbRev-{{ section.id }} .ab-rev__arrow--left { left: -0.5rem; }
+  #AbRev-{{ section.id }} .ab-rev__arrow--right { right: -0.5rem; }}, 1fr);
     gap: 2.4rem;
   }
   #AbRev-{{ section.id }} .ab-rev__card {
-    background: rgba(var(--color-foreground), 0.04);
+    flex: 0 0 28rem;
+    scroll-snap-align: start;
+    background: rgba(var(--color-foreground), 0.03);
     border: 1px solid rgba(var(--color-foreground), 0.08);
     border-radius: 1.4rem;
     overflow: hidden;
     display: flex;
     flex-direction: column;
   }
-  #AbRev-{{ section.id }} .ab-rev__photo img { width: 100%; height: auto; aspect-ratio: 4/3; object-fit: cover; display: block; }
+  #AbRev-{{ section.id }} .ab-rev__photo img { width: 100%; height: auto; aspect-ratio: 3/4; object-fit: cover; display: block; }
   #AbRev-{{ section.id }} .ab-rev__content { padding: 2rem 2rem 2.4rem; display: flex; flex-direction: column; gap: 1.2rem; flex: 1; }
   #AbRev-{{ section.id }} .ab-rev__stars { color: {{ section.settings.accent_color }}; font-size: 1.5rem; letter-spacing: 0.15em; }
   #AbRev-{{ section.id }} .ab-rev__title { margin: 0; font-size: 1.55rem; font-weight: 700; }
@@ -71,6 +87,8 @@
         <p class="ab-rev__sub">{{ section.settings.subheading }}</p>
       {%- endif -%}
     </div>
+    <div class="ab-rev__wrap">
+    <button type="button" class="ab-rev__arrow ab-rev__arrow--left" aria-label="Précédent" onclick="this.parentElement.querySelector('.ab-rev__grid').scrollBy({left:-320,behavior:'smooth'})">‹</button>
     <div class="ab-rev__grid">
       {%- for block in section.blocks -%}
         <div class="ab-rev__card" {{ block.shopify_attributes }}>

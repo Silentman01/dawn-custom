@@ -1,14 +1,5 @@
 /*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
-/*
- * Galbéa™ — culotte gainante post-partum. 1:1 clone of belayan.com (rule 55).
+ * Galbéa™ - culotte gainante post-partum. 1:1 clone of belayan.com (rule 55).
  * Suffix: galbea
  */
 {
@@ -76,12 +67,6 @@
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<details style=\"margin:6px 0 12px\">\n<summary style=\"cursor:pointer;font-size:13.5px;text-decoration:underline;opacity:.8;list-style:none\">Guide des tailles</summary>\n<table style=\"width:100%;font-size:13px;margin-top:10px;border-collapse:collapse\">\n<tr style=\"opacity:.6\"><td style=\"padding:4px 0\">Taille</td><td>FR</td></tr>\n<tr><td style=\"padding:3px 0\"><strong>S</strong></td><td>36-38</td></tr>\n<tr><td style=\"padding:3px 0\"><strong>M</strong></td><td>40-42</td></tr>\n<tr><td style=\"padding:3px 0\"><strong>L</strong></td><td>44-46</td></tr>\n<tr><td style=\"padding:3px 0\"><strong>XL</strong></td><td>48-50</td></tr>\n<tr><td style=\"padding:3px 0\"><strong>2XL</strong></td><td>52-54</td></tr>\n<tr><td style=\"padding:3px 0\"><strong>3XL</strong></td><td>56-58</td></tr>\n</table>\n</details>"
-          }
-        },
-        "offer": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"gb-offer\" style=\"border:1.5px solid #B76E79;border-radius:14px;overflow:hidden;margin:10px 0 14px\">\n<div style=\"background:#B76E79;color:#fff;font-weight:700;font-size:13px;letter-spacing:.04em;text-align:center;padding:8px 10px\">SOLDES D'ÉTÉ · OFFRE À DURÉE LIMITÉE</div>\n<label style=\"display:flex;align-items:center;gap:10px;padding:12px 14px;border-bottom:1px solid #EADDD6;cursor:pointer\"><input type=\"radio\" name=\"gb-pack\" checked style=\"accent-color:#B76E79\"><span style=\"flex:1;font-size:14px\"><strong>Une Culotte Gainante</strong><br><span style=\"font-size:12px;opacity:.65\">Fraîcheur visible au quotidien</span></span><strong style=\"font-size:15px\">29,90€</strong></label>\n<label style=\"display:flex;align-items:center;gap:10px;padding:12px 14px;border-bottom:1px solid #EADDD6;cursor:pointer;background:#FAF3EF\"><input type=\"radio\" name=\"gb-pack\" style=\"accent-color:#B76E79\"><span style=\"flex:1;font-size:14px\"><strong>2 Achetées + 1 Offerte</strong> <span style=\"background:#2E4B45;color:#fff;font-size:10.5px;border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:middle\">LA + DEMANDÉE</span><br><span style=\"font-size:12px;opacity:.65\">Une rotation sans lessive urgente</span></span><strong style=\"font-size:15px\">39,90€</strong></label>\n<label style=\"display:flex;align-items:center;gap:10px;padding:12px 14px;cursor:pointer\"><input type=\"radio\" name=\"gb-pack\" style=\"accent-color:#B76E79\"><span style=\"flex:1;font-size:14px\"><strong>3 Achetées + 2 Offertes</strong><br><span style=\"font-size:12px;opacity:.65\">Le pack complet, une par jour de semaine</span></span><strong style=\"font-size:15px\">49,90€</strong></label>\n</div>"
           }
         },
         "variant_picker": {
@@ -193,7 +178,7 @@
         "price": {
           "type": "price",
           "settings": {
-            "hide_price": true,
+            "hide_price": false,
             "price_color": "#B76E79",
             "compare_price_color": "",
             "sale_badge_text": "Offre de lancement",
@@ -214,7 +199,6 @@
         "bengkung_info",
         "reassure",
         "guide_tailles",
-        "offer",
         "variant_picker",
         "buy_buttons",
         "payments",
@@ -516,40 +500,80 @@
           "type": "review",
           "settings": {
             "image": "shopify://shop_images/galbea-avis-1.png",
-            "quote": "<p>J’ai accouché il y a 4 mois et ce ventre mou ne partait pas. La Galbéa, je l’enfile comme une culotte normale et je l’oublie toute la journée. Au bout de 2 semaines, mon mari m’a demandé si j’avais le ventre plus plat. Je regrette de ne pas l’avoir eue dès la maternité.</p>",
-            "author": "Clara B., 31 ans",
-            "verified_text": "Avis vérifié",
-            "title": "« 2 semaines et mon ventre a déjà changé. »"
+            "title": "« 2 semaines et mon ventre a déjà changé. »",
+            "quote": "<p>J’ai accouché il y a 4 mois et ce ventre mou ne partait pas. La Galbéa, je l’enfile comme une culotte normale et je l’oublie toute la journée. <strong>Au bout de 2 semaines, mon mari m’a demandé si j’avais le ventre plus plat.</strong> Je regrette de ne pas l’avoir eue dès la maternité.</p>",
+            "author": "- Clara B., 31 ans",
+            "verified_text": ""
           }
         },
         "r2": {
           "type": "review",
           "settings": {
-            "image": "shopify://shop_images/galbea-avis-2.png",
-            "quote": "<p>J’avais peur que ça se voie ou que ça roule. Pas du tout : je la porte tous les jours sous mes robes d’été et personne ne devine que j’ai une gaine. C’est la première qui ne me gêne pas, même assise toute la journée au bureau.</p>",
-            "author": "Salomé M., 28 ans",
-            "verified_text": "Avis vérifié",
-            "title": "« Invisible sous ma robe, même moulante. »"
+            "image": "shopify://shop_images/galbea-avis-5.png",
+            "title": "« Invisible sous ma robe, même moulante. »",
+            "quote": "<p>J’avais peur que ça se voie ou que ça roule. Pas du tout : je la porte tous les jours sous mes robes d’été et <strong>personne ne devine que j’ai une gaine.</strong> C’est la première qui ne me gêne pas, même assise toute la journée au bureau.</p>",
+            "author": "- Salomé M., 28 ans",
+            "verified_text": ""
           }
         },
         "r3": {
           "type": "review",
           "settings": {
-            "image": "shopify://shop_images/galbea-avis-3.png",
-            "quote": "<p>Ma sage-femme m’avait conseillé d’attendre 6 semaines. Dès que j’ai pu la mettre, j’ai senti un maintien que je n’avais avec aucune ceinture. Ça ne touche pas la cicatrice et ça tient tout le ventre, les côtés, le dos. Un vrai soulagement.</p>",
-            "author": "Élise D., 34 ans",
-            "verified_text": "Avis vérifié",
-            "title": "« Post-césarienne, exactement ce qu’il me fallait. »"
+            "image": "shopify://shop_images/galbea-avis-6.png",
+            "title": "« Post-césarienne, exactement ce qu’il me fallait. »",
+            "quote": "<p>Ma sage-femme m’avait conseillé d’attendre 6 semaines. Dès que j’ai pu la mettre, <strong>j’ai senti un maintien que je n’avais avec aucune ceinture.</strong> Ça ne touche pas la cicatrice et ça tient tout le ventre, les côtés, le dos. Un vrai soulagement.</p>",
+            "author": "- Élise D., 34 ans",
+            "verified_text": ""
           }
         },
         "r4": {
           "type": "review",
           "settings": {
+            "image": "shopify://shop_images/galbea-avis-2.png",
+            "title": "« Mon dernier accouchement date de 3 ans. Ça marche quand même. »",
+            "quote": "<p>Je pensais que c’était trop tard pour moi, je m’étais résignée à garder ce petit ventre. <strong>En 3 semaines de Galbéa, ma taille s’est redessinée.</strong> Je rentre dans des jeans que j’avais rangés. Mon seul regret : ne pas avoir essayé avant.</p>",
+            "author": "- Audrey L., 38 ans",
+            "verified_text": ""
+          }
+        },
+        "r5": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/galbea-avis-3.png",
+            "title": "« Mieux que toutes les ceintures que j’ai achetées. »",
+            "quote": "<p>J’en ai essayé trois avant : des ceintures à scratch, une gaine tube. Tout glissait, roulait, me coupait la circulation. <strong>La Galbéa, c’est une vraie culotte : elle reste en place toute la journée.</strong> La compression est douce mais ferme. J’allaite avec, aucun souci.</p>",
+            "author": "- Maëlle R., 29 ans",
+            "verified_text": ""
+          }
+        },
+        "r6": {
+          "type": "review",
+          "settings": {
             "image": "shopify://shop_images/galbea-avis-4.png",
-            "quote": "<p>Je pensais qu’il était trop tard pour moi, je m’étais résignée à garder ce petit ventre. En 3 semaines de Galbéa, la différence est là. Il n’est jamais trop tard.</p>",
-            "author": "Audrey L., 38 ans",
-            "verified_text": "Avis vérifié",
-            "title": "« Mon dernier accouchement date de 3 ans. Ça marche quand même. »"
+            "title": "« J’ai commandé pour ma sœur aussi. »",
+            "quote": "<p>Ma fille a 5 mois. Dès la première journée, j’ai senti la différence : <strong>le ventre maintenu, le dos soulagé, la sensation que tout est remis en place.</strong> Après 2 semaines, j’ai commandé la deuxième pour ma sœur qui accouche en septembre.</p>",
+            "author": "- Morgane P., 33 ans",
+            "verified_text": ""
+          }
+        },
+        "r7": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/galbea-avis-7.png",
+            "title": "« Le tissu est vraiment doux, pas de plastique. »",
+            "quote": "<p>Ce qui m’a surprise, c’est la qualité du tissu. <strong>Respirant, doux, pas une gaine cheap qui fait transpirer.</strong> Je la porte même la nuit et je ne la sens plus. Mon ventre est nettement plus plat le matin. Ça m’a redonné confiance.</p>",
+            "author": "- Capucine V., 26 ans",
+            "verified_text": ""
+          }
+        },
+        "r8": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/galbea-avis-8.png",
+            "title": "« Effet immédiat sous ma robe de cérémonie. »",
+            "quote": "<p>J’avais un mariage 6 semaines après mon accouchement. J’ai mis la Galbéa sous ma robe et <strong>j’avais un ventre plat toute la soirée.</strong> Personne n’aurait deviné que je venais d’accoucher. Depuis, je la porte tous les jours.</p>",
+            "author": "- Jeanne L., 30 ans",
+            "verified_text": ""
           }
         }
       },
@@ -557,11 +581,15 @@
         "r1",
         "r2",
         "r3",
-        "r4"
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8"
       ],
       "settings": {
         "heading": "Ce que nos clientes en pensent",
-        "subheading": "★★★★★ Notée 4,8 sur 5 par plus de 6 000 mamans",
+        "subheading": "",
         "accent_color": "#B76E79",
         "color_scheme": "scheme-1",
         "padding_top": 52,
