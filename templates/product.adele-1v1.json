@@ -1,13 +1,4 @@
 /*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
-/*
  * A/B TEST VARIANT — 1:1 structural clone of the competitor's proven product page
  * (section flow + content architecture mirrored; copy paraphrased; our images).
  * Suffix: adele-1v1 — preview with ?view=adele-1v1
@@ -257,7 +248,7 @@
         "heading": "Aucun plastique caché. <em>Rien que du naturel.</em>",
         "stat": "",
         "body": "<p>Du coton doublé de cire d’abeille pure. Rien d’autre.</p>",
-        "image": "shopify://shop_images/adele-card-2.png",
+        "image": "shopify://shop_images/adele1v1-nature.png",
         "image_width": "medium",
         "accent_color": "#B5762A",
         "color_scheme": "scheme-1",
@@ -271,7 +262,7 @@
         "r1": {
           "type": "review",
           "settings": {
-            "image": "shopify://shop_images/adele-avatar-1.png",
+            "image": "shopify://shop_images/adele1v1-cliente.png",
             "quote": "<p>À la maison, c’est pain de campagne. Et tous les trois jours, le reste partait à la poubelle. Ça me serrait le cœur. Depuis que j’ai le sac Adèle, plus rien ne se jette : le lendemain, le surlendemain, même au troisième jour, le pain est encore bon. Mon mari n’en revient pas. Et ça se voit sur le budget.</p>",
             "author": "Martine, 56 ans — Bayonne",
             "verified_text": "Avis vérifié"
@@ -280,7 +271,7 @@
         "r2": {
           "type": "review",
           "settings": {
-            "image": "shopify://shop_images/adele-social-3.png",
+            "image": "shopify://shop_images/adele1v1-couple.png",
             "quote": "<p>Obligés de laisser un avis. Ce sont nos grands-parents qui nous ont offert le sac Adèle à Noël. Franchement, on n’y croyait pas. Depuis, plus un seul pain à la poubelle, alors qu’avant c’était au moins un par semaine. Le pain reste frais quatre jours et la croûte craque encore.</p>",
             "author": "Camille & Hugo, 31 et 34 ans — Besançon",
             "verified_text": "Avis vérifié"
@@ -289,7 +280,7 @@
         "r3": {
           "type": "review",
           "settings": {
-            "image": "shopify://shop_images/adele-avatar-3.png",
+            "image": "shopify://shop_images/adele1v1-mamie.png",
             "quote": "<p>Ma petite-fille me l’a offert parce que je fais mon pain moi-même. Avant, il finissait parfois à la poubelle. Maintenant il reste frais même après cinq jours, et je fais de vraies économies. Très satisfaite !</p>",
             "author": "Huguette, 72 ans — Quimper",
             "verified_text": "Avis vérifié"
@@ -321,7 +312,8 @@
         "accent_color": "#B5762A",
         "color_scheme": "scheme-3",
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "image": "shopify://shop_images/adele1v1-plastique.png"
       }
     },
     "stmt_test": {
@@ -331,7 +323,7 @@
         "heading": "Comme au premier jour. <em>Jusqu’au dernier morceau.</em>",
         "stat": "",
         "body": "",
-        "image": "shopify://shop_images/adele-step-2.png",
+        "image": "shopify://shop_images/adele1v1-jour1-5.png",
         "image_width": "medium",
         "accent_color": "#B5762A",
         "color_scheme": "scheme-1",
