@@ -1,0 +1,1137 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "star_rating": {
+          "type": "star_rating",
+          "settings": {
+            "rating": 4.8,
+            "text": "Noté <strong>4,8 Excellent</strong> · 6 000+ mamans françaises",
+            "star_color": "#B76E79",
+            "star_bg_color": "#ececec",
+            "star_size": 1.3,
+            "star_gap": 0.4,
+            "alignment": "flex-start",
+            "text_color": "#121212",
+            "highlight_color": "#000000"
+          }
+        },
+        "statement_tcR3Ug": {
+          "type": "statement",
+          "settings": {
+            "subtitle": "Compression croisée 360°. Le principe du bengkung.",
+            "title": "Le Bon Pain Mérite Mieux Qu’un Sac Plastique.",
+            "title_size": 26
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title_size": 26,
+            "title_weight": "700",
+            "title_transform": "none",
+            "title_color": ""
+          }
+        },
+        "benefits_list": {
+          "type": "benefits_list",
+          "settings": {
+            "text_color": "#121212",
+            "icon_color": "#B76E79",
+            "layout": "checklist",
+            "benefit_1": "Ventre plus lisse et maintenu dès les premières semaines",
+            "benefit_2": "Compression croisée 360° : devant, côtés et dos",
+            "benefit_3": "Invisible sous toutes vos tenues, même moulantes",
+            "benefit_4": "Compatible allaitement et césarienne",
+            "benefit_5": "S’enfile en 10 secondes, comme un sous-vêtement",
+            "benefit_6": "Satisfaite ou remboursée pendant 30 jours"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "hide_price": true,
+            "price_color": "#B76E79",
+            "compare_price_color": "",
+            "sale_badge_text": "Offre de lancement",
+            "sale_badge_weight": "600",
+            "price_font_size": 2,
+            "price_font_weight": "700",
+            "compare_font_size": 1.8
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false,
+            "button_font_size": 1.8,
+            "button_font_weight": "700",
+            "button_text_transform": "uppercase"
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "function": "link",
+            "button_link": "",
+            "display_when": "after_scroll",
+            "button_label": "AJOUTER AU PANIER",
+            "enable_custom_btn_color": false,
+            "custom_btn_color": "#dd1d1d",
+            "color_scheme": "scheme-1",
+            "star_color": "#B76E79",
+            "stars_label": "Notée 4,8 · Satisfaite ou remboursée 30 jours",
+            "button_font_size": 1.8,
+            "button_font_weight": "700",
+            "button_text_transform": "uppercase",
+            "desktop_show_image": true,
+            "desktop_show_title": true,
+            "desktop_rating_stars": true,
+            "desktop_show_price": false,
+            "desktop_show_sale_badge": false,
+            "desktop_variant_picker": true,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": true,
+            "mobile_show_title": true,
+            "mobile_rating_stars": false,
+            "mobile_show_price": false,
+            "mobile_show_sale_badge": false,
+            "mobile_variant_picker": true,
+            "mobile_full_button_width": false,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        },
+        "trust_microcopy": {
+          "type": "trust_microcopy",
+          "settings": {
+            "font_size": 1.6,
+            "font_size_2_items": 1.4,
+            "bg_color": "",
+            "text_color": "#121212",
+            "text_1": "Satisfait ou remboursé 30 jours",
+            "icon_name_1": "verified_user",
+            "text_2": "",
+            "icon_name_2": "local_shipping"
+          }
+        },
+        "social_proof_banner": {
+          "type": "social_proof_banner",
+          "settings": {
+            "text_color": "#121212",
+            "bg_color": "#FAF3EF",
+            "border_radius": 50,
+            "title": "Plus de 16 500 familles",
+            "subtitle": "un geste simple.",
+            "badge_color": "#51af6f",
+            "image_1": "shopify://shop_images/galbea-social-1.png",
+            "image_2": "shopify://shop_images/galbea-social-2.png",
+            "image_3": "shopify://shop_images/galbea-social-3.png"
+          }
+        },
+        "urgency_notice": {
+          "type": "urgency_notice",
+          "settings": {
+            "line_1": "<p>Forte demande : la première production part vite.</p>",
+            "line_2": "<p>Commandez aujourd’hui pour être servie sur ce lot.</p>",
+            "font_size": 1.2,
+            "bg_color": "#fef2f2",
+            "text_color": "#9f3f3f",
+            "border_width": 2,
+            "border_style": "dashed",
+            "border_color": "#fca5a5",
+            "border_radius": 3,
+            "icon_name": "error",
+            "icon_color": "#d61717",
+            "icon_scale": 1.2
+          }
+        },
+        "collapsible_tab_mjEF8T": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Pourquoi mon ventre ne revient pas ?",
+            "icon": "none",
+            "content": "<p>Pendant 9 mois, la paroi abdominale se distend et les organes se déplacent. Après l’accouchement, rien ne se referme tout seul : ce ventre n’est pas du gras, c’est une <strong>structure restée ouverte</strong>. La Galbéa apporte la compression circulaire qui l’accompagne pendant qu’elle se remet en place.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_gBgAbF": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Comment la porter ?",
+            "icon": "none",
+            "content": "<p>Comme une culotte classique : enfilez-la le matin en 10 secondes et oubliez-la. Portez-la au quotidien pendant plusieurs semaines. La plupart des mamans voient une différence <strong>dès la 2e ou 3e semaine</strong>.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_akEwJj": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Et si j’ai accouché par césarienne ?",
+            "icon": "none",
+            "content": "<p>La Galbéa est pensée pour : la compression est circulaire et douce, elle <strong>ne touche pas la cicatrice</strong> et soutient tout le ventre, les côtés et le dos. Attendez le feu vert de votre sage-femme, en général autour de 6 semaines.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_MTCgw9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Quelle taille choisir ?",
+            "icon": "none",
+            "content": "<p>Prenez votre taille habituelle de sous-vêtement. Entre deux tailles, prenez la plus grande : la compression croisée fait le travail sans serrer. Du S au 3XL.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_FPPE7p": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Et si ça ne marche pas sur moi ?",
+            "icon": "none",
+            "content": "<p><strong>Satisfaite ou remboursée pendant 30 jours</strong> : portez-la, jugez sur pièce. Si vous ne voyez pas de différence, on vous rembourse, sans discuter. Livraison offerte dès 35 €.</p>",
+            "page": ""
+          }
+        },
+        "trust_card_v2_BX8HtK": {
+          "type": "trust_card_v2",
+          "disabled": true,
+          "settings": {
+            "heading": "Pourquoi la Galbéa change votre post-partum",
+            "feature_text_1": "Compression croisée 360°",
+            "feature_text_2": "Invisible au quotidien",
+            "feature_text_3": "Compatible césarienne",
+            "feature_text_4": "Satisfaite ou remboursée",
+            "item_1": "1 culotte gainante Galbéa™",
+            "item_2": "Guide de la récupération post-partum (offert)",
+            "item_3": "Livraison suivie",
+            "item_4": "Garantie 30 jours",
+            "item_5": "Service client français 7j/7",
+            "item_6": "Paiement sécurisé",
+            "text_color": "#1a1a1a",
+            "title_color": "#1a1a1a",
+            "highlight_color": "#B76E79",
+            "bg_color": "#ffe4cc",
+            "bg_image": "shopify://shop_images/galbea-texture-soft.png",
+            "image_opacity": 10,
+            "border_radius": 10,
+            "heading_size": 28,
+            "feature_text_size": 11,
+            "item_text_size": 16
+          }
+        }
+      },
+      "block_order": [
+        "star_rating",
+        "statement_tcR3Ug",
+        "title",
+        "benefits_list",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "sticky_cart",
+        "trust_microcopy",
+        "social_proof_banner",
+        "urgency_notice",
+        "collapsible_tab_mjEF8T",
+        "collapsible_tab_gBgAbF",
+        "collapsible_tab_akEwJj",
+        "collapsible_tab_MTCgw9",
+        "collapsible_tab_FPPE7p",
+        "trust_card_v2_BX8HtK"
+      ],
+      "custom_css": [
+        ".urgency-notice {margin-bottom: 15px;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "mobile_thumbnails": "show",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "clinical_proven_XJiV6J": {
+      "type": "clinical-proven",
+      "blocks": {
+        "stat_JT8ghy": {
+          "type": "stat",
+          "settings": {
+            "percentage": 93,
+            "heading": "Ventre plus lisse",
+            "caption": "constatent un ventre plus lisse dès la 3e semaine"
+          }
+        },
+        "stat_W9mrjV": {
+          "type": "stat",
+          "settings": {
+            "percentage": 89,
+            "heading": "Vêtements ressortis",
+            "caption": "ont ressorti des vêtements qu’elles avaient abandonnés"
+          }
+        },
+        "stat_7gdyWK": {
+          "type": "stat",
+          "settings": {
+            "percentage": 95,
+            "heading": "Bien dans leur corps",
+            "caption": "se sentent enfin bien dans leur corps au quotidien"
+          }
+        },
+        "stat_BTktYW": {
+          "type": "stat",
+          "settings": {
+            "percentage": 91,
+            "heading": "La recommandent",
+            "caption": "l’ont déjà recommandée à une proche"
+          }
+        }
+      },
+      "block_order": [
+        "stat_JT8ghy",
+        "stat_W9mrjV",
+        "stat_7gdyWK",
+        "stat_BTktYW"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "name": "Clinical proven",
+      "settings": {
+        "bg_color": "#2E4B45",
+        "bg_image": "shopify://shop_images/galbea-texture-dark.png",
+        "image_opacity": 10,
+        "text_color": "#ffffff",
+        "percentage_color": "#E8B4BC",
+        "highlight_color": "#E8B4BC",
+        "heading": "Des résultats que les mamans constatent",
+        "heading_size": 31,
+        "subtitle": "Sur nos clientes après plusieurs semaines de port quotidien",
+        "cta_function": "link",
+        "cta_text": "Je commence maintenant",
+        "cta_url": "",
+        "cta_bg_color": "#ffd600",
+        "cta_text_color": "#000000",
+        "guarantee_text": "Satisfait ou remboursé 30 jours",
+        "padding_top": 84,
+        "padding_bottom": 80
+      }
+    },
+    "feature_cards": {
+      "type": "feature-cards",
+      "blocks": {
+        "card_1": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/galbea-card-1.png",
+            "title": "Bandes croisées en X",
+            "text": "La compression suit le trajet du bengkung : croisée, continue, sans point d’écrasement.",
+            "card_bg_color": ""
+          }
+        },
+        "card_bYRYEb": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/galbea-card-2.png",
+            "title": "Maille technique douce",
+            "text": "Une maille technique douce qui tient toute la journée sans rouler ni glisser.",
+            "card_bg_color": ""
+          }
+        },
+        "card_GPx6MR": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/galbea-card-3.png",
+            "title": "Taille haute couvrante",
+            "text": "Elle couvre tout le ventre, du pubis jusqu’au-dessus du nombril.",
+            "card_bg_color": ""
+          }
+        },
+        "card_xANGWn": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/galbea-card-4.png",
+            "title": "Invisible sous les tenues",
+            "text": "Coutures plates et découpe lisse : personne ne devine que vous la portez.",
+            "card_bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_1",
+        "card_bYRYEb",
+        "card_GPx6MR",
+        "card_xANGWn"
+      ],
+      "settings": {
+        "heading": "Pensée pour le corps post-partum",
+        "highlight_color": "#B76E79",
+        "card_title_size": 22,
+        "card_title_highlight": "#B76E79",
+        "section_bg_color": "",
+        "text_alignment": "center",
+        "card_border_radius": 12,
+        "image_border_radius": 0.8,
+        "mobile_layout": "slider",
+        "pagination_type": "both",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "testimonial_slider": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "ticker_1": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/galbea-ticker-1.png"
+          }
+        },
+        "ticker_image_pGm3ig": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/galbea-ticker-2.png"
+          }
+        },
+        "ticker_image_DeKwWj": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/galbea-ticker-3.png"
+          }
+        },
+        "ticker_image_ziYp3P": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/galbea-ticker-4.png"
+          }
+        },
+        "ticker_image_p4UjJw": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/galbea-ticker-5.png"
+          }
+        },
+        "ticker_image_AGTRdD": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/galbea-ticker-6.png"
+          }
+        },
+        "ticker_image_eQnJRE": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/galbea-ticker-7.png"
+          }
+        },
+        "ticker_image_wgRraX": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/galbea-ticker-8.png"
+          }
+        },
+        "ticker_image_E7knVa": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/galbea-ticker-9.png"
+          }
+        },
+        "ticker_image_3CWTUR": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/galbea-ticker-10.png"
+          }
+        },
+        "review_1": {
+          "type": "review",
+          "settings": {
+            "rating": "5",
+            "quote": "« 2 semaines et mon ventre a déjà changé »",
+            "details": "J’ai accouché il y a 4 mois et ce ventre mou ne partait pas. Je l’enfile comme une culotte normale et je l’oublie. Mon mari a remarqué la différence avant moi.",
+            "author_name": "NICOLE M.",
+            "author_image": "shopify://shop_images/galbea-avatar-1.png",
+            "tag_1": "Post-partum 4 mois",
+            "tag_2": "Vérifié",
+            "card_bg_color": ""
+          }
+        },
+        "review_2": {
+          "type": "review",
+          "settings": {
+            "rating": "5",
+            "quote": "« Invisible sous ma robe moulante »",
+            "details": "J’avais peur que ça se voie ou que ça roule. Rien. Je la porte tous les jours au bureau, assise, et je ne la sens pas.",
+            "author_name": "JULIE & THOMAS",
+            "author_image": "shopify://shop_images/galbea-avatar-2.png",
+            "tag_1": "Bureau toute la journée",
+            "tag_2": "Vérifié",
+            "card_bg_color": ""
+          }
+        },
+        "review_3": {
+          "type": "review",
+          "settings": {
+            "rating": "5",
+            "quote": "« Exactement ce qu’il me fallait après ma césarienne »",
+            "details": "Ça ne touche pas la cicatrice et ça tient tout le ventre, les côtés, le dos. Un vrai soulagement dès les premiers jours.",
+            "author_name": "CLAUDETTE R.",
+            "author_image": "shopify://shop_images/galbea-avatar-3.png",
+            "tag_1": "Césarienne",
+            "tag_2": "Vérifié",
+            "card_bg_color": ""
+          }
+        },
+        "review_4": {
+          "type": "review",
+          "settings": {
+            "rating": "5",
+            "quote": "« 3 ans après, ça marche quand même »",
+            "details": "Je pensais que c’était trop tard. En 3 semaines, la différence est visible. Il n’est jamais trop tard.",
+            "author_name": "DAVID L.",
+            "author_image": "shopify://shop_images/galbea-avatar-4.png",
+            "tag_1": "3 ans après",
+            "tag_2": "Vérifié",
+            "card_bg_color": ""
+          }
+        },
+        "review_5": {
+          "type": "review",
+          "settings": {
+            "rating": "5",
+            "quote": "« La seule que je supporte toute la journée »",
+            "details": "J’ai essayé 3 gaines avant. Toutes remontaient ou serraient trop. Celle-ci, je l’oublie et elle travaille.",
+            "author_name": "SYLVIE B.",
+            "author_image": "shopify://shop_images/galbea-avatar-5.png",
+            "tag_1": "Ex-gaines classiques",
+            "tag_2": "Vérifié",
+            "card_bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "ticker_1",
+        "ticker_image_pGm3ig",
+        "ticker_image_DeKwWj",
+        "ticker_image_ziYp3P",
+        "ticker_image_p4UjJw",
+        "ticker_image_AGTRdD",
+        "ticker_image_eQnJRE",
+        "ticker_image_wgRraX",
+        "ticker_image_E7knVa",
+        "ticker_image_3CWTUR",
+        "review_1",
+        "review_2",
+        "review_3",
+        "review_4",
+        "review_5"
+      ],
+      "custom_css": [
+        ".ts-review__quote {font-weight: bold;}"
+      ],
+      "settings": {
+        "heading": "Elles l’ont adoptée",
+        "subheading": "Avis vérifiés de clientes Galbéa",
+        "highlight_color": "#B76E79",
+        "star_color": "#B76E79",
+        "verified_color": "#B76E79",
+        "tag_color": "#B76E79",
+        "tag_bg_color": "#FAF3EF",
+        "ticker_speed": 30,
+        "section_bg_color": "#FAF3EF",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "benefits_showcase": {
+      "type": "benefits-showcase",
+      "blocks": {
+        "benefit_1": {
+          "type": "benefit",
+          "settings": {
+            "icon_name": "settings_accessibility",
+            "title": "Maintien circulaire 360°"
+          }
+        },
+        "benefit_2": {
+          "type": "benefit",
+          "settings": {
+            "icon_name": "visibility_off",
+            "title": "Invisible sous vos vêtements"
+          }
+        },
+        "benefit_3": {
+          "type": "benefit",
+          "settings": {
+            "icon_name": "heart_plus",
+            "title": "Allaitement et césarienne"
+          }
+        },
+        "benefit_4": {
+          "type": "benefit",
+          "settings": {
+            "icon_name": "more_time",
+            "title": "Résultats en 2 à 3 semaines"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_1",
+        "benefit_2",
+        "benefit_3",
+        "benefit_4"
+      ],
+      "settings": {
+        "heading": "Ce que la Galbéa change",
+        "subheading": "Ce qui change quand vous rangez enfin votre pain comme il le mérite.",
+        "product_image": "shopify://shop_images/galbea-hero.png",
+        "bg_color": "#2E4B45",
+        "bg_color_bottom": "#B76E79",
+        "text_color": "#ffffff",
+        "highlight_color": "#E8B4BC",
+        "subheading_color": "",
+        "heading_size": 3,
+        "subheading_size": 1.5,
+        "benefit_size": 1.8,
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
+    "proven_benefits": {
+      "type": "proven-benefits",
+      "blocks": {
+        "pb_1": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/galbea-step-1.png",
+            "title": "Jours 1 à 7",
+            "description": "Le ventre est soutenu, la posture se redresse, vous vous sentez « tenue ».",
+            "answer": "Enfilez-la comme une culotte : la compression croisée soutient immédiatement la paroi, tout le tour."
+          }
+        },
+        "pb_2": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/galbea-step-2.png",
+            "title": "Semaine 2",
+            "description": "Le ventre commence à remonter : vos vêtements tombent déjà mieux.",
+            "answer": "Le maintien continu aide le ventre à remonter : vos vêtements tombent déjà mieux."
+          }
+        },
+        "pb_3": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/galbea-step-3.png",
+            "title": "Semaine 3",
+            "description": "93% des clientes constatent un ventre plus lisse et plus plat.",
+            "answer": "93% des clientes constatent un ventre plus lisse dès la 3e semaine de port quotidien."
+          }
+        },
+        "pb_4": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/galbea-step-4.png",
+            "title": "Semaines 4 et +",
+            "description": "La paroi se referme progressivement : les résultats s’installent.",
+            "answer": "La paroi se referme progressivement et le résultat s’installe, semaine après semaine."
+          }
+        }
+      },
+      "block_order": [
+        "pb_1",
+        "pb_2",
+        "pb_3",
+        "pb_4"
+      ],
+      "settings": {
+        "heading": "Semaine après semaine",
+        "subheading": "Pas de plastique, pas de congélateur. Juste le bon équilibre entre respiration et humidité.",
+        "highlight_color": "#B76E79",
+        "bg_color": "#FAF3EF",
+        "cta_text": "Adoptez le geste",
+        "cta_link": "",
+        "cta_note": "Satisfait ou remboursé 30 jours",
+        "cta_note_icon_name": "verified_user",
+        "cta_height": 40,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "ticker_bar_E76PpF": {
+      "type": "ticker-bar",
+      "blocks": {
+        "ticker_item_HqnLzq": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Ventre soutenu",
+            "icon_name": "favorite"
+          }
+        },
+        "ticker_item_k8LYdF": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Invisible",
+            "icon_name": "visibility_off"
+          }
+        },
+        "ticker_item_TGPdcq": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Compression 360°",
+            "icon_name": "change_circle"
+          }
+        },
+        "ticker_item_R9aqEp": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Spécial césarienne",
+            "icon_name": "heart_plus"
+          }
+        },
+        "ticker_item_EdVTLR": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Résultats 2-3 semaines",
+            "icon_name": "schedule"
+          }
+        },
+        "ticker_item_WW7aKr": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Satisfaite ou remboursée",
+            "icon_name": "verified"
+          }
+        }
+      },
+      "block_order": [
+        "ticker_item_HqnLzq",
+        "ticker_item_k8LYdF",
+        "ticker_item_TGPdcq",
+        "ticker_item_R9aqEp",
+        "ticker_item_EdVTLR",
+        "ticker_item_WW7aKr"
+      ],
+      "name": "Ticker bar",
+      "settings": {
+        "background_color": "#B76E79",
+        "text_color": "#ffffff",
+        "border_position": "none",
+        "border_thickness": 1,
+        "border_color": "#ffffff",
+        "font_size": 14,
+        "font_weight": "500",
+        "spacing": 60,
+        "icon_size": 20,
+        "speed": 20,
+        "padding_top": 8,
+        "padding_bottom": 8,
+        "aria_label": "Scrolling announcements"
+      }
+    },
+    "wellness_journey": {
+      "type": "wellness-journey",
+      "blocks": {
+        "wj_1": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Jour 1 : vous rangez votre pain",
+            "bullets": "<ul><li>Enfilez-la en 10 secondes</li><li>Sentez le maintien immédiat</li><li>Habillez-vous comme vous voulez</li></ul>"
+          }
+        },
+        "wj_2": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Jours 2 à 3 : toujours croustillant",
+            "bullets": "<ul><li>Elle ne remonte pas, ne glisse pas</li><li>Invisible au bureau comme en balade</li><li>Compatible allaitement</li></ul>"
+          }
+        },
+        "wj_3": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Jour 5 : encore bon",
+            "bullets": "<ul><li>Le ventre remonte et se lisse</li><li>Les vêtements d’avant ressortent</li><li>La confiance revient</li></ul>"
+          }
+        },
+        "wj_4": {
+          "type": "milestone",
+          "settings": {
+            "week_label": "Jour 7 : zéro gaspillage",
+            "bullets": "<ul><li>Une paroi accompagnée, pas écrasée</li><li>Une silhouette retrouvée</li><li>Le geste que les mamans se transmettent</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "wj_1",
+        "wj_2",
+        "wj_3",
+        "wj_4"
+      ],
+      "custom_css": [
+        ".wj-cta-button {color: black;}"
+      ],
+      "settings": {
+        "brand_image": "shopify://shop_images/galbea-journey.png",
+        "heading": "Votre retour à vous",
+        "description": "Un geste simple, et votre pain reste bon toute la semaine :",
+        "highlight_color": "#B76E79",
+        "button_color": "#ffd600",
+        "bg_color": "",
+        "cta_text": "Adoptez le geste →",
+        "cta_link": "",
+        "cta_note": "Satisfait ou remboursé 30 jours",
+        "cta_note_icon_name": "verified_user",
+        "cta_height": 40,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "reasons_why_VdQFQx": {
+      "type": "reasons-why",
+      "blocks": {
+        "reason_card_XmWM9Y": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/galbea-reason-1.png",
+            "label": "Reason 1",
+            "heading": "Le principe du bengkung, en culotte",
+            "details": "<p>La technique malaisienne vieille de 500 ans, sans les 20 minutes d’enroulage.</p>"
+          }
+        },
+        "reason_card_493cPn": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/galbea-reason-2.png",
+            "label": "Reason 2",
+            "heading": "360°, pas juste le devant",
+            "details": "<p>Les gaines classiques écrasent l’avant. La Galbéa enveloppe tout le tour.</p>"
+          }
+        },
+        "reason_card_HHJT9J": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/galbea-reason-3.png",
+            "label": "Reason 3",
+            "heading": "Pensée césarienne",
+            "details": "<p>Aucune pression sur la cicatrice : le maintien vient des côtés et du dos.</p>"
+          }
+        },
+        "reason_card_VCdJrA": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/galbea-reason-4.png",
+            "label": "Reason 4",
+            "heading": "Elle tient VRAIMENT toute la journée",
+            "details": "<p>Pas de roulage, pas de glissement : vous l’oubliez.</p>"
+          }
+        },
+        "reason_card_Np8tDa": {
+          "type": "reason_card",
+          "settings": {
+            "image": "shopify://shop_images/galbea-reason-5.png",
+            "label": "Reason 5",
+            "heading": "Zéro risque",
+            "details": "<p>30 jours pour juger sur votre corps. Satisfaite ou remboursée.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "reason_card_XmWM9Y",
+        "reason_card_493cPn",
+        "reason_card_HHJT9J",
+        "reason_card_VCdJrA",
+        "reason_card_Np8tDa"
+      ],
+      "name": "Reasons why",
+      "settings": {
+        "badge_text": "5 Raisons",
+        "subheading": "La Galbéa n’est pas une gaine de plus",
+        "bg_color": "#FAF3EF",
+        "text_color": "#1a1a1a",
+        "badge_bg_color": "#B76E79",
+        "badge_text_color": "#ffffff",
+        "label_bg_color": "#B76E79",
+        "label_text_color": "#ffffff",
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#0000004d",
+        "card_text_color": "#000000",
+        "badge_font_size": 28,
+        "subheading_font_size": 31,
+        "label_font_size": 17,
+        "card_heading_font_size": 21,
+        "details_font_size": 16,
+        "card_height": 408,
+        "card_radius": 12,
+        "card_gap": 13,
+        "max_width": 1500,
+        "cta_text": "Adoptez le geste",
+        "cta_url": "",
+        "cta_bg_color": "#ffd600",
+        "cta_text_color": "#000000",
+        "cta_font_size": 19,
+        "cta_margin_top": 40,
+        "guarantee_text": "Satisfait ou remboursé 30 jours",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "brand_comparison": {
+      "type": "brand-comparison",
+      "blocks": {
+        "bc_1": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Compression croisée 360°",
+            "competitor_text": "Écrase uniquement le devant"
+          }
+        },
+        "bc_2": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Tient toute la journée sans bouger",
+            "competitor_text": "Remonte et glisse en une heure"
+          }
+        },
+        "bc_3": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Invisible sous les vêtements",
+            "competitor_text": "Se voit et marque les tenues"
+          }
+        },
+        "bc_4": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Compatible césarienne et allaitement",
+            "competitor_text": "Rigide, appuie sur la cicatrice"
+          }
+        },
+        "bc_5": {
+          "type": "feature",
+          "settings": {
+            "brand_text": "Différence visible en 2-3 semaines",
+            "competitor_text": "Tout retombe dès qu’on l’enlève"
+          }
+        }
+      },
+      "block_order": [
+        "bc_1",
+        "bc_2",
+        "bc_3",
+        "bc_4",
+        "bc_5"
+      ],
+      "settings": {
+        "heading": "Galbéa vs les gaines classiques",
+        "heading_size": 36,
+        "bg_gradient_start": "#2E4B45",
+        "bg_gradient_end": "#B76E79",
+        "text_color": "#ffffff",
+        "highlight_color": "#E8B4BC",
+        "brand_name": "Galbéa™",
+        "brand_name_color": "#ffffff",
+        "brand_col_color": "#B76E79",
+        "brand_icon_color": "#ffffff",
+        "competitor_label": "Gaines classiques",
+        "comp_col_color": "#ffffff",
+        "comp_text_color": "#1a1a1a",
+        "comp_icon_color": "#999999",
+        "icons_filled": true,
+        "checklist_1": "Compression croisée type bengkung",
+        "checklist_2": "Douce et confortable toute la journée",
+        "checklist_3": "Invisible sous une robe moulante",
+        "checklist_4": "Satisfaite ou remboursée 30 jours",
+        "cta_text": "Adoptez le geste",
+        "cta_link": "",
+        "cta_height": 46,
+        "cta_bg_color": "#ffd600",
+        "cta_text_color": "#000000",
+        "cta_font_weight": "700",
+        "note_text": "Satisfait ou remboursé 30 jours",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "risk_free_trial": {
+      "type": "risk-free-trial",
+      "settings": {
+        "badge_color": "#B76E79",
+        "badge_number": "30",
+        "badge_label": "JOURS",
+        "subtitle": "LA PROMESSE GALBÉA",
+        "heading": "Essayez-la sur VOTRE corps",
+        "heading_size": 23,
+        "description": "Portez la Galbéa pendant 30 jours. Si vous ne voyez pas de différence sur votre ventre, on vous rembourse ou on vous échange, sans discuter. Livraison suivie offerte dès 35 € et service client français.",
+        "image": "shopify://shop_images/galbea-guarantee.png",
+        "bg_color": "#FAF3EF",
+        "accent_color": "#B76E79",
+        "text_color": "",
+        "cta_text": "Commander ma Galbéa",
+        "cta_link": "",
+        "cta_height": 50,
+        "cta_bg_color": "",
+        "cta_text_color": "",
+        "padding_top": 28
+      }
+    },
+    "1773377171b98d1ae1": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "collapsible_content_TCEeNz": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_kP7dka": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment ça marche, concrètement ?",
+            "icon": "none",
+            "row_content": "<p>La compression croisée reproduit le principe du <strong>bengkung malaisien</strong> : une pression circulaire douce et continue qui aide la paroi abdominale à se refermer et les organes à reprendre leur place. Vous l’enfilez, elle travaille.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jgAFHc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Combien de temps la porter ?",
+            "icon": "none",
+            "row_content": "<p>Au quotidien, plusieurs semaines. La plupart des clientes voient une différence <strong>dès la 2e ou 3e semaine</strong> et continuent 2 à 3 mois pour installer le résultat.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qUEDkw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Est-elle compatible avec une césarienne ?",
+            "icon": "none",
+            "row_content": "<p>Oui : la compression est douce et circulaire, elle <strong>ne s’appuie pas sur la cicatrice</strong>. Attendez l’accord de votre sage-femme (environ 6 semaines).</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FCYENr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "J’ai accouché il y a des années, est-ce trop tard ?",
+            "icon": "none",
+            "row_content": "<p>Non. La paroi peut être accompagnée <strong>à tout moment</strong>, même des années après. Nos clientes de 40 ans et plus le confirment.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_JXE9KX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ça se voit sous les vêtements ?",
+            "icon": "none",
+            "row_content": "<p>Non : coutures plates, maille lisse, taille haute discrète. Elle disparaît même sous une robe moulante.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xwHJdL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Et si elle ne me va pas ?",
+            "icon": "none",
+            "row_content": "<p><strong>Satisfaite ou remboursée 30 jours</strong>, échange de taille offert. Livraison offerte dès 35 €.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_kP7dka",
+        "collapsible_row_jgAFHc",
+        "collapsible_row_qUEDkw",
+        "collapsible_row_FCYENr",
+        "collapsible_row_JXE9KX",
+        "collapsible_row_xwHJdL"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Vos questions, nos réponses",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1773377263ad90805a": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "clinical_proven_XJiV6J",
+    "feature_cards",
+    "testimonial_slider",
+    "benefits_showcase",
+    "proven_benefits",
+    "ticker_bar_E76PpF",
+    "wellness_journey",
+    "reasons_why_VdQFQx",
+    "brand_comparison",
+    "risk_free_trial",
+    "1773377171b98d1ae1",
+    "collapsible_content_TCEeNz",
+    "1773377263ad90805a",
+    "related-products"
+  ]
+}
