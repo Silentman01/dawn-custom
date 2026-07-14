@@ -480,8 +480,8 @@
         "g4"
       ],
       "settings": {
-        "heading": "Pourquoi c’est différent",
-        "subheading": "Les autres compriment l’avant. Galbéa enveloppe tout le tour.",
+        "heading": "Les autres compriment l’avant. <em>Galbéa</em> enveloppe tout le tour.",
+        "subheading": "",
         "bad_title": "Ceinture classique",
         "good_title": "Galbéa",
         "footnote": "Inspirée du bengkung malaisien, une technique de compression croisée utilisée depuis 500 ans pour resserrer la sangle abdominale après l’accouchement.",
@@ -491,7 +491,9 @@
         "good_color": "#2E7D4F",
         "color_scheme": "scheme-1",
         "padding_top": 52,
-        "padding_bottom": 52
+        "padding_bottom": 52,
+        "kicker": "Pourquoi c’est différent",
+        "image": "shopify://shop_images/galbea-compare-photo.png"
       }
     },
     "ticker": {
