@@ -36,6 +36,7 @@
   #AbPress-{{ section.id }} .ab-press__logo--serif { font-family: Georgia, 'Times New Roman', serif; font-weight: 700; }
   #AbPress-{{ section.id }} .ab-press__logo--sans { font-family: Arial, Helvetica, sans-serif; font-weight: 800; letter-spacing: 0.02em; }
   #AbPress-{{ section.id }} .ab-press__logo--script { font-family: Georgia, serif; font-style: italic; font-weight: 400; }
+  #AbPress-{{ section.id }} .ab-press__logo--img img { height: 3.2rem; width: auto; display: block; filter: grayscale(1); opacity: 0.85; }
   @media screen and (max-width: 749px) {
     #AbPress-{{ section.id }} .ab-press__row { gap: 1rem 2.2rem; }
     #AbPress-{{ section.id }} .ab-press__logo { font-size: 1.7rem; }
@@ -48,7 +49,11 @@
   {%- endif -%}
   <div class="ab-press__row">
     {%- for block in section.blocks -%}
-      <span class="ab-press__logo ab-press__logo--{{ block.settings.style }}" {{ block.shopify_attributes }}>{{ block.settings.name }}</span>
+      {%- if block.settings.image != blank -%}
+        <span class="ab-press__logo ab-press__logo--img" {{ block.shopify_attributes }}>{{ block.settings.image | image_url: width: 320 | image_tag: loading: 'lazy', widths: '160, 240, 320' }}</span>
+      {%- else -%}
+        <span class="ab-press__logo ab-press__logo--{{ block.settings.style }}" {{ block.shopify_attributes }}>{{ block.settings.name }}</span>
+      {%- endif -%}
     {%- endfor -%}
   </div>
 </div>
@@ -68,6 +73,7 @@
       "type": "logo",
       "name": "Press name",
       "settings": [
+        { "type": "image_picker", "id": "image", "label": "Logo image (optional, overrides text)" },
         { "type": "text", "id": "name", "label": "Publication name", "default": "Magazine" },
         {
           "type": "select",

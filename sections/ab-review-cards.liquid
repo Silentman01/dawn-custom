@@ -30,6 +30,7 @@
   #AbRev-{{ section.id }} .ab-rev__photo img { width: 100%; height: auto; aspect-ratio: 4/3; object-fit: cover; display: block; }
   #AbRev-{{ section.id }} .ab-rev__content { padding: 2rem 2rem 2.4rem; display: flex; flex-direction: column; gap: 1.2rem; flex: 1; }
   #AbRev-{{ section.id }} .ab-rev__stars { color: {{ section.settings.accent_color }}; font-size: 1.5rem; letter-spacing: 0.15em; }
+  #AbRev-{{ section.id }} .ab-rev__title { margin: 0; font-size: 1.55rem; font-weight: 700; }
   #AbRev-{{ section.id }} .ab-rev__quote { margin: 0; font-size: 1.45rem; line-height: 1.6; flex: 1; }
   #AbRev-{{ section.id }} .ab-rev__author { font-weight: 700; font-size: 1.4rem; }
   #AbRev-{{ section.id }} .ab-rev__verified {
@@ -80,6 +81,7 @@
           {%- endif -%}
           <div class="ab-rev__content">
             <div class="ab-rev__stars" aria-hidden="true">★★★★★</div>
+            {%- if block.settings.title != blank -%}<p class="ab-rev__title">{{ block.settings.title }}</p>{%- endif -%}
             <blockquote class="ab-rev__quote">{{ block.settings.quote }}</blockquote>
             <div class="ab-rev__author">{{ block.settings.author }}</div>
             {%- if block.settings.verified_text != blank -%}
@@ -110,6 +112,7 @@
       "name": "Review",
       "settings": [
         { "type": "image_picker", "id": "image", "label": "Photo" },
+        { "type": "text", "id": "title", "label": "Bold quote title (optional)" },
         { "type": "richtext", "id": "quote", "label": "Quote" },
         { "type": "text", "id": "author", "label": "Author line", "default": "Prénom, 54 ans — Ville" },
         { "type": "text", "id": "verified_text", "label": "Verified pill text", "default": "Avis vérifié" }

@@ -1,0 +1,84 @@
+{%- comment -%}
+  A/B clone section: two-card ✕/✓ comparison (1:1 of competitor "Pourquoi c'est différent"
+  blocks: bad option card with red crosses vs our option card with green checks, plus an
+  explanatory footnote). Fully customizable: titles, lines (blocks), colors, footnote.
+{%- endcomment -%}
+
+{%- style -%}
+  #AbCmp-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+  #AbCmp-{{ section.id }} .ab-cmp__inner { max-width: 96rem; margin: 0 auto; padding: 0 2rem; }
+  #AbCmp-{{ section.id }} .ab-cmp__head { text-align: center; margin-bottom: 2.8rem; }
+  #AbCmp-{{ section.id }} .ab-cmp__heading { margin: 0; font-size: clamp(2.4rem, 5vw, 3.8rem); line-height: 1.15; }
+  #AbCmp-{{ section.id }} .ab-cmp__sub { margin: 1.2rem auto 0; font-size: 1.5rem; opacity: 0.8; max-width: 64rem; }
+  #AbCmp-{{ section.id }} .ab-cmp__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+  #AbCmp-{{ section.id }} .ab-cmp__card { border-radius: 1.4rem; padding: 2.4rem; }
+  #AbCmp-{{ section.id }} .ab-cmp__card--bad { background: {{ section.settings.bad_bg }}; }
+  #AbCmp-{{ section.id }} .ab-cmp__card--good { background: {{ section.settings.good_bg }}; }
+  #AbCmp-{{ section.id }} .ab-cmp__title { font-size: 1.8rem; font-weight: 700; margin: 0 0 1.6rem; display: flex; align-items: center; gap: 0.7rem; }
+  #AbCmp-{{ section.id }} .ab-cmp__line { display: flex; gap: 0.8rem; align-items: flex-start; font-size: 1.45rem; line-height: 1.5; margin: 0 0 1.1rem; }
+  #AbCmp-{{ section.id }} .ab-cmp__mark { flex-shrink: 0; font-weight: 700; }
+  #AbCmp-{{ section.id }} .ab-cmp__mark--bad { color: {{ section.settings.bad_color }}; }
+  #AbCmp-{{ section.id }} .ab-cmp__mark--good { color: {{ section.settings.good_color }}; }
+  #AbCmp-{{ section.id }} .ab-cmp__foot { text-align: center; margin: 2.6rem auto 0; max-width: 70rem; font-size: 1.4rem; opacity: 0.85; font-style: italic; }
+  @media screen and (max-width: 749px) {
+    #AbCmp-{{ section.id }} .ab-cmp__grid { grid-template-columns: 1fr; }
+  }
+{%- endstyle -%}
+
+<div id="AbCmp-{{ section.id }}" class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="ab-cmp__inner">
+    <div class="ab-cmp__head">
+      {%- if section.settings.heading != blank -%}<h2 class="ab-cmp__heading">{{ section.settings.heading }}</h2>{%- endif -%}
+      {%- if section.settings.subheading != blank -%}<p class="ab-cmp__sub">{{ section.settings.subheading }}</p>{%- endif -%}
+    </div>
+    <div class="ab-cmp__grid">
+      <div class="ab-cmp__card ab-cmp__card--bad">
+        <p class="ab-cmp__title"><span aria-hidden="true">❌</span> {{ section.settings.bad_title }}</p>
+        {%- for block in section.blocks -%}
+          {%- if block.type == 'bad_line' -%}
+            <p class="ab-cmp__line" {{ block.shopify_attributes }}><span class="ab-cmp__mark ab-cmp__mark--bad">✕</span><span>{{ block.settings.text }}</span></p>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+      <div class="ab-cmp__card ab-cmp__card--good">
+        <p class="ab-cmp__title"><span aria-hidden="true">✔</span> {{ section.settings.good_title }}</p>
+        {%- for block in section.blocks -%}
+          {%- if block.type == 'good_line' -%}
+            <p class="ab-cmp__line" {{ block.shopify_attributes }}><span class="ab-cmp__mark ab-cmp__mark--good">✔</span><span>{{ block.settings.text }}</span></p>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+    </div>
+    {%- if section.settings.footnote != blank -%}<p class="ab-cmp__foot">{{ section.settings.footnote }}</p>{%- endif -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "AB Two-col compare",
+  "tag": "section",
+  "settings": [
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Pourquoi c'est différent" },
+    { "type": "text", "id": "subheading", "label": "Subheading" },
+    { "type": "text", "id": "bad_title", "label": "Left (bad) title", "default": "Ceinture classique" },
+    { "type": "text", "id": "good_title", "label": "Right (good) title", "default": "La nôtre" },
+    { "type": "text", "id": "footnote", "label": "Footnote" },
+    { "type": "color", "id": "bad_bg", "label": "Bad card background", "default": "#F4F1EE" },
+    { "type": "color", "id": "good_bg", "label": "Good card background", "default": "#EAF3EC" },
+    { "type": "color", "id": "bad_color", "label": "Cross color", "default": "#C0392B" },
+    { "type": "color", "id": "good_color", "label": "Check color", "default": "#2E7D4F" },
+    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-1" },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding top", "default": 52 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding bottom", "default": 52 }
+  ],
+  "blocks": [
+    { "type": "bad_line", "name": "Bad line", "settings": [ { "type": "text", "id": "text", "label": "Text" } ] },
+    { "type": "good_line", "name": "Good line", "settings": [ { "type": "text", "id": "text", "label": "Text" } ] }
+  ],
+  "max_blocks": 12,
+  "presets": [{ "name": "AB Two-col compare", "blocks": [ { "type": "bad_line" }, { "type": "bad_line" }, { "type": "good_line" }, { "type": "good_line" } ] }]
+}
+{% endschema %}
