@@ -1,11 +1,6 @@
 /*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
+ * Galbéa™ — OUR framework page (rule 56b). A/B pair of product.galbea.json (1:1).
+ * Suffix: galbea-fw
  */
 {
   "sections": {
@@ -31,7 +26,8 @@
           "settings": {
             "subtitle": "Compression croisée 360°. Le principe du bengkung.",
             "title": "Le Bon Pain Mérite Mieux Qu’un Sac Plastique.",
-            "title_size": 26
+            "title_size": 26,
+            "text": "Votre ventre a porté la vie pendant 9 mois. Il mérite d’être accompagné, pas comprimé."
           }
         },
         "title": {
@@ -151,7 +147,8 @@
             "badge_color": "#51af6f",
             "image_1": "shopify://shop_images/galbea-social-1.png",
             "image_2": "shopify://shop_images/galbea-social-2.png",
-            "image_3": "shopify://shop_images/galbea-social-3.png"
+            "image_3": "shopify://shop_images/galbea-social-3.png",
+            "text": "<p><strong>+ de 6 000 mamans françaises</strong> ont déjà adopté la Galbéa</p>"
           }
         },
         "urgency_notice": {
@@ -356,7 +353,7 @@
           "settings": {
             "image": "shopify://shop_images/galbea-card-1.png",
             "title": "Bandes croisées en X",
-            "text": "La compression suit le trajet du bengkung : croisée, continue, sans point d’écrasement.",
+            "text": "<p>La compression suit le trajet du bengkung : croisée, continue, sans point d’écrasement.</p>",
             "card_bg_color": ""
           }
         },
@@ -365,7 +362,7 @@
           "settings": {
             "image": "shopify://shop_images/galbea-card-2.png",
             "title": "Maille technique douce",
-            "text": "Une maille technique douce qui tient toute la journée sans rouler ni glisser.",
+            "text": "<p>Une maille technique douce qui tient toute la journée sans rouler ni glisser.</p>",
             "card_bg_color": ""
           }
         },
@@ -374,7 +371,7 @@
           "settings": {
             "image": "shopify://shop_images/galbea-card-3.png",
             "title": "Taille haute couvrante",
-            "text": "Elle couvre tout le ventre, du pubis jusqu’au-dessus du nombril.",
+            "text": "<p>Elle couvre tout le ventre, du pubis jusqu’au-dessus du nombril.</p>",
             "card_bg_color": ""
           }
         },
@@ -383,7 +380,7 @@
           "settings": {
             "image": "shopify://shop_images/galbea-card-4.png",
             "title": "Invisible sous les tenues",
-            "text": "Coutures plates et découpe lisse : personne ne devine que vous la portez.",
+            "text": "<p>Coutures plates et découpe lisse : personne ne devine que vous la portez.</p>",
             "card_bg_color": ""
           }
         }
@@ -477,7 +474,7 @@
           "settings": {
             "rating": "5",
             "quote": "« 2 semaines et mon ventre a déjà changé »",
-            "details": "J’ai accouché il y a 4 mois et ce ventre mou ne partait pas. Je l’enfile comme une culotte normale et je l’oublie. Mon mari a remarqué la différence avant moi.",
+            "details": "<p>J’ai accouché il y a 4 mois et ce ventre mou ne partait pas. Je l’enfile comme une culotte normale et je l’oublie. Mon mari a remarqué la différence avant moi.</p>",
             "author_name": "NICOLE M.",
             "author_image": "shopify://shop_images/galbea-avatar-1.png",
             "tag_1": "Post-partum 4 mois",
@@ -490,7 +487,7 @@
           "settings": {
             "rating": "5",
             "quote": "« Invisible sous ma robe moulante »",
-            "details": "J’avais peur que ça se voie ou que ça roule. Rien. Je la porte tous les jours au bureau, assise, et je ne la sens pas.",
+            "details": "<p>J’avais peur que ça se voie ou que ça roule. Rien. Je la porte tous les jours au bureau, assise, et je ne la sens pas.</p>",
             "author_name": "JULIE & THOMAS",
             "author_image": "shopify://shop_images/galbea-avatar-2.png",
             "tag_1": "Bureau toute la journée",
@@ -503,7 +500,7 @@
           "settings": {
             "rating": "5",
             "quote": "« Exactement ce qu’il me fallait après ma césarienne »",
-            "details": "Ça ne touche pas la cicatrice et ça tient tout le ventre, les côtés, le dos. Un vrai soulagement dès les premiers jours.",
+            "details": "<p>Ça ne touche pas la cicatrice et ça tient tout le ventre, les côtés, le dos. Un vrai soulagement dès les premiers jours.</p>",
             "author_name": "CLAUDETTE R.",
             "author_image": "shopify://shop_images/galbea-avatar-3.png",
             "tag_1": "Césarienne",
@@ -516,7 +513,7 @@
           "settings": {
             "rating": "5",
             "quote": "« 3 ans après, ça marche quand même »",
-            "details": "Je pensais que c’était trop tard. En 3 semaines, la différence est visible. Il n’est jamais trop tard.",
+            "details": "<p>Je pensais que c’était trop tard. En 3 semaines, la différence est visible. Il n’est jamais trop tard.</p>",
             "author_name": "DAVID L.",
             "author_image": "shopify://shop_images/galbea-avatar-4.png",
             "tag_1": "3 ans après",
@@ -529,7 +526,7 @@
           "settings": {
             "rating": "5",
             "quote": "« La seule que je supporte toute la journée »",
-            "details": "J’ai essayé 3 gaines avant. Toutes remontaient ou serraient trop. Celle-ci, je l’oublie et elle travaille.",
+            "details": "<p>J’ai essayé 3 gaines avant. Toutes remontaient ou serraient trop. Celle-ci, je l’oublie et elle travaille.</p>",
             "author_name": "SYLVIE B.",
             "author_image": "shopify://shop_images/galbea-avatar-5.png",
             "tag_1": "Ex-gaines classiques",

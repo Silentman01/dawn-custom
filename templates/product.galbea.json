@@ -1,11 +1,6 @@
 /*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
+ * Galbéa™ — culotte gainante post-partum. 1:1 clone of belayan.com (rule 55).
+ * Suffix: galbea
  */
 {
   "sections": {
@@ -440,7 +435,10 @@
         "cta_font_weight": "700",
         "note_text": "Satisfait ou remboursé 30 jours",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "subheading": "Les autres compriment l’avant. Galbéa enveloppe tout le tour, comme le bengkung malaisien depuis 500 ans.",
+        "our_label": "Galbéa",
+        "their_label": "Ceinture classique"
       }
     },
     "ticker": {
