@@ -54,59 +54,34 @@
             "text_style": "subtitle"
           }
         },
-        "price": {
-          "type": "price",
+        "iconlist": {
+          "type": "custom_liquid",
           "settings": {
-            "hide_price": false,
-            "price_color": "#B76E79",
-            "compare_price_color": "",
-            "sale_badge_text": "Offre de lancement",
-            "sale_badge_weight": "600",
-            "price_font_size": 2,
-            "price_font_weight": "700",
-            "compare_font_size": 1.8
+            "custom_liquid": "<div class=\"gb-benefits\" style=\"margin:6px 0 4px\">\n<div style=\"display:flex;align-items:center;gap:10px;margin:0 0 9px\"><svg viewBox='0 0 24 24' fill='none' stroke='#2E4B45' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' style='width:18px;height:18px;flex:none'><path d='M4 12c2-3 5-4 8-4s6 1 8 4'/><path d='M4 16c2-2 5-3 8-3s6 1 8 3'/></svg><span style=\"font-size:14.5px;line-height:1.4\"><strong>Ventre plus lisse</strong> et maintenu</span></div>\n<div style=\"display:flex;align-items:center;gap:10px;margin:0 0 9px\"><svg viewBox='0 0 24 24' fill='none' stroke='#2E4B45' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' style='width:18px;height:18px;flex:none'><path d='M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12z'/><line x1='4' y1='4' x2='20' y2='20'/></svg><span style=\"font-size:14.5px;line-height:1.4\"><strong>Invisible</strong> sous vos vêtements</span></div>\n<div style=\"display:flex;align-items:center;gap:10px;margin:0 0 9px\"><svg viewBox='0 0 24 24' fill='none' stroke='#2E4B45' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' style='width:18px;height:18px;flex:none'><path d='M21 12a9 9 0 1 1-3-6.7'/><polyline points='21 3 21 9 15 9'/></svg><span style=\"font-size:14.5px;line-height:1.4\">Maintien <strong>circulaire 360°</strong></span></div>\n<div style=\"display:flex;align-items:center;gap:10px;margin:0 0 9px\"><svg viewBox='0 0 24 24' fill='none' stroke='#2E4B45' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' style='width:18px;height:18px;flex:none'><path d='M12 21s-7-4.6-9.5-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6c-2.5 4.4-9.5 9-9.5 9z'/></svg><span style=\"font-size:14.5px;line-height:1.4\">Compatible <strong>allaitement et césarienne</strong></span></div>\n<div style=\"display:flex;align-items:center;gap:10px;margin:0 0 9px\"><svg viewBox='0 0 24 24' fill='none' stroke='#2E4B45' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' style='width:18px;height:18px;flex:none'><circle cx='12' cy='12' r='9'/><polyline points='12 7 12 12 15.5 14'/></svg><span style=\"font-size:14.5px;line-height:1.4\">Différence visible en <strong>2 à 3 semaines</strong></span></div>\n<div style=\"display:flex;align-items:center;gap:10px;margin:0 0 9px\"><svg viewBox='0 0 24 24' fill='none' stroke='#2E4B45' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' style='width:18px;height:18px;flex:none'><path d='M12 3l7 3v5c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6z'/><polyline points='9 12 11.5 14.5 15.5 9.5'/></svg><span style=\"font-size:14.5px;line-height:1.4\"><strong>Satisfaite ou remboursée</strong>, 30 jours</span></div>\n</div>"
           }
         },
-        "bullet_1": {
-          "type": "text",
+        "bengkung_info": {
+          "type": "custom_liquid",
           "settings": {
-            "text": "✨ Ventre plus lisse et maintenu",
-            "text_style": "body"
+            "custom_liquid": "<details style=\"background:#FAF3EF;border-radius:12px;padding:14px 16px;margin:10px 0\">\n<summary style=\"cursor:pointer;display:flex;align-items:center;gap:10px;font-weight:600;font-size:14px;list-style:none\">\n<span aria-hidden=\"true\" style=\"font-size:16px\">🐝</span>\n<span>Le secret des mamans malaisiennes, le bengkung, depuis 500 ans</span>\n<span style=\"margin-left:auto;opacity:.5\">+</span>\n</summary>\n<p style=\"margin:10px 0 0;font-size:13.5px;line-height:1.55;opacity:.85\">Les cultures traditionnelles se bandaient le ventre après l'accouchement : une compression circulaire continue qui aide la paroi à se refermer et les organes à reprendre leur place. La Galbéa reprend ce principe dans une culotte qui s'enfile en 10 secondes.</p>\n</details>"
           }
         },
-        "bullet_2": {
-          "type": "text",
+        "reassure": {
+          "type": "custom_liquid",
           "settings": {
-            "text": "🤫 Invisible sous vos vêtements",
-            "text_style": "body"
+            "custom_liquid": "<div style=\"border:1px solid #DCCFC6;border-radius:12px;padding:12px 16px;margin:8px 0\">\n<div style=\"display:flex;align-items:center;gap:9px;margin-bottom:7px\"><span style=\"color:#2E7D4F;font-weight:700\">✓</span><span style=\"font-size:14px\"><strong>Prenez votre taille habituelle</strong></span></div>\n<div style=\"display:flex;align-items:center;gap:9px\"><span style=\"color:#2E7D4F;font-weight:700\">✓</span><span style=\"font-size:14px\">Fonctionne <strong>même des années après</strong> l'accouchement</span></div>\n</div>"
           }
         },
-        "bullet_3": {
-          "type": "text",
+        "guide_tailles": {
+          "type": "custom_liquid",
           "settings": {
-            "text": "🔄 Maintien circulaire 360°, devant, côtés et dos",
-            "text_style": "body"
+            "custom_liquid": "<details style=\"margin:6px 0 12px\">\n<summary style=\"cursor:pointer;font-size:13.5px;text-decoration:underline;opacity:.8;list-style:none\">Guide des tailles</summary>\n<table style=\"width:100%;font-size:13px;margin-top:10px;border-collapse:collapse\">\n<tr style=\"opacity:.6\"><td style=\"padding:4px 0\">Taille</td><td>FR</td></tr>\n<tr><td style=\"padding:3px 0\"><strong>S</strong></td><td>36-38</td></tr>\n<tr><td style=\"padding:3px 0\"><strong>M</strong></td><td>40-42</td></tr>\n<tr><td style=\"padding:3px 0\"><strong>L</strong></td><td>44-46</td></tr>\n<tr><td style=\"padding:3px 0\"><strong>XL</strong></td><td>48-50</td></tr>\n<tr><td style=\"padding:3px 0\"><strong>2XL</strong></td><td>52-54</td></tr>\n<tr><td style=\"padding:3px 0\"><strong>3XL</strong></td><td>56-58</td></tr>\n</table>\n</details>"
           }
         },
-        "bullet_4": {
-          "type": "text",
+        "offer": {
+          "type": "custom_liquid",
           "settings": {
-            "text": "🤱 Compatible allaitement et césarienne",
-            "text_style": "body"
-          }
-        },
-        "bullet_5": {
-          "type": "text",
-          "settings": {
-            "text": "📆 Différence visible en 2 à 3 semaines",
-            "text_style": "body"
-          }
-        },
-        "bullet_6": {
-          "type": "text",
-          "settings": {
-            "text": "🛡️ Satisfaite ou remboursée, 30 jours",
-            "text_style": "body"
+            "custom_liquid": "<div class=\"gb-offer\" style=\"border:1.5px solid #B76E79;border-radius:14px;overflow:hidden;margin:10px 0 14px\">\n<div style=\"background:#B76E79;color:#fff;font-weight:700;font-size:13px;letter-spacing:.04em;text-align:center;padding:8px 10px\">SOLDES D'ÉTÉ · OFFRE À DURÉE LIMITÉE</div>\n<label style=\"display:flex;align-items:center;gap:10px;padding:12px 14px;border-bottom:1px solid #EADDD6;cursor:pointer\"><input type=\"radio\" name=\"gb-pack\" checked style=\"accent-color:#B76E79\"><span style=\"flex:1;font-size:14px\"><strong>Une Culotte Gainante</strong><br><span style=\"font-size:12px;opacity:.65\">Fraîcheur visible au quotidien</span></span><strong style=\"font-size:15px\">29,90€</strong></label>\n<label style=\"display:flex;align-items:center;gap:10px;padding:12px 14px;border-bottom:1px solid #EADDD6;cursor:pointer;background:#FAF3EF\"><input type=\"radio\" name=\"gb-pack\" style=\"accent-color:#B76E79\"><span style=\"flex:1;font-size:14px\"><strong>2 Achetées + 1 Offerte</strong> <span style=\"background:#2E4B45;color:#fff;font-size:10.5px;border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:middle\">LA + DEMANDÉE</span><br><span style=\"font-size:12px;opacity:.65\">Une rotation sans lessive urgente</span></span><strong style=\"font-size:15px\">39,90€</strong></label>\n<label style=\"display:flex;align-items:center;gap:10px;padding:12px 14px;cursor:pointer\"><input type=\"radio\" name=\"gb-pack\" style=\"accent-color:#B76E79\"><span style=\"flex:1;font-size:14px\"><strong>3 Achetées + 2 Offertes</strong><br><span style=\"font-size:12px;opacity:.65\">Le pack complet, une par jour de semaine</span></span><strong style=\"font-size:15px\">49,90€</strong></label>\n</div>"
           }
         },
         "variant_picker": {
@@ -124,6 +99,60 @@
             "button_font_size": 1.8,
             "button_font_weight": "700",
             "button_text_transform": "uppercase"
+          }
+        },
+        "payments": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"display:flex;justify-content:center;gap:7px;flex-wrap:wrap;margin:10px 0 4px\">{% for type in shop.enabled_payment_types %}{{ type | payment_type_svg_tag: class: 'icon', style: 'height:22px;width:auto' }}{% endfor %}</div>\n<div style=\"display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin:8px 0 2px;font-size:12px;opacity:.75\">\n<span>✓ Satisfait ou remboursé</span><span>✓ Paiement sécurisé</span><span>✓ Livraison offerte</span>\n</div>"
+          }
+        },
+        "faq_1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Comment choisir ma taille ?",
+            "icon": "none",
+            "content": "<p>Prenez votre <strong>taille habituelle</strong> de sous-vêtement. Entre deux tailles, choisissez la plus grande : la compression croisée fait le travail sans serrer. Le guide des tailles est juste au-dessus.</p>"
+          }
+        },
+        "faq_2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Mon accouchement date de plusieurs années, c’est trop tard ?",
+            "icon": "none",
+            "content": "<p>Non. La paroi abdominale peut être accompagnée <strong>à tout moment</strong>, même des années après. Beaucoup de nos clientes ont accouché il y a 2, 5 ou 10 ans.</p>"
+          }
+        },
+        "faq_3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Est-ce visible quand on est habillée ?",
+            "icon": "none",
+            "content": "<p>Non : coutures plates, maille lisse, taille haute discrète. Elle <strong>disparaît sous toutes vos tenues</strong>, même une robe moulante.</p>"
+          }
+        },
+        "faq_4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "À partir de quand peut-on la porter après l’accouchement ?",
+            "icon": "none",
+            "content": "<p>Dès que vous vous sentez prête pour un accouchement par voie basse ; après une césarienne, attendez le feu vert de votre sage-femme (environ 6 semaines). La compression est douce et <strong>ne touche pas la cicatrice</strong>.</p>"
+          }
+        },
+        "faq_5": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Au bout de combien de temps voit-on une différence ?",
+            "icon": "none",
+            "content": "<p>La plupart des mamans constatent un ventre plus lisse <strong>dès la 2e ou 3e semaine</strong> de port quotidien.</p>"
+          }
+        },
+        "faq_6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Je peux la porter après une césarienne ?",
+            "icon": "none",
+            "content": "<p>Oui, elle est pensée pour : le maintien vient des côtés et du dos, <strong>sans pression sur la cicatrice</strong>. Compatible allaitement.</p>"
           }
         },
         "sticky_cart": {
@@ -161,27 +190,41 @@
             "mobile_transparent_bg": false
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {}
+        "price": {
+          "type": "price",
+          "settings": {
+            "hide_price": true,
+            "price_color": "#B76E79",
+            "compare_price_color": "",
+            "sale_badge_text": "Offre de lancement",
+            "sale_badge_weight": "600",
+            "price_font_size": 2,
+            "price_font_weight": "700",
+            "compare_font_size": 1.8
+          }
         }
       },
       "block_order": [
         "star_rating",
         "title",
+        "price",
         "t_emotion",
         "t_mech",
-        "price",
-        "bullet_1",
-        "bullet_2",
-        "bullet_3",
-        "bullet_4",
-        "bullet_5",
-        "bullet_6",
+        "iconlist",
+        "bengkung_info",
+        "reassure",
+        "guide_tailles",
+        "offer",
         "variant_picker",
         "buy_buttons",
-        "sticky_cart",
-        "description"
+        "payments",
+        "faq_1",
+        "faq_2",
+        "faq_3",
+        "faq_4",
+        "faq_5",
+        "faq_6",
+        "sticky_cart"
       ],
       "settings": {
         "enable_sticky_info": true,

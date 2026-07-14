@@ -13,6 +13,9 @@
   #AbCmp-{{ section.id }} .ab-cmp__head { text-align: center; margin-bottom: 2.8rem; }
   #AbCmp-{{ section.id }} .ab-cmp__heading { margin: 0; font-size: clamp(2.4rem, 5vw, 3.8rem); line-height: 1.15; }
   #AbCmp-{{ section.id }} .ab-cmp__sub { margin: 1.2rem auto 0; font-size: 1.5rem; opacity: 0.8; max-width: 64rem; }
+  #AbCmp-{{ section.id }} .ab-cmp__kicker { text-transform: uppercase; letter-spacing: 0.16em; font-size: 1.2rem; font-weight: 600; opacity: 0.6; margin: 0 0 1rem; }
+  #AbCmp-{{ section.id }} .ab-cmp__photo { margin: 0 auto 2.4rem; max-width: 76rem; }
+  #AbCmp-{{ section.id }} .ab-cmp__photo img { width: 100%; height: auto; border-radius: 1.4rem; display: block; }
   #AbCmp-{{ section.id }} .ab-cmp__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
   #AbCmp-{{ section.id }} .ab-cmp__card { border-radius: 1.4rem; padding: 2.4rem; }
   #AbCmp-{{ section.id }} .ab-cmp__card--bad { background: {{ section.settings.bad_bg }}; }
@@ -22,7 +25,7 @@
   #AbCmp-{{ section.id }} .ab-cmp__mark { flex-shrink: 0; font-weight: 700; }
   #AbCmp-{{ section.id }} .ab-cmp__mark--bad { color: {{ section.settings.bad_color }}; }
   #AbCmp-{{ section.id }} .ab-cmp__mark--good { color: {{ section.settings.good_color }}; }
-  #AbCmp-{{ section.id }} .ab-cmp__foot { text-align: center; margin: 2.6rem auto 0; max-width: 70rem; font-size: 1.4rem; opacity: 0.85; font-style: italic; }
+  #AbCmp-{{ section.id }} .ab-cmp__foot { text-align: left; margin: 2.6rem auto 0; max-width: 76rem; font-size: 1.4rem; background: rgba(var(--color-foreground), 0.05); border-radius: 1rem; padding: 1.4rem 1.8rem; display: flex; gap: 1rem; align-items: flex-start; }
   @media screen and (max-width: 749px) {
     #AbCmp-{{ section.id }} .ab-cmp__grid { grid-template-columns: 1fr; }
   }
@@ -31,9 +34,13 @@
 <div id="AbCmp-{{ section.id }}" class="color-{{ section.settings.color_scheme }} gradient">
   <div class="ab-cmp__inner">
     <div class="ab-cmp__head">
+      {%- if section.settings.kicker != blank -%}<p class="ab-cmp__kicker">{{ section.settings.kicker }}</p>{%- endif -%}
       {%- if section.settings.heading != blank -%}<h2 class="ab-cmp__heading">{{ section.settings.heading }}</h2>{%- endif -%}
       {%- if section.settings.subheading != blank -%}<p class="ab-cmp__sub">{{ section.settings.subheading }}</p>{%- endif -%}
     </div>
+    {%- if section.settings.image != blank -%}
+      <div class="ab-cmp__photo">{{ section.settings.image | image_url: width: 1400 | image_tag: loading: 'lazy', widths: '600, 900, 1400' }}</div>
+    {%- endif -%}
     <div class="ab-cmp__grid">
       <div class="ab-cmp__card ab-cmp__card--bad">
         <p class="ab-cmp__title"><span aria-hidden="true">❌</span> {{ section.settings.bad_title }}</p>
@@ -61,7 +68,9 @@
   "name": "AB Two-col compare",
   "tag": "section",
   "settings": [
+    { "type": "text", "id": "kicker", "label": "Kicker (small uppercase)" },
     { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Pourquoi c'est différent" },
+    { "type": "image_picker", "id": "image", "label": "Photo (between heading and columns)" },
     { "type": "text", "id": "subheading", "label": "Subheading" },
     { "type": "text", "id": "bad_title", "label": "Left (bad) title", "default": "Ceinture classique" },
     { "type": "text", "id": "good_title", "label": "Right (good) title", "default": "La nôtre" },
