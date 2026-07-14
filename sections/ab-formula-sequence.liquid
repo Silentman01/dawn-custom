@@ -1,0 +1,93 @@
+{%- comment -%}
+  A/B clone section: "formula sequence" — heading + intro card (pH etc.) + a vertical
+  sequence of actives, each: kicker word ("Pénètre · Acide Salicylique"), text, image.
+  Mirrors the competitor's clinical-formula section. Fully parameterized.
+{%- endcomment -%}
+
+{%- style -%}
+  #AbFrm-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+  #AbFrm-{{ section.id }} .ab-frm__inner { max-width: 92rem; margin: 0 auto; padding: 0 2rem; }
+  #AbFrm-{{ section.id }} .ab-frm__head { text-align: center; margin-bottom: 1.6rem; }
+  #AbFrm-{{ section.id }} .ab-frm__heading { margin: 0; font-size: clamp(2.4rem, 5vw, 3.6rem); line-height: 1.15; }
+  #AbFrm-{{ section.id }} .ab-frm__intro {
+    max-width: 70rem; margin: 0 auto 3rem; text-align: center;
+    background: rgba(var(--color-foreground), 0.045);
+    border-radius: 1.2rem; padding: 1.8rem 2.2rem;
+    font-size: 1.45rem; line-height: 1.6;
+  }
+  #AbFrm-{{ section.id }} .ab-frm__proof { font-weight: 700; color: {{ section.settings.accent_color }}; }
+  #AbFrm-{{ section.id }} .ab-frm__item {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 2.4rem; align-items: center;
+    margin-bottom: 2.8rem;
+  }
+  #AbFrm-{{ section.id }} .ab-frm__item:nth-child(even) .ab-frm__img { order: 2; }
+  #AbFrm-{{ section.id }} .ab-frm__kicker {
+    text-transform: uppercase; letter-spacing: 0.14em; font-size: 1.2rem; font-weight: 700;
+    color: {{ section.settings.accent_color }}; margin: 0 0 0.8rem;
+  }
+  #AbFrm-{{ section.id }} .ab-frm__title { margin: 0 0 1rem; font-size: 1.9rem; font-weight: 700; }
+  #AbFrm-{{ section.id }} .ab-frm__text { margin: 0; font-size: 1.45rem; line-height: 1.65; opacity: 0.85; }
+  #AbFrm-{{ section.id }} .ab-frm__img img { width: 100%; height: auto; aspect-ratio: 4/3; object-fit: cover; border-radius: 1.2rem; display: block; }
+  @media screen and (max-width: 749px) {
+    #AbFrm-{{ section.id }} .ab-frm__item { grid-template-columns: 1fr; gap: 1.2rem; }
+    #AbFrm-{{ section.id }} .ab-frm__item:nth-child(even) .ab-frm__img { order: 0; }
+  }
+{%- endstyle -%}
+
+<div id="AbFrm-{{ section.id }}" class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="ab-frm__inner">
+    <div class="ab-frm__head">
+      {%- if section.settings.heading != blank -%}<h2 class="ab-frm__heading">{{ section.settings.heading }}</h2>{%- endif -%}
+    </div>
+    {%- if section.settings.intro != blank -%}
+      <div class="ab-frm__intro">{{ section.settings.intro }}{% if section.settings.proof_line != blank %}<br><span class="ab-frm__proof">{{ section.settings.proof_line }}</span>{% endif %}</div>
+    {%- endif -%}
+    {%- for block in section.blocks -%}
+      <div class="ab-frm__item" {{ block.shopify_attributes }}>
+        <div class="ab-frm__img">
+          {%- if block.settings.image != blank -%}
+            {{ block.settings.image | image_url: width: 900 | image_tag: loading: 'lazy', widths: '450, 700, 900' }}
+          {%- endif -%}
+        </div>
+        <div>
+          {%- if block.settings.kicker != blank -%}<p class="ab-frm__kicker">{{ block.settings.kicker }}</p>{%- endif -%}
+          {%- if block.settings.title != blank -%}<p class="ab-frm__title">{{ block.settings.title }}</p>{%- endif -%}
+          <p class="ab-frm__text">{{ block.settings.text }}</p>
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "AB Formula sequence",
+  "tag": "section",
+  "settings": [
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Formule étudiée et prouvée" },
+    { "type": "richtext", "id": "intro", "label": "Intro card" },
+    { "type": "text", "id": "proof_line", "label": "Proof line (accented)" },
+    { "type": "color", "id": "accent_color", "label": "Accent color", "default": "#4A3D6B" },
+    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-1" },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding top", "default": 52 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding bottom", "default": 52 }
+  ],
+  "blocks": [
+    {
+      "type": "active",
+      "name": "Active ingredient",
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "Image" },
+        { "type": "text", "id": "kicker", "label": "Kicker (e.g. Pénètre · Acide Salicylique)" },
+        { "type": "text", "id": "title", "label": "Title" },
+        { "type": "textarea", "id": "text", "label": "Text" }
+      ]
+    }
+  ],
+  "max_blocks": 8,
+  "presets": [{ "name": "AB Formula sequence", "blocks": [{ "type": "active" }, { "type": "active" }] }]
+}
+{% endschema %}

@@ -1,0 +1,83 @@
+{%- comment -%}
+  A/B clone section: N-column comparison ("X face à…") — our product column highlighted
+  vs alternative columns, each with an image and ✓/✕ rows. Fully parameterized.
+  Blocks: column (title, image, highlight?) then row lines attached by column index.
+{%- endcomment -%}
+
+{%- style -%}
+  #AbCc-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+  #AbCc-{{ section.id }} .ab-cc__inner { max-width: 100rem; margin: 0 auto; padding: 0 2rem; }
+  #AbCc-{{ section.id }} .ab-cc__heading { text-align: center; margin: 0 0 3rem; font-size: clamp(2.4rem, 5vw, 3.6rem); line-height: 1.15; }
+  #AbCc-{{ section.id }} .ab-cc__grid { display: grid; grid-template-columns: repeat({{ section.settings.columns | default: 3 }}, 1fr); gap: 1.8rem; }
+  #AbCc-{{ section.id }} .ab-cc__col { border-radius: 1.4rem; padding: 2rem; border: 1px solid rgba(var(--color-foreground), 0.1); }
+  #AbCc-{{ section.id }} .ab-cc__col--hl { border: 2px solid {{ section.settings.accent_color }}; background: rgba(var(--color-foreground), 0.03); position: relative; }
+  #AbCc-{{ section.id }} .ab-cc__title { text-align: center; font-weight: 700; font-size: 1.7rem; margin: 0 0 1.4rem; }
+  #AbCc-{{ section.id }} .ab-cc__img img { width: 100%; height: 16rem; object-fit: contain; display: block; margin-bottom: 1.4rem; }
+  #AbCc-{{ section.id }} .ab-cc__row { display: flex; gap: 0.7rem; align-items: flex-start; font-size: 1.35rem; line-height: 1.5; margin: 0 0 0.9rem; }
+  #AbCc-{{ section.id }} .ab-cc__mark--y { color: #2E7D4F; font-weight: 700; flex: none; }
+  #AbCc-{{ section.id }} .ab-cc__mark--n { color: #C0392B; font-weight: 700; flex: none; }
+  @media screen and (max-width: 749px) {
+    #AbCc-{{ section.id }} .ab-cc__grid { grid-template-columns: 1fr; }
+  }
+{%- endstyle -%}
+
+<div id="AbCc-{{ section.id }}" class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="ab-cc__inner">
+    {%- if section.settings.heading != blank -%}<h2 class="ab-cc__heading">{{ section.settings.heading }}</h2>{%- endif -%}
+    <div class="ab-cc__grid">
+      {%- for block in section.blocks -%}
+        {%- if block.type == 'column' -%}
+          <div class="ab-cc__col{% if block.settings.highlight %} ab-cc__col--hl{% endif %}" {{ block.shopify_attributes }}>
+            <p class="ab-cc__title">{{ block.settings.title }}</p>
+            {%- if block.settings.image != blank -%}
+              <div class="ab-cc__img">{{ block.settings.image | image_url: width: 600 | image_tag: loading: 'lazy', widths: '300, 450, 600' }}</div>
+            {%- endif -%}
+            {%- assign rows = block.settings.rows | newline_to_br | split: '<br />' -%}
+            {%- for r in rows -%}
+              {%- assign line = r | strip -%}
+              {%- if line != blank -%}
+                {%- if line contains '[x]' -%}
+                  <p class="ab-cc__row"><span class="ab-cc__mark--n">✕</span><span>{{ line | remove: '[x]' | strip }}</span></p>
+                {%- else -%}
+                  <p class="ab-cc__row"><span class="ab-cc__mark--y">✓</span><span>{{ line | remove: '[v]' | strip }}</span></p>
+                {%- endif -%}
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "AB Compare columns",
+  "tag": "section",
+  "settings": [
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Face à…" },
+    { "type": "range", "id": "columns", "min": 2, "max": 4, "step": 1, "label": "Columns", "default": 3 },
+    { "type": "color", "id": "accent_color", "label": "Highlight color", "default": "#4A3D6B" },
+    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-1" },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding top", "default": 52 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding bottom", "default": 52 }
+  ],
+  "blocks": [
+    {
+      "type": "column",
+      "name": "Column",
+      "settings": [
+        { "type": "text", "id": "title", "label": "Title" },
+        { "type": "image_picker", "id": "image", "label": "Image" },
+        { "type": "checkbox", "id": "highlight", "label": "Highlight (our product)", "default": false },
+        { "type": "textarea", "id": "rows", "label": "Rows (one per line; prefix [x] for ✕, default ✓)" }
+      ]
+    }
+  ],
+  "max_blocks": 4,
+  "presets": [{ "name": "AB Compare columns", "blocks": [{ "type": "column" }, { "type": "column" }, { "type": "column" }] }]
+}
+{% endschema %}
