@@ -44,7 +44,7 @@
         "b"
       ],
       "settings": {
-        "image": "shopify://shop_images/avena-home-hero.png",
+        "image": "shopify://shop_images/avena-home-hero-v2.png",
         "image_overlay_opacity": 30,
         "image_height": "large",
         "image_behavior": "none",
