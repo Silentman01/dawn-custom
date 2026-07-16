@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -22,8 +31,7 @@
           "settings": {
             "subtitle": "Cuivre alimentaire. Le rituel ayurvédique du Tamra Jal.",
             "title": "Une Eau Vivante, Purifiée Naturellement Pendant Que Vous Dormez.",
-            "title_size": 26,
-            "text": "Remplissez le soir, buvez le matin : pendant que l'eau repose dans le cuivre, il neutralise naturellement 99,9 % des bactéries nocives. Zéro filtre, zéro produit chimique, zéro plastique. Juste un métal que la médecine ayurvédique utilise depuis 5 000 ans, et que les hôpitaux redécouvrent aujourd'hui."
+            "title_size": 26
           }
         },
         "title": {
