@@ -10,14 +10,22 @@
       "blocks": {
         "heading": {
           "type": "heading",
-          "settings": { "heading": "Notre histoire", "heading_size": "h1" }
+          "settings": {
+            "heading": "Notre histoire",
+            "heading_size": "h1"
+          }
         },
         "text": {
           "type": "text",
-          "settings": { "text": "<p>Tout est parti d'un souvenir tout simple : l'odeur du pain frais, le matin, dans la cuisine de notre grand-mère.</p>" }
+          "settings": {
+            "text": "<p>Tout est parti d'une idée toute simple : les objets du quotidien peuvent être mieux choisis.</p>"
+          }
         }
       },
-      "block_order": ["heading", "text"],
+      "block_order": [
+        "heading",
+        "text"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -32,20 +40,33 @@
       "blocks": {
         "heading": {
           "type": "heading",
-          "settings": { "heading": "Dans la cuisine d'Adèle", "heading_size": "h2" }
+          "settings": {
+            "heading": "Chercher, tester, garder le meilleur",
+            "heading_size": "h2"
+          }
         },
         "body": {
           "type": "text",
-          "settings": { "text": "<p>Adèle gardait son pain dans un linge de coton, jamais dans du plastique. Elle disait qu'un bon pain doit respirer pour rester tendre plus longtemps. Chez elle, rien ne se jetait, et le pain restait bon jusqu'au dernier morceau.</p><p>Nous avons repris ce geste tout simple : du coton biologique, une couche de cire d'abeille pure, et le pain reste frais cinq à sept jours. Sans plastique, sans congélateur. La Maison d'Adèle est née pour transmettre ce savoir d'avant, jusqu'à votre table.</p>", "text_style": "body" }
+          "settings": {
+            "text": "<p>Avena, c'est une petite équipe française qui passe son temps à chercher des objets simples et bien faits. Avant de vous proposer quoi que ce soit, on l'essaie chez nous, dans nos cuisines et notre quotidien. Si on ne l'utilise plus au bout d'un mois, il ne rentre pas dans la boutique.</p><p>C'est pour cela que notre catalogue est court. Chaque produit a gagné sa place.</p>",
+            "text_style": "body"
+          }
         },
         "quote": {
           "type": "text",
-          "settings": { "text": "<p><em>« On ne jette pas le bon pain. On apprend à le garder. »</em></p>", "text_style": "body" }
+          "settings": {
+            "text": "<p><em>« Peu de produits, mais des produits qu'on garde. »</em></p>",
+            "text_style": "body"
+          }
         }
       },
-      "block_order": ["heading", "body", "quote"],
+      "block_order": [
+        "heading",
+        "body",
+        "quote"
+      ],
       "settings": {
-        "image": "shopify://shop_images/adele-reason-3.png",
+        "image": "shopify://shop_images/avena-histoire-origine.png",
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -65,18 +86,34 @@
       "blocks": {
         "c1": {
           "type": "column",
-          "settings": { "title": "01", "text": "<p><strong>Le geste transmis</strong><br>Un savoir-faire d'autrefois, passé de main en main, jusqu'à votre cuisine.</p>" }
+          "settings": {
+            "title": "01",
+            "text": "<p><strong>La sélection courte</strong><br>Peu de produits, choisis avec soin et testés par nous, pour de vrai.</p>",
+            "image": "shopify://shop_images/avena-histoire-v1.png"
+          }
         },
         "c2": {
           "type": "column",
-          "settings": { "title": "02", "text": "<p><strong>La matière vraie</strong><br>Du coton biologique et de la cire d'abeille pure, sans aucun plastique.</p>" }
+          "settings": {
+            "title": "02",
+            "text": "<p><strong>La matière vraie</strong><br>Du lin, du bois, de la céramique, du cuivre : des matières simples qui durent.</p>",
+            "image": "shopify://shop_images/avena-histoire-v2.png"
+          }
         },
         "c3": {
           "type": "column",
-          "settings": { "title": "03", "text": "<p><strong>Rien ne se jette</strong><br>Votre pain reste frais cinq à sept jours, pour ne plus rien gaspiller.</p>" }
+          "settings": {
+            "title": "03",
+            "text": "<p><strong>Le service humain</strong><br>Une équipe française qui répond vite, et une garantie satisfait ou remboursé 30 jours.</p>",
+            "image": "shopify://shop_images/avena-histoire-v3.png"
+          }
         }
       },
-      "block_order": ["c1", "c2", "c3"],
+      "block_order": [
+        "c1",
+        "c2",
+        "c3"
+      ],
       "settings": {
         "title": "Ce en quoi nous croyons",
         "heading_size": "h1",
@@ -97,18 +134,31 @@
       "blocks": {
         "heading": {
           "type": "heading",
-          "settings": { "heading": "Faites une place au bon pain", "heading_size": "h2" }
+          "settings": {
+            "heading": "Bienvenue chez Avena",
+            "heading_size": "h2"
+          }
         },
         "text": {
           "type": "text",
-          "settings": { "text": "<p>Merci de faire une place à nos sacs dans votre cuisine, et de garder ce savoir-faire vivant avec nous.</p><p><em>Avec tout notre cœur, la famille de La Maison d'Adèle.</em></p>" }
+          "settings": {
+            "text": "<p>Merci de faire une place à nos objets dans votre quotidien. On espère qu'ils vous rendront la vie un peu plus simple, un peu plus belle.</p><p><em>Avec tout notre cœur, l'équipe Avena.</em></p>"
+          }
         },
         "button": {
           "type": "button",
-          "settings": { "button_label": "Découvrir le sac à pain", "button_link": "/products/sac-a-pain-cire-abeille-adele", "button_style_secondary": false }
+          "settings": {
+            "button_label": "Découvrir la boutique",
+            "button_link": "/collections/all",
+            "button_style_secondary": false
+          }
         }
       },
-      "block_order": ["heading", "text", "button"],
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -119,5 +169,10 @@
       }
     }
   },
-  "order": ["intro", "origin", "valeurs", "signature"]
+  "order": [
+    "intro",
+    "origin",
+    "valeurs",
+    "signature"
+  ]
 }
