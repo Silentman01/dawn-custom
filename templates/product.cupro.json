@@ -12,12 +12,18 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "badge": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"display:inline-block;background:#F3E8DC;color:#8C5A2B;font-size:12px;font-weight:700;border-radius:999px;padding:5px 14px;margin-bottom:6px\">Satisfait ou remboursé - 30 j</div>"
+          }
+        },
         "star_rating": {
           "type": "star_rating",
           "settings": {
-            "rating": 4.8,
-            "text": "Rated <strong>4.8 Excellent</strong> 2,850+ Reviews",
-            "star_color": "#c2410c",
+            "rating": 4.9,
+            "text": "<strong>4,9/5</strong> (+2 300 avis)",
+            "star_color": "#B87333",
             "star_bg_color": "#ececec",
             "star_size": 1.3,
             "star_gap": 0.4,
@@ -26,48 +32,44 @@
             "highlight_color": "#000000"
           }
         },
-        "statement_tcR3Ug": {
-          "type": "statement",
+        "clients": {
+          "type": "custom_liquid",
           "settings": {
-            "subtitle": "You sleep. The copper works.",
-            "title": "Wake Up to Water That Purified Itself Overnight",
-            "title_size": 26
+            "custom_liquid": "<p style=\"font-size:13.5px;margin:2px 0 6px\"><span style=\"color:#2E7D4F;font-weight:700\">✔</span> Plus de 5 000 clients satisfaits</p>"
           }
         },
         "title": {
           "type": "title",
-          "disabled": true,
           "settings": {
             "title_size": 26,
             "title_weight": "700",
             "title_transform": "none",
-            "title_color": ""
-          }
-        },
-        "benefits_list": {
-          "type": "benefits_list",
-          "settings": {
-            "text_color": "#121212",
-            "icon_color": "#c2410c",
-            "layout": "two_per_line",
-            "benefit_1": "Purer water by sunrise",
-            "benefit_2": "Zero plastic in your body",
-            "benefit_3": "A 10-second morning ritual",
-            "benefit_4": "No two bottles alike",
-            "benefit_5": "Water touches only copper",
-            "benefit_6": "The last bottle you'll buy"
+            "title_color": "#2A1F1A"
           }
         },
         "price": {
           "type": "price",
           "settings": {
-            "price_color": "#c2410c",
+            "hide_price": true,
+            "price_color": "#B87333",
             "compare_price_color": "",
-            "sale_badge_text": "4th of July Sale - Save 30%",
+            "sale_badge_text": "Offre de lancement",
             "sale_badge_weight": "600",
             "price_font_size": 2,
             "price_font_weight": "700",
             "compare_font_size": 1.8
+          }
+        },
+        "iconlist": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"margin:8px 0 4px\"><div style=\"display:flex;align-items:center;gap:9px;margin:0 0 8px\"><svg viewBox='0 0 24 24' fill='none' stroke='#B87333' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' style='width:17px;height:17px;flex:none'><polyline points='4 12.5 9.5 18 20 6.5'/></svg><span style=\"font-size:14.5px;line-height:1.4\">Une hydratation <strong>sans produits chimiques</strong>, telle que votre médecin la recommanderait</span></div><div style=\"display:flex;align-items:center;gap:9px;margin:0 0 8px\"><svg viewBox='0 0 24 24' fill='none' stroke='#B87333' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' style='width:17px;height:17px;flex:none'><polyline points='4 12.5 9.5 18 20 6.5'/></svg><span style=\"font-size:14.5px;line-height:1.4\">Zéro microplastiques. <strong>Zéro BPA.</strong></span></div><div style=\"display:flex;align-items:center;gap:9px;margin:0 0 8px\"><svg viewBox='0 0 24 24' fill='none' stroke='#B87333' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' style='width:17px;height:17px;flex:none'><polyline points='4 12.5 9.5 18 20 6.5'/></svg><span style=\"font-size:14.5px;line-height:1.4\">Élimine naturellement <strong>99,9 % des bactéries</strong> nocives</span></div><div style=\"display:flex;align-items:center;gap:9px;margin:0 0 8px\"><svg viewBox='0 0 24 24' fill='none' stroke='#B87333' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' style='width:17px;height:17px;flex:none'><polyline points='4 12.5 9.5 18 20 6.5'/></svg><span style=\"font-size:14.5px;line-height:1.4\">Conçue pour durer : aucun remplacement annuel nécessaire</span></div><div style=\"display:flex;align-items:center;gap:9px;margin:0 0 8px\"><svg viewBox='0 0 24 24' fill='none' stroke='#B87333' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' style='width:17px;height:17px;flex:none'><polyline points='4 12.5 9.5 18 20 6.5'/></svg><span style=\"font-size:14.5px;line-height:1.4\">Fabriquée selon un <strong>savoir-faire ancestral</strong>, en cuivre de qualité alimentaire, à l'intérieur comme à l'extérieur</span></div><div style=\"display:flex;align-items:center;gap:9px;margin:0 0 8px\"><svg viewBox='0 0 24 24' fill='none' stroke='#B87333' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' style='width:17px;height:17px;flex:none'><polyline points='4 12.5 9.5 18 20 6.5'/></svg><span style=\"font-size:14.5px;line-height:1.4\">Conforme aux réglementations européennes</span></div></div>"
+          }
+        },
+        "warning": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"background:#FDF6EC;border:1px solid #E8D5BC;border-radius:12px;padding:12px 16px;margin:10px 0\"><p style=\"font-size:13.5px;line-height:1.5;margin:0\"><strong>⚠ Attention aux imitations :</strong> seules les gourdes Cupro™ officielles garantissent l'authenticité du cuivre.</p></div>"
           }
         },
         "variant_picker": {
@@ -77,18 +79,32 @@
             "swatch_shape": "circle"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": false,
+            "show_dynamic_checkout": true,
             "show_gift_card_recipient": false,
-            "button_font_size": 1.8,
+            "button_font_size": 1.6,
             "button_font_weight": "700",
             "button_text_transform": "uppercase"
+          }
+        },
+        "payments": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:12px 0 2px\">{% for type in shop.enabled_payment_types %}{{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}{% endfor %}</div><div style=\"display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin:10px 0 2px;font-size:12.5px;opacity:.8\"><span>Paiement sécurisé</span><span>Livraison suivie offerte dès 35 €</span><span>Retours 30 jours</span></div>"
+          }
+        },
+        "guarantee_line": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p style=\"text-align:center;font-size:13px;opacity:.8;margin:10px 0 4px\">Essayez 30 jours sans risque. Pas conquis ? On vous rembourse.</p>"
+          }
+        },
+        "mini_avis": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"background:#FAF7F2;border:1px solid #EDE4D7;border-radius:12px;padding:14px 16px;margin:10px 0\"><div style=\"color:#B87333;font-size:13px;letter-spacing:2px;margin-bottom:6px\">★★★★★</div><p style=\"font-size:13.5px;line-height:1.55;margin:0 0 6px\">Depuis que j'utilise ma gourde en cuivre, je me sens beaucoup plus énergique au quotidien. Et le design est magnifique.</p><p style=\"font-size:12.5px;opacity:.65;margin:0\">Camille D. · Cliente vérifiée</p></div><div style=\"background:#FAF7F2;border:1px solid #EDE4D7;border-radius:12px;padding:14px 16px;margin:0 0 6px\"><div style=\"color:#B87333;font-size:13px;letter-spacing:2px;margin-bottom:6px\">★★★★★</div><p style=\"font-size:13.5px;line-height:1.55;margin:0 0 6px\">L'eau a un goût plus pur, plus doux. Le rituel du matin à jeun est devenu un moment que j'attends.</p><p style=\"font-size:12.5px;opacity:.65;margin:0\">Sophie M. · Cliente vérifiée</p></div>"
           }
         },
         "sticky_cart": {
@@ -97,12 +113,12 @@
             "function": "link",
             "button_link": "",
             "display_when": "after_scroll",
-            "button_label": "ADD TO CART",
+            "button_label": "AJOUTER AU PANIER",
             "enable_custom_btn_color": false,
             "custom_btn_color": "#dd1d1d",
             "color_scheme": "scheme-1",
-            "star_color": "#c2410c",
-            "stars_label": "Rated 4.8 Excellent · 30-day money-back guarantee",
+            "star_color": "#B87333",
+            "stars_label": "Notée 4,9 · Satisfait ou remboursé 30 jours",
             "button_font_size": 1.8,
             "button_font_weight": "700",
             "button_text_transform": "uppercase",
@@ -125,153 +141,22 @@
             "mobile_show_price_in_button": false,
             "mobile_transparent_bg": false
           }
-        },
-        "trust_microcopy": {
-          "type": "trust_microcopy",
-          "settings": {
-            "font_size": 1.6,
-            "font_size_2_items": 1.4,
-            "bg_color": "",
-            "text_color": "#121212",
-            "text_1": "30-day money-back guarantee",
-            "icon_name_1": "verified_user",
-            "text_2": "",
-            "icon_name_2": "local_shipping"
-          }
-        },
-        "social_proof_banner": {
-          "type": "social_proof_banner",
-          "settings": {
-            "text_color": "#121212",
-            "bg_color": "#fff5ec",
-            "border_radius": 50,
-            "title": "<strong>Thousands of families ditched plastic this year</strong>",
-            "subtitle": "and made copper their morning ritual.",
-            "badge_color": "#51af6f",
-            "image_1": "shopify://shop_images/cupro-social-1.png",
-            "image_2": "shopify://shop_images/cupro-social-2.png",
-            "image_3": "shopify://shop_images/cupro-social-3.png"
-          }
-        },
-        "urgency_notice": {
-          "type": "urgency_notice",
-          "settings": {
-            "line_1": "<p><strong>Hand-hammered in small batches</strong></p>",
-            "line_2": "<p>Every Cupro™ bottle is hammered by hand, so batches are small and restocks take weeks. The multi-bottle savings apply while the current batch lasts. <strong>PS:</strong> Cupro™ is only sold here.</p>",
-            "font_size": 1.2,
-            "bg_color": "#fef2f2",
-            "text_color": "#9f3f3f",
-            "border_width": 2,
-            "border_style": "dashed",
-            "border_color": "#fca5a5",
-            "border_radius": 3,
-            "icon_name": "error",
-            "icon_color": "#d61717",
-            "icon_scale": 1.2
-          }
-        },
-        "collapsible_tab_mjEF8T": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Description",
-            "icon": "none",
-            "content": "<p>You're holding the only bottle where <strong>nothing stands between your water and 99.9% pure copper</strong>: no lining, no lacquer, no plastic anywhere. Hammered by hand, one piece at a time.</p><ul><li>Your water gets purified while it rests: copper is naturally antibacterial</li><li>Nothing sheds into your body: zero plastic contact, zero microplastics</li><li>Nobody else owns yours: every hammer pattern is one of one</li><li>You'll never shop for a bottle again: solid copper outlives trends and gets more beautiful doing it</li></ul>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_gBgAbF": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Why you need it",
-            "icon": "none",
-            "content": "<p>Every day you drink from plastic, over <strong>240,000 microplastic particles</strong> ride along. Any brand. They don't digest. They accumulate in you.</p><p>Your stainless bottle? Better. But it does nothing for you: it just holds water.</p><p>Copper is the only vessel that works while you sleep. Ayurveda has trusted it for 5,000 years; microbiology calls it the oligodynamic effect: copper naturally neutralizes bacteria in the water resting against it.</p><p><strong>You deserve water that got better overnight, not worse.</strong></p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_akEwJj": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Benefits ✨",
-            "icon": "none",
-            "content": "<p>✓ <strong>Wake up to purer water</strong>: the copper worked on it all night, no filter, no cartridge</p><p>✓ <strong>Get plastic out of your body</strong>: nothing but bare metal ever touches your water</p><p>✓ <strong>Start your day with a ritual, not a chore</strong>: fill at night, drink at sunrise, 10 seconds</p><p>✓ <strong>Own something nobody can copy</strong>: hand-hammered, one of one, more beautiful every year</p><p>✓ <strong>Stop replacing bottles forever</strong>: solid copper outlasts every trend in your cabinet</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_MTCgw9": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "The ritual (how to use it)",
-            "icon": "none",
-            "content": "<p><strong>1.</strong> Fill the bottle at night.</p><p><strong>2.</strong> Let the copper work while you sleep (6 to 8 hours).</p><p><strong>3.</strong> Drink first thing in the morning. That's the Tamra Jal ritual, 5,000 years old and 10 seconds a day.</p><p>Care: half a lemon and a pinch of salt bring back the shine in 30 seconds. The patina that builds over time is natural, and proof your copper is uncoated.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_FPPE7p": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Do you offer a guarantee?",
-            "icon": "none",
-            "content": "<p>Yes: <strong>30 days, money back.</strong></p><p>Build the ritual for a month. If the taste of the water, the object, or the habit doesn't win you over, send it back and we refund every cent.</p>",
-            "page": ""
-          }
-        },
-        "trust_card_v2_BX8HtK": {
-          "type": "trust_card_v2",
-          "settings": {
-            "heading": "<strong>Why Cupro™ is the #1</strong> plastic-free hydration upgrade?",
-            "feature_text_1": "Purifies While You Sleep",
-            "feature_text_2": "Yours Is One of One",
-            "feature_text_3": "Only Copper Touches Water",
-            "feature_text_4": "Outlasts Every Trend",
-            "item_1": "0% Plastic",
-            "item_2": "0 Microplastics",
-            "item_3": "One-of-One Piece",
-            "item_4": "Noble Patina",
-            "item_5": "Lemon-Simple Care",
-            "item_6": "Lasts Decades",
-            "text_color": "#1a1a1a",
-            "title_color": "#1a1a1a",
-            "highlight_color": "#c2410c",
-            "bg_color": "#ffe4cc",
-            "bg_image": "shopify://shop_images/cupro-texture-soft.png",
-            "image_opacity": 10,
-            "border_radius": 10,
-            "heading_size": 28,
-            "feature_text_size": 11,
-            "item_text_size": 16
-          }
-        },
-        "testimonial_videos_block": {
-          "type": "testimonial_videos",
-          "settings": {
-            "heading": "What our customers are sharing:",
-            "heading_size": 23
-          }
         }
       },
       "block_order": [
+        "badge",
         "star_rating",
-        "statement_tcR3Ug",
+        "clients",
         "title",
-        "benefits_list",
         "price",
+        "iconlist",
+        "warning",
         "variant_picker",
-        "quantity_selector",
         "buy_buttons",
-        "sticky_cart",
-        "trust_microcopy",
-        "social_proof_banner",
-        "urgency_notice",
-        "collapsible_tab_mjEF8T",
-        "collapsible_tab_gBgAbF",
-        "collapsible_tab_akEwJj",
-        "collapsible_tab_MTCgw9",
-        "collapsible_tab_FPPE7p",
-        "trust_card_v2_BX8HtK",
-        "testimonial_videos_block"
-      ],
-      "custom_css": [
-        ".urgency-notice {margin-bottom: 15px;}"
+        "payments",
+        "guarantee_line",
+        "mini_avis",
+        "sticky_cart"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -289,809 +174,388 @@
         "padding_bottom": 12
       }
     },
-    "clinical_proven_XJiV6J": {
-      "type": "clinical-proven",
+    "videos": {
+      "type": "ab-video-carousel",
       "blocks": {
-        "stat_JT8ghy": {
-          "type": "stat",
+        "v1": {
+          "type": "video",
           "settings": {
-            "percentage": 99,
-            "heading": "pure copper against your water",
-            "caption": "no coating, no mystery alloy: purity you can verify yourself, the patina proves it"
+            "video_url": "https://cdn.shopify.com/videos/c/vp/6b4b151a03b84b12840d43998920b86c/6b4b151a03b84b12840d43998920b86c.HD-1080p-4.8Mbps-89072414.mp4"
           }
         },
-        "stat_W9mrjV": {
-          "type": "stat",
+        "v2": {
+          "type": "video",
           "settings": {
-            "percentage": 0,
-            "heading": "<strong>plastic touching your water</strong>",
-            "caption": "your body stops collecting the 240,000+ particles a plastic bottle sheds"
+            "video_url": "https://cdn.shopify.com/videos/c/vp/78fe9b7a3f784db8be90266ef4642fd3/78fe9b7a3f784db8be90266ef4642fd3.HD-1080p-4.8Mbps-89072417.mp4"
           }
         },
-        "stat_7gdyWK": {
-          "type": "stat",
+        "v3": {
+          "type": "video",
           "settings": {
-            "percentage": 100,
-            "heading": "<strong>hammered by hand</strong>",
-            "caption": "nobody on earth owns the same bottle as you"
-          }
-        },
-        "stat_BTktYW": {
-          "type": "stat",
-          "settings": {
-            "percentage": 100,
-            "heading": "<strong>natural, with 30-second care</strong>",
-            "caption": "half a lemon restores the shine, the patina does the rest"
+            "video_url": "https://cdn.shopify.com/videos/c/vp/5899bc019de84d52949bc4825222283f/5899bc019de84d52949bc4825222283f.HD-1080p-4.8Mbps-89072419.mp4"
           }
         }
       },
       "block_order": [
-        "stat_JT8ghy",
-        "stat_W9mrjV",
-        "stat_7gdyWK",
-        "stat_BTktYW"
+        "v1",
+        "v2",
+        "v3"
       ],
-      "custom_css": [],
-      "name": "Clinical proven",
       "settings": {
-        "bg_color": "#431407",
-        "bg_image": "shopify://shop_images/cupro-texture-dark.png",
-        "image_opacity": 10,
-        "text_color": "#ffffff",
-        "percentage_color": "#fdba74",
-        "highlight_color": "#fdba74",
-        "heading": "<strong>5,000 years of proof.</strong> Confirmed by science.",
-        "heading_size": 31,
-        "subtitle": "Ayurveda called it Tamra Jal. Microbiology calls it the oligodynamic effect. You'll call it your morning water.",
-        "cta_function": "link",
-        "cta_text": "Start the ritual",
-        "cta_url": "",
-        "cta_bg_color": "#ffd600",
-        "cta_text_color": "#000000",
-        "guarantee_text": "30-day money back guarantee",
-        "padding_top": 84,
-        "padding_bottom": 80
+        "heading": "La Communauté <em>Cupro</em>",
+        "subheading": "Ils partagent leur rituel. Partagez le vôtre avec #Cupro",
+        "accent_color": "#B87333",
+        "color_scheme": "scheme-1",
+        "padding_top": 52,
+        "padding_bottom": 52
       }
     },
-    "feature_cards": {
-      "type": "feature-cards",
-      "blocks": {
-        "card_1": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/cupro-card-1.png",
-            "title": "<strong>The Pure Copper</strong>",
-            "text": "While you sleep, copper ions neutralize bacteria in your water: the oligodynamic effect. <strong>No filter, no cartridge, no electricity.</strong> You just wake up and drink.",
-            "card_bg_color": ""
-          }
-        },
-        "card_bYRYEb": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/cupro-card-2.png",
-            "title": "<strong>The Hand-Hammering</strong>",
-            "text": "Your bottle spent hours under an artisan's hammer. The facets are deep, irregular, <strong>impossible to reproduce in a factory</strong>. No one has yours.",
-            "card_bg_color": ""
-          }
-        },
-        "card_GPx6MR": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/cupro-card-3.png",
-            "title": "<strong>The Bare Interior</strong>",
-            "text": "Your water touches <strong>nothing but pure copper</strong>: no lining, no lacquer, no film. That's the whole difference with the “copper-look” bottles you've seen.",
-            "card_bg_color": ""
-          }
-        },
-        "card_xANGWn": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/cupro-card-4.png",
-            "title": "<strong>The Living Patina</strong>",
-            "text": "Your bottle will look better in year three than on day one: the patina deepens and tells your story. <strong>Half a lemon brings back day-one shine</strong> whenever you want it.",
-            "card_bg_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "card_1",
-        "card_bYRYEb",
-        "card_GPx6MR",
-        "card_xANGWn"
-      ],
+    "docteur": {
+      "type": "ab-doctor-note",
       "settings": {
-        "heading": "What's working inside your bottle, <strong>while you sleep</strong>",
-        "highlight_color": "#c2410c",
-        "card_title_size": 22,
-        "card_title_highlight": "#c2410c",
-        "section_bg_color": "",
-        "text_alignment": "center",
-        "card_border_radius": 12,
-        "image_border_radius": 0.8,
-        "mobile_layout": "slider",
-        "pagination_type": "both",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "testimonial_slider": {
-      "type": "testimonial-slider",
-      "blocks": {
-        "ticker_1": {
-          "type": "ticker_image",
-          "settings": {
-            "image": "shopify://shop_images/cupro-ticker-1.png"
-          }
-        },
-        "ticker_image_pGm3ig": {
-          "type": "ticker_image",
-          "settings": {
-            "image": "shopify://shop_images/cupro-ticker-2.png"
-          }
-        },
-        "ticker_image_DeKwWj": {
-          "type": "ticker_image",
-          "settings": {
-            "image": "shopify://shop_images/cupro-ticker-3.png"
-          }
-        },
-        "ticker_image_ziYp3P": {
-          "type": "ticker_image",
-          "settings": {
-            "image": "shopify://shop_images/cupro-ticker-4.png"
-          }
-        },
-        "ticker_image_p4UjJw": {
-          "type": "ticker_image",
-          "settings": {
-            "image": "shopify://shop_images/cupro-ticker-5.png"
-          }
-        },
-        "ticker_image_AGTRdD": {
-          "type": "ticker_image",
-          "settings": {
-            "image": "shopify://shop_images/cupro-ticker-6.png"
-          }
-        },
-        "ticker_image_eQnJRE": {
-          "type": "ticker_image",
-          "settings": {
-            "image": "shopify://shop_images/cupro-ticker-7.png"
-          }
-        },
-        "ticker_image_wgRraX": {
-          "type": "ticker_image",
-          "settings": {
-            "image": "shopify://shop_images/cupro-ticker-8.png"
-          }
-        },
-        "ticker_image_E7knVa": {
-          "type": "ticker_image",
-          "settings": {
-            "image": "shopify://shop_images/cupro-ticker-9.png"
-          }
-        },
-        "ticker_image_3CWTUR": {
-          "type": "ticker_image",
-          "settings": {
-            "image": "shopify://shop_images/cupro-ticker-10.png"
-          }
-        },
-        "review_1": {
-          "type": "review",
-          "settings": {
-            "rating": "5.0",
-            "quote": "\"The second I held it, I understood.\"",
-            "details": "The copper is dense, the hammer marks are deep, you can feel the work behind it. And morning water genuinely tastes different, softer. It's become the first thing I do every day.",
-            "author_name": "DIANE M.",
-            "author_image": "shopify://shop_images/cupro-avatar-1.png",
-            "tag_1": "Craftsmanship",
-            "tag_2": "Water taste",
-            "card_bg_color": ""
-          }
-        },
-        "review_2": {
-          "type": "review",
-          "settings": {
-            "rating": "4.9",
-            "quote": "\"My daughter gave it to me for my 60th. I swear by it now.\"",
-            "details": "She wanted a gift that meant something. The morning ritual has become my moment: I fill it at night, set it on the nightstand, and drink at sunrise. I actually look forward to it.",
-            "author_name": "CAROL R.",
-            "author_image": "shopify://shop_images/cupro-avatar-2.png",
-            "tag_1": "Gift",
-            "tag_2": "Morning ritual",
-            "card_bg_color": ""
-          }
-        },
-        "review_3": {
-          "type": "review",
-          "settings": {
-            "rating": "4.8",
-            "quote": "\"I'd bought a cheap 'copper' bottle before. Not even close.\"",
-            "details": "The first one was copper-colored outside and questionable inside. This is solid, bare copper, inside and out. The weight, the sound, the material: a different league of object.",
-            "author_name": "MARK L.",
-            "author_image": "shopify://shop_images/cupro-avatar-3.png",
-            "tag_1": "Solid copper",
-            "tag_2": "Quality",
-            "card_bg_color": ""
-          }
-        },
-        "review_4": {
-          "type": "review",
-          "settings": {
-            "rating": "4.9",
-            "quote": "\"The patina after two months is gorgeous.\"",
-            "details": "I worried about the copper darkening. Turns out it's my favorite part: the bottle tells a story. And when I want it bright again, lemon and salt, 30 seconds, it shines like day one.",
-            "author_name": "HEATHER G.",
-            "author_image": "shopify://shop_images/cupro-avatar-4.png",
-            "tag_1": "Patina",
-            "tag_2": "Easy care",
-            "card_bg_color": ""
-          }
-        },
-        "review_5": {
-          "type": "review",
-          "settings": {
-            "rating": "5.0",
-            "quote": "\"Not a single plastic bottle in the house anymore.\"",
-            "details": "We got three with the bundle savings, one each. Six months later we literally haven't bought a case of water. The bottle budget went to zero and we drink water that rested in copper.",
-            "author_name": "JUSTIN B.",
-            "author_image": "shopify://shop_images/cupro-avatar-5.png",
-            "tag_1": "Zero plastic",
-            "tag_2": "Whole family",
-            "card_bg_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "ticker_1",
-        "ticker_image_pGm3ig",
-        "ticker_image_DeKwWj",
-        "ticker_image_ziYp3P",
-        "ticker_image_p4UjJw",
-        "ticker_image_AGTRdD",
-        "ticker_image_eQnJRE",
-        "ticker_image_wgRraX",
-        "ticker_image_E7knVa",
-        "ticker_image_3CWTUR",
-        "review_1",
-        "review_2",
-        "review_3",
-        "review_4",
-        "review_5"
-      ],
-      "custom_css": [
-        ".ts-review__quote {font-weight: bold;}"
-      ],
-      "settings": {
-        "heading": "Real mornings, <strong>real rituals</strong>",
-        "subheading": "What people who switched to copper are saying",
-        "highlight_color": "#c2410c",
-        "star_color": "#c2410c",
-        "verified_color": "#c2410c",
-        "tag_color": "#c2410c",
-        "tag_bg_color": "#fff5ec",
-        "ticker_speed": 30,
-        "section_bg_color": "#fff5ec",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "benefits_showcase": {
-      "type": "benefits-showcase",
-      "blocks": {
-        "benefit_1": {
-          "type": "benefit",
-          "settings": {
-            "icon_name": "water_drop",
-            "title": "Wake up to purer water"
-          }
-        },
-        "benefit_2": {
-          "type": "benefit",
-          "settings": {
-            "icon_name": "eco",
-            "title": "Get plastic out of your life"
-          }
-        },
-        "benefit_3": {
-          "type": "benefit",
-          "settings": {
-            "icon_name": "diamond",
-            "title": "Own a piece nobody can copy"
-          }
-        },
-        "benefit_4": {
-          "type": "benefit",
-          "settings": {
-            "icon_name": "savings",
-            "title": "Never buy a bottle again"
-          }
-        }
-      },
-      "block_order": [
-        "benefit_1",
-        "benefit_2",
-        "benefit_3",
-        "benefit_4"
-      ],
-      "settings": {
-        "heading": "<strong>Purer water.</strong> Every morning.",
-        "subheading": "What changes in your mornings from the very first fill.",
-        "product_image": "shopify://shop_images/cupro-hero.png",
-        "bg_color": "#431407",
-        "bg_color_bottom": "#c2410c",
-        "text_color": "#ffffff",
-        "highlight_color": "#fdba74",
-        "subheading_color": "",
-        "heading_size": 3,
-        "subheading_size": 1.5,
-        "benefit_size": 1.8,
+        "photo": "shopify://shop_images/cupro1v1-doctor.jpg",
+        "kicker": "Avis médical",
+        "quote": "Le cuivre est naturellement anti-microbien et sans danger pour un usage quotidien. Votre corps a besoin de cuivre, environ <strong>0,9 mg par jour</strong>. Une carence provoque fatigue, douleurs articulaires et affaiblissement du système immunitaire. C'est pourquoi les hôpitaux installent des surfaces en cuivre : ce métal détruit les bactéries et les virus <strong>naturellement</strong>, sans produit chimique.",
+        "doctor_name": "Dr Claire Fontaine",
+        "doctor_title": "Médecin Généraliste & Nutritionniste, Diplômée de la Faculté de Médecine de Paris",
+        "pill_text": "Avis médical vérifié",
+        "accent_color": "#B87333",
+        "text_color": "#2A1F1A",
+        "card_color": "#FFFFFF",
+        "bg_color": "#F8F4EF",
         "padding_top": 48,
-        "padding_bottom": 0
+        "padding_bottom": 48
       }
     },
-    "proven_benefits": {
-      "type": "proven-benefits",
-      "blocks": {
-        "pb_1": {
-          "type": "benefit",
-          "settings": {
-            "image": "shopify://shop_images/cupro-step-1.png",
-            "title": "At night",
-            "description": "You fill it",
-            "answer": "Tap or filtered water, the bottle fills in 10 seconds and sits on your nightstand or counter."
-          }
-        },
-        "pb_2": {
-          "type": "benefit",
-          "settings": {
-            "image": "shopify://shop_images/cupro-step-2.png",
-            "title": "While you sleep",
-            "description": "The copper works",
-            "answer": "For 6 to 8 hours, copper ions naturally neutralize bacteria: the oligodynamic effect, documented by microbiology."
-          }
-        },
-        "pb_3": {
-          "type": "benefit",
-          "settings": {
-            "image": "shopify://shop_images/cupro-step-3.png",
-            "title": "At sunrise",
-            "description": "You drink",
-            "answer": "Rested, softened water on an empty stomach: the ancient Tamra Jal ritual in its simplest form."
-          }
-        },
-        "pb_4": {
-          "type": "benefit",
-          "settings": {
-            "image": "shopify://shop_images/cupro-step-4.png",
-            "title": "Over the years",
-            "description": "The object lives",
-            "answer": "You'll never shop for a bottle again: copper doesn't wear out, it patinas. Half a lemon revives the shine whenever you like, for decades."
-          }
-        }
-      },
-      "block_order": [
-        "pb_1",
-        "pb_2",
-        "pb_3",
-        "pb_4"
-      ],
-      "settings": {
-        "heading": "<strong>How it works.</strong> The metal does the job.",
-        "subheading": "No filter, no cartridge, no subscription. <strong>Just the metal humanity has trusted with its water for 5,000 years.</strong>",
-        "highlight_color": "#c2410c",
-        "bg_color": "#fff5ec",
-        "cta_text": "Start the ritual",
-        "cta_link": "",
-        "cta_note": "30-day money back guarantee",
-        "cta_note_icon_name": "verified_user",
-        "cta_height": 40,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "ticker_bar_E76PpF": {
-      "type": "ticker-bar",
-      "blocks": {
-        "ticker_item_HqnLzq": {
-          "type": "ticker_item",
-          "settings": {
-            "text": "Purifies While You Sleep",
-            "icon_name": "verified"
-          }
-        },
-        "ticker_item_k8LYdF": {
-          "type": "ticker_item",
-          "settings": {
-            "text": "Zero Plastic in Your Body",
-            "icon_name": "verified"
-          }
-        },
-        "ticker_item_TGPdcq": {
-          "type": "ticker_item",
-          "settings": {
-            "text": "No Two Bottles Alike",
-            "icon_name": "verified"
-          }
-        },
-        "ticker_item_R9aqEp": {
-          "type": "ticker_item",
-          "settings": {
-            "text": "Softer Water by Sunrise",
-            "icon_name": "verified"
-          }
-        },
-        "ticker_item_EdVTLR": {
-          "type": "ticker_item",
-          "settings": {
-            "text": "Save on Every 2nd Bottle",
-            "icon_name": "verified"
-          }
-        },
-        "ticker_item_WW7aKr": {
-          "type": "ticker_item",
-          "settings": {
-            "text": "30-Day Guarantee",
-            "icon_name": "verified"
-          }
-        }
-      },
-      "block_order": [
-        "ticker_item_HqnLzq",
-        "ticker_item_k8LYdF",
-        "ticker_item_TGPdcq",
-        "ticker_item_R9aqEp",
-        "ticker_item_EdVTLR",
-        "ticker_item_WW7aKr"
-      ],
-      "name": "Ticker bar",
-      "settings": {
-        "background_color": "#c2410c",
-        "text_color": "#ffffff",
-        "border_position": "none",
-        "border_thickness": 1,
-        "border_color": "#ffffff",
-        "font_size": 14,
-        "font_weight": "500",
-        "spacing": 60,
-        "icon_size": 20,
-        "speed": 20,
-        "padding_top": 8,
-        "padding_bottom": 8,
-        "aria_label": "Scrolling announcements"
-      }
-    },
-    "wellness_journey": {
-      "type": "wellness-journey",
-      "blocks": {
-        "wj_1": {
-          "type": "milestone",
-          "settings": {
-            "week_label": "Night 1: the fill",
-            "bullets": "<ul><li>The bottle fills and sits on the nightstand</li><li>The copper starts working while you sleep</li><li>Nothing else to do</li></ul>"
-          }
-        },
-        "wj_2": {
-          "type": "milestone",
-          "settings": {
-            "week_label": "Morning 1: the taste",
-            "bullets": "<ul><li>Rested water, softer on the palate</li><li>The first glass on an empty stomach becomes a moment</li><li>The plastic bottle stays in the cabinet</li></ul>"
-          }
-        },
-        "wj_3": {
-          "type": "milestone",
-          "settings": {
-            "week_label": "Week 2: the ritual",
-            "bullets": "<ul><li>Filling it at night is a reflex now</li><li>Not one case of bottled water bought since it arrived</li><li>The bottle follows you to the desk and the trail</li></ul>"
-          }
-        },
-        "wj_4": {
-          "type": "milestone",
-          "settings": {
-            "week_label": "Month 2 and beyond",
-            "bullets": "<ul><li>The patina appears: your bottle becomes one of one</li><li>Half a lemon revives it whenever you want</li><li>You gift one, and the ritual spreads</li></ul>"
-          }
-        }
-      },
-      "block_order": [
-        "wj_1",
-        "wj_2",
-        "wj_3",
-        "wj_4"
-      ],
-      "custom_css": [
-        ".wj-cta-button {color: black;}"
-      ],
-      "settings": {
-        "brand_image": "shopify://shop_images/cupro-journey.png",
-        "heading": "<strong>Your first weeks</strong> with Cupro™",
-        "description": "A 10-second daily ritual. Here's how it takes hold:",
-        "highlight_color": "#c2410c",
-        "button_color": "#ffd600",
-        "bg_color": "",
-        "cta_text": "I'm starting the ritual →",
-        "cta_link": "",
-        "cta_note": "30-day money-back guarantee",
-        "cta_note_icon_name": "verified_user",
-        "cta_height": 40,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "reasons_why_VdQFQx": {
-      "type": "reasons-why",
-      "blocks": {
-        "reason_card_XmWM9Y": {
-          "type": "reason_card",
-          "settings": {
-            "image": "shopify://shop_images/cupro-reason-1.png",
-            "label": "Reason 1",
-            "heading": "It works. The others just hold.",
-            "details": "<p>Stainless is neutral. Plastic contaminates. Copper actively purifies the water resting against it: the only container on the market that improves what you pour into it.</p>"
-          }
-        },
-        "reason_card_493cPn": {
-          "type": "reason_card",
-          "settings": {
-            "image": "shopify://shop_images/cupro-reason-2.png",
-            "label": "Reason 2",
-            "heading": "5,000 years of track record, not a trend",
-            "details": "<p>Tamra Jal has crossed centuries while wellness trends come and go. In a world drowning in gadgets, a millennia-old ritual confirmed by modern science is the safe bet.</p>"
-          }
-        },
-        "reason_card_HHJT9J": {
-          "type": "reason_card",
-          "settings": {
-            "image": "shopify://shop_images/cupro-reason-3.png",
-            "label": "Reason 3",
-            "heading": "Copper to the core",
-            "details": "<p>You've seen “copper” bottles that are really plating over steel with a lacquered interior. Yours is solid and bare: your water touches 99.9% copper, inside and out.</p>"
-          }
-        },
-        "reason_card_VCdJrA": {
-          "type": "reason_card",
-          "settings": {
-            "image": "shopify://shop_images/cupro-reason-4.png",
-            "label": "Reason 4",
-            "heading": "An heirloom, not a consumable",
-            "details": "<p>You'll hand this one down. Hand-hammered, one of one, more beautiful with age, while ordinary bottles scratch, dent, and end up in the trash.</p>"
-          }
-        },
-        "reason_card_Np8tDa": {
-          "type": "reason_card",
-          "settings": {
-            "image": "shopify://shop_images/cupro-reason-5.png",
-            "label": "Reason 5",
-            "heading": "30 days to build the ritual",
-            "details": "<p>Money back for a full month: enough time to adopt the evening fill and the sunrise glass. If the ritual doesn't stick, return it for a full refund.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "reason_card_XmWM9Y",
-        "reason_card_493cPn",
-        "reason_card_HHJT9J",
-        "reason_card_VCdJrA",
-        "reason_card_Np8tDa"
-      ],
-      "name": "Reasons why",
-      "settings": {
-        "badge_text": "5 Reasons Why",
-        "subheading": "Cupro™ is unlike any bottle you own",
-        "bg_color": "#fff5ec",
-        "text_color": "#1a1a1a",
-        "badge_bg_color": "#c2410c",
-        "badge_text_color": "#ffffff",
-        "label_bg_color": "#c2410c",
-        "label_text_color": "#ffffff",
-        "card_bg_color": "#ffffff",
-        "card_border_color": "#0000004d",
-        "card_text_color": "#000000",
-        "badge_font_size": 28,
-        "subheading_font_size": 31,
-        "label_font_size": 17,
-        "card_heading_font_size": 21,
-        "details_font_size": 16,
-        "card_height": 408,
-        "card_radius": 12,
-        "card_gap": 13,
-        "max_width": 1500,
-        "cta_text": "Start the ritual",
-        "cta_url": "",
-        "cta_bg_color": "#ffd600",
-        "cta_text_color": "#000000",
-        "cta_font_size": 19,
-        "cta_margin_top": 40,
-        "guarantee_text": "30-day money back guarantee",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "brand_comparison": {
-      "type": "brand-comparison",
-      "blocks": {
-        "bc_1": {
-          "type": "feature",
-          "settings": {
-            "brand_text": "Your water gets purer while you sleep",
-            "competitor_text": "It sits there all night, or absorbs plastic"
-          }
-        },
-        "bc_2": {
-          "type": "feature",
-          "settings": {
-            "brand_text": "You stop thinking about microplastics",
-            "competitor_text": "240,000+ particles ride along in every fill"
-          }
-        },
-        "bc_3": {
-          "type": "feature",
-          "settings": {
-            "brand_text": "People pick it up and ask where it's from",
-            "competitor_text": "Nobody has ever asked about a plastic bottle"
-          }
-        },
-        "bc_4": {
-          "type": "feature",
-          "settings": {
-            "brand_text": "Looks better in year three than on day one",
-            "competitor_text": "Scratched, faded, replaced by next summer"
-          }
-        },
-        "bc_5": {
-          "type": "feature",
-          "settings": {
-            "brand_text": "The last bottle you'll ever buy",
-            "competitor_text": "You've already replaced three this year"
-          }
-        }
-      },
-      "block_order": [
-        "bc_1",
-        "bc_2",
-        "bc_3",
-        "bc_4",
-        "bc_5"
-      ],
-      "settings": {
-        "heading": "Your mornings with <strong>Cupro™</strong> vs. the bottle you own now",
-        "heading_size": 36,
-        "bg_gradient_start": "#431407",
-        "bg_gradient_end": "#c2410c",
-        "text_color": "#ffffff",
-        "highlight_color": "#fdba74",
-        "brand_name": "<strong>Cupro™</strong>",
-        "brand_name_color": "#ffffff",
-        "brand_image": "",
-        "brand_col_color": "#c2410c",
-        "brand_icon_color": "#ffffff",
-        "competitor_label": "<strong>The bottle you own now</strong>",
-        "comp_col_color": "#ffffff",
-        "comp_text_color": "#1a1a1a",
-        "comp_icon_color": "#999999",
-        "icons_filled": true,
-        "checklist_1": "<strong>Overnight</strong> : your water purifies itself while you sleep",
-        "checklist_2": "<strong>Clean</strong> : plastic never touches what you drink",
-        "checklist_3": "<strong>Yours</strong> : hand-hammered, no two alike",
-        "checklist_4": "<strong>Risk-free</strong> : 30 days to fall for it or full refund",
-        "cta_text": "Start the ritual",
-        "cta_link": "",
-        "cta_height": 46,
-        "cta_bg_color": "#ffd600",
-        "cta_text_color": "#000000",
-        "cta_font_weight": "700",
-        "note_text": "30-day money back guarantee",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "competitor_image": ""
-      }
-    },
-    "risk_free_trial": {
-      "type": "risk-free-trial",
-      "settings": {
-        "badge_image": "",
-        "badge_number": "30",
-        "badge_label": "DAYS",
-        "subtitle": "TIME TO BUILD THE RITUAL",
-        "heading": "30-Day Money-Back Guarantee",
-        "heading_size": 23,
-        "description": "A full month to adopt the evening fill and the sunrise glass. If the ritual doesn't win you over, send the bottle back and we refund every cent.",
-        "image": "shopify://shop_images/cupro-guarantee.png",
-        "bg_color": "#fff5ec",
-        "accent_color": "#c2410c",
-        "text_color": "",
-        "cta_text": "Start the ritual",
-        "cta_link": "",
-        "cta_height": 50,
-        "cta_bg_color": "",
-        "cta_text_color": "",
-        "padding_top": 28,
-        "badge_color": "#c2410c"
-      }
-    },
-    "1773377171b98d1ae1": {
-      "type": "apps",
-      "disabled": true,
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "collapsible_content_TCEeNz": {
+    "conseils": {
       "type": "collapsible-content",
       "blocks": {
-        "collapsible_row_kP7dka": {
+        "c1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How does copper purify water?",
-            "icon": "none",
-            "row_content": "<p>It's the <strong>oligodynamic effect</strong>: copper ions naturally neutralize bacteria in water that rests against the metal. Leave water in the bottle <strong>6 to 8 hours</strong> (overnight) for the full effect. No filter, no chemicals.</p>",
-            "page": ""
+            "heading": "Conseils d'utilisation",
+            "icon": "leaf",
+            "row_content": "<p>Pour profiter pleinement de votre gourde Cupro™, utilisez-la uniquement avec de l'eau. Nous déconseillons les boissons acides comme les sodas, jus de fruits, café ou boissons gazeuses. L'idéal est de laisser l'eau reposer quelques heures avant consommation.</p>"
           }
         },
-        "collapsible_row_jgAFHc": {
+        "c2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Does the water taste different?",
-            "icon": "none",
-            "row_content": "<p>Water rested in copper is often described as <strong>softer and rounder</strong>. It's subtle, and it's exactly what ritual keepers end up craving every morning.</p>",
-            "page": ""
+            "heading": "La gourde est-elle vraiment en cuivre ?",
+            "icon": "question_mark",
+            "row_content": "<p>Oui. Les gourdes Cupro™ sont fabriquées avec du cuivre alimentaire, aussi bien à l'intérieur qu'à l'extérieur. L'intérieur peut présenter une teinte différente de l'extérieur, car le traitement appliqué pour le contact direct avec l'eau répond à des exigences alimentaires européennes plus strictes. Les propriétés traditionnellement associées au cuivre restent présentes grâce au traitement cuivre en contact avec l'eau à l'intérieur de la gourde. Cependant, ce modèle de gourde n'est pas en cuivre massif : sa structure renforcée en acier inoxydable la rend plus robuste et plus durable au quotidien.</p>"
           }
         },
-        "collapsible_row_qUEDkw": {
+        "c3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Is it safe to drink from copper?",
-            "icon": "none",
-            "row_content": "<p>Yes, within the classic ritual: water rested for a few hours picks up trace amounts of copper, far below recommended limits. Copper is actually an essential trace mineral your body needs. Just avoid storing acidic drinks (juice, soda) in it for days.</p>",
-            "page": ""
+            "heading": "Livraison & garantie",
+            "icon": "truck",
+            "row_content": "<p>Votre commande est expédiée sous 48 h. La livraison suivie est offerte dès 35 € d'achat et prend généralement entre 5 à 10 jours ouvrés. Nos gourdes bénéficient d'une garantie à vie grâce à leur qualité premium et leur conception durable, et chaque commande est protégée par notre garantie satisfait ou remboursé de 30 jours.</p>"
           }
         },
-        "collapsible_row_FCYENr": {
+        "c4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "The copper is darkening. Is that normal?",
-            "icon": "none",
-            "row_content": "<p>Yes: that's the <strong>natural patina</strong> of pure copper, and it's proof your bottle is neither lacquered nor plated. To bring back the day-one shine: half a lemon and a pinch of salt, 30 seconds.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_JXE9KX": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I care for it day to day?",
-            "icon": "none",
-            "row_content": "<p>Rinse with clear water, air dry. Once or twice a month: <strong>half a lemon and a pinch of salt</strong> inside and out, then rinse. No dishwasher, no abrasive sponge.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_xwHJdL": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Shipping and returns?",
-            "icon": "none",
-            "row_content": "<p><strong>Free tracked shipping.</strong> Since every bottle is hammered by hand, allow the delivery window shown at checkout. And you're covered: <strong>30-day money-back guarantee</strong>, simple return, full refund.</p>",
-            "page": ""
+            "heading": "Combien de temps laisser l'eau dans la gourde ?",
+            "icon": "clock",
+            "row_content": "<p>Pour profiter pleinement des propriétés du cuivre, il est recommandé de laisser l'eau reposer dans la gourde pendant 6 à 8 heures minimum, idéalement toute une nuit. Cette pratique traditionnelle ayurvédique est connue sous le nom de « Tamra Jal ».</p>"
           }
         }
       },
       "block_order": [
-        "collapsible_row_kP7dka",
-        "collapsible_row_jgAFHc",
-        "collapsible_row_qUEDkw",
-        "collapsible_row_FCYENr",
-        "collapsible_row_JXE9KX",
-        "collapsible_row_xwHJdL"
+        "c1",
+        "c2",
+        "c3",
+        "c4"
       ],
-      "name": "t:sections.collapsible_content.presets.name",
       "settings": {
-        "caption": "",
-        "heading": "Frequently Asked Questions",
-        "heading_size": "h1",
+        "caption": "Bien utiliser votre gourde",
+        "heading": "Conseils d'utilisation",
+        "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",
-        "container_color_scheme": "",
-        "color_scheme": "",
+        "container_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 44,
+        "padding_bottom": 44
+      }
+    },
+    "communaute": {
+      "type": "ab-photo-marquee",
+      "blocks": {
+        "p1": {
+          "type": "photo",
+          "settings": {
+            "photo": "shopify://shop_images/cupro1v1-marquee-1.jpg"
+          }
+        },
+        "p2": {
+          "type": "photo",
+          "settings": {
+            "photo": "shopify://shop_images/cupro1v1-marquee-2.jpg"
+          }
+        },
+        "p3": {
+          "type": "photo",
+          "settings": {
+            "photo": "shopify://shop_images/cupro1v1-marquee-3.jpg"
+          }
+        },
+        "p4": {
+          "type": "photo",
+          "settings": {
+            "photo": "shopify://shop_images/cupro1v1-marquee-4.jpg"
+          }
+        },
+        "p5": {
+          "type": "photo",
+          "settings": {
+            "photo": "shopify://shop_images/cupro1v1-marquee-5.jpg"
+          }
+        },
+        "p6": {
+          "type": "photo",
+          "settings": {
+            "photo": "shopify://shop_images/cupro1v1-marquee-6.png"
+          }
+        },
+        "p7": {
+          "type": "photo",
+          "settings": {
+            "photo": "shopify://shop_images/cupro1v1-marquee-7.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ],
+      "settings": {
+        "kicker": "La Communauté Cupro",
+        "heading": "Ils l'ont adoptée. <em>Et vous ?</em>",
+        "subheading": "Partagez votre expérience avec #Cupro",
+        "accent_color": "#B87333",
+        "text_color": "#2A1F1A",
+        "bg_color": "#FFFFFF",
+        "photo_height": 300,
+        "speed": 40,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "piliers": {
+      "type": "ab-pillar-cards",
+      "blocks": {
+        "b1": {
+          "type": "pillar",
+          "settings": {
+            "kicker": "Pureté",
+            "title": "Auto-Purification Naturelle",
+            "body": "Le cuivre pur aide naturellement à maintenir une eau plus propre au quotidien. Une solution ancestrale élégante, sans filtre ni produit chimique.",
+            "stat": "Cu",
+            "stat_label": "Cuivre à l'intérieur & à l'extérieur"
+          }
+        },
+        "b2": {
+          "type": "pillar",
+          "settings": {
+            "kicker": "Sécurité",
+            "title": "Sans BPA & Sans Toxines",
+            "body": "Dites adieu aux bouteilles plastiques et aux microplastiques. Une hydratation plus saine, plus naturelle et plus élégante.",
+            "stat": "0",
+            "stat_label": "Plastique & produits chimiques"
+          }
+        },
+        "b3": {
+          "type": "pillar",
+          "settings": {
+            "kicker": "Durabilité",
+            "title": "Garantie à Vie",
+            "body": "Fabriquée pour durer des années sans perdre son élégance. Une gourde premium conçue comme un véritable investissement bien-être.",
+            "stat": "∞",
+            "stat_label": "Conçue pour durer toute une vie"
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3"
+      ],
+      "settings": {
+        "heading": "Libérez-vous des microplastiques. Choisissez <em>l'hydratation pure</em>.",
+        "subheading": "Rejoignez des milliers de personnes qui ont choisi une eau plus saine, sans toxines et sans compromis, grâce au cuivre authentique.",
+        "accent_color": "#B87333",
+        "text_color": "#2A1F1A",
+        "card_color": "#FFFFFF",
+        "bg_color": "#F8F4EF",
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "compare": {
+      "type": "ab-compare-columns",
+      "blocks": {
+        "col1": {
+          "type": "column",
+          "settings": {
+            "title": "Plastique",
+            "highlight": false,
+            "rows": "[x] Sans BPA\n[x] Propriétés antibactériennes\n[x] Enrichit l'eau en minéraux\n[x] Aide à la digestion\n[x] Renforce l'immunité\n[x] Écologique & durable"
+          }
+        },
+        "col2": {
+          "type": "column",
+          "settings": {
+            "title": "Inox",
+            "highlight": false,
+            "rows": "Sans BPA\n[x] Propriétés antibactériennes\n[x] Enrichit l'eau en minéraux\n[x] Aide à la digestion\n[x] Renforce l'immunité\n[x] Écologique & durable"
+          }
+        },
+        "col3": {
+          "type": "column",
+          "settings": {
+            "title": "Cupro™",
+            "image": "shopify://shop_images/cupro1v1-famille.jpg",
+            "highlight": true,
+            "rows": "Sans BPA\nPropriétés antibactériennes\nEnrichit l'eau en minéraux\nAide à la digestion\nRenforce l'immunité\nÉcologique & durable"
+          }
+        }
+      },
+      "block_order": [
+        "col1",
+        "col2",
+        "col3"
+      ],
+      "settings": {
+        "heading": "Toutes les gourdes ne se valent pas. Pourquoi choisir <em>Cupro™</em> ?",
+        "columns": 3,
+        "accent_color": "#B87333",
+        "color_scheme": "scheme-1",
+        "footer_text": "Cupro™ combine élégance, bien-être et hydratation pure.",
+        "cta_text": "Je commande ma gourde",
+        "cta_link": "#MainProduct",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "avis": {
+      "type": "ab-review-cards",
+      "blocks": {
+        "r1": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/cupro1v1-avis-1.png",
+            "title": "Un achat que je ne regrette pas !",
+            "quote": "<p>Je l'utilise depuis 3 semaines maintenant. Mon transit s'est amélioré, je me sens moins ballonnée et l'eau a vraiment un goût différent, plus doux. Je recommande à 100 %.</p>",
+            "author": "Chloé D. · Paris, Île-de-France",
+            "verified_text": "Achat vérifié"
+          }
+        },
+        "r2": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/cupro1v1-avis-2.png",
+            "title": "Magnifique et vraiment efficace",
+            "quote": "<p>J'adore l'aspect naturel et chaleureux du cuivre. La qualité est au rendez-vous et j'ai déjà noté une différence sur mon énergie matinale. Le rituel du matin à jeun est devenu un moment que j'attends.</p>",
+            "author": "Salomé M. · Lyon, Auvergne-Rhône-Alpes",
+            "verified_text": "Achat vérifié"
+          }
+        },
+        "r3": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/cupro1v1-avis-3.png",
+            "title": "Le cadeau parfait pour les amoureux du bien-être",
+            "quote": "<p>Offerte pour l'anniversaire de ma sœur, elle est absolument ravie ! L'emballage est soigné et la gourde est encore plus belle en vrai. J'en ai commandé une deuxième pour moi.</p>",
+            "author": "Léa B. · Bordeaux, Nouvelle-Aquitaine",
+            "verified_text": "Achat vérifié"
+          }
+        },
+        "r4": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/cupro1v1-avis-4.png",
+            "title": "Convaincu dès la première semaine",
+            "quote": "<p>Je pratique le sport régulièrement et j'ai remarqué une meilleure récupération depuis que j'utilise cette gourde. En plus, le fait de ne plus boire dans du plastique me semblait essentiel. Top produit.</p>",
+            "author": "Loïc R. · Toulouse, Occitanie",
+            "verified_text": "Achat vérifié"
+          }
+        },
+        "r5": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/cupro1v1-avis-5.png",
+            "title": "La qualité parle d'elle-même",
+            "quote": "<p>Sceptique de nature, j'ai quand même tenté l'expérience. Le cuivre est lourd, solide, vraiment premium. Après un mois d'utilisation quotidienne, ma digestion est nettement meilleure. Je ne reviendrai pas en arrière.</p>",
+            "author": "Fabien L. · Nantes, Pays de la Loire",
+            "verified_text": "Achat vérifié"
+          }
+        },
+        "r6": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/cupro1v1-avis-6.png",
+            "title": "Zéro plastique, 100 % bien-être",
+            "quote": "<p>Je voulais arrêter définitivement le plastique et Cupro m'a convaincu. Au-delà de l'aspect écologique, les bienfaits sur ma santé sont réels. Je sens moins de fatigue et mon système immunitaire semble plus robuste cet hiver.</p>",
+            "author": "Mathieu C. · Strasbourg, Grand Est",
+            "verified_text": "Achat vérifié"
+          }
+        }
+      },
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6"
+      ],
+      "settings": {
+        "heading": "Ils ont essayé, <em>ils sont conquis</em>",
+        "subheading": "★★★★★ 4,9 / 5 · Plus de 247 avis vérifiés",
+        "star_color": "#B87333",
+        "title_color": "#2A1F1A",
+        "card_bg": "#FFFFFF",
+        "card_border": "#EDE4D7",
+        "accent_color": "#B87333",
+        "color_scheme": "scheme-1",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "transparence": {
+      "type": "collapsible-content",
+      "blocks": {
+        "t1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Fiche de Transparence : consulter nos certifications",
+            "icon": "shield",
+            "row_content": "<p>Les gourdes Cupro™ ont été testées par un laboratoire indépendant spécialisé afin de vérifier leur conformité aux exigences applicables aux matériaux en contact alimentaire. Les analyses réalisées incluent notamment :</p><ul><li>les tests de migration alimentaire,</li><li>les contrôles des métaux lourds,</li><li>les tests de conformité des matériaux,</li><li>ainsi que les contrôles de sécurité des composants.</li></ul><p>Les résultats obtenus sont conformes aux normes européennes testées, sans migration anormale détectée dans les conditions d'analyse du laboratoire.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "t1"
+      ],
+      "settings": {
+        "caption": "Transparence",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
@@ -1099,17 +563,130 @@
         "padding_bottom": 36
       }
     },
-    "1773377263ad90805a": {
-      "type": "apps",
+    "faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "f1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Est-il sans danger de boire tous les jours dans une bouteille en cuivre ?",
+            "icon": "question_mark",
+            "row_content": "<p>Oui, tout à fait. Boire dans une bouteille en cuivre est une pratique recommandée depuis des millénaires par la médecine ayurvédique. La quantité de cuivre transmise à l'eau est infime et bénéfique pour l'organisme. Nous recommandons de boire 2 à 3 verres par jour dans votre gourde Cupro™, en commençant idéalement par un verre à jeun le matin.</p>"
+          }
+        },
+        "f2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Pourquoi l'eau a-t-elle un goût légèrement différent ?",
+            "icon": "question_mark",
+            "row_content": "<p>C'est tout à fait normal et c'est bon signe ! Le cuivre interagit naturellement avec l'eau pour lui conférer ses propriétés purifiantes. Ce léger goût minéral disparaît souvent après quelques jours d'utilisation, une fois que la gourde est bien rodée. Vous pouvez également rincer la gourde avec de l'eau citronnée pour adoucir le goût au début.</p>"
+          }
+        },
+        "f3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment la gourde Cupro est-elle fabriquée ?",
+            "icon": "question_mark",
+            "row_content": "<p>Nos gourdes sont fabriquées par des ateliers spécialisés dans le travail du cuivre, selon des techniques inspirées des traditions indiennes transmises depuis plusieurs générations. Chaque gourde est conçue avec une structure renforcée en acier inoxydable, reconnue pour sa solidité et sa stabilité alimentaire, associée à un traitement de cuivrage alimentaire appliqué à l'intérieur comme à l'extérieur. Le traitement intérieur, directement en contact avec l'eau, répond à des exigences alimentaires européennes plus strictes. Chaque gourde Cupro™ fait l'objet de contrôles qualité stricts et de tests de conformité adaptés au contact alimentaire.</p>"
+          }
+        },
+        "f4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Le cuivre et ses nuances : ce qu'il faut savoir",
+            "icon": "question_mark",
+            "row_content": "<p>Le cuivre existe en plusieurs teintes selon son traitement, toutes authentiques. L'extérieur de nos gourdes arbore la belle teinte brun-rouge caractéristique du cuivre. L'intérieur, lui, peut présenter une teinte plus dorée ou jaunâtre : c'est tout à fait normal. Cette différence s'explique par le procédé de fabrication, l'intérieur étant soumis à des normes de sécurité alimentaire plus strictes que l'extérieur. Le résultat est une surface intérieure en cuivre véritable, testée et certifiée pour le contact avec l'eau, simplement d'une nuance naturellement plus claire.</p>"
+          }
+        },
+        "f5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment nettoyer la gourde ?",
+            "icon": "question_mark",
+            "row_content": "<p>Le nettoyage est simple et naturel. Une fois par semaine, remplissez la gourde avec un mélange d'eau et de jus de citron (ou une cuillère de sel marin), laissez reposer 5 à 10 minutes, puis rincez abondamment à l'eau claire. Ne passez jamais la gourde au lave-vaisselle et évitez les produits chimiques ou éponges abrasives. Il est normal que le cuivre s'oxyde légèrement, cela ne nuit pas à ses propriétés.</p>"
+          }
+        },
+        "f6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Puis-je y conserver de l'eau citronnée ou d'autres boissons ?",
+            "icon": "question_mark",
+            "row_content": "<p>Nous recommandons d'utiliser la gourde uniquement avec de l'eau plate. Les boissons acides (jus de citron, jus de fruits, sodas, boissons chaudes) peuvent accélérer l'oxydation du cuivre et altérer le goût. Pour les meilleures propriétés ayurvédiques, laissez reposer de l'eau filtrée ou du robinet pendant 6 à 8 heures minimum, idéalement toute la nuit.</p>"
+          }
+        },
+        "f7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Combien de temps l'eau reste-t-elle fraîche dans la gourde ?",
+            "icon": "question_mark",
+            "row_content": "<p>La gourde Cupro™ est en cuivre non isolé : elle n'est donc pas conçue pour maintenir la température comme une bouteille isotherme. L'eau reste à température ambiante. L'objectif de Cupro est de vous offrir une eau purifiée et enrichie en minéraux grâce au cuivre, pas de la conserver froide. Pour un usage optimal, préparez votre eau la veille et buvez-la dans les 24 heures.</p>"
+          }
+        },
+        "f8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quel est le délai de livraison ?",
+            "icon": "question_mark",
+            "row_content": "<p>Nous expédions votre commande sous 48 heures ouvrées. La livraison en France métropolitaine prend ensuite 5 à 10 jours ouvrés, et la livraison suivie est offerte dès 35 € d'achat. Vous recevrez un email avec votre numéro de suivi dès l'expédition.</p>"
+          }
+        },
+        "f9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "La gourde fuit-elle ou est-elle étanche ?",
+            "icon": "question_mark",
+            "row_content": "<p>La gourde Cupro™ est dotée d'un couvercle hermétique qui assure une fermeture étanche. Elle est conçue pour être transportée sans risque de fuite dans un sac ou un sac à dos. Nous vous recommandons de toujours fermer le couvercle correctement et de ne pas laisser la gourde dans une position inclinée prolongée lorsqu'elle est pleine.</p>"
+          }
+        },
+        "f10": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Et si ça ne me plaît pas ?",
+            "icon": "question_mark",
+            "row_content": "<p>Votre satisfaction est notre priorité absolue. Nous offrons une garantie satisfait ou remboursé de 30 jours à compter de la réception de votre commande. Si pour quelque raison que ce soit vous n'êtes pas entièrement satisfait, contactez notre service client français : nous nous occupons de tout.</p>"
+          }
+        },
+        "f11": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Vos gourdes sont-elles certifiées et conformes à l'usage alimentaire ?",
+            "icon": "question_mark",
+            "row_content": "<p>Oui. Les gourdes Cupro™ ont été testées par un laboratoire indépendant spécialisé afin de vérifier leur conformité aux exigences applicables aux matériaux en contact alimentaire : tests de migration alimentaire, contrôles des métaux lourds, tests de conformité des matériaux et contrôles de sécurité des composants. Les résultats sont conformes aux normes européennes testées.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "f5",
+        "f6",
+        "f7",
+        "f8",
+        "f9",
+        "f10",
+        "f11"
+      ],
       "settings": {
-        "include_margins": true
+        "caption": "Vous avez des questions ?",
+        "heading": "Questions Fréquentes",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 44,
+        "padding_bottom": 52
       }
     },
-    "related-products": {
+    "related": {
       "type": "related-products",
-      "disabled": true,
       "settings": {
-        "heading": "You may also like",
+        "heading": "Vous aimerez peut-être aussi",
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
@@ -1120,66 +697,22 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "padding_top": 36,
-        "padding_bottom": 28
-      }
-    },
-    "video_carousel": {
-      "type": "video-carousel",
-      "blocks": {
-        "video_1": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/1561610db3524fa88a3f86ac01f7a746.mov"
-          }
-        },
-        "video_2": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/046da80b127f4f19ae81fa65852af743.mov"
-          }
-        },
-        "video_3": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/9dca758383b94126a595ec1ebd9dc34b.mov"
-          }
-        }
-      },
-      "block_order": [
-        "video_1",
-        "video_2",
-        "video_3"
-      ],
-      "settings": {
-        "eyebrow": "The Cupro community",
-        "title": "They share their ritual",
-        "accent_color": "#c2410c",
-        "accent_icon_color": "#ffffff",
-        "bg_color": "#fff5ec",
-        "text_color": "#431407",
-        "corner_radius": 20,
-        "padding_top": 60,
-        "padding_bottom": 60
+        "padding_top": 44,
+        "padding_bottom": 56
       }
     }
   },
   "order": [
     "main",
-    "video_carousel",
-    "clinical_proven_XJiV6J",
-    "feature_cards",
-    "testimonial_slider",
-    "benefits_showcase",
-    "proven_benefits",
-    "ticker_bar_E76PpF",
-    "wellness_journey",
-    "reasons_why_VdQFQx",
-    "brand_comparison",
-    "risk_free_trial",
-    "1773377171b98d1ae1",
-    "collapsible_content_TCEeNz",
-    "1773377263ad90805a",
-    "related-products"
+    "videos",
+    "docteur",
+    "conseils",
+    "communaute",
+    "piliers",
+    "compare",
+    "avis",
+    "transparence",
+    "faq",
+    "related"
   ]
 }
