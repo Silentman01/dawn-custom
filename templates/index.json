@@ -30,7 +30,10 @@
           "settings": {
             "button_label": "Découvrir la boutique",
             "button_link": "/collections/all",
-            "button_style_secondary": false
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
@@ -54,7 +57,7 @@
         "collection": "all",
         "products_to_show": 12,
         "title": "Nos produits",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -129,7 +132,7 @@
         "stat": "",
         "body": "<p>Chaque commande est protégée 30 jours : remboursement ou remplacement, sans discuter.</p>",
         "image_width": "medium",
-        "accent_color": "#B08968",
+        "accent_color": "#b08968",
         "color_scheme": "scheme-3",
         "padding_top": 56,
         "padding_bottom": 56
