@@ -30,7 +30,7 @@
           "type": "statement",
           "settings": {
             "subtitle": "Cuivre alimentaire. Le rituel ayurvédique du Tamra Jal.",
-            "title": "Une Eau Vivante, Purifiée Naturellement Pendant Que Vous Dormez.",
+            "title": "Une eau vivante, purifiée naturellement pendant que vous dormez.",
             "title_size": 26
           }
         },
@@ -147,7 +147,7 @@
             "bg_color": "#faf9f6",
             "border_radius": 50,
             "title": "Plus de 5 000 clients",
-            "subtitle": "un rituel simple.",
+            "subtitle": "ont déjà adopté le rituel.",
             "badge_color": "#51af6f",
             "image_1": "shopify://shop_images/cupro-social-1.png",
             "image_2": "shopify://shop_images/cupro-social-2.png",
@@ -559,7 +559,7 @@
         ".ts-review__quote {font-weight: bold;}"
       ],
       "settings": {
-        "heading": "Elles et ils ont adopté le rituel",
+        "heading": "Ils ont adopté le rituel",
         "subheading": "4,9/5 sur plus de 2 300 avis",
         "highlight_color": "#8c5a2b",
         "star_color": "#8c5a2b",
@@ -612,7 +612,7 @@
       ],
       "settings": {
         "heading": "Ce que le cuivre change au quotidien",
-        "subheading": "Ce qui change quand le pore est enfin libéré.",
+        "subheading": "Quatre bénéfices concrets, dès les premières semaines.",
         "product_image": "shopify://shop_images/cupro-hero.png",
         "bg_color": "#d9a05b",
         "bg_color_bottom": "#8c5a2b",
@@ -674,7 +674,7 @@
       ],
       "settings": {
         "heading": "Votre rituel, semaine après semaine",
-        "subheading": "Une exfoliation douce et continue, calibrée pour les zones sensibles.",
+        "subheading": "Les effets s'installent naturellement, nuit après nuit.",
         "highlight_color": "#8c5a2b",
         "bg_color": "#faf9f6",
         "cta_text": "Adoptez le geste",
@@ -771,7 +771,7 @@
           "type": "milestone",
           "settings": {
             "week_label": "Matin",
-            "bullets": "<ul><li>Un grand verre au réveil</li><li>Le goût doux signe une eau reposée</li><li>10 secondes qui lancent la journée</li></ul>"
+            "bullets": "<ul><li>Un grand verre au réveil</li><li>Un goût plus doux, signe d'une eau qui a bien reposé</li><li>Dix secondes pour bien commencer la journée</li></ul>"
           }
         },
         "wj_3": {
@@ -822,7 +822,7 @@
           "settings": {
             "image": "shopify://shop_images/cupro-reason-1.png",
             "label": "Raison 1",
-            "heading": "Elle agit sur votre eau, pas juste elle la contient",
+            "heading": "Elle agit sur votre eau, au lieu de simplement la contenir",
             "details": "<p>Le plastique contamine, l'inox ne fait rien. Le cuivre purifie activement l'eau pendant qu'elle repose : c'est le seul matériau qui travaille pour vous.</p>"
           }
         },
