@@ -50,8 +50,27 @@
         {%- endif -%}
       {%- endfor -%}
     </div>
+    {%- if section.settings.footer_text != blank or section.settings.cta_text != blank -%}
+      <div class="ab-cc__footer">
+        {%- if section.settings.footer_text != blank -%}<p class="ab-cc__footnote">{{ section.settings.footer_text }}</p>{%- endif -%}
+        {%- if section.settings.cta_text != blank and section.settings.cta_link != blank -%}
+          <a href="{{ section.settings.cta_link }}" class="ab-cc__cta">{{ section.settings.cta_text }}</a>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
   </div>
 </div>
+
+{%- style -%}
+  #AbCc-{{ section.id }} .ab-cc__footer { text-align: center; margin-top: 3rem; }
+  #AbCc-{{ section.id }} .ab-cc__footnote { font-size: 1.5rem; margin: 0 0 1.6rem; }
+  #AbCc-{{ section.id }} .ab-cc__cta {
+    display: inline-block; padding: 1.4rem 3.4rem; border-radius: 0.8rem;
+    background: {{ section.settings.accent_color }}; color: #fff; font-weight: 700;
+    font-size: 1.5rem; text-decoration: none;
+  }
+  #AbCc-{{ section.id }} .ab-cc__cta:hover { opacity: 0.9; }
+{%- endstyle -%}
 
 {% schema %}
 {
@@ -62,6 +81,9 @@
     { "type": "range", "id": "columns", "min": 2, "max": 4, "step": 1, "label": "Columns", "default": 3 },
     { "type": "color", "id": "accent_color", "label": "Highlight color", "default": "#4A3D6B" },
     { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-1" },
+    { "type": "inline_richtext", "id": "footer_text", "label": "Footer line" },
+    { "type": "text", "id": "cta_text", "label": "CTA text" },
+    { "type": "url", "id": "cta_link", "label": "CTA link" },
     { "type": "range", "id": "padding_top", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding top", "default": 52 },
     { "type": "range", "id": "padding_bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding bottom", "default": 52 }
   ],

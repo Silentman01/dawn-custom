@@ -1,0 +1,124 @@
+{%- comment -%}
+  A/B clone section (rule 56b library): medical-endorsement card.
+  Mirrors mytamra's "Avis Docteur" block: portrait photo left, quote with
+  highlighted key phrases, doctor name + credentials, verified pill.
+  Fully parameterized. Scroll-free static card (rule 60 n/a).
+{%- endcomment -%}
+
+{%- style -%}
+  #AbDoc-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+    background: {{ section.settings.bg_color }};
+  }
+  #AbDoc-{{ section.id }} .ab-doc__card {
+    display: flex;
+    gap: 2.6rem;
+    align-items: center;
+    max-width: 86rem;
+    margin: 0 auto;
+    padding: 2.8rem;
+    background: {{ section.settings.card_color }};
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-radius: 1.6rem;
+    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.07);
+  }
+  #AbDoc-{{ section.id }} .ab-doc__photo {
+    flex: 0 0 22rem;
+  }
+  #AbDoc-{{ section.id }} .ab-doc__photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 1.2rem;
+    display: block;
+  }
+  #AbDoc-{{ section.id }} .ab-doc__kicker {
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: {{ section.settings.accent_color }};
+    margin-bottom: 1rem;
+  }
+  #AbDoc-{{ section.id }} .ab-doc__quote {
+    font-size: 1.7rem;
+    line-height: 1.6;
+    color: {{ section.settings.text_color }};
+    margin: 0 0 1.8rem;
+  }
+  #AbDoc-{{ section.id }} .ab-doc__quote strong { color: {{ section.settings.accent_color }}; }
+  #AbDoc-{{ section.id }} .ab-doc__name {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: {{ section.settings.text_color }};
+    margin: 0;
+  }
+  #AbDoc-{{ section.id }} .ab-doc__title {
+    font-size: 1.3rem;
+    color: {{ section.settings.text_color | color_modify: 'alpha', 0.65 }};
+    margin: 0.2rem 0 1.4rem;
+  }
+  #AbDoc-{{ section.id }} .ab-doc__pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.6rem 1.4rem;
+    border-radius: 999px;
+    background: {{ section.settings.accent_color | color_modify: 'alpha', 0.12 }};
+    color: {{ section.settings.accent_color }};
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  #AbDoc-{{ section.id }} .ab-doc__pill svg { width: 1.6rem; height: 1.6rem; }
+  @media screen and (max-width: 749px) {
+    #AbDoc-{{ section.id }} .ab-doc__card { flex-direction: column; padding: 2rem; gap: 1.8rem; }
+    #AbDoc-{{ section.id }} .ab-doc__photo { flex: none; max-width: 20rem; }
+    #AbDoc-{{ section.id }} .ab-doc__quote { font-size: 1.5rem; }
+  }
+{%- endstyle -%}
+
+<div id="AbDoc-{{ section.id }}">
+  <div class="page-width">
+    <div class="ab-doc__card">
+      {%- if section.settings.photo != blank -%}
+        <div class="ab-doc__photo">
+          {{ section.settings.photo | image_url: width: 600 | image_tag: loading: 'lazy', widths: '300,450,600', sizes: '(min-width: 750px) 220px, 200px' }}
+        </div>
+      {%- endif -%}
+      <div class="ab-doc__body">
+        {%- if section.settings.kicker != blank -%}<div class="ab-doc__kicker">{{ section.settings.kicker }}</div>{%- endif -%}
+        <p class="ab-doc__quote">{{ section.settings.quote }}</p>
+        <p class="ab-doc__name">{{ section.settings.doctor_name }}</p>
+        <p class="ab-doc__title">{{ section.settings.doctor_title }}</p>
+        {%- if section.settings.pill_text != blank -%}
+          <span class="ab-doc__pill">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8.5-7 10-4-1.5-7-5.5-7-10V6z"/><path d="m9 12 2 2 4-4"/></svg>
+            {{ section.settings.pill_text }}
+          </span>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "AB Doctor note",
+  "tag": "section",
+  "settings": [
+    { "type": "image_picker", "id": "photo", "label": "Doctor photo" },
+    { "type": "text", "id": "kicker", "label": "Kicker", "default": "Avis médical" },
+    { "type": "inline_richtext", "id": "quote", "label": "Quote" },
+    { "type": "text", "id": "doctor_name", "label": "Doctor name" },
+    { "type": "text", "id": "doctor_title", "label": "Doctor title / credentials" },
+    { "type": "text", "id": "pill_text", "label": "Verified pill text", "default": "Avis médical vérifié" },
+    { "type": "color", "id": "accent_color", "label": "Accent", "default": "#B87333" },
+    { "type": "color", "id": "text_color", "label": "Text", "default": "#2A1F1A" },
+    { "type": "color", "id": "card_color", "label": "Card background", "default": "#FFFFFF" },
+    { "type": "color", "id": "bg_color", "label": "Section background", "default": "#F8F4EF" },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding top", "default": 48 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding bottom", "default": 48 }
+  ],
+  "presets": [{ "name": "AB Doctor note" }]
+}
+{% endschema %}

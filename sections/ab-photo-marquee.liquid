@@ -1,0 +1,86 @@
+{%- comment -%}
+  A/B clone section (rule 56b library): auto-scrolling photo strip ("community
+  gallery" marquee). Mirrors mytamra's galerie défilement: heading + subtitle +
+  an infinite horizontal band of UGC photos. Pure CSS keyframe animation (not a
+  user scroller — no touch traps; respects prefers-reduced-motion).
+{%- endcomment -%}
+
+{%- style -%}
+  #AbPm-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+    background: {{ section.settings.bg_color }};
+    overflow: hidden;
+  }
+  #AbPm-{{ section.id }} .ab-pm__head { text-align: center; margin-bottom: 2.6rem; padding: 0 1.5rem; }
+  #AbPm-{{ section.id }} .ab-pm__kicker {
+    font-size: 1.2rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
+    color: {{ section.settings.accent_color }}; margin-bottom: 0.8rem;
+  }
+  #AbPm-{{ section.id }} .ab-pm__heading { margin: 0 0 0.8rem; font-size: clamp(2.2rem, 4.4vw, 3.4rem); color: {{ section.settings.text_color }}; }
+  #AbPm-{{ section.id }} .ab-pm__sub { margin: 0; color: {{ section.settings.text_color | color_modify: 'alpha', 0.65 }}; font-size: 1.45rem; }
+  #AbPm-{{ section.id }} .ab-pm__band { display: flex; width: max-content; gap: 1.6rem; animation: abpm-{{ section.id }} {{ section.settings.speed }}s linear infinite; }
+  #AbPm-{{ section.id }} .ab-pm__band img {
+    height: {{ section.settings.photo_height }}px;
+    width: auto;
+    border-radius: 1.2rem;
+    display: block;
+    object-fit: cover;
+  }
+  @keyframes abpm-{{ section.id }} { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  @media (prefers-reduced-motion: reduce) {
+    #AbPm-{{ section.id }} .ab-pm__band { animation: none; flex-wrap: wrap; width: auto; justify-content: center; }
+  }
+  @media screen and (max-width: 749px) {
+    #AbPm-{{ section.id }} .ab-pm__band img { height: {{ section.settings.photo_height | times: 0.72 | round }}px; }
+  }
+{%- endstyle -%}
+
+<div id="AbPm-{{ section.id }}">
+  <div class="ab-pm__head">
+    {%- if section.settings.kicker != blank -%}<div class="ab-pm__kicker">{{ section.settings.kicker }}</div>{%- endif -%}
+    {%- if section.settings.heading != blank -%}<h2 class="ab-pm__heading">{{ section.settings.heading }}</h2>{%- endif -%}
+    {%- if section.settings.subheading != blank -%}<p class="ab-pm__sub">{{ section.settings.subheading }}</p>{%- endif -%}
+  </div>
+  <div class="ab-pm__band" aria-hidden="false">
+    {%- for block in section.blocks -%}
+      {%- if block.settings.photo != blank -%}
+        {{ block.settings.photo | image_url: width: 700 | image_tag: loading: 'lazy', widths: '350,500,700', alt: '' }}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- comment -%} duplicate for seamless loop {%- endcomment -%}
+    {%- for block in section.blocks -%}
+      {%- if block.settings.photo != blank -%}
+        {{ block.settings.photo | image_url: width: 700 | image_tag: loading: 'lazy', widths: '350,500,700', alt: '', aria-hidden: 'true' }}
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "AB Photo marquee",
+  "tag": "section",
+  "settings": [
+    { "type": "text", "id": "kicker", "label": "Kicker" },
+    { "type": "inline_richtext", "id": "heading", "label": "Heading" },
+    { "type": "text", "id": "subheading", "label": "Subheading" },
+    { "type": "color", "id": "accent_color", "label": "Accent", "default": "#B87333" },
+    { "type": "color", "id": "text_color", "label": "Text", "default": "#2A1F1A" },
+    { "type": "color", "id": "bg_color", "label": "Background", "default": "#FFFFFF" },
+    { "type": "range", "id": "photo_height", "min": 160, "max": 420, "step": 10, "unit": "px", "label": "Photo height", "default": 300 },
+    { "type": "range", "id": "speed", "min": 10, "max": 80, "step": 5, "unit": "s", "label": "Loop duration", "default": 40 },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding top", "default": 48 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding bottom", "default": 48 }
+  ],
+  "blocks": [
+    {
+      "type": "photo",
+      "name": "Photo",
+      "settings": [{ "type": "image_picker", "id": "photo", "label": "Photo" }]
+    }
+  ],
+  "max_blocks": 12,
+  "presets": [{ "name": "AB Photo marquee", "blocks": [{ "type": "photo" }, { "type": "photo" }, { "type": "photo" }] }]
+}
+{% endschema %}

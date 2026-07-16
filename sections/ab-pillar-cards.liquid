@@ -1,0 +1,115 @@
+{%- comment -%}
+  A/B clone section (rule 56b library): N pillar cards with kicker, title, body
+  and a stat footer line. Mirrors mytamra's "Pureté / Sécurité / Durabilité" trio
+  under the heading "Libérez-vous des microplastiques". Fully parameterized blocks.
+{%- endcomment -%}
+
+{%- style -%}
+  #AbPil-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+    background: {{ section.settings.bg_color }};
+  }
+  #AbPil-{{ section.id }} .ab-pil__head { text-align: center; max-width: 72rem; margin: 0 auto 3.2rem; padding: 0 1.5rem; }
+  #AbPil-{{ section.id }} .ab-pil__heading {
+    margin: 0 0 1.2rem;
+    font-size: clamp(2.4rem, 4.6vw, 3.8rem);
+    line-height: 1.15;
+    color: {{ section.settings.text_color }};
+  }
+  #AbPil-{{ section.id }} .ab-pil__heading em { font-style: italic; color: {{ section.settings.accent_color }}; }
+  #AbPil-{{ section.id }} .ab-pil__sub { color: {{ section.settings.text_color | color_modify: 'alpha', 0.7 }}; font-size: 1.55rem; line-height: 1.6; margin: 0; }
+  #AbPil-{{ section.id }} .ab-pil__grid {
+    display: grid;
+    grid-template-columns: repeat({{ section.blocks.size | at_least: 1 }}, 1fr);
+    gap: 2rem;
+    max-width: 104rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  #AbPil-{{ section.id }} .ab-pil__card {
+    background: {{ section.settings.card_color }};
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-radius: 1.6rem;
+    padding: 2.8rem 2.4rem 2.2rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  }
+  #AbPil-{{ section.id }} .ab-pil__kicker {
+    font-size: 1.15rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: {{ section.settings.accent_color }};
+    margin-bottom: 1rem;
+  }
+  #AbPil-{{ section.id }} .ab-pil__title { font-size: 1.9rem; font-weight: 700; margin: 0 0 1rem; color: {{ section.settings.text_color }}; }
+  #AbPil-{{ section.id }} .ab-pil__body { font-size: 1.45rem; line-height: 1.65; color: {{ section.settings.text_color | color_modify: 'alpha', 0.75 }}; margin: 0 0 2rem; flex: 1; }
+  #AbPil-{{ section.id }} .ab-pil__foot {
+    display: flex;
+    align-items: baseline;
+    gap: 0.9rem;
+    padding-top: 1.6rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+  }
+  #AbPil-{{ section.id }} .ab-pil__stat { font-size: 2.4rem; font-weight: 700; color: {{ section.settings.accent_color }}; line-height: 1; }
+  #AbPil-{{ section.id }} .ab-pil__statlabel { font-size: 1.25rem; color: {{ section.settings.text_color | color_modify: 'alpha', 0.65 }}; }
+  @media screen and (max-width: 899px) {
+    #AbPil-{{ section.id }} .ab-pil__grid { grid-template-columns: 1fr; max-width: 46rem; }
+  }
+{%- endstyle -%}
+
+<div id="AbPil-{{ section.id }}">
+  <div class="ab-pil__head">
+    {%- if section.settings.heading != blank -%}<h2 class="ab-pil__heading">{{ section.settings.heading }}</h2>{%- endif -%}
+    {%- if section.settings.subheading != blank -%}<p class="ab-pil__sub">{{ section.settings.subheading }}</p>{%- endif -%}
+  </div>
+  <div class="ab-pil__grid">
+    {%- for block in section.blocks -%}
+      <div class="ab-pil__card" {{ block.shopify_attributes }}>
+        {%- if block.settings.kicker != blank -%}<div class="ab-pil__kicker">{{ block.settings.kicker }}</div>{%- endif -%}
+        <h3 class="ab-pil__title">{{ block.settings.title }}</h3>
+        <p class="ab-pil__body">{{ block.settings.body }}</p>
+        {%- if block.settings.stat != blank or block.settings.stat_label != blank -%}
+          <div class="ab-pil__foot">
+            <span class="ab-pil__stat">{{ block.settings.stat }}</span>
+            <span class="ab-pil__statlabel">{{ block.settings.stat_label }}</span>
+          </div>
+        {%- endif -%}
+      </div>
+    {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "AB Pillar cards",
+  "tag": "section",
+  "settings": [
+    { "type": "inline_richtext", "id": "heading", "label": "Heading" },
+    { "type": "inline_richtext", "id": "subheading", "label": "Subheading" },
+    { "type": "color", "id": "accent_color", "label": "Accent", "default": "#B87333" },
+    { "type": "color", "id": "text_color", "label": "Text", "default": "#2A1F1A" },
+    { "type": "color", "id": "card_color", "label": "Card background", "default": "#FFFFFF" },
+    { "type": "color", "id": "bg_color", "label": "Section background", "default": "#F8F4EF" },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding top", "default": 56 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding bottom", "default": 56 }
+  ],
+  "blocks": [
+    {
+      "type": "pillar",
+      "name": "Pillar",
+      "settings": [
+        { "type": "text", "id": "kicker", "label": "Kicker" },
+        { "type": "text", "id": "title", "label": "Title" },
+        { "type": "inline_richtext", "id": "body", "label": "Body" },
+        { "type": "text", "id": "stat", "label": "Stat (big)" },
+        { "type": "text", "id": "stat_label", "label": "Stat label" }
+      ]
+    }
+  ],
+  "max_blocks": 4,
+  "presets": [{ "name": "AB Pillar cards", "blocks": [{ "type": "pillar" }, { "type": "pillar" }, { "type": "pillar" }] }]
+}
+{% endschema %}
