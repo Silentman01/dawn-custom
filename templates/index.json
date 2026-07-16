@@ -85,60 +85,10 @@
         "padding_bottom": 40
       }
     },
-    "trust": {
-      "type": "ab-trust-badges",
-      "blocks": {
-        "b1": {
-          "type": "badge",
-          "settings": {
-            "icon": "truck",
-            "emoji": "",
-            "text": "Livraison suivie offerte dès 35 €"
-          }
-        },
-        "b2": {
-          "type": "badge",
-          "settings": {
-            "icon": "return",
-            "emoji": "",
-            "text": "Satisfait ou remboursé 30 jours"
-          }
-        },
-        "b3": {
-          "type": "badge",
-          "settings": {
-            "icon": "chat",
-            "emoji": "",
-            "text": "Service client français 7j/7"
-          }
-        },
-        "b4": {
-          "type": "badge",
-          "settings": {
-            "icon": "lock",
-            "emoji": "",
-            "text": "Paiement 100% sécurisé"
-          }
-        }
-      },
-      "block_order": [
-        "b1",
-        "b2",
-        "b3",
-        "b4"
-      ],
-      "settings": {
-        "show_payment_icons": true,
-        "icon_color": "#B08968",
-        "color_scheme": "scheme-2",
-        "padding_top": 28,
-        "padding_bottom": 32
-      }
-    },
     "garantie": {
       "type": "risk-free-trial",
       "settings": {
-        "badge_color": "#B08968",
+        "badge_color": "#b08968",
         "badge_number": "30",
         "badge_label": "JOURS",
         "subtitle": "LA PROMESSE AVENA",
@@ -146,14 +96,14 @@
         "heading_size": 23,
         "description": "Chaque commande est protégée 30 jours : remboursement ou remplacement, sans discuter. Il vous suffit de nous écrire, notre équipe française s'occupe du reste.",
         "image": "shopify://shop_images/avena-home-garantie.png",
-        "bg_color": "#F6F4F1",
-        "accent_color": "#B08968",
-        "text_color": "#23272A",
+        "bg_color": "#f6f4f1",
+        "accent_color": "#b08968",
+        "text_color": "#23272a",
         "cta_text": "Découvrir la boutique",
         "cta_link": "/collections/all",
         "cta_height": 50,
-        "cta_bg_color": "#23272A",
-        "cta_text_color": "#FFFFFF",
+        "cta_bg_color": "#23272a",
+        "cta_text_color": "#ffffff",
         "padding_top": 28
       }
     }
@@ -161,7 +111,6 @@
   "order": [
     "hero",
     "featured_collection",
-    "trust",
     "garantie"
   ]
 }
