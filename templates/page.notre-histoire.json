@@ -48,22 +48,14 @@
         "body": {
           "type": "text",
           "settings": {
-            "text": "<p>Avena, c'est une petite équipe française qui passe son temps à chercher des objets simples et bien faits. Avant de vous proposer quoi que ce soit, on l'essaie chez nous, dans nos cuisines et notre quotidien. Si on ne l'utilise plus au bout d'un mois, il ne rentre pas dans la boutique.</p><p>C'est pour cela que notre catalogue est court. Chaque produit a gagné sa place.</p>",
-            "text_style": "body"
-          }
-        },
-        "quote": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>« Peu de produits, mais des produits qu'on garde. »</em></p>",
+            "text": "<p>Avena, c'est une petite équipe française qui passe son temps à chercher des objets simples et bien faits. Avant de vous proposer quoi que ce soit, on l'essaie chez nous, dans nos cuisines et notre quotidien. Si on ne l'utilise plus au bout d'un mois, il ne rentre pas dans la boutique.</p><p>C'est pour cela que notre catalogue est court. Chaque produit a gagné sa place.</p><p><em>« Peu de produits, mais des produits qu'on garde. »</em></p>",
             "text_style": "body"
           }
         }
       },
       "block_order": [
         "heading",
-        "body",
-        "quote"
+        "body"
       ],
       "settings": {
         "image": "shopify://shop_images/avena-histoire-origine.png",
