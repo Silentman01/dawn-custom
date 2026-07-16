@@ -149,8 +149,8 @@
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Découvrir la boutique",
-            "button_link": "/collections/all",
+            "button_label": "Découvrir notre gourde en cuivre",
+            "button_link": "/products/gourde-en-cuivre-pur-cupro",
             "button_style_secondary": false
           }
         }
