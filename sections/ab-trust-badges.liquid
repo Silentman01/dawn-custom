@@ -1,6 +1,9 @@
 {%- comment -%}
-  A/B clone section: horizontal trust-badge band (emoji + short label) with optional
-  payment icons row. Mirrors the competitor's assurance bar under the buy box.
+  A/B clone section: horizontal trust-badge band with optional payment icons row.
+  Mirrors the competitor's assurance bar under the buy box.
+  2026-07-16: emoji field replaced by an inline-SVG icon select (rule 56c: line
+  icons, never emoji). The legacy emoji setting still renders as fallback when
+  icon = none, so older templates keep working.
 {%- endcomment -%}
 
 {%- style -%}
@@ -26,6 +29,8 @@
     line-height: 1.3;
   }
   #AbTrust-{{ section.id }} .ab-trust__emoji { font-size: 1.7rem; line-height: 1; }
+  #AbTrust-{{ section.id }} .ab-trust__icon { width: 2rem; height: 2rem; flex: 0 0 auto; color: {{ section.settings.icon_color }}; }
+  #AbTrust-{{ section.id }} .ab-trust__icon svg { width: 100%; height: 100%; display: block; }
   #AbTrust-{{ section.id }} .ab-trust__payments {
     display: flex;
     flex-wrap: wrap;
@@ -44,7 +49,26 @@
   <div class="ab-trust__items">
     {%- for block in section.blocks -%}
       <div class="ab-trust__item" {{ block.shopify_attributes }}>
-        {%- if block.settings.emoji != blank -%}<span class="ab-trust__emoji" aria-hidden="true">{{ block.settings.emoji }}</span>{%- endif -%}
+        {%- case block.settings.icon -%}
+          {%- when 'truck' -%}
+            <span class="ab-trust__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M1 8h13v9H1z"/><path d="M14 11h4l3 3v3h-7z"/><circle cx="5.5" cy="17.5" r="1.8"/><circle cx="17.5" cy="17.5" r="1.8"/></svg></span>
+          {%- when 'return' -%}
+            <span class="ab-trust__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14 4 9l5-5"/><path d="M4 9h10a6 6 0 0 1 0 12h-3"/></svg></span>
+          {%- when 'shield' -%}
+            <span class="ab-trust__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 8.5-7 10-4-1.5-7-5.5-7-10V6z"/><path d="m9 12 2 2 4-4"/></svg></span>
+          {%- when 'lock' -%}
+            <span class="ab-trust__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></span>
+          {%- when 'chat' -%}
+            <span class="ab-trust__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-8 8H4l2-3a8 8 0 1 1 15-5z"/><path d="M8.5 12h.01M12 12h.01M15.5 12h.01"/></svg></span>
+          {%- when 'check' -%}
+            <span class="ab-trust__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.5 2.5 2.5 4.5-5"/></svg></span>
+          {%- when 'star' -%}
+            <span class="ab-trust__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 2.7 5.6 6.1.8-4.5 4.2 1.1 6-5.4-3-5.4 3 1.1-6L3.2 9.4l6.1-.8z"/></svg></span>
+          {%- when 'flag-fr' -%}
+            <span class="ab-trust__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="2.5" y="5.5" width="19" height="13" rx="1.5" stroke="currentColor" stroke-width="1.5"/><rect x="4" y="7" width="5.3" height="10" fill="#3457A0"/><rect x="14.7" y="7" width="5.3" height="10" fill="#D5313F"/></svg></span>
+          {%- else -%}
+            {%- if block.settings.emoji != blank -%}<span class="ab-trust__emoji" aria-hidden="true">{{ block.settings.emoji }}</span>{%- endif -%}
+        {%- endcase -%}
         <span>{{ block.settings.text }}</span>
       </div>
     {%- endfor -%}
@@ -64,6 +88,7 @@
   "tag": "section",
   "settings": [
     { "type": "checkbox", "id": "show_payment_icons", "label": "Show payment icons", "default": true },
+    { "type": "color", "id": "icon_color", "label": "Icon color", "default": "#B08968" },
     { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-1" },
     { "type": "range", "id": "padding_top", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Padding top", "default": 24 },
     { "type": "range", "id": "padding_bottom", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Padding bottom", "default": 24 }
@@ -73,7 +98,24 @@
       "type": "badge",
       "name": "Badge",
       "settings": [
-        { "type": "text", "id": "emoji", "label": "Emoji / icon character" },
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "Icon",
+          "default": "none",
+          "options": [
+            { "value": "none", "label": "None (legacy emoji)" },
+            { "value": "truck", "label": "Truck (livraison)" },
+            { "value": "return", "label": "Return (retours)" },
+            { "value": "shield", "label": "Shield (garantie)" },
+            { "value": "lock", "label": "Lock (paiement)" },
+            { "value": "chat", "label": "Chat (service client)" },
+            { "value": "check", "label": "Check" },
+            { "value": "star", "label": "Star" },
+            { "value": "flag-fr", "label": "Drapeau FR" }
+          ]
+        },
+        { "type": "text", "id": "emoji", "label": "Emoji (legacy, used only when Icon = None)" },
         { "type": "inline_richtext", "id": "text", "label": "Text", "default": "Paiement sécurisé" }
       ]
     }

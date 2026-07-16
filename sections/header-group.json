@@ -15,7 +15,7 @@
       "type": "sale-banner",
       "disabled": true,
       "settings": {
-        "heading": "LIVRAISON SUIVIE OFFERTE · SATISFAIT OU REMBOURSÉ 30 JOURS",
+        "heading": "LIVRAISON SUIVIE OFFERTE DÈS 35 € · SATISFAIT OU REMBOURSÉ 30 JOURS",
         "heading_color": "#F6F4F1",
         "heading_font_size": 15,
         "heading_font_weight": "700",
@@ -31,44 +31,6 @@
         "background_color": "#23272A",
         "padding_top": 10,
         "padding_bottom": 10
-      }
-    },
-    "ticker_bar_bQ44TX": {
-      "type": "ticker-bar",
-      "blocks": {
-        "ticker_item_Xyz3FC": {
-          "type": "ticker_item",
-          "settings": {
-            "text": "LIVRAISON SUIVIE OFFERTE",
-            "icon_name": "verified"
-          }
-        },
-        "ticker_item_YGkLmU": {
-          "type": "ticker_item",
-          "settings": {
-            "text": "SATISFAIT OU REMBOURSÉ 30 JOURS",
-            "icon_name": "verified"
-          }
-        }
-      },
-      "block_order": [
-        "ticker_item_Xyz3FC",
-        "ticker_item_YGkLmU"
-      ],
-      "settings": {
-        "background_color": "#23272A",
-        "text_color": "#F6F4F1",
-        "border_position": "both",
-        "border_thickness": 1,
-        "border_color": "#23272A",
-        "font_size": 14,
-        "font_weight": "600",
-        "spacing": 40,
-        "icon_size": 18,
-        "speed": 20,
-        "padding_top": 8,
-        "padding_bottom": 8,
-        "aria_label": "Nos engagements"
       }
     },
     "header": {
@@ -158,7 +120,6 @@
   },
   "order": [
     "sale_banner",
-    "ticker_bar_bQ44TX",
     "header",
     "ticker_bar"
   ]

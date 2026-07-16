@@ -10,7 +10,7 @@
 {
   "sections": {
     "hero": {
-      "type": "rich-text",
+      "type": "image-banner",
       "blocks": {
         "h": {
           "type": "heading",
@@ -22,15 +22,16 @@
         "t": {
           "type": "text",
           "settings": {
-            "text": "<p>Une sélection courte, testée et approuvée par des milliers de clients français. Livraison suivie offerte dès 35 €, satisfait ou remboursé 30 jours.</p>"
+            "text": "Une sélection courte, testée et approuvée par des milliers de clients français.",
+            "text_style": "body"
           }
         },
         "b": {
-          "type": "button",
+          "type": "buttons",
           "settings": {
-            "button_label": "Découvrir la boutique",
-            "button_link": "/collections/all",
-            "button_style_secondary": false,
+            "button_label_1": "Découvrir la boutique",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -43,12 +44,17 @@
         "b"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "image": "shopify://shop_images/avena-home-hero.png",
+        "image_overlay_opacity": 30,
+        "image_height": "large",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
         "color_scheme": "scheme-3",
-        "full_width": true,
-        "padding_top": 64,
-        "padding_bottom": 64
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
       }
     },
     "featured_collection": {
@@ -85,28 +91,32 @@
         "b1": {
           "type": "badge",
           "settings": {
-            "emoji": "🚚",
+            "icon": "truck",
+            "emoji": "",
             "text": "Livraison suivie offerte dès 35 €"
           }
         },
         "b2": {
           "type": "badge",
           "settings": {
-            "emoji": "↩️",
+            "icon": "return",
+            "emoji": "",
             "text": "Satisfait ou remboursé 30 jours"
           }
         },
         "b3": {
           "type": "badge",
           "settings": {
-            "emoji": "🇫🇷",
+            "icon": "chat",
+            "emoji": "",
             "text": "Service client français 7j/7"
           }
         },
         "b4": {
           "type": "badge",
           "settings": {
-            "emoji": "🔒",
+            "icon": "lock",
+            "emoji": "",
             "text": "Paiement 100% sécurisé"
           }
         }
@@ -119,23 +129,32 @@
       ],
       "settings": {
         "show_payment_icons": true,
+        "icon_color": "#B08968",
         "color_scheme": "scheme-2",
         "padding_top": 28,
         "padding_bottom": 32
       }
     },
-    "promesse": {
-      "type": "ab-statement-image",
+    "garantie": {
+      "type": "risk-free-trial",
       "settings": {
-        "kicker": "LA PROMESSE AVENA",
-        "heading": "Essayez. Si vous n’êtes pas conquis, <em>on vous rembourse</em>.",
-        "stat": "",
-        "body": "<p>Chaque commande est protégée 30 jours : remboursement ou remplacement, sans discuter.</p>",
-        "image_width": "medium",
-        "accent_color": "#b08968",
-        "color_scheme": "scheme-3",
-        "padding_top": 56,
-        "padding_bottom": 56
+        "badge_color": "#B08968",
+        "badge_number": "30",
+        "badge_label": "JOURS",
+        "subtitle": "LA PROMESSE AVENA",
+        "heading": "Essayez. Si vous n'êtes pas conquis, on vous rembourse.",
+        "heading_size": 23,
+        "description": "Chaque commande est protégée 30 jours : remboursement ou remplacement, sans discuter. Il vous suffit de nous écrire, notre équipe française s'occupe du reste.",
+        "image": "shopify://shop_images/avena-home-garantie.png",
+        "bg_color": "#F6F4F1",
+        "accent_color": "#B08968",
+        "text_color": "#23272A",
+        "cta_text": "Découvrir la boutique",
+        "cta_link": "/collections/all",
+        "cta_height": 50,
+        "cta_bg_color": "#23272A",
+        "cta_text_color": "#FFFFFF",
+        "padding_top": 28
       }
     }
   },
@@ -143,6 +162,6 @@
     "hero",
     "featured_collection",
     "trust",
-    "promesse"
+    "garantie"
   ]
 }
