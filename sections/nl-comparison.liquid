@@ -1,0 +1,213 @@
+{%- style -%}
+  .nlc-{{ section.id }} {
+    padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px;
+    background: {{ section.settings.section_bg }};
+  }
+  .nlc-{{ section.id }} .nlc__heading {
+    text-align: center;
+    font-size: {{ section.settings.heading_size }}px;
+    font-weight: 700;
+    line-height: 1.15;
+    margin: 0 0 3rem;
+    color: {{ section.settings.heading_color }};
+  }
+  .nlc-{{ section.id }} .nlc__grid {
+    display: grid;
+    grid-template-columns: 1fr minmax(9rem, 15rem) 1fr;
+    max-width: 90rem;
+    margin: 0 auto;
+    position: relative;
+    align-items: stretch;
+  }
+  /* header row */
+  .nlc-{{ section.id }} .nlc__head {
+    text-align: center;
+    padding: 2.4rem 1.2rem 1.6rem;
+  }
+  .nlc-{{ section.id }} .nlc__head--brand { background: {{ section.settings.brand_bg }}; border-top-left-radius: 2.4rem; }
+  .nlc-{{ section.id }} .nlc__head--comp { background: {{ section.settings.comp_bg }}; border-top-right-radius: 2.4rem; }
+  .nlc-{{ section.id }} .nlc__head--label { background: transparent; }
+  .nlc-{{ section.id }} .nlc__brandname {
+    font-size: 2.6rem;
+    font-weight: 800;
+    margin: 0 0 1rem;
+    color: {{ section.settings.brand_name_color }};
+  }
+  .nlc-{{ section.id }} .nlc__compname {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0 0 1rem;
+    color: {{ section.settings.comp_name_color }};
+  }
+  .nlc-{{ section.id }} .nlc__head img {
+    max-height: 12rem;
+    width: auto;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+  }
+  /* feature cells */
+  .nlc-{{ section.id }} .nlc__cell {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 1.2rem 1.6rem;
+    font-size: 1.4rem;
+    line-height: 1.25;
+    min-height: 5.6rem;
+  }
+  .nlc-{{ section.id }} .nlc__cell--brand { background: {{ section.settings.brand_bg }}; color: {{ section.settings.brand_text_color }}; }
+  .nlc-{{ section.id }} .nlc__cell--comp { background: {{ section.settings.comp_bg }}; color: {{ section.settings.comp_text_color }}; justify-content: flex-end; text-align: right; }
+  .nlc-{{ section.id }} .nlc__cell--brand:last-child { border-bottom-left-radius: 2.4rem; }
+  .nlc-{{ section.id }} .nlc__cell--comp:last-child { border-bottom-right-radius: 2.4rem; }
+  /* inner pill around brand/comp text */
+  .nlc-{{ section.id }} .nlc__pill {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    background: #fff;
+    border-radius: 100px;
+    padding: 0.7rem 1.4rem;
+    width: 100%;
+  }
+  .nlc-{{ section.id }} .nlc__cell--comp .nlc__pill { flex-direction: row-reverse; }
+  .nlc-{{ section.id }} .nlc__icon { width: 2rem; height: 2rem; flex-shrink: 0; }
+  .nlc-{{ section.id }} .nlc__icon svg { width: 100%; height: 100%; display: block; }
+  .nlc-{{ section.id }} .nlc__icon--star { color: {{ section.settings.brand_accent }}; }
+  .nlc-{{ section.id }} .nlc__icon--minus { color: {{ section.settings.comp_accent }}; }
+  .nlc-{{ section.id }} .nlc__pilltext { flex: 1; }
+  /* center floating label card */
+  .nlc-{{ section.id }} .nlc__center {
+    grid-column: 2;
+    grid-row: 1 / -1;
+    background: #fff;
+    border-radius: 2rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    margin: 3.5rem -1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+  }
+  .nlc-{{ section.id }} .nlc__label {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    padding: 1.2rem 0.6rem;
+    min-height: 5.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: {{ section.settings.label_color }};
+  }
+  @media screen and (max-width: 749px) {
+    .nlc-{{ section.id }} .nlc__grid { grid-template-columns: 1fr minmax(7rem, 9rem) 1fr; }
+    .nlc-{{ section.id }} .nlc__head img { max-height: 7rem; }
+    .nlc-{{ section.id }} .nlc__brandname { font-size: 1.8rem; }
+    .nlc-{{ section.id }} .nlc__compname { font-size: 1.6rem; }
+    .nlc-{{ section.id }} .nlc__cell { font-size: 1.15rem; padding: 0.9rem 0.8rem; }
+    .nlc-{{ section.id }} .nlc__pill { padding: 0.5rem 0.9rem; }
+    .nlc-{{ section.id }} .nlc__label { font-size: 1rem; padding: 0.8rem 0.3rem; }
+    .nlc-{{ section.id }} .nlc__center { margin: 2.5rem -0.4rem; }
+  }
+{%- endstyle -%}
+
+{%- capture star -%}<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M12 2l2.9 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l7.1-1.01L12 2z"/></svg>{%- endcapture -%}
+{%- capture minus -%}<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z"/></svg>{%- endcapture -%}
+
+<div class="nlc-{{ section.id }}">
+  {%- if section.settings.heading != blank -%}
+    <h2 class="nlc__heading">{{ section.settings.heading }}</h2>
+  {%- endif -%}
+  <div class="page-width">
+    <div class="nlc__grid">
+      <!-- header row -->
+      <div class="nlc__head nlc__head--brand">
+        <p class="nlc__brandname">{{ section.settings.brand_name }}</p>
+        {%- if section.settings.brand_image != blank -%}
+          <img src="{{ section.settings.brand_image | image_url: width: 400 }}" alt="{{ section.settings.brand_name | escape }}" loading="lazy">
+        {%- endif -%}
+      </div>
+      <div class="nlc__head nlc__head--label"></div>
+      <div class="nlc__head nlc__head--comp">
+        <p class="nlc__compname">{{ section.settings.comp_name }}</p>
+        {%- if section.settings.comp_image != blank -%}
+          <img src="{{ section.settings.comp_image | image_url: width: 400 }}" alt="{{ section.settings.comp_name | escape }}" loading="lazy">
+        {%- endif -%}
+      </div>
+
+      <!-- floating center label card spanning all rows -->
+      <div class="nlc__center">
+        {%- for block in section.blocks -%}
+          <div class="nlc__label">{{ block.settings.label }}</div>
+        {%- endfor -%}
+      </div>
+
+      <!-- feature rows -->
+      {%- for block in section.blocks -%}
+        <div class="nlc__cell nlc__cell--brand" {{ block.shopify_attributes }}>
+          <div class="nlc__pill">
+            <span class="nlc__icon nlc__icon--star">{{ star }}</span>
+            <span class="nlc__pilltext">{{ block.settings.brand_text }}</span>
+          </div>
+        </div>
+        <div class="nlc__cell nlc__cell--comp">
+          <div class="nlc__pill">
+            <span class="nlc__icon nlc__icon--minus">{{ minus }}</span>
+            <span class="nlc__pilltext">{{ block.settings.comp_text }}</span>
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "NL Comparison",
+  "tag": "section",
+  "class": "section-nl-comparison",
+  "settings": [
+    { "type": "inline_richtext", "id": "heading", "label": "Heading" },
+    { "type": "range", "id": "heading_size", "label": "Heading size", "min": 20, "max": 48, "step": 2, "unit": "px", "default": 32 },
+    { "type": "color", "id": "heading_color", "label": "Heading color", "default": "#1e1e1e" },
+    { "type": "color", "id": "section_bg", "label": "Section background", "default": "#ffffff" },
+    { "type": "header", "content": "Our brand (left)" },
+    { "type": "text", "id": "brand_name", "label": "Brand name", "default": "nailys" },
+    { "type": "image_picker", "id": "brand_image", "label": "Brand image (pen)" },
+    { "type": "color", "id": "brand_bg", "label": "Brand card background", "default": "#ffd9ea" },
+    { "type": "color", "id": "brand_name_color", "label": "Brand name color", "default": "#1e1e1e" },
+    { "type": "color", "id": "brand_text_color", "label": "Brand text color", "default": "#1e1e1e" },
+    { "type": "color", "id": "brand_accent", "label": "Brand icon (star) color", "default": "#e8467e" },
+    { "type": "header", "content": "Competitor (right)" },
+    { "type": "text", "id": "comp_name", "label": "Competitor name", "default": "Vernis classique" },
+    { "type": "image_picker", "id": "comp_image", "label": "Competitor image (bottle)" },
+    { "type": "color", "id": "comp_bg", "label": "Competitor card background", "default": "#ececec" },
+    { "type": "color", "id": "comp_name_color", "label": "Competitor name color", "default": "#1e1e1e" },
+    { "type": "color", "id": "comp_text_color", "label": "Competitor text color", "default": "#555555" },
+    { "type": "color", "id": "comp_accent", "label": "Competitor icon (minus) color", "default": "#b0b0b0" },
+    { "type": "header", "content": "Center labels" },
+    { "type": "color", "id": "label_color", "label": "Label color", "default": "#1e1e1e" },
+    { "type": "header", "content": "Spacing" },
+    { "type": "range", "id": "padding_top", "label": "Padding top", "min": 0, "max": 120, "step": 4, "unit": "px", "default": 40 },
+    { "type": "range", "id": "padding_bottom", "label": "Padding bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "default": 40 }
+  ],
+  "blocks": [
+    {
+      "type": "row",
+      "name": "Comparison row",
+      "settings": [
+        { "type": "text", "id": "label", "label": "Center label", "default": "TEMPS DE SÉCHAGE" },
+        { "type": "text", "id": "brand_text", "label": "Our text", "default": "Ultra rapide" },
+        { "type": "text", "id": "comp_text", "label": "Competitor text", "default": "Long à sécher" }
+      ]
+    }
+  ],
+  "presets": [
+    { "name": "NL Comparison" }
+  ]
+}
+{% endschema %}

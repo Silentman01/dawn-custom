@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -275,11 +284,169 @@
         "padding_top": 48,
         "padding_bottom": 48
       }
+    },
+    "nl_banner1": {
+      "type": "nl-image-banner",
+      "settings": {
+        "image": "shopify://shop_images/nailys-banner1-desktop.jpg",
+        "image_mobile": "shopify://shop_images/nailys-banner1-mobile.jpg",
+        "full_width": true,
+        "link": "",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "nl_why": {
+      "type": "rich-text",
+      "blocks": {
+        "h": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Pourquoi cela fait-il la </strong><em>différence</em><strong> ?</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": ["h"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 4
+      }
+    },
+    "nl_compare": {
+      "type": "nl-comparison",
+      "blocks": {
+        "r1": { "type": "row", "settings": { "label": "TEMPS DE SÉCHAGE", "brand_text": "Ultra rapide", "comp_text": "Long à sécher" } },
+        "r2": { "type": "row", "settings": { "label": "TENUE", "brand_text": "Longue tenue", "comp_text": "S'écaille rapidement" } },
+        "r3": { "type": "row", "settings": { "label": "APPLICATION", "brand_text": "Précise et propre", "comp_text": "Déborde facilement" } },
+        "r4": { "type": "row", "settings": { "label": "UTILISATION", "brand_text": "Facile à utiliser", "comp_text": "Plus exigeante" } },
+        "r5": { "type": "row", "settings": { "label": "RÉSULTAT FINAL", "brand_text": "Résultat impeccable", "comp_text": "Résultat irrégulier" } }
+      },
+      "block_order": ["r1", "r2", "r3", "r4", "r5"],
+      "settings": {
+        "heading": "",
+        "heading_size": 32,
+        "heading_color": "#1e1e1e",
+        "section_bg": "#ffffff",
+        "brand_name": "nailys",
+        "brand_image": "shopify://shop_images/nailysprod-nailys-single-pen.png",
+        "brand_bg": "#ffd9ea",
+        "brand_name_color": "#1e1e1e",
+        "brand_text_color": "#1e1e1e",
+        "brand_accent": "#e8467e",
+        "comp_name": "Vernis classique",
+        "comp_bg": "#ececec",
+        "comp_name_color": "#1e1e1e",
+        "comp_text_color": "#555555",
+        "comp_accent": "#b0b0b0",
+        "label_color": "#1e1e1e",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "nl_steps": {
+      "type": "feature-cards",
+      "blocks": {
+        "c1": { "type": "card", "settings": { "image": "shopify://shop_images/nailys-step-1.jpg", "title": "Appliquez une <strong>base coat</strong>", "text": "", "card_bg_color": "" } },
+        "c2": { "type": "card", "settings": { "image": "shopify://shop_images/nailys-step-2.png", "title": "Appliquez votre <strong>vernis</strong> Nailys™", "text": "", "card_bg_color": "" } },
+        "c3": { "type": "card", "settings": { "image": "shopify://shop_images/nailys-step-3.jpg", "title": "Terminez par un <strong>top coat</strong>", "text": "", "card_bg_color": "" } }
+      },
+      "block_order": ["c1", "c2", "c3"],
+      "settings": {
+        "heading": "3 étapes pour des ongles parfaits",
+        "highlight_color": "#c42e62",
+        "card_title_size": 20,
+        "card_title_highlight": "#c42e62",
+        "section_bg_color": "",
+        "text_alignment": "center",
+        "card_border_radius": 12,
+        "image_border_radius": 2,
+        "mobile_layout": "slider",
+        "pagination_type": "both",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "nl_mega": {
+      "type": "nl-image-features",
+      "blocks": {
+        "f1": { "type": "feature", "settings": { "title": "Application précise", "description": "Format feutre pour une application facile et ultra précise." } },
+        "f2": { "type": "feature", "settings": { "title": "Effet salon", "description": "Une finition brillante et professionnelle directement depuis chez vous." } },
+        "f3": { "type": "feature", "settings": { "title": "Sans lampe UV", "description": "Séchage naturel et rapide, sans lampe UV." } },
+        "f4": { "type": "feature", "settings": { "title": "Usage pratique", "description": "Aussi facile à utiliser qu'un stylo, même pour les débutants." } }
+      },
+      "block_order": ["f1", "f2", "f3", "f4"],
+      "settings": {
+        "image": "shopify://shop_images/nailys-mega.png",
+        "image_side": "left",
+        "image_radius": 12,
+        "heading": "Précis, rapide, <em>impeccable</em>.",
+        "heading_size": 38,
+        "accent_color": "#c42e62",
+        "bg_gradient_start": "#fff6fb",
+        "bg_gradient_end": "#ffe4f0",
+        "text_color": "#1e1e1e",
+        "heading_color": "#1e1e1e",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "nl_ingredients": {
+      "type": "rich-text",
+      "blocks": {
+        "h": { "type": "heading", "settings": { "heading": "INGRÉDIENTS", "heading_size": "h2" } },
+        "t": { "type": "text", "settings": { "text": "<p>Aqua (Eau), Acrylates/Copolymère de diméthylaminoéthyl méthacrylate, Propylène Glycol, Dimethicone, Phénoxyéthanol, Ethylhexylglycerin, CI 77891, CI 15850.</p>" } }
+      },
+      "block_order": ["h", "t"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 32
+      }
+    },
+    "nl_faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "q1": { "type": "collapsible_row", "settings": { "heading": "Qu'est-ce que le pack inclut exactement ?", "icon": "none", "row_content": "<p>Ce pack exclusif comprend 5 vernis à ongles en stylo. Conçu pour être entièrement pratique, il contient tout le nécessaire pour créer une manucure nette et impeccable sans rien ajouter d'autre.</p>", "page": "" } },
+        "q2": { "type": "collapsible_row", "settings": { "heading": "Une lampe UV est-elle nécessaire pour le séchage ?", "icon": "none", "row_content": "<p>Non ! C'est l'un de ses grands avantages. Le vernis sèche naturellement à l'air en 20 secondes environ. Aucune lampe n'est nécessaire.</p>", "page": "" } },
+        "q3": { "type": "collapsible_row", "settings": { "heading": "Est-ce difficile à enlever ?", "icon": "none", "row_content": "<p>Pas du tout. Il vous suffit d'utiliser un dissolvant classique. Il n'est pas nécessaire de tremper les ongles dans des produits agressifs.</p>", "page": "" } },
+        "q4": { "type": "collapsible_row", "settings": { "heading": "La formule est-elle sûre et sans odeur ?", "icon": "none", "row_content": "<p>Oui. La formule est à base d'eau, ce qui évite les fortes odeurs chimiques. De plus, elle est végane et « 9-free », ce qui signifie qu'elle ne contient pas d'ingrédients controversés tels que le formaldéhyde ou le toluène.</p>", "page": "" } },
+        "q5": { "type": "collapsible_row", "settings": { "heading": "Peut-il être utilisé sur des faux ongles ?", "icon": "none", "row_content": "<p>Oui, les vernis à ongles en stylo fonctionnent parfaitement sur les ongles naturels et sur les faux ongles.</p>", "page": "" } }
+      },
+      "block_order": ["q1", "q2", "q3", "q4", "q5"],
+      "settings": {
+        "caption": "Découvrez tout ce que vous devez savoir",
+        "heading": "Vos questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "nl_ticker",
-    "nl_split"
+    "nl_split",
+    "nl_banner1",
+    "nl_why",
+    "nl_compare",
+    "nl_steps",
+    "nl_mega",
+    "nl_ingredients",
+    "nl_faq"
   ]
 }
