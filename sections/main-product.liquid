@@ -138,11 +138,12 @@
     /* Guarantee badge */
     .guarantee-badge {
       display: flex;
-      align-items: flex-start;
+      align-items: center;
       gap: 1.2rem;
-      padding: 1.4rem 1.6rem;
+      padding: 0.4rem 0;
+      margin: 0.4rem 0 1.4rem;
       border-radius: 1rem;
-      background: #fff6fb;
+      background: transparent;
     }
     .guarantee-badge__image {
       flex-shrink: 0;
@@ -165,6 +166,165 @@
       font-size: 1.3rem;
       line-height: 1.5;
       opacity: 0.85;
+    }
+
+    /* Social proof V2 (avatars + verified name + text) */
+    .sp-v2 {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      background: var(--spv2-bg, #ffecf6);
+      border: var(--spv2-border-width, 2px) var(--spv2-border-style, dashed) var(--spv2-border-color, #1f3c74);
+      border-radius: 8px;
+      padding: 0.6rem 1.4rem;
+      margin: 1rem 0;
+      color: var(--spv2-text, #000);
+    }
+    .sp-v2__avatars {
+      display: flex;
+      flex-shrink: 0;
+    }
+    .sp-v2__avatars img {
+      width: 2.4rem;
+      height: 2.4rem;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      margin-left: -0.7rem;
+      object-fit: cover;
+    }
+    .sp-v2__avatars img:first-child {
+      margin-left: 0;
+    }
+    .sp-v2__text {
+      font-size: var(--spv2-size, 1.2rem);
+      line-height: 1.25;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+    }
+    .sp-v2__name {
+      font-weight: 800;
+    }
+    .sp-v2__verified {
+      display: inline-flex;
+      width: 1.4rem;
+      height: 1.4rem;
+    }
+    .sp-v2__verified svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    /* Trust duo (2-up feature boxes) */
+    .trust-duo {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 0.4rem 0 2rem;
+    }
+    .trust-duo__item {
+      flex: 1 1 calc(50% - 0.5rem);
+      min-width: 14rem;
+      display: flex;
+      align-items: center;
+      gap: 0.9rem;
+      background: var(--td-bg, #ffecf6);
+      border: 1px solid var(--td-border, #ffffff);
+      border-radius: var(--td-radius, 20px);
+      padding: 1rem 1.4rem;
+    }
+    .trust-duo__icon {
+      width: 3.4rem;
+      height: 3.4rem;
+      flex-shrink: 0;
+      color: var(--td-accent, #c42e62);
+    }
+    .trust-duo__icon svg,
+    .trust-duo__icon img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .trust-duo__heading {
+      font-size: var(--td-heading-size, 1.2rem);
+      font-weight: 700;
+      line-height: 1.2;
+      margin: 0;
+    }
+    .trust-duo__desc {
+      font-size: var(--td-desc-size, 1.05rem);
+      line-height: 1.2;
+      margin: 0;
+      opacity: 0.85;
+    }
+
+    /* Feature slider (image + heading + text per slide, with bg) */
+    .feat-slider {
+      position: relative;
+      background: var(--fs-bg, #fff6fb);
+      border-radius: var(--fs-radius, 12px);
+      padding: 1.6rem;
+      margin: 1.2rem 0;
+      overflow: hidden;
+      color: var(--fs-text, #000);
+    }
+    .feat-slider__viewport {
+      overflow: hidden;
+    }
+    .feat-slider__track {
+      display: flex;
+      transition: transform 0.4s ease;
+    }
+    .feat-slider__slide {
+      flex: 0 0 100%;
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      gap: 1.4rem;
+    }
+    .feat-slider__img {
+      width: 6rem;
+      height: 6rem;
+      flex-shrink: 0;
+      border-radius: 100px;
+      object-fit: cover;
+    }
+    .feat-slider__heading {
+      font-size: var(--fs-heading-size, 1.6rem);
+      font-weight: 700;
+      margin: 0 5rem 0.4rem 0;
+      line-height: 1.25;
+    }
+    .feat-slider__desc {
+      font-size: var(--fs-text-size, 1.2rem);
+      margin: 0;
+      line-height: 1.35;
+    }
+    .feat-slider__arrows {
+      position: absolute;
+      top: 1.2rem;
+      right: 1.2rem;
+      display: flex;
+      gap: 0.8rem;
+      z-index: 1;
+    }
+    .feat-slider__arrow {
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+      border: 1px solid var(--fs-accent, #c42e62);
+      background: transparent;
+      color: var(--fs-accent, #c42e62);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+    }
+    .feat-slider__arrow svg {
+      width: 1.4rem;
+      height: 1.4rem;
     }
 
     /* Fake variant picker */
@@ -604,53 +764,27 @@
       display: none;
     }
 
-    /* Testimonial videos */
-    @media screen and (min-width: 750px) {
-      .product__testimonial-videos {
-        flex-grow: 0;
-        width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
-      }
-    }
-    @media screen and (min-width: 990px) {
-      .product--large:not(.product--no-media) .product__testimonial-videos {
-        width: calc(65% - var(--grid-desktop-horizontal-spacing) / 2);
-        max-width: 65%;
-      }
-      .product--medium:not(.product--no-media) .product__testimonial-videos {
-        width: calc(55% - var(--grid-desktop-horizontal-spacing) / 2);
-        max-width: 55%;
-      }
-      .product--small:not(.product--no-media) .product__testimonial-videos {
-        width: calc(45% - var(--grid-desktop-horizontal-spacing) / 2);
-        max-width: 45%;
-      }
+    /* Testimonial videos (info column, autoplay, no controls, no dots) */
+    .testimonial-videos {
+      margin: 1.6rem 0;
     }
     .testimonial-videos__heading {
       font-size: var(--testimonial-heading-size, 23px);
       font-weight: 500;
       line-height: 1.3;
       text-align: center;
-      margin: 0 0 2.2rem;
+      margin: 0 0 1.4rem;
     }
-    .testimonial-videos__slider-wrap {
-      overflow: hidden;
-    }
-    .testimonial-videos__slider {
+    .testimonial-videos__grid {
       display: flex;
-      gap: 9px;
-      transition: transform 0.4s ease;
-    }
-    .testimonial-videos__slider.is-dragging {
-      transition: none;
-      cursor: grabbing;
-      user-select: none;
+      gap: 8px;
     }
     .testimonial-videos__card {
-      flex: 0 0 calc(33.333% - 6px);
-      border-radius: 0;
+      flex: 1 1 0;
+      min-width: 0;
+      border-radius: 8px;
       overflow: hidden;
-      position: relative;
-      aspect-ratio: 9/16;
+      aspect-ratio: 9 / 16;
       background: #000;
     }
     .testimonial-videos__card video {
@@ -658,66 +792,6 @@
       height: 100%;
       object-fit: cover;
       display: block;
-    }
-    .testimonial-videos__dots {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 6px;
-      list-style: none;
-      padding: 0;
-      margin: 15px 0 0;
-    }
-    .testimonial-videos__dots li {
-      display: inline-block;
-    }
-    .testimonial-videos__dots button {
-      display: block;
-      width: 8px;
-      height: 8px;
-      padding: 0;
-      border: none;
-      border-radius: 50%;
-      background: rgba(0, 0, 0, 0.2);
-      cursor: pointer;
-      font-size: 0;
-      line-height: 0;
-      transition: background 0.2s, transform 0.2s;
-    }
-    .testimonial-videos__dots li.active button {
-      background: rgba(0, 0, 0, 0.7);
-      transform: scale(1.3);
-    }
-    .testimonial-videos__controls {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px;
-      z-index: 2;
-      background-color: rgba(0, 0, 0, 0.1);
-    }
-    .testimonial-videos__controls-right {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .testimonial-videos__control-btn {
-      background: none;
-      border: none;
-      cursor: pointer;
-      padding: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-    }
-    .testimonial-videos__control-btn svg {
-      width: 18px;
-      height: 18px;
     }
 
     /* Statement block */
@@ -1290,6 +1364,36 @@
               {%- when 'custom_liquid' -%}
                 {{ block.settings.custom_liquid }}
               {%- when 'testimonial_videos' -%}
+                {%- liquid
+                  assign tv_ids = 'video_1,video_2,video_3,video_4,video_5' | split: ','
+                  assign tv_count = 0
+                  for vid in tv_ids
+                    if block.settings[vid] != blank
+                      assign tv_count = tv_count | plus: 1
+                    endif
+                  endfor
+                -%}
+                {%- if tv_count > 0 -%}
+                  <div
+                    class="testimonial-videos"
+                    style="--testimonial-heading-size: {{ block.settings.heading_size | default: 23 }}px;"
+                    {{ block.shopify_attributes }}
+                  >
+                    {%- if block.settings.heading != blank -%}
+                      <h2 class="testimonial-videos__heading">{{ block.settings.heading }}</h2>
+                    {%- endif -%}
+                    <div class="testimonial-videos__grid">
+                      {%- for vid in tv_ids -%}
+                        {%- assign cur = block.settings[vid] -%}
+                        {%- if cur != blank -%}
+                          <div class="testimonial-videos__card">
+                            {{ cur | video_tag: playsinline: true, loop: true, autoplay: true, muted: true, controls: false, preload: 'auto' }}
+                          </div>
+                        {%- endif -%}
+                      {%- endfor -%}
+                    </div>
+                  </div>
+                {%- endif -%}
               {%- when 'collapsible_tab' -%}
                 <div
                   class="product__accordion product__accordion--mobile accordion quick-add-hidden"
@@ -2168,6 +2272,168 @@
                   </div>
                 </div>
 
+              {%- when 'social_proof_v2' -%}
+                <div
+                  class="sp-v2"
+                  style="
+                    {%- if block.settings.bg_color != blank and block.settings.bg_color != 'rgba(0,0,0,0)' -%}--spv2-bg:{{ block.settings.bg_color }};{%- endif -%}
+                    {%- if block.settings.text_color != blank and block.settings.text_color != 'rgba(0,0,0,0)' -%}--spv2-text:{{ block.settings.text_color }};{%- endif -%}
+                    {%- if block.settings.border_color != blank and block.settings.border_color != 'rgba(0,0,0,0)' -%}--spv2-border-color:{{ block.settings.border_color }};{%- endif -%}
+                    --spv2-border-width: {{ block.settings.border_width | default: 2 }}px;
+                    --spv2-border-style: {{ block.settings.border_style | default: 'dashed' }};
+                    --spv2-size: {{ block.settings.font_size | default: 1.2 }}rem;
+                  "
+                  {{ block.shopify_attributes }}
+                >
+                  {%- assign spv2_imgs = 'image_1,image_2,image_3' | split: ',' -%}
+                  {%- assign spv2_has = false -%}
+                  {%- for iid in spv2_imgs -%}{%- if block.settings[iid] != blank -%}{%- assign spv2_has = true -%}{%- endif -%}{%- endfor -%}
+                  {%- if spv2_has -%}
+                    <div class="sp-v2__avatars">
+                      {%- for iid in spv2_imgs -%}
+                        {%- assign sp_img = block.settings[iid] -%}
+                        {%- if sp_img != blank -%}
+                          <img src="{{ sp_img | image_url: width: 60 }}" alt="" loading="lazy" width="24" height="24">
+                        {%- endif -%}
+                      {%- endfor -%}
+                    </div>
+                  {%- endif -%}
+                  <span class="sp-v2__text">
+                    {%- if block.settings.name != blank -%}
+                      <span class="sp-v2__name">{{ block.settings.name }}</span>
+                    {%- endif -%}
+                    {%- if block.settings.show_verified -%}
+                      <span class="sp-v2__verified" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M21.007 8.27C22.194 9.125 23 10.45 23 12c0 1.55-.806 2.876-1.993 3.73.24 1.442-.134 2.958-1.227 4.05-1.095 1.095-2.61 1.459-4.046 1.225C14.883 22.196 13.546 23 12 23c-1.55 0-2.878-.807-3.731-1.996-1.438.235-2.954-.128-4.05-1.224-1.095-1.095-1.459-2.611-1.217-4.05C1.816 14.877 1 13.551 1 12s.816-2.878 2.002-3.73c-.242-1.439.122-2.955 1.218-4.05 1.093-1.094 2.61-1.467 4.057-1.227C9.125 1.804 10.453 1 12 1c1.545 0 2.88.803 3.732 1.993 1.442-.24 2.956.135 4.048 1.227 1.093 1.092 1.468 2.608 1.227 4.05Zm-4.426-.084a1 1 0 0 1 .233 1.395l-5 7a1 1 0 0 1-1.521.126l-3-3a1 1 0 0 1 1.414-1.414l2.165 2.165 4.314-6.04a1 1 0 0 1 1.395-.232Z" fill="{{ block.settings.verified_color | default: '#1c9cef' }}"></path>
+                        </svg>
+                      </span>
+                    {%- endif -%}
+                    {%- if block.settings.text != blank -%}
+                      <span>{{ block.settings.text }}</span>
+                    {%- endif -%}
+                  </span>
+                </div>
+
+              {%- when 'trust_duo' -%}
+                <div
+                  class="trust-duo"
+                  style="
+                    {%- if block.settings.bg_color != blank and block.settings.bg_color != 'rgba(0,0,0,0)' -%}--td-bg:{{ block.settings.bg_color }};{%- endif -%}
+                    {%- if block.settings.border_color != blank and block.settings.border_color != 'rgba(0,0,0,0)' -%}--td-border:{{ block.settings.border_color }};{%- endif -%}
+                    {%- if block.settings.text_color != blank and block.settings.text_color != 'rgba(0,0,0,0)' -%}color:{{ block.settings.text_color }};{%- endif -%}
+                    --td-accent: {{ block.settings.accent_color | default: '#c42e62' }};
+                    --td-radius: {{ block.settings.border_radius | default: 20 }}px;
+                    --td-heading-size: {{ block.settings.heading_size | default: 1.2 }}rem;
+                    --td-desc-size: {{ block.settings.desc_size | default: 1.05 }}rem;
+                  "
+                  {{ block.shopify_attributes }}
+                >
+                  {%- assign td_checkmark = '<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 22.75c-5.93 0-10.75-4.82-10.75-10.75s4.82-10.75 10.75-10.75 10.75 4.82 10.75 10.75-4.82 10.75-10.75 10.75zm0-20c-5.1 0-9.25 4.15-9.25 9.25s4.15 9.25 9.25 9.25 9.25-4.15 9.25-9.25-4.15-9.25-9.25-9.25z" style="fill:currentColor;"></path><path d="m10.58 15.58c-0.2 0-0.39-0.08-0.53-0.22l-2.83-2.83c-0.29-0.29-0.29-0.77 0-1.06s0.77-0.29 1.06 0l2.3 2.3 5.14-5.14c0.29-0.29 0.77-0.29 1.06 0s0.29 0.77 0 1.06l-5.67 5.67c-0.14 0.14-0.33 0.22-0.53 0.22z" style="fill:currentColor;"></path></svg>' -%}
+                  {%- for n in (1..2) -%}
+                    {%- assign h_key = 'heading_' | append: n -%}
+                    {%- assign d_key = 'desc_' | append: n -%}
+                    {%- assign img_key = 'icon_image_' | append: n -%}
+                    {%- if block.settings[h_key] != blank -%}
+                      <div class="trust-duo__item">
+                        <span class="trust-duo__icon">
+                          {%- if block.settings[img_key] != blank -%}
+                            <img src="{{ block.settings[img_key] | image_url: width: 80 }}" alt="" loading="lazy" width="34" height="34">
+                          {%- else -%}
+                            {{ td_checkmark }}
+                          {%- endif -%}
+                        </span>
+                        <div>
+                          <p class="trust-duo__heading">{{ block.settings[h_key] }}</p>
+                          {%- if block.settings[d_key] != blank -%}
+                            <p class="trust-duo__desc">{{ block.settings[d_key] }}</p>
+                          {%- endif -%}
+                        </div>
+                      </div>
+                    {%- endif -%}
+                  {%- endfor -%}
+                </div>
+
+              {%- when 'feature_slider' -%}
+                {%- liquid
+                  assign fs_ids = '1,2,3,4' | split: ','
+                  assign fs_count = 0
+                  for n in fs_ids
+                    assign hk = 'slide_' | append: n | append: '_heading'
+                    if block.settings[hk] != blank
+                      assign fs_count = fs_count | plus: 1
+                    endif
+                  endfor
+                -%}
+                {%- if fs_count > 0 -%}
+                  <div
+                    class="feat-slider"
+                    id="FeatSlider-{{ block.id }}"
+                    style="
+                      {%- if block.settings.bg_color != blank and block.settings.bg_color != 'rgba(0,0,0,0)' -%}--fs-bg:{{ block.settings.bg_color }};{%- endif -%}
+                      {%- if block.settings.text_color != blank and block.settings.text_color != 'rgba(0,0,0,0)' -%}--fs-text:{{ block.settings.text_color }};{%- endif -%}
+                      --fs-accent: {{ block.settings.accent_color | default: '#c42e62' }};
+                      --fs-radius: {{ block.settings.border_radius | default: 12 }}px;
+                      --fs-heading-size: {{ block.settings.heading_size | default: 1.6 }}rem;
+                      --fs-text-size: {{ block.settings.text_size | default: 1.2 }}rem;
+                    "
+                    {{ block.shopify_attributes }}
+                  >
+                    {%- if fs_count > 1 -%}
+                      <div class="feat-slider__arrows">
+                        <button type="button" class="feat-slider__arrow" data-fs-prev aria-label="Précédent">
+                          <svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 11 5 7l4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </button>
+                        <button type="button" class="feat-slider__arrow" data-fs-next aria-label="Suivant">
+                          <svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m5 3 4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </button>
+                      </div>
+                    {%- endif -%}
+                    <div class="feat-slider__viewport">
+                      <div class="feat-slider__track" data-fs-track>
+                        {%- for n in fs_ids -%}
+                          {%- assign hk = 'slide_' | append: n | append: '_heading' -%}
+                          {%- assign dk = 'slide_' | append: n | append: '_text' -%}
+                          {%- assign ik = 'slide_' | append: n | append: '_image' -%}
+                          {%- if block.settings[hk] != blank -%}
+                            <div class="feat-slider__slide">
+                              {%- if block.settings[ik] != blank -%}
+                                <img class="feat-slider__img" src="{{ block.settings[ik] | image_url: width: 160 }}" alt="" loading="lazy" width="60" height="60">
+                              {%- endif -%}
+                              <div>
+                                <p class="feat-slider__heading">{{ block.settings[hk] }}</p>
+                                {%- if block.settings[dk] != blank -%}
+                                  <p class="feat-slider__desc">{{ block.settings[dk] }}</p>
+                                {%- endif -%}
+                              </div>
+                            </div>
+                          {%- endif -%}
+                        {%- endfor -%}
+                      </div>
+                    </div>
+                    {%- if fs_count > 1 -%}
+                      <script>
+                        (function () {
+                          var root = document.getElementById('FeatSlider-{{ block.id }}');
+                          if (!root) return;
+                          var track = root.querySelector('[data-fs-track]');
+                          var slides = track.children;
+                          var total = slides.length;
+                          var idx = 0;
+                          function go(i) {
+                            idx = (i + total) % total;
+                            track.style.transform = 'translateX(-' + idx * 100 + '%)';
+                          }
+                          var prev = root.querySelector('[data-fs-prev]');
+                          var next = root.querySelector('[data-fs-next]');
+                          if (prev) prev.addEventListener('click', function () { go(idx - 1); });
+                          if (next) next.addEventListener('click', function () { go(idx + 1); });
+                        })();
+                      </script>
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
+
               {%- when 'statement' -%}
                 <div
                   class="statement-block"
@@ -2620,322 +2886,6 @@
             </div>
           {%- endfor -%}
         </div>
-      {%- endif -%}
-      {%- assign tv_block = section.blocks | where: 'type', 'testimonial_videos' | first -%}
-      {%- if tv_block -%}
-        {%- assign tv_videos = '' -%}
-        {%- assign tv_count = 0 -%}
-        {%- if tv_block.settings.video_1 != blank -%}{%- assign tv_count = tv_count | plus: 1 -%}{%- endif -%}
-        {%- if tv_block.settings.video_2 != blank -%}{%- assign tv_count = tv_count | plus: 1 -%}{%- endif -%}
-        {%- if tv_block.settings.video_3 != blank -%}{%- assign tv_count = tv_count | plus: 1 -%}{%- endif -%}
-        {%- if tv_block.settings.video_4 != blank -%}{%- assign tv_count = tv_count | plus: 1 -%}{%- endif -%}
-        {%- if tv_block.settings.video_5 != blank -%}{%- assign tv_count = tv_count | plus: 1 -%}{%- endif -%}
-        {%- if tv_count > 0 -%}
-          <div
-            class="product__testimonial-videos grid__item"
-            style="--testimonial-heading-size: {{ tv_block.settings.heading_size }}px;"
-            {{ tv_block.shopify_attributes }}
-          >
-            {%- if tv_block.settings.heading != blank -%}
-              <h2 class="testimonial-videos__heading">{{ tv_block.settings.heading }}</h2>
-            {%- endif -%}
-            <div class="testimonial-videos__slider-wrap" id="testimonial-wrap-{{ section.id }}">
-              <div class="testimonial-videos__slider" id="testimonial-slider-{{ section.id }}">
-                {%- assign video_ids = 'video_1,video_2,video_3,video_4,video_5' | split: ',' -%}
-                {%- for vid_id in video_ids -%}
-                  {%- assign current_video = tv_block.settings[vid_id] -%}
-                  {%- if current_video != blank -%}
-                    <div class="testimonial-videos__card" data-video-index="{{ forloop.index }}">
-                      {{ current_video | video_tag: playsinline: true, loop: true, preload: 'auto', muted: true }}
-                      <div class="testimonial-videos__controls">
-                        <button
-                          class="testimonial-videos__control-btn testimonial-videos__play-btn"
-                          aria-label="Play video"
-                          type="button"
-                        >
-                          <svg
-                            class="icon-play"
-                            stroke="currentColor"
-                            fill="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 16 16"
-                            height="1em"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"></path>
-                          </svg>
-                          <svg
-                            class="icon-pause"
-                            stroke="currentColor"
-                            fill="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 16 16"
-                            height="1em"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
-                            style="display:none;"
-                          >
-                            <path d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5m5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5"></path>
-                          </svg>
-                        </button>
-                        <div class="testimonial-videos__controls-right">
-                          <button
-                            class="testimonial-videos__control-btn testimonial-videos__mute-btn"
-                            aria-label="Unmute video"
-                            type="button"
-                          >
-                            <svg
-                              class="icon-muted"
-                              stroke="currentColor"
-                              fill="currentColor"
-                              stroke-width="0"
-                              viewBox="0 0 16 16"
-                              height="1em"
-                              width="1em"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path d="M6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06m7.137 2.096a.5.5 0 0 1 0 .708L12.207 8l1.647 1.646a.5.5 0 0 1-.708.708L11.5 8.707l-1.646 1.647a.5.5 0 0 1-.708-.708L10.793 8 9.146 6.354a.5.5 0 1 1 .708-.708L11.5 7.293l1.646-1.647a.5.5 0 0 1 .708 0"></path>
-                            </svg>
-                            <svg
-                              class="icon-unmuted"
-                              stroke="currentColor"
-                              fill="currentColor"
-                              stroke-width="0"
-                              viewBox="0 0 16 16"
-                              height="1em"
-                              width="1em"
-                              xmlns="http://www.w3.org/2000/svg"
-                              style="display:none;"
-                            >
-                              <path d="M11.536 14.01A8.47 8.47 0 0 0 14.026 8a8.47 8.47 0 0 0-2.49-6.01l-.708.707A7.48 7.48 0 0 1 13.025 8c0 2.071-.84 3.946-2.197 5.303z"></path>
-                              <path d="M10.121 12.596A6.48 6.48 0 0 0 12.025 8a6.48 6.48 0 0 0-1.904-4.596l-.707.707A5.48 5.48 0 0 1 11.025 8a5.48 5.48 0 0 1-1.61 3.89z"></path>
-                              <path d="M8.707 11.182A4.5 4.5 0 0 0 10.025 8a4.5 4.5 0 0 0-1.318-3.182L8 5.525A3.5 3.5 0 0 1 9.025 8 3.5 3.5 0 0 1 8 10.475zM6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06"></path>
-                            </svg>
-                          </button>
-                          <button
-                            class="testimonial-videos__control-btn testimonial-videos__fullscreen-btn"
-                            aria-label="Full screen"
-                            type="button"
-                          >
-                            <svg
-                              stroke="currentColor"
-                              fill="currentColor"
-                              stroke-width="0"
-                              viewBox="0 0 16 16"
-                              height="1em"
-                              width="1em"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5M.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5"></path>
-                            </svg>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  {%- endif -%}
-                {%- endfor -%}
-              </div>
-            </div>
-            <ul class="testimonial-videos__dots" id="testimonial-dots-{{ section.id }}"></ul>
-            <script>
-              (function () {
-                var wrap = document.getElementById('testimonial-wrap-{{ section.id }}');
-                var slider = document.getElementById('testimonial-slider-{{ section.id }}');
-                var dotsContainer = document.getElementById('testimonial-dots-{{ section.id }}');
-                if (!slider || !wrap) return;
-
-                var cards = slider.querySelectorAll('.testimonial-videos__card');
-                var totalCards = cards.length;
-                var perPage = 3;
-                var gap = 9;
-                var currentPage = 0;
-                var totalPages = Math.max(1, totalCards - perPage + 1);
-
-                /* Force first frame render to avoid blurry thumbnails */
-                cards.forEach(function (card) {
-                  var video = card.querySelector('video');
-                  if (video) {
-                    video.addEventListener(
-                      'loadeddata',
-                      function () {
-                        video.currentTime = 0.001;
-                      },
-                      { once: true }
-                    );
-                  }
-                });
-
-                /* Build dots */
-                for (var i = 0; i < totalPages; i++) {
-                  var li = document.createElement('li');
-                  if (i === 0) li.classList.add('active');
-                  var btn = document.createElement('button');
-                  btn.type = 'button';
-                  btn.textContent = i + 1;
-                  btn.setAttribute('aria-label', i + 1 + ' of ' + totalPages);
-                  (function (page) {
-                    btn.addEventListener('click', function () {
-                      goToPage(page);
-                    });
-                  })(i);
-                  li.appendChild(btn);
-                  dotsContainer.appendChild(li);
-                }
-                if (totalPages <= 1) dotsContainer.style.display = 'none';
-
-                function goToPage(page) {
-                  currentPage = Math.max(0, Math.min(page, totalPages - 1));
-                  var cardWidth = cards[0].offsetWidth;
-                  var offset = currentPage * (cardWidth + gap);
-                  slider.style.transform = 'translate3d(-' + offset + 'px, 0, 0)';
-                  updateDots();
-                }
-
-                function updateDots() {
-                  dotsContainer.querySelectorAll('li').forEach(function (li, idx) {
-                    li.classList.toggle('active', idx === currentPage);
-                  });
-                }
-
-                /* Touch swipe */
-                var touchStartX = 0,
-                  touchDeltaX = 0,
-                  isSwiping = false;
-                wrap.addEventListener(
-                  'touchstart',
-                  function (e) {
-                    touchStartX = e.touches[0].clientX;
-                    isSwiping = true;
-                    slider.style.transition = 'none';
-                  },
-                  { passive: true }
-                );
-                wrap.addEventListener(
-                  'touchmove',
-                  function (e) {
-                    if (!isSwiping) return;
-                    touchDeltaX = e.touches[0].clientX - touchStartX;
-                    var cardWidth = cards[0].offsetWidth;
-                    var base = currentPage * (cardWidth + gap);
-                    slider.style.transform = 'translate3d(' + (-base + touchDeltaX) + 'px, 0, 0)';
-                  },
-                  { passive: true }
-                );
-                wrap.addEventListener('touchend', function () {
-                  if (!isSwiping) return;
-                  isSwiping = false;
-                  slider.style.transition = '';
-                  if (touchDeltaX < -40) goToPage(currentPage + 1);
-                  else if (touchDeltaX > 40) goToPage(currentPage - 1);
-                  else goToPage(currentPage);
-                  touchDeltaX = 0;
-                });
-
-                /* Mouse drag */
-                var mouseDown = false,
-                  mouseStartX = 0,
-                  mouseDeltaX = 0,
-                  hasDragged = false;
-                wrap.addEventListener('mousedown', function (e) {
-                  if (e.target.closest('button')) return;
-                  mouseDown = true;
-                  hasDragged = false;
-                  mouseStartX = e.clientX;
-                  slider.style.transition = 'none';
-                  slider.classList.add('is-dragging');
-                  e.preventDefault();
-                });
-                document.addEventListener('mousemove', function (e) {
-                  if (!mouseDown) return;
-                  mouseDeltaX = e.clientX - mouseStartX;
-                  if (Math.abs(mouseDeltaX) > 5) hasDragged = true;
-                  var cardWidth = cards[0].offsetWidth;
-                  var base = currentPage * (cardWidth + gap);
-                  slider.style.transform = 'translate3d(' + (-base + mouseDeltaX) + 'px, 0, 0)';
-                });
-                document.addEventListener('mouseup', function () {
-                  if (!mouseDown) return;
-                  mouseDown = false;
-                  slider.style.transition = '';
-                  slider.classList.remove('is-dragging');
-                  if (mouseDeltaX < -40) goToPage(currentPage + 1);
-                  else if (mouseDeltaX > 40) goToPage(currentPage - 1);
-                  else goToPage(currentPage);
-                  mouseDeltaX = 0;
-                });
-
-                /* Prevent click on video after drag */
-                cards.forEach(function (card) {
-                  var video = card.querySelector('video');
-                  if (video) {
-                    video.addEventListener(
-                      'click',
-                      function (e) {
-                        if (hasDragged) {
-                          e.preventDefault();
-                          e.stopPropagation();
-                          hasDragged = false;
-                          return;
-                        }
-                      },
-                      true
-                    );
-                  }
-                });
-
-                /* Play / Pause / Mute / Fullscreen controls */
-                cards.forEach(function (card) {
-                  var playBtn = card.querySelector('.testimonial-videos__play-btn');
-                  var muteBtn = card.querySelector('.testimonial-videos__mute-btn');
-                  var fullscreenBtn = card.querySelector('.testimonial-videos__fullscreen-btn');
-                  var video = card.querySelector('video');
-                  if (!video) return;
-
-                  var iconPlay = playBtn.querySelector('.icon-play');
-                  var iconPause = playBtn.querySelector('.icon-pause');
-                  var iconMuted = muteBtn.querySelector('.icon-muted');
-                  var iconUnmuted = muteBtn.querySelector('.icon-unmuted');
-
-                  function togglePlay() {
-                    if (video.paused) {
-                      video.play();
-                      card.classList.add('is-playing');
-                      iconPlay.style.display = 'none';
-                      iconPause.style.display = 'block';
-                    } else {
-                      video.pause();
-                      card.classList.remove('is-playing');
-                      iconPlay.style.display = 'block';
-                      iconPause.style.display = 'none';
-                    }
-                  }
-
-                  playBtn.addEventListener('click', function (e) {
-                    e.stopPropagation();
-                    togglePlay();
-                  });
-                  video.addEventListener('click', function () {
-                    if (!hasDragged) togglePlay();
-                  });
-
-                  muteBtn.addEventListener('click', function (e) {
-                    e.stopPropagation();
-                    video.muted = !video.muted;
-                    iconMuted.style.display = video.muted ? 'block' : 'none';
-                    iconUnmuted.style.display = video.muted ? 'none' : 'block';
-                  });
-
-                  fullscreenBtn.addEventListener('click', function (e) {
-                    e.stopPropagation();
-                    if (video.requestFullscreen) video.requestFullscreen();
-                    else if (video.webkitEnterFullscreen) video.webkitEnterFullscreen();
-                  });
-                });
-              })();
-            </script>
-          </div>
-        {%- endif -%}
       {%- endif -%}
     </div>
 
@@ -5159,6 +5109,346 @@
           "max": 2.6,
           "step": 0.1,
           "default": 1.8,
+          "unit": "rem"
+        }
+      ]
+    },
+    {
+      "type": "social_proof_v2",
+      "name": "Social proof (avatars)",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image_1",
+          "label": "Avatar 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_2",
+          "label": "Avatar 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_3",
+          "label": "Avatar 3"
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name",
+          "default": "Ana"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_verified",
+          "label": "Show verified badge",
+          "default": true
+        },
+        {
+          "type": "color",
+          "id": "verified_color",
+          "label": "Verified badge color",
+          "default": "#1c9cef"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "et +36 000 personnes l'ont acheté"
+        },
+        {
+          "type": "color",
+          "id": "bg_color",
+          "label": "Background color",
+          "default": "#ffecf6"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text color"
+        },
+        {
+          "type": "color",
+          "id": "border_color",
+          "label": "Border color",
+          "default": "#1f3c74"
+        },
+        {
+          "type": "range",
+          "id": "border_width",
+          "label": "Border width",
+          "min": 0,
+          "max": 4,
+          "step": 1,
+          "default": 2,
+          "unit": "px"
+        },
+        {
+          "type": "select",
+          "id": "border_style",
+          "label": "Border style",
+          "options": [
+            { "value": "dashed", "label": "Dashed" },
+            { "value": "solid", "label": "Solid" },
+            { "value": "dotted", "label": "Dotted" }
+          ],
+          "default": "dashed"
+        },
+        {
+          "type": "range",
+          "id": "font_size",
+          "label": "Font size",
+          "min": 1.0,
+          "max": 1.8,
+          "step": 0.1,
+          "default": 1.2,
+          "unit": "rem"
+        }
+      ]
+    },
+    {
+      "type": "trust_duo",
+      "name": "Trust duo (2 boxes)",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "header",
+          "content": "Box 1"
+        },
+        {
+          "type": "text",
+          "id": "heading_1",
+          "label": "Heading 1",
+          "default": "Livraison gratuite"
+        },
+        {
+          "type": "text",
+          "id": "desc_1",
+          "label": "Description 1",
+          "default": "Disponible avec cet achat"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_image_1",
+          "label": "Icon image 1 (optional — defaults to checkmark)"
+        },
+        {
+          "type": "header",
+          "content": "Box 2"
+        },
+        {
+          "type": "text",
+          "id": "heading_2",
+          "label": "Heading 2",
+          "default": "Assistance 24/7"
+        },
+        {
+          "type": "text",
+          "id": "desc_2",
+          "label": "Description 2",
+          "default": "Une équipe à votre disposition"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_image_2",
+          "label": "Icon image 2 (optional — defaults to checkmark)"
+        },
+        {
+          "type": "header",
+          "content": "Style"
+        },
+        {
+          "type": "color",
+          "id": "accent_color",
+          "label": "Icon color",
+          "default": "#c42e62"
+        },
+        {
+          "type": "color",
+          "id": "bg_color",
+          "label": "Box background",
+          "default": "#ffecf6"
+        },
+        {
+          "type": "color",
+          "id": "border_color",
+          "label": "Box border",
+          "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text color"
+        },
+        {
+          "type": "range",
+          "id": "border_radius",
+          "label": "Corner radius",
+          "min": 0,
+          "max": 30,
+          "step": 1,
+          "default": 20,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "heading_size",
+          "label": "Heading size",
+          "min": 1.0,
+          "max": 1.8,
+          "step": 0.1,
+          "default": 1.2,
+          "unit": "rem"
+        },
+        {
+          "type": "range",
+          "id": "desc_size",
+          "label": "Description size",
+          "min": 0.9,
+          "max": 1.5,
+          "step": 0.1,
+          "default": 1.0,
+          "unit": "rem"
+        }
+      ]
+    },
+    {
+      "type": "feature_slider",
+      "name": "Feature slider",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "header",
+          "content": "Slide 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "slide_1_image",
+          "label": "Slide 1 image"
+        },
+        {
+          "type": "text",
+          "id": "slide_1_heading",
+          "label": "Slide 1 heading",
+          "default": "Application ultra précise"
+        },
+        {
+          "type": "textarea",
+          "id": "slide_1_text",
+          "label": "Slide 1 text",
+          "default": "Son applicateur de type stylo facilite l'application et offre un résultat super net."
+        },
+        {
+          "type": "header",
+          "content": "Slide 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "slide_2_image",
+          "label": "Slide 2 image"
+        },
+        {
+          "type": "text",
+          "id": "slide_2_heading",
+          "label": "Slide 2 heading",
+          "default": "Un look salon à la maison"
+        },
+        {
+          "type": "textarea",
+          "id": "slide_2_text",
+          "label": "Slide 2 text",
+          "default": "Mes ongles ont un fini vraiment professionnel sans lampe UV."
+        },
+        {
+          "type": "header",
+          "content": "Slide 3"
+        },
+        {
+          "type": "image_picker",
+          "id": "slide_3_image",
+          "label": "Slide 3 image"
+        },
+        {
+          "type": "text",
+          "id": "slide_3_heading",
+          "label": "Slide 3 heading",
+          "default": "Rapide et pratique"
+        },
+        {
+          "type": "textarea",
+          "id": "slide_3_text",
+          "label": "Slide 3 text",
+          "default": "Il sèche rapidement, est facile à utiliser et je peux faire ma manucure en quelques minutes seulement."
+        },
+        {
+          "type": "header",
+          "content": "Slide 4 (optional)"
+        },
+        {
+          "type": "image_picker",
+          "id": "slide_4_image",
+          "label": "Slide 4 image"
+        },
+        {
+          "type": "text",
+          "id": "slide_4_heading",
+          "label": "Slide 4 heading"
+        },
+        {
+          "type": "textarea",
+          "id": "slide_4_text",
+          "label": "Slide 4 text"
+        },
+        {
+          "type": "header",
+          "content": "Style"
+        },
+        {
+          "type": "color",
+          "id": "bg_color",
+          "label": "Background color",
+          "default": "#fff6fb"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text color"
+        },
+        {
+          "type": "color",
+          "id": "accent_color",
+          "label": "Arrow color",
+          "default": "#c42e62"
+        },
+        {
+          "type": "range",
+          "id": "border_radius",
+          "label": "Corner radius",
+          "min": 0,
+          "max": 30,
+          "step": 1,
+          "default": 12,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "heading_size",
+          "label": "Heading size",
+          "min": 1.2,
+          "max": 2.4,
+          "step": 0.1,
+          "default": 1.6,
+          "unit": "rem"
+        },
+        {
+          "type": "range",
+          "id": "text_size",
+          "label": "Text size",
+          "min": 1.0,
+          "max": 1.8,
+          "step": 0.1,
+          "default": 1.2,
           "unit": "rem"
         }
       ]
