@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -58,25 +49,22 @@
             "font_size": 1.4
           }
         },
-        "custom_liquid_6NTAnd": {
-          "type": "custom_liquid",
+        "social_proof_v2": {
+          "type": "social_proof_v2",
           "settings": {
-            "custom_liquid": "<style>\n      .happy-customersV2 {\n          display: flex;\n          align-items: center;\n          background-color: #ffffff;\n          border-radius: 8px;\n          padding: 5px 15px;\n          margin: 10px 0 10px 0;\n          font-size: 11px;\n          color: #000000;\n          background: #ffecf6;\n          border: 0.2rem dashed #1f3c74;\n          /*box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);*/\n      }\n\n      .avatarsV2 {\n          display: flex;\n          margin-right: 10px;\n      }\n\n      .avatarsV2 img, .avatarsV2 svg {\n          width: 22px;\n          height: 22px;\n          border-radius: 50%;\n          border: 2px solid white;\n          margin-left: -7px;\n          object-fit: cover;\n      }\n\n  .textV2 {\n      font-weight: normal;\n      font-size: 11px;\n      color: #000000;\n      line-height: 1;\n      display: flex;\n      align-items: center;\n      gap: 3px;\n  }\n\n      .textV2 strong {\n          font-weight: 800;\n      }\n\n      .verifiedV2 {\n          vertical-align: middle;\n          height: 13px;\n          width: 13px;\n      }\n  .verifiedV2 img, .verifiedV2 svg {\n          height: 100%;\n          width: 100%;\n      }\n</style>\n<div class=\"happy-customersV2\">\n  <div class=\"avatarsV2\"><img src=\"//nolynails.fr/cdn/shop/files/gallery_slide_2_400x400_crop_center_20d67a0d-abe3-4c8c-a2ab-b48f35247c51.jpg?v=1781548726&amp;width=100\" alt=\"\" srcset=\"//nolynails.fr/cdn/shop/files/gallery_slide_2_400x400_crop_center_20d67a0d-abe3-4c8c-a2ab-b48f35247c51.jpg?v=1781548726&amp;width=100 100w\" width=\"100\" height=\"100\" class=\"amo-it-revealed\">\n<img src=\"//nolynails.fr/cdn/shop/files/gallery_slide_6_400x400_crop_center_aaf5e3f7-3763-443f-ae5e-21571e16295b.jpg?v=1781548726&amp;width=100\" alt=\"\" srcset=\"//nolynails.fr/cdn/shop/files/gallery_slide_6_400x400_crop_center_aaf5e3f7-3763-443f-ae5e-21571e16295b.jpg?v=1781548726&amp;width=100 100w\" width=\"100\" height=\"100\" class=\"amo-it-revealed\">\n<img src=\"//nolynails.fr/cdn/shop/files/gallery_slide_5_400x400_crop_center_d475461e-3895-47e3-9461-17db49e95e86.jpg?v=1781548726&amp;width=100\" alt=\"\" srcset=\"//nolynails.fr/cdn/shop/files/gallery_slide_5_400x400_crop_center_d475461e-3895-47e3-9461-17db49e95e86.jpg?v=1781548726&amp;width=100 100w\" width=\"100\" height=\"100\" class=\"amo-it-revealed\">\n</div>\n  <span class=\"textV2\">\n    <span style=\"font-weight: 900;\">Ana</span>\n    <span class=\"verifiedV2\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"auto\" viewBox=\"0 0 24 24\" fill=\"none\">\n          <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M21.007 8.27C22.194 9.125 23 10.45 23 12c0 1.55-.806 2.876-1.993 3.73.24 1.442-.134 2.958-1.227 4.05-1.095 1.095-2.61 1.459-4.046 1.225C14.883 22.196 13.546 23 12 23c-1.55 0-2.878-.807-3.731-1.996-1.438.235-2.954-.128-4.05-1.224-1.095-1.095-1.459-2.611-1.217-4.05C1.816 14.877 1 13.551 1 12s.816-2.878 2.002-3.73c-.242-1.439.122-2.955 1.218-4.05 1.093-1.094 2.61-1.467 4.057-1.227C9.125 1.804 10.453 1 12 1c1.545 0 2.88.803 3.732 1.993 1.442-.24 2.956.135 4.048 1.227 1.093 1.092 1.468 2.608 1.227 4.05Zm-4.426-.084a1 1 0 0 1 .233 1.395l-5 7a1 1 0 0 1-1.521.126l-3-3a1 1 0 0 1 1.414-1.414l2.165 2.165 4.314-6.04a1 1 0 0 1 1.395-.232Z\" fill=\"#1c9cef\"></path>\n        </svg>\n      \n    </span>\n    <span>et +36 000 personnes l'ont acheté</span>\n  </span>\n</div>"
-          }
-        },
-        "social_proof_banner": {
-          "type": "social_proof_banner",
-          "disabled": true,
-          "settings": {
-            "text_color": "#121212",
-            "bg_color": "#fff6fb",
-            "border_radius": 50,
-            "title": "<strong>Ana</strong> ✓ et +36 000 personnes l'ont acheté",
-            "subtitle": "",
-            "badge_color": "#e8467e",
             "image_1": "shopify://shop_images/nailys-social-1.jpg",
             "image_2": "shopify://shop_images/nailys-social-2.jpg",
-            "image_3": "shopify://shop_images/nailys-social-3.jpg"
+            "image_3": "shopify://shop_images/nailys-social-3.jpg",
+            "name": "Ana",
+            "show_verified": true,
+            "verified_color": "#1c9cef",
+            "text": "et +36 000 personnes l'ont acheté",
+            "bg_color": "#ffecf6",
+            "text_color": "#000000",
+            "border_color": "#1f3c74",
+            "border_width": 2,
+            "border_style": "dashed",
+            "font_size": 1.2
           }
         },
         "variant_picker": {
@@ -85,11 +73,6 @@
             "picker_type": "button",
             "swatch_shape": "circle"
           }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -101,23 +84,32 @@
             "button_text_transform": "uppercase"
           }
         },
-        "custom_liquid_3CkWBW": {
-          "type": "custom_liquid",
+        "guarantee_badge": {
+          "type": "guarantee_badge",
           "settings": {
-            "custom_liquid": "<style>\n  .qa-feature-feature_trpUJR {\n    margin: 0px 0px 34px 0px;\n  }\n  .qa-feature-feature_trpUJR {\n      display: flex;\n      align-items: flex-start;\n      background-color: ;\n      padding: 13px;\n      border-radius: 0px;  \n  }\n  .qa-feature-feature_trpUJR h4 {\n        font-size: 20px;\n        margin: 0px;\n    }\n  .qa-feature-feature_trpUJR p {\n        margin: 0px;\n        font-size: 14px;\n    }\n  .qa-feature-feature_trpUJR img {\n        width: 54px !important;\n        min-width: 54px !important;\n        height: auto;\n        margin-right: 15.428571428571429px;\n        border: none;\n        border-radius: 0 !important;\n    }\n            .qa-feature-feature_trpUJR svg {\n        width: 54px !important;\n        min-width: 54px !important;\n        height: auto;\n        margin-right: 15.428571428571429px;\n        border: none;\n        border-radius: 0px; \n    }\n</style>\n<div class=\"qa-feature-feature_trpUJR rte\">\n  \n\n    <img src=\"//nolynails.fr/cdn/shop/files/ChatGPT_Image_10_juin_2026_19_52_43_540x.png?v=1781548727\" width=\"100\" height=\"100\" class=\"amo-it-revealed\">\n  <div style=\"text-align: left;\">\n    <h4>\n      <strong>Garantie de 30 jours</strong>\n    </h4>\n    <p>Essayez-le sans risque, satisfait ou remboursé <strong>pendant 30 jours.</strong></p>\n  </div>\n</div>"
+            "image": "shopify://shop_images/nailys-guarantee-badge.png",
+            "heading": "Garantie de 30 jours",
+            "description": "Essayez-le sans risque, satisfait ou remboursé <strong>pendant 30 jours.</strong>",
+            "accent_color": "#c42e62",
+            "bg_color": "",
+            "text_color": "",
+            "heading_size": 1.8
           }
         },
-        "guarantee_trust": {
-          "type": "custom_liquid",
-          "disabled": true,
+        "trust_duo": {
+          "type": "trust_duo",
           "settings": {
-            "custom_liquid": "<div class=\"trust-grid\" style=\"display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin:20px 0;\">\n  <div style=\"text-align:center;padding:16px 8px;background:#fff6fb;border-radius:10px;\">\n    <img src=\"{{ 'guarantee_badge_d0cf0c43-aa64-4b01-911f-5f9ca9cefdb1.png' | file_img_url: '60x60' }}\" alt=\"Garantie 30 jours\" width=\"48\" height=\"48\" loading=\"lazy\" style=\"margin-bottom:4px;\">\n    <p style=\"font-weight:700;font-size:1.3rem;margin:8px 0 4px;\">Garantie de 30 jours</p>\n    <p style=\"font-size:1.1rem;color:#555;margin:0;\">Essayez-le sans risque, satisfait ou remboursé pendant 30 jours.</p>\n  </div>\n  <div style=\"text-align:center;padding:16px 8px;background:#fff6fb;border-radius:10px;\">\n    <svg width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color:#c42e62;\"><path d=\"m12 22.75c-5.93 0-10.75-4.82-10.75-10.75s4.82-10.75 10.75-10.75 10.75 4.82 10.75 10.75-4.82 10.75-10.75 10.75zm0-20c-5.1 0-9.25 4.15-9.25 9.25s4.15 9.25 9.25 9.25 9.25-4.15 9.25-9.25-4.15-9.25-9.25-9.25z\" style=\"fill:currentColor;\"></path><path d=\"m10.58 15.58c-0.2 0-0.39-0.08-0.53-0.22l-2.83-2.83c-0.29-0.29-0.29-0.77 0-1.06s0.77-0.29 1.06 0l2.3 2.3 5.14-5.14c0.29-0.29 0.77-0.29 1.06 0s0.29 0.77 0 1.06l-5.67 5.67c-0.14 0.14-0.33 0.22-0.53 0.22z\" style=\"fill:currentColor;\"></path></svg>\n    <p style=\"font-weight:700;font-size:1.3rem;margin:8px 0 4px;\">Livraison gratuite</p>\n    <p style=\"font-size:1.1rem;color:#555;margin:0;\">Expédition sous 48h, livrée chez vous en 5-10 jours.</p>\n  </div>\n  <div style=\"text-align:center;padding:16px 8px;background:#fff6fb;border-radius:10px;\">\n    <svg width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color:#c42e62;\"><path d=\"m12 22.75c-5.93 0-10.75-4.82-10.75-10.75s4.82-10.75 10.75-10.75 10.75 4.82 10.75 10.75-4.82 10.75-10.75 10.75zm0-20c-5.1 0-9.25 4.15-9.25 9.25s4.15 9.25 9.25 9.25 9.25-4.15 9.25-9.25-4.15-9.25-9.25-9.25z\" style=\"fill:currentColor;\"></path><path d=\"m10.58 15.58c-0.2 0-0.39-0.08-0.53-0.22l-2.83-2.83c-0.29-0.29-0.29-0.77 0-1.06s0.77-0.29 1.06 0l2.3 2.3 5.14-5.14c0.29-0.29 0.77-0.29 1.06 0s0.29 0.77 0 1.06l-5.67 5.67c-0.14 0.14-0.33 0.22-0.53 0.22z\" style=\"fill:currentColor;\"></path></svg>\n    <p style=\"font-weight:700;font-size:1.3rem;margin:8px 0 4px;\">Assistance 24/7</p>\n    <p style=\"font-size:1.1rem;color:#555;margin:0;\">Une équipe à votre disposition.</p>\n  </div>\n</div>"
-          }
-        },
-        "custom_liquid_XKiXti": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<style>\n  .lumin-trust-feature-trust_feature_xnRc3U {\n      display: flex;\n      flex-wrap: wrap;\n      gap: 10px;\n      margin: -20px 0px 24px 0px;\n  }\n  .lumin-trust-feature-trust_feature_xnRc3U > div {\n      \n      flex: 1 1 calc(50% - 5px);\n      min-width: 140px;\n      \n  }\n  \n  .lumin-feature-trust_feature_xnRc3U {\n      display: flex;\n      align-items: flex-start;\n  }\n  \n  .lumin-feature-trust_feature_xnRc3U {\n    background-color: #ffecf6;\n    padding: 10px 14px;\n    border: 1px solid #ffffff;\n    border-radius: 20px;\n  }\n  \n  .lumin-feature-trust_feature_xnRc3U h4 {\n        font-size: 11px;\n        margin: 0px;\n        line-height: 1.2;\n    }\n  .lumin-feature-trust_feature_xnRc3U p {\n        font-size: 10px;\n        margin: 0px;\n        line-height: 1.2;\n    }\n  .lumin-feature-trust_feature_xnRc3U img {\n        width: 36px !important;\n        height: auto;\n        margin-right: 9px;\n        border: none;\n        border-radius: 0;\n    }\n  .lumin-feature-trust_feature_xnRc3U svg {\n        width: 36px !important;\n        height: auto;\n        margin-right: 9px;\n        border: none;\n        border-radius: 0px;\n    }\n  .lumin-feature-2-trust_feature_xnRc3U {\n      display: flex;\n      align-items: flex-start;\n  }\n  \n  .lumin-feature-2-trust_feature_xnRc3U {\n    background-color: #ffecf6;\n    padding: 10px 14px;\n    border: 1px solid #ffffff;\n    border-radius: 20px;\n  }\n  \n  .lumin-feature-2-trust_feature_xnRc3U h4 {\n        font-size: 11px;\n        margin: 0px;\n        line-height: 1.2;\n    }\n  .lumin-feature-2-trust_feature_xnRc3U p {\n        font-size: 10px;\n        margin: 0px;\n        line-height: 1.2;\n    }\n  .lumin-feature-2-trust_feature_xnRc3U img {\n        width: 36px !important;\n        height: auto;\n        margin-right: 9px;\n        border: none;\n    }\n  .lumin-feature-2-trust_feature_xnRc3U svg {\n        width: 36px !important;\n        height: auto;\n        margin-right: 9px;\n        border: none;\n    }\n</style>\n<div class=\"lumin-trust-feature-trust_feature_xnRc3U\">\n  <div class=\"lumin-feature-trust_feature_xnRc3U\" style=\"align-items: center;\">\n    \n<svg width=\"800px\" height=\"800px\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"m12 22.75c-5.93 0-10.75-4.82-10.75-10.75s4.82-10.75 10.75-10.75 10.75 4.82 10.75 10.75-4.82 10.75-10.75 10.75zm0-20c-5.1 0-9.25 4.15-9.25 9.25s4.15 9.25 9.25 9.25 9.25-4.15 9.25-9.25-4.15-9.25-9.25-9.25z\" style=\"fill: currentColor;\"></path>\n        <path d=\"m10.58 15.58c-0.2 0-0.39-0.08-0.53-0.22l-2.83-2.83c-0.29-0.29-0.29-0.77 0-1.06s0.77-0.29 1.06 0l2.3 2.3 5.14-5.14c0.29-0.29 0.77-0.29 1.06 0s0.29 0.77 0 1.06l-5.67 5.67c-0.14 0.14-0.33 0.22-0.53 0.22z\" style=\"fill: currentColor;\"></path>\n      </svg>\n    <div style=\"width: calc(100% - 36px + 9px);text-align: left; row-gap: 5px;\">\n      \n        <h4>\n          Livraison gratuite\n        </h4>\n      \n      \n        <p>Disponible avec cet achat</p>\n      \n    </div>\n  </div>\n  \n  <div class=\"lumin-feature-2-trust_feature_xnRc3U\" style=\" align-items: center;\">\n    \n<svg width=\"800px\" height=\"800px\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"m12 22.75c-5.93 0-10.75-4.82-10.75-10.75s4.82-10.75 10.75-10.75 10.75 4.82 10.75 10.75-4.82 10.75-10.75 10.75zm0-20c-5.1 0-9.25 4.15-9.25 9.25s4.15 9.25 9.25 9.25 9.25-4.15 9.25-9.25-4.15-9.25-9.25-9.25z\" style=\"fill: currentColor;\"></path>\n        <path d=\"m10.58 15.58c-0.2 0-0.39-0.08-0.53-0.22l-2.83-2.83c-0.29-0.29-0.29-0.77 0-1.06s0.77-0.29 1.06 0l2.3 2.3 5.14-5.14c0.29-0.29 0.77-0.29 1.06 0s0.29 0.77 0 1.06l-5.67 5.67c-0.14 0.14-0.33 0.22-0.53 0.22z\" style=\"fill: currentColor;\"></path>\n      </svg>\n    <div style=\"width: calc(100% - 36px + 9px);text-align: left; row-gap: 5px\">\n      \n        <h4>\n          Assistance 24/7\n        </h4>\n      \n      \n        <p>Une équipe à votre disposition</p>\n      \n    </div>\n  </div>\n  \n</div>"
+            "heading_1": "Livraison gratuite",
+            "desc_1": "Disponible avec cet achat",
+            "heading_2": "Assistance 24/7",
+            "desc_2": "Une équipe à votre disposition",
+            "accent_color": "#c42e62",
+            "bg_color": "#ffecf6",
+            "border_color": "#ffffff",
+            "text_color": "",
+            "border_radius": 20,
+            "heading_size": 1.2,
+            "desc_size": 1.0
           }
         },
         "testimonial_videos": {
@@ -130,17 +122,24 @@
             "video_3": "shopify://files/videos/ugc-3.mov"
           }
         },
-        "features_block": {
-          "type": "custom_liquid",
-          "disabled": true,
+        "feature_slider": {
+          "type": "feature_slider",
           "settings": {
-            "custom_liquid": "<div class=\"features-list\" style=\"margin:20px 0;display:flex;flex-direction:column;gap:16px;\">\n  <div style=\"display:flex;align-items:flex-start;gap:12px;\">\n    <svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color:#c42e62;flex-shrink:0;margin-top:2px;\"><path d=\"m12 22.75c-5.93 0-10.75-4.82-10.75-10.75s4.82-10.75 10.75-10.75 10.75 4.82 10.75 10.75-4.82 10.75-10.75 10.75zm0-20c-5.1 0-9.25 4.15-9.25 9.25s4.15 9.25 9.25 9.25 9.25-4.15 9.25-9.25-4.15-9.25-9.25-9.25z\" style=\"fill:currentColor;\"></path><path d=\"m10.58 15.58c-0.2 0-0.39-0.08-0.53-0.22l-2.83-2.83c-0.29-0.29-0.29-0.77 0-1.06s0.77-0.29 1.06 0l2.3 2.3 5.14-5.14c0.29-0.29 0.77-0.29 1.06 0s0.29 0.77 0 1.06l-5.67 5.67c-0.14 0.14-0.33 0.22-0.53 0.22z\" style=\"fill:currentColor;\"></path></svg>\n    <div>\n      <p style=\"font-weight:700;font-size:1.4rem;margin:0 0 4px;\">Application ultra précise</p>\n      <p style=\"font-size:1.2rem;color:#555;margin:0;\">Son applicateur de type stylo facilite l'application et offre un résultat super net.</p>\n    </div>\n  </div>\n  <div style=\"display:flex;align-items:flex-start;gap:12px;\">\n    <svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color:#c42e62;flex-shrink:0;margin-top:2px;\"><path d=\"m12 22.75c-5.93 0-10.75-4.82-10.75-10.75s4.82-10.75 10.75-10.75 10.75 4.82 10.75 10.75-4.82 10.75-10.75 10.75zm0-20c-5.1 0-9.25 4.15-9.25 9.25s4.15 9.25 9.25 9.25 9.25-4.15 9.25-9.25-4.15-9.25-9.25-9.25z\" style=\"fill:currentColor;\"></path><path d=\"m10.58 15.58c-0.2 0-0.39-0.08-0.53-0.22l-2.83-2.83c-0.29-0.29-0.29-0.77 0-1.06s0.77-0.29 1.06 0l2.3 2.3 5.14-5.14c0.29-0.29 0.77-0.29 1.06 0s0.29 0.77 0 1.06l-5.67 5.67c-0.14 0.14-0.33 0.22-0.53 0.22z\" style=\"fill:currentColor;\"></path></svg>\n    <div>\n      <p style=\"font-weight:700;font-size:1.4rem;margin:0 0 4px;\">Un look salon à la maison</p>\n      <p style=\"font-size:1.2rem;color:#555;margin:0;\">Mes ongles ont un fini vraiment professionnel sans lampe UV.</p>\n    </div>\n  </div>\n  <div style=\"display:flex;align-items:flex-start;gap:12px;\">\n    <svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color:#c42e62;flex-shrink:0;margin-top:2px;\"><path d=\"m12 22.75c-5.93 0-10.75-4.82-10.75-10.75s4.82-10.75 10.75-10.75 10.75 4.82 10.75 10.75-4.82 10.75-10.75 10.75zm0-20c-5.1 0-9.25 4.15-9.25 9.25s4.15 9.25 9.25 9.25 9.25-4.15 9.25-9.25-4.15-9.25-9.25-9.25z\" style=\"fill:currentColor;\"></path><path d=\"m10.58 15.58c-0.2 0-0.39-0.08-0.53-0.22l-2.83-2.83c-0.29-0.29-0.29-0.77 0-1.06s0.77-0.29 1.06 0l2.3 2.3 5.14-5.14c0.29-0.29 0.77-0.29 1.06 0s0.29 0.77 0 1.06l-5.67 5.67c-0.14 0.14-0.33 0.22-0.53 0.22z\" style=\"fill:currentColor;\"></path></svg>\n    <div>\n      <p style=\"font-weight:700;font-size:1.4rem;margin:0 0 4px;\">Rapide et pratique</p>\n      <p style=\"font-size:1.2rem;color:#555;margin:0;\">Il sèche rapidement, est facile à utiliser et je peux faire ma manucure en quelques minutes seulement.</p>\n    </div>\n  </div>\n</div>"
-          }
-        },
-        "custom_liquid_6XbpEn": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<style>\n                    .lumin-section__section .lm-slide-testimonial_slider_dHXgpn ul {\n                       \n                       padding: var(--lm-slide-padding);\n                       border-radius: 12px;\n                       z-index: 0;\n                   }\n                   .slider-container-testimonial_slider_dHXgpn p {\n                       margin: 0;\n                       font-size:12px;\n                   }\n                  .lumin-section__section .lm-slide-testimonial_slider_dHXgpn h4 {\n                       margin: 0 0 1rem 0;\n                       padding: 0 7rem 0 0;\n                       font-size:16px;\n                   }\n                   .lumin-slider-buttons {\n                         gap: 1rem;\n                        /* margin-top: var(--lm-slide-padding);*/\n                         z-index: 1;\n                         position: absolute;\n                         right: calc(5px + var(--lm-slide-padding));\n                         top:calc(5px + var(--lm-slide-padding));\n                     }\n                   .lumin-slider-button {\n                        /* background: rgba(var(--color-button), 0.3) !important;*/\n                         border: 1px solid rgba(var(--color-foreground)) !important;\n                         width: 30px !important;\n                         height: 30px !important;\n                         border-radius: 30px;\n                     }\n                  .slider-container-testimonial_slider_dHXgpn {\n                         display: grid;\n                         grid-template-columns:  38px; 1fr;\n                         grid-template-rows: 1fr;\n                         gap: 0px 16px;\n                       }\n                   .slider-container-testimonial_slider_dHXgpn img {\n                         max-width: 38px;\n                         width: 38px;\n                         height: auto;\n                         border-radius: 100px;\n\n                     }\n                   .slider-container-testimonial_slider_dHXgpn svg {\n                         max-width: 38px;\n                         width: 38px;\n                         height: auto;\n                         border-radius: 100px;\n\n                     }\n                       .slide-image { grid-area: 1 / 1 / 2 / 3; width: 60px; }\n                       .slide-text { grid-area: 1 / 2 / 2 / 3; }\n                </style>\n<div class=\"lumin-section__section\" style=\"position: relative;margin-top:20px;margin-bottom:20px;\">\n                  <slideshow-component class=\"slider-mobile-gutter\" style=\"--lm-slide-padding: 16px;\">\n                    \n<div id=\"Slider-testimonial_slider_dHXgpn\" class=\"grid grid--1-col slider slider--everywhere\" role=\"list\" aria-label=\"Carrousel\"><div id=\"Slide-testimonial_slider_dHXgpn-1\" class=\"complementary-slider grid__item slider__slide slideshow__slide lm-slide-testimonial_slider_dHXgpn lm-fix\" role=\"group\" style=\"width: 100%;\" aria-roledescription=\"Diapositive\" aria-label=\"1 de 3\" aria-hidden=\"false\">\n                          <ul class=\"list-unstyled color-scheme-af4a96f3-9954-43c2-bc96-b688af5a0d04 gradient\" role=\"list\">\n                            \n                              <li class=\"slider-container-testimonial_slider_dHXgpn\">\n                                \n                                  <div class=\"slide-image\">\n                                    <img src=\"//nolynails.fr/cdn/shop/files/gallery_slide_2_400x400_crop_center_20d67a0d-abe3-4c8c-a2ab-b48f35247c51.jpg?v=1781548726&amp;width=76\" alt=\"\" srcset=\"//nolynails.fr/cdn/shop/files/gallery_slide_2_400x400_crop_center_20d67a0d-abe3-4c8c-a2ab-b48f35247c51.jpg?v=1781548726&amp;width=76 76w\" width=\"76\" height=\"76\" class=\"amo-it-revealed\">\n                                  </div>\n                                \n                                <div class=\"slide-text\" style=\"grid-column-start: 2;\">\n                                  <h4>Application ultra précise</h4>\n                                  <p>Son applicateur de type stylo facilite l'application et offre un résultat super net.</p>\n                                </div>\n                              </li>\n                            \n                          </ul>\n                        </div><div id=\"Slide-testimonial_slider_dHXgpn-2\" class=\"complementary-slider grid__item slider__slide slideshow__slide lm-slide-testimonial_slider_dHXgpn lm-fix\" tabindex=\"-1\" role=\"group\" style=\"width: 100%;\" aria-roledescription=\"Diapositive\" aria-label=\"2 de 3\" aria-hidden=\"true\">\n                          <ul class=\"list-unstyled color-scheme-af4a96f3-9954-43c2-bc96-b688af5a0d04 gradient\" role=\"list\">\n                            \n                              <li class=\"slider-container-testimonial_slider_dHXgpn\">\n                                \n                                  <div class=\"slide-image\">\n                                    <img src=\"//nolynails.fr/cdn/shop/files/gal_pic_test_1_400x400_crop_center_ee01bdbe-5483-4466-9df6-9d03c4f640ef.jpg?v=1781548726&amp;width=76\" alt=\"\" srcset=\"//nolynails.fr/cdn/shop/files/gal_pic_test_1_400x400_crop_center_ee01bdbe-5483-4466-9df6-9d03c4f640ef.jpg?v=1781548726&amp;width=76 76w\" width=\"76\" height=\"76\" class=\"amo-it-revealed\">\n                                  </div>\n                                \n                                <div class=\"slide-text\" style=\"grid-column-start: 2;\">\n                                  <h4>Un look salon à la maison</h4>\n                                  <p>Mes ongles ont un fini vraiment professionnel sans lampe UV.</p>\n                                </div>\n                              </li>\n                            \n                          </ul>\n                        </div><div id=\"Slide-testimonial_slider_dHXgpn-3\" class=\"complementary-slider grid__item slider__slide slideshow__slide lm-slide-testimonial_slider_dHXgpn lm-fix\" tabindex=\"-1\" role=\"group\" style=\"width: 100%;\" aria-roledescription=\"Diapositive\" aria-label=\"3 de 3\" aria-hidden=\"true\">\n                          <ul class=\"list-unstyled color-scheme-af4a96f3-9954-43c2-bc96-b688af5a0d04 gradient\" role=\"list\">\n                            \n                              <li class=\"slider-container-testimonial_slider_dHXgpn\">\n                                \n                                  <div class=\"slide-image\">\n                                    <img src=\"//nolynails.fr/cdn/shop/files/gallery_slide_7_400x400_crop_center_b8a84b8a-2b74-4de5-8397-1380b39cb1f5.jpg?v=1781548726&amp;width=76\" alt=\"\" srcset=\"//nolynails.fr/cdn/shop/files/gallery_slide_7_400x400_crop_center_b8a84b8a-2b74-4de5-8397-1380b39cb1f5.jpg?v=1781548726&amp;width=76 76w\" width=\"76\" height=\"76\" class=\"amo-it-revealed\">\n                                  </div>\n                                \n                                <div class=\"slide-text\" style=\"grid-column-start: 2;\">\n                                  <h4>Rapide et pratique</h4>\n                                  <p>Il sèche rapidement, est facile à utiliser et je peux faire ma manucure en quelques minutes seulement.</p>\n                                </div>\n                              </li>\n                            \n                          </ul>\n                        </div></div><div class=\"slider-buttons no-js-hidden lumin-slider-buttons color-scheme-af4a96f3-9954-43c2-bc96-b688af5a0d04 gradient \">\n                        <button type=\"button\" class=\"slider-button slider-button--prev lumin-slider-button\" name=\"previous\" aria-label=\"Faire glisser vers la gauche\">\n                          <span class=\"svg-wrapper\">\n                            <svg class=\"icon icon-caret\" width=\"14\" height=\"14\" viewBox=\"0 0 14 14\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M11 5.5L7 9.5L3 5.5\" stroke=\"currentColor\" stroke-width=\"var(--icon-stroke-width)\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n\n                          </span>\n                        </button>\n\n                        <div class=\"hidden slider-counter slider-counter--counter \"><div class=\"slideshow__control-wrapper\"><button class=\"slider-counter__link slider-counter__link-- link slider-counter__link--active\" aria-label=\"Charger la diapositive 1 de 3\" aria-controls=\"Slider-testimonial_slider_dHXgpn\" aria-current=\"true\"><span class=\"dot\"></span></button><button class=\"slider-counter__link slider-counter__link-- link\" aria-label=\"Charger la diapositive 2 de 3\" aria-controls=\"Slider-testimonial_slider_dHXgpn\"><span class=\"dot\"></span></button><button class=\"slider-counter__link slider-counter__link-- link\" aria-label=\"Charger la diapositive 3 de 3\" aria-controls=\"Slider-testimonial_slider_dHXgpn\"><span class=\"dot\"></span></button></div></div>\n\n                        <button type=\"button\" class=\"slider-button slider-button--next lumin-slider-button\" name=\"next\" aria-label=\"Faire glisser vers la droite\">\n                         <span class=\"svg-wrapper\">\n                          <svg class=\"icon icon-caret\" width=\"14\" height=\"14\" viewBox=\"0 0 14 14\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M11 5.5L7 9.5L3 5.5\" stroke=\"currentColor\" stroke-width=\"var(--icon-stroke-width)\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n\n                         </span>\n                        </button>\n                      </div></slideshow-component>\n                </div>"
+            "slide_1_image": "shopify://shop_images/nailys-gallery-03-detail.png",
+            "slide_1_heading": "Application ultra précise",
+            "slide_1_text": "Son applicateur de type stylo facilite l'application et offre un résultat super net.",
+            "slide_2_image": "shopify://shop_images/nailys-gallery-01-hero.png",
+            "slide_2_heading": "Un look salon à la maison",
+            "slide_2_text": "Mes ongles ont un fini vraiment professionnel sans lampe UV.",
+            "slide_3_image": "shopify://shop_images/nailys-gallery-02-lifestyle.png",
+            "slide_3_heading": "Rapide et pratique",
+            "slide_3_text": "Il sèche rapidement, est facile à utiliser et je peux faire ma manucure en quelques minutes seulement.",
+            "bg_color": "#fff6fb",
+            "text_color": "",
+            "accent_color": "#c42e62",
+            "border_radius": 12,
+            "heading_size": 1.6,
+            "text_size": 1.2
           }
         },
         "collapsible_tab_offer": {
@@ -193,17 +192,13 @@
         "title",
         "price",
         "fomo_buys",
-        "custom_liquid_6NTAnd",
-        "social_proof_banner",
+        "social_proof_v2",
         "variant_picker",
-        "quantity_selector",
         "buy_buttons",
-        "custom_liquid_3CkWBW",
-        "guarantee_trust",
-        "custom_liquid_XKiXti",
+        "guarantee_badge",
+        "trust_duo",
         "testimonial_videos",
-        "features_block",
-        "custom_liquid_6XbpEn",
+        "feature_slider",
         "collapsible_tab_offer",
         "sticky_cart"
       ],
