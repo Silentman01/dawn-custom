@@ -1,0 +1,320 @@
+{%- style -%}
+  .nl-it-{{ section.id }} {
+    --nl-it-grad-a: {{ section.settings.bg_gradient_start }};
+    --nl-it-grad-b: {{ section.settings.bg_gradient_end }};
+    --nl-it-text: {{ section.settings.text_color }};
+    --nl-it-heading: {{ section.settings.heading_color }};
+    --nl-it-heading-size: {{ section.settings.heading_size }}px;
+    background: linear-gradient(180deg, var(--nl-it-grad-a) 0%, var(--nl-it-grad-b) 100%);
+    padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px;
+    color: var(--nl-it-text);
+  }
+  .nl-it-{{ section.id }} .nl-it__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    align-items: center;
+  }
+  .nl-it-{{ section.id }} .nl-it__media img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: {{ section.settings.image_radius }}px;
+  }
+  .nl-it-{{ section.id }} .nl-it__pill {
+    display: inline-block;
+    background: {{ section.settings.pill_bg }};
+    border: 1px solid {{ section.settings.pill_border }};
+    color: {{ section.settings.pill_text_color }};
+    border-radius: 100px;
+    padding: 6px 16px;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 1.6rem;
+  }
+  .nl-it-{{ section.id }} .nl-it__pill em { font-style: normal; }
+  .nl-it-{{ section.id }} .nl-it__heading {
+    font-size: var(--nl-it-heading-size);
+    line-height: 1.1;
+    font-weight: 700;
+    color: var(--nl-it-heading);
+    margin: 0 0 1.8rem;
+  }
+  .nl-it-{{ section.id }} .nl-it__heading em { font-style: italic; }
+  .nl-it-{{ section.id }} .nl-it__body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+  .nl-it-{{ section.id }} .nl-it__body p { margin: 0 0 1.2rem; }
+  .nl-it-{{ section.id }} .nl-it__review {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: 2.2rem;
+  }
+  .nl-it-{{ section.id }} .nl-it__avatars {
+    display: flex;
+    flex-shrink: 0;
+  }
+  .nl-it-{{ section.id }} .nl-it__avatars img {
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+    margin-left: -0.9rem;
+  }
+  .nl-it-{{ section.id }} .nl-it__avatars img:first-child { margin-left: 0; }
+  .nl-it-{{ section.id }} .nl-it__review-text {
+    font-size: 1.2rem;
+    line-height: 1.35;
+  }
+  .nl-it-{{ section.id }} .nl-it__review-text p { margin: 0; }
+  .nl-it-{{ section.id }} .nl-it__review-text em { font-style: italic; }
+  @media screen and (min-width: 750px) {
+    .nl-it-{{ section.id }} .nl-it__grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+    }
+    {%- if section.settings.image_side == 'right' -%}
+      .nl-it-{{ section.id }} .nl-it__media { order: 2; }
+      .nl-it-{{ section.id }} .nl-it__text { order: 1; }
+    {%- else -%}
+      .nl-it-{{ section.id }} .nl-it__media { order: 1; }
+      .nl-it-{{ section.id }} .nl-it__text { order: 2; }
+    {%- endif -%}
+    .nl-it-{{ section.id }} .nl-it__heading { font-size: calc(var(--nl-it-heading-size) * 1.15); }
+  }
+{%- endstyle -%}
+
+<div class="nl-it-{{ section.id }}">
+  <div class="page-width">
+    <div class="nl-it__grid">
+      <div class="nl-it__media">
+        {%- if section.settings.image != blank -%}
+          <img
+            src="{{ section.settings.image | image_url: width: 1500 }}"
+            alt="{{ section.settings.image.alt | escape }}"
+            width="{{ section.settings.image.width }}"
+            height="{{ section.settings.image.height }}"
+            loading="lazy"
+            sizes="(min-width: 750px) 50vw, 100vw"
+          >
+        {%- else -%}
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {%- endif -%}
+      </div>
+      <div class="nl-it__text">
+        {%- if section.settings.pill_text != blank -%}
+          <div class="nl-it__pill">{{ section.settings.pill_text }}</div>
+        {%- endif -%}
+        {%- if section.settings.heading != blank -%}
+          <h2 class="nl-it__heading">{{ section.settings.heading }}</h2>
+        {%- endif -%}
+        {%- if section.settings.body != blank -%}
+          <div class="nl-it__body rte">{{ section.settings.body }}</div>
+        {%- endif -%}
+        {%- assign av = 'avatar_1,avatar_2,avatar_3,avatar_4,avatar_5' | split: ',' -%}
+        {%- assign has_av = false -%}
+        {%- for a in av -%}{%- if section.settings[a] != blank -%}{%- assign has_av = true -%}{%- endif -%}{%- endfor -%}
+        {%- if has_av or section.settings.review_text != blank -%}
+          <div class="nl-it__review">
+            {%- if has_av -%}
+              <div class="nl-it__avatars">
+                {%- for a in av -%}
+                  {%- if section.settings[a] != blank -%}
+                    <img src="{{ section.settings[a] | image_url: width: 90 }}" alt="" width="36" height="36" loading="lazy">
+                  {%- endif -%}
+                {%- endfor -%}
+              </div>
+            {%- endif -%}
+            {%- if section.settings.review_text != blank -%}
+              <div class="nl-it__review-text rte">{{ section.settings.review_text }}</div>
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "NL Image + Text",
+  "tag": "section",
+  "class": "section-nl-image-text",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "select",
+      "id": "image_side",
+      "label": "Image side (desktop)",
+      "options": [
+        { "value": "right", "label": "Right" },
+        { "value": "left", "label": "Left" }
+      ],
+      "default": "right"
+    },
+    {
+      "type": "range",
+      "id": "image_radius",
+      "label": "Image corner radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Rating pill"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "pill_text",
+      "label": "Pill text",
+      "default": "★★★★★ Excellent <strong>4.8/5</strong>"
+    },
+    {
+      "type": "color",
+      "id": "pill_bg",
+      "label": "Pill background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "pill_border",
+      "label": "Pill border",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "pill_text_color",
+      "label": "Pill text color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "<strong>Une manucure </strong><em>parfaite</em><strong>, </strong><em>facile</em><strong> et </strong><em>précise</em>"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Heading size (desktop scales up)",
+      "min": 24,
+      "max": 56,
+      "step": 2,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "richtext",
+      "id": "body",
+      "label": "Body",
+      "default": "<p>Obtenez des ongles <strong>impeccables</strong> grâce à un format stylo ultra pratique et facile à manier.</p><p>Conçu pour une application précise, rapide et sans effort, ce vernis en <strong>stylo</strong> vous offre un fini effet <strong>salon</strong> sans besoin de <strong>lampe UV</strong>.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Mini review"
+    },
+    {
+      "type": "image_picker",
+      "id": "avatar_1",
+      "label": "Avatar 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "avatar_2",
+      "label": "Avatar 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "avatar_3",
+      "label": "Avatar 3"
+    },
+    {
+      "type": "image_picker",
+      "id": "avatar_4",
+      "label": "Avatar 4"
+    },
+    {
+      "type": "image_picker",
+      "id": "avatar_5",
+      "label": "Avatar 5"
+    },
+    {
+      "type": "richtext",
+      "id": "review_text",
+      "label": "Review text",
+      "default": "<p>★★★★★ Excellent 4.8/5<br>« C'est super facile à appliquer et le résultat est incroyable, comme en salon » — <em>Ana R.</em></p>"
+    },
+    {
+      "type": "header",
+      "content": "Colors & spacing"
+    },
+    {
+      "type": "color",
+      "id": "bg_gradient_start",
+      "label": "Background gradient top",
+      "default": "#fff0f7"
+    },
+    {
+      "type": "color",
+      "id": "bg_gradient_end",
+      "label": "Background gradient bottom",
+      "default": "#ffe4f0"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Body text color",
+      "default": "#1e1e1e"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#1e1e1e"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding top",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "default": 48
+    }
+  ],
+  "presets": [
+    {
+      "name": "NL Image + Text"
+    }
+  ]
+}
+{% endschema %}
