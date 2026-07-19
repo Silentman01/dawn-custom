@@ -11,107 +11,83 @@
     margin: 0 0 3rem;
     color: {{ section.settings.heading_color }};
   }
-  .nlc-{{ section.id }} .nlc__grid {
-    display: grid;
-    grid-template-columns: 1fr minmax(9rem, 15rem) 1fr;
-    max-width: 90rem;
-    margin: 0 auto;
-    position: relative;
+  .nlc-{{ section.id }} .nlc__cards {
+    display: flex;
     align-items: stretch;
-  }
-  /* header row */
-  .nlc-{{ section.id }} .nlc__head {
-    text-align: center;
-    padding: 2.4rem 1.2rem 1.6rem;
-  }
-  .nlc-{{ section.id }} .nlc__head--brand { background: {{ section.settings.brand_bg }}; border-top-left-radius: 2.4rem; }
-  .nlc-{{ section.id }} .nlc__head--comp { background: {{ section.settings.comp_bg }}; border-top-right-radius: 2.4rem; }
-  .nlc-{{ section.id }} .nlc__head--label { background: transparent; }
-  .nlc-{{ section.id }} .nlc__brandname {
-    font-size: 2.6rem;
-    font-weight: 800;
-    margin: 0 0 1rem;
-    color: {{ section.settings.brand_name_color }};
-  }
-  .nlc-{{ section.id }} .nlc__compname {
-    font-size: 2.2rem;
-    font-weight: 700;
-    margin: 0 0 1rem;
-    color: {{ section.settings.comp_name_color }};
-  }
-  .nlc-{{ section.id }} .nlc__head img {
-    max-height: 12rem;
-    width: auto;
-    object-fit: contain;
+    justify-content: center;
+    max-width: 88rem;
     margin: 0 auto;
-    display: block;
   }
-  /* feature cells */
-  .nlc-{{ section.id }} .nlc__cell {
+  .nlc-{{ section.id }} .nlc__card { display: flex; flex-direction: column; }
+  .nlc-{{ section.id }} .nlc__card--brand { flex: 1; background: {{ section.settings.brand_bg }}; border-radius: 2.4rem 0 0 2.4rem; }
+  .nlc-{{ section.id }} .nlc__card--comp { flex: 1; background: {{ section.settings.comp_bg }}; border-radius: 0 2.4rem 2.4rem 0; }
+  .nlc-{{ section.id }} .nlc__card--center {
+    flex: 0 0 15rem;
+    background: #fff;
+    border-radius: 2rem;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+    z-index: 2;
+    margin: 0 -1.2rem;
+  }
+  /* headers (fixed height so rows below stay aligned across the 3 cards) */
+  .nlc-{{ section.id }} .nlc__head {
+    min-height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2rem 1.2rem 1.4rem;
+    text-align: center;
+  }
+  .nlc-{{ section.id }} .nlc__brandname { font-size: 2.6rem; font-weight: 800; margin: 0 0 1rem; color: {{ section.settings.brand_name_color }}; }
+  .nlc-{{ section.id }} .nlc__compname { font-size: 2.1rem; font-weight: 700; margin: 0 0 1rem; color: {{ section.settings.comp_name_color }}; }
+  .nlc-{{ section.id }} .nlc__head img { max-height: 9rem; width: auto; object-fit: contain; display: block; }
+  /* rows */
+  .nlc-{{ section.id }} .nlc__feat, .nlc-{{ section.id }} .nlc__label {
+    min-height: 5.6rem;
     display: flex;
     align-items: center;
-    gap: 0.8rem;
-    padding: 1.2rem 1.6rem;
-    font-size: 1.4rem;
-    line-height: 1.25;
-    min-height: 5.6rem;
+    padding: 0.8rem 1.4rem;
   }
-  .nlc-{{ section.id }} .nlc__cell--brand { background: {{ section.settings.brand_bg }}; color: {{ section.settings.brand_text_color }}; }
-  .nlc-{{ section.id }} .nlc__cell--comp { background: {{ section.settings.comp_bg }}; color: {{ section.settings.comp_text_color }}; justify-content: flex-end; text-align: right; }
-  .nlc-{{ section.id }} .nlc__cell--brand:last-child { border-bottom-left-radius: 2.4rem; }
-  .nlc-{{ section.id }} .nlc__cell--comp:last-child { border-bottom-right-radius: 2.4rem; }
-  /* inner pill around brand/comp text */
+  .nlc-{{ section.id }} .nlc__card--center .nlc__label:last-child { padding-bottom: 1.4rem; }
+  .nlc-{{ section.id }} .nlc__label {
+    justify-content: center;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: {{ section.settings.label_color }};
+  }
   .nlc-{{ section.id }} .nlc__pill {
     display: flex;
     align-items: center;
-    gap: 0.8rem;
+    gap: 0.7rem;
     background: #fff;
     border-radius: 100px;
-    padding: 0.7rem 1.4rem;
+    padding: 0.7rem 1.3rem;
     width: 100%;
+    font-size: 1.4rem;
+    line-height: 1.2;
   }
-  .nlc-{{ section.id }} .nlc__cell--comp .nlc__pill { flex-direction: row-reverse; }
+  .nlc-{{ section.id }} .nlc__card--comp .nlc__pill { flex-direction: row-reverse; text-align: right; }
+  .nlc-{{ section.id }} .nlc__pilltext { flex: 1; }
+  .nlc-{{ section.id }} .nlc__card--brand .nlc__pilltext { color: {{ section.settings.brand_text_color }}; }
+  .nlc-{{ section.id }} .nlc__card--comp .nlc__pilltext { color: {{ section.settings.comp_text_color }}; }
   .nlc-{{ section.id }} .nlc__icon { width: 2rem; height: 2rem; flex-shrink: 0; }
   .nlc-{{ section.id }} .nlc__icon svg { width: 100%; height: 100%; display: block; }
   .nlc-{{ section.id }} .nlc__icon--star { color: {{ section.settings.brand_accent }}; }
   .nlc-{{ section.id }} .nlc__icon--minus { color: {{ section.settings.comp_accent }}; }
-  .nlc-{{ section.id }} .nlc__pilltext { flex: 1; }
-  /* center floating label card */
-  .nlc-{{ section.id }} .nlc__center {
-    grid-column: 2;
-    grid-row: 1 / -1;
-    background: #fff;
-    border-radius: 2rem;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
-    margin: 3.5rem -1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    z-index: 2;
-    position: relative;
-  }
-  .nlc-{{ section.id }} .nlc__label {
-    text-align: center;
-    font-size: 1.3rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    padding: 1.2rem 0.6rem;
-    min-height: 5.6rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: {{ section.settings.label_color }};
-  }
   @media screen and (max-width: 749px) {
-    .nlc-{{ section.id }} .nlc__grid { grid-template-columns: 1fr minmax(7rem, 9rem) 1fr; }
-    .nlc-{{ section.id }} .nlc__head img { max-height: 7rem; }
-    .nlc-{{ section.id }} .nlc__brandname { font-size: 1.8rem; }
-    .nlc-{{ section.id }} .nlc__compname { font-size: 1.6rem; }
-    .nlc-{{ section.id }} .nlc__cell { font-size: 1.15rem; padding: 0.9rem 0.8rem; }
-    .nlc-{{ section.id }} .nlc__pill { padding: 0.5rem 0.9rem; }
-    .nlc-{{ section.id }} .nlc__label { font-size: 1rem; padding: 0.8rem 0.3rem; }
-    .nlc-{{ section.id }} .nlc__center { margin: 2.5rem -0.4rem; }
+    .nlc-{{ section.id }} .nlc__card--center { flex-basis: 8.5rem; margin: 0 -0.6rem; }
+    .nlc-{{ section.id }} .nlc__head { min-height: 11rem; padding: 1.2rem 0.5rem 1rem; }
+    .nlc-{{ section.id }} .nlc__head img { max-height: 5rem; }
+    .nlc-{{ section.id }} .nlc__brandname { font-size: 1.7rem; }
+    .nlc-{{ section.id }} .nlc__compname { font-size: 1.5rem; }
+    .nlc-{{ section.id }} .nlc__feat, .nlc-{{ section.id }} .nlc__label { min-height: 6.4rem; padding: 0.6rem 0.6rem; }
+    .nlc-{{ section.id }} .nlc__pill { font-size: 1.05rem; padding: 0.5rem 0.8rem; gap: 0.4rem; }
+    .nlc-{{ section.id }} .nlc__icon { width: 1.5rem; height: 1.5rem; }
+    .nlc-{{ section.id }} .nlc__label { font-size: 0.9rem; }
   }
 {%- endstyle -%}
 
@@ -123,44 +99,48 @@
     <h2 class="nlc__heading">{{ section.settings.heading }}</h2>
   {%- endif -%}
   <div class="page-width">
-    <div class="nlc__grid">
-      <!-- header row -->
-      <div class="nlc__head nlc__head--brand">
-        <p class="nlc__brandname">{{ section.settings.brand_name }}</p>
-        {%- if section.settings.brand_image != blank -%}
-          <img src="{{ section.settings.brand_image | image_url: width: 400 }}" alt="{{ section.settings.brand_name | escape }}" loading="lazy">
-        {%- endif -%}
+    <div class="nlc__cards">
+      <!-- brand card -->
+      <div class="nlc__card nlc__card--brand">
+        <div class="nlc__head">
+          <p class="nlc__brandname">{{ section.settings.brand_name }}</p>
+          {%- if section.settings.brand_image != blank -%}
+            <img src="{{ section.settings.brand_image | image_url: width: 400 }}" alt="{{ section.settings.brand_name | escape }}" loading="lazy">
+          {%- endif -%}
+        </div>
+        {%- for block in section.blocks -%}
+          <div class="nlc__feat" {{ block.shopify_attributes }}>
+            <div class="nlc__pill">
+              <span class="nlc__icon nlc__icon--star">{{ star }}</span>
+              <span class="nlc__pilltext">{{ block.settings.brand_text }}</span>
+            </div>
+          </div>
+        {%- endfor -%}
       </div>
-      <div class="nlc__head nlc__head--label"></div>
-      <div class="nlc__head nlc__head--comp">
-        <p class="nlc__compname">{{ section.settings.comp_name }}</p>
-        {%- if section.settings.comp_image != blank -%}
-          <img src="{{ section.settings.comp_image | image_url: width: 400 }}" alt="{{ section.settings.comp_name | escape }}" loading="lazy">
-        {%- endif -%}
-      </div>
-
-      <!-- floating center label card spanning all rows -->
-      <div class="nlc__center">
+      <!-- center label card -->
+      <div class="nlc__card nlc__card--center">
+        <div class="nlc__head nlc__head--center"></div>
         {%- for block in section.blocks -%}
           <div class="nlc__label">{{ block.settings.label }}</div>
         {%- endfor -%}
       </div>
-
-      <!-- feature rows -->
-      {%- for block in section.blocks -%}
-        <div class="nlc__cell nlc__cell--brand" {{ block.shopify_attributes }}>
-          <div class="nlc__pill">
-            <span class="nlc__icon nlc__icon--star">{{ star }}</span>
-            <span class="nlc__pilltext">{{ block.settings.brand_text }}</span>
-          </div>
+      <!-- competitor card -->
+      <div class="nlc__card nlc__card--comp">
+        <div class="nlc__head">
+          <p class="nlc__compname">{{ section.settings.comp_name }}</p>
+          {%- if section.settings.comp_image != blank -%}
+            <img src="{{ section.settings.comp_image | image_url: width: 400 }}" alt="{{ section.settings.comp_name | escape }}" loading="lazy">
+          {%- endif -%}
         </div>
-        <div class="nlc__cell nlc__cell--comp">
-          <div class="nlc__pill">
-            <span class="nlc__icon nlc__icon--minus">{{ minus }}</span>
-            <span class="nlc__pilltext">{{ block.settings.comp_text }}</span>
+        {%- for block in section.blocks -%}
+          <div class="nlc__feat">
+            <div class="nlc__pill">
+              <span class="nlc__icon nlc__icon--minus">{{ minus }}</span>
+              <span class="nlc__pilltext">{{ block.settings.comp_text }}</span>
+            </div>
           </div>
-        </div>
-      {%- endfor -%}
+        {%- endfor -%}
+      </div>
     </div>
   </div>
 </div>
