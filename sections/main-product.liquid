@@ -2388,9 +2388,9 @@
                             idx = (i + total) % total;
                             track.style.transform = 'translateX(-' + idx * 100 + '%)';
                           }
-                          var timer;
-                          function start() { timer = setInterval(function () { go(idx + 1); }, interval); }
-                          function stop() { clearInterval(timer); }
+                          var timer = null;
+                          function stop() { if (timer) { clearInterval(timer); timer = null; } }
+                          function start() { stop(); timer = setInterval(function () { go(idx + 1); }, interval); }
                           start();
                           root.addEventListener('mouseenter', stop);
                           root.addEventListener('mouseleave', start);
