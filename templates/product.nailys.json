@@ -318,55 +318,32 @@
       }
     },
     "nl_compare": {
-      "type": "nl-comparison",
-      "blocks": {
-        "r1": { "type": "row", "settings": { "label": "TEMPS DE SÉCHAGE", "brand_text": "Ultra rapide", "comp_text": "Long à sécher" } },
-        "r2": { "type": "row", "settings": { "label": "TENUE", "brand_text": "Longue tenue", "comp_text": "S'écaille rapidement" } },
-        "r3": { "type": "row", "settings": { "label": "APPLICATION", "brand_text": "Précise et propre", "comp_text": "Déborde facilement" } },
-        "r4": { "type": "row", "settings": { "label": "UTILISATION", "brand_text": "Facile à utiliser", "comp_text": "Plus exigeante" } },
-        "r5": { "type": "row", "settings": { "label": "RÉSULTAT FINAL", "brand_text": "Résultat impeccable", "comp_text": "Résultat irrégulier" } }
-      },
-      "block_order": ["r1", "r2", "r3", "r4", "r5"],
+      "type": "nl-image-banner",
       "settings": {
-        "heading": "",
-        "heading_size": 32,
-        "heading_color": "#1e1e1e",
-        "section_bg": "#ffffff",
-        "brand_name": "nailys",
-        "brand_image": "shopify://shop_images/nailysprod-nailys-single-pen.png",
-        "brand_bg": "#ffd9ea",
-        "brand_name_color": "#1e1e1e",
-        "brand_text_color": "#1e1e1e",
-        "brand_accent": "#e8467e",
-        "comp_name": "Vernis classique",
-        "comp_bg": "#ececec",
-        "comp_name_color": "#1e1e1e",
-        "comp_text_color": "#555555",
-        "comp_accent": "#b0b0b0",
-        "label_color": "#1e1e1e",
-        "padding_top": 40,
-        "padding_bottom": 40
+        "image": "shopify://shop_images/nailys-compare-desktop.png",
+        "image_mobile": "shopify://shop_images/nailys-compare-mobile.png",
+        "full_width": true,
+        "link": "",
+        "padding_top": 8,
+        "padding_bottom": 24
       }
     },
     "nl_steps": {
-      "type": "feature-cards",
+      "type": "nl-steps",
       "blocks": {
-        "c1": { "type": "card", "settings": { "image": "shopify://shop_images/nailys-step-1.jpg", "title": "Appliquez une <strong>base coat</strong>", "text": "", "card_bg_color": "" } },
-        "c2": { "type": "card", "settings": { "image": "shopify://shop_images/nailys-step-2.png", "title": "Appliquez votre <strong>vernis</strong> Nailys™", "text": "", "card_bg_color": "" } },
-        "c3": { "type": "card", "settings": { "image": "shopify://shop_images/nailys-step-3.jpg", "title": "Terminez par un <strong>top coat</strong>", "text": "", "card_bg_color": "" } }
+        "s1": { "type": "step", "settings": { "image": "shopify://shop_images/nailys-step-1.jpg", "caption": "Appliquez une <strong>base coat</strong>" } },
+        "s2": { "type": "step", "settings": { "image": "shopify://shop_images/nailys-step-2.png", "caption": "Appliquez votre <strong>vernis</strong> Nailys™" } },
+        "s3": { "type": "step", "settings": { "image": "shopify://shop_images/nailys-step-3.jpg", "caption": "Terminez par un <strong>top coat</strong>" } }
       },
-      "block_order": ["c1", "c2", "c3"],
+      "block_order": ["s1", "s2", "s3"],
       "settings": {
         "heading": "3 étapes pour des ongles parfaits",
-        "highlight_color": "#c42e62",
-        "card_title_size": 20,
-        "card_title_highlight": "#c42e62",
-        "section_bg_color": "",
-        "text_alignment": "center",
-        "card_border_radius": 12,
-        "image_border_radius": 2,
-        "mobile_layout": "slider",
-        "pagination_type": "both",
+        "heading_size": 34,
+        "heading_color": "#1e1e1e",
+        "text_color": "#1e1e1e",
+        "bg_color": "#ffffff",
+        "circle_size": 200,
+        "caption_size": 16,
         "padding_top": 36,
         "padding_bottom": 36
       }

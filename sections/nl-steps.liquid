@@ -1,0 +1,109 @@
+{%- style -%}
+  .nl-steps-{{ section.id }} {
+    background: {{ section.settings.bg_color }};
+    padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px;
+  }
+  .nl-steps-{{ section.id }} .nl-steps__heading {
+    text-align: center;
+    font-size: {{ section.settings.heading_size }}px;
+    font-weight: 700;
+    line-height: 1.15;
+    margin: 0 0 3.2rem;
+    color: {{ section.settings.heading_color }};
+  }
+  .nl-steps-{{ section.id }} .nl-steps__heading em { font-style: italic; }
+  .nl-steps-{{ section.id }} .nl-steps__grid {
+    display: grid;
+    grid-template-columns: repeat({{ section.blocks.size }}, 1fr);
+    gap: 2.4rem;
+  }
+  .nl-steps-{{ section.id }} .nl-steps__item {
+    text-align: center;
+  }
+  .nl-steps-{{ section.id }} .nl-steps__img {
+    width: {{ section.settings.circle_size }}px;
+    height: {{ section.settings.circle_size }}px;
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 1.6rem;
+  }
+  .nl-steps-{{ section.id }} .nl-steps__caption {
+    font-size: {{ section.settings.caption_size }}px;
+    line-height: 1.35;
+    margin: 0 auto;
+    max-width: 26rem;
+    color: {{ section.settings.text_color }};
+  }
+  .nl-steps-{{ section.id }} .nl-steps__caption p { margin: 0; }
+  .nl-steps-{{ section.id }} .nl-steps__caption strong { font-weight: 700; }
+  @media screen and (max-width: 749px) {
+    .nl-steps-{{ section.id }} .nl-steps__grid {
+      grid-template-columns: none;
+      grid-auto-flow: column;
+      grid-auto-columns: 72%;
+      gap: 1.4rem;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      padding-bottom: 1rem;
+    }
+    .nl-steps-{{ section.id }} .nl-steps__item { scroll-snap-align: center; }
+  }
+{%- endstyle -%}
+
+<div class="nl-steps-{{ section.id }}">
+  <div class="page-width">
+    {%- if section.settings.heading != blank -%}
+      <h2 class="nl-steps__heading">{{ section.settings.heading }}</h2>
+    {%- endif -%}
+    <div class="nl-steps__grid">
+      {%- for block in section.blocks -%}
+        <div class="nl-steps__item" {{ block.shopify_attributes }}>
+          {%- if block.settings.image != blank -%}
+            <img class="nl-steps__img" src="{{ block.settings.image | image_url: width: 600 }}" alt="{{ block.settings.caption | strip_html | escape }}" width="{{ section.settings.circle_size }}" height="{{ section.settings.circle_size }}" loading="lazy">
+          {%- else -%}
+            <div class="nl-steps__img">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+          {%- endif -%}
+          {%- if block.settings.caption != blank -%}
+            <div class="nl-steps__caption rte">{{ block.settings.caption }}</div>
+          {%- endif -%}
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "NL Steps",
+  "tag": "section",
+  "class": "section-nl-steps",
+  "settings": [
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "3 étapes pour des ongles parfaits" },
+    { "type": "range", "id": "heading_size", "label": "Heading size", "min": 20, "max": 48, "step": 2, "unit": "px", "default": 34 },
+    { "type": "color", "id": "heading_color", "label": "Heading color", "default": "#1e1e1e" },
+    { "type": "color", "id": "text_color", "label": "Caption color", "default": "#1e1e1e" },
+    { "type": "color", "id": "bg_color", "label": "Background", "default": "#ffffff" },
+    { "type": "range", "id": "circle_size", "label": "Circle size", "min": 100, "max": 320, "step": 10, "unit": "px", "default": 200 },
+    { "type": "range", "id": "caption_size", "label": "Caption size", "min": 12, "max": 22, "step": 1, "unit": "px", "default": 16 },
+    { "type": "range", "id": "padding_top", "label": "Padding top", "min": 0, "max": 120, "step": 4, "unit": "px", "default": 36 },
+    { "type": "range", "id": "padding_bottom", "label": "Padding bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "default": 36 }
+  ],
+  "blocks": [
+    {
+      "type": "step",
+      "name": "Step",
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "Image" },
+        { "type": "inline_richtext", "id": "caption", "label": "Caption", "default": "Appliquez une <strong>base coat</strong>" }
+      ]
+    }
+  ],
+  "presets": [
+    { "name": "NL Steps", "blocks": [ { "type": "step" }, { "type": "step" }, { "type": "step" } ] }
+  ]
+}
+{% endschema %}
