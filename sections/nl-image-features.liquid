@@ -1,0 +1,233 @@
+{%- style -%}
+  .nl-if-{{ section.id }} {
+    background: linear-gradient(180deg, {{ section.settings.bg_gradient_start }} 0%, {{ section.settings.bg_gradient_end }} 100%);
+    padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px;
+    color: {{ section.settings.text_color }};
+  }
+  .nl-if-{{ section.id }} .nl-if__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    align-items: center;
+  }
+  .nl-if-{{ section.id }} .nl-if__media img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: {{ section.settings.image_radius }}px;
+  }
+  .nl-if-{{ section.id }} .nl-if__heading {
+    font-size: {{ section.settings.heading_size }}px;
+    line-height: 1.1;
+    font-weight: 700;
+    margin: 0 0 2rem;
+    color: {{ section.settings.heading_color }};
+  }
+  .nl-if-{{ section.id }} .nl-if__heading em { font-style: italic; }
+  .nl-if-{{ section.id }} .nl-if__row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 0 1.4rem;
+  }
+  .nl-if-{{ section.id }} .nl-if__icon {
+    width: 3.2rem;
+    height: 3.2rem;
+    flex-shrink: 0;
+    color: {{ section.settings.accent_color }};
+  }
+  .nl-if-{{ section.id }} .nl-if__icon svg { width: 100%; height: 100%; }
+  .nl-if-{{ section.id }} .nl-if__title {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 0 0 0.2rem;
+    line-height: 1.2;
+  }
+  .nl-if-{{ section.id }} .nl-if__desc {
+    font-size: 1.3rem;
+    margin: 0;
+    line-height: 1.35;
+    opacity: 0.9;
+  }
+  @media screen and (min-width: 750px) {
+    .nl-if-{{ section.id }} .nl-if__grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+    }
+    {%- if section.settings.image_side == 'right' -%}
+      .nl-if-{{ section.id }} .nl-if__media { order: 2; }
+      .nl-if-{{ section.id }} .nl-if__text { order: 1; }
+    {%- else -%}
+      .nl-if-{{ section.id }} .nl-if__media { order: 1; }
+      .nl-if-{{ section.id }} .nl-if__text { order: 2; }
+    {%- endif -%}
+    .nl-if-{{ section.id }} .nl-if__heading { font-size: calc({{ section.settings.heading_size }}px * 1.15); }
+  }
+{%- endstyle -%}
+
+{%- capture checkmark -%}<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 22.75c-5.93 0-10.75-4.82-10.75-10.75s4.82-10.75 10.75-10.75 10.75 4.82 10.75 10.75-4.82 10.75-10.75 10.75zm0-20c-5.1 0-9.25 4.15-9.25 9.25s4.15 9.25 9.25 9.25 9.25-4.15 9.25-9.25-4.15-9.25-9.25-9.25z" style="fill:currentColor;"></path><path d="m10.58 15.58c-0.2 0-0.39-0.08-0.53-0.22l-2.83-2.83c-0.29-0.29-0.29-0.77 0-1.06s0.77-0.29 1.06 0l2.3 2.3 5.14-5.14c0.29-0.29 0.77-0.29 1.06 0s0.29 0.77 0 1.06l-5.67 5.67c-0.14 0.14-0.33 0.22-0.53 0.22z" style="fill:currentColor;"></path></svg>{%- endcapture -%}
+
+<div class="nl-if-{{ section.id }}">
+  <div class="page-width">
+    <div class="nl-if__grid">
+      <div class="nl-if__media">
+        {%- if section.settings.image != blank -%}
+          <img src="{{ section.settings.image | image_url: width: 1500 }}" alt="{{ section.settings.image.alt | escape }}" width="{{ section.settings.image.width }}" height="{{ section.settings.image.height }}" loading="lazy" sizes="(min-width: 750px) 50vw, 100vw">
+        {%- else -%}
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {%- endif -%}
+      </div>
+      <div class="nl-if__text">
+        {%- if section.settings.heading != blank -%}
+          <h2 class="nl-if__heading">{{ section.settings.heading }}</h2>
+        {%- endif -%}
+        {%- for block in section.blocks -%}
+          <div class="nl-if__row" {{ block.shopify_attributes }}>
+            <span class="nl-if__icon" aria-hidden="true">
+              {%- if block.settings.icon_image != blank -%}
+                <img src="{{ block.settings.icon_image | image_url: width: 80 }}" alt="" width="32" height="32">
+              {%- else -%}
+                {{ checkmark }}
+              {%- endif -%}
+            </span>
+            <div>
+              {%- if block.settings.title != blank -%}<p class="nl-if__title">{{ block.settings.title }}</p>{%- endif -%}
+              {%- if block.settings.description != blank -%}<p class="nl-if__desc">{{ block.settings.description }}</p>{%- endif -%}
+            </div>
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "NL Image + Features",
+  "tag": "section",
+  "class": "section-nl-image-features",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "select",
+      "id": "image_side",
+      "label": "Image side (desktop)",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "range",
+      "id": "image_radius",
+      "label": "Image corner radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Précis, rapide, <em>impeccable</em>."
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Heading size (desktop scales up)",
+      "min": 24,
+      "max": 52,
+      "step": 2,
+      "unit": "px",
+      "default": 38
+    },
+    {
+      "type": "color",
+      "id": "accent_color",
+      "label": "Icon color",
+      "default": "#c42e62"
+    },
+    {
+      "type": "color",
+      "id": "bg_gradient_start",
+      "label": "Background gradient top",
+      "default": "#fff6fb"
+    },
+    {
+      "type": "color",
+      "id": "bg_gradient_end",
+      "label": "Background gradient bottom",
+      "default": "#ffe4f0"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#1e1e1e"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#1e1e1e"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding top",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Feature",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Application précise"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description",
+          "default": "Format feutre pour une application facile et ultra précise."
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_image",
+          "label": "Icon image (optional — defaults to checkmark)"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "NL Image + Features"
+    }
+  ]
+}
+{% endschema %}

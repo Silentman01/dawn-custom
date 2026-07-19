@@ -1,0 +1,96 @@
+{%- style -%}
+  .nl-banner-{{ section.id }} {
+    padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px;
+    {%- unless section.settings.full_width -%}
+      max-width: var(--page-width, 1200px);
+      margin: 0 auto;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    {%- endunless -%}
+  }
+  .nl-banner-{{ section.id }} img,
+  .nl-banner-{{ section.id }} a {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .nl-banner-{{ section.id }} .nl-banner__mobile { display: none; }
+  @media screen and (max-width: 749px) {
+    {%- if section.settings.image_mobile != blank -%}
+      .nl-banner-{{ section.id }} .nl-banner__desktop { display: none; }
+      .nl-banner-{{ section.id }} .nl-banner__mobile { display: block; }
+    {%- endif -%}
+  }
+{%- endstyle -%}
+
+<div class="nl-banner-{{ section.id }}">
+  {%- capture img -%}
+    {%- if section.settings.image != blank -%}
+      <img class="nl-banner__desktop" src="{{ section.settings.image | image_url: width: 3000 }}" alt="{{ section.settings.image.alt | escape }}" width="{{ section.settings.image.width }}" height="{{ section.settings.image.height }}" loading="lazy">
+    {%- endif -%}
+    {%- if section.settings.image_mobile != blank -%}
+      <img class="nl-banner__mobile" src="{{ section.settings.image_mobile | image_url: width: 1200 }}" alt="{{ section.settings.image_mobile.alt | escape }}" width="{{ section.settings.image_mobile.width }}" height="{{ section.settings.image_mobile.height }}" loading="lazy">
+    {%- endif -%}
+  {%- endcapture -%}
+  {%- if section.settings.link != blank -%}
+    <a href="{{ section.settings.link }}">{{ img }}</a>
+  {%- else -%}
+    {{ img }}
+  {%- endif -%}
+</div>
+
+{% schema %}
+{
+  "name": "NL Image banner",
+  "tag": "section",
+  "class": "section-nl-image-banner",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Desktop image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_mobile",
+      "label": "Mobile image (optional)"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width (edge to edge)",
+      "default": true
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Link (optional)"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding top",
+      "min": 0,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "min": 0,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "NL Image banner"
+    }
+  ]
+}
+{% endschema %}
