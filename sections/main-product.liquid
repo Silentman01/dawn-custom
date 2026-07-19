@@ -301,31 +301,6 @@
       margin: 0;
       line-height: 1.35;
     }
-    .feat-slider__arrows {
-      position: absolute;
-      top: 1.2rem;
-      right: 1.2rem;
-      display: flex;
-      gap: 0.8rem;
-      z-index: 1;
-    }
-    .feat-slider__arrow {
-      width: 3rem;
-      height: 3rem;
-      border-radius: 50%;
-      border: 1px solid var(--fs-accent, #c42e62);
-      background: transparent;
-      color: var(--fs-accent, #c42e62);
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0;
-    }
-    .feat-slider__arrow svg {
-      width: 1.4rem;
-      height: 1.4rem;
-    }
 
     /* Fake variant picker */
     .fake-variant-picker__label {
@@ -2372,23 +2347,12 @@
                     style="
                       {%- if block.settings.bg_color != blank and block.settings.bg_color != 'rgba(0,0,0,0)' -%}--fs-bg:{{ block.settings.bg_color }};{%- endif -%}
                       {%- if block.settings.text_color != blank and block.settings.text_color != 'rgba(0,0,0,0)' -%}--fs-text:{{ block.settings.text_color }};{%- endif -%}
-                      --fs-accent: {{ block.settings.accent_color | default: '#c42e62' }};
                       --fs-radius: {{ block.settings.border_radius | default: 12 }}px;
                       --fs-heading-size: {{ block.settings.heading_size | default: 1.6 }}rem;
                       --fs-text-size: {{ block.settings.text_size | default: 1.2 }}rem;
                     "
                     {{ block.shopify_attributes }}
                   >
-                    {%- if fs_count > 1 -%}
-                      <div class="feat-slider__arrows">
-                        <button type="button" class="feat-slider__arrow" data-fs-prev aria-label="Précédent">
-                          <svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 11 5 7l4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                        </button>
-                        <button type="button" class="feat-slider__arrow" data-fs-next aria-label="Suivant">
-                          <svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m5 3 4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                        </button>
-                      </div>
-                    {%- endif -%}
                     <div class="feat-slider__viewport">
                       <div class="feat-slider__track" data-fs-track>
                         {%- for n in fs_ids -%}
@@ -2417,17 +2381,19 @@
                           var root = document.getElementById('FeatSlider-{{ block.id }}');
                           if (!root) return;
                           var track = root.querySelector('[data-fs-track]');
-                          var slides = track.children;
-                          var total = slides.length;
+                          var total = track.children.length;
                           var idx = 0;
+                          var interval = {{ block.settings.autoplay_interval | default: 3.0 | times: 1000.0 | round }};
                           function go(i) {
                             idx = (i + total) % total;
                             track.style.transform = 'translateX(-' + idx * 100 + '%)';
                           }
-                          var prev = root.querySelector('[data-fs-prev]');
-                          var next = root.querySelector('[data-fs-next]');
-                          if (prev) prev.addEventListener('click', function () { go(idx - 1); });
-                          if (next) next.addEventListener('click', function () { go(idx + 1); });
+                          var timer;
+                          function start() { timer = setInterval(function () { go(idx + 1); }, interval); }
+                          function stop() { clearInterval(timer); }
+                          start();
+                          root.addEventListener('mouseenter', stop);
+                          root.addEventListener('mouseleave', start);
                         })();
                       </script>
                     {%- endif -%}
@@ -5416,10 +5382,14 @@
           "label": "Text color"
         },
         {
-          "type": "color",
-          "id": "accent_color",
-          "label": "Arrow color",
-          "default": "#c42e62"
+          "type": "range",
+          "id": "autoplay_interval",
+          "label": "Auto-swipe interval",
+          "min": 1,
+          "max": 10,
+          "step": 0.5,
+          "default": 3,
+          "unit": "s"
         },
         {
           "type": "range",
