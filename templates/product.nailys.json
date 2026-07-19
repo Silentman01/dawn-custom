@@ -16,7 +16,7 @@
           "type": "star_rating",
           "settings": {
             "rating": 4.8,
-            "text": "Noté <strong>4,8 Excellent</strong> · 731 avis",
+            "text": "<strong>4,8/5</strong> (342 avis)",
             "star_color": "#c42e62",
             "star_bg_color": "#ececec",
             "star_size": 1.3,
