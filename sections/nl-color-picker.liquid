@@ -1,0 +1,253 @@
+{%- comment -%}
+  Nailys — 5-shade colour picker (custom native section, build 2026-07-19).
+  The customer composes a pack by choosing N shades (default 5) from a swatch grid.
+  Selections are synced into the product's add-to-cart form as line-item properties
+  (properties[Teinte 1..N]) and the ATC button is gated until the pack is complete.
+  Every field is a setting/block (operator law: all fields + colours customizable).
+{%- endcomment -%}
+
+{%- liquid
+  assign count = section.settings.select_count | default: 5
+  assign acc = section.settings.accent
+  assign acc_deep = section.settings.accent_deep
+  assign soft = section.settings.soft
+  assign bg = section.settings.bg
+  assign card = section.settings.card
+  assign ink = section.settings.ink
+-%}
+
+<style>
+  #nlpick-{{ section.id }} {
+    --nl-acc: {{ acc }};
+    --nl-acc-deep: {{ acc_deep }};
+    --nl-soft: {{ soft }};
+    --nl-bg: {{ bg }};
+    --nl-card: {{ card }};
+    --nl-ink: {{ ink }};
+    background: var(--nl-bg);
+    border-radius: {{ section.settings.radius }}px;
+    padding: {{ section.settings.padding }}px;
+    margin: 0 0 16px;
+    font-family: inherit;
+  }
+  #nlpick-{{ section.id }} .nlp-head { display:flex; align-items:baseline; justify-content:space-between; gap:10px; margin-bottom:12px; flex-wrap:wrap; }
+  #nlpick-{{ section.id }} .nlp-title { font-size:14px; font-weight:700; letter-spacing:.04em; color:var(--nl-ink); text-transform:uppercase; margin:0; }
+  #nlpick-{{ section.id }} .nlp-counter { font-size:12px; font-weight:700; color:var(--nl-acc); }
+  #nlpick-{{ section.id }} .nlp-slots { display:flex; gap:8px; margin-bottom:14px; flex-wrap:wrap; }
+  #nlpick-{{ section.id }} .nlp-slot {
+    position:relative; width:52px; height:52px; border-radius:14px; border:2px dashed var(--nl-soft);
+    background:var(--nl-card); display:flex; align-items:center; justify-content:center; cursor:pointer;
+    font-size:15px; font-weight:700; color:var(--nl-soft); transition:.15s; padding:0;
+  }
+  #nlpick-{{ section.id }} .nlp-slot.is-active { border-style:solid; border-color:var(--nl-acc); box-shadow:0 0 0 3px color-mix(in srgb, var(--nl-acc) 18%, transparent); }
+  #nlpick-{{ section.id }} .nlp-slot.is-filled { border-style:solid; border-color:transparent; color:transparent; }
+  #nlpick-{{ section.id }} .nlp-slot .nlp-swatch { position:absolute; inset:5px; border-radius:9px; box-shadow:inset 0 0 0 1px rgba(0,0,0,.12); }
+  #nlpick-{{ section.id }} .nlp-slot .nlp-x { position:absolute; top:-6px; right:-6px; width:18px; height:18px; border-radius:50%; background:var(--nl-ink); color:#fff; font-size:11px; line-height:18px; display:none; }
+  #nlpick-{{ section.id }} .nlp-slot.is-filled .nlp-x { display:block; }
+  #nlpick-{{ section.id }} .nlp-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(38px,1fr)); gap:9px; }
+  #nlpick-{{ section.id }} .nlp-shade { position:relative; aspect-ratio:1; border-radius:50%; border:none; padding:0; cursor:pointer; box-shadow:inset 0 0 0 1px rgba(0,0,0,.1); transition:transform .12s; }
+  #nlpick-{{ section.id }} .nlp-shade:hover { transform:scale(1.12); }
+  #nlpick-{{ section.id }} .nlp-shade[aria-pressed="true"]::after { content:"✓"; position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:#fff; font-size:14px; text-shadow:0 1px 2px rgba(0,0,0,.5); }
+  #nlpick-{{ section.id }} .nlp-shade[aria-pressed="true"] { box-shadow:inset 0 0 0 2px var(--nl-card), 0 0 0 2px var(--nl-acc); }
+  #nlpick-{{ section.id }} .nlp-hint { margin:12px 0 0; font-size:12px; color:var(--nl-ink); opacity:.7; }
+  #nlpick-{{ section.id }} .nlp-hint.is-error { color:var(--nl-acc-deep); opacity:1; font-weight:600; }
+</style>
+
+<color-picker-nailys
+  id="nlpick-{{ section.id }}"
+  data-count="{{ count }}"
+  data-prop-prefix="{{ section.settings.property_label | default: 'Teinte' | escape }}"
+>
+  <div class="nlp-head">
+    <p class="nlp-title">{{ section.settings.heading | default: 'Composez votre palette' }}</p>
+    <span class="nlp-counter" data-nlp-counter>0/{{ count }}</span>
+  </div>
+
+  <div class="nlp-slots" data-nlp-slots>
+    {%- for i in (1..count) -%}
+      <button type="button" class="nlp-slot" data-nlp-slot="{{ forloop.index0 }}" aria-label="Emplacement {{ forloop.index }}">
+        <span class="nlp-slot-num">{{ forloop.index }}</span>
+        <span class="nlp-swatch" hidden></span>
+        <span class="nlp-x" aria-hidden="true">×</span>
+      </button>
+    {%- endfor -%}
+  </div>
+
+  <div class="nlp-grid" role="listbox" aria-label="{{ section.settings.heading | escape }}" data-nlp-grid>
+    {%- for block in section.blocks -%}
+      {%- if block.type == 'shade' -%}
+        <button
+          type="button"
+          class="nlp-shade"
+          role="option"
+          aria-pressed="false"
+          style="background:{{ block.settings.color }};"
+          data-nlp-shade
+          data-name="{{ block.settings.name | escape }}"
+          data-code="{{ block.settings.code | escape }}"
+          title="{{ block.settings.code }} · {{ block.settings.name | escape }}"
+          {{ block.shopify_attributes }}
+        ></button>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+
+  <p class="nlp-hint" data-nlp-hint>{{ section.settings.hint | default: 'Cliquez sur 5 teintes pour composer votre lot.' }}</p>
+  <span data-nlp-inputs hidden></span>
+</color-picker-nailys>
+
+<script>
+  (function () {
+    if (customElements.get('color-picker-nailys')) return;
+    class ColorPickerNailys extends HTMLElement {
+      connectedCallback() {
+        this.count = parseInt(this.dataset.count, 10) || 5;
+        this.prefix = this.dataset.propPrefix || 'Teinte';
+        this.slots = new Array(this.count).fill(null); // {name, code, color}
+        this.active = 0;
+        this.slotEls = Array.from(this.querySelectorAll('[data-nlp-slot]'));
+        this.shadeEls = Array.from(this.querySelectorAll('[data-nlp-shade]'));
+        this.counterEl = this.querySelector('[data-nlp-counter]');
+        this.hintEl = this.querySelector('[data-nlp-hint]');
+        this.baseHint = this.hintEl ? this.hintEl.textContent : '';
+        this.form = this.closest('form[action*="/cart/add"]') || document.querySelector('product-form form, form[action*="/cart/add"]');
+        this.slotEls.forEach((el, i) => {
+          el.addEventListener('click', () => {
+            if (this.slots[i]) { this.clearSlot(i); } else { this.setActive(i); }
+          });
+        });
+        this.shadeEls.forEach((el) => {
+          el.addEventListener('click', () => this.pick(el));
+        });
+        this.setActive(0);
+        this.gate();
+      }
+      firstEmpty() { const i = this.slots.indexOf(null); return i === -1 ? this.count - 1 : i; }
+      setActive(i) {
+        this.active = i;
+        this.slotEls.forEach((el, k) => el.classList.toggle('is-active', k === i));
+      }
+      pick(el) {
+        const data = { name: el.dataset.name, code: el.dataset.code, color: el.style.backgroundColor };
+        const target = this.slots[this.active] ? this.firstEmpty() : this.active;
+        this.slots[target] = data;
+        this.paintSlot(target, data);
+        this.setActive(this.firstEmpty());
+        this.sync();
+      }
+      clearSlot(i) {
+        this.slots[i] = null;
+        this.paintSlot(i, null);
+        this.setActive(i);
+        this.sync();
+      }
+      paintSlot(i, data) {
+        const el = this.slotEls[i];
+        const sw = el.querySelector('.nlp-swatch');
+        if (data) { el.classList.add('is-filled'); sw.hidden = false; sw.style.background = data.color; }
+        else { el.classList.remove('is-filled'); sw.hidden = true; sw.style.background = ''; }
+      }
+      sync() {
+        const chosen = this.slots.filter(Boolean);
+        this.counterEl.textContent = chosen.length + '/' + this.count;
+        // reflect selected state on the grid (a shade may be chosen multiple times, so count)
+        const chosenCodes = chosen.map((s) => s.code);
+        this.shadeEls.forEach((el) => {
+          el.setAttribute('aria-pressed', chosenCodes.includes(el.dataset.code) ? 'true' : 'false');
+        });
+        this.writeInputs();
+        this.gate();
+      }
+      writeInputs() {
+        if (!this.form) return;
+        for (let i = 1; i <= this.count; i++) {
+          const nm = 'properties[' + this.prefix + ' ' + i + ']';
+          let input = this.form.querySelector('input[name="' + nm + '"][data-nlp-owned]');
+          if (!input) {
+            input = document.createElement('input');
+            input.type = 'hidden'; input.name = nm; input.setAttribute('data-nlp-owned', '');
+            this.form.appendChild(input);
+          }
+          const s = this.slots[i - 1];
+          input.value = s ? (s.code + ' - ' + s.name) : '';
+        }
+      }
+      gate() {
+        if (!this.form) return;
+        const complete = this.slots.every(Boolean);
+        const btn = this.form.querySelector('[type="submit"], [name="add"]');
+        if (btn) { btn.disabled = !complete; btn.classList.toggle('nlp-locked', !complete); }
+        if (this.hintEl) {
+          this.hintEl.classList.toggle('is-error', !complete);
+          this.hintEl.textContent = complete
+            ? 'Votre palette est prête !'
+            : (this.baseHint || 'Choisissez encore ' + (this.count - this.slots.filter(Boolean).length) + ' teinte(s).');
+        }
+      }
+    }
+    customElements.define('color-picker-nailys', ColorPickerNailys);
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Nailys colour picker",
+  "tag": "section",
+  "class": "nl-color-picker-section",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Composez votre palette de 5 teintes" },
+    { "type": "range", "id": "select_count", "min": 1, "max": 8, "step": 1, "label": "Shades to choose", "default": 5 },
+    { "type": "text", "id": "property_label", "label": "Line-item property label", "default": "Teinte" },
+    { "type": "text", "id": "hint", "label": "Helper text", "default": "Cliquez sur 5 teintes pour composer votre lot." },
+    { "type": "header", "content": "Colours" },
+    { "type": "color", "id": "accent", "label": "Accent", "default": "#E8467E" },
+    { "type": "color", "id": "accent_deep", "label": "Accent deep", "default": "#C42E62" },
+    { "type": "color", "id": "soft", "label": "Soft / border", "default": "#FFC3DC" },
+    { "type": "color", "id": "bg", "label": "Background", "default": "#FFECF6" },
+    { "type": "color", "id": "card", "label": "Slot / card", "default": "#FFFFFF" },
+    { "type": "color", "id": "ink", "label": "Ink", "default": "#1E1E1E" },
+    { "type": "header", "content": "Layout" },
+    { "type": "range", "id": "radius", "min": 0, "max": 28, "step": 2, "label": "Corner radius", "default": 16 },
+    { "type": "range", "id": "padding", "min": 8, "max": 36, "step": 2, "label": "Padding", "default": 18 }
+  ],
+  "blocks": [
+    {
+      "type": "shade",
+      "name": "Shade",
+      "settings": [
+        { "type": "text", "id": "code", "label": "Code", "default": "01" },
+        { "type": "text", "id": "name", "label": "Name", "default": "Teinte" },
+        { "type": "color", "id": "color", "label": "Swatch colour", "default": "#E8467E" }
+      ]
+    }
+  ],
+  "max_blocks": 40,
+  "presets": [
+    {
+      "name": "Nailys colour picker",
+      "blocks": [
+        { "type": "shade", "settings": { "code": "33", "name": "Fuchsia brillant", "color": "#E6338A" } },
+        { "type": "shade", "settings": { "code": "24", "name": "Bordeaux profond", "color": "#5C1A2B" } },
+        { "type": "shade", "settings": { "code": "03", "name": "Rouge classique", "color": "#C8102E" } },
+        { "type": "shade", "settings": { "code": "04", "name": "Rouge écarlate", "color": "#E23B2E" } },
+        { "type": "shade", "settings": { "code": "22", "name": "Rouge framboise", "color": "#C71F4B" } },
+        { "type": "shade", "settings": { "code": "32", "name": "Corail rouge", "color": "#F0533D" } },
+        { "type": "shade", "settings": { "code": "09", "name": "Rose pastel", "color": "#F7C6D9" } },
+        { "type": "shade", "settings": { "code": "08", "name": "Rose poudré", "color": "#E8B4C0" } },
+        { "type": "shade", "settings": { "code": "20", "name": "Rose corail", "color": "#F58B8B" } },
+        { "type": "shade", "settings": { "code": "17", "name": "Beige nude", "color": "#D8B79E" } },
+        { "type": "shade", "settings": { "code": "15", "name": "Lavande", "color": "#B39DDB" } },
+        { "type": "shade", "settings": { "code": "29", "name": "Mauve foncé", "color": "#7A5C7E" } },
+        { "type": "shade", "settings": { "code": "12", "name": "Terracotta", "color": "#C86B4E" } },
+        { "type": "shade", "settings": { "code": "23", "name": "Orange mandarine", "color": "#F28C28" } },
+        { "type": "shade", "settings": { "code": "34", "name": "Orange néon", "color": "#FF6B1A" } },
+        { "type": "shade", "settings": { "code": "30", "name": "Bleu denim", "color": "#4A6FA5" } },
+        { "type": "shade", "settings": { "code": "18", "name": "Bleu pétrole", "color": "#1F6E7A" } },
+        { "type": "shade", "settings": { "code": "28", "name": "Vert émeraude", "color": "#1E7A5E" } },
+        { "type": "shade", "settings": { "code": "01", "name": "Noir intense", "color": "#141414" } },
+        { "type": "shade", "settings": { "code": "02", "name": "Blanc pur", "color": "#FAFAFA" } }
+      ]
+    }
+  ]
+}
+{% endschema %}
