@@ -26,17 +26,8 @@
             "highlight_color": "#000000"
           }
         },
-        "statement_tcR3Ug": {
-          "type": "statement",
-          "settings": {
-            "subtitle": "Vernis effet gel. Sans lampe UV, sans salon.",
-            "title": "Des ongles de salon, sans effort et sans faux pas.",
-            "title_size": 26
-          }
-        },
         "title": {
           "type": "title",
-          "disabled": true,
           "settings": {
             "title_size": 26,
             "title_weight": "700",
@@ -44,31 +35,27 @@
             "title_color": ""
           }
         },
-        "benefits_list": {
-          "type": "benefits_list",
-          "settings": {
-            "text_color": "#121212",
-            "icon_color": "#c42e62",
-            "layout": "checklist",
-            "benefit_1": "Un fini gel effet salon, sans lampe UV",
-            "benefit_2": "Séchage à l’air en 20 secondes environ",
-            "benefit_3": "Une pose nette, sans déborder sur la peau",
-            "benefit_4": "5 stylos à choisir parmi 20 teintes",
-            "benefit_5": "Formule à l’eau, vegan et sans HEMA",
-            "benefit_6": "Aussi simple qu’un stylo, même pour débuter"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
-            "hide_price": true,
+            "hide_price": false,
             "price_color": "#c42e62",
             "compare_price_color": "",
-            "sale_badge_text": "40% DE RÉDUCTION",
+            "sale_badge_text": "ÉCONOMISEZ 40%",
             "sale_badge_weight": "600",
             "price_font_size": 2,
             "price_font_weight": "700",
             "compare_font_size": 1.8
+          }
+        },
+        "fomo_buys": {
+          "type": "fomo_buys",
+          "settings": {
+            "text": "6 personnes ont ce produit dans leur panier",
+            "dot_color": "#ef4444",
+            "text_color": "#121212",
+            "bg_color": "",
+            "font_size": 1.4
           }
         },
         "variant_picker": {
@@ -82,6 +69,20 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "social_proof_banner": {
+          "type": "social_proof_banner",
+          "settings": {
+            "text_color": "#121212",
+            "bg_color": "#fff6fb",
+            "border_radius": 50,
+            "title": "Plus de 36 000 femmes",
+            "subtitle": "l'ont déjà adopté.",
+            "badge_color": "#e8467e",
+            "image_1": "shopify://shop_images/nailys-social-1.jpg",
+            "image_2": "shopify://shop_images/nailys-social-2.jpg",
+            "image_3": "shopify://shop_images/nailys-social-3.jpg"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -90,6 +91,31 @@
             "button_font_size": 1.8,
             "button_font_weight": "700",
             "button_text_transform": "uppercase"
+          }
+        },
+        "guarantee_badge": {
+          "type": "guarantee_badge",
+          "settings": {
+            "image": "",
+            "heading": "Garantie de 30 jours",
+            "description": "Essayez-le sans risque pendant 30 jours. Si vous n'êtes pas satisfaite, on vous rembourse intégralement.",
+            "accent_color": "#c42e62",
+            "bg_color": "#fff6fb",
+            "text_color": "",
+            "heading_size": 1.8
+          }
+        },
+        "trust_microcopy": {
+          "type": "trust_microcopy",
+          "settings": {
+            "font_size": 1.4,
+            "font_size_2_items": 1.4,
+            "bg_color": "",
+            "text_color": "#121212",
+            "text_1": "Livraison gratuite",
+            "icon_name_1": "local_shipping",
+            "text_2": "Assistance 24/7",
+            "icon_name_2": "support_agent"
           }
         },
         "sticky_cart": {
@@ -126,146 +152,20 @@
             "mobile_show_price_in_button": false,
             "mobile_transparent_bg": false
           }
-        },
-        "trust_microcopy": {
-          "type": "trust_microcopy",
-          "settings": {
-            "font_size": 1.6,
-            "font_size_2_items": 1.4,
-            "bg_color": "",
-            "text_color": "#121212",
-            "text_1": "Satisfait ou remboursé 30 jours",
-            "icon_name_1": "verified_user",
-            "text_2": "",
-            "icon_name_2": "local_shipping"
-          }
-        },
-        "social_proof_banner": {
-          "type": "social_proof_banner",
-          "settings": {
-            "text_color": "#121212",
-            "bg_color": "#fff6fb",
-            "border_radius": 50,
-            "title": "Plus de 36 000 femmes",
-            "subtitle": "l’ont déjà adopté.",
-            "badge_color": "#e8467e",
-            "image_1": "shopify://shop_images/nailys-social-1.jpg",
-            "image_2": "shopify://shop_images/nailys-social-2.jpg",
-            "image_3": "shopify://shop_images/nailys-social-3.jpg"
-          }
-        },
-        "urgency_notice": {
-          "type": "urgency_notice",
-          "settings": {
-            "line_1": "<p>Forte demande : 87% du stock de ce lot est déjà parti.</p>",
-            "line_2": "<p>Commandez aujourd’hui pour être livrée sur ce réassort.</p>",
-            "font_size": 1.2,
-            "bg_color": "#f6efff",
-            "text_color": "#c42e62",
-            "border_width": 2,
-            "border_style": "dashed",
-            "border_color": "#ffc3dc",
-            "border_radius": 3,
-            "icon_name": "error",
-            "icon_color": "#e8467e",
-            "icon_scale": 1.2
-          }
-        },
-        "collapsible_tab_mjEF8T": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Que contient cette offre ?",
-            "icon": "none",
-            "content": "<p>Vous recevez 5 stylos vernis à choisir librement parmi nos 20 teintes. La formule à base d’eau sèche à l’air en une vingtaine de secondes, sans lampe UV : elle est vegan, 9-free et sans HEMA.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_gBgAbF": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Comment ça marche ?",
-            "icon": "none",
-            "content": "<p>Retirez le capuchon, appliquez le vernis directement sur l’ongle comme un stylo, puis laissez sécher 20 secondes à l’air. Aucune lampe UV. Pour une tenue maximale, ajoutez une base et un top coat.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_akEwJj": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Faut-il une lampe UV ?",
-            "icon": "none",
-            "content": "<p>Pas du tout. Vos ongles sèchent tout seuls, à l’air libre, en une vingtaine de secondes. Aucune lampe, aucun appareil, aucune attente.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_MTCgw9": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "La formule est-elle sûre ?",
-            "icon": "none",
-            "content": "<p>Oui. Notre formule est à base d’eau, quasiment sans odeur, vegan et 9-free (sans formaldéhyde ni toluène). Vous prenez soin de vos ongles en toute tranquillité.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_FPPE7p": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Et si ça ne me convient pas ?",
-            "icon": "none",
-            "content": "<p>Satisfait ou remboursé pendant 30 jours. Essayez vos stylos, et si vous n’êtes pas conquise, on vous rembourse.</p>",
-            "page": ""
-          }
-        },
-        "trust_card_v2_BX8HtK": {
-          "type": "trust_card_v2",
-          "disabled": true,
-          "settings": {
-            "heading": "Pourquoi Nailys change votre manucure",
-            "feature_text_1": "Une pose nette et précise",
-            "feature_text_2": "Sans lampe UV",
-            "feature_text_3": "Prête en quelques minutes",
-            "feature_text_4": "Satisfait ou remboursé 30 j",
-            "item_1": "20 teintes au choix",
-            "item_2": "Formule à base d’eau",
-            "item_3": "Vegan et 9-free",
-            "item_4": "Sans HEMA",
-            "item_5": "Séchage en 20 secondes",
-            "item_6": "Ongles naturels ou faux ongles",
-            "text_color": "#1a1a1a",
-            "title_color": "#1a1a1a",
-            "highlight_color": "#c42e62",
-            "bg_color": "#ffecf6",
-            "bg_image": "shopify://shop_images/nailys-texture-soft.png",
-            "image_opacity": 10,
-            "border_radius": 10,
-            "heading_size": 28,
-            "feature_text_size": 11,
-            "item_text_size": 16
-          }
         }
       },
       "block_order": [
         "star_rating",
-        "statement_tcR3Ug",
         "title",
-        "benefits_list",
         "price",
+        "fomo_buys",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
-        "sticky_cart",
-        "trust_microcopy",
         "social_proof_banner",
-        "urgency_notice",
-        "collapsible_tab_mjEF8T",
-        "collapsible_tab_gBgAbF",
-        "collapsible_tab_akEwJj",
-        "collapsible_tab_MTCgw9",
-        "collapsible_tab_FPPE7p",
-        "trust_card_v2_BX8HtK"
-      ],
-      "custom_css": [
-        ".urgency-notice {margin-bottom: 15px;}"
+        "buy_buttons",
+        "guarantee_badge",
+        "trust_microcopy",
+        "sticky_cart"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -282,847 +182,9 @@
         "padding_top": 36,
         "padding_bottom": 12
       }
-    },
-    "feature_cards": {
-      "type": "feature-cards",
-      "blocks": {
-        "card_1": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/nailys-card-1.png",
-            "title": "Adieu les rendez-vous en institut",
-            "text": "Appliquez, patientez quelques secondes, et vos ongles sont secs.",
-            "card_bg_color": ""
-          }
-        },
-        "card_bYRYEb": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/nailys-card-2.png",
-            "title": "Une précision parfaite, zéro gâchis",
-            "text": "Fini le vernis qui déborde et les bavures autour de l’ongle.",
-            "card_bg_color": ""
-          }
-        },
-        "card_GPx6MR": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/nailys-card-3.jpg",
-            "title": "Laissez parler votre créativité",
-            "text": "Composez vos propres styles et des designs bien à vous.",
-            "card_bg_color": ""
-          }
-        },
-        "card_xANGWn": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/nailys-card-4.png",
-            "title": "Aucune lampe UV nécessaire",
-            "text": "Un séchage express et tout naturel, sans le moindre appareil.",
-            "card_bg_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "card_1",
-        "card_bYRYEb",
-        "card_GPx6MR",
-        "card_xANGWn"
-      ],
-      "settings": {
-        "heading": "Pensé pour une manucure sans prise de tête",
-        "highlight_color": "#c42e62",
-        "card_title_size": 22,
-        "card_title_highlight": "#c42e62",
-        "section_bg_color": "",
-        "text_alignment": "center",
-        "card_border_radius": 12,
-        "image_border_radius": 0.8,
-        "mobile_layout": "slider",
-        "pagination_type": "both",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "testimonial_slider": {
-      "type": "testimonial-slider",
-      "blocks": {
-        "ticker_1": {
-          "type": "ticker_image",
-          "settings": {
-            "image": "shopify://shop_images/nailys-ticker-1.png"
-          }
-        },
-        "ticker_image_pGm3ig": {
-          "type": "ticker_image",
-          "settings": {
-            "image": "shopify://shop_images/nailys-ticker-2.jpg"
-          }
-        },
-        "ticker_image_DeKwWj": {
-          "type": "ticker_image",
-          "settings": {
-            "image": "shopify://shop_images/nailys-ticker-3.jpg"
-          }
-        },
-        "ticker_image_ziYp3P": {
-          "type": "ticker_image",
-          "settings": {
-            "image": "shopify://shop_images/nailys-ticker-4.jpg"
-          }
-        },
-        "ticker_image_p4UjJw": {
-          "type": "ticker_image",
-          "settings": {
-            "image": "shopify://shop_images/nailys-ticker-5.jpg"
-          }
-        },
-        "ticker_image_AGTRdD": {
-          "type": "ticker_image",
-          "settings": {
-            "image": "shopify://shop_images/nailys-ticker-6.jpg"
-          }
-        },
-        "ticker_image_eQnJRE": {
-          "type": "ticker_image",
-          "settings": {
-            "image": "shopify://shop_images/nailys-ticker-7.jpg"
-          }
-        },
-        "ticker_image_wgRraX": {
-          "type": "ticker_image",
-          "settings": {
-            "image": "shopify://shop_images/nailys-ticker-8.jpg"
-          }
-        },
-        "ticker_image_E7knVa": {
-          "type": "ticker_image",
-          "settings": {
-            "image": "shopify://shop_images/nailys-ticker-9.jpg"
-          }
-        },
-        "ticker_image_3CWTUR": {
-          "type": "ticker_image",
-          "settings": {
-            "image": "shopify://shop_images/nailys-ticker-10.jpg"
-          }
-        },
-        "review_1": {
-          "type": "review",
-          "settings": {
-            "rating": "5",
-            "quote": "Je m’attendais à galérer, et pas du tout. Le format stylo se guide bien mieux qu’un vernis classique, c’est net et précis dès le premier ongle.",
-            "details": "Paris · Achat vérifié",
-            "author_name": "Camille L.",
-            "author_image": "shopify://shop_images/nailys-avatar-1.jpg",
-            "tag_1": "Facilité",
-            "tag_2": "Sans lampe UV",
-            "card_bg_color": ""
-          }
-        },
-        "review_2": {
-          "type": "review",
-          "settings": {
-            "rating": "5",
-            "quote": "Une semaine plus tard, ça tient exactement comme promis. La finition est brillante et super jolie, et l’application reste facile même de la main gauche.",
-            "details": "Lyon · Achat vérifié",
-            "author_name": "Manon B.",
-            "author_image": "shopify://shop_images/nailys-avatar-2.jpg",
-            "tag_1": "Tenue",
-            "tag_2": "Fini brillant",
-            "card_bg_color": ""
-          }
-        },
-        "review_3": {
-          "type": "review",
-          "settings": {
-            "rating": "5",
-            "quote": "Le format stylo change complètement l’expérience : plus rapide et tellement plus confortable. En quelques minutes ma manucure est faite.",
-            "details": "Bordeaux · Achat vérifié",
-            "author_name": "Léa D.",
-            "author_image": "shopify://shop_images/nailys-avatar-3.jpg",
-            "tag_1": "Rapidité",
-            "tag_2": "Confort",
-            "card_bg_color": ""
-          }
-        },
-        "review_4": {
-          "type": "review",
-          "settings": {
-            "rating": "5",
-            "quote": "Ce que j’ai préféré, c’est la précision. On applique pile sur l’ongle sans déborder. Les teintes sont magnifiques et le fini bien uniforme.",
-            "details": "Toulouse · Achat vérifié",
-            "author_name": "Chloé M.",
-            "author_image": "shopify://shop_images/nailys-avatar-4.jpg",
-            "tag_1": "Précision",
-            "tag_2": "Couleurs",
-            "card_bg_color": ""
-          }
-        },
-        "review_5": {
-          "type": "review",
-          "settings": {
-            "rating": "5",
-            "quote": "Je ne retournerai jamais aux vernis en flacon. L’application est plus pratique, plus rapide, et les couleurs sont intenses et brillantes.",
-            "details": "Nantes · Achat vérifié",
-            "author_name": "Inès V.",
-            "author_image": "shopify://shop_images/nailys-avatar-5.jpg",
-            "tag_1": "Couleurs",
-            "tag_2": "Effet salon",
-            "card_bg_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "ticker_1",
-        "ticker_image_pGm3ig",
-        "ticker_image_DeKwWj",
-        "ticker_image_ziYp3P",
-        "ticker_image_p4UjJw",
-        "ticker_image_AGTRdD",
-        "ticker_image_eQnJRE",
-        "ticker_image_wgRraX",
-        "ticker_image_E7knVa",
-        "ticker_image_3CWTUR",
-        "review_1",
-        "review_2",
-        "review_3",
-        "review_4",
-        "review_5"
-      ],
-      "custom_css": [
-        ".ts-review__quote {font-weight: bold;}"
-      ],
-      "settings": {
-        "heading": "Elles ont adopté le stylo",
-        "subheading": "4,9/5 sur plus de 2 300 avis",
-        "highlight_color": "#c42e62",
-        "star_color": "#c42e62",
-        "verified_color": "#c42e62",
-        "tag_color": "#c42e62",
-        "tag_bg_color": "#fff6fb",
-        "ticker_speed": 30,
-        "section_bg_color": "#fff6fb",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "benefits_showcase": {
-      "type": "benefits-showcase",
-      "blocks": {
-        "benefit_1": {
-          "type": "benefit",
-          "settings": {
-            "icon_name": "water_drop",
-            "title": "Une pose tout en précision"
-          }
-        },
-        "benefit_2": {
-          "type": "benefit",
-          "settings": {
-            "icon_name": "recycling",
-            "title": "Un fini effet salon"
-          }
-        },
-        "benefit_3": {
-          "type": "benefit",
-          "settings": {
-            "icon_name": "bolt",
-            "title": "Sans lampe UV"
-          }
-        },
-        "benefit_4": {
-          "type": "benefit",
-          "settings": {
-            "icon_name": "verified",
-            "title": "D’une simplicité déconcertante"
-          }
-        }
-      },
-      "block_order": [
-        "benefit_1",
-        "benefit_2",
-        "benefit_3",
-        "benefit_4"
-      ],
-      "settings": {
-        "heading": "Précision, rapidité, perfection",
-        "subheading": "Quatre raisons de ne plus jamais revenir en arrière.",
-        "product_image": "shopify://shop_images/nailys-hero.png",
-        "bg_color": "#b692ff",
-        "bg_color_bottom": "#c42e62",
-        "text_color": "#ffffff",
-        "highlight_color": "#b692ff",
-        "subheading_color": "",
-        "heading_size": 3,
-        "subheading_size": 1.5,
-        "benefit_size": 1.8,
-        "padding_top": 48,
-        "padding_bottom": 0
-      }
-    },
-    "proven_benefits": {
-      "type": "proven-benefits",
-      "blocks": {
-        "pb_1": {
-          "type": "benefit",
-          "settings": {
-            "image": "shopify://shop_images/nailys-step-1.jpg",
-            "title": "Base coat",
-            "description": "Posez d’abord une fine base coat : elle protège l’ongle et aide la couleur à mieux tenir.",
-            "answer": "Posez d’abord une fine base coat : elle protège l’ongle et aide la couleur à mieux tenir."
-          }
-        },
-        "pb_2": {
-          "type": "benefit",
-          "settings": {
-            "image": "shopify://shop_images/nailys-step-2.png",
-            "title": "La couleur",
-            "description": "Colorez vos ongles avec votre stylo Nailys, directement, sans déborder. Une seconde couche pour plus d’intensité.",
-            "answer": "Colorez vos ongles avec votre stylo Nailys, directement, sans déborder. Une seconde couche pour plus d’intensité."
-          }
-        },
-        "pb_3": {
-          "type": "benefit",
-          "settings": {
-            "image": "shopify://shop_images/nailys-step-3.jpg",
-            "title": "Top coat",
-            "description": "Scellez le tout d’un top coat pour une brillance effet gel et une tenue qui dure des jours.",
-            "answer": "Scellez le tout d’un top coat pour une brillance effet gel et une tenue qui dure des jours."
-          }
-        },
-        "pb_4": {
-          "type": "benefit",
-          "settings": {
-            "image": "shopify://shop_images/nailys-step-4.jpg",
-            "title": "Au quotidien",
-            "description": "Vos ongles restent nets et brillants. Pour changer de couleur, un dissolvant classique suffit.",
-            "answer": "Vos ongles restent nets et brillants. Pour changer de couleur, un dissolvant classique suffit."
-          }
-        }
-      },
-      "block_order": [
-        "pb_1",
-        "pb_2",
-        "pb_3",
-        "pb_4"
-      ],
-      "settings": {
-        "heading": "Votre manucure, étape par étape",
-        "subheading": "Trois gestes simples pour un résultat impeccable.",
-        "highlight_color": "#c42e62",
-        "bg_color": "#fff6fb",
-        "cta_text": "Je compose ma palette",
-        "cta_link": "",
-        "cta_note": "Satisfait ou remboursé 30 jours",
-        "cta_note_icon_name": "verified_user",
-        "cta_height": 40,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "ticker_bar_E76PpF": {
-      "type": "ticker-bar",
-      "blocks": {
-        "ticker_item_HqnLzq": {
-          "type": "ticker_item",
-          "settings": {
-            "text": "UNE PRÉCISION AU MILLIMÈTRE",
-            "icon_name": "spa"
-          }
-        },
-        "ticker_item_k8LYdF": {
-          "type": "ticker_item",
-          "settings": {
-            "text": "UN FINI D’INSTITUT, SANS LAMPE UV",
-            "icon_name": "water_drop"
-          }
-        },
-        "ticker_item_TGPdcq": {
-          "type": "ticker_item",
-          "settings": {
-            "text": "SIMPLE COMME UN COUP DE STYLO",
-            "icon_name": "science"
-          }
-        },
-        "ticker_item_R9aqEp": {
-          "type": "ticker_item",
-          "settings": {
-            "text": "SEC EN 20 SECONDES CHRONO",
-            "icon_name": "favorite"
-          }
-        },
-        "ticker_item_EdVTLR": {
-          "type": "ticker_item",
-          "settings": {
-            "text": "ZÉRO DÉBORDEMENT SUR LA PEAU",
-            "icon_name": "schedule"
-          }
-        },
-        "ticker_item_WW7aKr": {
-          "type": "ticker_item",
-          "settings": {
-            "text": "FORMULE VEGAN, SANS HEMA",
-            "icon_name": "verified"
-          }
-        }
-      },
-      "block_order": [
-        "ticker_item_HqnLzq",
-        "ticker_item_k8LYdF",
-        "ticker_item_TGPdcq",
-        "ticker_item_R9aqEp",
-        "ticker_item_EdVTLR",
-        "ticker_item_WW7aKr"
-      ],
-      "name": "Ticker bar",
-      "settings": {
-        "background_color": "#c42e62",
-        "text_color": "#ffffff",
-        "border_position": "none",
-        "border_thickness": 1,
-        "border_color": "#ffffff",
-        "font_size": 14,
-        "font_weight": "500",
-        "spacing": 60,
-        "icon_size": 20,
-        "speed": 20,
-        "padding_top": 8,
-        "padding_bottom": 8,
-        "aria_label": "Scrolling announcements"
-      }
-    },
-    "brand_comparison": {
-      "type": "brand-comparison",
-      "blocks": {
-        "bc_1": {
-          "type": "feature",
-          "settings": {
-            "brand_text": "Sec en un clin d’œil",
-            "competitor_text": "Interminable avant de sécher"
-          }
-        },
-        "bc_2": {
-          "type": "feature",
-          "settings": {
-            "brand_text": "Tient de longs jours",
-            "competitor_text": "S’écaille au bout de deux jours"
-          }
-        },
-        "bc_3": {
-          "type": "feature",
-          "settings": {
-            "brand_text": "Nette, sans débordement",
-            "competitor_text": "Bave sur la peau"
-          }
-        },
-        "bc_4": {
-          "type": "feature",
-          "settings": {
-            "brand_text": "Aussi simple qu’un stylo",
-            "competitor_text": "Demande une main sûre"
-          }
-        },
-        "bc_5": {
-          "type": "feature",
-          "settings": {
-            "brand_text": "Fini digne d’un salon",
-            "competitor_text": "Résultat inégal"
-          }
-        }
-      },
-      "block_order": [
-        "bc_1",
-        "bc_2",
-        "bc_3",
-        "bc_4",
-        "bc_5"
-      ],
-      "settings": {
-        "heading": "La différence saute aux yeux",
-        "heading_size": 36,
-        "bg_gradient_start": "#b692ff",
-        "bg_gradient_end": "#c42e62",
-        "text_color": "#ffffff",
-        "highlight_color": "#b692ff",
-        "brand_name": "Nailys™",
-        "brand_name_color": "#ffffff",
-        "brand_col_color": "#c42e62",
-        "brand_icon_color": "#ffffff",
-        "competitor_label": "Le vernis en flacon",
-        "comp_col_color": "#ffffff",
-        "comp_text_color": "#1a1a1a",
-        "comp_icon_color": "#999999",
-        "icons_filled": true,
-        "checklist_1": "Séchage à l’air en 20 secondes, sans lampe UV",
-        "checklist_2": "Une pose nette, sans déborder sur la peau",
-        "checklist_3": "20 teintes à composer librement",
-        "checklist_4": "Formule à l’eau, vegan et sans HEMA",
-        "cta_text": "Je compose ma palette",
-        "cta_link": "",
-        "cta_height": 46,
-        "cta_bg_color": "#e8467e",
-        "cta_text_color": "#000000",
-        "cta_font_weight": "700",
-        "note_text": "Satisfait ou remboursé 30 jours",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collapsible_content_TCEeNz": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_kP7dka": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Que contient exactement le pack ?",
-            "icon": "none",
-            "row_content": "<p>Vous recevez 5 vernis stylo, soit tout ce qu’il faut pour une manucure impeccable. Rien d’autre à acheter, rien à ajouter : vous ouvrez, vous appliquez, c’est parti.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_jgAFHc": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Faut-il une lampe UV ?",
-            "icon": "none",
-            "row_content": "<p>Pas du tout ! Vos ongles sèchent tout seuls, à l’air libre, en une vingtaine de secondes. Aucune lampe, aucun appareil, aucune attente interminable.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_qUEDkw": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Est-ce compliqué à retirer ?",
-            "icon": "none",
-            "row_content": "<p>Non, et c’est bien pratique. Un dissolvant classique suffit à tout enlever en douceur, sans trempage agressif ni frottements interminables.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_FCYENr": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "La formule est-elle sûre et sans odeur forte ?",
-            "icon": "none",
-            "row_content": "<p>Oui. Notre formule est à base d’eau, quasiment sans odeur, vegan et 9-free (sans formaldéhyde ni toluène). Vous prenez soin de vos ongles en toute tranquillité.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_JXE9KX": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Peut-on l’utiliser sur des faux ongles ?",
-            "icon": "none",
-            "row_content": "<p>Absolument ! Nos stylos tiennent aussi bien sur les ongles naturels que sur les faux ongles. À vous les couleurs, quel que soit votre type d’ongles.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_xwHJdL": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Quel est le délai de livraison ?",
-            "icon": "none",
-            "row_content": "<p>Expédition sous 48 h, livraison en France métropolitaine sous 5 à 10 jours ouvrés. Livraison suivie offerte : un numéro de suivi vous est envoyé.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_kP7dka",
-        "collapsible_row_jgAFHc",
-        "collapsible_row_qUEDkw",
-        "collapsible_row_FCYENr",
-        "collapsible_row_JXE9KX",
-        "collapsible_row_xwHJdL"
-      ],
-      "name": "t:sections.collapsible_content.presets.name",
-      "settings": {
-        "caption": "",
-        "heading": "Vos questions, nos réponses",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "container_color_scheme": "",
-        "color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "disabled": true,
-      "settings": {
-        "heading": "Vous aimerez peut-être aussi",
-        "heading_size": "h2",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "columns_mobile": "2",
-        "color_scheme": "scheme-1",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "padding_top": 36,
-        "padding_bottom": 28
-      }
-    },
-    "nl_color_picker": {
-      "type": "nl-color-picker",
-      "blocks": {
-        "shade_01": {
-          "type": "shade",
-          "settings": {
-            "code": "33",
-            "name": "Fuchsia brillant",
-            "color": "#E6338A"
-          }
-        },
-        "shade_02": {
-          "type": "shade",
-          "settings": {
-            "code": "24",
-            "name": "Bordeaux profond",
-            "color": "#5C1A2B"
-          }
-        },
-        "shade_03": {
-          "type": "shade",
-          "settings": {
-            "code": "03",
-            "name": "Rouge classique",
-            "color": "#C8102E"
-          }
-        },
-        "shade_04": {
-          "type": "shade",
-          "settings": {
-            "code": "04",
-            "name": "Rouge écarlate",
-            "color": "#E23B2E"
-          }
-        },
-        "shade_05": {
-          "type": "shade",
-          "settings": {
-            "code": "22",
-            "name": "Rouge framboise",
-            "color": "#C71F4B"
-          }
-        },
-        "shade_06": {
-          "type": "shade",
-          "settings": {
-            "code": "32",
-            "name": "Corail rouge",
-            "color": "#F0533D"
-          }
-        },
-        "shade_07": {
-          "type": "shade",
-          "settings": {
-            "code": "09",
-            "name": "Rose pastel",
-            "color": "#F7C6D9"
-          }
-        },
-        "shade_08": {
-          "type": "shade",
-          "settings": {
-            "code": "08",
-            "name": "Rose poudré",
-            "color": "#E8B4C0"
-          }
-        },
-        "shade_09": {
-          "type": "shade",
-          "settings": {
-            "code": "20",
-            "name": "Rose corail",
-            "color": "#F58B8B"
-          }
-        },
-        "shade_10": {
-          "type": "shade",
-          "settings": {
-            "code": "17",
-            "name": "Beige nude",
-            "color": "#D8B79E"
-          }
-        },
-        "shade_11": {
-          "type": "shade",
-          "settings": {
-            "code": "15",
-            "name": "Lavande",
-            "color": "#B39DDB"
-          }
-        },
-        "shade_12": {
-          "type": "shade",
-          "settings": {
-            "code": "29",
-            "name": "Mauve foncé",
-            "color": "#7A5C7E"
-          }
-        },
-        "shade_13": {
-          "type": "shade",
-          "settings": {
-            "code": "12",
-            "name": "Terracotta",
-            "color": "#C86B4E"
-          }
-        },
-        "shade_14": {
-          "type": "shade",
-          "settings": {
-            "code": "23",
-            "name": "Orange mandarine",
-            "color": "#F28C28"
-          }
-        },
-        "shade_15": {
-          "type": "shade",
-          "settings": {
-            "code": "34",
-            "name": "Orange néon",
-            "color": "#FF6B1A"
-          }
-        },
-        "shade_16": {
-          "type": "shade",
-          "settings": {
-            "code": "30",
-            "name": "Bleu denim",
-            "color": "#4A6FA5"
-          }
-        },
-        "shade_17": {
-          "type": "shade",
-          "settings": {
-            "code": "18",
-            "name": "Bleu pétrole",
-            "color": "#1F6E7A"
-          }
-        },
-        "shade_18": {
-          "type": "shade",
-          "settings": {
-            "code": "28",
-            "name": "Vert émeraude",
-            "color": "#1E7A5E"
-          }
-        },
-        "shade_19": {
-          "type": "shade",
-          "settings": {
-            "code": "01",
-            "name": "Noir intense",
-            "color": "#141414"
-          }
-        },
-        "shade_20": {
-          "type": "shade",
-          "settings": {
-            "code": "02",
-            "name": "Blanc pur",
-            "color": "#FAFAFA"
-          }
-        }
-      },
-      "block_order": [
-        "shade_01",
-        "shade_02",
-        "shade_03",
-        "shade_04",
-        "shade_05",
-        "shade_06",
-        "shade_07",
-        "shade_08",
-        "shade_09",
-        "shade_10",
-        "shade_11",
-        "shade_12",
-        "shade_13",
-        "shade_14",
-        "shade_15",
-        "shade_16",
-        "shade_17",
-        "shade_18",
-        "shade_19",
-        "shade_20"
-      ],
-      "settings": {
-        "heading": "Composez votre palette de 5 teintes",
-        "select_count": 5,
-        "property_label": "Teinte",
-        "hint": "Cliquez sur 5 teintes pour composer votre lot.",
-        "accent": "#e8467e",
-        "accent_deep": "#c42e62",
-        "soft": "#ffc3dc",
-        "bg": "#ffecf6",
-        "card": "#ffffff",
-        "ink": "#1e1e1e",
-        "radius": 16,
-        "padding": 18
-      }
-    },
-    "nl_combo": {
-      "type": "nl-combo",
-      "blocks": {
-        "item_1": {
-          "type": "item",
-          "settings": {
-            "title": "Base et Top Coat",
-            "price": "14,99 €",
-            "compare": "19,99 €"
-          }
-        },
-        "item_2": {
-          "type": "item",
-          "settings": {
-            "title": "Dissolvant magique",
-            "price": "9,99 €",
-            "compare": "14,99 €"
-          }
-        }
-      },
-      "block_order": [
-        "item_1",
-        "item_2"
-      ],
-      "settings": {
-        "heading": "L’association parfaite",
-        "pitch": "Pour un rendu encore plus bluffant et une tenue qui dure : la base et le top coat subliment votre pose et prolongent la brillance, pendant que le dissolvant magique retire tout en un clin d’œil, sans frotter.",
-        "total_label": "Prix total :",
-        "total": "24,98 €",
-        "total_compare": "34,98 €",
-        "cta_text": "Ajouter le combo à mon panier",
-        "accent": "#e8467e",
-        "bg": "#fff6fb",
-        "card": "#ffffff",
-        "soft": "#ffc3dc",
-        "ink": "#1e1e1e",
-        "padding_top": 48,
-        "padding_bottom": 48
-      }
     }
   },
   "order": [
-    "main",
-    "nl_color_picker",
-    "ticker_bar_E76PpF",
-    "feature_cards",
-    "brand_comparison",
-    "proven_benefits",
-    "nl_combo",
-    "benefits_showcase",
-    "collapsible_content_TCEeNz",
-    "testimonial_slider",
-    "related-products"
+    "main"
   ]
 }
