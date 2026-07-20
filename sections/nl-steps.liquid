@@ -40,16 +40,12 @@
   .nl-steps-{{ section.id }} .nl-steps__caption strong { font-weight: 700; }
   @media screen and (max-width: 749px) {
     .nl-steps-{{ section.id }} .nl-steps__grid {
-      grid-template-columns: none;
-      grid-auto-flow: column;
-      grid-auto-columns: 72%;
-      gap: 1.4rem;
-      overflow-x: auto;
-      scroll-snap-type: x mandatory;
-      -webkit-overflow-scrolling: touch;
-      padding-bottom: 1rem;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 0.8rem;
     }
-    .nl-steps-{{ section.id }} .nl-steps__item { scroll-snap-align: center; }
+    .nl-steps-{{ section.id }} .nl-steps__caption {
+      font-size: 1.1rem;
+    }
   }
 {%- endstyle -%}
 
