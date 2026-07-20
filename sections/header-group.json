@@ -33,6 +33,39 @@
         "padding_bottom": 10
       }
     },
+    "announcement_bar_W4mCkh": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_jcMALR": {
+          "type": "announcement",
+          "settings": {
+            "text": "Livraison gratuite",
+            "link": ""
+          }
+        },
+        "announcement_HAMVEy": {
+          "type": "announcement",
+          "settings": {
+            "text": "Promotions jusqu'à 50 % !",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_jcMALR",
+        "announcement_HAMVEy"
+      ],
+      "name": "t:sections.announcement-bar.presets.name",
+      "settings": {
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "color_scheme": "scheme-2",
+        "show_line_separator": true,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
     "header": {
       "type": "header",
       "custom_css": [
@@ -101,6 +134,7 @@
         "ticker_item_YAU8MH",
         "ticker_item_UqjmUe"
       ],
+      "disabled": true,
       "settings": {
         "background_color": "#f6f4f1",
         "text_color": "#23272a",
@@ -120,6 +154,7 @@
   },
   "order": [
     "sale_banner",
+    "announcement_bar_W4mCkh",
     "header",
     "ticker_bar"
   ]
