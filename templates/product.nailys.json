@@ -225,6 +225,7 @@
         "media_position": "left",
         "image_zoom": "none",
         "hide_variants": true,
+        "hide_variant_media": true,
         "enable_video_looping": true,
         "padding_top": 36,
         "padding_bottom": 12
