@@ -78,6 +78,7 @@
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
@@ -118,7 +119,7 @@
             "text_color": "",
             "border_radius": 20,
             "heading_size": 1.2,
-            "desc_size": 1.0
+            "desc_size": 1
           }
         },
         "testimonial_videos": {
@@ -143,6 +144,8 @@
             "slide_3_image": "shopify://shop_images/nailys-gallery-02-lifestyle.png",
             "slide_3_heading": "Rapide et pratique",
             "slide_3_text": "Il sèche rapidement, est facile à utiliser et je peux faire ma manucure en quelques minutes seulement.",
+            "slide_4_heading": "",
+            "slide_4_text": "",
             "bg_color": "#fff6fb",
             "text_color": "",
             "autoplay_interval": 3,
@@ -233,19 +236,22 @@
         "t1": {
           "type": "ticker_item",
           "settings": {
-            "text": "<strong>Précision </strong><em>parfaite</em>"
+            "text": "<strong>Précision </strong><em>parfaite</em>",
+            "icon_name": ""
           }
         },
         "t2": {
           "type": "ticker_item",
           "settings": {
-            "text": "<strong>Fini </strong><em>salon</em><strong>, sans lampe </strong><em>UV</em>"
+            "text": "<strong>Fini </strong><em>salon</em><strong>, sans lampe </strong><em>UV</em>",
+            "icon_name": ""
           }
         },
         "t3": {
           "type": "ticker_item",
           "settings": {
-            "text": "<strong>Aussi </strong><em>facile</em><strong> que d'utiliser un </strong><em>stylo</em>"
+            "text": "<strong>Aussi </strong><em>facile</em><strong> que d'utiliser un </strong><em>stylo</em>",
+            "icon_name": ""
           }
         }
       },
@@ -376,8 +382,13 @@
         "heading_color": "#1e1e1e",
         "text_color": "#1e1e1e",
         "bg_color": "#ffffff",
+        "card_bg_color": "#fff6fb",
+        "card_border_color": "#ffe4f0",
+        "card_radius": 18,
         "circle_size": 200,
         "caption_size": 16,
+        "autoplay_interval": 4,
+        "dot_color": "#c42e62",
         "padding_top": 36,
         "padding_bottom": 36
       }
