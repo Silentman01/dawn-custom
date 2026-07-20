@@ -39,10 +39,10 @@
         ".header__search,.menu-drawer__utility-links {display: none !important;}"
       ],
       "settings": {
-        "logo_position": "middle-left",
+        "logo_position": "middle-center",
         "mobile_logo_position": "center",
         "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
+        "menu_type_desktop": "drawer",
         "sticky_header_type": "none",
         "show_line_separator": true,
         "color_scheme": "scheme-1",
