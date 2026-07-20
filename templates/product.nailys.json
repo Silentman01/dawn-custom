@@ -232,18 +232,28 @@
       "blocks": {
         "t1": {
           "type": "ticker_item",
-          "settings": { "text": "<strong>Précision </strong><em>parfaite</em>" }
+          "settings": {
+            "text": "<strong>Précision </strong><em>parfaite</em>"
+          }
         },
         "t2": {
           "type": "ticker_item",
-          "settings": { "text": "<strong>Fini </strong><em>salon</em><strong>, sans lampe </strong><em>UV</em>" }
+          "settings": {
+            "text": "<strong>Fini </strong><em>salon</em><strong>, sans lampe </strong><em>UV</em>"
+          }
         },
         "t3": {
           "type": "ticker_item",
-          "settings": { "text": "<strong>Aussi </strong><em>facile</em><strong> que d'utiliser un </strong><em>stylo</em>" }
+          "settings": {
+            "text": "<strong>Aussi </strong><em>facile</em><strong> que d'utiliser un </strong><em>stylo</em>"
+          }
         }
       },
-      "block_order": ["t1", "t2", "t3"],
+      "block_order": [
+        "t1",
+        "t2",
+        "t3"
+      ],
       "settings": {
         "background_color": "#ffffff",
         "text_color": "#000000",
@@ -307,7 +317,9 @@
           }
         }
       },
-      "block_order": ["h"],
+      "block_order": [
+        "h"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -331,18 +343,40 @@
     "nl_steps": {
       "type": "nl-steps",
       "blocks": {
-        "s1": { "type": "step", "settings": { "image": "shopify://shop_images/nailys-hstep-1.png", "caption": "Appliquez une <strong>base coat</strong>" } },
-        "s2": { "type": "step", "settings": { "image": "shopify://shop_images/nailys-hstep-2.png", "caption": "Appliquez votre <strong>vernis</strong> Nailys™" } },
-        "s3": { "type": "step", "settings": { "image": "shopify://shop_images/nailys-hstep-3.png", "caption": "Terminez par un <strong>top coat</strong>" } }
+        "s1": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/nailys-hstep-1.png",
+            "caption": "Appliquez une <strong>base coat</strong>"
+          }
+        },
+        "s2": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/nailys-hstep-2.png",
+            "caption": "Appliquez votre <strong>vernis</strong> Nailys™"
+          }
+        },
+        "s3": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/nailys-hstep-3.png",
+            "caption": "Terminez par un <strong>top coat</strong>"
+          }
+        }
       },
-      "block_order": ["s1", "s2", "s3"],
+      "block_order": [
+        "s1",
+        "s2",
+        "s3"
+      ],
       "settings": {
         "heading": "3 étapes pour des ongles parfaits",
         "heading_size": 34,
         "heading_color": "#1e1e1e",
         "text_color": "#1e1e1e",
         "bg_color": "#ffffff",
-        "circle_size": 210,
+        "circle_size": 200,
         "caption_size": 16,
         "padding_top": 36,
         "padding_bottom": 36
@@ -351,12 +385,41 @@
     "nl_mega": {
       "type": "nl-image-features",
       "blocks": {
-        "f1": { "type": "feature", "settings": { "title": "Application précise", "description": "Format feutre pour une application facile et ultra précise." } },
-        "f2": { "type": "feature", "settings": { "title": "Effet salon", "description": "Une finition brillante et professionnelle directement depuis chez vous." } },
-        "f3": { "type": "feature", "settings": { "title": "Sans lampe UV", "description": "Séchage naturel et rapide, sans lampe UV." } },
-        "f4": { "type": "feature", "settings": { "title": "Usage pratique", "description": "Aussi facile à utiliser qu'un stylo, même pour les débutants." } }
+        "f1": {
+          "type": "feature",
+          "settings": {
+            "title": "Application précise",
+            "description": "Format feutre pour une application facile et ultra précise."
+          }
+        },
+        "f2": {
+          "type": "feature",
+          "settings": {
+            "title": "Effet salon",
+            "description": "Une finition brillante et professionnelle directement depuis chez vous."
+          }
+        },
+        "f3": {
+          "type": "feature",
+          "settings": {
+            "title": "Sans lampe UV",
+            "description": "Séchage naturel et rapide, sans lampe UV."
+          }
+        },
+        "f4": {
+          "type": "feature",
+          "settings": {
+            "title": "Usage pratique",
+            "description": "Aussi facile à utiliser qu'un stylo, même pour les débutants."
+          }
+        }
       },
-      "block_order": ["f1", "f2", "f3", "f4"],
+      "block_order": [
+        "f1",
+        "f2",
+        "f3",
+        "f4"
+      ],
       "settings": {
         "image": "shopify://shop_images/nailys-mega.png",
         "image_side": "left",
@@ -375,10 +438,24 @@
     "nl_ingredients": {
       "type": "rich-text",
       "blocks": {
-        "h": { "type": "heading", "settings": { "heading": "INGRÉDIENTS", "heading_size": "h2" } },
-        "t": { "type": "text", "settings": { "text": "<p>Aqua (Eau), Acrylates/Copolymère de diméthylaminoéthyl méthacrylate, Propylène Glycol, Dimethicone, Phénoxyéthanol, Ethylhexylglycerin, CI 77891, CI 15850.</p>" } }
+        "h": {
+          "type": "heading",
+          "settings": {
+            "heading": "INGRÉDIENTS",
+            "heading_size": "h2"
+          }
+        },
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Aqua (Eau), Acrylates/Copolymère de diméthylaminoéthyl méthacrylate, Propylène Glycol, Dimethicone, Phénoxyéthanol, Ethylhexylglycerin, CI 77891, CI 15850.</p>"
+          }
+        }
       },
-      "block_order": ["h", "t"],
+      "block_order": [
+        "h",
+        "t"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -391,13 +468,59 @@
     "nl_faq": {
       "type": "collapsible-content",
       "blocks": {
-        "q1": { "type": "collapsible_row", "settings": { "heading": "Qu'est-ce que le pack inclut exactement ?", "icon": "none", "row_content": "<p>Ce pack exclusif comprend 5 vernis à ongles en stylo. Conçu pour être entièrement pratique, il contient tout le nécessaire pour créer une manucure nette et impeccable sans rien ajouter d'autre.</p>", "page": "" } },
-        "q2": { "type": "collapsible_row", "settings": { "heading": "Une lampe UV est-elle nécessaire pour le séchage ?", "icon": "none", "row_content": "<p>Non ! C'est l'un de ses grands avantages. Le vernis sèche naturellement à l'air en 20 secondes environ. Aucune lampe n'est nécessaire.</p>", "page": "" } },
-        "q3": { "type": "collapsible_row", "settings": { "heading": "Est-ce difficile à enlever ?", "icon": "none", "row_content": "<p>Pas du tout. Il vous suffit d'utiliser un dissolvant classique. Il n'est pas nécessaire de tremper les ongles dans des produits agressifs.</p>", "page": "" } },
-        "q4": { "type": "collapsible_row", "settings": { "heading": "La formule est-elle sûre et sans odeur ?", "icon": "none", "row_content": "<p>Oui. La formule est à base d'eau, ce qui évite les fortes odeurs chimiques. De plus, elle est végane et « 9-free », ce qui signifie qu'elle ne contient pas d'ingrédients controversés tels que le formaldéhyde ou le toluène.</p>", "page": "" } },
-        "q5": { "type": "collapsible_row", "settings": { "heading": "Peut-il être utilisé sur des faux ongles ?", "icon": "none", "row_content": "<p>Oui, les vernis à ongles en stylo fonctionnent parfaitement sur les ongles naturels et sur les faux ongles.</p>", "page": "" } }
+        "q1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Qu'est-ce que le pack inclut exactement ?",
+            "icon": "none",
+            "row_content": "<p>Ce pack exclusif comprend 5 vernis à ongles en stylo. Conçu pour être entièrement pratique, il contient tout le nécessaire pour créer une manucure nette et impeccable sans rien ajouter d'autre.</p>",
+            "page": ""
+          }
+        },
+        "q2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Une lampe UV est-elle nécessaire pour le séchage ?",
+            "icon": "none",
+            "row_content": "<p>Non ! C'est l'un de ses grands avantages. Le vernis sèche naturellement à l'air en 20 secondes environ. Aucune lampe n'est nécessaire.</p>",
+            "page": ""
+          }
+        },
+        "q3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Est-ce difficile à enlever ?",
+            "icon": "none",
+            "row_content": "<p>Pas du tout. Il vous suffit d'utiliser un dissolvant classique. Il n'est pas nécessaire de tremper les ongles dans des produits agressifs.</p>",
+            "page": ""
+          }
+        },
+        "q4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "La formule est-elle sûre et sans odeur ?",
+            "icon": "none",
+            "row_content": "<p>Oui. La formule est à base d'eau, ce qui évite les fortes odeurs chimiques. De plus, elle est végane et « 9-free », ce qui signifie qu'elle ne contient pas d'ingrédients controversés tels que le formaldéhyde ou le toluène.</p>",
+            "page": ""
+          }
+        },
+        "q5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Peut-il être utilisé sur des faux ongles ?",
+            "icon": "none",
+            "row_content": "<p>Oui, les vernis à ongles en stylo fonctionnent parfaitement sur les ongles naturels et sur les faux ongles.</p>",
+            "page": ""
+          }
+        }
       },
-      "block_order": ["q1", "q2", "q3", "q4", "q5"],
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
       "settings": {
         "caption": "Découvrez tout ce que vous devez savoir",
         "heading": "Vos questions",
@@ -416,21 +539,135 @@
     "nl_reviews": {
       "type": "testimonial-slider",
       "blocks": {
-        "tk1": { "type": "ticker_image", "settings": { "image": "shopify://shop_images/nailys-rev-1.png" } },
-        "tk2": { "type": "ticker_image", "settings": { "image": "shopify://shop_images/nailys-rev-2.png" } },
-        "tk3": { "type": "ticker_image", "settings": { "image": "shopify://shop_images/nailys-rev-3.png" } },
-        "tk4": { "type": "ticker_image", "settings": { "image": "shopify://shop_images/nailys-rev-4.png" } },
-        "tk5": { "type": "ticker_image", "settings": { "image": "shopify://shop_images/nailys-rev-5.png" } },
-        "tk6": { "type": "ticker_image", "settings": { "image": "shopify://shop_images/nailys-rev-6.jpg" } },
-        "tk7": { "type": "ticker_image", "settings": { "image": "shopify://shop_images/nailys-rev-7.jpg" } },
-        "tk8": { "type": "ticker_image", "settings": { "image": "shopify://shop_images/nailys-rev-8.jpg" } },
-        "rv1": { "type": "review", "settings": { "rating": "5", "quote": "Au début, je pensais que ce serait compliqué, mais j'ai été très surprise. Le format stylo rend l'application beaucoup plus facile et précise qu'un vernis normal, sans en mettre partout. Et sans lampe UV, c'est bien plus pratique.", "details": "Mai 2026 · Achat vérifié", "author_name": "Lucie R.", "author_image": "shopify://shop_images/nailys-rev-3.png", "tag_1": "Facilité", "tag_2": "Sans lampe UV", "card_bg_color": "" } },
-        "rv2": { "type": "review", "settings": { "rating": "5", "quote": "Après une semaine d'utilisation, ça fonctionne vraiment comme promis. Le fini est brillant et joli, et l'application est super facile, même de la main gauche.", "details": "Mai 2026 · Achat vérifié", "author_name": "Valentine M.", "author_image": "shopify://shop_images/nailys-rev-1.png", "tag_1": "Fini brillant", "tag_2": "Facilité", "card_bg_color": "" } },
-        "rv3": { "type": "review", "settings": { "rating": "5", "quote": "Ce que j'ai préféré, c'est la précision : on applique le vernis sans toucher la peau autour de l'ongle. Les couleurs sont magnifiques et le fini est uniforme et brillant.", "details": "Mai 2026 · Achat vérifié", "author_name": "Élise P.", "author_image": "shopify://shop_images/nailys-rev-7.jpg", "tag_1": "Précision", "tag_2": "Couleurs", "card_bg_color": "" } },
-        "rv4": { "type": "review", "settings": { "rating": "5", "quote": "Le design en forme de stylo change complètement l'expérience et rend tout plus rapide et confortable. Je fais ma manucure en quelques minutes et le résultat paraît professionnel.", "details": "Mai 2026 · Achat vérifié", "author_name": "Camille T.", "author_image": "shopify://shop_images/nailys-rev-6.jpg", "tag_1": "Rapidité", "tag_2": "Effet salon", "card_bg_color": "" } },
-        "rv5": { "type": "review", "settings": { "rating": "5", "quote": "Depuis que je les ai essayés, je ne reviens plus aux vernis classiques. L'application est plus pratique et rapide, et les couleurs sont super intenses et brillantes.", "details": "Mai 2026 · Achat vérifié", "author_name": "Nathalie F.", "author_image": "shopify://shop_images/nailys-rev-5.png", "tag_1": "Effet salon", "tag_2": "Couleurs", "card_bg_color": "" } }
+        "tk1": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/nailys-rev-1.png"
+          }
+        },
+        "tk2": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/nailys-rev-2.png"
+          }
+        },
+        "tk3": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/nailys-rev-3.png"
+          }
+        },
+        "tk4": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/nailys-rev-4.png"
+          }
+        },
+        "tk5": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/nailys-rev-5.png"
+          }
+        },
+        "tk6": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/nailys-rev-6.jpg"
+          }
+        },
+        "tk7": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/nailys-rev-7.jpg"
+          }
+        },
+        "tk8": {
+          "type": "ticker_image",
+          "settings": {
+            "image": "shopify://shop_images/nailys-rev-8.jpg"
+          }
+        },
+        "rv1": {
+          "type": "review",
+          "settings": {
+            "rating": "5",
+            "quote": "Au début, je pensais que ce serait compliqué, mais j'ai été très surprise. Le format stylo rend l'application beaucoup plus facile et précise qu'un vernis normal, sans en mettre partout. Et sans lampe UV, c'est bien plus pratique.",
+            "details": "Mai 2026 · Achat vérifié",
+            "author_name": "Lucie R.",
+            "author_image": "shopify://shop_images/nailys-rev-3.png",
+            "tag_1": "Facilité",
+            "tag_2": "Sans lampe UV",
+            "card_bg_color": ""
+          }
+        },
+        "rv2": {
+          "type": "review",
+          "settings": {
+            "rating": "5",
+            "quote": "Après une semaine d'utilisation, ça fonctionne vraiment comme promis. Le fini est brillant et joli, et l'application est super facile, même de la main gauche.",
+            "details": "Mai 2026 · Achat vérifié",
+            "author_name": "Valentine M.",
+            "author_image": "shopify://shop_images/nailys-rev-1.png",
+            "tag_1": "Fini brillant",
+            "tag_2": "Facilité",
+            "card_bg_color": ""
+          }
+        },
+        "rv3": {
+          "type": "review",
+          "settings": {
+            "rating": "5",
+            "quote": "Ce que j'ai préféré, c'est la précision : on applique le vernis sans toucher la peau autour de l'ongle. Les couleurs sont magnifiques et le fini est uniforme et brillant.",
+            "details": "Mai 2026 · Achat vérifié",
+            "author_name": "Élise P.",
+            "author_image": "shopify://shop_images/nailys-rev-7.jpg",
+            "tag_1": "Précision",
+            "tag_2": "Couleurs",
+            "card_bg_color": ""
+          }
+        },
+        "rv4": {
+          "type": "review",
+          "settings": {
+            "rating": "5",
+            "quote": "Le design en forme de stylo change complètement l'expérience et rend tout plus rapide et confortable. Je fais ma manucure en quelques minutes et le résultat paraît professionnel.",
+            "details": "Mai 2026 · Achat vérifié",
+            "author_name": "Camille T.",
+            "author_image": "shopify://shop_images/nailys-rev-6.jpg",
+            "tag_1": "Rapidité",
+            "tag_2": "Effet salon",
+            "card_bg_color": ""
+          }
+        },
+        "rv5": {
+          "type": "review",
+          "settings": {
+            "rating": "5",
+            "quote": "Depuis que je les ai essayés, je ne reviens plus aux vernis classiques. L'application est plus pratique et rapide, et les couleurs sont super intenses et brillantes.",
+            "details": "Mai 2026 · Achat vérifié",
+            "author_name": "Nathalie F.",
+            "author_image": "shopify://shop_images/nailys-rev-5.png",
+            "tag_1": "Effet salon",
+            "tag_2": "Couleurs",
+            "card_bg_color": ""
+          }
+        }
       },
-      "block_order": ["tk1", "tk2", "tk3", "tk4", "tk5", "tk6", "tk7", "tk8", "rv1", "rv2", "rv3", "rv4", "rv5"],
+      "block_order": [
+        "tk1",
+        "tk2",
+        "tk3",
+        "tk4",
+        "tk5",
+        "tk6",
+        "tk7",
+        "tk8",
+        "rv1",
+        "rv2",
+        "rv3",
+        "rv4",
+        "rv5"
+      ],
       "settings": {
         "heading": "Galerie d'avis",
         "subheading": "4,8/5 · 731 avis",
