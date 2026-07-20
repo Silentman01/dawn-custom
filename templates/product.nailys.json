@@ -412,6 +412,39 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "nl_reviews": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "tk1": { "type": "ticker_image", "settings": { "image": "shopify://shop_images/nailys-rev-1.png" } },
+        "tk2": { "type": "ticker_image", "settings": { "image": "shopify://shop_images/nailys-rev-2.png" } },
+        "tk3": { "type": "ticker_image", "settings": { "image": "shopify://shop_images/nailys-rev-3.png" } },
+        "tk4": { "type": "ticker_image", "settings": { "image": "shopify://shop_images/nailys-rev-4.png" } },
+        "tk5": { "type": "ticker_image", "settings": { "image": "shopify://shop_images/nailys-rev-5.png" } },
+        "tk6": { "type": "ticker_image", "settings": { "image": "shopify://shop_images/nailys-rev-6.jpg" } },
+        "tk7": { "type": "ticker_image", "settings": { "image": "shopify://shop_images/nailys-rev-7.jpg" } },
+        "tk8": { "type": "ticker_image", "settings": { "image": "shopify://shop_images/nailys-rev-8.jpg" } },
+        "rv1": { "type": "review", "settings": { "rating": "5", "quote": "Au début, je pensais que ce serait compliqué, mais j'ai été très surprise. Le format stylo rend l'application beaucoup plus facile et précise qu'un vernis normal, sans en mettre partout. Et sans lampe UV, c'est bien plus pratique.", "details": "Mai 2026 · Achat vérifié", "author_name": "Lucía R.", "author_image": "shopify://shop_images/nailys-rev-3.png", "tag_1": "Facilité", "tag_2": "Sans lampe UV", "card_bg_color": "" } },
+        "rv2": { "type": "review", "settings": { "rating": "5", "quote": "Après une semaine d'utilisation, ça fonctionne vraiment comme promis. Le fini est brillant et joli, et l'application est super facile, même de la main gauche.", "details": "Mai 2026 · Achat vérifié", "author_name": "Valentina M.", "author_image": "shopify://shop_images/nailys-rev-1.png", "tag_1": "Fini brillant", "tag_2": "Facilité", "card_bg_color": "" } },
+        "rv3": { "type": "review", "settings": { "rating": "5", "quote": "Ce que j'ai préféré, c'est la précision : on applique le vernis sans toucher la peau autour de l'ongle. Les couleurs sont magnifiques et le fini est uniforme et brillant.", "details": "Mai 2026 · Achat vérifié", "author_name": "Elena P.", "author_image": "shopify://shop_images/nailys-rev-7.jpg", "tag_1": "Précision", "tag_2": "Couleurs", "card_bg_color": "" } },
+        "rv4": { "type": "review", "settings": { "rating": "5", "quote": "Le design en forme de stylo change complètement l'expérience et rend tout plus rapide et confortable. Je fais ma manucure en quelques minutes et le résultat paraît professionnel.", "details": "Mai 2026 · Achat vérifié", "author_name": "Camila T.", "author_image": "shopify://shop_images/nailys-rev-6.jpg", "tag_1": "Rapidité", "tag_2": "Effet salon", "card_bg_color": "" } },
+        "rv5": { "type": "review", "settings": { "rating": "5", "quote": "Depuis que je les ai essayés, je ne reviens plus aux vernis classiques. L'application est plus pratique et rapide, et les couleurs sont super intenses et brillantes.", "details": "Mai 2026 · Achat vérifié", "author_name": "Natalia F.", "author_image": "shopify://shop_images/nailys-rev-5.png", "tag_1": "Effet salon", "tag_2": "Couleurs", "card_bg_color": "" } }
+      },
+      "block_order": ["tk1", "tk2", "tk3", "tk4", "tk5", "tk6", "tk7", "tk8", "rv1", "rv2", "rv3", "rv4", "rv5"],
+      "settings": {
+        "heading": "Galerie d'avis",
+        "subheading": "4,8/5 · 731 avis",
+        "highlight_color": "#c42e62",
+        "star_color": "#c42e62",
+        "verified_color": "#c42e62",
+        "verified_label": "Achat vérifié",
+        "tag_color": "#c42e62",
+        "tag_bg_color": "#fff6fb",
+        "ticker_speed": 30,
+        "section_bg_color": "#fff6fb",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -424,6 +457,7 @@
     "nl_steps",
     "nl_mega",
     "nl_ingredients",
-    "nl_faq"
+    "nl_faq",
+    "nl_reviews"
   ]
 }
