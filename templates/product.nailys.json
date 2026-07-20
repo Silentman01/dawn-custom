@@ -331,9 +331,9 @@
     "nl_steps": {
       "type": "nl-steps",
       "blocks": {
-        "s1": { "type": "step", "settings": { "image": "shopify://shop_images/nailys-step-1.jpg", "caption": "Appliquez une <strong>base coat</strong>" } },
-        "s2": { "type": "step", "settings": { "image": "shopify://shop_images/nailys-step-2.png", "caption": "Appliquez votre <strong>vernis</strong> Nailys™" } },
-        "s3": { "type": "step", "settings": { "image": "shopify://shop_images/nailys-step-3.jpg", "caption": "Terminez par un <strong>top coat</strong>" } }
+        "s1": { "type": "step", "settings": { "image": "shopify://shop_images/nailys-hstep-1.png", "caption": "Appliquez une <strong>base coat</strong>" } },
+        "s2": { "type": "step", "settings": { "image": "shopify://shop_images/nailys-hstep-2.png", "caption": "Appliquez votre <strong>vernis</strong> Nailys™" } },
+        "s3": { "type": "step", "settings": { "image": "shopify://shop_images/nailys-hstep-3.png", "caption": "Terminez par un <strong>top coat</strong>" } }
       },
       "block_order": ["s1", "s2", "s3"],
       "settings": {
