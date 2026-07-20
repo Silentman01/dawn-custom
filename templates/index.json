@@ -15,22 +15,22 @@
         "h": {
           "type": "heading",
           "settings": {
-            "heading": "Des essentiels bien pensés, pour la maison et le quotidien",
+            "heading": "Des ongles de salon en 5 minutes, sans lampe UV",
             "heading_size": "h1"
           }
         },
         "t": {
           "type": "text",
           "settings": {
-            "text": "Une sélection courte, testée et approuvée par des milliers de clients français.",
+            "text": "Le vernis format stylo qui rend la manucure nette, précise et sans effort. Déjà adopté par plus de 36 000 femmes.",
             "text_style": "body"
           }
         },
         "b": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Découvrir la boutique",
-            "button_link_1": "shopify://collections/all",
+            "button_label_1": "Découvrir Nailys",
+            "button_link_1": "/products/vernis-stylo-sans-lampe-uv",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -38,13 +38,9 @@
           }
         }
       },
-      "block_order": [
-        "h",
-        "t",
-        "b"
-      ],
+      "block_order": ["h", "t", "b"],
       "settings": {
-        "image": "shopify://shop_images/avena-home-hero-v2.png",
+        "image": "shopify://shop_images/nailys-mega.png",
         "image_overlay_opacity": 30,
         "image_height": "large",
         "image_behavior": "none",
@@ -57,60 +53,156 @@
         "show_text_below": false
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "ticker": {
+      "type": "ticker-bar",
+      "blocks": {
+        "t1": { "type": "ticker_item", "settings": { "text": "<strong>Précision </strong><em>parfaite</em>" } },
+        "t2": { "type": "ticker_item", "settings": { "text": "<strong>Fini </strong><em>salon</em><strong>, sans lampe </strong><em>UV</em>" } },
+        "t3": { "type": "ticker_item", "settings": { "text": "<strong>Aussi </strong><em>facile</em><strong> que d'utiliser un </strong><em>stylo</em>" } }
+      },
+      "block_order": ["t1", "t2", "t3"],
       "settings": {
-        "collection": "all",
-        "products_to_show": 12,
-        "title": "Nos produits",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 3,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 48,
-        "padding_bottom": 40
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "border_position": "bottom",
+        "border_thickness": 1,
+        "border_color": "#f0e0ea",
+        "font_size": 25,
+        "font_weight": "400",
+        "spacing": 60,
+        "icon_size": 20,
+        "speed": 30,
+        "padding_top": 24,
+        "padding_bottom": 24,
+        "aria_label": "Avantages produit"
       }
     },
-    "garantie": {
-      "type": "risk-free-trial",
+    "benefits": {
+      "type": "nl-image-features",
+      "blocks": {
+        "f1": { "type": "feature", "settings": { "title": "Application précise", "description": "Format feutre pour une application facile et ultra précise." } },
+        "f2": { "type": "feature", "settings": { "title": "Effet salon", "description": "Une finition brillante et professionnelle directement depuis chez vous." } },
+        "f3": { "type": "feature", "settings": { "title": "Sans lampe UV", "description": "Séchage naturel et rapide, sans lampe UV." } },
+        "f4": { "type": "feature", "settings": { "title": "Usage pratique", "description": "Aussi facile à utiliser qu'un stylo, même pour les débutants." } }
+      },
+      "block_order": ["f1", "f2", "f3", "f4"],
       "settings": {
-        "badge_color": "#b08968",
-        "badge_number": "30",
-        "badge_label": "JOURS",
-        "subtitle": "LA PROMESSE AVENA",
-        "heading": "Essayez. Si vous n'êtes pas conquis, on vous rembourse.",
-        "heading_size": 23,
-        "description": "Chaque commande est protégée 30 jours : remboursement ou remplacement, sans discuter. Il vous suffit de nous écrire, notre équipe française s'occupe du reste.",
-        "image": "shopify://shop_images/avena-home-garantie.png",
-        "bg_color": "#f6f4f1",
-        "accent_color": "#b08968",
-        "text_color": "#23272a",
-        "cta_text": "Découvrir la boutique",
-        "cta_link": "/collections/all",
-        "cta_height": 50,
-        "cta_bg_color": "#23272a",
-        "cta_text_color": "#ffffff",
-        "padding_top": 28
+        "image": "shopify://shop_images/nailys-split-hero.png",
+        "image_side": "left",
+        "image_radius": 16,
+        "heading": "Précis, rapide, <em>impeccable</em>.",
+        "heading_size": 38,
+        "accent_color": "#c42e62",
+        "bg_gradient_start": "#fff6fb",
+        "bg_gradient_end": "#ffe4f0",
+        "text_color": "#1e1e1e",
+        "heading_color": "#1e1e1e",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "steps": {
+      "type": "nl-steps",
+      "blocks": {
+        "s1": { "type": "step", "settings": { "image": "shopify://shop_images/nailys-hstep-1.png", "caption": "Appliquez une <strong>base coat</strong>" } },
+        "s2": { "type": "step", "settings": { "image": "shopify://shop_images/nailys-hstep-2.png", "caption": "Appliquez votre <strong>vernis</strong> Nailys™" } },
+        "s3": { "type": "step", "settings": { "image": "shopify://shop_images/nailys-hstep-3.png", "caption": "Terminez par un <strong>top coat</strong>" } }
+      },
+      "block_order": ["s1", "s2", "s3"],
+      "settings": {
+        "heading": "3 étapes pour des ongles parfaits",
+        "heading_size": 34,
+        "heading_color": "#1e1e1e",
+        "text_color": "#1e1e1e",
+        "bg_color": "#ffffff",
+        "card_bg_color": "#fff6fb",
+        "card_border_color": "#ffe4f0",
+        "card_radius": 18,
+        "circle_size": 200,
+        "caption_size": 16,
+        "autoplay_interval": 4,
+        "dot_color": "#c42e62",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "reviews": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "tk1": { "type": "ticker_image", "settings": { "image": "shopify://shop_images/nailys-rev-1.png" } },
+        "tk2": { "type": "ticker_image", "settings": { "image": "shopify://shop_images/nailys-rev-2.png" } },
+        "tk3": { "type": "ticker_image", "settings": { "image": "shopify://shop_images/nailys-rev-3.png" } },
+        "tk4": { "type": "ticker_image", "settings": { "image": "shopify://shop_images/nailys-rev-4.png" } },
+        "tk5": { "type": "ticker_image", "settings": { "image": "shopify://shop_images/nailys-rev-5.png" } },
+        "tk6": { "type": "ticker_image", "settings": { "image": "shopify://shop_images/nailys-rev-6.jpg" } },
+        "tk7": { "type": "ticker_image", "settings": { "image": "shopify://shop_images/nailys-rev-7.jpg" } },
+        "tk8": { "type": "ticker_image", "settings": { "image": "shopify://shop_images/nailys-rev-8.jpg" } },
+        "rv1": { "type": "review", "settings": { "rating": "5", "quote": "Au début, je pensais que ce serait compliqué, mais j'ai été très surprise. Le format stylo rend l'application beaucoup plus facile et précise qu'un vernis normal, sans en mettre partout. Et sans lampe UV, c'est bien plus pratique.", "details": "Mai 2026 · Achat vérifié", "author_name": "Lucie R.", "author_image": "shopify://shop_images/nailys-rev-3.png", "tag_1": "Facilité", "tag_2": "Sans lampe UV", "card_bg_color": "" } },
+        "rv2": { "type": "review", "settings": { "rating": "5", "quote": "Après une semaine d'utilisation, ça fonctionne vraiment comme promis. Le fini est brillant et joli, et l'application est super facile, même de la main gauche.", "details": "Mai 2026 · Achat vérifié", "author_name": "Valentine M.", "author_image": "shopify://shop_images/nailys-rev-1.png", "tag_1": "Fini brillant", "tag_2": "Facilité", "card_bg_color": "" } },
+        "rv3": { "type": "review", "settings": { "rating": "5", "quote": "Ce que j'ai préféré, c'est la précision : on applique le vernis sans toucher la peau autour de l'ongle. Les couleurs sont magnifiques et le fini est uniforme et brillant.", "details": "Mai 2026 · Achat vérifié", "author_name": "Élise P.", "author_image": "shopify://shop_images/nailys-rev-7.jpg", "tag_1": "Précision", "tag_2": "Couleurs", "card_bg_color": "" } },
+        "rv4": { "type": "review", "settings": { "rating": "5", "quote": "Le design en forme de stylo change complètement l'expérience et rend tout plus rapide et confortable. Je fais ma manucure en quelques minutes et le résultat paraît professionnel.", "details": "Mai 2026 · Achat vérifié", "author_name": "Camille T.", "author_image": "shopify://shop_images/nailys-rev-6.jpg", "tag_1": "Rapidité", "tag_2": "Effet salon", "card_bg_color": "" } },
+        "rv5": { "type": "review", "settings": { "rating": "5", "quote": "Depuis que je les ai essayés, je ne reviens plus aux vernis classiques. L'application est plus pratique et rapide, et les couleurs sont super intenses et brillantes.", "details": "Mai 2026 · Achat vérifié", "author_name": "Nathalie F.", "author_image": "shopify://shop_images/nailys-rev-5.png", "tag_1": "Effet salon", "tag_2": "Couleurs", "card_bg_color": "" } }
+      },
+      "block_order": ["tk1", "tk2", "tk3", "tk4", "tk5", "tk6", "tk7", "tk8", "rv1", "rv2", "rv3", "rv4", "rv5"],
+      "settings": {
+        "heading": "Galerie d'avis",
+        "subheading": "4,8/5 · 731 avis",
+        "highlight_color": "#c42e62",
+        "star_color": "#c42e62",
+        "verified_color": "#c42e62",
+        "verified_label": "Achat vérifié",
+        "tag_color": "#c42e62",
+        "tag_bg_color": "#fff6fb",
+        "ticker_speed": 30,
+        "section_bg_color": "#fff6fb",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cta": {
+      "type": "image-banner",
+      "blocks": {
+        "h": {
+          "type": "heading",
+          "settings": {
+            "heading": "Prête à des ongles parfaits ?",
+            "heading_size": "h1"
+          }
+        },
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "Composez votre lot de 5 stylos parmi 20 teintes. Livraison gratuite, satisfait ou remboursé 30 jours.",
+            "text_style": "body"
+          }
+        },
+        "b": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Je compose ma palette",
+            "button_link_1": "/products/vernis-stylo-sans-lampe-uv",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": ["h", "t", "b"],
+      "settings": {
+        "image": "shopify://shop_images/nailys-gallery-01-hero.png",
+        "image_overlay_opacity": 20,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-3",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
       }
     }
   },
-  "order": [
-    "hero",
-    "featured_collection",
-    "garantie"
-  ]
+  "order": ["hero", "ticker", "benefits", "steps", "reviews", "cta"]
 }
