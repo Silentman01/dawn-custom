@@ -48,11 +48,14 @@
     .nl-steps-{{ section.id }} .nl-steps__viewport { overflow: hidden; }
     .nl-steps-{{ section.id }} .nl-steps__track {
       display: flex;
+      gap: 0;
       transition: transform 0.45s ease;
     }
     .nl-steps-{{ section.id }} .nl-steps__item {
       flex: 0 0 100%;
+      width: 100%;
       min-width: 0;
+      box-sizing: border-box;
     }
     .nl-steps-{{ section.id }} .nl-steps__dots {
       display: flex;
